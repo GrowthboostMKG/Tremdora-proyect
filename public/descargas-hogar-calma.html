@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar en Calma - Descarga tu Pack Completo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .resources {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .resource-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+
+        .resource-item:hover {
+            background: #f0f1ff;
+            transform: translateX(5px);
+        }
+
+        .resource-item h3 {
+            color: #667eea;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .resource-item p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .audio-player {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .audio-player h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        audio {
+            width: 100%;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 12px;
+        }
+
+        .qr-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f0f1ff;
+            border-radius: 10px;
+        }
+
+        .qr-section h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .qr-code {
+            max-width: 200px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>✨ Hogar en Calma</h1>
+            <p>Tu pack completo está listo para descargar</p>
+        </div>
+
+        <!-- Reproductor de Audio 432Hz -->
+        <div class="audio-player">
+            <h3>🎵 Frecuencia 432Hz - Air Bender Angelical Dreams</h3>
+            <audio controls>
+                <source src="https://soundcloud.com/[TU-USUARIO]/air-bender-432hz" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <p style="color: #666; font-size: 12px; margin-top: 10px;">
+                Escucha la frecuencia sanadora mientras descargas tus materiales
+            </p>
+        </div>
+
+        <!-- Recursos Descargables -->
+        <div class="resources">
+            <div class="resource-item">
+                <h3>📚 Ebook: Hogar en Calma</h3>
+                <p>Guía completa para crear un hogar armónico y tranquilo</p>
+                <button class="download-btn" onclick="descargarArchivo('hogar-en-calma-ebook.pdf', 'application/pdf')">
+                    ⬇️ Descargar Ebook
+                </button>
+            </div>
+
+            <div class="resource-item">
+                <h3>📖 Diario de Bienestar</h3>
+                <p>30 días de reflexiones y prácticas de mindfulness</p>
+                <button class="download-btn" onclick="descargarArchivo('diario-bienestar.pdf', 'application/pdf')">
+                    ⬇️ Descargar Diario
+                </button>
+            </div>
+
+            <div class="resource-item">
+                <h3>🗓️ Plan Práctico 8 Semanas</h3>
+                <p>Programa paso a paso para transformar tu hogar</p>
+                <button class="download-btn" onclick="descargarArchivo('plan-8-semanas.pdf', 'application/pdf')">
+                    ⬇️ Descargar Plan
+                </button>
+            </div>
+
+            <div class="resource-item">
+                <h3>🎵 Frecuencia 432Hz MP3</h3>
+                <p>Descarga la frecuencia para escuchar sin internet</p>
+                <button class="download-btn" onclick="descargarArchivo('432hz-angelical-dreams.mp3', 'audio/mpeg')">
+                    ⬇️ Descargar Audio
+                </button>
+            </div>
+        </div>
+
+        <!-- Código QR -->
+        <div class="qr-section">
+            <h3>📱 Comparte este acceso</h3>
+            <div class="qr-code">
+                <img id="qrCode" src="" alt="Código QR" style="max-width: 100%; border-radius: 8px;">
+            </div>
+            <p style="color: #667eea; font-size: 12px; margin-top: 10px;">
+                Escanea para acceder a tus descargas
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>✨ Gracias por confiar en nosotros | Hogar en Calma © 2024</p>
+        </div>
+    </div>
+
+    <script>
+        // Generar QR dinámicamente
+        const urlActual = window.location.href;
+        const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(urlActual)}`;
+        document.getElementById('qrCode').src = qrApiUrl;
+
+        // Función para simular descargas
+        function descargarArchivo(nombreArchivo, tipo) {
+            // Opción 1: Si tienes los archivos en un servidor
+            // const url = `/archivos/${nombreArchivo}`;
+
+            // Opción 2: Simular descarga (para demo)
+            alert(`Descargando: ${nombreArchivo}\n\nEn producción, aquí se descargaría el archivo real.`);
+
+            // Para implementación real, usa esto:
+            /*
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = nombreArchivo;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            */
+        }
+
+        // Rastrear descargas (opcional)
+        console.log('Usuario accedió a descargas:', new Date());
+    </script>
+</body>
+</html>
