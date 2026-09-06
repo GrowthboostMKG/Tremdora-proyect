@@ -1,0 +1,279 @@
+================================================================================
+PLANTILLAS DE EMAIL - SECUENCIA DE CAPTURA
+================================================================================
+
+Estas plantillas puedes usar en tu plataforma de email marketing
+(Mailchimp, ConvertKit, GetResponse, etc.)
+
+
+📧 EMAIL #1 - BIENVENIDA + DESCARGA
+================================================================================
+Asunto: Tu ebook gratis está listo ¡Descárgalo ahora! 🎁
+Enviar: Inmediatamente después de descargar
+
+---
+
+¡Hola [NOMBRE]!
+
+Gracias por descargar tu ebook muestra gratis "Transforma tu Vida en 8 Semanas".
+
+El documento está listo para leer en tu email o dispositivo. Dentro encontrarás:
+
+✓ Los 3 pilares del método comprobado
+✓ Adelanto de Nutrición Dorada
+✓ El plan completo de 8 semanas
+✓ Las actividades transformadoras
+✓ Testimonios de éxito real
+
+👉 [ENLACE A DESCARGA]
+
+Este ebook es solo la punta del iceberg. Cuando termines de leerlo, 
+quiero mostrarte el PROGRAMA COMPLETO que ha transformado miles de vidas.
+
+¿Preguntas? Responde este email.
+
+¡A tu éxito!
+[TU NOMBRE]
+
+---
+
+
+📧 EMAIL #2 - VALOR + EDUCACIÓN
+================================================================================
+Asunto: El secreto que nadie te cuenta sobre la transformación
+Enviar: 24 horas después
+
+---
+
+¡Hola [NOMBRE]!
+
+¿Ya terminaste el ebook?
+
+Quiero compartirte algo que probablemente NO viste en el PDF:
+
+La mayoría de personas fallan en transformarse porque cometen UN ERROR fundamental.
+
+Se enfocan en SOLO una dimensión (solo dieta, solo ejercicio, solo mentalidad).
+
+Pero la realidad es que la transformación REAL ocurre cuando integras:
+
+1️⃣ Mentalidad
+2️⃣ Nutrición Dorada
+3️⃣ Movimiento Inteligente
+
+En el programa completo, te mostramos exactamente cómo hacer esto.
+
+Mira estos resultados reales:
+
+• María: Transformó su cuerpo en 8 semanas + subió su autoestima 300%
+• Carlos: Perdió 12 kilos de grasa + ganó energía y claridad mental
+• Ana: Cambió su vida completa: cuerpo, mente y emociones
+
+¿Quieres ser el próximo?
+
+👉 [ENLACE AL PROGRAMA]
+
+Solo tienes que dar el primer paso.
+
+¡A tu éxito!
+[TU NOMBRE]
+
+---
+
+
+📧 EMAIL #3 - URGENCIA + OFERTA
+================================================================================
+Asunto: Acceso limitado: Programa completo con bono especial
+Enviar: 48 horas después
+
+---
+
+¡Hola [NOMBRE]!
+
+Tengo noticias para ti.
+
+Limitamos las plazas del programa completo porque queremos asegurar 
+máxima calidad y atención personalizada.
+
+En este momento quedan solo [X] lugares disponibles.
+
+Y aquí viene lo mejor:
+
+🎁 BONO EXCLUSIVO para los próximos 50 inscritos:
+   + Plan nutricional personalizado
+   + Acceso a comunidad privada
+   + Sesión de coaching 1-a-1
+   + Garantía de resultados (o devolvemos tu dinero)
+
+Este bono se vence en [FECHA].
+
+¿Quieres asegurar tu lugar ahora?
+
+👉 [ENLACE AL PROGRAMA]
+
+Nota: Este bono NO estará disponible después de [FECHA], 
+así que te recomiendo que actúes ahora.
+
+¡A tu éxito!
+[TU NOMBRE]
+
+---
+
+
+📧 EMAIL #4 - SOCIAL PROOF + FOMO
+================================================================================
+Asunto: Mira lo que lograron estos en 8 semanas...
+Enviar: 72 horas después
+
+---
+
+¡Hola [NOMBRE]!
+
+No tienes que tomar mi palabra.
+
+Mira lo que personas como TÚ lograron en 8 semanas:
+
+"Transformé completamente mi vida. No solo cambié mi cuerpo, 
+cambié mi mentalidad, mis hábitos, todo. 10/10"
+- María González
+
+"Finalmente entiendo por qué fallaban otros programas. 
+Este es diferente, científico y funciona."
+- Carlos Rodríguez
+
+"Después de años lidiando con mi cuerpo, por fin encontré 
+una solución que es REAL y SOSTENIBLE."
+- Ana Martínez
+
+El programa está abierto solo hasta [FECHA].
+
+¿Listo para tu transformación?
+
+👉 [ENLACE AL PROGRAMA]
+
+Solo tú puedes tomar esta decisión.
+
+¡A tu éxito!
+[TU NOMBRE]
+
+---
+
+
+📧 EMAIL #5 - ÚLTIMA OPORTUNIDAD
+================================================================================
+Asunto: ⚠️ Última llamada - Los lugares se cierran mañana
+Enviar: 96 horas después
+
+---
+
+¡Hola [NOMBRE]!
+
+Te escribo porque es la ÚLTIMA OPORTUNIDAD.
+
+Las puertas del programa se cierran mañana a las [HORA] 
+
+Después de eso, tendrás que esperar al próximo grupo en [MES].
+
+En este momento:
+✓ El programa está ABIERTO
+✓ El BONO ESPECIAL sigue disponible
+✓ Tienes ACCESO INMEDIATO
+
+Mañana:
+✗ Las puertas se cierran
+✗ El bono desaparece
+✗ Tendrás que esperar 3 meses más
+
+¿Cuál de estos dos futuros quieres?
+
+👉 [ENLACE AL PROGRAMA - ÚLTIMA OPORTUNIDAD]
+
+La decisión es tuya.
+
+¡A tu éxito!
+[TU NOMBRE]
+
+P.S. No es sobre el dinero. Es sobre tu salud, tu confianza y tu vida.
+No dejes esta oportunidad pasar.
+
+---
+
+
+📧 EMAIL #6 - POST-VENTA / BIENVENIDA PROGRAMA
+================================================================================
+Asunto: ¡Bienvenido! Aquí está tu acceso al programa completo
+Enviar: Inmediatamente después de compra
+
+---
+
+¡Hola [NOMBRE]!
+
+¡Felicidades por tomar esta decisión!
+
+No es fácil dar el primer paso, pero lo hiciste. 
+Esto dice mucho sobre tu compromiso contigo mismo.
+
+Tu acceso está LISTO:
+
+🔑 Usuario: [USER]
+🔐 Contraseña: [PASSWORD]
+🌐 Portal: [URL]
+
+Aquí está el PLAN DE ACCIÓN para tu éxito:
+
+DÍA 1 (Hoy):
+1. Entra al portal con tus credenciales
+2. Ve a "Mi Dashboard"
+3. Descarga la Guía Rápida de Inicio
+4. Mira el video de bienvenida
+
+DÍA 2-3:
+1. Completa tu Evaluación Inicial
+2. Lee el módulo 1 del programa
+3. Comienza tu Mentalidad Transformadora
+
+SEMANA 1:
+1. Recibe tu Plan Nutricional Personalizado
+2. Descarga tus recetas y listas de compra
+3. Comienza tu primera semana oficial
+
+Tienes acceso 24/7 a TODO el contenido.
+
+¿Preguntas? Responde este email o entra a la sección "Soporte" en el portal.
+
+¡Estoy contigo en este viaje!
+
+¡A tu éxito!
+[TU NOMBRE]
+
+---
+
+
+🎯 CONSEJOS PARA MÁXIMAS CONVERSIONES:
+================================================================================
+
+1. Personaliza [NOMBRE] con el nombre real del suscriptor
+2. Ajusta los tiempos de envío según tu audiencia
+3. Haz tests A/B de asuntos
+4. Incluye el enlace en 2-3 lugares por email
+5. Usa emojis estratégicamente (pero no excesivamente)
+6. Mantén el tono conversacional, no corporativo
+7. Termina cada email con una llamada a la acción clara
+
+
+📊 SECUENCIA AUTOMÁTICA RECOMENDADA:
+================================================================================
+
+Email 1 (Bienvenida):     Inmediatamente
+Email 2 (Valor):         24 horas después
+Email 3 (Urgencia):      48 horas después
+Email 4 (Social Proof):  72 horas después
+Email 5 (Última llamada):96 horas después (si no convirtió)
+Email 6 (Bienvenida):    Después de compra
+
+IMPORTANTE: Si convierte después de email 3, no envíes los demás.
+
+
+================================================================================
+¡Buena suerte! Con esta secuencia, verás conversiones consistentes.
+================================================================================
