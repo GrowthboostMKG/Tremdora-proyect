@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ya está en tu correo — Tremdora</title>
+
+<!-- ============ META PIXEL · PASO 1 DE 2 (cambia las dos veces) ============ -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_ES/fbevents.js');
+fbq('init', 'PEGA_AQUI_TU_ID_DE_PIXEL');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=PEGA_AQUI_TU_ID_DE_PIXEL&ev=PageView&noscript=1"/></noscript>
+
+<!-- ================================================================
+     META PIXEL · PASO 2 DE 2  —  EL EVENTO LEAD
+     ESTA es la linea por la que Facebook sabe a quien buscar.
+     Solo va en esta pagina de gracias. NUNCA en la landing.
+     No la borres ni la muevas.
+     ================================================================ -->
+<script>fbq('track', 'Lead');</script>
+<!-- ===================== FIN META PIXEL ===================== -->
+
+<style>
+:root{
+      --tinta:#2b2723; --suave:#6b6259; --crema:#faf7f2;
+      --linea:#e6ddd1; --acento:#8a6f4e; --acento-osc:#6f5940;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Georgia,serif;
+      background:var(--crema); color:var(--tinta);
+      line-height:1.6; -webkit-font-smoothing:antialiased;
+      display:flex; align-items:center; justify-content:center;
+      min-height:100vh; padding:24px 20px;
+    }
+    .caja{width:100%; max-width:520px}
+    .marca{
+      font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+      color:var(--suave); margin-bottom:28px;
+    }
+    h1{
+      font-size:30px; line-height:1.22; font-weight:600;
+      letter-spacing:-.01em; margin-bottom:16px;
+    }
+    .entradilla{font-size:17px; color:var(--suave); margin-bottom:28px}
+    ul{list-style:none; margin-bottom:30px}
+    li{
+      padding:9px 0 9px 26px; position:relative;
+      font-size:16px; border-bottom:1px solid var(--linea);
+    }
+    li:last-child{border-bottom:none}
+    li::before{
+      content:"—"; position:absolute; left:0; color:var(--acento);
+    }
+    form{display:flex; flex-direction:column; gap:10px}
+    input[type=email]{
+      width:100%; padding:15px 16px; font-size:16px; font-family:inherit;
+      border:1px solid var(--linea); border-radius:8px;
+      background:#fff; color:var(--tinta);
+    }
+    input[type=email]:focus{
+      outline:none; border-color:var(--acento);
+      box-shadow:0 0 0 3px rgba(138,111,78,.14);
+    }
+    button{
+      width:100%; padding:15px 16px; font-size:16px; font-weight:600;
+      font-family:inherit; color:#fff; background:var(--acento);
+      border:none; border-radius:8px; cursor:pointer;
+    }
+    button:hover{background:var(--acento-osc)}
+    .letra-pequena{
+      font-size:13px; color:var(--suave); margin-top:16px; text-align:center;
+    }
+    .tick{
+      font-size:44px; color:var(--acento);
+      margin-bottom:18px; line-height:1;
+    }
+    @media (max-width:420px){ h1{font-size:25px} }
+  .caja{text-align:center}
+  ul{text-align:left; margin-top:30px}
+</style>
+</head>
+<body>
+  <main class="caja">
+    <div class="tick">✓</div>
+
+    <h1>Ya está en tu correo</h1>
+
+    <p class="entradilla">
+      Revisa la bandeja de entrada. Si en cinco minutos no ha llegado,
+      mira en promociones o en spam — y arrástralo a principal para que
+      el siguiente no se pierda.
+    </p>
+
+    <ul>
+      <li>Empieza por la zona 1. Es la que más se nota y la que menos cuesta</li>
+      <li>Hazlo esta noche, no mañana. Mañana ya no lo haces</li>
+    </ul>
+  </main>
+</body>
+</html>
