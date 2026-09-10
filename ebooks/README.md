@@ -62,6 +62,35 @@ Gráficos en SVG inline: curva del oleaje, arco de las 8 semanas, donut de los
 sistemas de Panksepp, curva de extinción, escala de receptores olfativos, mapa de
 fases y semáforo de señales.
 
+## El pack para Shopify
+
+```bash
+./build.sh && python3 make_pack.py
+```
+
+Deja `dist/Sigue Contigo - Pack completo.zip` con una única carpeta raíz dentro,
+nombres de archivo en ASCII (sin acentos ni ñ, para que Windows no los rompa) y
+sin archivos ocultos:
+
+```
+Sigue Contigo - Pack completo/
+├── 0. Empieza por aqui.pdf                       ·  1 pág  · portada del pack
+├── 1. Sigue Contigo - eBook completo.pdf         · 57 págs
+├── 2. Sigue Contigo - Diario del Oleaje.pdf      · 20 págs
+├── 3. Sigue Contigo - Plan Practico 8 Semanas.pdf· 16 págs
+└── 4. Sigue Contigo - Ellos Tambien se Despiden.pdf · 21 págs
+```
+
+### Añadir la frecuencia
+
+Deja el audio en `assets/` con el nombre `5. Sigue Contigo - Frecuencia XXX Hz.mp3`
+y vuelve a ejecutar `python3 make_pack.py`. El script lo detecta por extensión
+(`.mp3`, `.wav`, `.m4a`, `.flac`, `.aac`, `.ogg`), lo mete en el ZIP y regenera la
+página «Empieza por aquí» con su fila ya incluida — no hay que tocar nada más.
+
+`assets/` guarda las piezas que no genera este repo: el eBook principal y, cuando
+llegue, la frecuencia.
+
 ## Cómo reconstruir los PDF
 
 ```bash
@@ -77,8 +106,11 @@ alto o a lo ancho.
 
 ```
 src/tremdora.css        sistema de estilos de la serie
+src/pack_intro.py       portada del pack (se regenera según lo que haya)
 src/libro2_diario.py    generadores de HTML (contenido + maquetación)
 src/libro3_plan.py
 src/libro4_ellos.py
-pdf/                    salida lista para entregar
+assets/                 piezas que no genera este repo (eBook principal, frecuencia)
+pdf/                    PDF generados
+dist/                   el ZIP del pack
 ```
