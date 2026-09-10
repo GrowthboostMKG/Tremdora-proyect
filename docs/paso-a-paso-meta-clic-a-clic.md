@@ -542,3 +542,101 @@ Imprímelo. No publiques con una sola casilla sin marcar.
 **Después de publicar**
 - [ ] Los 4 primeros días **no toco nada**
 - [ ] Tengo el lunes marcado en el calendario para la revisión semanal
+
+---
+
+# PARTE I — La sesión en vivo con capturas de pantalla
+
+Sí: mándame capturas y te voy diciendo dónde pulsar. Es la mejor forma de hacerlo, porque los
+menús de Meta cambian de nombre cada pocos meses y con la pantalla delante no hay que adivinar.
+
+## I.1 Cuatro cosas que tienen que estar hechas ANTES
+
+Si empezamos sin esto, nos quedamos parados a mitad. Todo lo de esta lista pasa **fuera** del
+Administrador de anuncios:
+
+- [ ] **Tarjeta añadida y validada** en Facturación
+- [ ] **Píxel creado** y tu ID copiado en una nota
+- [ ] **Landing publicada y funcionando**, con el píxel dentro y el Pixel Helper mostrando el
+      evento `Lead` en la página de gracias *(Parte B)*
+- [ ] **Los 3 vídeos exportados** en vertical 9:16, con subtítulos, en el escritorio del ordenador
+
+El tercero es el que suele fallar. Sin landing publicada no se puede terminar el anuncio, porque
+en el último paso Meta pide la URL.
+
+## I.2 Hazlo desde un ordenador, no desde el móvil
+
+Esto es importante. **La app de Meta Ads en el móvil no puede hacer la mitad de lo que necesitamos:**
+
+| | App del móvil | Ordenador |
+|---|---|---|
+| Poner el límite de gasto de la cuenta | ❌ | ✅ |
+| Duplicar un anuncio dentro del mismo conjunto | ❌ | ✅ |
+| Ver el árbol de campaña/conjunto/anuncios | ❌ | ✅ |
+| Personalizar las columnas de métricas | ❌ | ✅ |
+
+Todo el montaje se hace en `adsmanager.facebook.com` desde el navegador de un ordenador. El móvil
+déjalo solo para mirar el gasto del día.
+
+## I.3 Cómo mandarme las capturas
+
+**① Captura la ventana entera, no un recorte pequeño.**
+Necesito ver **la columna izquierda** (el árbol de campaña) y **la barra de arriba**. Si me
+recortas solo el campo que te preocupa, no puedo saber en qué nivel estás ni si hay dos
+conjuntos creados sin que te hayas dado cuenta — que es el error más común.
+
+**② Una captura por pantalla, y dime en qué paso estás.**
+Por ejemplo: *"estoy en la pantalla del conjunto de anuncios, paso D.3"*. Con eso voy directo.
+
+**③ Tapa o recorta estos datos antes de mandarla:**
+
+| 🔒 Tápalo | ✅ Se puede ver sin problema |
+|---|---|
+| Los dígitos de tu tarjeta | El ID del píxel |
+| Tu dirección postal, DNI/NIF | Los nombres de campañas y anuncios |
+| Facturas y datos fiscales | Presupuestos, públicos, métricas |
+| Emails de tus suscriptores | Las cifras de gasto y resultados |
+
+Para lo demás no hace falta que tapes nada: los nombres de campaña y las métricas no son datos
+sensibles y los necesito para ayudarte.
+
+**④ Si Meta te muestra algo en inglés** (pasa a veces con menús nuevos), mándamelo igual y te
+digo qué es cada cosa.
+
+## I.4 El orden de la sesión — unos 90 minutos
+
+| Bloque | Qué hacemos | Referencia | Tiempo |
+|---|---|---|---|
+| 1 | El candado del gasto: límite de cuenta 450 € + umbral 50 € | Parte C | 10 min |
+| 2 | Comprobar el píxel y el evento Lead en vivo | Parte B.4 | 10 min |
+| 3 | Crear campaña y conjunto (aquí va el dinero) | Parte D.2 y D.3 | 20 min |
+| 4 | Primer anuncio, HC1 | Parte D.4 | 15 min |
+| 5 | Duplicar hacia dentro para HC2 y ED1 | Parte E.2 | 20 min |
+| 6 | Revisar el árbol, el checklist, y publicar | Parte E.3 y H | 15 min |
+
+**La hora a la que hagamos la sesión da igual.** Puedes montarlo un martes a las once de la
+noche: lo que importa es que en Programación pongas **inicio mañana a las 00:00**. Así el
+sistema tiene las 24 horas completas y no comprime el presupuesto en las horas que quedan de día.
+
+## I.5 Si este chat se ha cerrado cuando llegue el momento
+
+Esta sesión es temporal y no la conservo. **Pero todo está guardado en el repositorio**, así que
+se recupera en un minuto: abre una sesión nueva y dime esto tal cual:
+
+> *"Rama `claude/book-pack-launch-strategy-w3eggd`. Lee `docs/paso-a-paso-meta-clic-a-clic.md` y
+> `docs/angulos-y-guiones-anuncios.md`. Voy a montar la campaña y te mando capturas."*
+
+Con eso me pongo al día sin que tengas que explicarme nada otra vez.
+
+## I.6 Los cinco puntos donde te voy a parar
+
+Para que sepas de antemano dónde vamos a ir despacio, porque son los que arruinan una cuenta:
+
+1. **"Presupuesto Advantage para campañas"** → tiene que quedar **desactivado**, o el dinero se
+   pone en el sitio equivocado.
+2. **Un solo conjunto de anuncios.** En cuanto vea dos carpetas en el árbol, paramos y lo
+   arreglamos antes de seguir.
+3. **Evento de conversión = Lead**, no "Ver contenido" ni "Clics en el enlace".
+4. **Al duplicar: "Conjunto de anuncios existente"**, nunca "Nuevo conjunto".
+5. **El anuncio ED1 apunta a la landing de lista de espera**, no a la de Hogar en Calma. Es un
+   despiste de un segundo que te falsea todos los datos de las dos campañas.
