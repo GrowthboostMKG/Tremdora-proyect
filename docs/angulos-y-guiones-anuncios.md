@@ -454,5 +454,171 @@ Todo sale de una tarde, con tu perro y tu casa.
 |---|---|
 | ¿El Diario de Bienestar es un registro de conducta del animal o reflexiones para el dueño? | Cambia el bloque 4 de los guiones y el argumento de venta más fuerte |
 | ¿Edad Dorada lleva también diario y plan, o solo el eBook? | Sin saberlo no puedo cerrar su pila de valor |
-| ¿Es de perros, o también de gatos? | Si incluye gatos, se duplica el mercado y hacen falta creativos propios: los dueños de gato no se sienten aludidos por un anuncio con un perro |
 | ¿*Sigue Contigo* está en venta? | Es el tercer peldaño de la escalera y ya está construido. Puede ser producto o upsell, a coste cero |
+
+---
+
+# 7. PERROS Y GATOS: qué cambia
+
+Los dos libros cubren perro y gato. Eso te dobla el mercado, pero **no se resuelve escribiendo
+"perros y gatos" en el anuncio.**
+
+## 7.1 La regla que hay detrás
+
+> **Un dueño de gato no se siente aludido por un anuncio con un perro. Y al revés.**
+
+No es una cuestión de gustos: es identificación. El que ve un vídeo de un perro arañando la
+puerta piensa "esto no va conmigo" y sigue bajando, aunque tenga un gato con exactamente el mismo
+problema. Un anuncio que dice "para perros y gatos" no le habla a nadie en concreto, y por eso no
+para a nadie.
+
+**Consecuencia práctica: cada especie necesita su propio creativo y su propia landing.** No dos
+productos: dos puertas de entrada al mismo producto.
+
+## 7.2 Cómo se prueba sin pasar de 15 €/día
+
+Con 15 €/día siguen siendo **3 anuncios activos**, siempre. No cuatro. Así que los gatos entran
+por rotación, no por ampliación:
+
+| Semanas | Los 3 anuncios activos |
+|---|---|
+| **1 – 3** | Las tres versiones de la especie que puedas grabar hoy |
+| **4** | En la revisión del lunes, el **más débil de los tres** se sustituye por la versión de la otra especie del ángulo ganador |
+| **5+** | Si el de la otra especie sale más barato, es la señal para hacerle sus otros dos ángulos |
+
+Es un test limpio: el mismo ángulo, el mismo mensaje, la misma landing en estructura. Lo único
+que cambia es la especie. Si el coste por lead cambia mucho, sabes exactamente por qué.
+
+## 7.3 ¿Con cuál empiezas?
+
+**Con el animal con el que vives.** Esta regla manda sobre cualquier cálculo de tamaño de mercado:
+grabar a tu propio animal en tu propia casa es tu única ventaja frente a cualquiera que venda un
+PDF genérico, y no se puede improvisar. Un vídeo con un perro de banco de imágenes se nota en dos
+segundos y hunde la credibilidad de todo lo demás.
+
+Si tienes los dos, empieza por el **perro**: la audiencia de dueños de perro en Meta es más ancha
+y está más acostumbrada a comprar contenido de conducta. Los gatos suelen tener **CPM más barato**
+por menos competencia, así que a menudo compensan; por eso conviene probarlos en la semana 4.
+
+## 7.4 El mismo problema, síntomas distintos
+
+Esto es lo que hace que los guiones no se puedan traducir cambiando "perro" por "gato": **el
+problema es el mismo, pero lo que ve el dueño no se parece en nada.**
+
+### Ansiedad — Hogar en Calma
+
+| Perro | Gato |
+|---|---|
+| Llora, aúlla, ladra al quedarse solo | **Se hace pis fuera del arenero** |
+| Araña la puerta, destroza el marco | **Se lame hasta hacerse calvas** (sobreacicalado) |
+| Destroza sofá, cojines, zapatos | Maullidos largos, sobre todo de noche |
+| Jadea y da vueltas | Vomita, o come demasiado rápido, o deja de comer |
+| Se hace pis dentro pese a estar educado | Se esconde durante horas y no sale ni a comer |
+
+### La mascota mayor — Edad Dorada
+
+| Perro | Gato |
+|---|---|
+| Le cuesta subir al sofá o al coche | **Deja de saltar a su sitio de siempre** |
+| Duerme más, ya no saluda en la puerta | Duerme en sitios nuevos y escondidos |
+| Se desorienta de noche, da vueltas | **Deja de acicalarse**: el pelo se ve mate y descuidado |
+| Se hace pis dentro | Cambios en el arenero, dentro o fuera |
+| — | **Bebe mucha más agua de lo normal** |
+
+> ⚠️ Esa última fila es la más importante del documento en términos de responsabilidad. En un
+> gato mayor, beber mucha más agua es una señal que **conviene consultar con el veterinario, y
+> pronto**. Tu libro puede y debe decir "esto se consulta". Lo que no puede hacer, ni en el libro
+> ni en el anuncio, es dar a entender que lo aborda o lo mejora. Sé especialmente cuidadoso aquí:
+> es justo la señal que más se confunde con "es que ya es mayor", y por eso es la que más vidas
+> alarga cuando alguien la consulta a tiempo. Trátala como lo que es.
+
+## 7.5 El ángulo de gato que no tiene equivalente en perro
+
+Y es el mejor de todos, porque **rompe una creencia**:
+
+> *"Los gatos son independientes, a ellos no les afecta que te vayas."*
+
+Eso lo cree casi todo el mundo, incluidos muchos dueños de gato. Por eso la ansiedad por
+separación en gatos pasa desapercibida durante años: el dueño no interpreta el pis fuera del
+arenero como ansiedad, lo interpreta como que su gato "le está castigando". Un anuncio que
+desmonta eso para en seco a quien lo ve, porque le está explicando algo que llevaba años
+entendiendo mal.
+
+### HC1-G — "El mito de la independencia"
+
+```
+[0-4 s]  A cámara. Directo, sin rodeos.
+         "Si tu gato se hace pis fuera del arenero cuando te vas,
+          no te está castigando."
+
+[4-11 s] Plano del gato mirando por la ventana, o de un arenero.
+         "Nos han dicho tantas veces que los gatos son independientes
+          que cuando uno lo pasa mal, no lo vemos.
+          Lo llamamos 'rencor'."
+
+[11-20 s] Vuelta a cámara.
+         "El pis fuera del arenero, lamerse hasta hacerse calvas,
+          los maullidos de madrugada. Eso no es carácter.
+          Y se trabaja distinto que en un perro,
+          porque en un gato no se corrige: se cambia el entorno."
+
+[20-28 s] Plano cenital de las cuatro piezas.
+         "Veintiún días. El protocolo está pensado
+          también para gatos, que es lo que casi nadie hace."
+
+[28-32 s] "Te dejo la primera parte gratis en el enlace."
+```
+
+> **El bloque de 11-20 s es el que vende.** Ahí estás diciendo lo único que un dueño de gato no
+> ha oído nunca: que existe un método pensado para su especie y no un método de perros con el
+> nombre cambiado. Es tu diferenciador real, y hay muy poca competencia diciéndolo.
+
+### ED1-G — "Los gatos lo esconden mejor"
+
+```
+[0-4 s]  Plano del gato tumbado, tranquilo. Tu voz encima.
+         "Mi gata dejó de subirse al armario.
+          Tardé cuatro meses en darme cuenta de lo que significaba."
+
+[4-12 s] A cámara.
+         "Los gatos esconden el dolor mejor que cualquier otro animal
+          que viva en una casa. Es instinto: en la naturaleza,
+          mostrar debilidad te mata.
+          Así que no se quejan. Dejan de hacer cosas."
+
+[12-21 s] Planos cortos: un sitio alto vacío, un bebedero, el pelo del gato.
+         "Deja de saltar. Deja de acicalarse.
+          Bebe más agua. Y cada una de esas cosas, por separado,
+          parece que no es nada."
+
+[21-29 s] Plano de las piezas del producto.
+         "Edad Dorada es la lista de qué mirar,
+          y cuáles de esas señales conviene consultar
+          con tu veterinario sin esperar."
+
+[29-33 s] "Te dejo la guía de señales gratis en el enlace."
+```
+
+> Fíjate en que el guion **no promete arreglar nada**: promete ayudarte a *ver*. Es honesto, es
+> lo que de verdad hace un libro, y paradójicamente vende mejor, porque un dueño angustiado
+> distingue perfectamente quién le está vendiendo humo y quién le está ayudando a decidir.
+
+## 7.6 Las landings
+
+He añadido `landing/hogar-en-calma-gatos.html`, con el píxel ya montado igual que las demás y
+apuntando a la misma página de gracias.
+
+**La regla es que el anuncio y la landing tienen que coincidir en especie.** Si un anuncio de
+gatos cae en una landing con un perro de foto, el visitante entiende que se ha equivocado de
+sitio y se va: has pagado el clic para nada. Es uno de los errores que más silenciosamente
+arruinan una campaña, porque las métricas del anuncio salen bien y la conversión sale mal.
+
+| Anuncio | Landing |
+|---|---|
+| HC1, HC2, HC3 (perro) | `hogar-en-calma.html` |
+| HC1-G (gato) | `hogar-en-calma-gatos.html` |
+| ED1 (perro) | `edad-dorada-lista-espera.html` |
+
+Para Edad Dorada, cuando llegue el momento del gato, duplica la de lista de espera igual que hice
+con la de Hogar en Calma: cambia el texto de las tres viñetas por las señales felinas de la tabla
+del 7.4 y listo.
