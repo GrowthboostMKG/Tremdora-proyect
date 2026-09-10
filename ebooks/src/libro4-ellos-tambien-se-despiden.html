@@ -1,0 +1,920 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Sigue Contigo — Ellos También se Despiden</title><style>/* ============================================================
+   TREMDORA — Sistema editorial de la serie "Sigue Contigo"
+   Paleta y retícula heredadas de "Edad Dorada" / "Hogar en Calma"
+   Formato: 468pt x 679.92pt  (mismo trim que el resto de la serie)
+   ============================================================ */
+
+:root{
+  --ink:        #3b2a20;   /* texto principal            */
+  --ink-soft:   #6b4a38;   /* subtítulos, texto de apoyo */
+  --muted:      #9c7c63;   /* pies, notas                */
+  --line:       #e2cfb4;   /* filetes y bordes           */
+  --bg:         #fbf3e6;   /* fondo de página            */
+  --panel:      #f6e9d6;   /* cajas y filas alternas     */
+  --paper:      #fdf8f0;   /* cajas claras               */
+  --green:      #748156;   /* acento salvia              */
+  --green-soft: #e6eada;
+  --green-line: #c9d1ae;
+  --terra:      #a8502e;   /* acento terracota           */
+  --terra-soft: #c1613a;
+  --terra-pale: #f0dccd;
+}
+
+@page { size: 468pt 679.92pt; margin: 0; }
+
+*{ box-sizing: border-box; }
+
+html,body{
+  margin:0; padding:0;
+  background:#fff;
+  color:var(--ink);
+  font-family:'Liberation Sans', Arial, Helvetica, sans-serif;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page{
+  position:relative;
+  width:468pt; height:679.92pt;
+  padding:44pt 48pt 34pt;
+  background:var(--bg);
+  page-break-after:always;
+  overflow:hidden;
+}
+.page:last-child{ page-break-after:auto; }
+
+/* ---------- Tipografía base ---------- */
+p{ font-size:9.5pt; line-height:1.72; margin:0 0 8pt; }
+strong{ font-weight:bold; }
+em{ font-style:italic; }
+
+.eyebrow{
+  font-size:7.6pt; letter-spacing:2.1pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; margin:0 0 6pt;
+}
+.eyebrow.terra{ color:var(--terra-soft); }
+
+h1.title{
+  font-family:'Liberation Serif', Georgia, 'Times New Roman', serif;
+  font-size:19pt; font-weight:bold; line-height:1.25;
+  margin:0 0 14pt; letter-spacing:-.2pt;
+}
+h2.sec{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:12.5pt; font-weight:bold; margin:16pt 0 7pt;
+}
+h3.sub{
+  font-size:8.4pt; letter-spacing:1.5pt; text-transform:uppercase;
+  color:var(--terra); font-weight:bold; margin:12pt 0 5pt;
+}
+
+.lead{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:10.5pt; line-height:1.6;
+  color:var(--ink-soft); margin:0 0 14pt;
+}
+
+.rule{ height:1px; background:var(--line); border:0; margin:14pt 0; }
+.rule.soft{ background:linear-gradient(90deg,var(--line),var(--green-line),transparent); }
+
+/* ---------- Cabecera de capítulo / semana ---------- */
+.wk-head{ display:flex; align-items:flex-start; gap:12pt; margin-bottom:14pt; }
+.wk-num{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:30pt; font-weight:bold; line-height:.85;
+  color:var(--green-line); letter-spacing:-1pt;
+}
+.wk-num.terra{ color:var(--terra-pale); }
+.wk-head .txt{ padding-top:2pt; }
+.wk-head .eyebrow{ margin-bottom:3pt; }
+.wk-head h1.title{ font-size:16pt; margin:0; }
+
+/* ---------- Cajas ---------- */
+.box{
+  background:var(--panel); border-radius:5pt;
+  padding:11pt 14pt; margin:0 0 11pt;
+}
+.box.green{ background:var(--green-soft); }
+.box.paper{ background:var(--paper); border:.7pt solid var(--line); }
+.box.left-terra{ border-left:3pt solid var(--terra); background:var(--panel); border-radius:0 5pt 5pt 0; }
+.box.left-green{ border-left:3pt solid var(--green); background:var(--green-soft); border-radius:0 5pt 5pt 0; }
+.box .lbl{
+  font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+  font-weight:bold; color:var(--terra); margin:0 0 5pt;
+}
+.box.green .lbl, .box.left-green .lbl{ color:var(--green); }
+.box p:last-child{ margin-bottom:0; }
+.box p{ font-size:9pt; }
+
+.dashed{
+  border:1pt dashed var(--line); border-radius:5pt;
+  padding:11pt 14pt; margin:11pt 0; background:transparent;
+}
+.dashed .lbl{
+  font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+  font-weight:bold; color:var(--terra); margin:0 0 7pt;
+}
+
+.quote{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:11.5pt; line-height:1.5;
+  color:var(--terra); text-align:center;
+  margin:16pt 22pt; 
+}
+.quote.green{ color:var(--green); }
+
+/* ---------- Tablas ---------- */
+table{ width:100%; border-collapse:collapse; margin:0 0 10pt; }
+thead th{
+  background:var(--green); color:#fdf8f0;
+  font-size:7.6pt; letter-spacing:1pt; text-transform:uppercase;
+  font-weight:bold; text-align:left; padding:6.5pt 8pt;
+  white-space:nowrap;
+}
+thead.terra th{ background:var(--terra-soft); }
+tbody td{
+  font-size:8.6pt; line-height:1.5; padding:7pt 8pt;
+  border-bottom:.7pt solid var(--line); vertical-align:top;
+}
+tbody tr:nth-child(odd) td{ background:var(--panel); }
+tbody tr:nth-child(even) td{ background:transparent; }
+td.day{ font-weight:bold; color:var(--terra); width:22pt; }
+td.day.green{ color:var(--green); }
+th.tick, td.tick{ width:22pt; text-align:center; }
+.chk{
+  display:inline-block; width:9pt; height:9pt;
+  border:.8pt solid var(--muted); border-radius:2pt;
+}
+td.blank{ height:19pt; }
+table.compact tbody td{ padding:3.4pt 8pt; height:12pt; font-size:8.2pt; }
+table.compact thead th{ padding:5pt 8pt; }
+table.compact tbody td{ border-right:.7pt solid var(--line); }
+table.compact tbody td:last-child{ border-right:0; }
+
+/* ---------- Renglones para escribir ---------- */
+.write{ border-bottom:.7pt solid var(--line); height:17pt; }
+.write.dot{ border-bottom:.9pt dotted var(--line); }
+.ask{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:9.2pt; color:var(--terra-soft);
+  margin:10pt 0 3pt;
+}
+
+/* ---------- Píldoras y fichas ---------- */
+.pill{
+  display:inline-block; border:.7pt solid var(--line); background:var(--paper);
+  border-radius:20pt; padding:3.5pt 10pt; font-size:8pt; margin:0 4pt 5pt 0;
+}
+.pill b{ color:var(--ink); }
+
+.stats{ display:flex; gap:9pt; margin:12pt 0; }
+.stat{
+  flex:1; background:var(--paper); border:.7pt solid var(--line);
+  border-radius:5pt; padding:9pt 8pt; text-align:center;
+}
+.stat .n{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:17pt; font-weight:bold; color:var(--terra); line-height:1;
+}
+.stat .n.green{ color:var(--green); }
+.stat .t{
+  font-size:6.6pt; letter-spacing:.9pt; text-transform:uppercase;
+  color:var(--muted); margin-top:4pt; line-height:1.35;
+}
+
+.grid2{ display:flex; gap:10pt; }
+.grid2 > *{ flex:1; min-width:0; }
+
+.ficha{ width:100%; border-collapse:collapse; }
+.ficha td{ border:0; border-bottom:.7pt solid var(--line); padding:9pt 0 4pt; background:none; }
+.ficha td.k{ width:38%; font-size:8.4pt; color:var(--ink-soft); vertical-align:bottom; }
+
+ul.clean{ margin:0 0 9pt; padding:0 0 0 12pt; }
+ul.clean li{ font-size:9pt; line-height:1.62; margin-bottom:4.5pt; }
+ul.clean li::marker{ color:var(--green); }
+ul.clean.terra li::marker{ color:var(--terra-soft); }
+
+.note{
+  font-size:8.2pt; line-height:1.55; color:var(--muted);
+  font-style:italic; margin-top:9pt;
+}
+
+/* ---------- Ficha de científico ---------- */
+.sci{
+  background:var(--paper); border:.7pt solid var(--line); border-radius:5pt;
+  padding:9pt 11pt; margin-bottom:8pt;
+}
+.sci .nm{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:10.5pt; font-weight:bold; margin:0;
+}
+.sci .fl{
+  font-size:7.2pt; letter-spacing:1.1pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; margin:2pt 0 5pt;
+}
+.sci p{ font-size:8.4pt; line-height:1.55; margin:0; }
+
+/* ---------- Portada ---------- */
+.cover{
+  padding:0; display:flex; flex-direction:column; align-items:center;
+  background:
+    radial-gradient(120% 85% at 12% 0%,  #f7e4c0 0%, rgba(247,228,192,0) 58%),
+    radial-gradient(120% 85% at 92% 100%, #dfe3cd 0%, rgba(223,227,205,0) 55%),
+    #fbf3e6;
+}
+.cover .badge{
+  margin-top:52pt; border:.8pt solid var(--green-line); background:rgba(253,248,240,.72);
+  border-radius:20pt; padding:5pt 15pt;
+  font-size:7.6pt; letter-spacing:2pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold;
+}
+.cover .kicker{
+  margin-top:16pt; font-size:8pt; letter-spacing:2.6pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; text-align:center;
+}
+.cover .emblem{ margin-top:32pt; width:152pt; }
+.cover .emblem svg{ width:100%; height:auto; display:block; }
+.fig{ margin:8pt 0 12pt; }
+.fig svg{ width:100%; height:auto; display:block; }
+.figcap{ font-size:7.4pt; color:var(--muted); text-align:center;
+         letter-spacing:.5pt; margin-top:5pt; }
+.cover h1{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:29pt; font-weight:bold; line-height:1.15;
+  text-align:center; margin:34pt 42pt 0; letter-spacing:-.4pt;
+}
+.cover h1 i{ color:var(--terra); font-style:italic; }
+.cover .sub{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:11pt; line-height:1.6;
+  color:var(--ink-soft); text-align:center; margin:16pt 62pt 0;
+}
+.cover .foot{
+  position:absolute; left:0; right:0; bottom:44pt; text-align:center;
+  font-size:8.6pt; color:var(--muted); line-height:1.7;
+}
+.cover .foot b{ color:var(--ink-soft); }
+
+/* ---------- Pie de página ---------- */
+.pfoot{
+  position:absolute; left:48pt; right:48pt; bottom:24pt;
+  border-top:.7pt solid var(--line); padding-top:6pt;
+  font-size:7.2pt; color:var(--muted); display:flex; justify-content:space-between;
+}
+.pfoot .n{ letter-spacing:.6pt; }
+
+.chain{ margin:10pt 0 12pt; }
+.chain .lk{
+  display:inline-block; background:var(--paper); border:.7pt solid var(--line);
+  border-radius:20pt; padding:3.5pt 9pt; font-size:7.6pt; letter-spacing:.4pt;
+  color:var(--ink-soft); margin:0 2pt 5pt 0;
+}
+.chain .ar{ color:var(--green); font-size:8pt; margin:0 1pt 5pt 0; display:inline-block; }
+.sem{ border-left:3pt solid #748156; background:var(--green-soft);
+      border-radius:0 5pt 5pt 0; padding:10pt 13pt; margin-bottom:9pt; }
+.sem.amber{ border-left-color:#c08a2e; background:#f7ecd6; }
+.sem.red{ border-left-color:#a8502e; background:#f4e0d6; }
+.sem .lbl{ font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+           font-weight:bold; color:#748156; margin:0 0 5pt; }
+.sem.amber .lbl{ color:#9a6c1e; }
+.sem.red .lbl{ color:#a8502e; }
+.sem p{ font-size:8.6pt; line-height:1.55; margin:0; }
+.ref{ font-size:8pt; line-height:1.5; color:var(--ink-soft); margin:0 0 5pt;
+      padding-left:11pt; text-indent:-11pt; }
+.ref b{ color:var(--ink); }
+</style></head><body><div class="page cover">
+<div class="badge">Libro 4 de 4 · la ciencia aplicada</div>
+<div class="kicker">Guía de acompañamiento animal</div>
+<div class="emblem">
+<svg viewBox="0 0 150 150">
+  <circle cx="75" cy="75" r="62" fill="none" stroke="#748156" stroke-width="1.1"/>
+  <g stroke="#e2cfb4" stroke-width="1.5" fill="none" opacity=".95">
+    <ellipse cx="52" cy="88" rx="12" ry="9.5"/>
+    <ellipse cx="41" cy="72" rx="4.3" ry="6" transform="rotate(-18 41 72)"/>
+    <ellipse cx="52" cy="67" rx="4.3" ry="6.4"/>
+    <ellipse cx="63" cy="71" rx="4.3" ry="6" transform="rotate(16 63 71)"/>
+  </g>
+  <g stroke="#a8502e" stroke-width="1.6" fill="#f6e9d6">
+    <ellipse cx="97" cy="88" rx="12" ry="9.5"/>
+    <ellipse cx="86" cy="72" rx="4.3" ry="6" transform="rotate(-18 86 72)"/>
+    <ellipse cx="97" cy="67" rx="4.3" ry="6.4"/>
+    <ellipse cx="108" cy="71" rx="4.3" ry="6" transform="rotate(16 108 71)"/>
+  </g>
+</svg></div>
+<h1>Ellos También<br><i>se Despiden</i></h1>
+<div class="sub">Cómo acompañar a la mascota que se queda,<br>
+según la etología y la neurociencia afectiva</div>
+<div class="foot">Cuarto libro de la serie <b>Sigue Contigo</b><br>
+Con un protocolo de 21 días y su registro</div>
+</div><div class="page ">
+<p class="eyebrow">Sobre este libro</p>
+<h1 class="title">Ellos También se Despiden</h1>
+<p class="lead">Lo que estás viendo en el animal que se quedó no es imaginación
+tuya. Tiene nombre, tiene circuito cerebral y tiene manejo.</p>
+
+<p>Cuando muere una mascota, casi todo el acompañamiento se dirige — con razón — a
+la persona. Pero si en casa quedó otro animal, hay un segundo duelo ocurriendo a la
+vez, silencioso, y muchas veces más intenso que el nuestro en los primeros días.</p>
+
+<p>Este libro reúne lo que sabemos de ese proceso. No desde la intuición ni desde
+frases bonitas, sino desde el trabajo de ocho investigadores que dedicaron su vida
+a entender cómo sienten, aprenden y sufren los animales. Y lo traduce en algo que
+puedas hacer mañana por la mañana.</p>
+
+<div class="chain"><span class="lk">Etología</span><span class="ar">&rsaquo;</span><span class="lk">Neurociencia afectiva</span><span class="ar">&rsaquo;</span><span class="lk">Cognición animal</span><span class="ar">&rsaquo;</span><span class="lk">Teoría del aprendizaje</span><span class="ar">&rsaquo;</span><span class="lk">Lenguaje corporal</span><span class="ar">&rsaquo;</span><span class="lk">Bienestar animal</span><span class="ar">&rsaquo;</span><span class="lk">Comportamiento clínico</span><span class="ar">&rsaquo;</span><span class="lk">Dolor y comportamiento</span><span class="ar">&rsaquo;</span><span class="lk">Envejecimiento cognitivo</span><span class="ar">&rsaquo;</span><span class="lk">Refuerzo positivo</span></div>
+
+<div class="box left-green">
+  <p class="lbl">La ruta de este libro</p>
+  <p>Primero <strong>entender</strong> — qué se ha roto y por qué duele. Después
+  <strong>observar</strong> — qué es normal, qué vigilar y cuándo llamar al
+  veterinario. Y por último <strong>actuar</strong> — un protocolo de veintiún días
+  con su registro, para reconstruir la rutina sin forzar nada.</p>
+</div>
+
+<p class="note">Nada de lo que leas aquí sustituye a una consulta veterinaria. Al
+contrario: parte de este libro existe precisamente para ayudarte a saber cuándo
+pedirla y qué contar cuando llegues.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">2</span></div></div><div class="page "><p class="eyebrow">Quién sostiene este libro</p><h1 class="title">Los ocho referentes · I</h1><p class="lead">Ocho investigadores, ocho disciplinas. Nada de lo que sigue es opinión nuestra.</p><div class="sci"><p class="nm">Konrad Lorenz</p><p class="fl">Etología · Nobel de Medicina 1973</p><p>Fundador de la etología moderna. Describió el vínculo social animal como un sistema biológico, no como un adorno afectivo. Al observar gansos que perdían a su pareja anotó exactamente lo mismo que la psicología describía en niños separados de su madre: la mirada se apaga, el cuello se hunde, el animal pierde rango social y busca llamando. Lo escribió hace más de cincuenta años.</p></div><div class="sci"><p class="nm">Jaak Panksepp</p><p class="fl">Neurociencia afectiva</p><p>Demostró que los mamíferos compartimos siete sistemas emocionales básicos, situados en zonas antiguas del cerebro. Uno de ellos, el sistema de PÁNICO / DUELO, es el que se dispara ante la separación de una figura de apego. No es una metáfora: es un circuito concreto, regulado por los mismos opioides internos y la misma oxitocina que en nosotros.</p></div><div class="sci"><p class="nm">Alexandra Horowitz</p><p class="fl">Cognición animal · el mundo del olfato</p><p>Popularizó la idea de <em>umwelt</em>: cada especie habita un mundo perceptivo propio. El del perro está hecho de olor. Entre doscientos y trescientos millones de receptores olfativos, frente a nuestros cinco o seis. Eso cambia por completo qué significa para él la manta del compañero que ya no está — y qué haces tú con ella.</p></div><div class="sci"><p class="nm">Brian Hare</p><p class="fl">Cognición social canina</p><p>Su trabajo mostró que los perros leen los gestos comunicativos humanos mejor que ningún otro animal, incluidos los grandes simios, y que la domesticación seleccionó amabilidad y cooperación. Consecuencia directa para ti: tu estado emocional no es el telón de fondo del duelo de tu perro. Es parte de él.</p></div><div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">3</span></div></div><div class="page "><p class="eyebrow">Quién sostiene este libro</p><h1 class="title">Los ocho referentes · II</h1><p class="lead">De cómo aprende un animal a cómo se le nota que le duele algo.</p><div class="sci"><p class="nm">Iván Pávlov</p><p class="fl">Teoría del aprendizaje · condicionamiento clásico</p><p>Describió cómo un estímulo neutro se carga de significado por asociación. Tu casa está llena de esos estímulos: el ruido de dos cuencos, la hora del paseo, la llave en la puerta. Cada uno sigue anunciando a alguien que ya no llega. También describió la <em>recuperación espontánea</em>: por qué, semanas después, vuelve a esperar en la puerta sin motivo aparente.</p></div><div class="sci"><p class="nm">B. F. Skinner</p><p class="fl">Teoría del aprendizaje · refuerzo positivo</p><p>Mostró que la conducta se sostiene por sus consecuencias. Cuando desaparece aquello que reforzaba una conducta — buscar al compañero, esperarlo —, esa conducta entra en extinción, y la extinción empieza casi siempre con un aumento: el <em>estallido de extinción</em>. Sobre esa misma ley se construye la salida: reforzar la calma en lugar de atender solo el llanto.</p></div><div class="sci"><p class="nm">Margaret Gruen</p><p class="fl">Comportamiento clínico · dolor y conducta</p><p>Especialista en medicina del comportamiento y dolor animal. Su línea de trabajo insiste en algo que salva vidas: un cambio de conducta es, muy a menudo, el primer signo de dolor o de enfermedad. Antes de llamar duelo a lo que ves, hay que descartar que sea otra cosa.</p></div><div class="sci"><p class="nm">Temple Grandin</p><p class="fl">Bienestar animal · el entorno sensorial</p><p>Cambió la forma de diseñar entornos para animales al describir que piensan en detalles sensoriales concretos, no en conceptos: un objeto movido, una sombra nueva, un olor distinto pueden importar más que cualquier explicación. Su propuesta de bienestar es directa — reducir el miedo y el pánico, y mantener activo el sistema de búsqueda.</p></div><p class="note">A lo largo del libro verás sus nombres junto a cada recomendación, para que sepas de dónde viene lo que te estamos pidiendo que hagas.</p><div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">4</span></div></div><div class="page ">
+<p class="eyebrow">Entender · Jaak Panksepp</p>
+<h1 class="title">Por qué la separación duele</h1>
+<p class="lead">El duelo no es un sentimiento sofisticado que solo tenemos los
+humanos. Es un circuito antiguo que compartimos con ellos.</p>
+
+<div class="fig"><svg viewBox="0 0 372 176"><path d="M88.0 16.0 A72 72 0 0 1 144.3 43.1 L122.4 60.6 A44 44 0 0 0 88.0 44.0 Z" fill="#c9d1ae" stroke="#fbf3e6" stroke-width="1.4"/><path d="M144.3 43.1 A72 72 0 0 1 158.2 104.0 L130.9 97.8 A44 44 0 0 0 122.4 60.6 Z" fill="#e2cfb4" stroke="#fbf3e6" stroke-width="1.4"/><path d="M158.2 104.0 A72 72 0 0 1 119.2 152.9 L107.1 127.6 A44 44 0 0 0 130.9 97.8 Z" fill="#dcc9ad" stroke="#fbf3e6" stroke-width="1.4"/><path d="M119.2 152.9 A72 72 0 0 1 56.8 152.9 L68.9 127.6 A44 44 0 0 0 107.1 127.6 Z" fill="#e6dcc4" stroke="#fbf3e6" stroke-width="1.4"/><path d="M56.8 152.9 A72 72 0 0 1 17.8 104.0 L45.1 97.8 A44 44 0 0 0 68.9 127.6 Z" fill="#c9d1ae" stroke="#fbf3e6" stroke-width="1.4"/><path d="M17.8 104.0 A72 72 0 0 1 31.7 43.1 L53.6 60.6 A44 44 0 0 0 45.1 97.8 Z" fill="#a8502e" stroke="#fbf3e6" stroke-width="1.4"/><path d="M31.7 43.1 A72 72 0 0 1 88.0 16.0 L88.0 44.0 A44 44 0 0 0 53.6 60.6 Z" fill="#e2cfb4" stroke="#fbf3e6" stroke-width="1.4"/><text x="88" y="86" text-anchor="middle" font-family="Liberation Serif" font-size="11" font-style="italic" fill="#6b4a38">7 sistemas</text><text x="88" y="100" text-anchor="middle" font-family="Liberation Serif" font-size="11" font-style="italic" fill="#6b4a38">emocionales</text><rect x="196" y="18" width="9" height="9" rx="2" fill="#c9d1ae"/><text x="211" y="26" font-family="Liberation Sans" font-size="8" fill="#6b4a38">BÚSQUEDA</text><rect x="196" y="40" width="9" height="9" rx="2" fill="#e2cfb4"/><text x="211" y="48" font-family="Liberation Sans" font-size="8" fill="#6b4a38">RABIA</text><rect x="196" y="62" width="9" height="9" rx="2" fill="#dcc9ad"/><text x="211" y="70" font-family="Liberation Sans" font-size="8" fill="#6b4a38">MIEDO</text><rect x="196" y="84" width="9" height="9" rx="2" fill="#e6dcc4"/><text x="211" y="92" font-family="Liberation Sans" font-size="8" fill="#6b4a38">DESEO</text><rect x="196" y="106" width="9" height="9" rx="2" fill="#c9d1ae"/><text x="211" y="114" font-family="Liberation Sans" font-size="8" fill="#6b4a38">CUIDADO</text><rect x="196" y="128" width="9" height="9" rx="2" fill="#a8502e"/><text x="211" y="136" font-family="Liberation Sans" font-size="8" fill="#a8502e">PÁNICO / DUELO</text><rect x="196" y="150" width="9" height="9" rx="2" fill="#e2cfb4"/><text x="211" y="158" font-family="Liberation Sans" font-size="8" fill="#6b4a38">JUEGO</text></svg><div class="figcap">Los sistemas emocionales primarios descritos por Panksepp</div></div>
+
+<p>Panksepp identificó siete sistemas emocionales básicos, alojados en zonas
+profundas y evolutivamente antiguas del cerebro de todos los mamíferos. Uno de
+ellos, el sistema de <strong>pánico y duelo</strong>, es el que se activa cuando
+desaparece una figura de apego.</p>
+
+<p>Ese circuito está regulado por los mismos opioides internos y la misma oxitocina
+que en nosotros. Cuando el vínculo está presente, mantiene la calma. Cuando se
+rompe, aparece la angustia de separación: llamadas, búsqueda, inquietud, pérdida
+de apetito, sueño alterado.</p>
+
+<div class="box green">
+  <p class="lbl">Lo que esto significa en tu casa</p>
+  <p>Tu perro o tu gato no «está raro». Tiene activado, ahora mismo, el mismo
+  sistema cerebral que tienes activado tú. Con la diferencia de que él no puede
+  contárselo a nadie, ni entender qué ha pasado, ni saber que esto va a pasar.</p>
+</div>
+
+<p class="note">Es también la razón por la que la presencia tranquila funciona
+mejor que cualquier distracción: el sistema de pánico se calma con contacto y
+previsibilidad, no con estímulos nuevos.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">5</span></div></div><div class="page ">
+<p class="eyebrow">Entender · Iván Pávlov</p>
+<h1 class="title">Una casa llena de señales</h1>
+<p class="lead">Para él, tu casa no es un espacio: es un sistema de anuncios.
+Y todos siguen anunciando a alguien que ya no llega.</p>
+
+<p>Durante años, cada detalle cotidiano quedó asociado a la presencia del
+compañero. El ruido de dos cuencos al apoyarse en el suelo. La hora exacta del
+paseo. El sonido de la correa. Tu forma de coger las llaves los sábados. El chirrido
+de una puerta concreta.</p>
+
+<p>Ninguno de esos estímulos era importante por sí mismo. Se volvieron importantes
+por asociación — eso es, exactamente, lo que Pávlov describió. Y hoy siguen
+disparando la misma expectativa: mirar a la puerta, ir a buscar, esperar.</p>
+
+<div class="box left-terra">
+  <p class="lbl">Por qué no se apaga de un día para otro</p>
+  <p>Una asociación construida durante años no se borra en una semana. Se
+  desactiva por exposición repetida: la señal aparece, y no pasa nada. Otra vez.
+  Y otra. Ese proceso lleva semanas, y es normal que lleve semanas.</p>
+</div>
+
+<div class="box left-terra">
+  <p class="lbl">La recuperación espontánea</p>
+  <p>Un día, al mes largo, cuando ya parecía todo estabilizado, tu perro vuelve a
+  esperar en la puerta durante horas. No ha recaído ni ha empeorado: Pávlov
+  describió este fenómeno hace un siglo. Las respuestas ya extinguidas reaparecen
+  solas tras un periodo de pausa, y vuelven a apagarse antes que la primera vez.</p>
+</div>
+
+<h2 class="sec">Qué hacer con esto</h2>
+<ul class="clean terra">
+  <li>No elimines de golpe todas las señales — el vacío total desorienta más que la ausencia.</li>
+  <li>Mantén rígidos los horarios de comida, paseo y sueño: son las señales que sí siguen cumpliéndose.</li>
+  <li>Cambia gradualmente lo que tenga que cambiar: un cuenco, un sitio, una ruta, de uno en uno.</li>
+  <li>Cuando aparezca la espera en la puerta, no la castigues ni la premies. Llámale a hacer algo agradable dos minutos después.</li>
+</ul>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">6</span></div></div><div class="page ">
+<p class="eyebrow">Entender · B. F. Skinner</p>
+<h1 class="title">Por qué busca más al principio</h1>
+<p class="lead">Si estos días te parece que está peor que el primero, no te lo
+estás imaginando. Y no significa que vaya a peor.</p>
+
+<div class="fig">
+<svg viewBox="0 0 372 184">
+  <defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#748156" stop-opacity=".22"/>
+    <stop offset="100%" stop-color="#748156" stop-opacity="0"/></linearGradient></defs>
+  <line x1="34" y1="150" x2="356" y2="150" stroke="#e2cfb4" stroke-width="1"/>
+  <line x1="34" y1="18"  x2="34"  y2="150" stroke="#e2cfb4" stroke-width="1"/>
+  <path d="M34 150 L34 92 C46 80 56 34 74 30 C92 26 100 52 116 68
+           C140 92 160 112 196 122 C232 132 250 128 266 122
+           C276 118 282 100 292 100 C302 100 306 118 318 126
+           C332 135 342 138 356 138 L356 150 Z" fill="url(#sg)"/>
+  <path d="M34 92 C46 80 56 34 74 30 C92 26 100 52 116 68
+           C140 92 160 112 196 122 C232 132 250 128 266 122
+           C276 118 282 100 292 100 C302 100 306 118 318 126
+           C332 135 342 138 356 138"
+        fill="none" stroke="#748156" stroke-width="1.9" stroke-linecap="round"/>
+  <line x1="74" y1="30" x2="74" y2="150" stroke="#a8502e" stroke-width=".8" stroke-dasharray="3 3"/>
+  <line x1="292" y1="100" x2="292" y2="150" stroke="#a8502e" stroke-width=".8" stroke-dasharray="3 3"/>
+  <circle cx="74" cy="30" r="3.4" fill="#a8502e"/>
+  <circle cx="292" cy="100" r="3.4" fill="#a8502e"/>
+  <text x="80" y="24" font-family="Liberation Sans" font-size="7.6" font-weight="bold"
+        fill="#a8502e">ESTALLIDO DE EXTINCIÓN</text>
+  <text x="215" y="92" font-family="Liberation Sans" font-size="7.6" font-weight="bold"
+        fill="#a8502e">RECUPERACIÓN ESPONTÁNEA</text>
+  <text x="38" y="14" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63"
+        letter-spacing=".7">CUÁNTO BUSCA</text>
+  <text x="34" y="166" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63">Día 1</text>
+  <text x="186" y="166" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63"
+        text-anchor="middle">Día 10</text>
+  <text x="356" y="166" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63"
+        text-anchor="end">Día 30</text>
+</svg><div class="figcap">Curva típica de la conducta de búsqueda tras la pérdida del compañero</div></div>
+
+<p>Buscar al compañero era, durante años, una conducta que funcionaba: buscabas y
+lo encontrabas. Ahora ya no funciona nunca. Cuando una conducta deja de obtener su
+resultado, entra en <strong>extinción</strong> — pero la extinción casi nunca
+empieza bajando.</p>
+
+<p>Empieza subiendo. El animal insiste más, busca más, llama más fuerte, recorre
+más veces la casa. Es el <em>estallido de extinción</em> que describió Skinner, y
+suele aparecer entre el tercer y el décimo día. Después, si el entorno se mantiene
+estable, empieza a bajar de verdad.</p>
+
+<div class="box green">
+  <p class="lbl">Lo que esto te ahorra</p>
+  <p>Saber esto evita el error más común de estos días: pensar que lo que estás
+  haciendo no funciona, y cambiarlo todo justo cuando el proceso estaba
+  avanzando. La subida de la primera semana es parte del camino, no su fracaso.</p>
+</div>
+
+<p class="note">Si pasadas tres o cuatro semanas la búsqueda no ha empezado a
+bajar en absoluto, entonces sí: consulta. Puede haber otra cosa por debajo.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">7</span></div></div><div class="page ">
+<p class="eyebrow">Entender · Alexandra Horowitz</p>
+<h1 class="title">Su mundo está hecho de olor</h1>
+<p class="lead">Lo primero que la mayoría de la gente hace es lavarlo todo. Es,
+casi siempre, lo peor que se puede hacer.</p>
+
+<div class="fig">
+<svg viewBox="0 0 372 118">
+  <text x="0" y="20" font-family="Liberation Sans" font-size="8" fill="#6b4a38">Perro</text>
+  <rect x="52" y="10" width="300" height="15" rx="3" fill="#a8502e"/>
+  <text x="358" y="21" font-family="Liberation Sans" font-size="7.6" fill="#a8502e"
+        text-anchor="end" transform="translate(-6,0)"></text>
+  <text x="344" y="21" font-family="Liberation Sans" font-size="8" fill="#fdf8f0"
+        text-anchor="end" font-weight="bold">200-300 millones</text>
+  <text x="0" y="58" font-family="Liberation Sans" font-size="8" fill="#6b4a38">Gato</text>
+  <rect x="52" y="48" width="82" height="15" rx="3" fill="#748156"/>
+  <text x="140" y="59" font-family="Liberation Sans" font-size="8" fill="#748156">60-80 millones</text>
+  <text x="0" y="96" font-family="Liberation Sans" font-size="8" fill="#6b4a38">Tú</text>
+  <rect x="52" y="86" width="7" height="15" rx="2" fill="#c9a98a"/>
+  <text x="65" y="97" font-family="Liberation Sans" font-size="8" fill="#9c7c63">5-6 millones</text>
+  <text x="52" y="120" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63"
+        font-style="italic">Receptores olfativos · a escala real</text>
+</svg></div>
+
+<p>Horowitz recuperó una idea clave: cada especie vive en su propio mundo
+perceptivo. El nuestro es visual. El del perro es olfativo, en una proporción que
+cuesta imaginar — su bulbo olfatorio es, en relación a su cerebro, unas cuarenta
+veces mayor que el nuestro.</p>
+
+<p>Para él, el olor no es un recuerdo: es información presente. Fuerte significa
+«hace poco»; débil, «hace tiempo». Es su forma de leer el paso del tiempo.</p>
+
+<div class="box left-green">
+  <p class="lbl">La regla del olor</p>
+  <p>No laves ni retires de golpe la manta, la cama o el collar del que se fue.
+  Ese rastro que se va desvaneciendo, día tras día, es exactamente el mecanismo por
+  el que su cerebro entiende que ya no vuelve. Quitarlo de golpe no le ahorra
+  dolor: le borra la explicación.</p>
+</div>
+
+<h2 class="sec">Cómo aplicarla</h2>
+<ul class="clean">
+  <li>Deja sus cosas al menos las dos primeras semanas, en el mismo sitio.</li>
+  <li>Permítele olerlas todo el tiempo que quiera. No le interrumpas ni le llames.</li>
+  <li>Retira después un objeto por semana, empezando por el que menos use.</li>
+  <li>Guarda una prenda suya sin lavar, en una bolsa cerrada, por si hace falta más adelante.</li>
+  <li>Suma paseos de olfato: veinte minutos eligiendo él dónde huele calman más que una hora de correr.</li>
+</ul>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">8</span></div></div><div class="page ">
+<p class="eyebrow">Entender · Konrad Lorenz y Brian Hare</p>
+<h1 class="title">Qué se ha roto exactamente</h1>
+<p class="lead">No ha perdido «compañía». Ha perdido una pieza de su propio
+sistema de regulación.</p>
+
+<h2 class="sec">Lorenz: el duelo existía antes que nosotros</h2>
+<p>Observando gansos salvajes que perdían a su pareja, Lorenz anotó una lista de
+signos que le resultaba inquietantemente familiar: la mirada se apaga, la cabeza
+se hunde entre los hombros, el animal pierde rango dentro del grupo, se vuelve
+temeroso — y emprende vuelos de búsqueda llamando sin parar.</p>
+<p>Él mismo señaló que era, punto por punto, lo que la psicología describía en
+niños separados de su madre. El duelo no es una construcción cultural humana: es
+lo que ocurre cuando se rompe un vínculo social en un animal social.</p>
+
+<div class="quote green">Lo que ves en tu perro o en tu gato<br>
+tiene más de cincuenta años<br>de literatura científica detrás.</div>
+
+<h2 class="sec">Hare: y además te está leyendo a ti</h2>
+<p>El trabajo de Hare mostró que los perros interpretan nuestras señales
+comunicativas mejor que ningún otro animal — mejor incluso que los chimpancés — y
+que su historia evolutiva seleccionó justamente eso: cooperación, atención al
+humano, sensibilidad social.</p>
+
+<div class="box left-terra">
+  <p class="lbl">La consecuencia incómoda</p>
+  <p>Tu perro no está atravesando su duelo en un entorno neutro. Está atravesándolo
+  contigo dentro. Tu tono de voz, tus horarios rotos, tus silencios largos y tu
+  cuerpo tenso forman parte de lo que él tiene que gestionar.</p>
+  <p>Esto no es para que te sientas culpable: es imposible no estar triste, y
+  esconderlo tampoco funciona. Es para que sepas que las dos cosas que más le
+  ayudan — rutina estable y tono tranquilo — son también las dos que más te
+  ayudan a ti. Podéis hacerlas juntos.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">9</span></div></div><div class="page ">
+<p class="eyebrow">Actuar · Temple Grandin</p>
+<h1 class="title">El entorno que calma</h1>
+<p class="lead">Los animales no piensan en conceptos: piensan en detalles
+concretos. Un objeto movido puede pesar más que toda tu buena intención.</p>
+
+<p>Grandin cambió el diseño de instalaciones ganaderas al demostrar algo que hasta
+entonces se ignoraba: lo que asusta a un animal no suele ser lo grande, sino lo
+pequeño y nuevo. Una sombra distinta, un reflejo, un objeto fuera de sitio, un
+sonido que antes no estaba.</p>
+
+<p>En una casa en duelo, todo eso cambia a la vez. Se mueven muebles, se guardan
+cosas, entran visitas, se rompen los horarios, hay llanto, hay silencios raros. Para
+el animal que se quedó, la pérdida no viene sola: viene con un entorno que dejó de
+ser predecible justo cuando más lo necesitaba.</p>
+
+<div class="box green">
+  <p class="lbl">Las cuatro reglas del entorno</p>
+  <p><strong>1 · Previsible.</strong> Horarios de comida, paseo y sueño clavados,
+  aunque tú estés fatal. Es lo que más baja el cortisol.<br>
+  <strong>2 · Reconocible.</strong> Nada de mudanzas, obras, reformas ni viajes
+  este mes, si puedes evitarlo.<br>
+  <strong>3 · Sensorialmente amable.</strong> Menos ruido, luz suave por la noche,
+  un lugar de descanso caliente y sin corrientes.<br>
+  <strong>4 · Con algo que hacer.</strong> El sistema de búsqueda necesita
+  activarse: olfatear, resolver, explorar.</p>
+</div>
+
+<p>Esa última regla es la que la gente olvida. Grandin lo formula casi como una
+consigna de bienestar: no basta con quitar el miedo, hay que dar algo que buscar.
+Un animal que no puede activar el sistema de búsqueda se apaga.</p>
+
+<p class="note">Y una advertencia suya que aquí importa mucho: lo nuevo puede ser
+enriquecimiento o puede ser amenaza, y la diferencia está en si el animal puede
+elegir acercarse. Ofrece siempre; nunca impongas.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">10</span></div></div><div class="page ">
+<p class="eyebrow">Observar · Margaret Gruen</p>
+<h1 class="title">¿Es duelo, o es dolor?</h1>
+<p class="lead">Este capítulo es el más importante del libro. Confundir una cosa
+con la otra retrasa diagnósticos y cuesta vidas.</p>
+
+<p>Desde la medicina del comportamiento, Gruen insiste en algo que a menudo se pasa
+por alto: <strong>un cambio de conducta es, muchas veces, el primer signo de
+dolor o de enfermedad</strong>, mucho antes de que aparezca una cojera o un
+síntoma evidente.</p>
+
+<p>El problema es el momento. Si tu gato deja de comer la semana en que murió su
+compañero, lo lógico es pensar «está de duelo». Y puede serlo. Pero también puede
+ser una enfermedad que empezó justo entonces — y la etiqueta de duelo hace que
+esperes dos semanas de más.</p>
+
+<table>
+  <thead><tr><th style="width:92pt">Lo que ves</th><th>Puede ser duelo</th>
+  <th>Descarta dolor o enfermedad</th></tr></thead>
+  <tbody>
+    <tr><td>Come menos</td><td>Baja parcial unos días, luego se recupera</td>
+        <td>Rechazo total, o baja que dura más de 3-4 días</td></tr>
+    <tr><td>Se mueve menos</td><td>Duerme más, menos iniciativa, responde si le llamas</td>
+        <td>Rigidez, cojera, evita saltar o subir, se queja al tocarlo</td></tr>
+    <tr><td>Se esconde</td><td>Busca sitios altos o cerrados, sale a comer</td>
+        <td>No sale nunca, postura encogida, no se asea</td></tr>
+    <tr><td>Vocaliza</td><td>Llamadas al compañero, sobre todo al principio</td>
+        <td>Quejido al moverse, maullido nocturno nuevo en animal mayor</td></tr>
+    <tr><td>Se lame o acicala</td><td>Algo más de acicalado, sin lesión</td>
+        <td>Zona concreta, calva, herida, o deja de asearse del todo</td></tr>
+  </tbody>
+</table>
+
+<div class="box left-terra">
+  <p class="lbl">Qué llevar a la consulta</p>
+  <p>Lleva datos, no impresiones: cuántos días lleva comiendo menos, cuánto pesa
+  hoy comparado con antes, a qué hora ocurre lo que ves, y un vídeo corto con el
+  móvil. Un vídeo de treinta segundos vale más que diez minutos de explicación.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">11</span></div></div><div class="page ">
+<p class="eyebrow">Observar</p>
+<h1 class="title">El semáforo de señales</h1>
+<p class="lead">Qué es esperable, qué hay que vigilar y qué no admite espera.
+Ten esta página a mano las próximas semanas.</p>
+
+<div class="sem">
+  <p class="lbl">Verde · esperable, acompaña y observa</p>
+  <p>Busca por la casa y huele sus sitios · espera en la puerta o en su cama ·
+  duerme más de lo habitual · come algo menos durante unos días · se pega a ti y
+  te sigue de habitación en habitación · vocaliza más los primeros días ·
+  juega menos · duerme en el sitio del que se fue.</p>
+</div>
+
+<div class="sem amber">
+  <p class="lbl">Ámbar · ajusta y consulta si dura más de dos semanas</p>
+  <p>Come claramente menos durante más de tres o cuatro días · no juega nada en
+  absoluto · se esconde la mayor parte del día · vocalización nocturna nueva ·
+  se lame o se acicala en exceso · orina o defeca en casa habiéndolo dejado de
+  hacer hace años · destroza cosas cuando te vas · no puede quedarse solo ni un
+  minuto.</p>
+</div>
+
+<div class="sem red">
+  <p class="lbl">Rojo · llama al veterinario hoy</p>
+  <p>Un gato que no come nada en 24 horas — es una urgencia real, por riesgo de
+  lipidosis hepática · un perro que no come nada en 48 horas · vómitos o diarrea
+  · pérdida de peso rápida · no bebe · letargo extremo, no responde a estímulos ·
+  jadeo, temblor o inquietud constantes · agresividad que antes no existía ·
+  autolesión · cualquier signo de dolor.</p>
+</div>
+
+<p class="note">Ante la duda, llama. Ningún veterinario te va a reprochar una
+consulta de más en el mes en que se te acaba de morir un animal — y la mitad de
+los casos ámbar se resuelven con una llamada de diez minutos.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">12</span></div></div><div class="page ">
+<p class="eyebrow">Observar</p>
+<h1 class="title">Leer lo que no te puede decir</h1>
+<p class="lead">Todo lo que necesitas saber sobre cómo está te lo está diciendo
+con el cuerpo, ahora mismo.</p>
+
+<table>
+  <thead><tr><th style="width:128pt">Lo que hace</th><th style="width:104pt">Qué suele significar</th>
+  <th>Qué hacer tú</th></tr></thead>
+  <tbody>
+    <tr><td>Bosteza o se lame el hocico sin motivo</td><td>Tensión leve, señal de calma</td>
+        <td>Baja el ritmo, aparta la mirada, dale espacio</td></tr>
+    <tr><td>Aparta la mirada cuando le hablas</td><td>Evita el conflicto, está saturado</td>
+        <td>No insistas en el contacto ahora</td></tr>
+    <tr><td>Se ve el blanco del ojo, pupila muy dilatada</td><td>Tensión alta</td>
+        <td>Retírate y reduce estímulos de golpe</td></tr>
+    <tr><td>Orejas atrás, cuerpo bajo, cola recogida</td><td>Miedo o inseguridad</td>
+        <td>Voz baja, rutina, nada nuevo hoy</td></tr>
+    <tr><td>Te sigue a todas partes, no te pierde de vista</td><td>Búsqueda de seguridad</td>
+        <td>Atención programada tú, no cuando la pide</td></tr>
+    <tr><td>Olfatea largo un rincón, inmóvil</td><td>Está leyendo información</td>
+        <td>No le interrumpas nunca. Espera</td></tr>
+    <tr><td>Aullido o maullido largo y repetido</td><td>Llamada de separación</td>
+        <td>Rutina, presencia, veterinario si persiste</td></tr>
+    <tr><td>Duerme en el sitio del compañero</td><td>Procesa el vínculo</td>
+        <td>Permíteselo. No es morboso, es adaptativo</td></tr>
+  </tbody>
+</table>
+
+<p class="note">En gatos, añade tres señales propias: dejar de usar sitios altos,
+cambios en la caja de arena y dejar de acicalarse. Las tres son motivo de consulta
+si duran más de unos días.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">13</span></div></div><div class="page ">
+<p class="eyebrow terra">Actuar</p>
+<h1 class="title">El protocolo de 21 días</h1>
+<p class="lead">Tres semanas, tres fases, una tarea al día. Pensado para hacerse
+mientras tú también estás mal.</p>
+
+<div class="fig">
+<svg viewBox="0 0 372 108">
+  <rect x="0"   y="28" width="118" height="34" rx="6" fill="#e6eada"/>
+  <rect x="127" y="28" width="118" height="34" rx="6" fill="#f6e9d6"/>
+  <rect x="254" y="28" width="118" height="34" rx="6" fill="#f0dccd"/>
+  <text x="59"  y="44" text-anchor="middle" font-family="Liberation Sans" font-size="8"
+        font-weight="bold" fill="#748156" letter-spacing="1">DÍAS 1-7</text>
+  <text x="59"  y="56" text-anchor="middle" font-family="Liberation Serif" font-size="10.5"
+        fill="#3b2a20">Sostener</text>
+  <text x="186" y="44" text-anchor="middle" font-family="Liberation Sans" font-size="8"
+        font-weight="bold" fill="#9a6c1e" letter-spacing="1">DÍAS 8-14</text>
+  <text x="186" y="56" text-anchor="middle" font-family="Liberation Serif" font-size="10.5"
+        fill="#3b2a20">Reconstruir</text>
+  <text x="313" y="44" text-anchor="middle" font-family="Liberation Sans" font-size="8"
+        font-weight="bold" fill="#a8502e" letter-spacing="1">DÍAS 15-21</text>
+  <text x="313" y="56" text-anchor="middle" font-family="Liberation Serif" font-size="10.5"
+        fill="#3b2a20">Avanzar</text>
+  <path d="M119 45 l6 0" stroke="#9c7c63" stroke-width="1.2"/>
+  <path d="M246 45 l6 0" stroke="#9c7c63" stroke-width="1.2"/>
+  <text x="0"   y="80" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63">Estabilidad y olor</text>
+  <text x="127" y="80" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63">Calma reforzada y olfato</text>
+  <text x="254" y="80" font-family="Liberation Sans" font-size="7.4" fill="#9c7c63">Nueva normalidad</text>
+</svg></div>
+
+<p>Veintiún días no es un plazo mágico: es el tiempo que suele tardar la conducta
+de búsqueda en completar su curva, según lo que vimos en la página de Skinner.
+Algunos animales necesitan menos. Otros, sobre todo los que llevaban toda la vida
+con el compañero, necesitan bastante más.</p>
+
+<div class="box green">
+  <p class="lbl">Tres reglas para todo el protocolo</p>
+  <p><strong>No fuerces nada.</strong> Ofrece siempre, impón nunca. Si rechaza una
+  propuesta, no insistas: repítela mañana.<br>
+  <strong>Adelántate a la demanda.</strong> Dale atención cuando está tranquilo,
+  antes de que la pida llorando.<br>
+  <strong>Registra.</strong> Tres marcas al día en la página final. Sin registro no
+  vas a poder distinguir una mala tarde de un empeoramiento real.</p>
+</div>
+
+<div class="box left-terra">
+  <p class="lbl">Antes del día 1</p>
+  <p>Si hay cualquier señal roja del semáforo, el protocolo no empieza hoy: empieza
+  la consulta veterinaria. Este plan asume un animal sano que está triste, no un
+  animal enfermo.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">14</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num terra">01</div>
+  <div class="txt"><p class="eyebrow terra">Días 1 a 7</p><h1 class="title">Fase 1: Sostener</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Objetivo de la fase</p>
+  <p>Estabilidad total. No se cambia nada, no se retira nada, no se exige nada. Tu único objetivo esta semana es que el entorno vuelva a ser predecible.</p>
+</div>
+
+<table>
+  <thead class="terra"><tr><th style="width:26pt">Día</th><th>Qué hacer</th>
+  <th class="tick">&#10003;</th></tr></thead>
+  <tbody><tr><td class="day">1</td><td>Fija los horarios de comida, paseo y sueño, y escríbelos en un papel visible. No se mueven en 21 días.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">2</td><td>Deja todos los objetos del compañero exactamente donde están. Su cama, su manta, su cuenco.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">3</td><td>Permítele oler esos objetos todo el tiempo que quiera, sin llamarle ni interrumpirle.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">4</td><td>Quince minutos de presencia tranquila: en la misma habitación, sin exigir contacto ni juego.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">5</td><td>Comprueba y anota lo básico: come, bebe, orina, defeca, duerme. Sí o no.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">6</td><td>Paseo de olfato de veinte minutos, dejándole elegir dónde huele. Nada de correr ni entrenar.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">7</td><td>Revisión de la semana — repasa el semáforo entero y decide si hace falta llamar al veterinario.</td><td class="tick"><span class="chk"></span></td></tr></tbody>
+</table>
+
+<div class="dashed">
+  <p style="font-size:8.6pt;line-height:1.6;margin:0">
+  <b style="color:#a8502e">Ojo:</b> Esta semana es normal que empeore. Es el estallido de extinción: busca más, llama más, duerme peor. No cambies el plan por ello.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">15</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num terra">02</div>
+  <div class="txt"><p class="eyebrow terra">Días 8 a 14</p><h1 class="title">Fase 2: Reconstruir</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Objetivo de la fase</p>
+  <p>Empezar a reforzar la calma y a reactivar el sistema de búsqueda, sin retirar todavía nada de lo que le ancla.</p>
+</div>
+
+<table>
+  <thead class="terra"><tr><th style="width:26pt">Día</th><th>Qué hacer</th>
+  <th class="tick">&#10003;</th></tr></thead>
+  <tbody><tr><td class="day">8</td><td>Refuerza la calma: cada vez que le veas tumbado y relajado, acércate y prémiale en voz baja.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">9</td><td>Atención programada: tres momentos fijos al día que empiezas tú, no cuando él la reclama.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">10</td><td>Nosework en casa: esconde diez premios por una habitación y déjale buscarlos solo.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">11</td><td>Ofrece juego corto, dos minutos. Si no responde, guárdalo y vuelve a ofrecerlo mañana.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">12</td><td>Retira el primer objeto: el que menos use. Solo uno. Guárdalo sin lavar.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">13</td><td>Salida distinta: una ruta nueva, corta, tranquila. Que pueda parar a oler cuanto quiera.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">14</td><td>Revisión de la semana — compara con el día 7. ¿La búsqueda ha empezado a bajar?</td><td class="tick"><span class="chk"></span></td></tr></tbody>
+</table>
+
+<div class="dashed">
+  <p style="font-size:8.6pt;line-height:1.6;margin:0">
+  <b style="color:#a8502e">Ojo:</b> Si vive pegado a ti, empieza también trabajo de independencia: sal de la habitación treinta segundos y vuelve sin saludar. Ve alargando poco a poco.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">16</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num terra">03</div>
+  <div class="txt"><p class="eyebrow terra">Días 15 a 21</p><h1 class="title">Fase 3: Avanzar</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Objetivo de la fase</p>
+  <p>Consolidar la nueva normalidad y decidir, con datos, si hace falta algo más.</p>
+</div>
+
+<table>
+  <thead class="terra"><tr><th style="width:26pt">Día</th><th>Qué hacer</th>
+  <th class="tick">&#10003;</th></tr></thead>
+  <tbody><tr><td class="day">15</td><td>Consolida la rutina nueva: la que quieres mantener dentro de seis meses, no la de emergencia.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">16</td><td>Retira un segundo objeto. Mantén siempre al menos uno con su olor.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">17</td><td>Encuentro social tranquilo: un perro conocido y afín, o una persona a la que quiera. Sin multitudes.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">18</td><td>Enriquecimiento estable: kong, tapete de olfateo o juguete dispensador, a la misma hora cada día.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">19</td><td>Repasa el semáforo completo y compáralo con el del día 7.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">20</td><td>Si sigue habiendo señales ámbar, pide cita veterinaria y lleva tu registro y un vídeo.</td><td class="tick"><span class="chk"></span></td></tr><tr><td class="day">21</td><td>Revisión final — compara el día 21 con el día 1, categoría por categoría.</td><td class="tick"><span class="chk"></span></td></tr></tbody>
+</table>
+
+<div class="dashed">
+  <p style="font-size:8.6pt;line-height:1.6;margin:0">
+  <b style="color:#a8502e">Ojo:</b> Al terminar, no retomes la vida anterior: construye la nueva. La rutina que sostengas a partir de aquí es la que va a sostenerle a él.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">17</span></div></div><div class="page ">
+<p class="eyebrow">Actuar · B. F. Skinner aplicado</p>
+<h1 class="title">Reforzar la calma, no el llanto</h1>
+<p class="lead">Sin querer, es fácil enseñarle que la única forma de conseguirte
+es estar mal.</p>
+
+<p>Si solo te acercas cuando llora, cuando aúlla o cuando rasca la puerta, esas
+conductas obtienen tu presencia — que es justo lo que más valor tiene para él ahora
+mismo. La consecuencia es que se hacen más frecuentes. No porque manipule: porque
+así funciona el aprendizaje.</p>
+
+<div class="box green">
+  <p class="lbl">La regla de los tres momentos</p>
+  <p>Elige tres momentos fijos del día para darle atención plena. Los empiezas
+  tú. Y busca activamente, varias veces al día, momentos en los que esté tumbado y
+  tranquilo, para acercarte, acariciarle en voz baja o dejarle un premio junto a la
+  cama. Eso es reforzar la calma.</p>
+</div>
+
+<h2 class="sec">Los ocho errores más frecuentes</h2>
+<ul class="clean terra">
+  <li><b>Retirarlo todo el primer día</b> «para que no sufra». Le borras la información que necesita.</li>
+  <li><b>Adoptar otro animal de inmediato</b> para que no esté solo. Añade estrés justo cuando menos margen tiene.</li>
+  <li><b>Atender solo cuando llora.</b> Refuerzas exactamente la conducta que quieres reducir.</li>
+  <li><b>Cambiarlo todo:</b> mudanza, obras, viajes, muebles nuevos. Este mes, si puedes, nada de eso.</li>
+  <li><b>Llamar duelo a lo que es dolor.</b> Revisa siempre la página del semáforo antes de interpretar.</li>
+  <li><b>Forzar el juego o el contacto.</b> Ofrecer sí, insistir no.</li>
+  <li><b>Castigar las conductas regresivas</b> — pipí en casa, destrozos. Son síntomas, no desafíos.</li>
+  <li><b>Olvidarte de ti.</b> Tu estado es su entorno. Cuidarte a ti es, literalmente, cuidarle a él.</li>
+</ul>
+
+<p class="note">Y uno que no es un error, aunque lo parezca: hablarle en voz alta
+del que se fue. Puedes hacerlo. A él le llega tu tono, y a ti te hace bien.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">18</span></div></div><div class="page ">
+<p class="eyebrow">Decidir</p>
+<h1 class="title">¿Otro compañero para él?</h1>
+<p class="lead">La pregunta llega siempre. La respuesta correcta depende del
+animal que tienes delante, no de lo que a ti te alivie.</p>
+
+<div class="grid2">
+  <div class="box green" style="height:auto">
+    <p class="lbl">Señales de que podría ir bien</p>
+    <p>Ha recuperado apetito y sueño · busca a otros animales en la calle ·
+    siempre fue sociable · han pasado al menos seis u ocho semanas · puedes
+    decidirlo con la cabeza serena, no para llenar tu propio silencio.</p>
+  </div>
+  <div class="box left-terra" style="height:auto">
+    <p class="lbl">Señales de que todavía no</p>
+    <p>Sigue sin comer bien o sin dormir · no juega nada · siempre prefirió estar
+    solo · es mayor, tiene dolor o una enfermedad crónica · han pasado menos de
+    seis semanas · lo piensas porque no soportas verle triste.</p>
+  </div>
+</div>
+
+<h2 class="sec">Si decides que sí</h2>
+<ul class="clean">
+  <li><b>Terreno neutro.</b> La primera presentación, fuera de casa: un paseo paralelo, sin saludo forzado.</li>
+  <li><b>Recursos duplicados.</b> Dos camas, dos cuencos, dos bebederos, dos areneros más uno, en sitios distintos.</li>
+  <li><b>Espacios separados</b> las primeras semanas, con encuentros cortos que terminas tú antes de que se tuerzan.</li>
+  <li><b>Nada de comparar.</b> No busques uno «parecido» al que se fue: esa comparación le perjudica desde el primer día.</li>
+  <li><b>Prioriza al que ya está.</b> Su rutina, su sitio y su atención se mantienen intactos. El que llega se adapta a ellos.</li>
+</ul>
+
+<div class="box left-green">
+  <p class="lbl">Y una posibilidad que casi nadie plantea</p>
+  <p>Algunos animales, tras años compartiendo casa, están mejor solos: más
+  tranquilos y con menos competencia por los recursos. Si el tuyo mejora semana a
+  semana estando solo, esa también es una respuesta.</p>
+</div>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">19</span></div></div><div class="page ">
+<p class="eyebrow">Registro</p>
+<h1 class="title">Mis 21 días</h1>
+<p class="lead">Una marca por casilla. Sin registro no hay forma de distinguir una
+mala tarde de un empeoramiento real.</p>
+
+<table class="compact" style="margin-bottom:6pt">
+  <thead><tr><th style="width:24pt">Día</th><th style="width:44pt">Come</th>
+  <th style="width:44pt">Bebe</th><th style="width:46pt">Duerme</th>
+  <th style="width:44pt">Juega</th><th>Qué he observado hoy</th></tr></thead>
+  <tbody><tr><td class="day green">1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">3</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">4</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">5</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">6</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">7</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">8</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">9</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">10</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">11</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">12</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">14</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">15</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">16</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">17</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">18</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">19</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">20</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="day green">21</td><td></td><td></td><td></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="note" style="margin-top:4pt">Marca &#10003; si es normal, &#8211; si está
+por debajo de lo habitual, &#10007; si no lo hace en absoluto. En la última columna,
+tres palabras bastan. Compara el día 21 con el día 1 columna por columna.</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">20</span></div></div><div class="page ">
+<p class="eyebrow">Para cerrar</p>
+<h1 class="title">Los dos duelos de esta casa</h1>
+
+<p>Hay algo que muchas personas descubren en estas semanas y que casi nadie
+anticipa: cuidar del animal que se quedó las sostiene a ellas.</p>
+
+<p>Porque obliga a levantarse a una hora. A salir a la calle. A comprar comida. A
+mantener una rutina cuando lo único que apetece es no tener ninguna. Y porque, al
+final del día, hay alguien que sigue subiéndose al sofá.</p>
+
+<p>No es casualidad. Las dos cosas que mejor funcionan para él — rutina estable y
+presencia tranquila — son exactamente las dos que mejor funcionan para ti. Este
+libro es, en el fondo, un mismo plan escrito para dos.</p>
+
+<div class="quote">Estáis haciendo el duelo juntos.<br>
+Tu calma es su calma.<br>Y su compañía, aunque no lo parezca hoy, es la tuya.</div>
+
+<hr class="rule soft">
+
+<h2 class="sec">Para seguir leyendo</h2>
+<p class="ref"><b>Konrad Lorenz</b> — <em>Hablaba con las bestias, los peces y los
+pájaros</em> · <em>Cuando el hombre encontró al perro</em>.</p>
+<p class="ref"><b>Jaak Panksepp</b> — <em>Affective Neuroscience</em> ·
+<em>The Archaeology of Mind</em>.</p>
+<p class="ref"><b>Alexandra Horowitz</b> — <em>En la mente de un perro</em> ·
+<em>Ser perro</em>.</p>
+<p class="ref"><b>Brian Hare y Vanessa Woods</b> — <em>El genio de los perros</em> ·
+<em>La supervivencia de los más amigables</em>.</p>
+<p class="ref"><b>Temple Grandin</b> — <em>Interpretar a los animales</em> ·
+<em>Cómo hacer felices a los animales</em>.</p>
+<p class="ref"><b>B. F. Skinner</b> — <em>Ciencia y conducta humana</em>.</p>
+<p class="ref"><b>Iván Pávlov</b> — <em>Los reflejos condicionados</em>.</p>
+<p class="ref"><b>Margaret Gruen</b> — publicaciones sobre dolor y medicina del
+comportamiento, College of Veterinary Medicine, NC State University.</p>
+
+<p class="note" style="text-align:center;margin-top:14pt">
+Sigue Contigo — Libro 4 de 4 · Ellos También se Despiden<br>tremdora</p>
+<div class="pfoot"><span>Ellos También se Despiden · Sigue Contigo · Libro 4 de 4</span><span class="n">21</span></div></div></body></html>

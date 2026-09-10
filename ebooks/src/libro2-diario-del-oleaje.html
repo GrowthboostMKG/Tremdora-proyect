@@ -1,0 +1,774 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Sigue Contigo — Diario del Oleaje</title><style>/* ============================================================
+   TREMDORA — Sistema editorial de la serie "Sigue Contigo"
+   Paleta y retícula heredadas de "Edad Dorada" / "Hogar en Calma"
+   Formato: 468pt x 679.92pt  (mismo trim que el resto de la serie)
+   ============================================================ */
+
+:root{
+  --ink:        #3b2a20;   /* texto principal            */
+  --ink-soft:   #6b4a38;   /* subtítulos, texto de apoyo */
+  --muted:      #9c7c63;   /* pies, notas                */
+  --line:       #e2cfb4;   /* filetes y bordes           */
+  --bg:         #fbf3e6;   /* fondo de página            */
+  --panel:      #f6e9d6;   /* cajas y filas alternas     */
+  --paper:      #fdf8f0;   /* cajas claras               */
+  --green:      #748156;   /* acento salvia              */
+  --green-soft: #e6eada;
+  --green-line: #c9d1ae;
+  --terra:      #a8502e;   /* acento terracota           */
+  --terra-soft: #c1613a;
+  --terra-pale: #f0dccd;
+}
+
+@page { size: 468pt 679.92pt; margin: 0; }
+
+*{ box-sizing: border-box; }
+
+html,body{
+  margin:0; padding:0;
+  background:#fff;
+  color:var(--ink);
+  font-family:'Liberation Sans', Arial, Helvetica, sans-serif;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page{
+  position:relative;
+  width:468pt; height:679.92pt;
+  padding:44pt 48pt 34pt;
+  background:var(--bg);
+  page-break-after:always;
+  overflow:hidden;
+}
+.page:last-child{ page-break-after:auto; }
+
+/* ---------- Tipografía base ---------- */
+p{ font-size:9.5pt; line-height:1.72; margin:0 0 8pt; }
+strong{ font-weight:bold; }
+em{ font-style:italic; }
+
+.eyebrow{
+  font-size:7.6pt; letter-spacing:2.1pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; margin:0 0 6pt;
+}
+.eyebrow.terra{ color:var(--terra-soft); }
+
+h1.title{
+  font-family:'Liberation Serif', Georgia, 'Times New Roman', serif;
+  font-size:19pt; font-weight:bold; line-height:1.25;
+  margin:0 0 14pt; letter-spacing:-.2pt;
+}
+h2.sec{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:12.5pt; font-weight:bold; margin:16pt 0 7pt;
+}
+h3.sub{
+  font-size:8.4pt; letter-spacing:1.5pt; text-transform:uppercase;
+  color:var(--terra); font-weight:bold; margin:12pt 0 5pt;
+}
+
+.lead{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:10.5pt; line-height:1.6;
+  color:var(--ink-soft); margin:0 0 14pt;
+}
+
+.rule{ height:1px; background:var(--line); border:0; margin:14pt 0; }
+.rule.soft{ background:linear-gradient(90deg,var(--line),var(--green-line),transparent); }
+
+/* ---------- Cabecera de capítulo / semana ---------- */
+.wk-head{ display:flex; align-items:flex-start; gap:12pt; margin-bottom:14pt; }
+.wk-num{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:30pt; font-weight:bold; line-height:.85;
+  color:var(--green-line); letter-spacing:-1pt;
+}
+.wk-num.terra{ color:var(--terra-pale); }
+.wk-head .txt{ padding-top:2pt; }
+.wk-head .eyebrow{ margin-bottom:3pt; }
+.wk-head h1.title{ font-size:16pt; margin:0; }
+
+/* ---------- Cajas ---------- */
+.box{
+  background:var(--panel); border-radius:5pt;
+  padding:11pt 14pt; margin:0 0 11pt;
+}
+.box.green{ background:var(--green-soft); }
+.box.paper{ background:var(--paper); border:.7pt solid var(--line); }
+.box.left-terra{ border-left:3pt solid var(--terra); background:var(--panel); border-radius:0 5pt 5pt 0; }
+.box.left-green{ border-left:3pt solid var(--green); background:var(--green-soft); border-radius:0 5pt 5pt 0; }
+.box .lbl{
+  font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+  font-weight:bold; color:var(--terra); margin:0 0 5pt;
+}
+.box.green .lbl, .box.left-green .lbl{ color:var(--green); }
+.box p:last-child{ margin-bottom:0; }
+.box p{ font-size:9pt; }
+
+.dashed{
+  border:1pt dashed var(--line); border-radius:5pt;
+  padding:11pt 14pt; margin:11pt 0; background:transparent;
+}
+.dashed .lbl{
+  font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+  font-weight:bold; color:var(--terra); margin:0 0 7pt;
+}
+
+.quote{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:11.5pt; line-height:1.5;
+  color:var(--terra); text-align:center;
+  margin:16pt 22pt; 
+}
+.quote.green{ color:var(--green); }
+
+/* ---------- Tablas ---------- */
+table{ width:100%; border-collapse:collapse; margin:0 0 10pt; }
+thead th{
+  background:var(--green); color:#fdf8f0;
+  font-size:7.6pt; letter-spacing:1pt; text-transform:uppercase;
+  font-weight:bold; text-align:left; padding:6.5pt 8pt;
+  white-space:nowrap;
+}
+thead.terra th{ background:var(--terra-soft); }
+tbody td{
+  font-size:8.6pt; line-height:1.5; padding:7pt 8pt;
+  border-bottom:.7pt solid var(--line); vertical-align:top;
+}
+tbody tr:nth-child(odd) td{ background:var(--panel); }
+tbody tr:nth-child(even) td{ background:transparent; }
+td.day{ font-weight:bold; color:var(--terra); width:22pt; }
+td.day.green{ color:var(--green); }
+th.tick, td.tick{ width:22pt; text-align:center; }
+.chk{
+  display:inline-block; width:9pt; height:9pt;
+  border:.8pt solid var(--muted); border-radius:2pt;
+}
+td.blank{ height:19pt; }
+table.compact tbody td{ padding:3.4pt 8pt; height:12pt; font-size:8.2pt; }
+table.compact thead th{ padding:5pt 8pt; }
+table.compact tbody td{ border-right:.7pt solid var(--line); }
+table.compact tbody td:last-child{ border-right:0; }
+
+/* ---------- Renglones para escribir ---------- */
+.write{ border-bottom:.7pt solid var(--line); height:17pt; }
+.write.dot{ border-bottom:.9pt dotted var(--line); }
+.ask{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:9.2pt; color:var(--terra-soft);
+  margin:10pt 0 3pt;
+}
+
+/* ---------- Píldoras y fichas ---------- */
+.pill{
+  display:inline-block; border:.7pt solid var(--line); background:var(--paper);
+  border-radius:20pt; padding:3.5pt 10pt; font-size:8pt; margin:0 4pt 5pt 0;
+}
+.pill b{ color:var(--ink); }
+
+.stats{ display:flex; gap:9pt; margin:12pt 0; }
+.stat{
+  flex:1; background:var(--paper); border:.7pt solid var(--line);
+  border-radius:5pt; padding:9pt 8pt; text-align:center;
+}
+.stat .n{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:17pt; font-weight:bold; color:var(--terra); line-height:1;
+}
+.stat .n.green{ color:var(--green); }
+.stat .t{
+  font-size:6.6pt; letter-spacing:.9pt; text-transform:uppercase;
+  color:var(--muted); margin-top:4pt; line-height:1.35;
+}
+
+.grid2{ display:flex; gap:10pt; }
+.grid2 > *{ flex:1; min-width:0; }
+
+.ficha{ width:100%; border-collapse:collapse; }
+.ficha td{ border:0; border-bottom:.7pt solid var(--line); padding:9pt 0 4pt; background:none; }
+.ficha td.k{ width:38%; font-size:8.4pt; color:var(--ink-soft); vertical-align:bottom; }
+
+ul.clean{ margin:0 0 9pt; padding:0 0 0 12pt; }
+ul.clean li{ font-size:9pt; line-height:1.62; margin-bottom:4.5pt; }
+ul.clean li::marker{ color:var(--green); }
+ul.clean.terra li::marker{ color:var(--terra-soft); }
+
+.note{
+  font-size:8.2pt; line-height:1.55; color:var(--muted);
+  font-style:italic; margin-top:9pt;
+}
+
+/* ---------- Ficha de científico ---------- */
+.sci{
+  background:var(--paper); border:.7pt solid var(--line); border-radius:5pt;
+  padding:9pt 11pt; margin-bottom:8pt;
+}
+.sci .nm{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:10.5pt; font-weight:bold; margin:0;
+}
+.sci .fl{
+  font-size:7.2pt; letter-spacing:1.1pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; margin:2pt 0 5pt;
+}
+.sci p{ font-size:8.4pt; line-height:1.55; margin:0; }
+
+/* ---------- Portada ---------- */
+.cover{
+  padding:0; display:flex; flex-direction:column; align-items:center;
+  background:
+    radial-gradient(120% 85% at 12% 0%,  #f7e4c0 0%, rgba(247,228,192,0) 58%),
+    radial-gradient(120% 85% at 92% 100%, #dfe3cd 0%, rgba(223,227,205,0) 55%),
+    #fbf3e6;
+}
+.cover .badge{
+  margin-top:52pt; border:.8pt solid var(--green-line); background:rgba(253,248,240,.72);
+  border-radius:20pt; padding:5pt 15pt;
+  font-size:7.6pt; letter-spacing:2pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold;
+}
+.cover .kicker{
+  margin-top:16pt; font-size:8pt; letter-spacing:2.6pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; text-align:center;
+}
+.cover .emblem{ margin-top:32pt; width:152pt; }
+.cover .emblem svg{ width:100%; height:auto; display:block; }
+.fig{ margin:8pt 0 12pt; }
+.fig svg{ width:100%; height:auto; display:block; }
+.figcap{ font-size:7.4pt; color:var(--muted); text-align:center;
+         letter-spacing:.5pt; margin-top:5pt; }
+.cover h1{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:29pt; font-weight:bold; line-height:1.15;
+  text-align:center; margin:34pt 42pt 0; letter-spacing:-.4pt;
+}
+.cover h1 i{ color:var(--terra); font-style:italic; }
+.cover .sub{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:11pt; line-height:1.6;
+  color:var(--ink-soft); text-align:center; margin:16pt 62pt 0;
+}
+.cover .foot{
+  position:absolute; left:0; right:0; bottom:44pt; text-align:center;
+  font-size:8.6pt; color:var(--muted); line-height:1.7;
+}
+.cover .foot b{ color:var(--ink-soft); }
+
+/* ---------- Pie de página ---------- */
+.pfoot{
+  position:absolute; left:48pt; right:48pt; bottom:24pt;
+  border-top:.7pt solid var(--line); padding-top:6pt;
+  font-size:7.2pt; color:var(--muted); display:flex; justify-content:space-between;
+}
+.pfoot .n{ letter-spacing:.6pt; }
+</style></head><body><div class="page cover">
+<div class="badge">Libro 2 de 4 · el registro</div>
+<div class="kicker">Compañero de escritura diaria</div>
+<div class="emblem">
+<svg viewBox="0 0 150 150">
+  <circle cx="75" cy="75" r="62" fill="none" stroke="#748156" stroke-width="1.1"/>
+  <path d="M28 88 Q42 62 56 88 T84 88 T112 88" fill="none" stroke="#c1613a"
+        stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 100 Q42 80 56 100 T84 100 T112 100" fill="none" stroke="#e2cfb4"
+        stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M75 58 c-6-11-22-9-22 3 0 9 12 16 22 25 10-9 22-16 22-25 0-12-16-14-22-3z"
+        fill="#f6e9d6" stroke="#a8502e" stroke-width="1.4" stroke-linejoin="round"/>
+</svg></div>
+<h1>Diario del <i>Oleaje</i></h1>
+<div class="sub">Ocho semanas para escribir lo que duele,<br>y descubrir que no todos los días son iguales</div>
+<div class="foot">Segundo libro de la serie <b>Sigue Contigo</b><br>
+Compañero del eBook y del Plan Práctico de 8 Semanas</div>
+</div><div class="page ">
+<p class="eyebrow">Sobre este diario</p>
+<h1 class="title">Diario del Oleaje</h1>
+<p class="lead">El duelo no baja en línea recta. Baja en olas — y las olas solo
+se ven cuando alguien las anota.</p>
+
+<p>Este diario nace de un ejercicio concreto del eBook <em>Sigue Contigo</em>: el
+diario del oleaje del Capítulo III. Aquí lo tienes ya preparado, semana a semana,
+para que no tengas que construir nada cuando menos fuerzas tienes.</p>
+
+<p>Cada noche vas a escribir dos números y una frase corta. Nada más. Ni un ensayo,
+ni una explicación, ni una justificación. Dos números y una frase.</p>
+
+<p>Al cabo de ocho semanas vas a releerlo. Y vas a ver, en tu propia letra, algo que
+ahora mismo no puedes creer: que hubo días mejores. Que hubo momentos en que
+respiraste. Que el dolor, aunque siga ahí, ha cambiado de forma.</p>
+
+<div class="box left-green">
+  <p class="lbl">Por qué funciona</p>
+  <p>Poner palabras a una emoción reduce su intensidad en el sistema límbico. El
+  neurocientífico Matthew Lieberman lo llamó <em>affect labeling</em>: nombrar el sentir
+  literalmente baja la activación de la amígdala. Escribir no es desahogo. Es
+  neurología aplicada.</p>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="n">8</div><div class="t">semanas<br>de registro</div></div>
+  <div class="stat"><div class="n green">2</div><div class="t">números<br>al día</div></div>
+  <div class="stat"><div class="n">3</div><div class="t">minutos<br>por noche</div></div>
+</div>
+
+<p class="note">Úsalo junto al eBook (capítulos I, III, V y X en especial) y al Plan
+Práctico de 8 Semanas, tercer libro de la serie.</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">2</span></div></div><div class="page ">
+<p class="eyebrow">Antes de empezar</p>
+<h1 class="title">Cómo usar este diario</h1>
+
+<div class="box left-terra">
+  <p class="lbl">Tres minutos, por la noche</p>
+  <p>Escribe antes de dormir, cuando el día ya no puede pedirte nada más. Si una noche
+  no puedes, no pasa nada: deja la casilla en blanco. Un hueco también es información.</p>
+</div>
+
+<div class="box left-terra">
+  <p class="lbl">No corrijas, no releas, no expliques</p>
+  <p>Este cuaderno no es para nadie más. No tiene que estar bien escrito ni tener
+  sentido. Si un día solo puedes poner un número y una palabra fea, ponla.</p>
+</div>
+
+<div class="box left-terra">
+  <p class="lbl">Anota también lo que te sostuvo</p>
+  <p>La tercera casilla — <em>lo que me ha sostenido hoy</em> — es la más importante de
+  las tres. Puede ser una ducha caliente, una llamada, el sol en la ventana, una serie
+  tonta. Escríbelo. Dentro de ocho semanas esa columna será tu mapa de recursos.</p>
+</div>
+
+<hr class="rule soft">
+
+<h2 class="sec">Las dos escalas que usarás cada día</h2>
+<p><span class="pill"><b>La ola 1-5</b> — 1: hoy casi no me alcanzó · 5: hoy me
+tumbó entera, entero</span></p>
+<p><span class="pill"><b>El cuerpo 1-5</b> — 1: dormí, comí, funcioné ·
+5: no dormí, no comí, me dolía todo</span></p>
+
+<p class="note">No busques que los números bajen. No es un examen y no se aprueba.
+Solo se registra. Si después de seis semanas los tuyos siguen todos en 4 y 5, o si
+en algún momento aparece la idea de no querer seguir aquí, por favor pide ayuda
+profesional. Eso no es fracasar en el duelo: es cuidarte como cuidarías de él o de ella.</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">3</span></div></div><div class="page ">
+<p class="eyebrow">Lo que vas a ver</p>
+<h1 class="title">La forma real del duelo</h1>
+<p class="lead">Esperas una cuesta abajo. Lo que hay es un oleaje que, muy despacio,
+va perdiendo altura.</p>
+
+<div class="fig">
+<svg viewBox="0 0 372 196">
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c1613a" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#c1613a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="30" y1="160" x2="358" y2="160" stroke="#e2cfb4" stroke-width="1"/>
+  <line x1="30" y1="20"  x2="30"  y2="160" stroke="#e2cfb4" stroke-width="1"/>
+  <path d="M30 160 L30 46 C48 22 60 30 72 44 C84 60 92 40 104 34
+           C120 26 128 62 142 70 C156 78 162 46 176 54
+           C192 63 196 96 212 96 C228 96 234 66 248 76
+           C262 86 266 116 282 114 C298 112 302 90 318 100
+           C332 109 338 126 358 124 L358 160 Z"
+        fill="url(#wg)"/>
+  <path d="M30 46 C48 22 60 30 72 44 C84 60 92 40 104 34
+           C120 26 128 62 142 70 C156 78 162 46 176 54
+           C192 63 196 96 212 96 C228 96 234 66 248 76
+           C262 86 266 116 282 114 C298 112 302 90 318 100
+           C332 109 338 126 358 124"
+        fill="none" stroke="#a8502e" stroke-width="1.9" stroke-linecap="round"/>
+  <path d="M30 52 L358 132" fill="none" stroke="#748156" stroke-width="1.3"
+        stroke-dasharray="4 4"/>
+  <text x="34" y="16" font-family="Liberation Sans" font-size="7.5" fill="#9c7c63"
+        letter-spacing=".8">INTENSIDAD DEL DOLOR</text>
+  <text x="300" y="174" font-family="Liberation Sans" font-size="7.5" fill="#9c7c63"
+        letter-spacing=".8">TIEMPO</text>
+  <text x="238" y="152" font-family="Liberation Sans" font-size="7.2" fill="#748156"
+        letter-spacing=".6">TENDENCIA REAL DE FONDO</text>
+</svg><div class="figcap">El duelo vivido (naranja) frente al duelo real (verde)</div></div>
+
+<p>La línea naranja es tu duelo día a día. La línea verde discontinua es lo que
+realmente está pasando por debajo: una tendencia lenta, casi invisible en el
+momento, que solo se aprecia cuando miras semanas enteras a la vez.</p>
+
+<p>Por eso este diario existe. Dentro de una ola no se puede ver el oleaje. Vas a
+tener días de retroceso — el día 40 puede doler más que el día 12 — y sin un
+registro pensarás que has empeorado. No has empeorado. Has tenido una ola.</p>
+
+<div class="box green">
+  <p class="lbl">Las cuatro fases, sin calendario</p>
+  <p><strong>1 · Shock</strong> — no te lo crees, funcionas en automático.<br>
+  <strong>2 · Dolor agudo</strong> — la fase más dura, con la culpa en primer plano.<br>
+  <strong>3 · Reorganización</strong> — aparecen días buenos y con ellos la culpa de tenerlos.<br>
+  <strong>4 · Integración</strong> — su recuerdo deja de ser herida y empieza a abrigar.</p>
+</div>
+
+<p class="note">Nadie las atraviesa en orden. Se salta, se vuelve atrás, se repite.
+Las fases no te dicen dónde deberías estar: te dicen que donde estás tiene nombre.</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">4</span></div></div><div class="page ">
+<p class="eyebrow">Punto de partida</p>
+<h1 class="title">Antes de la primera noche</h1>
+<p class="lead">Rellena esta página una sola vez. Volverás a ella en la semana ocho.</p>
+
+<table class="ficha">
+  <tr><td class="k">Su nombre</td><td class="write"></td></tr>
+  <tr><td class="k">Cuánto tiempo estuvimos juntos</td><td class="write"></td></tr>
+  <tr><td class="k">El día que se fue</td><td class="write"></td></tr>
+  <tr><td class="k">Empiezo este diario el</td><td class="write"></td></tr>
+  <tr><td class="k">Lo que más echo de menos</td><td class="write"></td></tr>
+  <tr><td class="k">Lo que nadie sabe que echo de menos</td><td class="write"></td></tr>
+  <tr><td class="k">Quién me está acompañando</td><td class="write"></td></tr>
+  <tr><td class="k">Quién más se quedó en casa<br>
+      <span style="font-size:7.4pt;color:#9c7c63">(otras mascotas, si las hay)</span></td>
+      <td class="write"></td></tr>
+</table>
+
+<p class="ask">Hoy, antes de empezar: del 1 al 5, ¿cómo de alta está la ola?</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Una frase para él, para ella, antes de empezar</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+
+<p class="note">No hace falta que la rellenes entera hoy. Puedes dejar líneas en
+blanco y volver cuando puedas sostenerlas.</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">5</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">01</div>
+  <div class="txt"><p class="eyebrow">Semana 1</p><h1 class="title">Sobrevivir los primeros días</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Ninguna exigencia. Comer algo, beber agua, dormir lo que salga. No tomes decisiones importantes y no muevas sus cosas todavía.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">¿Qué es lo único que has conseguido hacer hoy por ti?</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Qué cosa suya has decidido no mover todavía? Escríbelo, para no dudarlo mañana.</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">6</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">02</div>
+  <div class="txt"><p class="eyebrow">Semana 2</p><h1 class="title">Ponerle nombre a la ola</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Cada noche, una palabra exacta para lo que sientes. No «mal»: rabia, vacío, miedo, alivio, injusticia. La palabra precisa es la que baja la intensidad.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">¿Qué palabra se ha repetido más esta semana?</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Hubo algún momento en que la ola bajó sola, sin que la forzaras?</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">7</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">03</div>
+  <div class="txt"><p class="eyebrow">Semana 3</p><h1 class="title">La culpa, de frente</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Sacar la culpa del bucle mental y ponerla por escrito una sola vez. Lo que se escribe deja de dar vueltas.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">Escribe la frase exacta de tu culpa, tal cual suena por dentro.</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">Si alguien a quien quieres te dijera esa misma frase sobre sí mismo, ¿qué le responderías?</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">8</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">04</div>
+  <div class="txt"><p class="eyebrow">Semana 4</p><h1 class="title">Quién sostiene y quién no</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Dibujar tu círculo seguro (ejercicio 4 del eBook) y usarlo de verdad: una conversación real con alguien de ese círculo.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">¿Quién te ha sostenido esta semana sin que tuvieras que explicarte?</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Con quién has decidido no hablar de esto? Escribirlo también es protegerte.</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">9</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">05</div>
+  <div class="txt"><p class="eyebrow">Semana 5</p><h1 class="title">Su lugar en casa</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Crear su rincón o colocar su urna, despacio y con intención. Un sitio concreto al que ir cuando la ausencia no cabe en ningún sitio.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">¿Qué objetos has elegido para su rincón, y por qué esos?</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Cómo te sentiste al colocarlo? Sé honesta, honesto: también vale «no pude».</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">10</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">06</div>
+  <div class="txt"><p class="eyebrow">Semana 6</p><h1 class="title">Lo que me enseñó</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Recoger la herencia. Cada noche, una cosa concreta que aprendiste a su lado. Puede ser diminuta.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">Escribe las tres que más te han sorprendido de la semana.</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Cuál de ellas puedes devolverle a tu propia vida los próximos siete días?</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">11</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">07</div>
+  <div class="txt"><p class="eyebrow">Semana 7</p><h1 class="title">Quien se queda</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Mirar a la otra mascota de la casa — o a ti, si el superviviente eres tú. Rutinas estables, presencia tranquila, quince minutos exclusivos al día.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">¿Qué has notado esta semana en tu otra mascota, o en el silencio de la casa?</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Qué rutina habéis conseguido sostener pase lo que pase?</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">12</span></div></div><div class="page ">
+<div class="wk-head">
+  <div class="wk-num">08</div>
+  <div class="txt"><p class="eyebrow">Semana 8</p><h1 class="title">Mirar hacia atrás</h1></div>
+</div>
+
+<div class="box green">
+  <p class="lbl">Lo que esta semana te pide</p>
+  <p>Releer el diario entero, desde la primera noche. Sin saltarte nada. Con papel y bolígrafo al lado.</p>
+</div>
+
+<table>
+  <thead><tr><th style="width:22pt">Día</th><th style="width:58pt">Ola 1-5</th>
+  <th style="width:70pt">Cuerpo 1-5</th><th>Lo que me ha sostenido hoy</th></tr></thead>
+  <tbody><tr><td class="day">L</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">M</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">X</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">J</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">V</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">S</td><td class="blank"></td><td></td><td></td></tr><tr><td class="day">D</td><td class="blank"></td><td></td><td></td></tr></tbody>
+</table>
+
+<p class="ask">Relee la semana 1 y compárala con hoy. ¿Qué ha cambiado, aunque sea poco?</p>
+<div class="write"></div>
+<div class="write"></div>
+
+<p class="ask">¿Qué necesitas tú — tú, no él, no ella — para el mes que viene?</p>
+<div class="write"></div>
+
+<div class="dashed">
+  <p class="lbl">Tres gestos de cuidado de esta semana</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">13</span></div></div><div class="page ">
+<p class="eyebrow terra">Para los días imposibles</p>
+<h1 class="title">Cuando la ola te sobrepasa</h1>
+<p class="lead">Tres herramientas de emergencia. No quitan el dolor: evitan que
+te ahogues dentro de él.</p>
+
+<div class="box left-terra">
+  <p class="lbl">1 · Anclaje 4-6 · dos minutos</p>
+  <p>Una mano en el pecho, otra en el vientre. Inspira contando 4, espira contando 6.
+  Diez veces. Mientras respiras, repite por dentro: <em>«esto duele, y voy a
+  sobrevivirlo»</em>. Al terminar, nombra en voz alta cinco cosas que veas.</p>
+  <p class="note" style="margin-top:6pt">La espiración larga activa el nervio vago y
+  baja el cortisol en minutos. Nombrar objetos saca al cerebro del bucle.</p>
+</div>
+
+<div class="box left-terra">
+  <p class="lbl">2 · Poner hora a la pena · quince minutos</p>
+  <p>Si el llanto te asalta a media mañana y no puedes sostenerlo, dile a la pena:
+  <em>«a las ocho, contigo, quince minutos»</em>. Y cúmplelo. Siéntate, mira sus fotos,
+  llora todo lo que necesites. Cuando suene el temporizador, levántate y bebe agua.</p>
+  <p class="note" style="margin-top:6pt">No es reprimir: es citar. El duelo aplazado
+  con cita se sostiene mejor que el duelo aplazado sin ella.</p>
+</div>
+
+<div class="box left-terra">
+  <p class="lbl">3 · Háblale en voz alta</p>
+  <p>Cuéntale el día. En el coche, en la ducha, delante de su rincón. En voz alta,
+  con su nombre. No estás loca, no estás loco: estás manteniendo abierto un canal
+  que tu cerebro todavía necesita.</p>
+</div>
+
+<hr class="rule">
+<p class="ask">Escribe aquí el nombre y el teléfono de la persona a la que puedes
+llamar a cualquier hora:</p>
+<div class="write"></div>
+<p class="note">Si en algún momento aparece la idea de no querer seguir aquí, esa
+llamada no es opcional. Hazla. Y busca ayuda profesional cuanto antes.</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">14</span></div></div><div class="page ">
+<p class="eyebrow">Registro paralelo</p>
+<h1 class="title">Quien se queda también hace duelo</h1>
+<p class="lead">Si en casa quedó otro animal, esta media página es suya.
+Anota una vez por semana.</p>
+
+<table>
+  <thead class="terra"><tr><th style="width:44pt">Semana</th><th style="width:52pt">Come</th>
+  <th style="width:52pt">Duerme</th><th style="width:52pt">Juega</th>
+  <th>Lo que he observado</th></tr></thead>
+  <tbody>
+  <tr><td class="day green">1</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">2</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">3</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">4</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">5</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">6</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">7</td><td class="blank"></td><td></td><td></td><td></td></tr><tr><td class="day green">8</td><td class="blank"></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<div class="box green">
+  <p class="lbl">Qué ayuda de verdad</p>
+  <p>Rutinas idénticas en horario y lugar · tu presencia sin forzar contacto ·
+  dejarle oler la manta o el collar del que se fue · paseos algo más largos ·
+  hablarle en voz baja con su nombre · no introducir cambios grandes ahora.</p>
+</div>
+
+<p class="note">Si a las tres o cuatro semanas sigue sin comer, no juega o se aísla
+por completo, consulta al veterinario. En el cuarto libro de la serie —
+<em>Ellos También se Despiden</em> — tienes el protocolo completo, día a día.</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">15</span></div></div><div class="page ">
+<p class="eyebrow">Para cerrar</p>
+<h1 class="title">Ocho semanas después</h1>
+
+<p>Vuelve a la página «Antes de la primera noche» y léela entera. Después lee la
+semana 1, noche por noche. Luego la semana 8.</p>
+
+<p>Es muy probable que no notes un cambio enorme. El duelo no funciona así. Pero
+si miras la columna de <em>lo que me ha sostenido hoy</em> a lo largo de las ocho
+semanas, vas a encontrar algo que no esperabas: una lista de cosas que te
+sostuvieron cuando creías que nada lo hacía.</p>
+
+<p>Esa lista es tuya. Guárdala. Es lo que vas a necesitar la próxima vez que
+llegue una ola grande — un aniversario, una foto que aparece sola, un perro
+igual que él en la calle.</p>
+
+<div class="quote green">No has superado nada.<br>Has aprendido a sostenerte<br>mientras dolía.</div>
+
+<hr class="rule soft">
+
+<h2 class="sec">Si quieres seguir escribiendo</h2>
+<p>Puedes fotocopiar las páginas semanales o repetir esta misma estructura en un
+cuaderno propio. Muchas personas siguen escribiendo una línea al día durante meses,
+y muchas vuelven a este diario en las fechas señaladas: su cumpleaños, el
+aniversario, la primera Navidad sin él o sin ella.</p>
+
+<p>No hay un plazo correcto. Solo el tuyo.</p>
+
+<div class="dashed">
+  <p class="lbl">Lo que quiero recordar dentro de un año</p>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+  <div class="write dot"></div>
+</div>
+
+<p class="note" style="text-align:center;margin-top:16pt">
+Sigue Contigo — Libro 2 de 4 · Diario del Oleaje<br>tremdora</p>
+<div class="pfoot"><span>Diario del Oleaje · Sigue Contigo · Libro 2 de 4</span><span class="n">16</span></div></div></body></html>

@@ -1,0 +1,264 @@
+/* ============================================================
+   TREMDORA — Sistema editorial de la serie "Sigue Contigo"
+   Paleta y retícula heredadas de "Edad Dorada" / "Hogar en Calma"
+   Formato: 468pt x 679.92pt  (mismo trim que el resto de la serie)
+   ============================================================ */
+
+:root{
+  --ink:        #3b2a20;   /* texto principal            */
+  --ink-soft:   #6b4a38;   /* subtítulos, texto de apoyo */
+  --muted:      #9c7c63;   /* pies, notas                */
+  --line:       #e2cfb4;   /* filetes y bordes           */
+  --bg:         #fbf3e6;   /* fondo de página            */
+  --panel:      #f6e9d6;   /* cajas y filas alternas     */
+  --paper:      #fdf8f0;   /* cajas claras               */
+  --green:      #748156;   /* acento salvia              */
+  --green-soft: #e6eada;
+  --green-line: #c9d1ae;
+  --terra:      #a8502e;   /* acento terracota           */
+  --terra-soft: #c1613a;
+  --terra-pale: #f0dccd;
+}
+
+@page { size: 468pt 679.92pt; margin: 0; }
+
+*{ box-sizing: border-box; }
+
+html,body{
+  margin:0; padding:0;
+  background:#fff;
+  color:var(--ink);
+  font-family:'Liberation Sans', Arial, Helvetica, sans-serif;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page{
+  position:relative;
+  width:468pt; height:679.92pt;
+  padding:44pt 48pt 34pt;
+  background:var(--bg);
+  page-break-after:always;
+  overflow:hidden;
+}
+.page:last-child{ page-break-after:auto; }
+
+/* ---------- Tipografía base ---------- */
+p{ font-size:9.5pt; line-height:1.72; margin:0 0 8pt; }
+strong{ font-weight:bold; }
+em{ font-style:italic; }
+
+.eyebrow{
+  font-size:7.6pt; letter-spacing:2.1pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; margin:0 0 6pt;
+}
+.eyebrow.terra{ color:var(--terra-soft); }
+
+h1.title{
+  font-family:'Liberation Serif', Georgia, 'Times New Roman', serif;
+  font-size:19pt; font-weight:bold; line-height:1.25;
+  margin:0 0 14pt; letter-spacing:-.2pt;
+}
+h2.sec{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:12.5pt; font-weight:bold; margin:16pt 0 7pt;
+}
+h3.sub{
+  font-size:8.4pt; letter-spacing:1.5pt; text-transform:uppercase;
+  color:var(--terra); font-weight:bold; margin:12pt 0 5pt;
+}
+
+.lead{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:10.5pt; line-height:1.6;
+  color:var(--ink-soft); margin:0 0 14pt;
+}
+
+.rule{ height:1px; background:var(--line); border:0; margin:14pt 0; }
+.rule.soft{ background:linear-gradient(90deg,var(--line),var(--green-line),transparent); }
+
+/* ---------- Cabecera de capítulo / semana ---------- */
+.wk-head{ display:flex; align-items:flex-start; gap:12pt; margin-bottom:14pt; }
+.wk-num{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:30pt; font-weight:bold; line-height:.85;
+  color:var(--green-line); letter-spacing:-1pt;
+}
+.wk-num.terra{ color:var(--terra-pale); }
+.wk-head .txt{ padding-top:2pt; }
+.wk-head .eyebrow{ margin-bottom:3pt; }
+.wk-head h1.title{ font-size:16pt; margin:0; }
+
+/* ---------- Cajas ---------- */
+.box{
+  background:var(--panel); border-radius:5pt;
+  padding:11pt 14pt; margin:0 0 11pt;
+}
+.box.green{ background:var(--green-soft); }
+.box.paper{ background:var(--paper); border:.7pt solid var(--line); }
+.box.left-terra{ border-left:3pt solid var(--terra); background:var(--panel); border-radius:0 5pt 5pt 0; }
+.box.left-green{ border-left:3pt solid var(--green); background:var(--green-soft); border-radius:0 5pt 5pt 0; }
+.box .lbl{
+  font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+  font-weight:bold; color:var(--terra); margin:0 0 5pt;
+}
+.box.green .lbl, .box.left-green .lbl{ color:var(--green); }
+.box p:last-child{ margin-bottom:0; }
+.box p{ font-size:9pt; }
+
+.dashed{
+  border:1pt dashed var(--line); border-radius:5pt;
+  padding:11pt 14pt; margin:11pt 0; background:transparent;
+}
+.dashed .lbl{
+  font-size:7.8pt; letter-spacing:1.5pt; text-transform:uppercase;
+  font-weight:bold; color:var(--terra); margin:0 0 7pt;
+}
+
+.quote{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:11.5pt; line-height:1.5;
+  color:var(--terra); text-align:center;
+  margin:16pt 22pt; 
+}
+.quote.green{ color:var(--green); }
+
+/* ---------- Tablas ---------- */
+table{ width:100%; border-collapse:collapse; margin:0 0 10pt; }
+thead th{
+  background:var(--green); color:#fdf8f0;
+  font-size:7.6pt; letter-spacing:1pt; text-transform:uppercase;
+  font-weight:bold; text-align:left; padding:6.5pt 8pt;
+  white-space:nowrap;
+}
+thead.terra th{ background:var(--terra-soft); }
+tbody td{
+  font-size:8.6pt; line-height:1.5; padding:7pt 8pt;
+  border-bottom:.7pt solid var(--line); vertical-align:top;
+}
+tbody tr:nth-child(odd) td{ background:var(--panel); }
+tbody tr:nth-child(even) td{ background:transparent; }
+td.day{ font-weight:bold; color:var(--terra); width:22pt; }
+td.day.green{ color:var(--green); }
+th.tick, td.tick{ width:22pt; text-align:center; }
+.chk{
+  display:inline-block; width:9pt; height:9pt;
+  border:.8pt solid var(--muted); border-radius:2pt;
+}
+td.blank{ height:19pt; }
+table.compact tbody td{ padding:3.4pt 8pt; height:12pt; font-size:8.2pt; }
+table.compact thead th{ padding:5pt 8pt; }
+table.compact tbody td{ border-right:.7pt solid var(--line); }
+table.compact tbody td:last-child{ border-right:0; }
+
+/* ---------- Renglones para escribir ---------- */
+.write{ border-bottom:.7pt solid var(--line); height:17pt; }
+.write.dot{ border-bottom:.9pt dotted var(--line); }
+.ask{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:9.2pt; color:var(--terra-soft);
+  margin:10pt 0 3pt;
+}
+
+/* ---------- Píldoras y fichas ---------- */
+.pill{
+  display:inline-block; border:.7pt solid var(--line); background:var(--paper);
+  border-radius:20pt; padding:3.5pt 10pt; font-size:8pt; margin:0 4pt 5pt 0;
+}
+.pill b{ color:var(--ink); }
+
+.stats{ display:flex; gap:9pt; margin:12pt 0; }
+.stat{
+  flex:1; background:var(--paper); border:.7pt solid var(--line);
+  border-radius:5pt; padding:9pt 8pt; text-align:center;
+}
+.stat .n{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:17pt; font-weight:bold; color:var(--terra); line-height:1;
+}
+.stat .n.green{ color:var(--green); }
+.stat .t{
+  font-size:6.6pt; letter-spacing:.9pt; text-transform:uppercase;
+  color:var(--muted); margin-top:4pt; line-height:1.35;
+}
+
+.grid2{ display:flex; gap:10pt; }
+.grid2 > *{ flex:1; min-width:0; }
+
+.ficha{ width:100%; border-collapse:collapse; }
+.ficha td{ border:0; border-bottom:.7pt solid var(--line); padding:9pt 0 4pt; background:none; }
+.ficha td.k{ width:38%; font-size:8.4pt; color:var(--ink-soft); vertical-align:bottom; }
+
+ul.clean{ margin:0 0 9pt; padding:0 0 0 12pt; }
+ul.clean li{ font-size:9pt; line-height:1.62; margin-bottom:4.5pt; }
+ul.clean li::marker{ color:var(--green); }
+ul.clean.terra li::marker{ color:var(--terra-soft); }
+
+.note{
+  font-size:8.2pt; line-height:1.55; color:var(--muted);
+  font-style:italic; margin-top:9pt;
+}
+
+/* ---------- Ficha de científico ---------- */
+.sci{
+  background:var(--paper); border:.7pt solid var(--line); border-radius:5pt;
+  padding:9pt 11pt; margin-bottom:8pt;
+}
+.sci .nm{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:10.5pt; font-weight:bold; margin:0;
+}
+.sci .fl{
+  font-size:7.2pt; letter-spacing:1.1pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; margin:2pt 0 5pt;
+}
+.sci p{ font-size:8.4pt; line-height:1.55; margin:0; }
+
+/* ---------- Portada ---------- */
+.cover{
+  padding:0; display:flex; flex-direction:column; align-items:center;
+  background:
+    radial-gradient(120% 85% at 12% 0%,  #f7e4c0 0%, rgba(247,228,192,0) 58%),
+    radial-gradient(120% 85% at 92% 100%, #dfe3cd 0%, rgba(223,227,205,0) 55%),
+    #fbf3e6;
+}
+.cover .badge{
+  margin-top:52pt; border:.8pt solid var(--green-line); background:rgba(253,248,240,.72);
+  border-radius:20pt; padding:5pt 15pt;
+  font-size:7.6pt; letter-spacing:2pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold;
+}
+.cover .kicker{
+  margin-top:16pt; font-size:8pt; letter-spacing:2.6pt; text-transform:uppercase;
+  color:var(--green); font-weight:bold; text-align:center;
+}
+.cover .emblem{ margin-top:32pt; width:152pt; }
+.cover .emblem svg{ width:100%; height:auto; display:block; }
+.fig{ margin:8pt 0 12pt; }
+.fig svg{ width:100%; height:auto; display:block; }
+.figcap{ font-size:7.4pt; color:var(--muted); text-align:center;
+         letter-spacing:.5pt; margin-top:5pt; }
+.cover h1{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-size:29pt; font-weight:bold; line-height:1.15;
+  text-align:center; margin:34pt 42pt 0; letter-spacing:-.4pt;
+}
+.cover h1 i{ color:var(--terra); font-style:italic; }
+.cover .sub{
+  font-family:'Liberation Serif', Georgia, serif;
+  font-style:italic; font-size:11pt; line-height:1.6;
+  color:var(--ink-soft); text-align:center; margin:16pt 62pt 0;
+}
+.cover .foot{
+  position:absolute; left:0; right:0; bottom:44pt; text-align:center;
+  font-size:8.6pt; color:var(--muted); line-height:1.7;
+}
+.cover .foot b{ color:var(--ink-soft); }
+
+/* ---------- Pie de página ---------- */
+.pfoot{
+  position:absolute; left:48pt; right:48pt; bottom:24pt;
+  border-top:.7pt solid var(--line); padding-top:6pt;
+  font-size:7.2pt; color:var(--muted); display:flex; justify-content:space-between;
+}
+.pfoot .n{ letter-spacing:.6pt; }
