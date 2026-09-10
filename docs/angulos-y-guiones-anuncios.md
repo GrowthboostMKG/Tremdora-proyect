@@ -1,138 +1,120 @@
 # Ángulos y guiones de anuncios — Hogar en Calma · Edad Dorada
-### Guiones reales, listos para grabar, a 15 €/día
+### Nicho mascotas · 15 €/día · guiones listos para grabar
 
 > Fecha: 10 de septiembre de 2026
-> Sustituye a los guiones de ejemplo de la Parte 3 del manual de Meta Ads.
+> **Versión 2 — corregida.** La versión 1 de este documento describía los libros como productos
+> de bienestar para personas. Era falso. Ver apartado 0.
 
 ---
 
-# 0. Lo que he encontrado y lo que hay que corregir
+# 0. La corrección, y qué documentos quedan invalidados
 
-Los libros existen en este mismo repositorio, en otras ramas. Esto es lo que dicen, y en qué
-contradice a lo que habíamos escrito en esta rama.
+## 0.1 Qué son los libros de verdad
 
-## 0.1 Contenido real de los productos
-
-**HOGAR EN CALMA** — contenido confirmado (rama `claude/qr-432hz-frequency-qah9fw`,
-página de descargas del cliente):
-
-| Pieza | Qué es |
+| Libro | Tema real |
 |---|---|
-| eBook *Hogar en Calma* | Guía para crear un hogar armónico y tranquilo |
-| *Diario de Bienestar* | 30 días de reflexiones y prácticas |
-| *Plan Práctico 8 Semanas* | Programa paso a paso |
-| Audio 432 Hz (MP3) | Pista de acompañamiento descargable |
+| **Hogar en Calma** | Cómo tratar la **ansiedad de tu mascota** |
+| **Edad Dorada** | Cómo cuidar de tu mascota cuando **ya es mayor** |
 
-Son **cuatro piezas**, no un PDF suelto. Eso es lo que justifica un precio de 39–49 € y es lo
-que hay que enseñar en el anuncio.
+Toda la tienda es nicho mascotas.
 
-**EDAD DORADA** — **no he encontrado su contenido**. Solo consta (rama
-`claude/sigue-contigo-ebooks-pptgr6`) que está construido "con el mismo sistema editorial" que
-Hogar en Calma y Sigue Contigo. He dejado marcados como `[CONFIRMAR]` los puntos de los guiones
-donde hay que nombrar sus piezas. **No los grabes sin rellenarlos**: prometer en un anuncio algo
-que el producto no entrega es la vía más rápida a reembolsos y a una cuenta publicitaria caída.
+## 0.2 De dónde salió el error
 
-## 0.2 Cinco cosas que ya no cuadran
+Los funnels de la rama `claude/tremdora-launch-strategy-tbbah7` abren, literalmente, así:
 
-**① Ninguno de los dos libros va de mascotas.**
-Tu primer mensaje decía que los libros mensuales tratarían "problemas cotidianos con las
-mascotas". Por eso el manual de Meta Ads está escrito entero con ejemplos de perros. Pero Hogar
-en Calma va de descanso y bienestar en casa, y Edad Dorada de la autonomía de los mayores. Lo
-único de animales en todo el catálogo es *Ellos También se Despiden*, un cuaderno **dentro de la
-serie de duelo Sigue Contigo**, sobre la mascota que se queda tras una pérdida.
+> *"**Supuesto de trabajo:** Hogar en Calma es un producto físico para el
+> bienestar/descanso/ambiente del hogar…"*
 
-→ **Los guiones de este documento son los buenos.** Los del manual eran de ejemplo. Y hay que
-aclarar si la línea mensual de mascotas es un plan futuro o un malentendido, porque cambia el
-calendario editorial entero.
+Es una suposición declarada, no una descripción del producto. La leí como si fuera un dato
+verificado y construí encima. De ahí salió el avatar equivocado, y de ahí que en la versión 1 de
+este documento te dijera que los libros no iban de mascotas.
 
-**② Los documentos anteriores daban por hecho productos FÍSICOS.**
-Los funnels de la rama `tremdora-launch-strategy` dicen literalmente "supuesto de trabajo:
-producto físico… con un componente digital", y montan la oferta a 69 € y 79 €. Son eBooks a
-39,90 € y 49,90 €. **Toda la pila de valor de aquellos documentos hay que rehacerla**, porque
-anclaba el precio en un objeto físico que no existe. Abajo tienes la versión digital.
+## 0.3 Qué hay que tirar y qué se conserva
 
-**③ El presupuesto ha bajado de 40 €/día a 15 €/día.**
-Aquellos documentos recomendaban "10–15 anuncios en un solo conjunto" con 1.200 €/mes. Con
-450 €/mes eso es imposible: son **3 anuncios**. Ignora esa instrucción.
+**⛔ INVÁLIDOS — no los uses para nada:**
 
-**④ La recomendación anterior era NO lanzar los dos a la vez, y sigue siendo válida.**
-Es lo que decía el punto 2.2 de la estrategia previa, con 40 €/día. Con 15 €/día el argumento
-es más fuerte, no más débil. Ver el apartado 1.
-
-**⑤ Cuidado con cómo se vende el audio 432 Hz.**
-La guía del QR lo describe como *"frecuencia sanadora"*. **No lo escribas así en un anuncio.**
-No hay evidencia científica de que 432 Hz tenga efecto terapéutico, y una afirmación de salud
-sin respaldo te expone a dos cosas: rechazo o baneo de la cuenta publicitaria, y publicidad
-engañosa según la ley española.
-
-| ❌ No escribas | ✅ Escribe |
+| Documento | Por qué |
 |---|---|
-| "Frecuencia sanadora 432 Hz" | "Audio de 432 Hz para acompañar el ritual" |
-| "Reduce la ansiedad" | "Pensado para escuchar mientras te preparas para dormir" |
-| "Cura el insomnio" | "Forma parte de la rutina de las 21 noches" |
+| `estrategia/04-funnel-hogar-en-calma.md` | Avatar, ángulos, copys y lead magnet escritos para una mujer que no desconecta al llegar a casa. Nada sirve |
+| `estrategia/05-funnel-edad-dorada.md` | Construido entero sobre "comprador ≠ usuario: la hija compra para su madre de 76". **En tu caso el comprador y el dueño son la misma persona.** El funnel entero está mal planteado |
+| Guiones de la versión 1 de este archivo | Sustituidos por los de abajo |
 
-Véndelo como **lo que es**: una pista de audio que acompaña al método. Es un extra bonito. No
-necesita una promesa médica para valer.
+**✅ SIGUEN VALIENDO:**
+
+| Documento | Estado |
+|---|---|
+| `docs/manual-meta-ads-paso-a-paso.md` | Válido. Sus guiones de ejemplo eran de mascotas y apuntaban bien: "ansiedad por separación" **es** Hogar en Calma |
+| `docs/paso-a-paso-meta-clic-a-clic.md` | Válido entero. Los clics de Meta no dependen del tema |
+| `docs/estrategia-lanzamiento.md` | Válido, y **su calendario editorial de 12 meses es correcto**: son 12 problemas de mascotas. Hogar en Calma es el mes 1 y Edad Dorada el mes 11 |
+| `landing/` | Válidos los archivos y el píxel. **Cambia los textos** por los de este documento |
+
+## 0.4 Dos avisos que cambian de sentido con el tema real
+
+**① La política de "atributos personales" de Meta ya no te afecta.** Te avisé de que Edad Dorada
+podía tumbarte la cuenta por dar a entender la edad o la salud del que mira. Esa norma protege
+**atributos del usuario**, no de su perro. La edad de un animal no es un atributo personal de
+nadie. **Puedes decir "tu perro ya es mayor" sin problema.** Retira esa preocupación.
+
+**② Pero aparece otra, y es más seria: promesas de salud animal.** Ver apartado 4.1. Esta sí
+importa, legal y éticamente.
+
+**③ El audio 432 Hz ahora tiene sentido** — es música para dejar puesta cuando sales de casa, y
+eso es una categoría real: hay estudios que miden cómo la música afecta a las conductas de estrés
+en perros de refugio. Lo que **no** tiene respaldo es que *432 Hz* concretamente tenga una
+propiedad especial. Así que sigue en pie la corrección de forma, no de fondo:
+
+| ❌ No | ✅ Sí |
+|---|---|
+| "Frecuencia sanadora de 432 Hz" | "Audio para dejar puesto cuando sales de casa" |
+| "Cura la ansiedad de tu perro" | "Forma parte del protocolo de las 21 noches" |
 
 ---
 
-# 1. Con 15 €/día, ¿lanzo los dos libros?
-
-Tu instinto es lanzarlos a la vez para abrir dos mercados. La estrategia anterior te dijo que no,
-y tenía razón — pero por un motivo que conviene precisar, porque ayer yo te dije lo contrario.
-
-**Lo que sí puede con los dos: el algoritmo.** La unidad que aprende es el *conjunto*, no el
-anuncio. Si los dos libros están en el mismo conjunto, ese conjunto sigue recibiendo sus 60–85
-leads semanales y aprende igual de bien. Técnicamente no hay problema.
-
-**Lo que no puede con los dos: tú.** Dos libros significan dos lead magnets, dos landing pages,
-dos secuencias de email de 6 correos, dos juegos de creativos y dos hilos de atención al cliente.
-Y las secuencias de email son **donde está el dinero de verdad** en este modelo. Una persona sola
-haciendo dos a la vez acaba con dos a medias.
-
-## La solución: dos temas, una sola operación
+# 1. Qué lanzas, en qué orden y a qué precio
 
 | | Hogar en Calma | Edad Dorada |
 |---|---|---|
-| Anuncios | **2** | **1** |
+| **Precio** | **39,90 €** | **49,90 €** |
+| **Anuncios ahora** | **2** | **1** |
 | A dónde lleva | Lead magnet completo | **Lista de espera** |
-| Landing | Completa | Una pantalla: "te avisamos cuando salga" |
-| Secuencia de email | Sí, las 6 | **Ninguna**, todavía |
-| Trabajo que te da | Todo | Casi cero |
+| Secuencia de email | Sí, las 6 | Ninguna todavía |
 
-El anuncio de Edad Dorada no vende: **recoge emails de gente interesada.** Con eso consigues las
-dos cosas que querías, sin la carga de trabajo:
+**Por qué Hogar en Calma va primero y más barato:** la ansiedad por separación es, con mucha
+diferencia, el problema de conducta más buscado por dueños de perro. Es tu audiencia más ancha,
+la más fácil de grabar —te sirve tu propio perro y tu propia puerta— y la que no tiene ningún
+campo de minas legal. Es tu cabeza de playa: tiene que entrar el máximo de gente posible.
 
-- **Abres el segundo tema** y compruebas con dinero real si el mercado responde. Si su coste por
-  email sale más barato que el de Hogar en Calma, tienes un dato valiosísimo: has estado
-  lanzando el libro equivocado primero.
-- **Construyes la lista** a la que le venderás Edad Dorada en el mes 3 **sin gastar un euro en
-  ads**, que es exactamente el mecanismo que describía el punto 5.7 de la estrategia anterior.
+**Por qué Edad Dorada va segundo y más caro:** audiencia más estrecha pero mucho más intensa.
+Quien tiene un perro de 13 años gasta lo que haga falta. Ahí la disposición a pagar es alta y la
+sensibilidad del mensaje también, así que entra cuando ya tengas reseñas y lista.
 
-## Qué precio a cada uno
+**Y hay un tercero que ya tienes escrito.** En la rama `claude/sigue-contigo-ebooks-pptgr6` está
+la serie *Sigue Contigo*, con *Ellos También se Despiden*. Junto con los otros dos te queda una
+escalera emocional muy coherente para una marca de mascotas, y el tercer peldaño ya está
+construido:
 
-No me has dicho cuál es cuál. Mi recomendación:
+```
+Hogar en Calma   →   Edad Dorada   →   Sigue Contigo
+la ansiedad          el perro mayor     la despedida
+(mes 1)              (mes 3)            (mes 5-6, o upsell)
+```
 
-| Libro | Precio | Por qué |
-|---|---|---|
-| **Hogar en Calma** | **39,90 €** | Audiencia mucho más ancha. Es tu cabeza de playa: tiene que entrar el máximo de gente |
-| **Edad Dorada** | **49,90 €** | Se compra por un padre o una madre. La disposición a pagar por alguien a quien quieres y por quien te sientes en deuda es notablemente más alta que por uno mismo |
+Cada uno le vende al comprador del anterior, por email, con coste publicitario cero.
 
 ---
 
-# 2. La oferta, rehecha para producto digital
+# 2. La oferta de Hogar en Calma
 
-La pila de valor de los documentos anteriores anclaba en un producto físico. Sin él, el ancla
-tiene que ser **la suma de piezas**. Hogar en Calma tiene cuatro: úsalas.
+Contenido confirmado (de tu propia página de descargas, rama `qr-432hz-frequency-qah9fw`):
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  HOGAR EN CALMA — El método de las 21 noches             │
+│  HOGAR EN CALMA — El protocolo de 21 días                │
 │                                                          │
 │  ✓ eBook Hogar en Calma                    valor  29 €   │
 │  ✓ Diario de Bienestar — 30 días           valor  19 €   │
 │  ✓ Plan Práctico de 8 Semanas              valor  24 €   │
-│  ✓ Audio 432 Hz descargable                valor   9 €   │
+│  ✓ Audio para dejar puesto al salir        valor   9 €   │
 │  ─────────────────────────────────────────────────────   │
 │  VALOR TOTAL                                      81 €   │
 │  HOY                                           39,90 €   │
@@ -141,279 +123,336 @@ tiene que ser **la suma de piezas**. Hogar en Calma tiene cuatro: úsalas.
 └──────────────────────────────────────────────────────────┘
 ```
 
-Tres reglas al montar esto:
+Son **cuatro piezas**. Eso es lo que sostiene 39,90 € y es lo que hay que enseñar en el vídeo:
+un plano cenital de las cuatro cosas dice más que treinta segundos de argumentos.
 
-1. **Los valores tienen que ser defendibles.** Si un cliente busca cuánto cuesta un diario de
-   bienestar y ve que 19 € es un precio real de mercado, la pila funciona. Si pones 89 € a un
-   PDF, la rompes y pierdes la venta.
-2. **La garantía de 30 días no es opcional en digital.** Sin ella, un desconocido no paga 40 €
-   por un archivo. Los reembolsos en este tipo de producto rondan el 3–7 %: es un coste de
-   adquisición barato a cambio de la conversión que te da.
-3. **Nunca lo llames "un PDF".** Es un **método** de 8 semanas que se entrega en cuatro piezas.
-   La jerarquía importa: cambia lo que puedes cobrar.
-
----
-
-# 3. HOGAR EN CALMA — los 3 ángulos y sus guiones
-
-**El avatar** (de la estrategia anterior, sigue siendo válido): mujer de 32 a 52 años, piso
-urbano, trabaja. Llega a casa y no desconecta. Se duerme con el móvil en la mano. Su casa está
-limpia pero no la descansa. Ha probado velas, apps y infusiones, y nada le duró dos semanas.
-
-**Su objeción número uno no es el precio. Es "esto lo voy a dejar el jueves".** Los tres ángulos
-atacan eso desde sitios distintos.
+> **Una duda que conviene aclarar:** tu página de descargas describe el Diario de Bienestar como
+> *"30 días de reflexiones y prácticas de mindfulness"*. Si el diario es para que **el dueño**
+> registre la conducta del perro (a qué hora empezó a llorar, cuánto duró, qué pasó antes), el
+> ángulo del anuncio es "cada día te dice qué toca y qué apuntar", y es potentísimo. Si de verdad
+> son reflexiones de mindfulness para el dueño, encaja peor en un producto de conducta canina.
+> Dime cuál de las dos cosas es, porque cambia el bloque 4 de los guiones.
 
 ---
 
-## HC1 — "La señal" *(este es tu anuncio principal)*
+# 3. HOGAR EN CALMA — los ángulos y sus guiones
 
-**Idea:** el problema no es la casa, es que no hay ninguna señal de que el día ha terminado.
+## 3.1 El avatar
 
-```
-[0-3 s]  A cámara, luz cálida, de noche, en tu salón.
-         "Mi casa estaba limpia. Ordenada.
-          Y a las diez de la noche yo seguía sin poder parar."
+**Quién:** dueño de perro, 28-55, mayoritariamente mujer, piso urbano, trabaja fuera de casa.
 
-[3-9 s]  Corte. Plano de un salón normal, con la tele encendida y el móvil en la mano.
-         "No era la casa. Era que no había ninguna señal
-          de que el día se había acabado.
-          Así que mi cuerpo seguía de guardia."
+**El dolor real, en orden de intensidad:**
+1. **Los vecinos.** Notas en el buzón, quejas al administrador, miedo real a una denuncia.
+2. **La culpa.** "Le estoy haciendo daño y no sé cómo evitarlo."
+3. **No poder salir.** Ni a cenar, ni un fin de semana, sin angustia todo el rato.
+4. **Los destrozos.** La puerta, el marco, el sofá.
+5. **La vergüenza.** No lo cuenta porque parece que es un mal dueño.
 
-[9-17 s] Vuelta a cámara. Tono más bajo.
-         "Lo que me cambió no fue ordenar más.
-          Fueron diez minutos, siempre los mismos,
-          siempre a la misma hora. Un aviso para mi cuerpo."
+**Lo que ya ha probado y no le funcionó:** dejarle la tele o la radio, cansarlo con un paseo
+largo antes de salir, el Kong relleno, juguetes nuevos, quizá un collar antiladridos, quizá una
+sesión de adiestrador que no pudo permitirse repetir.
 
-[17-26 s] Plano cenital de las cuatro piezas en una mesa:
-          tablet con el eBook, el diario, el plan, los auriculares.
-         "Está todo aquí: el método, el diario de 30 días,
-          el plan de 8 semanas y el audio para acompañarlo."
-
-[26-30 s] A cámara.
-         "Te dejo el primer capítulo gratis en el enlace."
-```
-
-> Rodaje: **grábalo de noche, con luz de lámpara.** El ángulo entero va de las diez de la noche.
-> Grabado a mediodía con luz de ventana, no se sostiene.
+**Su objeción número uno no es el precio: es "ya lo he probado todo".** Los tres ángulos la
+atacan desde sitios distintos.
 
 ---
 
-## HC2 — "Anti-app" *(el que rompe la objeción del abandono)*
+## HC1 — "La cámara" *(este es tu anuncio principal)*
 
-**Idea:** no es que no sepas relajarte; es que todo lo que has probado dependía de tu fuerza de
-voluntad.
+**Por qué funciona:** hoy casi todo el mundo ha puesto una cámara para ver qué hace su perro
+cuando se va. Y casi todo el mundo se ha llevado el mismo susto. Es un recuerdo compartido, y por
+eso el gancho para en seco.
 
 ```
-[0-3 s]  Primer plano de un móvil, con el dedo pasando por 4 apps de meditación.
-         Tu voz: "Cuatro apps de meditación. Las cuatro abandonadas."
+[0-4 s]  A cámara, en tu casa. Tono bajo, sin dramatizar.
+         "Puse una cámara para ver qué hacía mi perro cuando me iba.
+          Y ojalá no la hubiera puesto."
 
-[3-10 s] Corte a cámara.
-         "Y no es que no funcionaran. Es que todas dependían
-          de que yo me acordara, cada noche, de abrirlas.
-          El martes bien. El jueves ya no."
+[4-11 s] Plano de una puerta de entrada por dentro, con marcas de arañazos.
+         Voz encima.
+         "No estaba enfadado. No me estaba castigando.
+          Llevaba cuarenta minutos jadeando y dando vueltas
+          por el pasillo."
 
-[10-18 s] Plano del diario abierto, escribiendo una línea.
-         "Lo que sí me duró fue tener una hoja delante
-          con lo que tocaba ese día. Sin decidir nada.
-          Sin pantalla."
+[11-19 s] Vuelta a cámara.
+         "Y lo que más me costó entender es que no se arregla
+          cansándolo antes de salir. Eso yo lo hacía todos los días.
+          Se arregla cambiando los noventa segundos ANTES
+          de coger las llaves."
 
-[18-26 s] Plano cenital de las cuatro piezas.
-         "Treinta días de diario, ocho semanas de plan.
-          Cada día te dice qué toca. Tú solo lo haces."
+[19-27 s] Plano cenital: tablet con el eBook, el diario, el plan, el altavoz.
+         "Aquí está el protocolo entero: veintiún días,
+          diez minutos al día, el diario para ir apuntando
+          y el audio para dejarle puesto al salir."
 
-[26-30 s] "Primer capítulo gratis en el enlace."
+[27-31 s] A cámara.
+         "Te dejo la primera parte gratis en el enlace."
+```
+
+> **Rodaje:** el plano de los arañazos en la puerta es el que vende. Si tu puerta no los tiene,
+> graba el sofá, el marco de una ventana, un cojín abierto. Tiene que haber **una prueba física**
+> del problema: es lo que hace que el que mira se reconozca.
+
+---
+
+## HC2 — "Ya lo he probado todo" *(el que rompe la objeción principal)*
+
+```
+[0-4 s]  Cortes rápidos, uno por objeto, con rótulo. Tu voz encima.
+         "La tele puesta. El paseo largo antes de salir.
+          El Kong relleno. El juguete nuevo."
+
+[4-10 s] A cámara.
+         "Lo hice todo. Y seguía llorando a los tres minutos
+          de cerrar la puerta."
+
+[10-19 s] Sigue a cámara, más despacio.
+         "Porque ninguna de esas cosas le enseñaba lo único
+          que necesitaba aprender: que cuando te vas, vuelves.
+          Y eso no se enseña con un juguete.
+          Se enseña con repeticiones cortas, en un orden concreto."
+
+[19-27 s] Plano del plan de 8 semanas abierto, pasando páginas.
+         "Ese orden es esto. Ocho semanas, cada día te dice
+          qué toca. Tú solo lo haces."
+
+[27-31 s] "Primera parte gratis en el enlace."
 ```
 
 ---
 
-## HC3 — "22:47" *(sin voz — el más barato de producir y a menudo el que gana)*
-
-**Idea:** no explicar nada. Enseñar la sensación.
+## HC3 — "La nota en el buzón" *(el dolor más agudo — pruébalo, puede ser el ganador)*
 
 ```
-Sin narración. Solo sonido ambiente y una pista suave muy baja.
-Rótulo fijo arriba durante todo el vídeo: "POV: las 22:47 en casa"
+[0-4 s]  Primer plano de un papel doblado en un buzón. Se saca.
+         Tu voz: "Me dejaron esta nota en el buzón.
+          Y no era la primera."
 
-[0-4 s]   Manos encendiendo una lámpara pequeña. La luz general se apaga.
-[4-9 s]   El móvil, boca abajo, en un cajón. Se cierra el cajón.
-[9-15 s]  Auriculares puestos. Plano del reproductor con el audio.
-[15-21 s] El diario abierto. Una mano escribe una sola frase.
-[21-27 s] Plano general del salón en penumbra, en calma.
+[4-10 s] A cámara.
+         "'Su perro lleva toda la mañana ladrando.'
+          Y lo peor es que yo no podía ni discutirlo."
 
-Rótulo final (3 s):
-  "El método de las 21 noches.
-   Primer capítulo gratis 👇"
+[10-18 s] Plano del perro tranquilo, tumbado, mirando a cámara.
+         "No ladraba por vicio. Ladraba porque estaba solo
+          y no había aprendido a estarlo. Son cosas distintas,
+          y se tratan distinto."
+
+[18-27 s] Plano cenital de las cuatro piezas.
+         "Veintiún días. Diez minutos al día.
+          Sin collares de castigo y sin dejarlo llorar."
+
+[27-31 s] "Te dejo la primera parte gratis abajo."
 ```
 
-> Este formato suele ser el de **mejor hook rate** de los tres, porque no pide esfuerzo: se ve
-> entero antes de darte cuenta. Y se graba en 20 minutos sin salir de casa ni hablar a cámara.
-> Si te da vergüenza ponerte delante de la cámara, **empieza por este**.
+> **Este ángulo suele ganar** cuando el problema tiene una consecuencia social. La ansiedad por
+> separación la tiene: no es solo que el perro sufra, es que hay un vecino enfadado. Ese miedo
+> mueve a la acción más rápido que la culpa.
 
 ---
 
-## Textos del anuncio — Hogar en Calma
+## En la recámara (para cuando muera alguno)
+
+- **HC4 — "POV", sin voz.** Rótulo *"POV: día 21 del protocolo"*. Solo la pantalla de la cámara
+  del perro: se cierra la puerta, y el perro se queda tumbado. Se graba en 10 minutos, no hay que
+  hablar, y suele dar el mejor hook rate de todos.
+- **HC5 — "Los 90 segundos".** Un solo consejo, entero y gratis: los tres gestos que haces al
+  salir y que empeoran la despedida. Regalar valor real capta a un público más frío.
+
+## 3.2 Textos del anuncio
 
 **Texto principal:**
 ```
-Mi casa estaba limpia. Ordenada. Y aun así, llegaba a las diez
-de la noche y no desconectaba.
+Puse una cámara para ver qué hacía mi perro cuando me iba.
+Ojalá no la hubiera puesto.
 
-No era la casa. Era que no tenía ninguna señal de que el día
-había terminado.
+Cuarenta minutos jadeando y dando vueltas por el pasillo.
+No estaba enfadado conmigo: estaba en pánico.
 
-Hogar en Calma es eso: una señal. Diez minutos, siempre los
-mismos, que le dicen a tu cuerpo que ya puede parar.
+Y no se arreglaba cansándolo antes de salir. Eso yo lo hacía
+todos los días.
 
-Va con un diario de 30 días y un plan de 8 semanas, porque un
-método sin un calendario delante acaba abandonado el jueves.
+Hogar en Calma es el protocolo que sí funcionó: 21 días,
+10 minutos al día. Con el diario para ir apuntando lo que
+pasa cada día y el audio para dejarle puesto al salir.
+
+Sin collares de castigo. Sin dejarlo llorar hasta que se calle.
 
 🛡 30 días de garantía.
 
-👉 Descarga gratis el primer capítulo
+👉 Descarga gratis la primera parte
 ```
 
-**Titular:** `El método de las 21 noches`
-**Descripción:** `Primer capítulo gratis`
+**Titular:** `El protocolo de 21 días`
+**Descripción:** `Primera parte gratis`
 **Llamada a la acción:** `Descargar`
 
-**Lead magnet:** *"Las 7 zonas de calma de tu casa — la guía en PDF que puedes aplicar esta misma
-noche"*. Es el que ya estaba definido y es bueno: se aplica hoy, no habla de producto y demuestra
-tu criterio antes de pedir dinero.
+## 3.3 El lead magnet
+
+> **"Los 90 segundos antes de salir de casa — los 3 gestos que empeoran la ansiedad de tu perro,
+> y qué hacer en su lugar"**
+
+Cumple las tres condiciones de un buen lead magnet: **se aplica hoy mismo** (esta tarde, al
+salir), **no habla del producto** y **demuestra que sabes de lo que hablas** antes de pedir
+dinero. Y deja la puerta abierta al libro de forma natural: si tres gestos cambian algo, el
+protocolo completo cambia más.
 
 ---
 
 # 4. EDAD DORADA — el ángulo y su guion
 
-## 4.1 Antes de escribir nada: lee esto
+## 4.1 Antes de escribir: la línea que no se cruza
 
-Este producto puede **tumbarte la cuenta publicitaria entera**, no solo un anuncio. Meta prohíbe
-la publicidad que dé a entender que conoce un **atributo personal** del usuario: edad avanzada,
-salud, condición física, discapacidad.
+Aquí no hay riesgo de política de atributos personales, pero **sí de promesas sanitarias**, y en
+salud animal es un asunto legal y ético a la vez.
 
-| ❌ Prohibido | ✅ Permitido |
+| ❌ Nunca | ✅ En su lugar |
 |---|---|
-| "¿Tu madre ya no se vale sola?" | "Mi madre sigue haciéndolo todo ella. Y quiero que siga así" |
-| "Para personas con movilidad reducida" | "Pensado para moverse por casa con seguridad" |
-| "Si tienes más de 70 años…" | "Cumplir años en casa, y que la casa acompañe" |
-| "Alivia los dolores" · "previene caídas" | *(nada: son promesas sanitarias, ilegales sin marcado CE)* |
+| "Alivia la artrosis de tu perro" | "Cómo adaptar la casa para que le cueste menos moverse" |
+| "Previene la demencia canina" | "Qué significan las vueltas de madrugada, y cómo acompañarlas" |
+| "Cura la incontinencia" | "Rutinas para las noches, sin regañinas y sin culpa" |
+| "Alarga la vida de tu perro" | "Que los años que le queden sean buenos años" |
 
-**La regla, en una línea:** habla **de tu propia experiencia, en primera persona**, o en tercera
-de forma general. **Nunca en segunda persona señalando una condición del que mira.**
+**Y la regla que no es negociable:** el libro **no sustituye al veterinario**, y hay que decirlo
+en la landing, en la página de gracias y en la primera página del eBook. No es letra pequeña
+defensiva: es lo que hace que el producto sea honesto. Un dueño angustiado con un perro de 14
+años es alguien vulnerable, y lo que necesita oír es "esto te ayuda a acompañarlo y a saber qué
+preguntarle a tu veterinario", no "esto lo arregla".
 
-Por eso el guion de abajo está escrito como *"yo, hija"*, y no como *"tú, que tienes una madre
-mayor"*. No es un capricho de estilo: es lo que hace que el anuncio se apruebe.
+Frase para poner tal cual:
 
-## 4.2 Y una particularidad que lo reordena todo
+> *Edad Dorada es una guía de acompañamiento y cuidado en casa. No es un tratamiento
+> veterinario y no sustituye a tu veterinario. Si notas un cambio brusco, la consulta va primero.*
 
-**Quien paga no es quien lee.** Compra la hija de 48 para su madre de 76.
+## 4.2 El avatar
 
-| | Usuario (70-85) | **Comprador (45-62)** ← *a este le hablas* |
-|---|---|---|
-| Emoción | Dignidad, autonomía | **Culpa, preocupación, distancia** |
-| Objeción | "No lo necesito" | "¿Lo va a usar de verdad?" |
+**Quién:** dueño de perro o gato de 9 años o más. Ha estado con el animal media vida.
 
-**En Meta segmenta 45-62, no 70+.** Y en el anuncio háblale al hijo, no al mayor.
+**El dolor real:**
+- **La duda sobre el dolor.** "¿Le duele algo y yo no me estoy dando cuenta?" Los animales lo
+  esconden, y el dueño lo sabe. Esa duda no se va nunca.
+- **"Es que ya es mayor."** La frase con la que se explica todo, y por la que se dejan pasar
+  cosas que sí se podían abordar.
+- **Las noches.** Se levanta a las cuatro, da vueltas, se queda mirando una pared.
+- **La cuenta atrás.** Sabe que queda menos que lo que ha pasado. No lo dice en voz alta.
+- **La culpa anticipada.** "¿Estoy haciendo todo lo que puedo?"
+
+**Su objeción número uno:** *"esto es cosa de la edad, no hay nada que hacer"*. Y el ángulo
+principal la ataca de frente.
 
 ---
 
-## ED1 — "La llamada del domingo"
-
-**Idea:** la duda que queda después de colgar el teléfono.
+## ED1 — "Es que ya es mayor"
 
 ```
-[0-4 s]  A cámara, en tu casa, de día. Tono tranquilo, nada dramático.
-         "Cada domingo la llamaba.
-          Y cada domingo colgaba con la misma duda."
+[0-4 s]  A cámara, tranquilo. El perro tumbado al lado, en plano.
+         "Llevaba un año diciéndome lo mismo:
+          'es que ya es mayor'."
 
-[4-11 s] Sigue a cámara.
-         "¿Está bien de verdad, o me lo dice para que no me preocupe?
-          Porque ella nunca te va a decir que algo le cuesta."
+[4-11 s] Plano del perro subiendo con dificultad a un sofá — o dudando antes de subir.
+         Sin dramatismo, plano corto.
+         "Que dormía más porque era mayor.
+          Que ya no me saludaba en la puerta porque era mayor.
+          Que se levantaba de noche porque era mayor."
 
-[11-19 s] Corte. Plano de una taza, una mesa, una ventana. Sin personas.
-         "Y yo no quería llamar más veces.
-          Quería saber cómo estar ahí sin agobiarla."
+[11-20 s] Vuelta a cámara.
+         "Y era verdad, tenía trece años.
+          Pero 'ser mayor' no explicaba todo.
+          Había cosas que sí se podían hacer, y yo no las sabía."
 
-[19-27 s] Plano del eBook en una tablet.
-         "Eso es Edad Dorada. Está escrito para nosotros,
-          los hijos. [CONFIRMAR: nombrar aquí las piezas reales]"
+[20-28 s] Plano cenital de las piezas del producto.
+         "Eso es Edad Dorada: qué mirar, qué preguntarle
+          al veterinario, y cómo montarle la casa y el día
+          para que le cueste menos."
 
-[27-30 s] A cámara.
-         "Te dejo la guía de conversaciones gratis en el enlace."
+[28-32 s] A cámara, más bajo.
+         "No sé cuánto nos queda. Sí sé cómo quiero que sea.
+          Te dejo la guía gratis en el enlace."
 ```
 
-> ⚠️ **Ningún plano de una persona mayor con dificultades.** Ni bastones, ni ayuda para
-> levantarse, ni miradas tristes. Además de que Meta lo penaliza, es lo que hace que el usuario
-> final rechace el regalo: nadie quiere que le regalen la prueba de que ya no puede.
-> Si sale una persona mayor, sale **haciendo algo bien y sonriendo**.
+> **Rodaje:** ni un plano lastimero. Nada de música triste, ni cámara lenta, ni el perro mirando
+> a la nada. Tono **sereno y cálido**, no fúnebre. Si el vídeo da pena, el que lo ve pasa de largo
+> para no sentirse mal; si da compañía, se queda. Y en el último plano que el perro esté
+> **tranquilo y bien**, nunca sufriendo.
 
-## 4.3 Textos — Edad Dorada
+## Textos — Edad Dorada
 
 **Texto principal:**
 ```
-Cada domingo la llamaba. Y cada domingo colgaba con la misma duda:
-¿estará bien de verdad, o me lo dice para que no me preocupe?
+Llevaba un año diciéndome lo mismo: "es que ya es mayor".
 
-No quería llamar más veces. No quería estar encima.
-Solo quería saber cómo estar ahí sin invadirla.
+Que dormía más porque era mayor. Que ya no me saludaba en la
+puerta porque era mayor. Que se levantaba a las cuatro de la
+mañana y daba vueltas porque era mayor.
 
-Edad Dorada está escrito para nosotros, los hijos. Porque casi
-nunca el problema es lo que quieres proponerles: es cómo se lo
-propones.
+Y era verdad, tenía trece años. Pero "ser mayor" no explicaba
+todo. Había cosas que sí se podían hacer, y yo no las sabía.
 
-👉 Descarga gratis "Cómo ayudar sin invadir"
+Edad Dorada es eso: qué mirar, qué preguntarle a tu veterinario,
+y cómo adaptar la casa y el día para que le cueste menos.
+
+No sé cuánto nos queda. Sí sé cómo quiero que sea.
+
+Guía de acompañamiento en casa. No sustituye a tu veterinario.
+
+👉 Descarga gratis la guía de señales
 ```
 
-**Titular:** `Cómo ayudar sin invadir`
-**Descripción:** `Guía gratuita para hijos`
+**Titular:** `Que sean buenos años`
+**Descripción:** `Guía gratuita`
 
-**Lead magnet:** *"Cómo ayudar sin invadir — 12 conversaciones difíciles con tus padres, y cómo
-tenerlas"*. Este es el activo más fuerte de todo el catálogo para captar emails: toca un dolor
-enorme, no menciona el producto, y posiciona a Tremdora como una marca en la que confiar.
+**Lead magnet:**
 
-**Landing de este anuncio: lista de espera.** Una sola pantalla:
+> **"Las 12 señales que confundimos con 'es que ya es mayor' — y cuáles conviene consultar"**
+
+Es el mejor activo de captación de los dos libros. Toca la duda exacta que no se le va de la
+cabeza, es útil de inmediato, y **posiciona bien**: no promete curar nada, ayuda a decidir cuándo
+ir al veterinario. Eso construye confianza, que es justo lo que hace falta para que alguien te
+pague 49,90 €.
+
+**Landing: lista de espera.** Una pantalla, sin secuencia de emails todavía:
 
 ```
-Cómo ayudar sin invadir
-12 conversaciones difíciles con tus padres, y cómo tenerlas.
+Las 12 señales que confundimos con "es que ya es mayor"
 
-[ tu email ]  [ Enviar ]
+Y cuáles conviene consultar con tu veterinario.
 
-Te llega ahora mismo. Y te avisamos cuando salga Edad Dorada,
-el libro completo, con precio de lanzamiento para esta lista.
+[ tu email ]  [ Enviádmela ]
+
+Te llega ahora. Y te avisamos cuando salga Edad Dorada,
+con precio de lanzamiento para esta lista.
 ```
-
-Sin secuencia de emails todavía. Solo el envío automático de la guía y, dentro de 6-8 semanas,
-el email de lanzamiento.
 
 ---
 
 # 5. Qué grabas este fin de semana
 
-Una tarde de rodaje. Los tres anuncios salen de la misma sesión.
+Todo sale de una tarde, con tu perro y tu casa.
 
-| Orden | Anuncio | Dónde y cuándo | Dificultad |
+| Orden | Anuncio | Qué necesitas | Dificultad |
 |---|---|---|---|
-| 1º | **HC3 — "22:47"** | Tu salón, **de noche**. Sin hablar | 🟢 Fácil. Empieza por aquí para soltarte |
-| 2º | **HC1 — "La señal"** | Mismo sitio, misma noche, a cámara | 🟡 Media |
-| 3º | **ED1 — "El domingo"** | **De día**, otro rincón, otra ropa | 🟡 Media |
+| 1º | **HC1 "La cámara"** | Tu puerta con marcas, o el sofá. Plano de la cámara del perro si la tienes | 🟡 Media |
+| 2º | **HC2 "Lo he probado todo"** | La tele, la correa, un Kong, un juguete. Cuatro planos de objetos | 🟢 Fácil |
+| 3º | **HC3 "La nota"** | Un papel doblado y tu buzón. Nada más | 🟢 Fácil |
+| 4º | **ED1 "Es que ya es mayor"** | **Otro día, otra ropa, luz distinta.** Tu perro tumbado tranquilo | 🟡 Media |
 
 **Reglas de la sesión:**
-- Cámbiate de ropa entre Hogar en Calma y Edad Dorada. Son dos marcas distintas para el que mira.
-- Del gancho (los 3 primeros segundos) graba **5 tomas** cambiando la entonación. Es lo que
-  decide si el anuncio funciona.
-- Graba de sobra planos de recurso: manos, la lámpara, el diario, la taza, la ventana. Sirven
-  para tapar cortes y para montar creativos nuevos sin volver a grabar.
-
-**Y antes de subir el de Edad Dorada:** rellena los `[CONFIRMAR]` con las piezas reales del
-producto, y reléelo con la tabla del 4.1 delante.
+- **Graba a tu propio perro.** Es tu ventaja frente a cualquiera que venda un PDF genérico, y no
+  cuesta nada. Nada de vídeos de banco de imágenes: se notan y matan la credibilidad.
+- El gancho (3 primeros segundos) **grábalo 5 veces**, cambiando la entonación.
+- Planos de recurso de sobra: la puerta, el buzón, la correa, el perro durmiendo, las cuatro
+  piezas del producto en la mesa. Con eso montas creativos nuevos sin volver a grabar.
+- **Cámbiate de ropa y de día entre los dos libros.** Son dos audiencias distintas y no deben
+  parecer la misma campaña.
+- **Nada de imágenes de animales sufriendo.** Ni en Hogar en Calma ni en Edad Dorada. Meta lo
+  penaliza y el público lo rechaza.
 
 ---
 
-# 6. Lo que queda por decidir
+# 6. Lo que sigue pendiente
 
 | Pregunta | Por qué importa |
 |---|---|
-| ¿Qué contiene exactamente Edad Dorada? | Sin eso no puedo cerrar su guion ni su pila de valor |
-| ¿Cuál es el de 39,90 € y cuál el de 49,90 €? | Cambia el CPA máximo que te puedes permitir en cada uno |
-| ¿La línea mensual de mascotas es un plan real? | Si lo es, el calendario editorial de la estrategia hay que rehacerlo entero. Si no, el hueco lo ocupa la serie *Sigue Contigo*, que ya está escrita |
-| ¿Está *Sigue Contigo* en venta? | Son 4 cuadernos ya construidos. Puede ser un tercer producto o el upsell de los otros dos, sin coste de producción |
+| ¿El Diario de Bienestar es un registro de conducta del animal o reflexiones para el dueño? | Cambia el bloque 4 de los guiones y el argumento de venta más fuerte |
+| ¿Edad Dorada lleva también diario y plan, o solo el eBook? | Sin saberlo no puedo cerrar su pila de valor |
+| ¿Es de perros, o también de gatos? | Si incluye gatos, se duplica el mercado y hacen falta creativos propios: los dueños de gato no se sienten aludidos por un anuncio con un perro |
+| ¿*Sigue Contigo* está en venta? | Es el tercer peldaño de la escalera y ya está construido. Puede ser producto o upsell, a coste cero |
