@@ -1,0 +1,4894 @@
+[
+ {
+  "pagina": 1,
+  "lineas": [
+   {
+    "y": 26.0,
+    "x": 67.5,
+    "x_fin": 249.5,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Una guía para acompañarte"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 270.5,
+    "size": 42.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Sigue\n contigo\n en la pérdida de tu mascota"
+   },
+   {
+    "y": 4.0,
+    "x": 119.3,
+    "x_fin": 164.3,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "TREMDORA"
+   }
+  ]
+ },
+ {
+  "pagina": 2,
+  "lineas": [
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 250.3,
+    "size": 9.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "del vínculo y el duelo\nDesde la psicología y la neurociencia"
+   }
+  ]
+ },
+ {
+  "pagina": 3,
+  "lineas": [
+   {
+    "y": 47.0,
+    "x": 114.4,
+    "x_fin": 205.4,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Y para ellos,\nPara ti,"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 74.8,
+    "x_fin": 250.3,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "que nos enseñaron a querer\nque estás leyendo esto"
+   },
+   {
+    "y": 7.0,
+    "x": 74.8,
+    "x_fin": 219.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "sin condiciones.\n con el pecho roto."
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 3 —"
+   }
+  ]
+ },
+ {
+  "pagina": 4,
+  "lineas": [
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 11.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Antes de empezar  ·  una carta para ti\nCapítulo I  ·  Lo que está pasando dentro de ti\nCapítulo II  ·  Por qué duele tanto: el vínculo y el cerebro\nCapítulo III  ·  Las fases que vas a atravesar\nCapítulo IV  ·  Cuando todo el mundo dice 'era solo un animal'\nCapítulo V  ·  Si tuviste que tomar la decisión\nCapítulo VI  ·  Ejercicios para acompañarte\nCapítulo VII  ·  Construir un lugar para su recuerdo\nCapítulo VIII  ·  Volver a querer (sin traicionarlo)\nCapítulo IX  ·  Cuando hay niños en casa\nCapítulo X  ·  Las otras mascotas también lo sienten\nCarta final  ·  lo que quiero que recuerdes"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 96.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Índice"
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 4 —"
+   }
+  ]
+ },
+ {
+  "pagina": 5,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Durante años he trabajado con personas que atraviesan duelos, y\nEste libro no va a hacer que dejes de doler. Eso no se puede."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Si has llegado hasta aquí, probablemente sea porque alguien que\nQuiero empezar diciéndote esto: lo que sientes tiene sentido. No\nlos duelos por animales son, muchas veces, los más solitarios.\nTú sabes que era familia. Que era compañía. Que era esa presencia\nPero sí va a explicarte qué te está pasando, por qué te pasa, y va a"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "querías mucho ya no está. Y no quiero empezar este libro\nestás exagerando. No estás siendo dramática ni dramático. Lo que\nPorque el mundo no siempre los reconoce. Te dicen «era solo un\nque te esperaba en la puerta, que se subía a tu cama, que te miraba\ndarte herramientas reales —desde la psicología y la"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 313.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "hablándote como si fuera un manual.\npasó es enorme.\nperro», «coge otro», «ya estaba mayor». Y tú sabes que no.\ncuando llorabas. Que era, sencillamente, amor.\nneurociencia— para atravesarlo sin sentir que te rompes."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 228.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Una carta para ti"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 99.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "ANTES DE EMPEZAR"
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 5 —"
+   }
+  ]
+ },
+ {
+  "pagina": 6,
+  "lineas": [
+   {
+    "y": 46.0,
+    "x": 9.2,
+    "x_fin": 364.2,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Léelo despacio. Sin prisa. Salta capítulos si quieres. Llora cuando lo"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 32.0,
+    "x": 9.2,
+    "x_fin": 69.2,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "necesites."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 121.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Con todo el cariño,\nel equipo de Tremdora"
+   },
+   {
+    "y": 4.0,
+    "x": 90.3,
+    "x_fin": 240.3,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "No estás sola. No estás solo."
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 6 —"
+   }
+  ]
+ },
+ {
+  "pagina": 7,
+  "lineas": [
+   {
+    "y": 115.0,
+    "x": 0.0,
+    "x_fin": 319.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Cuando perdemos a alguien que amamos —humano o animal— el"
+   },
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "cerebro entra en lo que los neurocientíficos llaman respuesta de"
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 231.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "protesta y búsqueda. Tu sistema nervioso ha estado entrenado"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "durante años para esperar la presencia de tu mascota: su olor, su"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Si en estos días te has sentido físicamente enferma o enfermo, no\nsonido al andar, el peso de su cuerpo en el sofá. Cuando esa\nPor eso te giras pensando que la escuchas. Por eso crees verla por"
+   },
+   {
+    "y": 36.0,
+    "x": 1.8,
+    "x_fin": 361.8,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Lo que está pasando dentro de"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 396.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "estás imaginándolo. El duelo no es solo emocional. Es un proceso\npresencia desaparece de pronto, el cerebro no procesa la ausencia\nel rabillo del ojo. Por eso te despiertas esperando sentirla a los pies"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 253.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "neurobiológico que afecta a tu cuerpo entero.\ncomo un hecho, sino como un error.\nde la cama. No te estás volviendo loca. Tu cerebro está"
+   },
+   {
+    "y": 6.0,
+    "x": 1.8,
+    "x_fin": 49.8,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "ti"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 169.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Lo que pasa en tu cerebro"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 312.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "«No me reconozco, no puedo dormir, no puedo comer»"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 66.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO I"
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 7 —"
+   }
+  ]
+ },
+ {
+  "pagina": 8,
+  "lineas": [
+   {
+    "y": 115.0,
+    "x": 0.0,
+    "x_fin": 324.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "El duelo eleva el cortisol —la hormona del estrés— durante"
+   },
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "semanas. Eso explica el insomnio, la falta de hambre o el hambre"
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "voraz, los dolores de cabeza, la opresión en el pecho, la sensación"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 335.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "de agotamiento que no se quita con dormir. También se reduce"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "temporalmente la actividad del sistema inmunitario: por eso"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 75.7,
+    "x_fin": 257.7,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Tu cuerpo no está fallando."
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "muchas personas pillan resfriados o se sienten enfermas en las"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 310.1,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "aprendiendo, neurona a neurona, que ya no está.\nsemanas siguientes a una pérdida.\nTu cuerpo está reaccionando a algo enorme."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 162.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Lo que pasa en tu cuerpo"
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 8 —"
+   }
+  ]
+ },
+ {
+  "pagina": 9,
+  "lineas": [
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 32.0,
+    "x": 0.0,
+    "x_fin": 380.0,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Si te identificas con varios de estos síntomas, respira. Estás atravesando"
+   },
+   {
+    "y": 23.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "· Buscar señales de tu mascota por la casa: su pelo en el sofá, sus"
+   },
+   {
+    "y": 18.0,
+    "x": 1.8,
+    "x_fin": 311.8,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "un proceso humano, antiguo, profundamente humano. Tu sistema"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "· Llorar de golpe, en cualquier momento, sin previo aviso.\n juguetes.\n· Escuchar sonidos fantasma: su collar, sus pasos, su respiración.\n· Culpa: «¿podría haber hecho más?», «¿esperé demasiado?».\n· Rabia hacia el veterinario, hacia la vida, hacia ti.\n· Vacío físico en el pecho o el estómago.\n· Insomnio o sueño excesivo.\n· Sensación de irrealidad, como si vivieras detrás de un cristal.\n· Evitar lugares que asocias a ella (el parque, una habitación).\n· Hablar con ella en voz alta. (Esto, además, es terapéutico)."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 325.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Síntomas habituales (y normales) del duelo animal"
+   },
+   {
+    "y": 4.0,
+    "x": 16.0,
+    "x_fin": 261.0,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "nervioso sabe lo que hace, aunque parezca caos."
+   },
+   {
+    "y": 0.0,
+    "x": 0.0,
+    "x_fin": 28.0,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 9 —"
+   }
+  ]
+ },
+ {
+  "pagina": 10,
+  "lineas": [
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 294.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: la respiración alargada activa el nervio vago y reduce"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 388.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Cuando una ola de tristeza te sobrepase, prueba esto. No la elimina, pero\n4. Cuando termines, mira a tu alrededor y nombra 5 cosas que veas en\nel cortisol en minutos. Nombrar objetos saca a tu cerebro del bucle"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 10 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 383.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "te ayuda a no ahogarte en ella:\n1. Siéntate o túmbate. Pon una mano en el pecho y otra en el vientre.\n2. Respira contando 4 segundos al inspirar, 6 al espirar. Repite 10 veces.\n3. Mientras respiras, di mentalmente: «esto duele, y voy a sobrevivirlo».\nvoz alta.\nemocional y lo trae al presente."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 329.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 1 —\nAnclaje corporal: cuando el dolor es demasiado"
+   }
+  ]
+ },
+ {
+  "pagina": 11,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "En 2015, un estudio en la Universidad de Azabu (Japón) demostró"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "La neurociencia tiene una respuesta clara, y es importante que la\nalgo asombroso: cuando un perro y su persona se miran a los ojos,"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Hay una pregunta que muchas personas se hacen en silencio, con\nescuches: no estás exagerando. El vínculo con tu mascota activa,\nambos cerebros liberan oxitocina —la misma hormona que"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "vergüenza: «¿por qué me afecta esto tanto como cuando murió mi\nliteralmente, los mismos circuitos cerebrales que el vínculo con tus\nsegregan las madres con sus bebés cuando los amamantan—. El\nCon gatos pasa algo similar, aunque más sutil. El ronroneo de un"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 11 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "abuelo?»\nhijos, con tu pareja, con tu familia.\nmismo lazo bioquímico.\ngato emite frecuencias entre 25 y 150 Hz, que en humanos reducen"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 252.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Por qué duele tanto"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 156.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "La oxitocina compartida"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 234.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "El vínculo entre tu cerebro y el suyo"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 71.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO II"
+   }
+  ]
+ },
+ {
+  "pagina": 12,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Durante años, tu cerebro y el suyo se sincronizaron químicamente."
+   },
+   {
+    "y": 47.0,
+    "x": 66.2,
+    "x_fin": 261.2,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "No has perdido a una mascota."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Vuestros sistemas nerviosos se regulaban el uno al otro. Cuando"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 33.8,
+    "x_fin": 313.3,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Has perdido una parte de tu propio sistema"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "llegabas a casa después de un mal día y os abrazabais, vuestras"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 12 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "la presión arterial y liberan serotonina. Por eso te calmaba.\nfrecuencias cardíacas se acompasaban. Literalmente.\n nervioso."
+   }
+  ]
+ },
+ {
+  "pagina": 13,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "En psicología existe un concepto acuñado por el doctor Kenneth\nCuando muere tu mascota, vas a trabajar al día siguiente. La gente"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Doka: el duelo desautorizado. Es el dolor que la sociedad no\nCuando muere un familiar humano, hay rituales: el funeral, la\nte dice «lo siento» con incomodidad y cambia de tema. Algunos\nEsa falta de reconocimiento social duplica el dolor. Porque no\nPor eso es importante que entiendas esto: tu dolor es legítimo. Tu"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "reconoce como válido. El duelo por una mascota encaja\ncondolencia, los días libres en el trabajo, la familia que se reúne.\nsugieren, con buena intención y crueldad sin saberlo, que «adoptes\nsolo lloras la pérdida: lloras también el aislamiento, la sensación\ndolor merece espacio. Y si tu entorno no te lo da, vas a tener que"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 13 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 291.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "exactamente ahí.\nHay permiso social para llorar.\notra». Como si fueran intercambiables.\nde que estás llorando demasiado, la culpa por sentir «demasiado».\ndártelo tú."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 149.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "El duelo desautorizado"
+   }
+  ]
+ },
+ {
+  "pagina": 14,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 273.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: la escritura expresiva, estudiada por el psicólogo"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 351.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "James Pennebaker durante décadas, ha demostrado reducir el estrés,"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 388.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Escribe una carta a tu mascota. Empieza con «Querido / Querida [su\nCuéntale lo que no le dijiste. Lo que te dio. Lo que aprendiste con ella.\nCuando termines, decide tú: puedes guardarla, puedes quemarla, puedes\nmejorar el sistema inmunitario y acelerar el procesamiento del duelo."
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 14 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 351.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Coge papel y bolígrafo. No vale el móvil, esto pide tinta y mano.\nnombre]» y déjate ir. No corrijas, no tachas, no relees.\nLo que te duele ahora. Lo que te arrepientes. Lo que le agradeces.\nenterrarla, puedes dejarla en su urna. Lo que sientas.\nUna sola sesión de 20 minutos tiene efectos medibles."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 217.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 2 —\nLa carta que nunca le enviaste"
+   }
+  ]
+ },
+ {
+  "pagina": 15,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 385.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "El duelo no es una línea recta. No vas de la tristeza a la aceptación"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "en cinco pasos ordenados. Es más bien un oleaje: vas y vienes, hay\nAun así, conocer las fases ayuda. No porque te indiquen dónde\nLos primeros días, a veces las primeras semanas. Te cuesta creer\nLo que necesitas aquí: descanso, comida sencilla, gente cercana."
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "días en que crees que estás mejor y al día siguiente vuelves al\ndeberías estar, sino porque te permiten reconocer dónde estás sin\nque ha pasado. Funcionas en automático. Puede que no llores.\nNo tomes decisiones importantes. No vacíes su cama todavía. No"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 15 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 308.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "principio sin avisar.\nasustarte.\nPuede que llores sin parar. Las dos cosas son normales.\nregales sus juguetes. Espera."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 372.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Las fases que vas a atravesar"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 162.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "1 · Shock e incredulidad"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 234.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Un mapa para no perderte en el camino"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 77.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO III"
+   }
+  ]
+ },
+ {
+  "pagina": 16,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Pasadas las dos primeras semanas, el shock se rompe y entra el"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "dolor de verdad. Es la fase más dura. Llanto frecuente, anhelo"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "intenso, ganas de retroceder el tiempo. Aquí aparece la culpa con\nLo que necesitas aquí: permitirte sentir. No huir. Hablar de él o"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "fuerza: «debería haber visto las señales antes», «esperé\nella. Mirar sus fotos. Sentirlo todo, aunque duela. Lo que no se"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 16 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 132.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "demasiado», «no estuve cuando murió».\nsiente, no se cura."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 104.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "2 · Dolor agudo"
+   }
+  ]
+ },
+ {
+  "pagina": 17,
+  "lineas": [
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 258.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "No es «superar». No vas a superarlo, porque no es algo que se"
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Aquí es importante saber esto: reír no es traicionarlo. Tu mascota\nsupere. Es algo que se integra. Llega un momento —tarda lo que"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Generalmente entre el mes y los tres meses, aunque varía mucho.\nno querría que dejaras de vivir. Lo que aprendiste a su lado\ntarda, no hay calendario— en que su recuerdo deja de doler como"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Empiezas a tener días buenos. Te sientes culpable de tenerlos.\n—querer sin medida, estar presente, alegrarte de las cosas\nuna herida y empieza a sentirse como un lugar cálido. Sigues\nAquí es cuando muchas personas deciden adoptar de nuevo. O no."
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Vuelves a reír y al instante piensas «¿cómo puedo estar\npequeñas— es exactamente lo que ahora tienes que aplicar a tu\nechándolo de menos, pero el recuerdo te abriga en lugar de\nLas dos decisiones son válidas. Hablaremos de esto en el último"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 17 —"
+   },
+   {
+    "y": 18.0,
+    "x": 0.0,
+    "x_fin": 370.0,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "No todas las personas atraviesan estas fases en orden. Algunas se saltan"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 71.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "riéndome?».\npropia vida.\npartirte.\ncapítulo."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 123.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "3 · Reorganización\n4 · Integración"
+   },
+   {
+    "y": 4.0,
+    "x": 1.6,
+    "x_fin": 361.6,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "una, otras vuelven atrás varias veces. Si después de seis meses sigues"
+   }
+  ]
+ },
+ {
+  "pagina": 18,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 262.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: nombrar las emociones reduce su intensidad en el"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 393.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Al final de los 30 días, relee. Vas a ver el oleaje en blanco y negro. Vas\nsistema límbico. Es lo que el neurocientífico Matthew Lieberman llama"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 32.0,
+    "x": 0.0,
+    "x_fin": 355.0,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "sintiendo que no puedes funcionar —no sales, no comes, no duermes, no"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 393.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Durante los próximos 30 días, escribe cada noche, antes de dormir, una\na ver que los días no son todos iguales. Vas a ver cómo, sin que lo notes,\n«affect labeling»: poner palabras al sentir literalmente desactiva el"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 18 —"
+   },
+   {
+    "y": 18.0,
+    "x": 2.1,
+    "x_fin": 347.1,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "encuentras sentido a nada— por favor, pide ayuda profesional. No es"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 315.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "sola frase:\n«Hoy he sentido _________ y mi cuerpo ha estado _________».\nSolo eso. No más. No tienes que explicarte ni justificarte.\nalgo se mueve.\ncerebro emocional y activa el racional."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 288.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 3 —\nEl diario del oleaje\n debilidad. Es cuidarte como cuidarías de él o de ella."
+   }
+  ]
+ },
+ {
+  "pagina": 19,
+  "lineas": [
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Vas a oír frases que te van a doler. Te las dirán personas que te\nNo tienes que justificar tu dolor ante nadie. No tienes que medirlo,"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "quieren, con buena intención, sin saber el daño que hacen. Estas\ncompararlo, ni explicar por qué te afecta tanto. Tu dolor no"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 19 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 231.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "son las más comunes:\nnecesita aprobación externa para existir."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 264.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "«Era solo un animal»\n· «Era solo un perro / un gato»\n· «Adopta otro y verás cómo se te pasa»\n· «Por lo menos no era una persona»\n· «Ya estaba mayor, era su hora»\n· «Hay gente con problemas peores»\n· «Tienes que ser fuerte»\n· «Llevas mucho tiempo así, ¿no?»"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 201.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Qué responder (o no responder)"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 276.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Cuando los demás no entienden lo que te pasa"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 71.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO IV"
+   }
+  ]
+ },
+ {
+  "pagina": 20,
+  "lineas": [
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Tienes derecho a no entrar en debates sobre tu duelo. Algunas"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 20 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 181.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "respuestas que te pueden servir:"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 335.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "· «Para mí no era 'solo'. Era familia. Gracias por preguntar».\n· «Cada uno vive el duelo a su ritmo. Yo estoy en el mío».\n· «No necesito que lo entiendas, solo que me acompañes».\n· Silencio. Cambiar de tema. Alejarte. También es válido."
+   }
+  ]
+ },
+ {
+  "pagina": 21,
+  "lineas": [
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Hay grupos online de duelo animal, hay foros, hay perfiles en"
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "En el duelo animal, encontrar a otras personas que también lo han\nredes. Hay también psicólogos especializados en duelo de"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "atravesado es uno de los gestos más sanadores que puedes hacer.\nmascotas; cada vez más, porque cada vez se reconoce más este"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "No porque te vayan a quitar el dolor, sino porque te van a decir\ndolor. Si puedes permitirte una sesión, búscalo. No tiene por qué"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "—con sus palabras o con su silencio— que no estás sola, ni loca,\nser un proceso largo; a veces con tres o cuatro sesiones se"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 21 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 165.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "ni exagerando.\nacompaña el momento más duro."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 97.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Busca tu gente"
+   }
+  ]
+ },
+ {
+  "pagina": 22,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 367.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Alrededor, dibuja otro círculo más grande. Dentro escribe los nombres"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 362.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "de las personas con las que sí puedes hablar de tu mascota sin que\nMás afuera, dibuja un tercer círculo. Ahí escribe los nombres de las\nPor qué funciona: en los duelos, el apoyo social es uno de los factores"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 378.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Coge una hoja. Dibuja un círculo pequeño en el centro y escribe tu\nminimicen tu dolor. Pueden ser tres. Pueden ser una sola. Pueden ser de\npersonas con las que no vas a hablar de esto. No porque les odies.\nCuando aparezca el dolor, recurre primero al círculo del medio. No\nque más predicen una buena integración. Pero el apoyo malo —el que"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 22 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 362.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "nombre dentro.\ntu familia, amigos, o de internet.\nPorque protegerte es legítimo.\nmalgastes tu tristeza con quien no la sabe sostener.\nminimiza o juzga— hace más daño que la soledad. Filtrar es cuidarte."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 126.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 4 —\nTu círculo seguro"
+   }
+  ]
+ },
+ {
+  "pagina": 23,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Quiero decírtelo claro, porque sé que probablemente lleves días o\nCuando perdemos a alguien, el cerebro humano hace algo cruel:"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Este capítulo es para ti si tuviste que decidir. Si estuviste en esa\nsemanas dándole vueltas: tomar la decisión de acabar con su\nbusca compulsivamente qué podríamos haber hecho distinto. Es un"
+   },
+   {
+    "y": 36.0,
+    "x": 0.0,
+    "x_fin": 300.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Si tuviste que tomar la"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "sala. Si firmaste ese papel. Si lo sostuviste en tus brazos mientras\nsufrimiento fue el último acto de amor que pudiste darle. No\nmecanismo evolutivo —antes nos servía para aprender de los"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 23 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "se iba.\nfue matarlo. Fue dejarlo ir.\npeligros— pero en el duelo se convierte en una tortura inútil."
+   },
+   {
+    "y": 6.0,
+    "x": 39.4,
+    "x_fin": 159.4,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "decisión"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 247.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "La culpa es una mentira de tu cerebro"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 294.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Sobre la eutanasia y la culpa que viene después"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 66.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO V"
+   }
+  ]
+ },
+ {
+  "pagina": 24,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Vas a repasar mentalmente los últimos meses, los últimos días, los"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "últimos minutos. «¿Esperé demasiado?», «¿Me adelanté?»,\nTú no podías saber el día exacto. Nadie puede. Hiciste lo que"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 68.9,
+    "x_fin": 276.9,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "El último regalo que le hiciste"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 313.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "«¿Sufrió?», «¿Lo entendió?». Esta culpa es un síntoma del duelo,\npudiste con la información que tenías. Y le ahorraste un"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 24 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "no una verdad sobre lo que hiciste.\nsufrimiento que él o ella no podía contarte pero sí estaba teniendo.\nfue no obligarle a quedarse contigo."
+   }
+  ]
+ },
+ {
+  "pagina": 25,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Si te tortura preguntarte si entendió lo que pasaba, te voy a contar\nSi estuviste ahí, fue lo único que necesitaba."
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "lo que sabemos: los mamíferos —perros, gatos— sienten dolor\nSi no pudiste estar —porque no llegaste, porque no te dejaron,"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 396.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "físico y angustia, sí, pero no tienen la conciencia anticipatoria de la\nporque no pudiste soportarlo—, eso tampoco es una falta. A veces"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "muerte que tenemos los humanos. No piensan «voy a morir». No\nLo que sí sienten, hasta el último momento, es tu presencia. Tu\nla vida no nos deja estar como queremos. No te castigues por una"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 25 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 176.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "tienen ese sufrimiento añadido.\nvoz. Tu olor. Tus manos.\ncircunstancia."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 331.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Lo que la neurociencia sabe del sufrimiento animal"
+   }
+  ]
+ },
+ {
+  "pagina": 26,
+  "lineas": [
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 378.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Imagina que tu mascota pudiera hablarte ahora. Que pudieras\nLas personas que hacen este ejercicio coinciden, casi sin excepción, en\nPor qué funciona: esta técnica, llamada «silla vacía» en terapia Gestalt,"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 393.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "preguntarle, mirándole a los ojos, una sola cosa: «¿Tomé la decisión\nCierra los ojos. Espera. Escucha lo que te respondería. No lo que tú\nla misma respuesta: «Gracias. Hiciste lo que tenías que hacer. Estoy\npermite externalizar diálogos internos atascados. El cerebro, al darle voz"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 26 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 383.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Si la culpa por la eutanasia te visita en bucle, prueba esto:\ncorrecta?».\nquieres oír. Lo que él o ella te diría.\nbien».\nQuédate con esa respuesta. Es real. Es la suya.\nal otro, libera parte del peso emocional que la culpa carga sin destino."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 329.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 5 —\nDevolverle la decisión a quien le correspondía"
+   }
+  ]
+ },
+ {
+  "pagina": 27,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Aquí tienes una serie de ejercicios diseñados desde la psicología"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "basada en evidencia. Úsalos cuando los necesites. No tienes que"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "hacerlos todos, ni en orden. Algunos te van a resonar más que"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 27 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 236.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "otros. Confía en lo que tu cuerpo te pida."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 348.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Ejercicios para acompañarte"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 228.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Herramientas para los días difíciles"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 71.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO VI"
+   }
+  ]
+ },
+ {
+  "pagina": 28,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 105.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: los estudios sobre meaning-making en duelo"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 325.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Ejemplos: «Me enseñó a alegrarme cuando alguien vuelve a casa».\n—liderados por la psicóloga Robert Neimeyer— muestran que las"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 383.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Coge un cuaderno. Escribe en la primera página, arriba: «Lo que [su\nCada noche, durante una semana, escribe una sola cosa que aprendiste\n«Me enseñó que un rato al sol arregla muchas cosas». «Me enseñó a\nAl cabo de la semana tendrás siete frases. Léelas. Esas son tu herencia.\npersonas que encuentran significado en la pérdida integran el duelo"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 28 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 273.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "nombre] me enseñó».\nde él o ella. Puede ser diminuta. Puede ser enorme.\nestar presente».\nEso no se va con él.\nmucho mejor que las que se quedan en el dolor puro."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 203.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 6 —\nLas tres cosas que me enseñó"
+   }
+  ]
+ },
+ {
+  "pagina": 29,
+  "lineas": [
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 383.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Elige un día. Vístete como te vestías para sacarlo. Coge su correa si la\nPor qué funciona: los rituales de transición son una de las herramientas"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 388.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Si tu mascota era un perro y teníais paseos habituales, este ejercicio te\nconservas. Sal sola o solo —o con alguien de tu círculo seguro— y haz\nLlora si necesitas. Habla con él o con ella. Mira los sitios donde olía,\nAl final del paseo, di en voz alta: «Gracias por todos los paseos. Voy a\nmás antiguas y eficaces del duelo. Activan procesos cerebrales de cierre"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 29 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 241.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "va a doler al principio y a sanarte después.\nel paseo que hacíais juntos.\ndonde se paraba, donde se sentaba a esperar.\nseguir caminando, y a veces te traeré conmigo».\nque el simple pensamiento no consigue."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 133.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 7 —\nEl paseo simbólico"
+   }
+  ]
+ },
+ {
+  "pagina": 30,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 220.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: los objetos transicionales —concepto del"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 336.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "psicoanalista Donald Winnicott— permiten al cerebro mantener el"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 388.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Elige un objeto que fuera suyo. Su collar. Su juguete favorito. Su manta.\nEse objeto va a ser tu «objeto puente»: el que tocas cuando necesitas\nTenlo en un lugar visible pero protegido. No en el fondo de un cajón.\nCuando lo necesites, cógelo. Acaríciala a través de él. Llora si quieres.\nCon el tiempo, dejarás de necesitarlo tan a menudo. Eso no será\nvínculo emocional con quien no está, sin necesidad de su presencia"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 30 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 309.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Su cepillo.\nsentirla cerca.\nTampoco en mitad del salón. Un sitio que sea tuyo, íntimo.\nHabla. Recuerda.\nolvidarlo. Será integrarlo.\nfísica. Son anclajes de amor."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 119.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 8 —\nEl objeto puente"
+   }
+  ]
+ },
+ {
+  "pagina": 31,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 362.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Ve metiendo dentro, sin prisa, durante las próximas semanas, todo lo\nPor qué funciona: tener un espacio físico delimitado para el recuerdo"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 357.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "que quieras conservar de tu mascota: una foto impresa, un mechón de\nevita que el duelo invada todos los rincones de tu casa y,"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 378.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Consigue una caja bonita. Una de madera, una de cartón forrado, una de\npelo, su placa, su correa, el dibujo de su huella, una hoja de su árbol\nEsta caja no es para abrirla todos los días. Es para tenerla, saber que\nEs su «archivo de amor». Y un día —puede que dentro de mucho— se\nparadójicamente, te permite acceder al recuerdo de forma más sana y"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 31 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 393.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "las que ya tienes en casa y te gusta.\nfavorito, una nota tuya contando una anécdota.\nexiste, y abrirla en aniversarios, en cumpleaños suyos, en días difíciles.\nlo enseñarás a alguien y le contarás quién fue.\nelegida."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 154.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 9 —\nLa caja de la memoria"
+   }
+  ]
+ },
+ {
+  "pagina": 32,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 278.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: combinar respiración consciente con visualización y"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 367.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "afirmaciones activa simultáneamente el sistema nervioso parasimpático"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 378.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Cuando una ola de tristeza muy fuerte llegue, prueba esta meditación\nAl terminar, agradece a tu cuerpo. No te levantes corriendo. Quédate un\ny refuerza vías neuronales asociadas al recuerdo positivo. Reduce la"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 32 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 278.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "corta, de cinco minutos:\n1. Siéntate cómoda. Cierra los ojos. Respira normal.\n2. Imagínalo o imagínala. Su cara. Su pelaje. Su olor.\n3. Inspira y di mentalmente: «Gracias por haber estado».\n4. Espira y di: «Te llevo conmigo».\n5. Repite durante cinco minutos. Llora si llega.\nminuto en silencio.\nangustia y refuerza el vínculo sano con la memoria."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 161.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 10 —\nRespiración del cariño"
+   }
+  ]
+ },
+ {
+  "pagina": 33,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Durante milenios, todas las culturas humanas han creado rituales y"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "espacios para sus muertos. No es casualidad: el cerebro humano"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "necesita lugares físicos donde poder dirigir el amor que ya no\nCuando tu mascota muere, te quedas con un amor enorme y sin\nNo hace falta que sea grande, ni elaborado. Una estantería. Una"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "tiene destinatario vivo. Los altares, las tumbas, los memoriales no\nlugar donde ponerlo. Crearle un espacio —pequeño, íntimo,\nmesilla. Una repisa de la chimenea. Un alféizar. Un rincón que sea"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 33 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "son superstición ni capricho: son una necesidad neurológica.\nbonito— le da a tu sistema nervioso un lugar donde aterrizar.\nsuyo.\nElementos que suelen acompañar:"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 324.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Un lugar para su recuerdo\n· Su urna o cofre, en el centro."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 136.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Cómo crear su rincón"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 216.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Sobre rituales, urnas y memoriales"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 77.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO VII"
+   }
+  ]
+ },
+ {
+  "pagina": 34,
+  "lineas": [
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 23.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "· Una planta viva: ayuda mucho que haya algo verde y vivo en ese\n· Una piedra, una concha, algo que recogiste en un paseo con él o"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 34 —"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 308.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "· Una foto tuya con él o ella en un buen día.\n· Una vela —encendida solo cuando quieres acompañarla—.\n espacio.\n· Un objeto suyo: el collar, su juguete favorito.\n ella."
+   }
+  ]
+ },
+ {
+  "pagina": 35,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "En Tremdora creemos que estas urnas no deberían parecer urnas."
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Si has elegido guardar sus cenizas, la urna no es un recipiente\nDeberían parecer lo que son: pequeñas obras hechas a mano, una a"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "cualquiera. Es el lugar donde reposa quien te acompañó cada día\nuna, para sostener un amor enorme. Por eso cada pieza se trabaja"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 72.5,
+    "x_fin": 261.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Lo que quieres en ese rincón"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "durante años. Mereces que sea bonita. Mereces que te guste\ndurante días, se firma y se entrega como lo que es: un objeto de"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 35 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 333.4,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "mirarla. Que no tengas que esconderla.\ncuidado.\nno es una caja: es un sitio bonito para ella."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 169.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "La urna como acto de amor"
+   }
+  ]
+ },
+ {
+  "pagina": 36,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 246.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: los rituales activan en el cerebro lo que los"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Reúne las cosas que vas a poner. Pon música —algo suave, algo que\nColoca cada objeto despacio. Cuando termines, enciende la vela.\nneurocientíficos llaman consolidación emocional. Convierten una"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 388.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "El día que coloques su urna o crees su rincón, no lo hagas en silencio ni\nasociaras a momentos buenos con ella—. Si quieres, invita a alguien que\nQuédate un rato delante. Habla con ella si quieres. O quédate en\nAntes de irte de ese rincón por primera vez, di en voz alta: «Aquí te\nexperiencia abstracta —la muerte— en algo concreto y manejable."
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 36 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 257.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "en automático. Conviértelo en un pequeño ritual.\ntambién la quería.\nsilencio. Llora si llega.\nquedas. Aquí estás conmigo».\nInician el camino de la integración."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 175.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 11 —\nEl ritual del primer día"
+   }
+  ]
+ },
+ {
+  "pagina": 37,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Ningún animal sustituye a otro. Cada uno es único, irrepetible, con"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Llega un momento —puede que pronto, puede que tarde mucho—\nsu carácter, sus rarezas, sus miradas. Adoptar después de un duelo"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "en el que la pregunta aparece: «¿debería adoptar otro?». Y casi\nno es «conseguir otro igual». No existe otro igual. Adoptar es\nTu mascota no va a sentirse traicionada. Tu mascota —si pudiera"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "siempre, con esa pregunta, llega su sombra: «¿estaría\ndecir: «lo que aprendí queriéndote, quiero seguir dándoselo a otro\nhablar— probablemente te diría que tienes demasiado amor dentro"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 37 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 165.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "traicionándolo si lo hago?».\nVamos por partes.\nser que lo necesita».\ncomo para no dárselo a nadie."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 204.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Volver a querer"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 162.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Adoptar no es reemplazar"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 228.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "¿Adoptar de nuevo? ¿Es traicionarla?"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 82.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO VIII"
+   }
+  ]
+ },
+ {
+  "pagina": 38,
+  "lineas": [
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "No hay un tiempo correcto. Hay personas que adoptan a los pocos"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "meses y les va perfecto. Hay personas que esperan años. Hay"
+   },
+   {
+    "y": 23.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "· Cuando imaginas adoptar, no sientes que sería «reemplazarlo»,\n· Cuando tu casa, ahora mismo, se siente demasiado silenciosa de"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 38 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "personas que deciden no volver a adoptar y eso también es válido.\nLas señales de que es buen momento:"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "· Cuando piensas en él o ella, sientes más cariño que dolor agudo.\n· Cuando ves a otro animal en la calle, no te derrumbas: sonríes.\n sino  una forma que duele.\n· Cuando, sin culpa, te apetece volver a cuidar.\n«continuar»."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 162.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "¿Cuándo es buen momento?"
+   }
+  ]
+ },
+ {
+  "pagina": 39,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 247.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Segundo: elige a quien te elija a ti. No busques uno «parecido» al"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "que perdiste. Esa comparación, sin querer, lo va a perjudicar. Deja"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 335.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Primero: considera la adopción en lugar de la compra. Hay miles\nque el nuevo sea él mismo, distinto, con su propia historia."
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 32.0,
+    "x": 42.1,
+    "x_fin": 302.1,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Si decides no adoptar nunca más, también está bien."
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "de animales esperando en refugios. Salvar una vida es, en sí\nTendrás que volver a empezar a conocer a alguien. Y ese alguien"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 39 —"
+   },
+   {
+    "y": 18.0,
+    "x": 8.4,
+    "x_fin": 348.4,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "El amor no se mide por cuántos pasan por tu casa, sino por cómo los"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 247.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Plantéalo desde dos ideas importantes:\nmismo, un acto que honra a quien ya no está.\nte va a enseñar cosas nuevas."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 123.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Si decides adoptar"
+   },
+   {
+    "y": 4.0,
+    "x": 8.4,
+    "x_fin": 153.4,
+    "size": 10.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "quisiste cuando estuvieron."
+   }
+  ]
+ },
+ {
+  "pagina": 40,
+  "lineas": [
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 367.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "«Estoy pensando en adoptar otro. No para reemplazarte. Porque tú me\nEscucha lo que te respondería. Casi todas las personas que hacen este\nPor qué funciona: dar permiso simbólico a uno mismo a través del"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 378.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Si estás pensando en adoptar y la culpa te frena, prueba este ejercicio\nSiéntate frente a su urna o rincón. Háblale. Cuéntale lo que estás\nenseñaste a querer y ahora tengo mucho amor que no sé dónde poner.\nejercicio describen la misma sensación: que su mascota lo aprueba con\nEso es porque esa aprobación ya estaba dentro de ti. Solo necesitabas\nrecuerdo del ser querido es una técnica usada en terapia de duelo."
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 40 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 273.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "sencillo:\npensando.\n¿Qué te parece?».\ncariño.\ndarle voz.\nPermite avanzar sin sentir que se rompe el vínculo."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 287.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 12 —\nPedirle permiso (aunque no lo necesites)"
+   }
+  ]
+ },
+ {
+  "pagina": 41,
+  "lineas": [
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "El error más común —siempre con buena intención— es mentir"
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Si en tu casa hay niños o niñas, esta pérdida tiene una capa más:\npara protegerles: «se ha escapado», «se ha ido a una granja»,"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 280.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "muy probablemente sea su primer encuentro con la muerte.\n«está dormida». Estas frases parecen suavizar, pero hacen daño a"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Cómo lo atraviesen ahora va a influir en cómo entiendan todas las\nlargo plazo. El niño espera que vuelva. Empieza a desconfiar\nLa neurociencia del desarrollo es clara: los niños pueden"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 335.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "pérdidas que vivan después. Es un momento delicado, sí, pero\ncuando descubre la verdad. Y peor: si le dices que «está dormida»,\nentender la muerte, en sus términos, desde muy temprano. Lo"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 41 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "también es una oportunidad enorme.\npuede desarrollar miedo a dormirse.\nque no toleran bien es la ambigüedad y el secreto. Decírselo con"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 312.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Cuando hay niños en casa"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 247.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Dile la verdad, con palabras pequeñas"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 228.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Cómo acompañarles en su primer duelo"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 71.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO IX"
+   }
+  ]
+ },
+ {
+  "pagina": 42,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 214.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Frases que sí funcionan: «[su nombre] ha muerto. Su cuerpo dejó"
+   },
+   {
+    "y": 67.0,
+    "x": 77.0,
+    "x_fin": 252.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Mentirles para protegerlos"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "de funcionar y ya no va a volver. La vamos a echar mucho de"
+   },
+   {
+    "y": 47.0,
+    "x": 60.2,
+    "x_fin": 281.2,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "les enseña que el dolor da miedo."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 319.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "menos». Concreto, claro, sin metáforas. Y muy importante: dales"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 60.2,
+    "x_fin": 235.7,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Acompañarles en la verdad"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "palabras claras, sencillas y verdaderas es lo que les permite\npermiso explícito para sentir. «Está bien estar triste. Está bien"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 42 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 300.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "procesarlo.\nllorar. Yo también lo estoy».\nles enseña que el dolor se atraviesa."
+   }
+  ]
+ },
+ {
+  "pagina": 43,
+  "lineas": [
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "De 5 a 8 años: empiezan a entender que la muerte es para siempre."
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 302.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Pueden tener miedos nuevos —que mueran sus padres, que"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 291.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "mueran ellos—. Tranquilízales sin negar la realidad: «casi todos\nDe 9 a 12 años: ya entienden la muerte como adultos, pero la\nAdolescentes: pueden minimizar para protegerse. «No es para"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 357.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "De 2 a 4 años: entienden la ausencia, no la permanencia.\nlos animales y personas vivimos mucho tiempo. Pero a veces pasa.\nviven con la intensidad emocional de la infancia. Pueden mostrar\ntanto», dicen, mientras lloran a solas. Dales espacio sin"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 352.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Preguntarán muchas veces dónde está, cuándo vuelve. Responde lo\nLo importante es que mientras estamos vivos nos queremos\nenfado, distancia o aparente indiferencia. No te alarmes: es su\nabandonarlos. Una frase tipo «si en algún momento quieres"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 43 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 280.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "mismo, con paciencia infinita. Tu calma les ancla.\nmucho».\nforma de procesar.\nhablar, aquí estoy, sin juicios», deja la puerta abierta."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 91.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Según la edad"
+   }
+  ]
+ },
+ {
+  "pagina": 44,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 330.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Sentaos juntos. Encended una vela. Cada uno —incluidos los más"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 362.2,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "pequeños— dice algo que le gustaba de la mascota. Puede ser una sola\nPor qué funciona: los rituales colectivos ayudan a los niños a entender"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 357.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Si los niños no pudieron despedirse —porque pasó de noche, en el\npalabra. «Era blandita». «Movía la cola cuando llegaba». «Me lamía la\nDespués, cada uno dice algo que querría haberle dicho: «Gracias por\nque el duelo es algo natural, compartido y que no hay que esconder."
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 44 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 325.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "veterinario, o de forma inesperada— créales una despedida.\ncara».\njugar conmigo». «Te quería mucho».\nApagad la vela juntos. Abrazaos. Llorad si llega.\nCrean un recuerdo de la pérdida cargado de amor, no de miedo."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 175.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 13 —\nUna despedida compartida"
+   }
+  ]
+ },
+ {
+  "pagina": 45,
+  "lineas": [
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Hay algunas cosas que un niño en duelo necesita escuchar, con tu\nY si tú también estás llorando, no lo escondas. Verte triste no les"
+   },
+   {
+    "y": 40.0,
+    "x": 0.0,
+    "x_fin": 269.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "· «No es culpa tuya». (Casi todos los niños se sienten culpables por"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "voz, mirándole a los ojos. No las des por hechas. Aunque parezcan\nhace daño. Lo que hace daño es ver a un adulto fingiendo estar"
+   },
+   {
+    "y": 23.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "algo: por haberle regañado, por no haberle hecho caso, por no\n· «Está bien también reír y jugar. Eso no significa que la quisieras"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 45 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 247.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "obvias, hay que decirlas:\nbien. Tu llanto les da permiso para el suyo."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "· «No te va a pasar a ti. No nos va a pasar a nosotros pronto».\n· «Está bien sentirse triste todo el tiempo que necesites».\n menos»· «Vamos a hablar de ella siempre que quieras».\n· «No vamos a olvidarla nunca».\nhaber estado).\n."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 201.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Lo que los niños necesitan oír"
+   }
+  ]
+ },
+ {
+  "pagina": 46,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 252.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: los niños procesan el duelo simbólicamente, no"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 357.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "verbalmente. El dibujo activa zonas del cerebro que las palabras no"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 372.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Especialmente con niños pequeños, los dibujos son la mejor herramienta\nDales papel y colores. Propón: «Vamos a dibujar a [su nombre]». No\nDespués, mientras dibujan o cuando terminen, pregunta con suavidad:\nGuardad los dibujos en la caja de la memoria de la mascota, o pegadlos\nalcanzan a esa edad, permitiéndoles expresar lo que aún no saben"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 46 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 273.0,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "de duelo. Mucho mejor que las palabras.\ncorrijas. No dirijas. Que dibujen lo que les salga.\n«¿Qué es lo que más recuerdas de ella?». Escucha. No interrumpas.\ncerca de su rincón.\nnombrar."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 161.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 14 —\nEl dibujo del recuerdo"
+   }
+  ]
+ },
+ {
+  "pagina": 47,
+  "lineas": [
+   {
+    "y": 133.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Estudios en etología y neurociencia animal —especialmente los"
+   },
+   {
+    "y": 115.0,
+    "x": 0.0,
+    "x_fin": 313.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "del biólogo Marc Bekoff— han documentado durante décadas"
+   },
+   {
+    "y": 97.0,
+    "x": 0.0,
+    "x_fin": 324.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "comportamientos de duelo en perros, gatos, aves, caballos,"
+   },
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 313.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "elefantes y muchas otras especies. Los animales sociales forman"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Si tenías más animales en casa, vas a notar algo que muchas\nvínculos reales con sus compañeros, humanos y no humanos."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 335.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "personas no esperan: los compañeros que quedan también hacen\nCuando esos vínculos se rompen, su cerebro reacciona con los"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "duelo. Y muchas veces lo hacen antes y más intensamente que\nmismos mecanismos que el nuestro: bajada de serotonina,\nLo que estás viendo en tu otra mascota no es imaginación tuya. Es"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 47 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "nosotros, aunque no puedan ponerlo en palabras.\nelevación de cortisol, alteración del sueño y la alimentación.\nreal. Y ella también necesita acompañamiento."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 312.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Ellas también lo sienten"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 149.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Lo que dice la ciencia"
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 306.0,
+    "size": 12.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "El duelo de las otras mascotas que quedan en casa"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 66.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CAPÍTULO X"
+   }
+  ]
+ },
+ {
+  "pagina": 48,
+  "lineas": [
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 48 —"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "· Buscar al compañero ausente por la casa, oler sus sitios.\n· Esperar en la puerta, en su cama, en su sitio del sofá.\n· Pérdida de apetito durante días o semanas.\n· Dormir mucho más de lo habitual, o no dormir bien.\n· Menos juego, menos interés en lo que antes le gustaba.\n· Vocalización inusual: maullidos largos, aullidos, lloros.\n· Apego excesivo hacia ti, no quererte perder de vista.\n· Lo contrario: aislamiento, esconderse, querer estar solo.\n· Conductas regresivas: hacerse pis en casa, no comer solo."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 234.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Señales de duelo en tu otra mascota"
+   }
+  ]
+ },
+ {
+  "pagina": 49,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 170.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Lo más importante: no intentes «distraerla» con cambios bruscos."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "No es momento de introducir otro animal de inmediato, ni de hacer"
+   },
+   {
+    "y": 40.0,
+    "x": 0.0,
+    "x_fin": 330.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "· Si después de 3-4 semanas no come, no juega, o se aísla por"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "reformas, ni de viajar si puedes evitarlo. Necesita estabilidad y tu"
+   },
+   {
+    "y": 23.0,
+    "x": 0.0,
+    "x_fin": 320.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "· Mantén las rutinas: comida, paseo, sueño, mimos. La rutina baja\n· Pasa más tiempo con ella, sin forzar contacto. Solo estar cerca,\n· Háblale en voz baja, con su nombre, con suavidad. Tu tono le\n· Permítele oler las cosas del compañero que se fue —su manta,\n· Si tenían un sitio común, no lo retires de inmediato. Déjala\n· Aumenta la actividad física suave: paseos un poco más largos,\n completo, consulta al veterinario. Hay tratamientos suaves para"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 49 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 126.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "presencia.\nEstas cosas sí ayudan:"
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "el cortisol.\n en la misma habitación.\n regula.\n su collar—. Le ayuda a entender que ya no está.\n despedirse a su ritmo.\n juego corto. El movimiento moviliza la pena también en ellos.\napoyar este proceso."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 110.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Cómo acompañarla"
+   }
+  ]
+ },
+ {
+  "pagina": 50,
+  "lineas": [
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 53.9,
+    "x_fin": 300.9,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Vais a hacer el duelo juntas, juntos."
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 50 —"
+   },
+   {
+    "y": 7.0,
+    "x": 20.0,
+    "x_fin": 332.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Tu calma es su calma. Tu cuidado es su cuidado."
+   }
+  ]
+ },
+ {
+  "pagina": 51,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 209.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "No lo hagas en el primer mes. Tu mascota está procesando.\nNo lo hagas para llenar tu vacío. Si lo haces por ti —porque no\nObserva su carácter. Algunos animales son muy sociables y"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Una pregunta frecuente: «¿adopto otro para que ella no esté\nIntroducir un compañero nuevo en pleno duelo le añade estrés en\nsoportas el silencio, porque te duele verla triste— probablemente\nagradecen un compañero nuevo. Otros son más solitarios y"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "sola?». La respuesta depende mucho de cada animal y cada\nvez de aliviarlo. Espera al menos seis u ocho semanas, idealmente\nestarás añadiendo problemas. Hazlo cuando puedas tomar la\nprefieren ser, por fin, los únicos. Ambos perfiles existen y son"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 51 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 231.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "situación, pero hay algunas cosas claras:\nmás.\ndecisión con la cabeza serena.\nválidos."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 253.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "¿Adoptar un nuevo compañero para ella?"
+   }
+  ]
+ },
+ {
+  "pagina": 52,
+  "lineas": [
+   {
+    "y": 53.5,
+    "x": 0.0,
+    "x_fin": 262.5,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "Por qué funciona: el contacto físico calmado entre humano y animal"
+   },
+   {
+    "y": 37.5,
+    "x": 0.0,
+    "x_fin": 372.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Durante las próximas dos semanas, dedícale a tu otra mascota un ritual\nSi quieres, durante esos 15 minutos, háblale del compañero que se fue.\nTu mascota no entenderá las palabras concretas, pero entenderá\nlibera oxitocina en ambos cerebros simultáneamente. Es el mismo"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 21.5,
+    "x": 0.0,
+    "x_fin": 372.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "diario de 15 minutos exclusivos: solo ella y tú, sin móvil, sin\nPueden ser 15 minutos de cepillado, de paseo lento, de juego suave, de\nRecuérdale en voz alta. «¿Te acuerdas cuando él te molestaba en la\nperfectamente la intención emocional. Y vosotras dos os váis a curar\nproceso bioquímico que ya os unía a ti y a quien se fue. Sigue"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 52 —"
+   },
+   {
+    "y": 5.5,
+    "x": 0.0,
+    "x_fin": 309.8,
+    "size": 10.5,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "distracciones.\nsimplemente estar sentada a su lado mientras le acaricias.\nsiesta? La echamos de menos las dos, ¿verdad?».\njuntas.\nfuncionando con quien queda."
+   },
+   {
+    "y": 4.0,
+    "x": 0.0,
+    "x_fin": 175.0,
+    "size": 14.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Italic"
+    ],
+    "text": "— EJERCICIO 15 —\nRutina del cuidado mutuo"
+   }
+  ]
+ },
+ {
+  "pagina": 53,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 346.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "Si has llegado hasta aquí, gracias. Sé que leer sobre el duelo\nLo que sientes tiene sentido.El amor no se acaba cuando muere quien lo recibe."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold",
+     "/Times-Roman"
+    ],
+    "text": "cuando estás dentro del duelo es agotador. Sé que muchas páginas\nNo estás exagerando. No estás débil. Tu cerebro y tu cuerpo están\nLo que sentías por él, por ella, sigue ahí. Es tuyo. Te pertenece. Y\nNo hay un tiempo correcto."
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "las habrás leído entre lágrimas. Quiero que cierres este libro con\natravesando una pérdida real, con consecuencias reales. Date el\nvas a aprender a llevarlo de una forma nueva, que dolerá menos\nTarda lo que tarde. Vuelve atrás cuantas veces necesite. El duelo"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 53 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 269.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "algunas cosas claras.\nespacio que mereces.\ncon el tiempo pero que nunca dejará de ser amor.\nno es un examen que se aprueba."
+   },
+   {
+    "y": 6.0,
+    "x": 0.0,
+    "x_fin": 348.0,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Lo que quiero que recuerdes"
+   },
+   {
+    "y": 3.0,
+    "x": 0.0,
+    "x_fin": 71.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "CARTA FINAL"
+   }
+  ]
+ },
+ {
+  "pagina": 54,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 159.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Pídete ayuda si la necesitas.Te enseñó a querer."
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "No es debilidad. Es cuidarte como cuidarías de él si volviera. Hay\nLo que aprendiste con tu mascota —la paciencia, la presencia, el"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "psicólogos especializados en duelo animal. Búscalos si lo\ncariño incondicional, alegrarte por las cosas pequeñas— es lo más"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 54 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "necesitas.\nvalioso que te llevas. No se va con ella. Se queda en ti. Vívelo."
+   }
+  ]
+ },
+ {
+  "pagina": 55,
+  "lineas": [
+   {
+    "y": 67.0,
+    "x": 99.0,
+    "x_fin": 222.5,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "No la has perdido."
+   },
+   {
+    "y": 47.0,
+    "x": 99.0,
+    "x_fin": 229.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "La llevas contigo."
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 27.0,
+    "x": 48.5,
+    "x_fin": 289.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "Está en cómo miras, en cómo quieres,\nSigue contigo."
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 55 —"
+   },
+   {
+    "y": 7.0,
+    "x": 48.5,
+    "x_fin": 175.2,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "en cómo cuidas.\n Siempre."
+   }
+  ]
+ },
+ {
+  "pagina": 56,
+  "lineas": [
+   {
+    "y": 79.0,
+    "x": 0.0,
+    "x_fin": 341.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Cada vez hay más psicólogos especializados en duelo animal en"
+   },
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "España y Latinoamérica. Búscalos en directorios profesionales con\nSi en algún momento sientes que el dolor te supera de una forma"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 324.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "los términos «duelo animal» o «duelo por mascotas». Muchos\nque te asusta, por favor, pide ayuda. Habla con alguien de"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Italic",
+     "/Times-Roman"
+    ],
+    "text": "ofrecen sesiones online y procesos breves de tres a cinco sesiones,\nconfianza, con tu médico, o con servicios de atención psicológica.\nSigue contigo es una guía de acompañamiento elaborada desde"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 56 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 379.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "específicamente diseñados para este tipo de pérdida.\nNo tienes que pasar esto sola o solo.\nprincipios de la psicología del duelo y la neurociencia del vínculo."
+   },
+   {
+    "y": 6.0,
+    "x": 1.1,
+    "x_fin": 349.1,
+    "size": 24.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "Recursos que pueden ayudarte"
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 286.0,
+    "size": 13.0,
+    "fonts": [
+     "/Times-Bold"
+    ],
+    "text": "Si necesitas hablar con un profesional\nSi estás atravesando un momento muy difícil\nSobre este libro"
+   }
+  ]
+ },
+ {
+  "pagina": 57,
+  "lineas": [
+   {
+    "y": 61.0,
+    "x": 0.0,
+    "x_fin": 374.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "No sustituye un proceso terapéutico profesional, pero quiere ser un"
+   },
+   {
+    "y": 43.0,
+    "x": 0.0,
+    "x_fin": 363.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "sostén en los momentos en los que necesitas leer algo que te diga"
+   },
+   {
+    "y": 34.0,
+    "x": 194.9,
+    "x_fin": 230.9,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Italic"
+    ],
+    "text": "tremdora"
+   },
+   {
+    "y": 25.0,
+    "x": 0.0,
+    "x_fin": 368.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "que lo que sientes es humano, que tiene sentido, y que vas a poder"
+   },
+   {
+    "y": 19.8,
+    "x": 195.8,
+    "x_fin": 223.8,
+    "size": 8.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "— 57 —"
+   },
+   {
+    "y": 7.0,
+    "x": 0.0,
+    "x_fin": 55.0,
+    "size": 11.0,
+    "fonts": [
+     "/Times-Roman"
+    ],
+    "text": "con esto."
+   },
+   {
+    "y": 5.0,
+    "x": 0.0,
+    "x_fin": 148.5,
+    "size": 11.0,
+    "fonts": [
+     "/Times-BoldItalic",
+     "/Times-Italic"
+    ],
+    "text": "Con todo el cariño,\nTremdora\nEllos se merecen lo mejor."
+   }
+  ]
+ }
+]

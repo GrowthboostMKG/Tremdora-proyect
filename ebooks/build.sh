@@ -12,6 +12,7 @@ mkdir -p "$DIR/pdf"
 # slug            | generador          | nombre de entrega
 BOOKS=(
   "0-empieza-por-aqui|pack_intro.py|0. Empieza por aqui"
+  "libro1-ebook-completo|libro1_ebook.py|1. Sigue Contigo - eBook completo"
   "libro2-diario-del-oleaje|libro2_diario.py|2. Sigue Contigo - Diario del Oleaje"
   "libro3-plan-8-semanas|libro3_plan.py|3. Sigue Contigo - Plan Practico 8 Semanas"
   "libro4-ellos-tambien-se-despiden|libro4_ellos.py|4. Sigue Contigo - Ellos Tambien se Despiden"

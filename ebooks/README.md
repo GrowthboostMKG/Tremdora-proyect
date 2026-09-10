@@ -5,7 +5,7 @@ con el mismo sistema editorial que se usó en *Edad Dorada* y *Hogar en Calma*.
 
 | # | Libro | Págs. | Qué es |
 |---|-------|-------|--------|
-| 1 | *Sigue Contigo* — eBook completo | 57 | El libro principal (ya existente) |
+| 1 | **Sigue Contigo** — eBook completo | 42 | El libro principal, remaquetado al formato de la serie |
 | 2 | **Diario del Oleaje** | 20 | Registro de 8 semanas: dos escalas y una frase por noche |
 | 3 | **Plan Práctico de 8 Semanas** | 16 | 56 tareas, una por día, con los ejercicios del eBook repartidos |
 | 4 | **Ellos También se Despiden** | 21 | Guía científica para acompañar a la mascota que se queda, con protocolo de 21 días |
@@ -75,7 +75,7 @@ sin archivos ocultos:
 ```
 Sigue Contigo - Pack completo/
 ├── 0. Empieza por aqui.pdf                       ·  1 pág  · portada del pack
-├── 1. Sigue Contigo - eBook completo.pdf         · 57 págs
+├── 1. Sigue Contigo - eBook completo.pdf         · 42 págs
 ├── 2. Sigue Contigo - Diario del Oleaje.pdf      · 20 págs
 ├── 3. Sigue Contigo - Plan Practico 8 Semanas.pdf· 16 págs
 └── 4. Sigue Contigo - Ellos Tambien se Despiden.pdf · 21 págs
@@ -88,8 +88,34 @@ y vuelve a ejecutar `python3 make_pack.py`. El script lo detecta por extensión
 (`.mp3`, `.wav`, `.m4a`, `.flac`, `.aac`, `.ogg`), lo mete en el ZIP y regenera la
 página «Empieza por aquí» con su fila ya incluida — no hay que tocar nada más.
 
-`assets/` guarda las piezas que no genera este repo: el eBook principal y, cuando
-llegue, la frecuencia.
+`assets/` guarda las piezas que no genera este repo. Ahora mismo está vacío: solo
+espera la frecuencia.
+
+## El eBook principal, remaquetado
+
+El libro 1 venía en A5 (419×595 pt) desde otra herramienta, así que en el pack
+convivían dos formatos. Se ha rehecho al trim de la serie **sin reescribir nada**:
+
+1. `tools/parse_libro1.py` extrae el original en modo *layout* — que conserva
+   sangrías y líneas en blanco — y lo convierte en 278 bloques tipados
+   (capítulo, párrafo, cita centrada, lista, ejercicio, «por qué funciona»).
+   El texto se copia literal; el parser solo decide qué es cada bloque.
+2. `src/libro1_ebook.py` los viste con el sistema de la serie y los reparte en
+   páginas **midiendo la altura real de cada bloque en Chromium**, de modo que
+   ningún bloque se corta y los capítulos abren página.
+3. `tools/verificar_libro1.py` compara los dos PDF como flujos de caracteres sin
+   espacios — inmune a saltos de línea, partición de párrafos y al
+   *letter-spacing* de los rótulos — y falla si falta algo:
+
+```
+original :  30485 caracteres
+nuevo    :  30530 caracteres (45 añadidos por la nueva edición)
+conserva :  30485  ->  100.000% del original
+```
+
+Los 45 caracteres añadidos son los números de página del índice, que el original
+no tenía, y el rótulo «Sigue Contigo» de esa misma página. De 57 páginas A5 pasa
+a 42 del formato de la serie.
 
 ## Cómo reconstruir los PDF
 

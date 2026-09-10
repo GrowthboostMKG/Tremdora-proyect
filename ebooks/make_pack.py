@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Monta el ZIP del pack «Sigue Contigo», listo para subir a Shopify.
 
-Toma los PDF generados en `pdf/`, el material externo de `assets/` (el eBook
-principal y, cuando esté, el audio de la frecuencia) y los empaqueta en un
-único ZIP con una carpeta raíz, para que al descomprimir no se desparrame.
+Toma los PDF generados en `pdf/` y el material externo de `assets/` (el audio
+de la frecuencia, cuando esté) y los empaqueta en un único ZIP con una carpeta
+raíz, para que al descomprimir no se desparrame.
 
 La página «Empieza por aquí» se regenera antes de empacar, así que en cuanto
 dejes la frecuencia en `assets/` aparecerá listada sola: basta con volver a
