@@ -71,8 +71,9 @@ pequeña, concreta, hecha para días en los que no queda casi nada.</p>
   busca ayuda hoy, no la semana que viene.</p>
 </div>
 
-<p class="note">Usa el <em>Diario del Oleaje</em> (segundo libro de la serie) en paralelo:
-este plan te dice qué hacer, el diario recoge cómo te fue.</p>
+<p class="note">Usa el <em>Diario del Oleaje</em> (segundo libro de la serie) en
+paralelo: este plan te dice qué hacer, el diario recoge cómo te fue. Y si quieres
+saber por qué cada semana es la que es, tienes la evidencia en la página 4.</p>
 ''' % ARCO
 
 p3 = '''
@@ -141,8 +142,9 @@ WEEKS = [
    ("V","Pon música que asocies a él o a ella. Diez minutos sentada, sentado. Deja que llegue lo que llegue."),
    ("S","Elige tres fotos suyas. Solo tres. Guárdalas en una carpeta del móvil con su nombre."),
    ("D","Revisión — ¿qué palabra se ha repetido más esta semana?")],
-  "La escritura expresiva estudiada por James Pennebaker muestra efectos medibles con una sola "
-  "sesión de veinte minutos. No tiene que estar bien escrita. Solo tiene que salir."),
+  "En el paradigma de Pennebaker se escribe entre quince y veinte minutos durante "
+  "tres o cuatro días seguidos. Lo que ayuda no es vaciarse: es que lo que no tenía "
+  "forma acabe teniendo un relato. No tiene que estar bien escrito."),
 
  ("La culpa, de frente",
   "Sacar la culpa del bucle mental. Lo que se escribe y se mira deja de repetirse solo.",
@@ -153,8 +155,10 @@ WEEKS = [
    ("V","Si te quedaron preguntas médicas sin responder, llama a tu veterinario y hazlas. Todas."),
    ("S","Lee tu frase de culpa en voz alta. Después vuelve a leerla como si la dijera alguien a quien quieres."),
    ("D","Revisión — ¿la culpa sigue del mismo tamaño que el lunes?")],
-  "La culpa del duelo casi nunca es un juicio sobre lo que hiciste: es el intento del cerebro de "
-  "recuperar control sobre algo que nunca lo tuvo. Decidir por amor no es lo mismo que fallar."),
+  "La culpa del duelo casi nunca es un juicio sobre lo que hiciste: es el intento del "
+  "cerebro de recuperar control sobre algo que nunca lo tuvo. Kristin Neff lleva veinte "
+  "años mostrando que hablarte como le hablarías a alguien que quieres reduce la "
+  "vergüenza sin quitarte responsabilidad. Eso es el ejercicio del sábado."),
 
  ("Quién sostiene y quién no",
   "Construir tu círculo seguro y usarlo de verdad, en vez de aguantar sola, solo.",
@@ -189,8 +193,9 @@ WEEKS = [
    ("V","La quinta. Pregunta a alguien de casa qué le enseñó a él o a ella. Anótalo también."),
    ("S","La sexta y la séptima. Léelas todas seguidas, en voz alta."),
    ("D","Revisión — ¿cuál de las siete te llevas al mes que viene?")],
-  "Los estudios sobre construcción de sentido en duelo muestran que quienes logran nombrar qué les "
-  "aportó el vínculo integran mejor la pérdida. No es pensar en positivo: es reconstruir la historia."),
+  "Robert Neimeyer lleva décadas mostrando que reconstruir el significado —poder contar "
+  "qué te dio ese vínculo— predice mejor la adaptación que la intensidad del dolor inicial. "
+  "No es pensar en positivo: es rehacer el relato."),
 
  ("Quien se queda",
   "Acompañar a la otra mascota de la casa — o a ti, si quien se quedó solo eres tú.",
@@ -213,8 +218,9 @@ WEEKS = [
    ("V","Decide si hoy quieres plantearte adoptar. «Todavía no» y «nunca más» son respuestas completas."),
    ("S","Si la idea te ronda, haz el ejercicio 12: pídele permiso, aunque sepas que no lo necesitas."),
    ("D","Revisión — ¿qué necesitas tú, tú y no él, para el mes que viene?")],
-  "Reír no es traicionarlo. Integrar no es olvidar: es que su recuerdo deje de partirte "
-  "y empiece a abrigarte. Tarda lo que tarda, y no hay calendario correcto."),
+  "Reír no es traicionarlo. Bonanno y Keltner encontraron en 1997 que quienes reían de "
+  "verdad al recordar a quien habían perdido estaban mejor meses después. La risa durante "
+  "el duelo no es negación: es uno de los mejores indicadores de que estás integrándolo."),
 ]
 
 def week_page(i, title, goal, tasks, tip):
@@ -279,7 +285,7 @@ p13 = '''
 <p class="eyebrow terra">Cuando hace falta más</p>
 <h1 class="title">Cuándo pedir ayuda profesional</h1>
 <p class="lead">Pedir ayuda no significa que lo estés haciendo mal. Significa que
-esto es demasiado grande para atravesarlo sola, solo — y casi siempre lo es.</p>
+esto es demasiado grande para atravesarlo sola, solo.</p>
 
 <h3 class="sub">Señales para buscar apoyo ahora, sin esperar</h3>
 <ul class="clean terra">
@@ -292,24 +298,32 @@ esto es demasiado grande para atravesarlo sola, solo — y casi siempre lo es.</
 
 <h3 class="sub">Señales para buscarlo pasados unos meses</h3>
 <ul class="clean">
-  <li>A los seis meses el dolor sigue igual de intenso que la primera semana, sin ninguna variación.</li>
+  <li>A los seis meses el dolor sigue igual de intenso que la primera semana, sin variación.</li>
   <li>No puedes hablar de él o de ella, ni ver una foto, ni entrar en una habitación.</li>
   <li>O al contrario: no puedes hacer nada que no sea pensar en la pérdida.</li>
-  <li>Has dejado sus cosas exactamente igual durante meses y no puedes ni mirarlas.</li>
-  <li>Sientes que tu vida se detuvo el día que se fue y no ha vuelto a arrancar.</li>
+  <li>Sientes que tu vida se detuvo ese día y no ha vuelto a arrancar.</li>
 </ul>
 
 <div class="box green">
-  <p class="lbl">Qué esperar de una terapia de duelo</p>
-  <p>No suele ser un proceso largo. Muchas personas necesitan tres, cuatro o seis
-  sesiones para atravesar el momento más duro. Busca, si puedes, a alguien con
-  experiencia en duelo — cada vez hay más profesionales que trabajan
-  específicamente el duelo por animales, porque cada vez se reconoce más.</p>
+  <p class="lbl">El duelo prolongado tiene hoy nombre clínico</p>
+  <p>Desde 2022, el DSM-5-TR y la CIE-11 reconocen el <strong>trastorno de duelo
+  prolongado</strong>: a partir de los doce meses en el DSM y de los seis en la
+  CIE, con anhelo intenso casi a diario más señales como incredulidad sostenida,
+  evitar todo lo que lo recuerde o sentir que una parte de ti murió.</p>
 </div>
 
-<p class="note">Que tu entorno no entienda tu dolor no lo hace más pequeño. Que
-necesites ayuda para sostenerlo no te hace más débil. Cuidarte es exactamente lo
-que harías por él, por ella, sin dudarlo un segundo.</p>
+<div class="box left-terra">
+  <p class="lbl">Una advertencia honesta</p>
+  <p>Esos criterios se escribieron para la muerte de personas. Que no exista una
+  categoría clínica para la pérdida de un animal no significa que tu dolor no
+  cuente: significa que el marco va por detrás de la realidad. Un buen profesional
+  los usa como orientación, nunca como puerta cerrada.</p>
+</div>
+
+<p class="note">Sobre la duración: para un duelo doloroso pero no complicado,
+unas pocas sesiones suelen bastar. El tratamiento con más evidencia para el duelo
+prolongado es la terapia de duelo complicado de Katherine Shear, con ensayos en
+<em>JAMA</em>: unas dieciséis sesiones.</p>
 '''
 
 p14 = '''
@@ -347,10 +361,83 @@ aniversario. Las dos cosas están bien.</p>
 Sigue Contigo — Libro 3 de 4 · Plan Práctico de 8 Semanas<br>tremdora</p>
 '''
 
-pages = [page(cover, cls='cover'), page(p2, 2), page(p3, 3)]
+P_CIENCIA = '''
+<p class="eyebrow">Por qué estas ocho semanas</p>
+<h1 class="title">La ciencia de cada semana</h1>
+<p class="lead">Ninguna semana está aquí porque suene bien. Cada una trabaja un
+mecanismo con investigación detrás.</p>
+
+<table>
+  <thead><tr><th style="width:30pt">Sem.</th><th style="width:150pt">Qué trabaja</th>
+  <th>De dónde viene</th></tr></thead>
+  <tbody>
+  <tr><td class="day">1</td><td>Regulación fisiológica básica: sueño, comida, cortisol</td><td>Bowlby y Parkes — la fase de protesta y búsqueda del sistema de apego</td></tr><tr><td class="day">2</td><td>Etiquetado afectivo y escritura expresiva</td><td>Lieberman (2007) · Pennebaker, el paradigma más replicado en escritura</td></tr><tr><td class="day">3</td><td>Sacar la culpa de la rumiación y tratarte con autocompasión</td><td>Kristin Neff, autocompasión · Robert Neimeyer, técnicas de duelo</td></tr><tr><td class="day">4</td><td>Apoyo social selectivo y duelo desautorizado</td><td>Kenneth Doka (1989) · investigación sobre calidad del apoyo en duelo</td></tr><tr><td class="day">5</td><td>Vínculos continuados y ritual</td><td>Klass, Silverman y Nickman (1996) · Packman, en pérdida de mascotas</td></tr><tr><td class="day">6</td><td>Reconstrucción de significado</td><td>Robert Neimeyer — la línea con más apoyo en duelo hoy</td></tr><tr><td class="day">7</td><td>Etología y neurociencia afectiva del animal que se queda</td><td>Panksepp y Skinner — desarrollado entero en el libro 4 de la serie</td></tr><tr><td class="day">8</td><td>Activación conductual y oscilación entre pérdida y vida</td><td>Stroebe y Schut (1999) · Bonanno, trayectorias de resiliencia</td></tr>
+  </tbody>
+</table>
+
+<div class="box left-green">
+  <p class="lbl">El armazón que lo sostiene todo</p>
+  <p>El orden responde al <strong>modelo del vaivén</strong> de Stroebe y Schut:
+  las semanas impares empujan hacia la pérdida — escribir, la culpa, su lugar — y
+  las pares hacia la vida — la gente, la herencia, quien se queda. Esa alternancia
+  es lo que la investigación describe en quienes mejor se adaptan.</p>
+</div>
+
+<p class="note">Referencias completas en la última página; los investigadores,
+uno a uno, en el <em>Diario del Oleaje</em>.</p>
+'''
+
+P_FUENTES = '''
+<p class="eyebrow">Las fuentes</p>
+<h1 class="title">De dónde sale cada tarea</h1>
+<p class="lead">Para que puedas comprobarlo, llevarlo a tu psicólogo, o
+simplemente saber que esto no se lo ha inventado nadie.</p>
+
+<h3 class="sub">Modelos del proceso</h3>
+<p class="ref"><b>Vaivén.</b> Stroebe y Schut, «The dual process model of coping
+with bereavement», <em>Death Studies</em>, 1999 — el armazón de las ocho semanas.</p>
+<p class="ref"><b>Apego y pérdida.</b> John Bowlby, <em>La pérdida afectiva</em>
+(1980) · Colin Murray Parkes, <em>Bereavement</em>.</p>
+<p class="ref"><b>Trayectorias y resiliencia.</b> George Bonanno,
+<em>La otra cara de la tristeza</em> (2009) · Bonanno y Keltner, 1997, sobre reír
+durante el duelo.</p>
+<p class="ref"><b>Vínculos continuados.</b> Klass, Silverman y Nickman,
+<em>Continuing Bonds</em>, 1996 · Packman y cols., aplicado a la pérdida de
+mascotas.</p>
+<p class="ref"><b>Reconstrucción de significado.</b> Robert Neimeyer,
+<em>Techniques of Grief Therapy</em>.</p>
+<p class="ref"><b>Duelo desautorizado.</b> Kenneth Doka, 1989 — por qué este duelo
+en concreto es de los más solitarios.</p>
+
+<h3 class="sub">Mecanismos de los ejercicios</h3>
+<p class="ref"><b>Escritura expresiva.</b> Pennebaker y Beall, 1986, y las
+décadas de réplicas posteriores.</p>
+<p class="ref"><b>Poner nombre a la emoción.</b> Lieberman y cols.,
+<em>Psychological Science</em>, 2007.</p>
+<p class="ref"><b>El dolor social duele como el físico.</b> Eisenberger, Lieberman
+y Williams, <em>Science</em>, 2003.</p>
+<p class="ref"><b>Anhelo y circuito de recompensa.</b> O'Connor y cols.,
+<em>NeuroImage</em>, 2008 · <em>La mente en duelo</em>, 2022.</p>
+<p class="ref"><b>Autocompasión.</b> Kristin Neff, <em>Sé amable contigo mismo</em>.</p>
+<p class="ref"><b>Respiración lenta.</b> Literatura sobre variabilidad de la
+frecuencia cardíaca: alrededor de seis respiraciones por minuto, con la
+espiración más larga.</p>
+
+<h3 class="sub">Criterios clínicos</h3>
+<p class="ref"><b>Trastorno de duelo prolongado.</b> DSM-5-TR (2022) y CIE-11.</p>
+<p class="ref"><b>Tratamiento con más evidencia.</b> Katherine Shear, terapia de
+duelo complicado, ensayos en <em>JAMA</em> y <em>JAMA Psychiatry</em>.</p>
+<p class="ref"><b>Las cinco etapas no describen el duelo.</b> Maciejewski y cols.,
+<em>JAMA</em>, 2007.</p>
+
+<p class="note" style="text-align:center;margin-top:12pt">
+Sigue Contigo — Libro 3 de 4 · Plan Práctico de 8 Semanas<br>tremdora</p>
+'''
+
+pages = [page(cover, cls='cover'), page(p2, 2), page(p3, 3), page(P_CIENCIA, 4)]
 for i, (t, g, tk, tip) in enumerate(WEEKS, start=1):
-    pages.append(page(week_page(i, t, g, tk, tip), 3 + i))
-pages += [page(p12, 12), page(p13, 13), page(p14, 14)]
+    pages.append(page(week_page(i, t, g, tk, tip), 4 + i))
+pages += [page(p12, 13), page(p13, 14), page(p14, 15), page(P_FUENTES, 16)]
 
 html = ('<!doctype html><html lang="es"><head><meta charset="utf-8">'
         '<title>Sigue Contigo — Plan Práctico de 8 Semanas</title><style>%s</style>'

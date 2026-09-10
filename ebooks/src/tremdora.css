@@ -213,6 +213,13 @@ ul.clean.terra li::marker{ color:var(--terra-soft); }
   color:var(--green); font-weight:bold; margin:2pt 0 5pt;
 }
 .sci p{ font-size:8.4pt; line-height:1.55; margin:0; }
+.sci.tight{ padding:7.5pt 10pt; margin-bottom:6.5pt; }
+.sci.tight .nm{ font-size:9.8pt; }
+.sci.tight p{ font-size:8pt; line-height:1.5; }
+
+.ref{ font-size:8pt; line-height:1.5; color:var(--ink-soft); margin:0 0 5pt;
+      padding-left:11pt; text-indent:-11pt; }
+.ref b{ color:var(--ink); }
 
 /* ---------- Portada ---------- */
 .cover{

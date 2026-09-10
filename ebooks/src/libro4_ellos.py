@@ -22,9 +22,6 @@ EXTRA_CSS = '''
 .sem.amber .lbl{ color:#9a6c1e; }
 .sem.red .lbl{ color:#a8502e; }
 .sem p{ font-size:8.6pt; line-height:1.55; margin:0; }
-.ref{ font-size:8pt; line-height:1.5; color:var(--ink-soft); margin:0 0 5pt;
-      padding-left:11pt; text-indent:-11pt; }
-.ref b{ color:var(--ink); }
 '''
 CSS += EXTRA_CSS
 

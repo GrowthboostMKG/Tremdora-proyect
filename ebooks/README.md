@@ -6,11 +6,28 @@ con el mismo sistema editorial que se usó en *Edad Dorada* y *Hogar en Calma*.
 | # | Libro | Págs. | Qué es |
 |---|-------|-------|--------|
 | 1 | *Sigue Contigo* — eBook completo | 57 | El libro principal (ya existente) |
-| 2 | **Diario del Oleaje** | 16 | Registro de 8 semanas: dos escalas y una frase por noche |
-| 3 | **Plan Práctico de 8 Semanas** | 14 | 56 tareas, una por día, con los ejercicios del eBook repartidos |
+| 2 | **Diario del Oleaje** | 20 | Registro de 8 semanas: dos escalas y una frase por noche |
+| 3 | **Plan Práctico de 8 Semanas** | 16 | 56 tareas, una por día, con los ejercicios del eBook repartidos |
 | 4 | **Ellos También se Despiden** | 21 | Guía científica para acompañar a la mascota que se queda, con protocolo de 21 días |
 
-## Base científica del Libro 4
+## Base científica de los Libros 2 y 3 — el duelo humano
+
+Cada ejercicio va anclado a la literatura que lo sostiene, y ambos libros cierran
+con su página de fuentes.
+
+- **Mary-Frances O'Connor** — neurociencia del duelo; el anhelo y el circuito de recompensa.
+- **John Bowlby** y **Colin Murray Parkes** — apego, protesta y conducta de búsqueda.
+- **Margaret Stroebe** y **Henk Schut** — modelo del vaivén (proceso dual, 1999); es el armazón de las 8 semanas y de las tres columnas del diario.
+- **George Bonanno** — trayectorias de resiliencia; reír durante el duelo (con Keltner, 1997).
+- **James Pennebaker** — escritura expresiva.
+- **Matthew Lieberman** y **Naomi Eisenberger** — etiquetado afectivo; el dolor social en las vías del dolor físico.
+- **Klass, Silverman y Nickman** — vínculos continuados (1996); y **Packman**, aplicado a la pérdida de mascotas.
+- **Robert Neimeyer** — reconstrucción de significado. **Kristin Neff** — autocompasión.
+- **Kenneth Doka** — duelo desautorizado. **Katherine Shear** — terapia de duelo complicado.
+- Criterios de **trastorno de duelo prolongado** del DSM-5-TR (2022) y la CIE-11, con la salvedad explícita de que se escribieron para la muerte de personas.
+- Se señala además que las cinco etapas de Kübler-Ross no describen el duelo (Maciejewski y cols., *JAMA*, 2007).
+
+## Base científica del Libro 4 — el animal que se queda
 
 La cadena de disciplinas del cuarto libro sigue este recorrido, y cada capítulo
 lleva el nombre del referente del que procede:

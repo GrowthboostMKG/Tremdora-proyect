@@ -52,10 +52,10 @@ respiraste. Que el dolor, aunque siga ahí, ha cambiado de forma.</p>
 
 <div class="box left-green">
   <p class="lbl">Por qué funciona</p>
-  <p>Poner palabras a una emoción reduce su intensidad en el sistema límbico. El
-  neurocientífico Matthew Lieberman lo llamó <em>affect labeling</em>: nombrar el sentir
-  literalmente baja la activación de la amígdala. Escribir no es desahogo. Es
-  neurología aplicada.</p>
+  <p>Poner palabras a una emoción reduce su intensidad. Matthew Lieberman lo
+  demostró en 2007 con resonancia magnética: nombrar lo que se siente baja la
+  actividad de la amígdala y activa la corteza prefrontal. Lo llamó
+  <em>affect labeling</em>. Escribir no es desahogarse: es neurología aplicada.</p>
 </div>
 
 <div class="stats">
@@ -64,8 +64,8 @@ respiraste. Que el dolor, aunque siga ahí, ha cambiado de forma.</p>
   <div class="stat"><div class="n">3</div><div class="t">minutos<br>por noche</div></div>
 </div>
 
-<p class="note">Úsalo junto al eBook (capítulos I, III, V y X en especial) y al Plan
-Práctico de 8 Semanas, tercer libro de la serie.</p>
+<p class="note">Cada página de este cuaderno está construida sobre trabajo
+publicado y replicado. En la página siguiente tienes quién lo firma.</p>
 '''
 
 # ---------------------------------------------------------------- p3 · cómo
@@ -108,7 +108,7 @@ profesional. Eso no es fracasar en el duelo: es cuidarte como cuidarías de él 
 
 # ------------------------------------------------------- p4 · curva del oleaje
 WAVE = '''
-<svg viewBox="0 0 372 196">
+<svg viewBox="0 0 372 181">
   <defs>
     <linearGradient id="wg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#c1613a" stop-opacity=".28"/>
@@ -135,7 +135,7 @@ WAVE = '''
         letter-spacing=".8">INTENSIDAD DEL DOLOR</text>
   <text x="300" y="174" font-family="Liberation Sans" font-size="7.5" fill="#9c7c63"
         letter-spacing=".8">TIEMPO</text>
-  <text x="238" y="152" font-family="Liberation Sans" font-size="7.2" fill="#748156"
+  <text x="238" y="140" font-family="Liberation Sans" font-size="7.2" fill="#748156"
         letter-spacing=".6">TENDENCIA REAL DE FONDO</text>
 </svg>'''
 
@@ -147,9 +147,9 @@ va perdiendo altura.</p>
 
 <div class="fig">%s<div class="figcap">El duelo vivido (naranja) frente al duelo real (verde)</div></div>
 
-<p>La línea naranja es tu duelo día a día. La línea verde discontinua es lo que
-realmente está pasando por debajo: una tendencia lenta, casi invisible en el
-momento, que solo se aprecia cuando miras semanas enteras a la vez.</p>
+<p>La línea naranja es tu duelo día a día. La verde discontinua es lo que pasa
+por debajo: una tendencia lenta, invisible en el momento, que solo se aprecia
+mirando semanas enteras a la vez.</p>
 
 <p>Por eso este diario existe. Dentro de una ola no se puede ver el oleaje. Vas a
 tener días de retroceso — el día 40 puede doler más que el día 12 — y sin un
@@ -163,8 +163,11 @@ registro pensarás que has empeorado. No has empeorado. Has tenido una ola.</p>
   <strong>4 · Integración</strong> — su recuerdo deja de ser herida y empieza a abrigar.</p>
 </div>
 
-<p class="note">Nadie las atraviesa en orden. Se salta, se vuelve atrás, se repite.
-Las fases no te dicen dónde deberías estar: te dicen que donde estás tiene nombre.</p>
+<p class="note">Nadie las atraviesa en orden. Y un apunte que conviene saber:
+las famosas cinco etapas de Kübler-Ross se describieron en enfermos terminales,
+no en personas en duelo. Al estudiar a quienes habían perdido a alguien, la
+emoción dominante no era la negación sino el anhelo, sin orden fijo. Si no encajas
+en las etapas, no lo estás haciendo mal: las etapas nunca describieron esto.</p>
 ''' % WAVE
 
 # ------------------------------------------------------------- p5 · punto partida
@@ -294,8 +297,10 @@ te ahogues dentro de él.</p>
   <p>Una mano en el pecho, otra en el vientre. Inspira contando 4, espira contando 6.
   Diez veces. Mientras respiras, repite por dentro: <em>«esto duele, y voy a
   sobrevivirlo»</em>. Al terminar, nombra en voz alta cinco cosas que veas.</p>
-  <p class="note" style="margin-top:6pt">La espiración larga activa el nervio vago y
-  baja el cortisol en minutos. Nombrar objetos saca al cerebro del bucle.</p>
+  <p class="note" style="margin-top:6pt">Respirar alrededor de seis veces por
+  minuto, con la espiración más larga que la inspiración, aumenta la variabilidad
+  de la frecuencia cardíaca — el índice más usado de control vagal. Nombrar
+  objetos saca al cerebro del bucle rumiativo.</p>
 </div>
 
 <div class="box left-terra">
@@ -303,15 +308,18 @@ te ahogues dentro de él.</p>
   <p>Si el llanto te asalta a media mañana y no puedes sostenerlo, dile a la pena:
   <em>«a las ocho, contigo, quince minutos»</em>. Y cúmplelo. Siéntate, mira sus fotos,
   llora todo lo que necesites. Cuando suene el temporizador, levántate y bebe agua.</p>
-  <p class="note" style="margin-top:6pt">No es reprimir: es citar. El duelo aplazado
-  con cita se sostiene mejor que el duelo aplazado sin ella.</p>
+  <p class="note" style="margin-top:6pt">No es reprimir: es citar. Es el vaivén de
+  Stroebe y Schut aplicado a una tarde concreta — le das a la pérdida su hora, y le
+  devuelves a la vida el resto del día.</p>
 </div>
 
 <div class="box left-terra">
   <p class="lbl">3 · Háblale en voz alta</p>
   <p>Cuéntale el día. En el coche, en la ducha, delante de su rincón. En voz alta,
-  con su nombre. No estás loca, no estás loco: estás manteniendo abierto un canal
-  que tu cerebro todavía necesita.</p>
+  con su nombre. No estás loca, no estás loco: desde que Klass y su equipo
+  describieron los <em>vínculos continuados</em> en 1996, sabemos que mantener una
+  relación con quien murió no retrasa el duelo. En la mayoría de las personas, lo
+  acompaña.</p>
 </div>
 
 <hr class="rule">
@@ -371,6 +379,10 @@ igual que él en la calle.</p>
 
 <div class="quote green">No has superado nada.<br>Has aprendido a sostenerte<br>mientras dolía.</div>
 
+<p class="note" style="margin-top:0">Y eso, en la investigación de Bonanno, es
+justamente lo que predice cómo estarás dentro de un año: no cuánto dolió al
+principio, sino cuántos recursos distintos supiste usar para sostenerte.</p>
+
 <hr class="rule soft">
 
 <h2 class="sec">Si quieres seguir escribiendo</h2>
@@ -392,11 +404,177 @@ aniversario, la primera Navidad sin él o sin ella.</p>
 Sigue Contigo — Libro 2 de 4 · Diario del Oleaje<br>tremdora</p>
 '''
 
+P_REF = '''
+<p class="eyebrow">Quién sostiene este cuaderno</p>
+<h1 class="title">La ciencia del duelo · I</h1>
+<p class="lead">El cuarto libro de la serie se apoya en ocho etólogos. Este se
+apoya en quienes estudian lo que te está pasando a ti.</p>
+
+<div class="sci tight">
+  <p class="nm">Mary-Frances O'Connor</p>
+  <p class="fl">Neurociencia del duelo</p>
+  <p>Dirige el laboratorio que más ha estudiado el cerebro en duelo. Su trabajo con
+  neuroimagen mostró que el anhelo por quien ya no está activa el núcleo accumbens
+  — el mismo circuito de recompensa que sostiene el deseo. En <em>La mente en
+  duelo</em> (2022) explica por qué el cerebro tarda meses en actualizar el mapa en
+  el que esa presencia todavía existe.</p>
+</div>
+
+<div class="sci tight">
+  <p class="nm">John Bowlby y Colin Murray Parkes</p>
+  <p class="fl">Teoría del apego</p>
+  <p>Describieron el duelo como lo que hace un sistema de apego cuando pierde su
+  objeto: protesta, búsqueda, desesperanza y reorganización. Girarte creyendo que
+  la oyes no es un fallo de tu cabeza: es literalmente la conducta de búsqueda que
+  el apego pone en marcha.</p>
+</div>
+
+<div class="sci tight">
+  <p class="nm">Margaret Stroebe y Henk Schut</p>
+  <p class="fl">Modelo del vaivén · el más sostenido hoy</p>
+  <p>Demostraron que el duelo no se atraviesa mirándolo de frente todo el rato,
+  sino oscilando entre enfrentar la pérdida y ocuparte de seguir viviendo. Las dos
+  orillas son trabajo de duelo. Este diario está construido sobre esa alternancia,
+  y la página siguiente te la explica entera.</p>
+</div>
+
+<!--SPLIT-->
+<div class="sci tight">
+  <p class="nm">George Bonanno</p>
+  <p class="fl">Trayectorias del duelo</p>
+  <p>Al seguir a miles de personas a lo largo del tiempo encontró que la
+  trayectoria más frecuente no es el derrumbe prolongado, sino la resiliencia.
+  También documentó que quienes ríen de verdad mientras recuerdan a quien
+  perdieron se adaptan mejor meses después. Reír no es negar.</p>
+</div>
+
+<div class="sci tight">
+  <p class="nm">James Pennebaker</p>
+  <p class="fl">Escritura expresiva</p>
+  <p>Su paradigma — escribir sobre lo que duele, quince o veinte minutos, varios
+  días seguidos — es de los más replicados de la psicología. Lo que ayuda no es
+  vaciarse: es que una experiencia sin forma se convierta en un relato con causas
+  y consecuencias.</p>
+</div>
+
+<div class="sci tight">
+  <p class="nm">Matthew Lieberman y Naomi Eisenberger</p>
+  <p class="fl">Neurociencia social</p>
+  <p>Lieberman mostró que ponerle nombre a una emoción baja la actividad de la
+  amígdala. Eisenberger mostró que el dolor de una pérdida social se procesa en
+  las mismas zonas que el dolor físico. Cuando dices que te duele el pecho, no
+  estás usando una metáfora.</p>
+</div>
+'''
+
+DPM = '''
+<svg viewBox="0 0 372 160">
+  <rect x="0" y="4" width="372" height="58" rx="6" fill="#f0dccd"/>
+  <rect x="0" y="96" width="372" height="58" rx="6" fill="#e6eada"/>
+  <text x="12" y="19" font-family="Liberation Sans" font-size="7.6" font-weight="bold"
+        fill="#a8502e" letter-spacing="1.4">ORIENTADO A LA PÉRDIDA</text>
+  <text x="12" y="33" font-family="Liberation Sans" font-size="7.4" fill="#6b4a38">Llorar · mirar sus fotos · hablar de él, de ella</text>
+  <text x="12" y="45" font-family="Liberation Sans" font-size="7.4" fill="#6b4a38">Repasar lo que pasó · escribir en este diario</text>
+  <text x="12" y="124" font-family="Liberation Sans" font-size="7.6" font-weight="bold"
+        fill="#748156" letter-spacing="1.4">ORIENTADO A LA VIDA</text>
+  <text x="12" y="138" font-family="Liberation Sans" font-size="7.4" fill="#6b4a38">Trabajar · comer con gente · ocuparte de la casa</text>
+  <text x="12" y="150" font-family="Liberation Sans" font-size="7.4" fill="#6b4a38">Hacer planes · reírte · cuidar de quien se queda</text>
+  <path d="M18 56 C46 56 44 102 76 102 C108 102 104 56 138 56
+           C172 56 168 102 202 102 C236 102 232 56 268 56
+           C304 56 300 102 336 102 C350 102 354 96 358 90"
+        fill="none" stroke="#9c7c63" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="18"  cy="56"  r="3.4" fill="#a8502e"/>
+  <circle cx="76"  cy="102" r="3.4" fill="#748156"/>
+  <circle cx="138" cy="56"  r="3.4" fill="#a8502e"/>
+  <circle cx="202" cy="102" r="3.4" fill="#748156"/>
+  <circle cx="268" cy="56"  r="3.4" fill="#a8502e"/>
+  <circle cx="336" cy="102" r="3.4" fill="#748156"/>
+</svg>'''
+
+P_DPM = '''
+<p class="eyebrow">Entender · Stroebe y Schut</p>
+<h1 class="title">El vaivén</h1>
+<p class="lead">No se atraviesa el duelo de frente todo el tiempo. Se atraviesa
+yendo y viniendo — y las dos orillas cuentan.</p>
+
+<div class="fig" style="margin-bottom:9pt">%s<div class="figcap">Modelo del proceso dual del afrontamiento en duelo (Stroebe y Schut, 1999)</div></div>
+
+<p>Durante décadas se creyó que había que «hacer el trabajo del duelo»: mirar la
+pérdida de frente hasta procesarla. Stroebe y Schut mostraron que quienes mejor se
+adaptan hacen otra cosa: <strong>oscilan</strong>.</p>
+
+<p>Un rato lloran y miran sus fotos. Un rato se enfrascan en el trabajo o se ríen
+con alguien. Después vuelven. Ese vaivén no es evitación: es el mecanismo por el
+que un duelo se integra.</p>
+
+<div class="box left-terra">
+  <p class="lbl">La doble culpa que esto explica</p>
+  <p>En la orilla de la pérdida crees que te estás hundiendo. En la de la vida
+  crees que le traicionas. Las dos culpas nacen de pensar que solo una orilla es
+  legítima. Lo son las dos, y hacen falta las dos.</p>
+</div>
+
+<div class="box green">
+  <p class="lbl">Cómo usa este diario el vaivén</p>
+  <p>Las dos primeras casillas de cada noche — la ola y el cuerpo — miran a la
+  pérdida. La tercera — <em>lo que me ha sostenido hoy</em> — mira a la vida.
+  Rellenar las tres es practicar la oscilación por escrito. Por eso la tercera
+  columna no es un adorno amable: es media terapia.</p>
+</div>
+''' % DPM
+
+P_FUENTES = '''
+<p class="eyebrow">Las fuentes</p>
+<h1 class="title">De dónde sale cada ejercicio</h1>
+<p class="lead">Para que puedas comprobarlo, discutirlo con tu psicólogo o
+simplemente saber que esto no se lo ha inventado nadie.</p>
+
+<h3 class="sub">Los libros</h3>
+<p class="ref"><b>Mary-Frances O'Connor</b> — <em>La mente en duelo</em> (2022).</p>
+<p class="ref"><b>George Bonanno</b> — <em>La otra cara de la tristeza</em> (2009).</p>
+<p class="ref"><b>John Bowlby</b> — <em>La pérdida afectiva</em>, tercer volumen de
+<em>El apego y la pérdida</em> (1980).</p>
+<p class="ref"><b>Colin Murray Parkes</b> — <em>Bereavement: Studies of Grief in
+Adult Life</em>.</p>
+<p class="ref"><b>James Pennebaker</b> — <em>Opening Up by Writing It Down</em>.</p>
+<p class="ref"><b>Dennis Klass, Phyllis Silverman y Steven Nickman</b> —
+<em>Continuing Bonds</em> (1996), el libro que cambió el objetivo del duelo:
+de soltar a reubicar.</p>
+
+<h3 class="sub">Los trabajos concretos</h3>
+<p class="ref"><b>Vaivén.</b> Stroebe y Schut, «The dual process model of coping
+with bereavement», <em>Death Studies</em>, 1999.</p>
+<p class="ref"><b>Anhelo y circuito de recompensa.</b> O'Connor y cols.,
+<em>NeuroImage</em>, 2008.</p>
+<p class="ref"><b>Poner nombre a la emoción.</b> Lieberman y cols., «Putting
+feelings into words», <em>Psychological Science</em>, 2007.</p>
+<p class="ref"><b>El dolor social duele como el físico.</b> Eisenberger, Lieberman
+y Williams, <em>Science</em>, 2003.</p>
+<p class="ref"><b>Reír durante el duelo.</b> Bonanno y Keltner,
+<em>Journal of Abnormal Psychology</em>, 1997.</p>
+<p class="ref"><b>Las cinco etapas no describen el duelo.</b> Maciejewski y cols.,
+<em>JAMA</em>, 2007: la emoción dominante es el anhelo, y no hay orden fijo.</p>
+<p class="ref"><b>Duelo desautorizado.</b> Kenneth Doka, 1989 — el marco que
+explica por qué el duelo por un animal es de los más solitarios.</p>
+<p class="ref"><b>Vínculos continuados con animales.</b> Packman y cols., sobre
+mantener el vínculo tras la muerte de una mascota y su relación con el ajuste.</p>
+
+<p class="note" style="text-align:center;margin-top:14pt">
+Sigue Contigo — Libro 2 de 4 · Diario del Oleaje<br>tremdora</p>
+'''
+
 # ------------------------------------------------------------------- ensamble
-pages = [page(cover, cls='cover'), page(p2, 2), page(p3, 3), page(p4, 4), page(p5, 5)]
+REF_A, REF_B = P_REF.split('<!--SPLIT-->')
+REF_B = ('<p class="eyebrow">Quién sostiene este cuaderno</p>'
+         '<h1 class="title">La ciencia del duelo · II</h1>'
+         '<p class="lead">De por qué escribir cambia algo a por qué reírte no te '
+         'convierte en mala persona.</p>' + REF_B)
+
+pages = [page(cover, cls='cover'), page(p2, 2), page(REF_A, 3), page(REF_B, 4),
+         page(p3, 5), page(p4, 6), page(P_DPM, 7), page(p5, 8)]
 for idx, (t, g, q1, q2) in enumerate(WEEKS, start=1):
-    pages.append(page(week_page(idx, t, g, q1, q2), 5 + idx))
-pages += [page(p14, 14), page(p15, 15), page(p16, 16)]
+    pages.append(page(week_page(idx, t, g, q1, q2), 8 + idx))
+pages += [page(p14, 17), page(p15, 18), page(p16, 19), page(P_FUENTES, 20)]
 
 html = ('<!doctype html><html lang="es"><head><meta charset="utf-8">'
         '<title>Sigue Contigo — Diario del Oleaje</title><style>%s</style></head>'
