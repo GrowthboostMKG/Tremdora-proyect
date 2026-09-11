@@ -15,6 +15,7 @@
 | `05-CHECKLISTS.md` | Checklist de grabación, de edición y de publicación | Cada día de rodaje |
 | `06-LA-CAPA-PERSONAL.md` | Cómo se muestra quién eres: presencia, ángulo e historia + 3 guiones | Antes de grabar tu historia |
 | `07-MONTAR-EL-PERFIL.md` | El @, el nombre, la foto, la bio, el enlace y el tipo de cuenta, campo por campo | **Ahora, antes de todo** |
+| `08-REFERENTES.md` | Qué cuentas estudiar y cómo analizarlas para sacar datos de verdad | Una tarde al mes |
 
 ---
 
