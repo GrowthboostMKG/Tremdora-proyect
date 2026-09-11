@@ -97,6 +97,46 @@ _________________________________________
 
 ---
 
+## PARTE 1.5 — CUÁNDO PUEDES SOLTAR LA ESTRUCTURA
+
+### Lo único que no se suelta nunca: los 3 primeros segundos
+No es estructura, es el peaje de una plataforma que le enseña tu vídeo a gente que no te conoce. Un reel natural sin gancho no se distribuye, por bueno que sea lo que venga después.
+
+### Lo que sí se puede soltar: todo lo demás, según el formato
+El andamiaje completo es para los reels que **enseñan algo**. Hay formatos donde el valor no es información y no lo necesitan:
+
+| Formato | Cuánta estructura |
+|---|---|
+| Solución · tutorial · error · comparación · dato | Completa |
+| Storytelling | Hook + tensión + cierre. Sin solución ni «guárdalo» |
+| Respuesta a un comentario | El comentario en pantalla **es** el hook. El resto, natural |
+| Momento real de tu mascota | Gancho visual + una frase |
+| Opinión o desahogo | El hook es la emoción. Nada más |
+| Tendencia o audio del momento | Lo que pida el audio |
+
+**Estructura mínima viable** para los sueltos:
+
+```
+GANCHO   0–3 s    Un motivo para quedarse. El que sea.
+LO QUE SEA        Sin plantilla.
+```
+
+### Reels y Stories hacen trabajos distintos
+- **Stories: cero estructura, y ese es su sitio.** Te ve quien ya te sigue, no se distribuye a desconocidos y no hay retención que cuidar. El día, la queja, la caja de preguntas, la encuesta, la mascota haciendo el tonto. Aquí la naturalidad total no es que valga: es lo que funciona.
+- **Reels: siempre un mínimo**, porque siempre hay desconocidos mirando.
+
+**Los reels traen gente nueva; las stories construyen la relación con la que ya tienes.** Son dos trabajos distintos, y muchas cuentas se atascan porque intentan hacer los dos con reels.
+
+### La confusión de fondo
+**Naturalidad y estructura no son opuestas. La estructura es para escribir, no para interpretar.** Los reels que parecen más espontáneos suelen ser los más pensados.
+
+Si un guion te hace sonar rígida, el problema casi nunca es el guion: es que lo estás recitando. Memoriza **solo el hook** y cuenta el resto con tus palabras. Un guion bien usado no te quita naturalidad — te quita las dudas, que es lo que de verdad suena rígido en cámara.
+
+### Cuántos
+**Uno de cada cuatro o cinco, y a partir del mes 2.** Con una condición: que sea por decisión, no por pereza. Grabar suelto es más rápido, y esa es justamente la razón por la que hay que vigilarlo — es la vía por la que una cuenta se desliza poco a poco hacia contenido que no retiene.
+
+---
+
 ## PARTE 2 — BIBLIOTECA DE HOOKS
 
 Tus 5 tipos, más 2 que en el nicho de mascotas rinden muy bien.
