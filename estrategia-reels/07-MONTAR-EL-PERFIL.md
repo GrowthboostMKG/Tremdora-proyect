@@ -79,37 +79,39 @@ Cuatro verbos que cubren el catálogo entero, presente y futuro, y que son cáli
 
 Cualquier cosa que vendas en los próximos tres años entra en uno de los cuatro.
 
+### El formato: emoji al principio de cada línea
+
+**El emoji va al principio, nunca al final.** Al principio funciona como viñeta: crea un borde izquierdo y el ojo baja por la columna leyendo línea a línea. Al final es decoración, y ahí no se posa la mirada de nadie.
+
+### Y las líneas, cortas — no es estética
+
+**Instagram corta la bio con un «...más» a las dos o tres líneas.** Todo lo que vaya después queda oculto hasta que alguien pulse, y casi nadie pulsa. Si la bio es larga, el enlace y la tienda **no se leen**. Objetivo: unos 120 caracteres en total.
+
 ### Recomendada
 
 ```
-Todo para entender, cuidar y celebrar a tu mascota 🐾
-Nació del amor por una perra llamada Paris 🤍
-Tienda y guías 👇
+🐾 Entiende a tu mascota y cuídala mejor
+📘 Guías, packs y artículos
+🤍 En memoria de mi perrita Paris
+👇 Tienda y guías
 ```
 
-### Alternativas
+### Con los cuatro verbos
 
-**La más tierna** — empieza por el vínculo
 ```
-Porque no es "un animal": es de la familia 🤍
-Guías, regalos y todo para cuidarla mejor
-Creado en memoria de Paris · Tienda 👇
-```
-
-**La de tu historia** — la que más conecta
-```
-Todo lo que me habría gustado saber con Paris 🤍
-Guías, cuidados y regalos para los que nos esperan en casa
-Tienda 👇
+🐾 Entender · Cuidar · Acompañar · Celebrar
+📘 Guías, packs y artículos
+🤍 En memoria de mi perrita Paris
+👇 Tienda
 ```
 
-**La escaneable** — se lee de un vistazo
-```
-Entender · Cuidar · Acompañar · Celebrar 🐾
-Guías, packs y artículos para tu mascota
-Hecho con amor, en memoria de Paris 🤍
-Tienda 👇
-```
+**La diferencia importa:** los cuatro verbos son preciosos pero **abstractos** — a quien llega frío no le dicen qué va a sacar de seguirte. Con 0 seguidores, **la claridad gana a la poesía**. Los verbos se recuperan dentro de unos meses, cuando la gente ya sepa quién eres; mientras tanto siguen mandando en el catálogo y en el contenido, que es donde de verdad trabajan.
+
+### ⚠️ La etiqueta «Perfil generado con IA»
+
+Si aparece encima de la bio, **quítala**. Es lo primero que lee quien entra, y en una marca cuyo valor entero es que es verdad — y que habla de Paris dos líneas más abajo — resulta demoledora.
+
+Sale cuando la bio se escribe con el asistente de IA de Instagram. **Bórrala entera, guarda, y vuelve a escribirla a mano** o pégala desde Notas. Comprueba después que la etiqueta ha desaparecido.
 
 ### Tres reglas
 
@@ -196,9 +198,11 @@ NOMBRE         Tremdora | Mascotas y cuidado
 
 FOTO           Tu cara, plano corto, fondo liso, sonriendo
 
-BIO            Todo para entender, cuidar y celebrar a tu mascota 🐾
-               Nació del amor por una perra llamada Paris 🤍
-               Tienda y guías 👇
+BIO            🐾 Entiende a tu mascota y cuídala mejor
+               📘 Guías, packs y artículos
+               🤍 En memoria de mi perrita Paris
+               👇 Tienda y guías
+               (emoji al principio · máx. ~120 caracteres o se corta)
 
 ENLACE         La tienda (vacío mientras no esté lista)
 
