@@ -13,3 +13,4 @@ Toda la documentación está en [`estrategia-reels/`](./estrategia-reels/):
 | [04 — Guiones](./estrategia-reels/04-GUIONES.md) | 14 reels completos, listos para grabar |
 | [05 — Checklists](./estrategia-reels/05-CHECKLISTS.md) | Grabación, edición, publicación y rutina semanal |
 | [06 — La capa personal](./estrategia-reels/06-LA-CAPA-PERSONAL.md) | Presencia, ángulo e historia: cómo se muestra quién está detrás + 3 guiones |
+| [07 — Montar el perfil](./estrategia-reels/07-MONTAR-EL-PERFIL.md) | Los 9 pasos con el texto exacto de cada campo: @, nombre, foto, bio, enlace |
