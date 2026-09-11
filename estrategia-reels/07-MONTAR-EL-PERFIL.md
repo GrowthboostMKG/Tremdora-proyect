@@ -64,29 +64,70 @@ Tu nombre va en la bio, no aquí. Aquí van las palabras por las que quieres que
 
 ## PASO 4 — La bio
 
-150 caracteres. Estructura: **qué consigue quien te sigue · qué va a encontrar · quién eres.**
+150 caracteres. **La cuenta es de toda la tienda**, no solo de los dos ebooks del lanzamiento: más adelante entran packs de cumpleaños, packs de Navidad y artículos para mascotas. La bio tiene que cubrir todo eso desde hoy.
 
-**Recomendada (mientras la tienda arranca):**
+### El eje: Entender · Cuidar · Celebrar
+
+Tres verbos que cubren el catálogo entero, presente y futuro, y que son cálidos:
+
+| Verbo | Qué cubre |
+|---|---|
+| **Entender** | Los ebooks, las guías, el contenido |
+| **Cuidar** | Los artículos para mascotas |
+| **Celebrar** | Los packs de cumpleaños y de Navidad |
+
+Cualquier cosa que vendas en los próximos tres años entra en uno de los tres.
+
+### Recomendada
+
 ```
-Entiende a tu mascota y cuídala mejor 🐾
-Comportamiento, cuidados y educación, sin mitos
-Victoria · Todo empezó por Paris 🤍
+Todo para entender, cuidar y celebrar a tu mascota 🐾
+Nació del amor por una perra llamada Paris 🤍
+Tienda y guías 👇
 ```
 
-**Cuando la tienda esté en marcha, cambia la tercera línea:**
+### Alternativas
+
+**La más tierna** — empieza por el vínculo
 ```
-Entiende a tu mascota y cuídala mejor 🐾
-Comportamiento, cuidados y educación, sin mitos
-Victoria · Empezó por Paris 🤍 Tienda 👇
+Porque no es "un animal": es de la familia 🤍
+Guías, regalos y todo para cuidarla mejor
+Creado en memoria de Paris · Tienda 👇
 ```
 
-**Lo que NO debe aparecer en una bio:**
+**La de tu historia** — la que más conecta
+```
+Todo lo que me habría gustado saber con Paris 🤍
+Guías, cuidados y regalos para los que nos esperan en casa
+Tienda 👇
+```
+
+**La escaneable** — se lee de un vistazo
+```
+Entender · Cuidar · Celebrar 🐾
+Guías, packs y artículos para tu mascota
+Hecho con amor, en memoria de Paris 🤍
+Tienda 👇
+```
+
+### Tres reglas
+
+**Nada de nombres de producto.** Ni «ebooks» ni «packs de Navidad». Hoy son dos libros; en marzo, otra cosa. «Guías» y «regalos» lo cubren todo y no caducan.
+
+**El 👇 solo si el enlace está puesto.** Una flecha que apunta a un campo vacío es lo contrario de convertir. Mientras la tienda no esté lista, quita esa línea y la añades el día que la enchufes.
+
+**«Tienda» va en la bio, nunca en el @.** El @ es identidad y la bio es oferta: una identidad que se llama «tienda» no se sigue, una oferta que dice «tienda» sí se pulsa.
+
+### Lo que NO debe aparecer
+
 - «Amante de los animales» — lo pone todo el mundo y no dice nada.
 - «Bienvenidos a mi cuenta» — ocupa sitio y no aporta.
 - Cadenas de emojis. Uno o dos, y con sentido.
-- Ningún título profesional que no tengas. En este nicho se comprueba, y perder la credibilidad una vez cuesta mucho recuperarla.
+- Ningún título profesional que no tengas. En este nicho se comprueba, y la credibilidad se pierde una sola vez.
 
-**Por qué esta bio funciona:** la primera línea es el beneficio de quien te ve, no lo que tú haces. La segunda dice exactamente qué tipo de contenido va a encontrar. La tercera te pone cara y nombre, y mete a Paris en dos palabras — sin explicarla, para que quien quiera saber más se vaya al reel fijado.
+### Cómo escribirla en el móvil
+
+Si el teclado de Instagram no te deja dar al intro en ese campo, escríbela en **Notas** con los renglones separados, cópiala entera y pégala. Y el enlace **no va dentro del texto**: va en el campo «Enlace», donde no gasta caracteres y además es clicable.
 
 ---
 
@@ -154,9 +195,9 @@ NOMBRE         Tremdora | Mascotas y cuidado
 
 FOTO           Tu cara, plano corto, fondo liso, sonriendo
 
-BIO            Entiende a tu mascota y cuídala mejor 🐾
-               Comportamiento, cuidados y educación, sin mitos
-               Victoria · Todo empezó por Paris 🤍
+BIO            Todo para entender, cuidar y celebrar a tu mascota 🐾
+               Nació del amor por una perra llamada Paris 🤍
+               Tienda y guías 👇
 
 ENLACE         La tienda (vacío mientras no esté lista)
 
