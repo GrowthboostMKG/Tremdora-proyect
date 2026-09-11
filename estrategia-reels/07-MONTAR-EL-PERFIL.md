@@ -93,8 +93,10 @@ Cualquier cosa que vendas en los próximos tres años entra en uno de los cuatro
 🐾 Entiende a tu mascota y cuídala mejor
 📘 Guías, packs y artículos
 🤍 En memoria de mi perrita Paris
-👇 Tienda y guías
+👇 Tienda
 ```
+
+La última línea es solo la puerta: el catálogo ya está en la segunda, así que «Tienda» sola basta y evita repetir «guías». Alternativas: `👇 Todo aquí` · `👇 Entra a la tienda`.
 
 ### Con los cuatro verbos
 
@@ -201,7 +203,7 @@ FOTO           Tu cara, plano corto, fondo liso, sonriendo
 BIO            🐾 Entiende a tu mascota y cuídala mejor
                📘 Guías, packs y artículos
                🤍 En memoria de mi perrita Paris
-               👇 Tienda y guías
+               👇 Tienda
                (emoji al principio · máx. ~120 caracteres o se corta)
 
 ENLACE         La tienda (vacío mientras no esté lista)
