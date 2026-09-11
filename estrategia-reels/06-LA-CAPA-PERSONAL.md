@@ -63,7 +63,7 @@ El comportamiento animal *es* neurociencia y psicología del aprendizaje aplicad
 ---
 
 ### NIVEL 3 — HISTORIA · desde la semana 2 o 3, en el slot de sábado
-Aquí va tu historia: los 44, por qué emprendiste, por qué mascotas, qué te llevó hasta aquí.
+Aquí va tu historia: por qué existe Tremdora, Paris, qué te llevó hasta aquí. Es el **reel 15**, y es el que fijas en el perfil.
 
 **Pero en formato historia, no en formato rutina.** Es el mismo contenido en un contenedor completamente distinto:
 
@@ -124,28 +124,52 @@ El resto del calendario no se toca.
 
 # GUIONES NUEVOS
 
-## REEL 15 — TU HISTORIA DE ORIGEN
-**Sábado · Storytelling · Semana 2 o 3** · Hook: Storytelling · 55 s · Planos A, C, D · Fondo B
+## REEL 15 — POR QUÉ EXISTE TREMDORA
+**Sábado · Storytelling · Semana 2** · Hook: Storytelling · 60 s · Planos A, C, D · Fondo B
 
-> **Este guion lleva huecos marcados entre corchetes.** No me invento tu vida: pon lo tuyo. La estructura es lo que importa, y es la que hace que una historia de origen retenga.
+> Este es **el reel de presentación de la marca**. El que fijas en el perfil. Solo quedan dos corchetes, y son datos que solo tú tienes.
 
-**PORTADA:** `EMPECÉ A LOS 44`
+**PORTADA:** `ESTO EMPEZÓ CON PARIS`
 
-| Tiempo | Bloque | Guion |
-|---|---|---|
-| 0–5 s | **HOOK** *(empieza por la duda, no por el currículum)* | «Con 44 años monté esto desde cero. Y hubo un momento en el que pensé que me había equivocado.» |
-| 5–18 s | **EL ANTES** *(qué había antes y qué no encajaba)* | «[Qué hacías antes. Una frase, concreta.] [Qué era lo que no te terminaba de encajar: el qué, no el sentimiento.] Y llevaba tiempo dándole vueltas a lo mismo: [la pregunta que te rondaba].» |
-| 18–28 s | **EL MOMENTO** *(el punto de no retorno — el corazón del reel)* | «[Qué pasó exactamente. Un día, una conversación, un animal concreto, una situación. Cuanto más concreto, más se comparte.] Y ahí lo tuve claro.» |
-| 28–44 s | **EL PORQUÉ** *(aquí entra todo lo tuyo, pero al servicio de ellos)* | «Me pasé [tiempo] estudiando comportamiento animal, y lo que me enganchó no fueron los trucos: fue entender **por qué** hacen lo que hacen. Porque casi todo lo que llamamos "mal comportamiento" es un cerebro haciendo exactamente lo que le toca hacer. Y cuando entiendes eso, dejas de pelearte con tu perro.» |
-| 44–55 s | **CTA + LOOP** | «Eso es lo que hago aquí: explicarte el porqué, no solo el truco. Y si estás pensando que para algo ya es tarde — yo empecé a los 44.» |
+| Tiempo | Bloque | Guion | Plano |
+|---|---|---|---|
+| 0–6 s | **HOOK** | «Todo esto que ves aquí empezó por una perra. Se llamaba Paris.» | C |
+| 6–18 s | **QUIÉN ERA** | «[Un detalle muy concreto y cotidiano de ella: una manía, cómo te esperaba, qué hacía cuando llegabas a casa, ese gesto que solo hacía ella.] Estuvo conmigo [X] años, y me enseñó más de lo que yo le enseñé a ella.» | C→D |
+| 18–30 s | **LO QUE APRENDIÓ CON ELLA** | «Con Paris aprendí a mirar. A darme cuenta de cuándo estaba a gusto y cuándo no, sin que tuviera que decirme nada. A entender que casi nada de lo que hacía era porque sí.» | C→A |
+| 30–40 s | **EL GIRO — sin culpa** | «Y otras cosas las aprendí después. Cosas que, de haberlas sabido antes, nos habrían hecho la vida más fácil a las dos. No es que lo hiciera mal: lo hice con lo que sabía, que es lo que hacemos todos. Pero ahora sé más. Y me parece una pena guardármelo.» | A→B |
+| 40–54 s | **POR QUÉ EXISTE** | «Por eso existe Tremdora. Para que podamos entender a nuestras mascotas de verdad: cuidarlas, educarlas y conectar con ellas. A tiempo, no tarde. Todo lo que publico aquí es, en el fondo, lo que me habría gustado saber cuando la tenía a ella.» | A |
+| 54–60 s | **CIERRE + LOOP** | «Así que esto lo empezaste tú, Paris.» | C |
 
-**Insertos (D):** tú con tu mascota · manos · libros o apuntes · un plano de tu espacio de trabajo
-**Pie de foto:** No empecé por los trucos. Empecé por el porqué. Y resulta que el porqué es lo que lo cambia todo 🐾 Si estás dándole vueltas a empezar algo: los 44 no son tarde.
+**Insertos (D):** fotos o vídeos de Paris, si los tienes · tu mascota actual · tus manos · tu espacio
+**Pie de foto:** Tremdora existe por una perra que se llamaba Paris. Ella me enseñó a mirar; el resto lo aprendí después, y me pareció una pena guardármelo. Esto es para que lo sepamos a tiempo 🤍
 
-**Tres avisos sobre este reel:**
-1. **No lo publiques el primer día.** Va en la semana 2 o 3, cuando ya haya gente que te haya visto resolver algo. Antes de eso no tiene a quién importarle.
-2. **Concreto gana a bonito.** «Una perra que llevaba tres meses sin salir de debajo de la cama» retiene; «siempre me han encantado los animales» no.
-3. **El cierre no puede quedarse en tu historia.** Tiene que devolverse a quien te ve. Por eso el loop termina hablándole a ella, no de ti.
+### Por qué este guion no es dramático, y cómo mantenerlo así
+
+**1. El gancho es lo que te enseñó, no lo que perdiste.** Si el reel abre con la pérdida, se convierte en un vídeo triste que se ve por empatía y se olvida, y deja la marca anclada al duelo en vez de al amor. Abriendo con su nombre y con «me enseñó», es cálido y abre curiosidad sin pedir compasión.
+
+**2. Que ya no está se menciona una sola vez y de pasada.** En el guion está en «estuvo conmigo [X] años» y en el pasado de los verbos. **No añadas** cuándo fue, cómo fue ni la despedida. Eso es lo que convierte un homenaje en un duelo público, y no es lo que quieres.
+
+**3. Nada de culpa.** El bloque del giro está escrito a propósito para que no suene a «ojalá lo hubiera sabido»: *lo hiciste con lo que sabías, como todos*. Importa por ti y por quien lo ve — mucha gente que vea este reel ha perdido a un animal y carga con lo suyo. Así el reel les acompaña en vez de señalarles.
+
+**4. La música es lo que más puede estropearlo.** Un piano triste convierte esto en otra cosa en tres segundos. Usa algo cálido y muy bajo, o **solo tu voz**. Para este reel concreto, el silencio funciona mejor que casi cualquier canción.
+
+**5. Sonríe al decir su nombre.** Literalmente. Es la diferencia entre un homenaje y un duelo, y se nota en pantalla más que cualquier palabra del guion.
+
+**6. Este reel no lleva CTA.** Nada de «guárdalo» ni «compártelo»: sonaría a transacción. El cierre es la propia misión, y con eso basta.
+
+**7. Si se te quiebra la voz una vez, no pasa nada.** Eso no es drama, es verdad, y se nota la diferencia. Graba dos o tres tomas y quédate con la más natural, no con la más entera. Lo que hay que evitar es el montaje triste, no la emoción.
+
+### Dónde va y qué hacer con él
+- **Sábado de la semana 2.** Desplaza el reel 06 (el gato que dejó de comer) a la semana 3.
+- **Fíjalo en el perfil.** Con este arriba no necesitas ningún reel de presentación: quien llegue a tu cuenta sabe en 60 segundos quién eres y por qué existe esto.
+- **Destacada en Stories**: crea una que se llame «Paris» o «Por qué Tremdora» y guárdalo ahí.
+- **Lo de los 44 no entra aquí.** Este reel es de Paris. Si alguna vez quieres contar lo de emprender a esa edad, es otro reel — y ya sabes el aviso que te di sobre ese tema.
+
+### Si quieres otro gancho
+El hook es lo único que conviene llevar memorizado palabra por palabra. Tres opciones, todas con el mismo tono:
+- «Todo esto que ves aquí empezó por una perra. Se llamaba Paris.»
+- «Casi todo lo que sé de animales me lo enseñó Paris.»
+- «Tremdora tiene nombre de marca, pero en realidad tiene nombre de perra.» *(solo si el nombre tiene relación con ella; si no, descártalo)*
 
 ---
 
