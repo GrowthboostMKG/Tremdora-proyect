@@ -6,14 +6,85 @@
 
 ---
 
-## PARTE 1 — LOS REFERENTES
+## PARTE 0 — TU CATEGORÍA ESTÁ VACÍA
 
-### Tu espejo exacto: contenido → libro → tienda
+Tu contenido **no es adiestramiento**. Es acompañar, cuidar y alimentar según el problema, con la neurociencia animal y los estudios como base. Buscando específicamente eso en español, el resultado es claro:
+
+- Hay **material académico** serio: iNeurociencias, Hidden Nature, revistas de cognición canina, cursos de neurociencia canina.
+- Hay **divulgadores de ciencia enormes** que no hablan de mascotas.
+- Hay **cuentas de mascotas enormes** que no hacen ciencia.
+- **El punto donde se cruzan está vacío.**
+
+> **Matiz honesto:** «no lo encuentro» no es «no existe». Instagram y TikTok se indexan muy mal desde fuera. Compruébalo tú dentro de la app con estos hashtags antes de darlo por hecho: `#etologiacanina` · `#cognicioncanina` · `#comportamientofelino` · `#bienestaranimal` · `#nutricioncanina` · `#cienciaanimal`.
+
+### Las dos caras
+
+**A favor:** puedes quedarte con el nombre de la categoría. Que cuando alguien piense «la ciencia de las mascotas en español», piense en ti. Y la demanda está demostrada **por separado** en los dos lados: la divulgación científica en español funciona, y las mascotas funcionan.
+
+**El riesgo, que es tuyo y conviene que lo sepas:** que dos cosas funcionen por separado no garantiza que funcionen juntas. **Nadie ha validado ese cruce.** Es posible que el público de mascotas no quiera ciencia, quiera soluciones.
+
+### La regla que decide si esto funciona o no
+
+> **La ciencia es tu método, no tu producto.**
+
+Nadie busca «neurociencia canina». Buscan «mi perro llora cuando me voy».
+
+- ❌ Titular: *«Neurociencia del apego en cánidos»* → no lo ve nadie.
+- ✅ Titular: *«Lo que hace tu perro en los 30 minutos después de irte»* → y dentro, el mecanismo.
+
+Tu diferencial no es **hablar** de estudios: es que **tus respuestas son mejores** porque vienen de ahí. La ciencia se nota en la calidad de la solución, no en el titular.
+
+**Tu categoría ya la nombraste tú en la bio: Entender · Cuidar · Celebrar.** La ciencia es el *cómo*, no el *qué*.
+
+---
+
+## PARTE 0.5 — EL REFERENTE COMPUESTO
+
+Cuando nadie hace exactamente lo tuyo, no buscas un referente: **construyes uno con piezas.** Cada uno te da una cosa.
+
+| De quién | Qué le robas |
+|---|---|
+| **Boticaria García** | El método de convertir estudios en contenido, y el modelo de negocio |
+| **La Hiperactina** | Cómo explicar el cerebro sin aburrir |
+| **Cuentas de educación canina** | El vocabulario del nicho y los temas que duelen |
+| **Veterinarias nutricionistas** | El tono clínico-cercano y el tamaño realista |
+| **iNeurociencias · Hidden Nature · papers** | La materia prima |
+
+### Tu referente número uno ahora: Boticaria García
+
+Doctora en farmacia y nutricionista. Más de 600.000 seguidores entre redes tras doce años divulgando, autora de superventas como *El jamón de York no existe* y *Tu cerebro tiene hambre*, en la lista Forbes TOP 100 Creativos y premio Estrategia NAOS del Ministerio de Consumo.
+
+**Hace exactamente lo que tú quieres hacer, pero con nutrición humana:** coge estudios, explica el mecanismo, te dice qué hacer con ello, y lo convierte en libros. **Su modelo de negocio es tu modelo de negocio**, y su forma de traducir ciencia a contenido cotidiano es lo que tienes que estudiar línea por línea.
+
+*Está por encima de cualquier cuenta de mascotas en tu lista de referentes.* De las cuentas de perros aprendes el nicho; de ella aprendes **el oficio**.
+
+### La Hiperactina — Sandra Ortonobes
+
+Graduada en Ciencias Biomédicas con máster en Comunicación Científica, ~2,27M de suscriptores en YouTube divulgando biomedicina y cuerpo humano.
+
+*Qué estudiar:* cómo hace digerible la neurociencia sin bajarla de nivel. Es el problema técnico que vas a tener en cada reel.
+
+### Alimentación según el problema — tu tamaño realista
+
+Es una parte central de lo tuyo y aquí sí hay cuentas españolas, todas pequeñas:
+
+- **@pataconpata** — Carmen Barreiro, veterinaria nutricionista · ~21K
+- **@isa.petcare** — Isa Trujillo, veterinaria nutricionista · ~21K
+- **@nutrivet.ms** — nutrición canina y felina · ~13K
+- **@vetnutritioncentermadrid** — nutrición clínica, Madrid · ~2K
+
+Ninguna es grande, y eso es información: **el nicho de nutrición con base clínica en español está poco explotado.** Mira qué formatos usan y dónde se quedan cortas — ahí hay hueco.
+
+---
+
+## PARTE 1 — LOS REFERENTES DEL NICHO
+
+### El espejo del modelo de negocio dentro del nicho
 
 **@comportamientofelino** — Nadia (Nai) Osepyan · ~156K en Instagram
 Conductista felina certificada y **autora del libro «Comportamiento felino» (editorial Planeta)**, que además se vende en ebook. Da consultas y talleres, y colabora con casas de acogida.
 
-**Es el referente más importante de esta lista para ti**, y no por tamaño: porque tiene **exactamente tu modelo de negocio** — divulgación gratuita que alimenta un libro, un ebook y servicios. Es argentina, no española, así que el acento y algunas expresiones no te sirven; la estructura sí.
+**Es el referente más importante *dentro del nicho mascotas*** (el de fuera es Boticaria García), y no por tamaño: porque tiene **exactamente tu modelo de negocio** — divulgación gratuita que alimenta un libro, un ebook y servicios. Es argentina, no española, así que el acento y algunas expresiones no te sirven; la estructura sí.
 
 *Qué estudiar aquí:* cómo mezcla el contenido gratuito con la venta del libro sin quemar a la audiencia. Cuántos posts de valor por cada uno de venta. Cómo menciona el libro dentro de un contenido educativo sin que parezca un anuncio.
 
@@ -142,3 +213,41 @@ Copiar el contenido se nota, te deja sin identidad y no te lleva a ningún sitio
 - **Contesta comentarios de compra** («¿dónde lo compro?», «¿cuánto vale?»). Si hay muchos, hay demanda real.
 
 Eso es el techo de lo que se puede inferir sin acceso a su cuenta. Cualquier cosa más concreta que te digan sobre las ventas de un tercero es invención.
+
+
+---
+---
+
+## PARTE 3 — EL SISTEMA DE FUENTES
+
+Si tu diferencial es la ciencia, **un dato mal citado te cuesta más de lo que te dio el reel**. Esto es lo que te protege.
+
+### Dónde buscar
+
+| Fuente | Para qué |
+|---|---|
+| **Google Scholar** | El buscador general. Empieza siempre aquí |
+| **PubMed** | Salud y biomedicina |
+| **Applied Animal Behaviour Science** | Comportamiento aplicado — la revista más útil para ti |
+| **Animal Cognition** | Cognición: olfato, memoria, comunicación |
+| **Journal of Veterinary Behavior** | Problemas de conducta en clínica |
+| **Hidden Nature · iNeurociencias** | Divulgación en español, para entender antes de ir al paper |
+
+**Truco:** busca en inglés aunque publiques en español. `dog separation anxiety review`, `cat litter box preference study`. Y añade **`review`** o **`meta-analysis`**: una revisión que resume veinte estudios es mucho más sólida — y más segura para ti — que un estudio suelto.
+
+### Cómo citar en un reel sin matarlo
+
+- **Nunca digas el nombre del estudio en voz alta.** Mata el ritmo y no le importa a nadie.
+- **En el reel:** *«Hay un estudio que midió justo esto»* · *«Esto se ha visto en varias investigaciones»*. Y sigues.
+- **La referencia va en el pie de foto o en un comentario fijado.** El comentario fijado con la fuente es **tu firma de credibilidad**, y además genera comentarios, que es lo que más alcance te da.
+
+### Las cuatro reglas para no meter la pata
+
+1. **«Se ha visto que», no «está demostrado que».** Un estudio no es una prueba. Esta sola palabra te ahorra el 90 % de los problemas.
+2. **No extrapoles entre especies.** Lo de ratones no vale para perros, y lo de perros no vale para gatos. Es el error más común en divulgación de mascotas.
+3. **Si no encuentras la fuente, no lo cuentes.** El reel funciona igual sin el dato; sin credibilidad, no funciona nada.
+4. **Salud siempre con el aviso al veterinario**, y jamás diagnósticos ni dosis.
+
+### Y una ventaja que te da esto
+
+Cuando alguien te discuta en comentarios —y va a pasar—, **tú tienes la fuente y quien discute tiene una opinión**. Eso, hecho con educación y sin humillar a nadie, es de lo que más autoridad construye en este nicho. Responde con el enlace y un «te dejo de dónde sale», nunca con superioridad.
