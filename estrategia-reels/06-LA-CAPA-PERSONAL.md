@@ -160,7 +160,7 @@ El resto del calendario no se toca.
 **7. Si se te quiebra la voz una vez, no pasa nada.** Eso no es drama, es verdad, y se nota la diferencia. Graba dos o tres tomas y quédate con la más natural, no con la más entera. Lo que hay que evitar es el montaje triste, no la emoción.
 
 ### Dónde va y qué hacer con él
-- **Sábado de la semana 2.** Desplaza el reel 06 (el gato que dejó de comer) a la semana 3.
+- **Sábado de la semana 2.** Desplaza el reel 13 (3 semanas bajo la cama) a la semana 3. El reel 06 se queda donde estaba, en el sábado de la semana 1.
 - **Fíjalo en el perfil.** Con este arriba no necesitas ningún reel de presentación: quien llegue a tu cuenta sabe en 60 segundos quién eres y por qué existe esto.
 - **Destacada en Stories**: crea una que se llame «Paris» o «Por qué Tremdora» y guárdalo ahí.
 - **Lo de los 44 no entra aquí.** Este reel es de Paris. Si alguna vez quieres contar lo de emprender a esa edad, es otro reel — y ya sabes el aviso que te di sobre ese tema.

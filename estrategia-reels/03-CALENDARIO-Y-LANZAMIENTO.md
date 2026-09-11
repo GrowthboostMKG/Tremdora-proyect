@@ -97,6 +97,29 @@ En `04-GUIONES.md` tienes 14 escritos: graba los 8 primeros.
 | Jueves | **Reel 4** — Error (el baño) | Genera debate y comentarios |
 | Sábado | **Reel 6** — Storytelling (el gato que dejó de comer) | Empieza el vínculo contigo |
 
+**Semana 2, sábado: Reel 15 — el de Paris.** Desplaza el reel 13 a la semana 3. Va ahí y no antes: ver abajo.
+
+#### Por qué abre el Reel 01 y no el de Paris
+
+**El reel 1 es el que menos difusión va a tener de todos.** Sin historial de cuenta, el algoritmo te da una audiencia de prueba pequeña: la mayoría de primeros reels hacen entre 100 y 400 reproducciones, sean buenos o malos. Y nadie llega a tu perfil por el reel 1 — llegan por el que rompa, que puede ser el 7 o el 23. Tu carta de presentación tampoco es el primero cronológicamente: **es el fijado**, y ese será el de Paris.
+
+Lo único que hace de verdad el reel 1 es **enseñarle al algoritmo de qué va tu cuenta y a quién tiene que enseñársela.** Ese es el criterio para elegirlo, y por eso gana el Reel 01:
+
+- **Define el nicho en el primer segundo.** El hook de segmentación le dice literalmente al sistema a quién buscar. Es la señal más limpia del día uno.
+- **Es un problema masivo** con un tema muy concreto: la combinación que quieres.
+- **Resuelve entero en 30 segundos** → se guarda, y el guardado es de las señales más fuertes para una cuenta nueva.
+- **No necesita que sepan quién eres.** Funciona con un desconocido absoluto.
+
+**Y por eso el de Paris no va el primer día:**
+
+1. **No tiene a quién emocionar.** Una historia de origen necesita gente que ya tenga un motivo para que le importes, o difusión para encontrarla. El día uno no hay ninguna de las dos.
+2. **Le enseña al algoritmo lo que no eres.** Si la primera señal es «historia personal, emoción», empezará a probarte con público de historias personales en vez de con gente que tiene problemas con su perro. Corregir eso cuesta semanas.
+3. **Es el mejor reel de tus dos primeros meses, y lo estarías gastando en la audiencia más pequeña que vas a tener.** En la semana 2, con siete reels de evidencia detrás, tiene mucho más alcance y capta muchos más seguidores. El día uno se quema.
+
+**El orden correcto: primero demuestras que eres útil, después cuentas por qué haces esto.** Así la historia cae sobre gente que ya ha decidido que merece la pena escucharte, que es donde convierte.
+
+*(Única excepción: que llegaras al día uno con público de otro sitio — una lista, otra cuenta, un grupo. Desde cero, no.)*
+
 **Reglas de la semana 1:**
 - **No publiques un reel de presentación.** "Hola, soy nueva por aquí" no lo ve nadie: no hay a quién enseñárselo y no aporta nada. Tu presentación son tus 3 primeros reels buenos.
 - **No borres nada.** Aunque un reel haga 200 reproducciones. Borrar no mejora nada y pierdes el historial.
@@ -109,7 +132,8 @@ En `04-GUIONES.md` tienes 14 escritos: graba los 8 primeros.
 
 ### SEMANA 2 — Consolidar
 
-- Mismos 4 días. Reels 8, 10, 11 y 13 de `04-GUIONES.md`.
+- Mismos 4 días. Reels 8, 10, 11 y **15 (el de Paris, el sábado)**. El reel 13 pasa a la semana 3.
+- **Fija el reel 15 en el perfil** en cuanto lo publiques. A partir de ahí, es lo primero que ve quien llegue a tu cuenta.
 - **Graba el banco de la semana 3 y 4** (una sesión de 2 h).
 - **Primer análisis, el domingo.** Solo mira dos cosas: qué reel tuvo más **retención a 3 segundos** y cuál tuvo más **compartidos**. Nada más.
 - Empieza a apuntar las preguntas de los comentarios en una nota. Ese es tu calendario del mes que viene.
