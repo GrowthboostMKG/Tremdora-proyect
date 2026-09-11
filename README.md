@@ -12,3 +12,4 @@ Toda la documentación está en [`estrategia-reels/`](./estrategia-reels/):
 | [03 — Calendario y lanzamiento](./estrategia-reels/03-CALENDARIO-Y-LANZAMIENTO.md) | Calendario semanal escalonado + plan de 4 semanas + métricas |
 | [04 — Guiones](./estrategia-reels/04-GUIONES.md) | 14 reels completos, listos para grabar |
 | [05 — Checklists](./estrategia-reels/05-CHECKLISTS.md) | Grabación, edición, publicación y rutina semanal |
+| [06 — La capa personal](./estrategia-reels/06-LA-CAPA-PERSONAL.md) | Presencia, ángulo e historia: cómo se muestra quién está detrás + 3 guiones |

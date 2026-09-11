@@ -13,6 +13,7 @@
 | `03-CALENDARIO-Y-LANZAMIENTO.md` | Calendario semanal corregido + plan de lanzamiento de 4 semanas | Una vez, y para planificar cada mes |
 | `04-GUIONES.md` | 14 reels completos, listos para grabar (2 semanas) | En la grabación |
 | `05-CHECKLISTS.md` | Checklist de grabación, de edición y de publicación | Cada día de rodaje |
+| `06-LA-CAPA-PERSONAL.md` | Cómo se muestra quién eres: presencia, ángulo e historia + 3 guiones | Antes de grabar tu historia |
 
 ---
 
@@ -73,11 +74,13 @@ Y lo importante: **los ejes se mantienen igual**, solo que el primer mes usas 4 
 ---
 
 ### Corrección 3 — "Un día en mi vida" el miércoles es prematuro
+*(Revisada — ver `06-LA-CAPA-PERSONAL.md`, que corrige esta corrección)*
+
 Ese formato funciona por **parasocialidad**: la gente ve tu día porque le importas tú. En el mes 1 nadie sabe quién eres todavía, así que rinde por debajo de todo lo demás y además te baja la retención media de la cuenta justo cuando más frágil es.
 
-**Lo muevo al mes 2 y al domingo (tema libre).** El miércoles del mes 1 lo ocupa **Datos y curiosidades**, que es el formato con más guardados y compartidos del nicho mascotas y el que mejor capta seguidores nuevos.
+**Muevo el formato al mes 2 y al domingo.** El miércoles del mes 1 lo ocupa **Datos y curiosidades**, que es el formato con más guardados y compartidos del nicho y el que mejor capta seguidores nuevos.
 
-Cuando lo recuperes en el mes 2, hazlo con esta variante: **"un día en mi vida" con un aprendizaje dentro**. No solo enseñas la rutina: dentro de la rutina explicas *por qué* haces algo. Así el formato personal también aporta valor y no depende de que ya te quieran.
+**Pero esto va contra el formato vlog, no contra mostrar quién eres.** Mandar toda la capa personal al mes 3 era un error mío. Lo personal empieza en el reel 1 — en tu presencia y, sobre todo, en tu ángulo de neurociencia y psicología, que es tu diferencial real — y tu historia de origen entra en la semana 2 o 3, en el slot de storytelling del sábado. Está desarrollado en `06-LA-CAPA-PERSONAL.md`, con tres guiones nuevos.
 
 ---
 
@@ -141,4 +144,4 @@ No es solo responsabilidad: da credibilidad y te ahorra la sección de comentari
 
 ## Resumen en una línea
 
-Tu plan tenía las piezas correctas. He cambiado **el orden del guion**, **bajado el ritmo del primer mes**, **movido "un día en mi vida"**, **añadido comunidad, loop, subtítulos y audio**, y **reenfocado el CTA**. Todo lo demás se queda como lo pensaste.
+Tu plan tenía las piezas correctas. He cambiado **el orden del guion**, **bajado el ritmo del primer mes**, **movido el formato "un día en mi vida"** — pero no la capa personal, que empieza en el reel 1 (ver `06`) —, **añadido comunidad, loop, subtítulos y audio**, y **reenfocado el CTA**. Todo lo demás se queda como lo pensaste.

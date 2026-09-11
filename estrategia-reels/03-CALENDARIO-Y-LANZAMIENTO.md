@@ -27,7 +27,7 @@ Tu rueda de 7 ejes se mantiene entera. Lo que cambia es **cuántos días usas ca
 | **Jueves** | Errores de los dueños |
 | **Viernes** | Comparaciones |
 | **Sábado** | Storytelling |
-| *Domingo* | *Descanso* |
+| **Domingo** | **Un día en mi vida**, con valor dentro — **cada dos semanas**. Los otros domingos, descanso. Ver `06-LA-CAPA-PERSONAL.md` |
 
 ### MES 3 — los 7 días (tu plan original, completo)
 
@@ -39,11 +39,15 @@ Tu rueda de 7 ejes se mantiene entera. Lo que cambia es **cuántos días usas ca
 | **Jueves** | Errores |
 | **Viernes** | Comparaciones |
 | **Sábado** | Storytelling |
-| **Domingo** | **Libre**: un día en mi vida, tendencia del momento, tema estacional |
+| **Domingo** | **Libre**: tendencia del momento, tema estacional, tu historia |
+
+### La capa personal
+
+Dónde entra lo tuyo — quién eres, tu edad, por qué emprendiste, la neurociencia y la psicología — está en `06-LA-CAPA-PERSONAL.md`. En corto: **presencia y ángulo desde el reel 1**, **historia de origen en la semana 2 o 3** (sábado, storytelling), **"un día en mi vida" en el mes 2** (domingo, con valor dentro).
 
 ### Dos aclaraciones sobre el calendario
 
-**"Un día en mi vida" vuelve en el mes 3, al domingo, y con una variante:** no enseñes solo la rutina, mete un *por qué* dentro. "Le doy de comer a las 8" no interesa; "le doy de comer a las 8 y siempre antes del paseo, por esto" sí. Así el formato personal también aporta valor y no depende de que ya te conozcan.
+**"Un día en mi vida" vuelve en el mes 2, al domingo, y con una variante:** no enseñes solo la rutina, mete un *por qué* dentro. "Le doy de comer a las 8" no interesa; "le doy de comer a las 8 y siempre antes del paseo, por esto" sí. Así el formato personal también aporta valor y no depende de que ya te conozcan.
 
 **"Comunidad" es responder un comentario en vídeo.** Empiezas literalmente con el comentario en pantalla y contestas. Ventajas: el guion te lo escribe tu audiencia, genera más preguntas (la gente aprende que preguntando sale), y te dice exactamente qué le duele a tu público, que es la materia prima de los lunes.
 
