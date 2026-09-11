@@ -66,17 +66,18 @@ Tu nombre va en la bio, no aquí. Aquí van las palabras por las que quieres que
 
 150 caracteres. **La cuenta es de toda la tienda**, no solo de los dos ebooks del lanzamiento: más adelante entran packs de cumpleaños, packs de Navidad y artículos para mascotas. La bio tiene que cubrir todo eso desde hoy.
 
-### El eje: Entender · Cuidar · Celebrar
+### El eje: Entender · Cuidar · Acompañar · Celebrar
 
-Tres verbos que cubren el catálogo entero, presente y futuro, y que son cálidos:
+Cuatro verbos que cubren el catálogo entero, presente y futuro, y que son cálidos. Desarrollados en `09-CATALOGO-Y-TERRITORIOS.md`:
 
 | Verbo | Qué cubre |
 |---|---|
 | **Entender** | Los ebooks, las guías, el contenido |
-| **Cuidar** | Los artículos para mascotas |
-| **Celebrar** | Los packs de cumpleaños y de Navidad |
+| **Cuidar** | Los artículos, la alimentación, la salud |
+| **Acompañar** | El ebook del duelo, el sonido y la calma, el vínculo |
+| **Celebrar** | Los packs de cumpleaños, Navidad y experiencias |
 
-Cualquier cosa que vendas en los próximos tres años entra en uno de los tres.
+Cualquier cosa que vendas en los próximos tres años entra en uno de los cuatro.
 
 ### Recomendada
 
@@ -104,7 +105,7 @@ Tienda 👇
 
 **La escaneable** — se lee de un vistazo
 ```
-Entender · Cuidar · Celebrar 🐾
+Entender · Cuidar · Acompañar · Celebrar 🐾
 Guías, packs y artículos para tu mascota
 Hecho con amor, en memoria de Paris 🤍
 Tienda 👇
