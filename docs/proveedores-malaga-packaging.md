@@ -172,66 +172,212 @@ envío. Con 50 cajas el envío pesa y abulta, así que eso son 15-25 € de ahor
 
 ---
 
-# 7. El mensaje para pedir presupuesto
+# 7. Contactos — los cuatro a los que llamar
 
-Cópialo y mándalo igual a **las cuatro o cinco imprentas** que elijas. Mandarlo a varias a la vez
-no es descortés: es cómo se compra. Y las respuestas te sirven de negociación.
+> ### ⚠️ De dónde salen estos datos
+> Las webs de los proveedores **siguen bloqueadas** por la política de red de esta sesión, así que
+> esto **no** sale de sus páginas de contacto. Sale de **directorios de empresas** consultados por
+> búsqueda: Empresite (elEconomista), Páginas Amarillas, Cylex, Infobel y Europages.
+>
+> Los directorios se quedan desactualizados. **Un número que no contesta no significa que la
+> empresa haya cerrado**, significa que el directorio está viejo. Si uno falla, busca el nombre en
+> Google Maps y coge el teléfono de ahí, que es el que las empresas mantienen al día.
+>
+> **No encontré ningún WhatsApp Business anunciado.** Lo que sí hay son dos móviles (los que
+> empiezan por 6), y en España un móvil de empresa casi siempre tiene WhatsApp — pero eso es una
+> suposición razonable, no un dato. Pruébalo y ya está.
+
+## 🥇 1. Homegrafic — Málaga · **empieza por aquí**
+
+| | |
+|---|---|
+| **Email** | `info@homegrafic.es` |
+| **Teléfono** | `951 57 46 68` *(fijo, no WhatsApp)* |
+| **Dirección** | C/ Ter, 6 — 29006 Málaga |
+| **Web** | homegrafic.es · tienen formulario en `/solicitar-llamada/` |
+
+**Por qué es la primera:** de toda la lista es la única que anuncia **packaging** como línea de
+negocio —cajas automontables, estuches, bolsas de papel, precinto impreso y etiquetas
+adhesivas— y además dice trabajar **tiradas cortas y urgencias**. Es exactamente tu caso. Si solo
+vas a escribir a una, que sea esta.
+
+## 🥈 2. Mandala Impresiones — Málaga
+
+| | |
+|---|---|
+| **Email** | `info@mandalaimpresiones.es` |
+| **Teléfono** | `620 02 68 83` — **es móvil, prueba WhatsApp** 📱 |
+| **Dirección** | C/ Miguel Bueno Lara, 10 — 29013 Málaga |
+| **Web** | mandalaimpresiones.es · tienen tienda online |
+
+Copistería e imprenta digital con local abierto. Al ser un móvil, es el contacto más rápido de
+los cuatro: mándale una foto del boceto por WhatsApp y te contesta el mismo día.
+
+## 🥉 3. Reprofast — Marbella
+
+| | |
+|---|---|
+| **Email** | `info@repro-fast.com` |
+| **Teléfonos** | `952 90 27 61` *(fijo)* · `652 33 19 22` — **móvil, prueba WhatsApp** 📱 |
+| **Dirección** | Calle Teba s/n, Urb. Los Pinos de Nagüeles — Marbella *(los directorios dan 29601 y 29602; confírmalo antes de ir)* |
+| **Web** | repro-fast.com |
+
+La opción de Marbella con local y con digital, offset y gran formato. Más de 15 años.
+
+## 4. Forma Creativa — Marbella · ⚠️ con reservas
+
+| | |
+|---|---|
+| **Email** | `info@formacreativa.es` |
+| **Teléfono** | `952 90 01 45` |
+| **Dirección** | C/ Cuarzo, 11 bajo (Pol. Ind. La Ermita) — 29603 Marbella |
+
+**La bajo de posición respecto a lo que te dije ayer.** Mirando los directorios con más
+detalle, su negocio principal son **rótulos luminosos, letras corpóreas, vinilo y gran formato**.
+Eso es otro oficio: puede que hagan tu faja perfectamente, pero no es su especialidad y el precio
+en tirada corta de papelería suele ser peor. Pídele presupuesto solo como cuarta opción, para
+tener una referencia más con la que comparar.
+
+---
+
+## Y para el papel de seda y las cajas: Málaga Pack
+
+⚠️ **Aquí hay un lío de identidad que tienes que resolver antes de ir.** Los directorios dan
+**dos direcciones distintas** bajo nombres parecidos, y podrían ser dos empresas diferentes:
+
+| | |
+|---|---|
+| Opción A | **C/ Valle Niza, 55** — Pol. Ind. Santa Teresa, 29004 Málaga *(zona Churriana)* |
+| Opción B | **C/ Guernica, 18** — Pol. Ind. Santa Cruz, Málaga · tel. `951 59 25 93` |
+
+**No vayas sin llamar antes.** Escribe por su formulario (`malagapack.com/contactanos`) o llama al
+951 59 25 93 y pregunta directamente: *"¿vendéis papel de seda de 50×70 y cajas kraft
+automontables, y tenéis tienda física donde recoger?"*. Con eso sales de dudas en un minuto y te
+ahorras un viaje a un polígono equivocado.
+
+Alternativa local si esto se complica: en **Páginas Amarillas** hay un listado de proveedores de
+resma de papel de seda en Málaga capital, y **Direpack** es otra empresa de soluciones de embalaje
+de la provincia.
+
+---
+
+# 8. El email, listo para enviar
+
+Mándalo **igual a los cuatro**. No es descortés, es cómo se compra — y las respuestas te sirven
+para negociar con la que más te guste.
+
+**Asunto:** `Presupuesto tirada corta (60 ud): faja, pegatinas y tarjetas — entrega antes del 1 dic`
 
 ```
 Buenos días,
 
-Estoy preparando una edición limitada de cajas regalo para Navidad y
-necesito presupuesto de tres piezas impresas, en tirada corta:
+Soy [NOMBRE], de Tremdora. Estamos preparando una edición limitada de
+cajas regalo de Navidad y necesito presupuesto de tres piezas impresas
+en tirada corta.
+
+No necesito imprimir la caja: la caja va sin imprimir y lo que se
+imprime son estas tres piezas planas.
+
+
+LO QUE NECESITO
+───────────────────────────────────────────────────────────
 
 1) FAJA DE PAPEL (sleeve) para envolver una caja de 25x20x10 cm
-   - 60 unidades
-   - Impresión a color por una cara
-   - Papel de unos 150-200 g
+   · 60 unidades
+   · Color por una cara
+   · Papel de 150-200 g (dime tú qué gramaje recomiendas)
 
 2) PEGATINAS DE CIERRE, redondas de 5 cm
-   - 120 unidades
-   - Color, troqueladas en hoja
+   · 120 unidades
+   · Color, en hoja troquelada
 
 3) TARJETAS de 9x5 cm, color a doble cara
-   - 60 unidades
-   - Llevan un código QR impreso
+   · 60 unidades
+   · Llevan un código QR impreso que tiene que leerse bien
 
-Necesito saber:
-- Precio de cada pieza por separado y las tres juntas
-- Plazo de entrega REAL desde que apruebo el arte final
-- Si puedo recoger en vuestro local
-- En qué formato necesitáis los archivos (PDF, sangrado, perfil de color)
-- Si me podéis hacer una prueba física antes de la tirada, y qué cuesta
 
-Fecha límite: necesito el material en mi poder antes del 1 de diciembre.
+PREGUNTAS
+───────────────────────────────────────────────────────────
 
-¿Podríais confirmarme el plazo por escrito?
+Precio
+  1. Precio de cada pieza por separado y de las tres juntas,
+     indicando si el IVA está incluido.
+  2. ¿Cambia mucho el precio si subo a 100 unidades? Me interesa
+     saber a partir de qué cantidad merece la pena.
+
+Plazos  ← lo más importante para mí
+  3. Plazo REAL de entrega desde que os apruebo el arte final.
+  4. ¿Me lo podéis confirmar por escrito? Tengo una entrega de
+     Navidad con fecha fija y necesito el material en mi poder
+     antes del 1 de diciembre.
+  5. ¿Tenéis el papel en stock o hay que pedirlo? (para saber si
+     ese plazo incluye la espera del material)
+
+Calidad
+  6. ¿Hacéis prueba física antes de la tirada? ¿Qué cuesta?
+  7. ¿Comprobáis vosotros que el QR se lee antes de tirar las 60?
+  8. Si hubiera un error de impresión por vuestra parte,
+     ¿reimprimís, y en cuánto tiempo?
+
+Práctico
+  9. ¿Puedo recoger en vuestro local? ¿Qué horario tenéis?
+ 10. ¿En qué formato necesitáis los archivos? (PDF, milímetros de
+     sangrado, perfil de color, resolución mínima)
+ 11. Forma de pago: ¿se paga al recoger o por adelantado?
+
+
+Si hay algo de lo que pido que me recomendéis hacer de otra manera
+—otro gramaje, otro acabado, otro formato— decídmelo, que de esto
+sabéis mucho más que yo.
 
 Gracias,
-[tu nombre] — Tremdora
+
+[NOMBRE]
+Tremdora
+[teléfono]
+[email]
 ```
 
-## Las tres cosas que decidirán a quién eliges
+## Versión corta para WhatsApp
 
-1. **Que te confirmen el plazo por escrito.** Es el criterio número uno, por encima del precio.
-   Quien no te lo confirma, fuera de la lista. Tienes una fecha de Navidad que no se puede mover.
-2. **Que hagan prueba física.** Un color que en pantalla se ve verde bosque puede salir verde
-   militar. Verlo antes de tirar 60 unidades vale los 10-15 € que suele costar.
-3. **Que el QR se imprima bien.** Pídeles expresamente que lo comprueben: un QR mal impreso o
-   demasiado pequeño no se lee, y esa tarjeta es la pieza de más valor de tu caja. **Mínimo 2 cm
-   de lado y buen contraste.** Y cuando te llegue la tirada, **escanéalo tú con dos móviles
-   distintos antes de montar una sola caja.**
+Para Mandala (`620 02 68 83`) y Reprofast (`652 33 19 22`), donde un mensaje largo no pega:
+
+```
+Buenos días, soy [NOMBRE] de Tremdora.
+
+Necesito presupuesto de tirada corta para unas cajas regalo de Navidad.
+Son 3 piezas planas (la caja va sin imprimir):
+
+· Faja de papel para caja de 25x20x10 → 60 ud
+· Pegatinas redondas de 5 cm → 120 ud
+· Tarjetas de 9x5 a doble cara, con QR → 60 ud
+
+Lo que más me importa es el plazo: necesito tenerlo en mano antes
+del 1 de diciembre.
+
+¿Me podéis decir precio y plazo, y si puedo recoger en vuestro local?
+Os paso el email con el detalle completo si os viene mejor.
+
+Gracias 🙏
+```
 
 ---
 
-# 8. Qué hacer esta semana
+# 9. Cómo decidir con las respuestas en la mano
 
-- [ ] Buscar en **Google Maps** los nombres de las secciones 2 y 3. Apuntar la nota y **leer las
-      reseñas de 1-2 estrellas** de las tres mejores
-- [ ] Mandar el mensaje de la sección 7 a las 4-5 que sobrevivan
-- [ ] Pedir presupuesto de **caja kraft + papel de seda** a dos de los proveedores de las
-      secciones 4 y 6, buscando juntarlo en un solo envío
-- [ ] Pasar por **Málaga Pack** si te pilla cerca: ver el papel de seda en mano y comprobar el
-      tacto y la opacidad antes de comprar 3 paquetes
-- [ ] Con los presupuestos en la mano, rellenar la tabla de costes del documento
-      `docs/caja-navidad-sin-inversion.md` con los **números reales**, y sustituir mis rangos
+No elijas por precio. Elige por este orden:
+
+| Orden | Criterio | Descarta si… |
+|---|---|---|
+| **1º** | **Te confirma el plazo por escrito** | No te lo confirma, o te dice "para primeros de diciembre, sin problema" sin concretar un día |
+| **2º** | **Hace prueba física** | No la hace. 15 € por ver el color antes de tirar 60 unidades es barato |
+| **3º** | **Puedes recoger en su local** | Solo trabaja con envío. Un envío perdido en diciembre te tumba la entrega |
+| **4º** | Precio | Solo entre las que pasen los tres filtros anteriores |
+
+**La trampa a evitar:** la más barata que no te concreta el plazo te va a salir carísima. Si te
+falla el 5 de diciembre no tienes plan B, porque ya no hay tiempo de imprimir en otro sitio. Paga
+30 € más por una que te diga una fecha y la cumpla.
+
+Y cuando te llegue la tirada, antes de montar una sola caja: **escanea el QR con dos móviles
+distintos**, uno Android y uno iPhone. Es la pieza de más valor de la caja y la más fácil de
+estropear en la impresión.
