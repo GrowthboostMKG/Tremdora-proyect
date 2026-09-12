@@ -255,6 +255,99 @@ suena mucho mejor que "envío en 24 h":
 
 ---
 
+# 7.bis Cumpleaños en «modo Reserva»: cobrar primero, comprar después
+
+Sí se puede hacer con la caja de cumpleaños. El obstáculo nunca fue el dinero, era que **el
+material viene en packs de 12-48** y no puedes ir a comprar un juguete por pedido.
+
+**La solución: no compras por pedido, compras dos veces al mes** — y como el cliente te dice la
+fecha del cumpleaños, sabes con semanas de antelación qué vas a necesitar.
+
+## El mecanismo, en dos reglas
+
+> ### 1. Compras material el **día 1** y el **día 16** de cada mes.
+> ### 2. El calendario de la web solo permite elegir fechas **a partir de 25 días**.
+
+Con esas dos reglas, **toda reserva llega a tiempo siempre**. Compruébalo:
+
+| Reserva el… | Fecha mínima que puede elegir | La compra que la cubre | Material en casa | Sale el | |
+|---|---|---|---|---|---|
+| día 2 | día 27 | día 16 | día 22 | día 23 | ✅ |
+| día 15 | día 10 del mes siguiente | día 16 | día 22 | día 6 | ✅ |
+| día 17 | día 12 del mes siguiente | día 1 siguiente | día 7 | día 8 | ✅ |
+| día 30 | día 25 del mes siguiente | día 1 siguiente | día 7 | día 21 | ✅ |
+
+**El peor caso es quien reserva el día 2**, justo después de una compra: su pedido espera a la
+compra del día 16. Y aun así llega con un día de margen. Por eso el suelo son 25 días y no 15.
+
+## Cómo se dice en la web
+
+No lo llames preventa ni envío diferido. **Llámalo reserva**, que es lo que es:
+
+> **Reserva la caja de cumpleaños**
+>
+> Dinos qué día es su cumpleaños y te llega dos días antes, para que te dé tiempo a prepararlo
+> todo.
+>
+> *Cada caja se monta a mano para ese día. Reserva con al menos 25 días de antelación.*
+
+**El suelo de 25 días lo tiene que forzar el calendario, no un aviso de texto.** Si pones una nota
+que dice "25 días mínimo" pero el selector permite elegir mañana, alguien elegirá mañana y
+tendrás que devolverle el dinero. En Shopify se hace con un campo de fecha obligatorio con
+validación, o con una app de selector de fecha.
+
+## Y una pregunta que te van a hacer mucho
+
+**«No sé cuándo es el cumpleaños de mi perro.»** Le pasa a casi todo el mundo que ha adoptado, y
+si no lo resuelves pierdes esa venta.
+
+Ponlo tú en la ficha, antes de que lo pregunten:
+
+> *¿No sabes su cumpleaños? Celebra el día que llegó a casa. Para él es el que importa.*
+
+Es verdad, es bonito, y elimina el único motivo por el que alguien que quería comprar se iría.
+
+## Pero cuando tengas el margen de Navidad, no te hará falta
+
+Esto es importante para que no te compliques de más:
+
+| | **Modo Reserva** *(sin stock)* | **Modo Stock** |
+|---|---|---|
+| Dinero tuyo adelantado | **0 €** | ≈375 € *(del margen de Navidad)* |
+| Antelación que exiges | **25 días** | Ninguna |
+| Plazo de envío | En su fecha | **1-3 días** |
+| Compradores de última hora | **Los pierdes** | Los ganas |
+
+**El modo Reserva te cuesta ventas.** Quien encuentra tu tienda y quiere la caja para el sábado no
+puede comprarte. Y ese comprador de última hora existe y paga igual de bien.
+
+### El plan que yo seguiría
+
+```
+Enero-febrero    →  MODO RESERVA.  Cero riesgo, cero dinero tuyo.
+                    Aprendes cuántas se venden al mes de verdad.
+                          │
+                          ▼
+Cuando lleves 15-20 vendidas  →  MODO STOCK.
+                    El stock lo pagan esas mismas ventas más el margen
+                    de Navidad. Y ya sabes cuánto comprar, porque tienes
+                    dos meses de datos en vez de una suposición mía.
+```
+
+**En ningún momento pones dinero tuyo.** Y llegas al modo Stock sabiendo la cifra real, en lugar
+de comprar 25 kits a ciegas porque yo te dije 25.
+
+## Lo que no cambia
+
+Los días de envío siguen siendo **lunes y viernes**. Lo único que cambia es que ahora, además de
+mirar qué pedidos hay, miras el calendario:
+
+> Cada lunes y cada viernes: **«¿qué cumpleaños caen en los próximos 6 días?»**
+> Esas se montan y salen hoy. Las demás esperan su turno.
+
+
+---
+
 # 8. Tu semana, de verdad
 
 Así queda todo junto:
