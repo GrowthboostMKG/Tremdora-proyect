@@ -95,12 +95,15 @@ La tarjeta lleva un QR que abre una página de descargas con:
   lo que la gente viene a buscar.
 - El **audio** para dejar puesto durante la cena de Nochebuena, cuando el animal está más
   estresado por el ruido y la gente.
-- **Un capítulo de muestra gratis** de uno de tus libros. *(Ya lo tienes hecho: está en la rama
-  `claude/ebook-muestra-gratis-gowe01`.)*
-- Un **descuento del 30 %** en Hogar en Calma o Edad Dorada, válido en enero.
+- **Una sola pregunta: *"¿con qué andas peleando?"*** — y según lo que conteste, le llega el libro
+  que le sirve, un *"todavía no lo hemos escrito, te avisamos"*, o **la caja de cumpleaños** si su
+  perro está perfecto. Todo el detalle en `docs/diagnostico-y-segmentacion.md`.
 
-> **La caja NO incluye un eBook completo.** Solo la tarjeta con el QR, y detrás del QR están las
-> cartas. La muestra y el descuento son el puente hacia los libros, no parte del producto.
+> **La caja NO incluye ningún eBook.** Detrás del QR están las cartas.
+>
+> Y ahí **no va un descuento en un libro concreto**: tus libros resuelven problemas específicos, y
+> ofrecerle el de la ansiedad a quien tiene un perro tranquilo le dice que no le conoces. Va la
+> pregunta, y cada respuesta recibe lo suyo.
 
 Tres cosas que consigues con esos 15 céntimos:
 
