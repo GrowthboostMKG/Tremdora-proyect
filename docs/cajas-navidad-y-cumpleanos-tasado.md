@@ -444,6 +444,121 @@ en una marca que se vende por confianza eso vale más que la letra pequeña.
 
 ---
 
+## 6.5 ¿Son fiables los comparadores? — revisión de la recomendación
+
+Pregunta necesaria, y buscando las opiniones reales **cambio lo que te dije**. No son equivalentes.
+
+### Packlink — 🔴 hay un patrón de quejas, y es justo en lo que te importa
+
+No es un cliente enfadado suelto. **La OCU mantiene una lista pública de reclamaciones contra
+ellos**, y Consumoteca tiene una página entera titulada *"Problemas con Packlink: qué hacer si te
+pierden un envío"*. Lo que se repite:
+
+| Queja | Por qué te afecta a ti |
+|---|---|
+| Paquetes perdidos o "destruidos", con un mes y medio sin noticias | Un mes y medio en diciembre = un regalo que no llegó y un cliente perdido |
+| **Cargos adicionales unilaterales** por recálculo de peso volumétrico | Tu caja está justo en el filo: 0,83 kg volumétrico y ~0,9 kg real |
+| Reclamaciones descritas como "imposibles e interminables" | Es exactamente el momento en que necesitas respuesta rápida |
+| Atención al cliente que no resuelve | — |
+
+### Sendcloud — 🟡 claramente mejor, pero con sus cosas
+
+**4 estrellas en Trustpilot con más de 3.900 opiniones**, y un 3,9/5 de media cruzando Trustpilot
+y G2. Eso es una nota sólida para una empresa de logística, que es un sector donde todo el mundo
+puntúa bajo.
+
+| A favor | En contra |
+|---|---|
+| Fácil de usar, etiquetas en un minuto | Suscripción + tarifa por etiqueta **sobre** el coste real del envío |
+| Integra pedidos de varias plataformas | **Recargos del transportista que aparecen en la factura semanas después** |
+| Soporte bien valorado en temas técnicos | **Lento en incidencias de envíos extraviados** |
+| Plan gratis hasta 50 envíos/mes | Sin línea 24/7 ni gestor en planes bajos |
+
+### El problema de fondo, que es de TODOS los comparadores
+
+> **Con un comparador tú no eres cliente del transportista. Eres cliente del comparador.**
+
+Si se pierde un paquete, tú reclamas al comparador y el comparador reclama al transportista. **Dos
+capas en vez de una.** Para un envío normal da igual. Para un regalo de Navidad con fecha, esa
+capa extra es la diferencia entre resolverlo en dos días y resolverlo en seis semanas.
+
+Y un sesgo que hay que tener en cuenta al leer todo esto: **en las webs de reseñas solo escribe
+quien ha tenido un problema.** Nadie entra a contar que su paquete llegó bien. Además, muchas
+quejas contra un comparador son en realidad culpa del transportista que hizo el reparto. Así que
+no te estoy diciendo que Packlink sea una estafa: te digo que **el patrón de quejas se concentra
+en las reclamaciones, que es precisamente mi motivo para recomendártelo**.
+
+---
+
+## 6.6 Mi recomendación revisada, en orden
+
+### 1️⃣ Llama a Correos Empresas antes de decidir nada
+
+Los 13,65 € son la **tarifa de ventanilla para particulares**. Correos tiene tarifas de empresa
+muy por debajo de eso, y ahí serías **cliente directo del transportista**: una sola capa, sin
+intermediario en las reclamaciones. Y tiene la cobertura más amplia de España, incluidos pueblos
+donde otras agencias no entran o cobran recargo.
+
+**Llama y pregunta esto:** *"envío unas 50 cajas de 25×20×10 cm y 1 kg en diciembre, y luego unas
+15-20 al mes todo el año. ¿Qué tarifa de empresa me corresponde y qué necesito para darme de
+alta?"*. Es una llamada de diez minutos y puede cambiarte la cuenta entera.
+
+### 2️⃣ Si vas con comparador, **Sendcloud antes que Packlink**
+
+Por lo que dicen las opiniones. Y aprovecha el plan gratis, que cubre tu volumen exacto.
+
+### 3️⃣ Y la regla que importa más que la plataforma
+
+> **Dentro del comparador, no elijas por precio. Elige el transportista.**
+
+El comparador te da acceso a Correos, SEUR, MRW, GLS, DHL y otras. **La opción más barata suele
+ser la agencia con peor servicio.** Pagar 1,20 € más por un transportista que entrega bien es la
+mejor decisión de toda la logística.
+
+### 4️⃣ Declara el peso y las medidas con exactitud
+
+La queja de los cargos por recálculo se evita así: **pesa una caja montada en una báscula y mide
+la caja cerrada con cinta métrica.** Declara esos números, redondeando **hacia arriba**. Pagar 30
+céntimos más por declarar 1,2 kg en vez de 0,95 es mucho más barato que un recargo sorpresa y una
+discusión de tres semanas.
+
+### 5️⃣ Contrata el seguro en los envíos de Navidad
+
+La cobertura por defecto en transporte es baja y suele calcularse por peso, no por el valor de lo
+que va dentro. Para 50 cajas con fecha de regalo, el seguro opcional cuesta poco y cubre el único
+escenario que de verdad te duele.
+
+---
+
+## 6.7 La protección de verdad: cajas de repuesto
+
+Esto vale más que cualquier seguro y que cualquier comparador, y es la recomendación más útil de
+esta sección:
+
+> ### Monta **5 cajas de más** y guárdalas listas para enviar.
+
+| | |
+|---|---|
+| Coste de 5 cajas de repuesto (material) | **≈ 68 €** |
+| Lo que te permite | **Reenviar el mismo día**, sin esperar a ninguna reclamación |
+
+Piénsalo desde el cliente: su caja no llega el día 20. Si le dices *"he abierto una reclamación,
+te aviso"*, has perdido al cliente y te has ganado una reseña de una estrella. Si le dices *"ya
+va otra en camino, sale hoy"*, **le has ganado para siempre** y probablemente lo cuente en redes.
+
+La reclamación al transportista la sigues haciendo en paralelo, con calma. Pero el cliente ya está
+resuelto. **Cinco cajas de repuesto son 68 € que compran la tranquilidad de toda la campaña**, y
+si no las usas, las vendes en enero.
+
+Y súmale dos hábitos que no cuestan nada:
+
+- **Envía antes de lo prometido.** Si has dicho "entre el 12 y el 16", envía el 11 y el 12. Te
+  deja cuatro días de colchón para un reenvío sin romper la promesa.
+- **Manda tú el número de seguimiento** por email en cuanto lo tengas, sin esperar a que lo pidan.
+  La mitad de los emails de "¿dónde está mi pedido?" desaparecen solo con eso.
+
+---
+
 # 7. Seguridad: lo que hay que avisar dentro de la caja
 
 Esto va en una tarjeta aparte, y no es burocracia. Es una caja para un animal.
