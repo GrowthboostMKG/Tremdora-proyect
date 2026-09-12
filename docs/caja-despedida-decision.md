@@ -56,19 +56,122 @@ aproximadamente **1 pulgada cúbica de capacidad por cada libra de peso corporal
 
 O sea que no necesitas «urnas»: necesitas **tres tallas**.
 
-| Talla | Para | Stock inicial mínimo |
-|---|---|---|
-| Pequeña | gatos y perros hasta ~10 kg | 5 |
-| Mediana | 10-25 kg | 5 |
-| Grande | 25-45 kg | 4 |
+| Talla | Para |
+|---|---|
+| Pequeña | gatos y perros hasta ~10 kg |
+| Mediana | 10-25 kg |
+| Grande | 25-45 kg |
 
-Son **14 urnas** solo para arrancar. A 15-25 € cada una al por mayor, eso son **210-350 € en
-urnas** antes de vender una sola caja.
+*(Cuántas unidades de cada una, en el apartado 3.bis: con tus plazos de proveedor son bastantes
+menos de las que había calculado.)*
 
 > ⚠️ **Y ojo con esto, porque es el error que no te puedes permitir:** si alguien pide la talla
 > equivocada, las cenizas no caben. Eso no es una incidencia logística, es un disgusto enorme en el
 > peor momento. **Que la ficha pida el peso del animal, no la talla**, y que ante la duda salga
 > siempre la talla mayor. El sobrecoste para ti es de 3 €; el coste del error no tiene precio.
+
+---
+
+# 3.bis El stock real, con tus plazos de proveedor
+
+Me has dado un dato que cambia la cuenta: **primer pedido un mes, reposiciones una semana porque ya
+tienen los moldes.** Eso reduce mucho el stock que necesitas.
+
+## Sí necesitas stock. Pero mucho menos del que te dije
+
+La fórmula del stock de seguridad es siempre la misma:
+
+> ### Stock = lo que vendes durante el plazo de reposición + un colchón
+
+Con reposición de **una semana** (pongamos 10 días con el envío), y unos **1-3 pedidos al mes** al
+principio, en esos 10 días vendes **menos de una caja**. Así que:
+
+| Pedidos de caja al mes | Stock por talla | **Total de urnas** |
+|---|---|---|
+| **1-3** ← donde vas a estar al principio | **2-3** | **6-9** |
+| 4-8 | 3-4 | 9-12 |
+| 9-15 | 5-6 | 15-18 |
+
+**Así que son 6-9 urnas para arrancar, no las 14 que te puse.** A 15-25 € son **90-225 €**, no 350.
+Me había pasado de prudente porque calculé con un plazo de reposición largo.
+
+**Regla de reposición:** cuando bajes a **1 unidad de cualquier talla, pides.** No a cero. Para
+este producto en concreto, quedarse sin stock es el peor escenario posible — decirle *"agotado,
+diez días"* a alguien que tiene las cenizas de su perro en una caja de plástico es exactamente el
+momento en el que no puedes fallar. Un par de urnas de más son 40 € de seguro muy bien pagados.
+
+## Pero falta el dato que de verdad decide: el pedido mínimo
+
+**Un proveedor que te fabrica un molde casi nunca te vende 6 unidades.** El molde es una inversión
+suya, y lo habitual es que pida un mínimo para amortizarlo —a menudo 50 o 100 unidades— o que te
+cobre el molde aparte.
+
+> ### Esa es la primera pregunta que hay que hacerle, antes que el precio por unidad.
+
+Pregúntale esto tal cual:
+
+```
+1. ¿Cuál es el pedido mínimo del primer pedido, con el molde nuevo?
+2. ¿Me cobráis el molde aparte? ¿Cuánto, y se queda en vuestra casa o es mío?
+3. ¿Y el pedido mínimo de las reposiciones, una vez existe el molde?
+4. ¿Puedo pedir tallas mezcladas en un mismo pedido, o el mínimo es por talla?
+5. El plazo de una semana, ¿es de producción, o ya incluye el envío hasta mí?
+```
+
+**La pregunta 4 es la que más te puede doler.** Si el mínimo es *por talla*, un pedido de
+reposición de tres tallas se multiplica por tres. Y la 3 es la que decide si tu modelo funciona:
+si las reposiciones también son de 50, no tienes reposición en una semana, tienes un almacén.
+
+## El mes del primer pedido es una fecha en tu calendario
+
+Ese mes no es una molestia: es un dato de planificación.
+
+```
+Quieres poder vender la caja en…  →  El primer pedido sale en…
+        mediados de enero                  mediados de diciembre
+        febrero                            enero
+```
+
+Y encaja bien con el plan: **el margen de Navidad llega a finales de diciembre.** Si el proveedor
+te acepta pagar al recibir, o un 50 % de señal, puedes pedir a mediados de diciembre y pagar el
+resto con el dinero de las cajas de Navidad. Pregúntale también la forma de pago.
+
+---
+
+# 3.ter Dos cosas que el molde propio te permite, y una que no
+
+## ✅ Que tu urna no se parezca a las demás
+
+Si el molde es a medida, **tu urna no es la urna genérica que vende todo el mundo.** Ese es un
+diferenciador real y duradero, mucho más que cualquier texto de la ficha. Una forma sencilla y
+bonita, o una huella en relieve discreta.
+
+## ✅ Y un hueco para su nombre — la mejor personalización posible
+
+Si el molde deja **un rebaje para una placa**, puedes poner una placa con el nombre del animal y
+sus fechas. **Eso es lo que convierte un recipiente en un recuerdo**, y es la personalización de
+más valor que puede tener este producto.
+
+Pide al proveedor que el molde lo contemple. Y luego, para el grabado, ofrece las dos opciones:
+
+| Opción | Plazo | Por qué ofrecer las dos |
+|---|---|---|
+| **Sin grabar** | **Sale hoy** | Hay gente que la necesita ya y no puede esperar |
+| **Con su nombre grabado** | 3-4 días más | Y hay gente que preferirá esperar por tener el nombre |
+
+Las placas metálicas en blanco las compras con el resto del stock, y el grabado lo hace un grabador
+o una cerrajería de Málaga en 24-48 h por unos pocos euros. **Deja que el cliente elija**, y dile
+el plazo de cada opción con claridad.
+
+## ❌ Lo que el molde no debe llevar: tu marca
+
+Sigue en pie, y con el molde la tentación es mayor porque *puedes*. **No pongas Tremdora en la
+urna.** Esa urna va a estar en una estantería veinte años y no es tu escaparate: es de ellos.
+
+Si quieres dejar señal de que está bien hecha, **una marca discreta en la base**, que no se ve
+cuando está colocada. Es lo que hacen las marcas de oficio, y se lee como cuidado y no como
+publicidad.
+
 
 ---
 
@@ -117,8 +220,9 @@ Esto es lo que yo haría, y es gratis:
 porcentaje querría la caja. **Con ese número compras stock sabiendo lo que compras**, en lugar de
 comprar 14 urnas porque yo te puse 14 en una tabla.
 
-**Paso 4 — Compra el stock con el margen de Navidad.** Los ≈1.400 € de diciembre dan de sobra para
-las urnas y para el resto.
+**Paso 4 — Compra el stock con el margen de Navidad.** Los ≈1.400 € de diciembre dan de sobra.
+Y acuérdate del mes de plazo del primer pedido: **si quieres vender la caja en enero, el primer
+pedido sale a mediados de diciembre.**
 
 ```
 Hoy            →  pack digital.  0 € de coste, disponible al instante
@@ -214,7 +318,7 @@ puede hacer.
 | | Pack digital | Caja de despedida |
 |---|---|---|
 | **Cuándo** | **Ahora** | Enero-febrero |
-| Dinero tuyo | **0 €** | ≈350 € *(del margen de Navidad)* |
+| Dinero tuyo | **0 €** | ≈150-250 € *(del margen de Navidad)* |
 | Disponibilidad | Inmediata | 24-48 h, con stock |
 | Precio | 49,90 € | ≈89,90 € |
 | Margen | ≈48 € | ≈50 € |
