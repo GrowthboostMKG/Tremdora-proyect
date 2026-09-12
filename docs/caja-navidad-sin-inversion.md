@@ -213,6 +213,82 @@ diciembre como "nos quedan 5 de las 50" y esa escasez sí es real.
 
 ---
 
+# 5.bis «¿No espera demasiado quien compra el 10 de noviembre?»
+
+Es la duda más razonable de todo el plan. Y la respuesta corta es: **no, porque la fecha de
+entrega no es un retraso, es el producto.**
+
+## Primero, qué prometes exactamente
+
+Una **semana**, nunca un día concreto:
+
+> ### «Reserva tu caja. Se envía entre el 12 y el 16 de diciembre y la tienes en casa antes del 22.»
+
+Por qué una ventana y no una fecha: no controlas al mensajero al día, y al cliente le da igual si
+llega el 18 o el 19. Lo que le importa es **que llegue antes de Nochebuena**.
+
+## El giro que hay que entender
+
+**¿Quién quiere una caja de Navidad el 12 de noviembre?** Se le quedaría seis semanas metida en un
+armario. Es una caja para abrir con su perro en Nochebuena: que llegue el 18 de diciembre no es
+tarde, **es cuando tiene que llegar.**
+
+Funciona igual que una entrada de concierto, un calendario de adviento o un fotógrafo de boda.
+Nadie dice *"compré la entrada en octubre y me tardó muchísimo"*. Compró con antelación, y se
+siente bien por haberlo hecho.
+
+## Y por eso las palabras importan tanto
+
+| ❌ Suena a retraso | ✅ Suena a previsión |
+|---|---|
+| "Envío en 30 días" | **"Llega a tiempo para Nochebuena"** |
+| "Compra ahora, recibe en diciembre" | **"Reserva tu caja"** |
+| "Preventa con envío diferido" | **"Edición limitada de 50. Se envían del 12 al 16 de diciembre"** |
+
+**Quien compra el 10 de noviembre no se siente paciente: se siente organizado.** Ese es el
+sentimiento que tienes que provocar, y se provoca solo con cómo lo escribes.
+
+## Lo que elimina la espera del todo, y cuesta 0 €
+
+> ### En el minuto en que paga, le mandas la parte digital.
+
+El eBook *"Navidad segura con tu mascota"*, el audio para la cena de Nochebuena y las 12 cartas de
+actividades. Automático, al confirmarse el pago.
+
+Así el 10 de noviembre **ya tiene algo en las manos**. No está esperando con las manos vacías: ha
+recibido valor en cinco minutos y la caja física llega como el final de la historia. El QR de
+dentro de la caja pasa a ser un extra, no la única entrega.
+
+*(Y de paso: ese email de entrega tiene una tasa de apertura altísima, porque contiene algo que la
+persona quiere. Es el mejor sitio para contarle lo que viene después.)*
+
+## Los tres emails del camino
+
+El silencio es lo que hace larga una espera. El contacto la convierte en ilusión.
+
+| Cuándo | Asunto | Qué lleva |
+|---|---|---|
+| **Al comprar** | *"Ya es tuya"* | La guía y el audio, para empezar hoy |
+| **~5 dic** | *"Estamos montando tu caja"* | **Una foto real** del montaje sobre tu mesa |
+| **El día del envío** | *"Sale hoy"* | El número de seguimiento |
+
+El del 5 de diciembre es el que más trabaja: una foto de tus manos montando cajas de verdad
+convierte una compra en una historia, y es material que además te sirve para redes.
+
+## Y lo que hay que decir con honestidad
+
+**No puedes enviar antes del 9 de diciembre**, porque el material te llega el 8. Ponlo visible en
+la ficha del producto:
+
+> *Si la necesitas antes del 15 de diciembre, escríbenos antes de comprar.*
+
+Quien la quiera para una cena de empresa el 5 de diciembre no puede ser tu cliente este año. **Es
+mucho mejor que lo sepa antes de pagar que después**: te ahorra un reembolso, una reseña mala y
+un disgusto suyo.
+
+
+---
+
 # 6. Lo que es obligatorio decir en una preventa
 
 Esto no es letra pequeña defensiva: es lo que hace que el modelo sea legal y limpio en España.
