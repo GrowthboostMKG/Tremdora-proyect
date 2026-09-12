@@ -11,7 +11,7 @@
 ---
 
 ## N1 — «Algo que estoy haciendo con las manos»
-**Domingo 12 de octubre · a toda la lista · sin enlace de compra**
+**Lunes 12 de octubre · a toda la lista · sin enlace de compra**
 
 **Asuntos**
 - **A:** Algo que estoy haciendo con las manos
@@ -54,7 +54,7 @@ Nada más por hoy.
 ---
 
 ## N2 — «La primera está montada»
-**Miércoles 22 de octubre · las fotos**
+**Jueves 22 de octubre · las fotos**
 
 **Asuntos**
 - **A:** La primera está montada
@@ -103,7 +103,7 @@ tarjeta viene cómo hacerlo sin peleas.
 ---
 
 ## N3 — «Lo que hay dentro, pieza por pieza»
-**Martes 4 de noviembre**
+**Miércoles 4 de noviembre**
 
 **Asuntos**
 - **A:** Lo que hay dentro, pieza por pieza
@@ -151,7 +151,7 @@ Se envía del 12 al 16 de diciembre y la tienes en casa antes del 22.
 ---
 
 ## N4 — «Mañana, y primero para ti»
-**Domingo 9 de noviembre**
+**Lunes 9 de noviembre**
 
 **Asuntos**
 - **A:** Mañana, y primero para ti
@@ -163,7 +163,7 @@ Se envía del 12 al 16 de diciembre y la tienes en casa antes del 22.
 **Objetivo:** convertir la lista en los primeros pedidos. La ventaja real es el incentivo.
 
 ```
-Mañana lunes, a las 10:00 de la mañana, se abren las cincuenta.
+Mañana martes, a las 10:00 de la mañana, se abren las cincuenta.
 
 Y se abren solo para esta lista. A las 14:00 ya estarán en la web para
 todo el mundo, pero de 10 a 14 son tuyas.
@@ -196,7 +196,7 @@ Mañana a las 10:00.
 ---
 
 ## N5 — «Ya está abierta. Son cincuenta»
-**Lunes 10 de noviembre · 10:00**
+**Martes 10 de noviembre · 10:00**
 
 **Asuntos**
 - **A:** Ya está abierta. Son cincuenta
@@ -228,7 +228,7 @@ comprar y te digo si puedo.
 ---
 
 ## N6 — «Dentro de quince años seguirá ahí»
-**Viernes 14 de noviembre · el email emocional**
+**Sábado 14 de noviembre · el email emocional**
 
 **Asuntos**
 - **A:** Dentro de quince años seguirá ahí
@@ -268,7 +268,7 @@ Se envía del 12 al 16 de diciembre. En casa antes del 22.
 ---
 
 ## N7 — «Quedan [QUEDAN]»
-**Viernes 21 de noviembre · solo si es verdad**
+**Sábado 21 de noviembre · solo si es verdad**
 
 **Asuntos**
 - **A:** Quedan [QUEDAN]
@@ -352,7 +352,7 @@ Se envía del 12 al 16 de diciembre. En casa antes del 22.
 **Preheader:** No es una táctica: el lunes tengo que pedir el material.
 
 ```
-Mañana lunes es el último día.
+Mañana lunes 30 es el último día.
 
 Y no es una cuenta atrás de esas que luego se alargan «por petición
 popular». Es que el martes por la mañana tengo que hacer el pedido del
