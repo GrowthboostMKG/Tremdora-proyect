@@ -35,6 +35,46 @@ no se estorban.
 
 ---
 
+# 1.bis Las dos fases: cuándo hay stock y cuándo no
+
+Esto es lo que parecía contradictorio, y no lo es: **son dos momentos distintos del negocio.**
+
+## 🎄 Fase 1 — La Navidad: SIN stock
+
+```
+10–30 nov    la gente compra y paga          →  dinero en tu cuenta
+ 1 dic       compras el material exacto      →  con SU dinero
+12–16 dic    montas y envías
+```
+
+Aquí **no compras nada por adelantado**. El 30 de noviembre cuentas los pedidos y compras
+exactamente esa cantidad. El cliente espera cuatro semanas **y le parece normal**, porque compró
+una preventa con la fecha de entrega anunciada desde el primer día.
+
+## 📅 Fase 2 — De enero en adelante: CON stock
+
+```
+Enero        compras material para 25 cajas  →  con el margen de Navidad
+             se queda en tu armario
+Todo el año  cada pedido sale en 1–3 días desde ese armario
+             cuando bajas de 8 unidades, repones con el dinero de las ventas
+```
+
+## Y lo que une las dos fases
+
+> ### El stock nunca lo pagas tú. El primer stock lo pagaron los clientes de Navidad.
+
+**Navidad es la única campaña que se puede hacer sin stock**, porque todos los compradores tienen
+la misma fecha de entrega. Eso es lo que te permite cobrar primero. Y con ese margen compras el
+material que necesitas para el resto del año.
+
+**Y por qué no se puede seguir sin stock después:** quien compra una caja de cumpleaños en marzo
+no va a esperar cuatro semanas. Ahí tienes que poder enviar en dos días, y eso solo se hace con
+el material ya en casa. Pero para entonces ya está pagado.
+
+
+---
+
 # 2. Las tres velocidades del negocio
 
 Cada cosa tiene su ritmo. Esto es lo que hay que tener claro:
@@ -57,16 +97,26 @@ metes en un cajón y tiras de ahí durante meses. Lo mismo con las pegatinas y l
 
 Tú planteabas: compra alguien el **lunes**, otro el **miércoles** y otro el **sábado**.
 
-## La solución: dos días fijos de envío. **Martes y viernes.**
+## La solución: dos días fijos de envío. **Lunes y viernes.**
 
 | Cuándo compra | Cuándo lo montas y envías | Cuándo le llega | **Cuánto ha esperado** |
 |---|---|---|---|
-| **Lunes** | **Martes** | Jueves | **1 día** |
-| **Miércoles** | **Viernes** | Lunes/martes | **2 días** |
-| **Sábado** | **Martes** | Jueves | **3 días** (y solo 1 laborable) |
+| **Jueves** | **Viernes** | Lunes | **1 día** |
+| **Sábado o domingo** | **Lunes** | Miércoles | **1-2 días** |
+| **Miércoles** | **Viernes** | Lunes | **2 días** |
+| **Lunes por la tarde** | **Viernes** | Lunes | **4 días** ← el peor caso |
 
-**Nadie espera más de tres días.** Y tú solo te ocupas de la logística **dos ratos a la semana**,
-en lugar de estar pendiente todos los días.
+**Nadie espera más de cuatro días**, y tú solo te ocupas de la logística **dos ratos a la semana**.
+
+> **Dos avisos sobre estos dos días concretos:**
+>
+> **① El lunes te queda cargado.** Es el día de la revisión de anuncios (30 min) *más* los envíos
+> (30 min). Una hora en total. Tenlo previsto y no lo dejes para última hora.
+>
+> **② El viernes, suelta los paquetes por la mañana.** Un paquete que dejas a las siete de la
+> tarde de un viernes muchas veces no se mueve hasta el lunes, y le has regalado al cliente dos
+> días de espera por nada. Si te viene mejor por la tarde, cambia el viernes por el **jueves**:
+> así llegan antes del fin de semana.
 
 ## Lo que pones en la web
 
@@ -78,7 +128,7 @@ no hacer nada especial.
 
 ## ¿Y si solo entra un pedido en toda la semana?
 
-Lo envías el martes o el viernes igual. **Un solo paquete también se envía.** No esperas a juntar
+Lo envías el lunes o el viernes igual. **Un solo paquete también se envía.** No esperas a juntar
 más: el coste por paquete es el mismo lo lleves solo o con cinco.
 
 ---
@@ -191,7 +241,7 @@ antes del cumpleaños de su perro, que es el 20 de noviembre. No hay ninguna pri
 Tu trabajo se convierte en mirar un calendario:
 
 ```
-Cada martes y cada viernes, abres los pedidos y te preguntas:
+Cada lunes y cada viernes, abres los pedidos y te preguntas:
 "¿cuáles tienen el cumpleaños en los próximos 6 días?"
       │
       └── Esas se montan y salen hoy. Las demás, esperan su turno.
@@ -211,8 +261,8 @@ Así queda todo junto:
 
 | Día | Qué haces | Tiempo |
 |---|---|---|
-| **Lunes** | Nada. Mirar los pedidos desde el móvil | 2 min |
-| **🔵 Martes** | Montar lo pendiente, etiquetas, al punto de entrega | **20-30 min** |
+| **🔵 Lunes** | Revisión de anuncios **+** montar lo pendiente y al punto de entrega | **1 h** |
+| **Martes** | Nada | — |
 | **Miércoles** | Nada | — |
 | **Jueves** | Nada | — |
 | **🔵 Viernes** | Montar lo pendiente, etiquetas, al punto de entrega | **20-30 min** |
@@ -228,8 +278,8 @@ Y **una mañana al mes** para reponer material en el mayorista.
 # 9. Los tres errores que te harían sufrir
 
 **① Esperar a juntar pedidos para enviar.**
-No lo hagas nunca. Un paquete solo cuesta lo mismo que uno de cinco. Si el martes hay una caja, esa
-caja sale el martes.
+No lo hagas nunca. Un paquete solo cuesta lo mismo que uno de cinco. Si el lunes hay una caja, esa
+caja sale el lunes.
 
 **② Comprar material pedido a pedido.**
 Es lo que te imaginabas y es lo que no hay que hacer. Compras para 25, y tiras del armario.
