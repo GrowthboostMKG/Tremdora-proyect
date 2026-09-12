@@ -1,334 +1,325 @@
 # Las cajas Tremdora: Navidad y Cumpleaños
-### Contenido, cartas de actividades y coste pieza por pieza · 12 de septiembre de 2026
+### Contenido, tasado y logística · **versión 2** · 12 de septiembre de 2026
+
+> **Cambios de esta versión, pedidos por ti:** las 12 cartas pasan a un QR · fuera los snacks ·
+> la huella se hace en un **cuadrado de cerámica fría** · se añaden **potecitos de pintura** ·
+> y las dos cajas comparten el mismo pack, cambiando solo lo específico de cada ocasión.
 
 ---
 
-# 0. ⚠️ Corrección: el envío cuesta el triple de lo que te dije
+# 0. Cuatro cosas que hay que resolver antes de comprar nada
 
-En los documentos anteriores puse el envío a **4-5,50 € por caja**. Buscando la tarifa real:
+Tus tres cambios son buenos. Estos son los problemas prácticos que traen, y cómo los resolvería.
 
-> **Correos, Paquete Estándar, hasta 1 kg, península, tarifa 2026: 13,65 € IVA incluido.**
+## ① El cuadrado, de 7 cm, no le vale a un perro mediano
 
-Eso son **8 € más por caja de lo que yo había calculado**. En 50 cajas, **400 €** que se le comen
-a tu margen. No es un detalle.
+Este es el importante. **Mide la huella de un perro antes de decidir el tamaño.**
 
-**La solución, y es la respuesta a tu pregunta sobre Correos: no envíes desde la ventanilla.**
-
-Usa un **comparador de envíos**. Son plataformas que te dan las tarifas que ellos han negociado
-con las agencias, **sin contrato, sin cuota y sin permanencia**, pagando solo por envío:
-
-| | Qué ofrece |
+| Animal | Ancho de la almohadilla |
 |---|---|
-| **Packlink** (packlink.es) | Comparador. Recogida a domicilio o punto de entrega, **sin contrato ni permanencia**, pago por uso. Gratis usarlo |
-| **Sendcloud** | **Plan gratis hasta 50 envíos/mes** (justo tu volumen), con tarifas prenegociadas |
+| Gato | ~3 cm |
+| Perro pequeño (caniche, chihuahua) | 3-4 cm |
+| Perro mediano (border, cocker) | **5-6 cm** |
+| Perro grande (labrador, pastor) | **6-7,5 cm** |
 
-Con esas tarifas, un paquete de 1-2 kg en península suele moverse en la banda de **4-7 €** en vez
-de 13,65 €.
+Y la huella necesita **margen alrededor**: si la almohadilla mide 6,5 cm y la baldosa 7 cm, la
+huella se sale por los bordes y el recuerdo se estropea. Con el disgusto de que no hay segunda
+oportunidad: la pasta se ha usado.
 
-> ⚠️ **Pero no te lo puedo confirmar.** Sus webs están bloqueadas en esta sesión y la búsqueda no
-> devolvió precios concretos. **Antes de fijar el precio de venta de la caja, entra en Packlink,
-> simula un envío real** con tus medidas (25 × 20 × 10 cm) y 1,5 kg, y **pon ese número en la
-> tabla**. Es lo único de este documento que puede cambiarte el margen de verdad.
+> ### Mi recomendación: cuadrado de **9 × 9 cm** y 1 cm de grosor.
+> Le entra la huella de un labrador con margen, y en un gato queda centrada y se ve estupenda.
+> Cuesta unos 20 céntimos más de pasta. **No ahorres aquí.**
 
-## Dos cosas técnicas que te van a cobrar sin avisar
+Y en la tarjeta de instrucciones, una frase que salva muchas cajas: *"si tu perro es grande, usa
+las dos manos y presiona solo la parte central de la patita"*.
 
-**① Peso volumétrico.** Correos factura por el mayor de estos dos: el peso real o
-`largo × ancho × alto ÷ 6.000`.
+## ② "Cerámica fría" tiene un problema técnico: encoge
+
+Hay que distinguir dos materiales que se confunden:
+
+| | **Cerámica / porcelana fría** | **Pasta de modelar que endurece al aire** |
+|---|---|---|
+| Qué es | Almidón de maíz + cola. Muchas veces artesanal | Producto comercial, en bloque sellado |
+| Encogimiento al secar | **10-15 %** | 2-5 % |
+| Detalle de la huella | Se deforma al encoger | **Lo mantiene** |
+| Se pinta con acrílico | Sí | Sí |
+| Compra en mayorista | Irregular | Fácil y estandarizada |
+
+**Un 10-15 % de encogimiento en una huella significa que la huella sale distorsionada.** Y ese es
+el objeto que la clienta va a tener en la estantería quince años.
+
+> ### Mi recomendación: compra **pasta de modelar que endurece al aire**, no cerámica fría.
+> Comercialmente puedes llamarla como quieras en la ficha, pero **el material debe ser el que
+> mantiene el detalle**. Es lo que usan todos los kits de huella del mercado, y no es casualidad.
+
+Y comprueba dos cosas al comprarla: que sea **no tóxica** y que venga **en bolsa hermética**. Una
+pasta que llega medio seca es una caja devuelta.
+
+## ③ Las pinturas: idea muy buena, pero se pueden derramar
+
+Los potes de pintura son el mejor añadido de esta versión —suben mucho el valor percibido y son el
+momento fotografiable—, pero introducen el único riesgo serio de la caja: **un pote de dorado que
+se abre dentro del paquete te arruina el marco, las tarjetas y el papel de seda.** Y esa caja no
+se puede salvar: es un reembolso completo.
+
+**Cómo lo blindaría:**
+
+- **Potes con tapa de rosca**, nunca de presión. Es la diferencia entre que aguante o no un golpe
+  del reparto.
+- Los tres potes y el pincel **en una bolsita sellada aparte**, no sueltos.
+- Colócalos **en la esquina opuesta al portarretrato y a las tarjetas**.
+- **Papel de seda kraft, no blanco.** Si algo mancha un poco, en kraft no se ve; en blanco es
+  evidente.
+- **Y la prueba que tienes que hacer sí o sí:** monta una caja completa, ciérrala y **agítala
+  fuerte 10 segundos**. Si algo se mueve o suena, arréglalo antes de montar las 50.
+
+**Pintura acrílica al agua**, nunca esmalte ni nada con disolvente: hay un animal en la habitación.
+
+## ④ Te faltaba el pincel
+
+Tres potes de pintura sin pincel no sirven de nada, y nadie va a bajar a comprar uno. **Un pincel
+plano pequeño, 25 céntimos.** Es el céntimo mejor invertido de la caja.
+
+## ⑤ Y una consecuencia buena: la caja ya no se acaba el día 25
+
+La pasta necesita **24-48 horas de secado** antes de poder pintarla. Eso convierte la caja en un
+ritual de dos tiempos, y es una ventaja, no un problema:
 
 ```
-Tu caja: 25 × 20 × 10 = 5.000 ÷ 6.000 = 0,83 kg volumétrico
-Peso real estimado con marco, pasta y juguete: 0,9 - 1,3 kg
-→ Te facturarán en el tramo de 1-2 kg. Cuenta con ello.
+Nochebuena      →  se hace la huella, se hace la foto
+Dos días después →  se pinta la huella y se cuelga
 ```
 
-**② Recargos por dimensiones.** Si el paquete se sale de las medidas estándar de la agencia, hay
-recargos del **35 %** (una dimensión) o **70 %** (dos o más). Tu caja de 25 × 20 × 10 está dentro
-sin problema — **pero no la agrandes**. Si te tienta una caja más grande "para que luzca más",
-mira antes el recargo: puede costarte más que el contenido que le añades.
+Hay que decirlo en las instrucciones y en la carta nº 1, porque si alguien intenta pintarla el
+mismo día, la destroza. Y en la ficha de venta se vende como lo que es: *"la caja no se acaba el
+día de Navidad"*.
 
 ---
 
-# 1. LA CAJA DE NAVIDAD — *"Nuestra Navidad"*
+# 1. Las cartas al QR: hazlo, pero no pongas un QR pelado
 
-## 1.1 La idea que la hace distinta
+Quitar las 12 cartas impresas te ahorra **85 céntimos** por caja. De acuerdo. Pero hay un riesgo:
 
-Hay cien cajas navideñas para mascotas. Todas tienen un juguete, un snack y una bandana. Se abren,
-se juega diez minutos y a la semana no queda nada.
+> **Una tarjeta con solo un QR y nada más parece un cupón de publicidad. Mucha gente no la
+> escanea, y si no la escanea, se pierde la experiencia entera Y tu captación de emails.**
 
-> **La tuya deja algo que sigue ahí dentro de quince años.**
+La solución no cuesta un céntimo más: **la misma tarjeta, impresa por las dos caras.**
 
-Ese es el ángulo entero: no vendes productos, vendes **la tarde en que hiciste la huella de tu
-perro y le pusiste la foto al lado**. Eso es lo que se regala, lo que se fotografía y lo que se
-publica en Instagram sin que tú pagues nada.
+```
+┌─────────────────────────┐   ┌─────────────────────────┐
+│                         │   │  1 · La huella          │
+│    NOCHEBUENA JUNTOS    │   │  2 · El retrato         │
+│                         │   │  3 · El paseo de luces  │
+│      [   QR   ]         │   │  4 · La búsqueda        │
+│                         │   │  5 · El regalo          │
+│  12 cosas que hacer     │   │  6 · Su rincón          │
+│  hoy con ella.          │   │  ...                    │
+│                         │   │  12 · Las buenas noches │
+│  Escanéalo ahora,       │   │                         │
+│  antes de empezar.      │   │  (y 18 más, hasta enero)│
+└─────────────────────────┘   └─────────────────────────┘
+         DELANTE                       DETRÁS
+```
 
-Y tiene una consecuencia comercial muy concreta: **una caja que produce un objeto para la
-estantería se compra también para regalar**, que es donde está el dinero en diciembre.
+**Los 12 títulos por detrás son lo que hace que se escanee**, porque ya ves que hay algo de valor
+al otro lado. Y "escanéalo **ahora**, antes de empezar" sube la tasa de escaneo de forma notable
+frente a un "más información".
 
-## 1.2 Qué lleva dentro
+Mismo coste: **0,15 €**.
 
-### 🤍 El recuerdo — el corazón de la caja
+---
 
-**1. Kit de huella para siempre**
-Un disco de pasta de modelar que endurece al aire, en bolsa sellada, con un aro metálico ya
-puesto y una cinta para colgarlo. Lleva su tarjetita de instrucciones.
-*Es la pieza estrella. Es lo que hace que la caja se recuerde.*
+# 2. LA CAJA — el pack común
 
-**2. Portarretrato de madera natural, 10 × 15**
-Sencillo, sin dibujos, sin frases grabadas. Que no compita con la foto.
-*El marco vacío es una invitación: obliga a hacer la foto ese mismo día.*
+Aquí está tu idea de hacer la misma caja para las dos ocasiones, y tiene una ventaja que quizá no
+habías calculado: **al compartir piezas, compras el doble de cada una, llegas mejor a los mínimos
+del mayorista y te sale más barata.**
 
-**3. Tarjeta "Nuestra Navidad 2026"**
-Con huecos para escribir a mano el nombre, la edad y una frase. Se guarda junto a la huella.
-*Coste: 15 céntimos. Valor emocional: el más alto de la caja.*
+## 2.1 El núcleo común — idéntico en las dos cajas
 
-### 🎴 La experiencia del día
+| Pieza | Coste |
+|---|---|
+| **Cuadrado de pasta 9 × 9 cm** + aro + cinta + bolsa hermética | 1,80 € |
+| **3 potecitos de pintura acrílica** (tapa de rosca) | 1,20 € |
+| **Pincel plano pequeño** | 0,25 € |
+| Bolsita sellada para potes y pincel | 0,15 € |
+| **Portarretrato de madera 10 × 15** | 2,75 € |
+| Juguete | 2,50 € |
+| **Tarjeta QR** (12 cartas + book + audio), doble cara | 0,15 € |
+| Tarjeta de instrucciones y seguridad | 0,15 € |
+| Caja kraft rígida 25 × 20 × 10 | 2,00 € |
+| Papel de seda **kraft** | 0,30 € |
+| Pegatina de cierre | 0,10 € |
+| **SUBTOTAL COMÚN** | **11,35 €** |
 
-**4. Las 12 cartas de "Nochebuena juntos"**
-Doce cartas tamaño naipe, atadas con una cinta. Una actividad por carta. Están escritas enteras
-en la sección 2 de este documento.
+## 2.2 Lo único que cambia — 3 piezas
 
-**5. Tarjeta con QR → el book digital de actividades**
-Abre la página de descargas con el cuadernillo completo, el audio para la cena y un descuento
-para enero.
-
-### 🎁 El regalo para ella o para él
-
-**6. Juguete navideño**
-**7. Bandana o pañuelo navideño**
-
-### 📦 La presentación
-
-**8.** Caja kraft rígida · **9.** Faja de papel impresa · **10.** Papel de seda ·
-**11.** Pegatina de cierre con tu logo
-
-> **Sin snacks en esta primera edición.** Por lo que vimos: son pienso a efectos legales, exigen
-> etiquetado y registro, y además caducan. El hueco lo ocupan el marco y el kit de huella, que
-> valen más y no caducan nunca.
-
-## 1.3 Tasado — caja de Navidad
-
-| # | Pieza | Coste unitario |
+| | 🎄 **Navidad** | 🎂 **Cumpleaños** |
 |---|---|---|
-| 1 | Kit de huella (pasta + aro + cinta + bolsa + instrucciones) | 1,60 € |
-| 2 | Portarretrato de madera 10 × 15 | 2,75 € |
-| 3 | Tarjeta "Nuestra Navidad 2026" | 0,15 € |
-| 4 | 12 cartas de actividades, impresas | 1,00 € |
-| 5 | Tarjeta con QR | 0,15 € |
-| 6 | Juguete navideño | 2,50 € |
-| 7 | Bandana navideña | 1,25 € |
-| 8 | Caja kraft rígida 25 × 20 × 10 | 2,00 € |
-| 9 | Faja de papel impresa | 0,80 € |
-| 10 | Papel de seda | 0,30 € |
-| 11 | Pegatina de cierre | 0,10 € |
-| | **MATERIAL** | **12,60 €** |
-| | Envío (comparador) | 5,50 € |
-| | **COSTE TOTAL ENTREGADO** | **18,10 €** |
+| **Faja de papel** | Diseño navideño · 0,80 € | Diseño cumpleaños · 0,80 € |
+| **Bandana** | Navideña · 1,25 € | De cumpleaños · 1,25 € |
+| **Pinturas** | **Rojo · Verde · Dorado** | **Terracota · Blanco roto · Dorado** |
+| **Tarjeta de recuerdo** | "Nuestra Navidad 2026" · 0,15 € | **Certificado con su nombre y su edad** (lo imprimes tú) · 0,10 € |
+| *(solo cumpleaños)* | — | **Número de cartón con la edad** · 0,50 € |
+
+**Eso es todo.** La faja y la bandana son la misma pieza con otro diseño; las pinturas, los mismos
+potes con otro color. El montaje es idéntico y el proceso, uno solo.
+
+## 2.3 El color para cumpleaños: **terracota, blanco roto y dorado**
+
+No lo sabías y es una buena pregunta, porque el error fácil aquí es irse a colores de fiesta
+infantil —globos, fucsia, azul chillón— y eso **choca de frente con lo que estás vendiendo**. Tú
+vendes un recuerdo para la estantería, no un cotillón.
+
+**Por qué esa terna:**
 
 | | |
 |---|---|
-| **PVP** | **49,90 € envío incluido** |
-| **Margen por caja** | **31,80 €** |
-| Margen sobre venta | 64 % |
+| **Terracota** | Cálido, atemporal, queda bien con la madera del marco. No se ve infantil ni de fiesta |
+| **Blanco roto** | Deja respirar la huella y sirve de base o de contraste sobre el barro |
+| **Dorado** | El que le da el aire de recuerdo, no de manualidad |
 
-**Y el mismo cálculo si acabas enviando por ventanilla de Correos:**
+Y hay un motivo comercial además del estético: **el dorado es el color compartido con la caja de
+Navidad.** Lo compras en cantidad doble para las dos cajas → mejor precio, una referencia menos
+que gestionar y más fácil llegar al mínimo del proveedor.
 
-| | Comparador (5,50 €) | **Correos ventanilla (13,65 €)** |
+> Si en algún momento quieres una versión más viva, la salida elegante es **cambiar el terracota
+> por un verde salvia** y mantener el dorado. Lo que no haría nunca es meter fucsia o azul
+> eléctrico: baja el precio que puedes pedir por la caja.
+
+## 2.4 Y una decisión que te propongo: **las dos a 49,90 €**
+
+En la versión anterior puse cumpleaños a 54,90 € por la personalización. Con las dos cajas
+prácticamente iguales, **ya no lo sostengo**: la diferencia de contenido es un número de cartón de
+50 céntimos, y un cliente que vea las dos fichas lo va a notar.
+
+**Un solo precio para las dos: 49,90 €, envío incluido.** Más fácil de comunicar, más fácil de
+recordar, y el margen sigue siendo excelente.
+
+---
+
+# 3. Tasado final de las dos cajas
+
+## 🎄 Navidad
+
+| Concepto | Coste |
+|---|---|
+| Núcleo común | 11,35 € |
+| Faja navideña | 0,80 € |
+| Bandana navideña | 1,25 € |
+| Tarjeta "Nuestra Navidad 2026" | 0,15 € |
+| **MATERIAL** | **13,55 €** |
+| Envío *(comparador — a confirmar)* | 5,50 € |
+| **COSTE TOTAL ENTREGADO** | **19,05 €** |
+| **PVP** | **49,90 €** |
+| **MARGEN** | **30,85 €** · 62 % |
+
+## 🎂 Cumpleaños
+
+| Concepto | Coste |
+|---|---|
+| Núcleo común | 11,35 € |
+| Faja de cumpleaños | 0,80 € |
+| Bandana de cumpleaños | 1,25 € |
+| Certificado personalizado *(impreso en casa)* | 0,10 € |
+| Número de cartón con la edad | 0,50 € |
+| **MATERIAL** | **14,00 €** |
+| Envío | 5,50 € |
+| **COSTE TOTAL ENTREGADO** | **19,50 €** |
+| **PVP** | **49,90 €** |
+| **MARGEN** | **30,40 €** · 61 % |
+
+## Qué ha cambiado respecto a la versión 1
+
+| | v1 | **v2** |
 |---|---|---|
-| Coste total | 18,10 € | 26,25 € |
-| Margen | **31,80 €** | **23,65 €** |
-| En 50 cajas | 1.590 € | 1.182 € |
+| 12 cartas impresas | 1,00 € | **0 € (al QR)** |
+| Pasta de la huella | 1,60 € (disco) | **1,80 € (cuadrado 9×9)** |
+| Pinturas + pincel + bolsita | — | **+1,60 €** |
+| Snacks | 0 € | 0 € |
+| **Material Navidad** | 12,60 € | **13,55 €** |
+| **Margen** | 31,80 € | **30,85 €** |
 
-**Son 408 € de diferencia por no dar de alta un comparador.** Tarda diez minutos.
+**Las pinturas te cuestan 95 céntimos de margen** y a cambio te dan el momento más fotografiable
+de la caja y un ritual que dura tres días. **Es un cambio que yo haría sin dudar.**
 
-## 1.4 El upsell que casi nadie pone: la segunda mascota
-
-En el checkout, una casilla:
+## El upsell de la segunda mascota, actualizado
 
 > ☐ **Tengo dos mascotas — añadir segundo kit (+9,90 €)**
 
-Añade un segundo kit de huella y una segunda bandana. Te cuesta **2,85 €** y cobras 9,90 €:
-**7 € de margen limpio**, y lo van a marcar muchos, porque quien tiene dos animales no va a hacer
-la huella de uno solo.
+Segundo cuadrado de pasta (1,80 €) + segunda bandana (1,25 €) = **3,05 € de coste**, cobras 9,90 €
+→ **6,85 € de margen limpio**. Y lo van a marcar mucho: con un solo cuadrado no puedes hacer la
+huella de dos animales, y nadie deja a uno fuera.
 
-Si un 30 % de 50 pedidos lo marca, son **105 € extra** por poner una casilla.
+*(Las pinturas y el pincel no se duplican: dan para varias huellas.)*
 
----
-
-# 2. Las 12 cartas — *"Nochebuena juntos"*
-
-Van impresas a tamaño naipe (unos 6 × 9 cm), a doble cara: delante el número y el título, detrás
-el texto. Atadas con una cinta.
-
-**Están escritas para hacerse el mismo día, casi todas sin comprar nada.** Ese es el criterio: una
-carta que exige preparación no se hace.
-
----
-
-**1 · La huella**
-*Lo primero, antes de la cena.*
-Abre la bolsa y amasa la pasta 30 segundos con las manos. Aplánala. Coge su patita **sin forzar**,
-apóyala y presiona tú, con firmeza y un segundo nada más. Si no sale, amasa y repite: la pasta
-perdona. Déjala secar 24-48 horas en un sitio llano y fuera de su alcance.
-> Si no le gusta que le toquen las patas, no insistas hoy. Prueba otro día con un premio en la
-> otra mano.
-
-**2 · El retrato**
-*La foto para el marco.*
-Tres trucos y sale bien: **ponte a su altura** (agáchate, siempre), **busca una ventana** y que la
-luz le dé de frente, y **haz veinte fotos** para quedarte con una. Para que mire a cámara, un
-premio justo detrás del móvil.
-
-**3 · El paseo de las luces**
-Un paseo de noche por donde hay luces de Navidad. Sin prisa, dejando que huela todo lo que quiera.
-> ⚠️ Si tu mascota se asusta con los ruidos, la gente o los petardos, **sáltate esta carta**. Hoy
-> no es el día de enseñarle a superar nada.
-
-**4 · La búsqueda del tesoro**
-Esconde cinco premios por el salón mientras espera en otra habitación. Suéltalo y déjalo buscar.
-*Diez minutos de olfato le cansan más que media hora de paseo. Y hoy vas a necesitar que esté
-tranquilo en la cena.*
-
-**5 · El regalo envuelto**
-Envuelve su juguete nuevo en un trozo de papel y dáselo. Que lo abra él.
-> Quédate a mirar y retira el papel en cuanto lo haya sacado. El papel no se come.
-
-**6 · Su rincón para la cena**
-Antes de que llegue la gente: su cama, su agua y un juguete, en la habitación más lejana del
-ruido. Pon el audio del enlace.
-*Y la regla de la noche, dicha en voz alta a toda la familia: **nadie va a buscarlo**. Si quiere
-salir, sale él.*
-
-**7 · Cinco minutos de masaje**
-Siéntate en el suelo con él. Caricias **largas y lentas**, del cuello al lomo, del lomo a la cola.
-Una por segundo, sin parar.
-*Cuando suspira, baja la cabeza o se estira, es que ha funcionado. A ti también te baja las
-pulsaciones.*
-
-**8 · La carta que te escribe él**
-Coge un papel y escribe una carta **desde él, hacia ti**. Qué diría de este año. Qué le gusta de
-vosotros. Fírmala con su huella de tinta si te atreves.
-*Guárdala cerrada. La lees la Navidad que viene.*
-
-**9 · Diez segundos de vídeo**
-Graba un clip de diez segundos, en vertical, sin hacer nada especial: él tumbado, o mirándote.
-*Las fotos se guardan. Los vídeos se olvidan de grabar, y son los que más vas a querer dentro de
-diez años.*
-
-**10 · La cápsula del tiempo**
-En un sobre: la huella cuando esté seca, la foto impresa, la carta de la número 8 y la tarjeta
-"Nuestra Navidad 2026" rellena. Ciérralo y escribe una fecha para abrirlo.
-*Esta es la carta que convierte la noche en un recuerdo de verdad.*
-
-**11 · Los tres vasos**
-Tres vasos boca abajo, un premio bajo uno, delante de él. Cámbialos de sitio despacio y que
-elija. Cinco rondas.
-*Funciona igual con gatos, y a veces mejor.*
-
-**12 · Las buenas noches**
-Lo último del día: las luces bajas, el audio puesto y cinco minutos a su lado sin móvil.
-*Mañana no se acordará de nada. Tú sí.*
-
----
-
-# 3. El book digital — *"Los 30 días juntos"*
-
-La tarjeta con QR lleva a la página de descargas, donde se encuentra:
-
-| Pieza | Qué es |
-|---|---|
-| **📕 Cuadernillo "Los 30 días juntos"** | Las 12 cartas desarrolladas + 18 actividades más, una por día hasta el 24 de enero. Para que la caja no se acabe el día 25 |
-| **📄 "Navidad segura"** | El eBook de diciembre de tu calendario: comida prohibida, espumillón, adornos, visitas, qué hacer si pasa algo |
-| **🎵 El audio** | Para dejar puesto durante la cena |
-| **📐 Plantillas imprimibles** | El marco para el número de la edad, etiquetas y la ficha "su año en una página" |
-| **🎟️ −30 % en enero** | Para *Hogar en Calma* o *Edad Dorada* |
-
-**La página pide el email antes de dar la descarga.** Así el comprador de la caja entra en tu
-lista, y en enero le vendes el libro sin pagar publicidad. Esa es la razón comercial de que la
-tarjeta exista.
-
-> **Coste marginal del book digital: 0 €.** Es lo que hace que una caja de 12,60 € de material
-> pueda venderse a 49,90 € sin que nadie sienta que le han cobrado de más.
-
----
-
-# 4. LA CAJA DE CUMPLEAÑOS — *"Su Cumpleaños"*
-
-Misma arquitectura, tres diferencias importantes.
-
-## 4.1 Lo que cambia respecto a Navidad
-
-**① Va personalizada con su nombre.** Y esto no es un adorno: es lo que te permite cobrar 5 €
-más. El certificado y el número de la edad los **imprimes tú en casa** con el nombre del animal,
-por unos 10 céntimos de papel y tinta. Percepción de producto hecho a medida, coste casi cero.
-
-**② No lleva tarta.** Lo he descartado a propósito: una tarta para mascotas es comida —regulada,
-perecedera y con riesgo de que llegue aplastada. En su lugar va un **topper de cartón y una vela
-decorativa** para clavar en su comida de siempre. Mismo momento de la foto, cero riesgo.
-
-**③ No tiene fecha límite.** Se vende los 365 días del año. Es tu producto de fondo, mientras la
-de Navidad es el pico.
-
-## 4.2 Qué lleva dentro
+## ⚠️ Vigila el peso, que vas justo
 
 | | |
 |---|---|
-| 🤍 **El recuerdo** | Kit de huella · Portarretrato · **Certificado de cumpleaños personalizado con su nombre y su edad** |
-| 🎉 **La fiesta** | Gorrito de fiesta · **Número de cartón con su edad** (para la foto) · Guirnalda pequeña · Topper de cartón + vela decorativa |
-| 🎴 **La experiencia** | 12 cartas *"Su día"* · Tarjeta con QR al book digital |
-| 🎁 **Para él** | Juguete · Bandana o pajarita de cumpleaños |
-| 📦 **Presentación** | Caja + faja + papel de seda + pegatina |
+| Peso estimado de la caja montada | **800 - 950 g** |
+| Peso volumétrico (25×20×10 ÷ 6.000) | 0,83 kg |
+| Tramo de facturación | **1-2 kg** |
 
-## 4.3 Tasado — caja de Cumpleaños
+Estás cerca del techo del tramo. **Los potes de pintura son lo que te ha acercado al límite.** Si
+más adelante te apetece añadir algo, comprueba antes el tramo siguiente de tarifa: un objeto de
+150 g que te suba de tramo puede costarte más en envío que el objeto mismo.
 
-| # | Pieza | Coste |
-|---|---|---|
-| 1 | Kit de huella | 1,60 € |
-| 2 | Portarretrato de madera 10 × 15 | 2,75 € |
-| 3 | Certificado personalizado *(impreso en casa)* | 0,10 € |
-| 4 | Gorrito de fiesta | 0,80 € |
-| 5 | Número de cartón con la edad | 0,50 € |
-| 6 | Guirnalda pequeña | 0,90 € |
-| 7 | Topper de cartón + vela decorativa | 0,30 € |
-| 8 | Juguete | 2,50 € |
-| 9 | Bandana o pajarita | 1,25 € |
-| 10 | 12 cartas de actividades | 1,00 € |
-| 11 | Tarjeta con QR | 0,15 € |
-| 12 | Caja + faja + seda + pegatina | 3,20 € |
-| | **MATERIAL** | **15,05 €** |
-| | Envío | 5,50 € |
-| | **COSTE TOTAL** | **20,55 €** |
+---
 
-| | |
-|---|---|
-| **PVP** | **54,90 € envío incluido** |
-| **Margen** | **34,35 €** |
+# 4. Las 12 cartas, con el paso de pintar incluido
 
-**Los 5 € de diferencia con la de Navidad los paga la personalización**, que te cuesta 10
-céntimos. Es el mejor cambio de precio que vas a hacer en todo el catálogo.
+Cambian dos respecto a la versión 1, porque ahora hay pintura.
 
-## 4.4 Las 12 cartas — *"Su día"*
+## 🎄 Navidad — *"Nochebuena juntos"*
 
-**1 · La huella de este año** — *(igual que en Navidad)*. Si repites caja cada año, la huella
-crece con él. Ponle la fecha por detrás.
-**2 · El retrato del año** — misma foto, mismo sitio, misma pared. Cada año. En diez años tendrás
-una serie que no se compra con dinero.
-**3 · El número** — monta el número de cartón con su edad y hazle la foto al lado. Un premio
-detrás del móvil.
-**4 · La tarta que no es tarta** — su comida de siempre, el topper clavado y la vela al lado
-*(nunca encendida cerca de él)*. Foto, y a comer.
-**5 · El paseo del rey** — hoy el paseo lo decide él. Tú detrás. Donde él quiera, y todo lo que
+**1 · La huella** — amasa el cuadrado 30 segundos, aplánalo, apoya su patita y presiona **tú**, con
+firmeza y un segundo. Si no sale, amasa y repite. **Déjala secar 24-48 h en llano y fuera de su
+alcance.** ⚠️ Hoy no se pinta: si la pintas húmeda, la estropeas.
+**2 · El retrato** — a su altura, agachado. Junto a una ventana. Veinte fotos para quedarte con
+una. Un premio detrás del móvil para que mire.
+**3 · El paseo de las luces** — de noche, sin prisa, dejándole oler. *Si se asusta con ruidos o
+gente, sáltate esta carta: hoy no es el día de enseñarle nada.*
+**4 · La búsqueda del tesoro** — cinco premios escondidos en el salón. Diez minutos de olfato
+cansan más que media hora de paseo, y hoy te va a interesar que esté tranquilo en la cena.
+**5 · El regalo envuelto** — envuelve su juguete y que lo abra él. Retira el papel al acabar.
+**6 · Su rincón para la cena** — su cama, su agua y un juguete en la habitación más lejana del
+ruido, con el audio puesto. Y la regla dicha en voz alta a toda la familia: **nadie va a buscarlo.
+Si quiere salir, sale él.**
+**7 · Cinco minutos de masaje** — en el suelo, caricias largas y lentas, una por segundo. Cuando
+suspira o se estira, ha funcionado.
+**8 · La carta que te escribe él** — escribe una carta *desde él, hacia ti*. Ciérrala y léela la
+Navidad que viene.
+**9 · Diez segundos de vídeo** — en vertical, sin hacer nada especial. Las fotos se guardan; los
+vídeos se olvidan de grabar, y son los que más vas a querer dentro de diez años.
+**10 · 🎨 Pintar la huella** *(dos días después)* — ya está seca y dura. Rojo, verde y dorado.
+Pinta el fondo de un color y repasa el borde de la huella en dorado, o deja el barro a la vista y
+dora solo la almohadilla. **Déjala secar 2 horas y pásale la cinta por el aro.**
+**11 · Los tres vasos** — un premio bajo uno de tres vasos, cámbialos despacio y que elija. Cinco
+rondas. Con gatos funciona igual de bien.
+**12 · La cápsula del tiempo** — en un sobre: la huella pintada, la foto impresa, la carta de la
+nº 8 y la tarjeta "Nuestra Navidad 2026" rellena. Ciérralo y escribe una fecha para abrirlo.
+
+## 🎂 Cumpleaños — *"Su día"*
+
+**1 · La huella de este año** — igual, y **pon la fecha por detrás con un palillo antes de que
+seque**. Si repites caja cada año, tienes la serie de cómo creció.
+**2 · El retrato del año** — misma pared, mismo sitio, cada año. En diez años tienes algo que no
+se compra con dinero.
+**3 · El número** — monta el número de cartón con su edad y hazle la foto al lado.
+**4 · La tarta que no es tarta** — su comida de siempre, el topper clavado, la foto, y a comer.
+**5 · El paseo del rey** — hoy el paseo lo decide él. Tú detrás, donde él quiera y todo lo que
 quiera oler.
-**6 · Cinco premios escondidos** — como en Navidad. Diez minutos de olfato le cansan más que
-media hora andando.
-**7 · El regalo envuelto** — que lo abra él. Retira el papel al acabar.
-**8 · Su lista de favoritos** — escribe sus cinco cosas favoritas del mundo. Guárdala. El año que
-viene compruebas si han cambiado.
-**9 · Diez segundos de vídeo** — en vertical, sin hacer nada especial.
-**10 · La llamada** — mándale la foto a quien te lo regaló, o a quien te acompañó el día que
-llegó a casa.
-**11 · El masaje de cinco minutos** — caricias largas y lentas, una por segundo.
-**12 · El certificado** — rellena el certificado con su nombre y su edad y ponlo en el marco, con
-la foto. Ya está. Ahí se queda.
+**6 · Cinco premios escondidos** — igual que en Navidad.
+**7 · El regalo envuelto** — que lo abra él.
+**8 · Su lista de favoritos** — sus cinco cosas favoritas del mundo, escritas. El año que viene
+compruebas si han cambiado.
+**9 · Diez segundos de vídeo** — en vertical.
+**10 · 🎨 Pintar la huella** *(dos días después)* — terracota, blanco roto y dorado. Un truco que
+queda muy bien: fondo terracota, huella en blanco roto y el borde del cuadrado en dorado.
+**11 · El masaje de cinco minutos** — caricias largas y lentas.
+**12 · El certificado** — rellena su nombre y su edad, y ponlo en el marco con la foto. Ya está.
+Ahí se queda.
 
 ---
 
@@ -472,41 +463,58 @@ Esto va en una tarjeta aparte, y no es burocracia. Es una caja para un animal.
 
 ---
 
-# 8. Resumen tasado de las dos cajas
+# 8. Resumen tasado — versión 2
 
-| | **Navidad** | **Cumpleaños** |
+| | 🎄 **Navidad** | 🎂 **Cumpleaños** |
 |---|---|---|
-| Material | 12,60 € | 15,05 € |
-| Envío *(comparador)* | 5,50 € | 5,50 € |
-| **Coste total** | **18,10 €** | **20,55 €** |
-| **PVP** | **49,90 €** | **54,90 €** |
-| **Margen** | **31,80 €** | **34,35 €** |
-| Margen % | 64 % | 63 % |
-| Upsell 2ª mascota | +7,00 € | +7,00 € |
+| Núcleo común | 11,35 € | 11,35 € |
+| Piezas propias | 2,20 € | 2,65 € |
+| **Material** | **13,55 €** | **14,00 €** |
+| Envío *(a confirmar)* | 5,50 € | 5,50 € |
+| **Coste total** | **19,05 €** | **19,50 €** |
+| **PVP** | **49,90 €** | **49,90 €** |
+| **Margen** | **30,85 €** | **30,40 €** |
+| Upsell 2ª mascota | +6,85 € | +6,85 € |
 
 ### Escenarios de Navidad
 
-| Cajas vendidas | Ingreso | Margen |
-|---|---|---|
-| 20 | 998 € | **636 €** |
-| **50** | **2.495 €** | **1.590 €** |
-| 80 | 3.992 € | 2.544 € |
+| Cajas | Ingreso | Margen | +upsell al 30 % |
+|---|---|---|---|
+| 20 | 998 € | 617 € | 658 € |
+| **50** | **2.495 €** | **1.543 €** | **1.646 €** |
+| 80 | 3.992 € | 2.468 € | 2.632 € |
 
-Con 50 cajas cubres el lote inicial de cumpleaños (≈375 €), te sobran ≈1.200 € y entras en enero
-con **50 clientes que ya te han pagado 50 € y han descargado tu guía**.
+Con 50 cajas cubres el lote inicial de cumpleaños (≈375 €), te quedan ≈1.170 € y entras en enero
+con 50 clientes que ya te han pagado y han descargado tu guía por el QR.
 
 ---
 
-# 9. Lo que hay que decidir o hacer ahora
+# 9. Lo que hay que hacer ahora
 
-- [ ] **Entrar en Packlink y simular un envío real** de 25 × 20 × 10 y 1,5 kg a península.
-      Sustituir los 5,50 € de estas tablas por el número real. **Es lo primero**
+**Primero de todo, porque es lo que puede mover el margen:**
+- [ ] **Simular un envío real en Packlink**: 25 × 20 × 10 cm, 1,5 kg, península. Sustituir los
+      5,50 € de todas las tablas por el número real
 - [ ] Dar de alta **Sendcloud** (gratis hasta 50 envíos/mes) o Packlink
-- [ ] Preguntar el precio de **portarretrato de madera 10 × 15** y **pasta de modelar que endurece
-      al aire** en Guadalhorce y a Plasticosur. Son las dos piezas nuevas y las que más pueden
-      desviar el coste
-- [ ] Decidir si el marco es de madera (2,75 €) o de cartón kraft (0,80 €). **Yo iría de madera**:
-      es la pieza que se queda en la estantería, y ahí no conviene ahorrar
-- [ ] Confirmar que la pasta que compras es **no tóxica** y viene en bolsa hermética
-- [ ] Maquetar las 12 cartas y la tarjeta de seguridad, y pedirlas a la imprenta con la faja
-- [ ] Escribir el cuadernillo "Los 30 días juntos" y montar la página del QR
+
+**Las compras nuevas de esta versión:**
+- [ ] **Pasta de modelar que endurece al aire**, no cerámica fría. Confirmar: **no tóxica** y en
+      **bolsa hermética**
+- [ ] Pedir precio de cuadrados de **9 × 9 × 1 cm** — o de pasta en bloque para cortarlos tú
+- [ ] **Potes de pintura acrílica al agua con TAPA DE ROSCA.** Rojo, verde y dorado para Navidad;
+      terracota, blanco roto y dorado para cumpleaños. **Pide el dorado en cantidad doble**
+- [ ] Pinceles planos pequeños y bolsitas de cierre
+- [ ] **Papel de seda kraft**, no blanco *(si una pintura mancha, en kraft no se ve)*
+
+**Las pruebas, antes de montar las 50:**
+- [ ] Montar **una** caja completa, cerrarla y **agitarla fuerte 10 segundos**. Si suena o se
+      mueve algo, replantear la colocación
+- [ ] **Hacer una huella de prueba** con tu propio animal: comprobar que entra en 9 × 9, cuánto
+      encoge de verdad y cuántas horas tarda en secar **en tu casa**
+- [ ] Pintarla a los dos días y ver si el acrílico agarra bien
+- [ ] Escanear el QR con dos móviles, uno Android y uno iPhone
+
+**Lo que hay que diseñar y escribir:**
+- [ ] La **tarjeta QR a doble cara** con los 12 títulos por detrás
+- [ ] La **tarjeta de instrucciones y seguridad** (el secado de 48 h es lo más importante que dice)
+- [ ] Las dos fajas y las dos versiones del certificado / tarjeta de recuerdo
+- [ ] El cuadernillo "Los 30 días juntos" y la página de descargas del QR
