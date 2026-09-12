@@ -145,7 +145,7 @@ del mayorista y te sale más barata.**
 | Bolsita sellada para potes y pincel | 0,15 € |
 | **Portarretrato de madera 10 × 15** | 2,75 € |
 | Juguete | 2,50 € |
-| **Tarjeta QR** (12 cartas + book + audio), doble cara | 0,15 € |
+| **Tarjeta QR** (las 12 cartas en PDF + audio), doble cara | 0,15 € |
 | Tarjeta de instrucciones y seguridad | 0,15 € |
 | Caja kraft rígida 25 × 20 × 10 | 2,00 € |
 | Papel de seda **kraft** | 0,30 € |

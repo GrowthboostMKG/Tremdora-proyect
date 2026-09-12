@@ -91,11 +91,16 @@ Cuesta 15 céntimos y es la pieza de más valor percibido de la caja.
 
 La tarjeta lleva un QR que abre una página de descargas con:
 
-- **"Navidad segura con tu mascota"** — el eBook de diciembre de tu calendario editorial. **Ya lo
-  tenías planeado.** Comida prohibida, espumillón, adornos, visitas, qué hacer si pasa algo.
-- **El audio de 432 Hz** para dejar puesto durante la cena de Nochebuena, que es justo cuando el
-  animal está más estresado por el ruido y la gente.
+- **Las 12 cartas de actividades en PDF** — *"Nochebuena juntos"*. Es lo que la tarjeta promete y
+  lo que la gente viene a buscar.
+- El **audio** para dejar puesto durante la cena de Nochebuena, cuando el animal está más
+  estresado por el ruido y la gente.
+- **Un capítulo de muestra gratis** de uno de tus libros. *(Ya lo tienes hecho: está en la rama
+  `claude/ebook-muestra-gratis-gowe01`.)*
 - Un **descuento del 30 %** en Hogar en Calma o Edad Dorada, válido en enero.
+
+> **La caja NO incluye un eBook completo.** Solo la tarjeta con el QR, y detrás del QR están las
+> cartas. La muestra y el descuento son el puente hacia los libros, no parte del producto.
 
 Tres cosas que consigues con esos 15 céntimos:
 
@@ -104,9 +109,9 @@ Tres cosas que consigues con esos 15 céntimos:
 2. **Cualquiera puede comprar un juguete y unos snacks. Nadie puede poner tu libro dentro.** Es
    la única barrera real frente a las cien cajas navideñas para mascotas que van a salir en
    noviembre.
-3. **Convierte al comprador de la caja en suscriptor de tu lista** (el QR pide el email para dar
-   la descarga) y en cliente de eBooks en enero. La caja deja de ser una venta suelta y pasa a
-   ser la puerta de entrada al catálogo.
+3. **Convierte al comprador de la caja en suscriptor de tu lista**, porque la página del QR pide
+   el email antes de dar la descarga. Y con la muestra y el descuento de enero, la caja deja de
+   ser una venta suelta y pasa a ser la puerta de entrada al catálogo.
 
 > El contenido de esa guía no es de adorno: el espumillón es una de las urgencias veterinarias
 > clásicas de diciembre en gatos, porque se lo comen y se les enrolla en el intestino. Los lirios
@@ -252,8 +257,11 @@ sentimiento que tienes que provocar, y se provoca solo con cómo lo escribes.
 
 > ### En el minuto en que paga, le mandas la parte digital.
 
-El eBook *"Navidad segura con tu mascota"*, el audio para la cena de Nochebuena y las 12 cartas de
-actividades. Automático, al confirmarse el pago.
+**Tres de las doce cartas de actividades** y el audio para la cena. Automático, al confirmarse el
+pago.
+
+Solo tres, no las doce. Así tiene algo en las manos el mismo día **y la caja conserva la sorpresa**:
+las doce completas se desbloquean con el QR que encuentra dentro, en diciembre.
 
 Así el 10 de noviembre **ya tiene algo en las manos**. No está esperando con las manos vacías: ha
 recibido valor en cinco minutos y la caja física llega como el final de la historia. El QR de
@@ -268,7 +276,7 @@ El silencio es lo que hace larga una espera. El contacto la convierte en ilusió
 
 | Cuándo | Asunto | Qué lleva |
 |---|---|---|
-| **Al comprar** | *"Ya es tuya"* | La guía y el audio, para empezar hoy |
+| **Al comprar** | *"Ya es tuya"* | 3 de las 12 cartas y el audio, para empezar hoy |
 | **~5 dic** | *"Estamos montando tu caja"* | **Una foto real** del montaje sobre tu mesa |
 | **El día del envío** | *"Sale hoy"* | El número de seguimiento |
 
