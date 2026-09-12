@@ -33,11 +33,15 @@ es tu lista**, y es mejor que la mía por un motivo que igual no habías visto �
 |---|---|---|
 | Mascotas ansiosas | **Hogar en Calma** | ✅ **Listo** |
 | Mascotas mayores | **Edad Dorada** | ✅ **Listo** |
-| La pérdida de una mascota | — | ⚠️ Ver 2.5 |
+| **La pérdida de una mascota** | **Sigue Contigo** *(4 cuadernos)* | ✅ **Listo** ← el más completo |
 | Mascotas adoptadas | — | ⏳ Por escribir |
 | Cuando llega una mascota nueva a casa | — | ⏳ Por escribir |
 | Cómo enseñar a un cachorro | — | ⏳ Por escribir |
 | Se porta mal en la calle o con visitas | — | ⏳ Por escribir |
+
+**Tienes tres productos terminados, no dos.** Eso cambia tres cosas del plan: el diagnóstico tiene
+tres respuestas con producto en vez de dos, tienes un tercer producto que vender desde el primer
+día, y *Sigue Contigo* es con diferencia el más desarrollado de los tres.
 
 ## 2.2 Tu propuesta: ¿solo preguntar por los dos que existen?
 
@@ -73,11 +77,11 @@ escribiendo, y les pides que voten**.
 │                                                                │
 │   ○  Se queda solo y lo pasa mal            · ya disponible    │
 │   ○  Ya es mayor y quiero cuidarle bien     · ya disponible    │
+│   ○  He perdido a mi mascota                · ya disponible    │
 │   ○  Acabo de adoptar y no sé por dónde empezar                │
 │   ○  Es cachorro y quiero educarle bien                        │
 │   ○  Va a llegar otra mascota a casa                           │
 │   ○  Se porta mal en la calle o cuando vienen visitas          │
-│   ○  He perdido a mi mascota                                   │
 │                                                                │
 │   ○  Ninguno. Estamos bien, solo disfrutando.                  │
 │                                                                │
@@ -88,8 +92,8 @@ escribiendo, y les pides que voten**.
 
 **Los dos detalles que hacen que esto funcione:**
 
-**① El *«ya disponible»* al lado de los dos que existen.** Demuestra que la marca entrega de
-verdad, y convierte los otros cinco en una hoja de ruta creíble en lugar de una lista de deseos.
+**① El *«ya disponible»* al lado de los tres que existen.** Demuestra que la marca entrega de
+verdad, y convierte los otros cuatro en una hoja de ruta creíble en lugar de una lista de deseos.
 
 **② «Te avisamos en cuanto salga» no es un no, es una promesa.** Y hay algo más: la gente que
 marca un tema no escrito **está votando**, y a quien vota le importa el resultado. Ese vínculo es
@@ -112,33 +116,86 @@ como vimos, también es información útil.
 hoy es el perro mayor de dentro de diez años, y algún día será la despedida. Un catálogo de
 problemas se agota; un acompañamiento no.
 
-## 2.5 ⚠️ Dos avisos sobre "la pérdida de una mascota"
+## 2.5 Sigue Contigo: el producto más delicado y el mejor hecho
 
-Este tema no se trata como los otros seis.
+Me equivoqué al decirte que este tema estaba por escribir. **Lo tienes, y es el más completo de
+los tres.** He leído el libro y el índice habla por sí solo:
 
-### Primero, una duda que quiero que aclares tú
+| | |
+|---|---|
+| **Libro 1** — *Sigue Contigo* | 42 págs. Lo que pasa dentro de ti · El vínculo y el cerebro · Las fases · **«Era solo un animal»** · **Si tuviste que tomar la decisión** · Un lugar para su recuerdo · Volver a querer sin traicionarlo · **Cuando hay niños en casa** · **Las otras mascotas también lo sienten** |
+| **Libro 2** — *Diario del Oleaje* | 20 págs. Registro de 8 semanas |
+| **Libro 3** — *Plan Práctico* | 16 págs. 56 tareas, una por día |
+| **Libro 4** — *Ellos También se Despiden* | 21 págs. La mascota que se queda |
 
-En la rama `claude/sigue-contigo-ebooks-pptgr6` tienes la serie **Sigue Contigo**, ya escrita y
-maquetada, con cuatro cuadernos y bibliografía científica. Pero leyendo su documentación parece
-que trata **la pérdida de una persona**, y que el cuaderno *"Ellos También se Despiden"* es sobre
-**la mascota que se queda** después de esa pérdida.
+Son **unas 99 páginas en cuatro cuadernos**, con bibliografía real. Y el capítulo V, *"si tuviste
+que tomar la decisión"*, aborda la eutanasia — que es la parte más dura del duelo por un animal y
+la que casi nadie se atreve a tratar.
 
-**Tu tema es el inverso: la pérdida de la mascota.** No quiero volver a dar nada por hecho, así
-que dímelo tú: ¿tienes ese escrito, hay que escribirlo, o *Sigue Contigo* sirve con retoques?
+### Por qué este producto se vende distinto a los otros dos
 
-### Y segundo, el tono. Esto importa de verdad
+Quien compra este libro es **el comprador más vulnerable de todo tu catálogo**. Eso no impide
+venderle: impide venderle *de cualquier manera*.
 
-Quien marca *"he perdido a mi mascota"* no puede recibir un email de marketing. Tres reglas:
+**Las cuatro reglas:**
 
-1. **Ningún descuento, ninguna urgencia, ningún emoji.** Un mensaje corto y humano, y nada más.
-2. **Quítala de la secuencia comercial normal.** Esa persona no recibe los emails de la caja de
-   cumpleaños ni las ofertas, hasta que ella diga otra cosa. Etiqueta aparte y silencio.
-3. **Puede pasarte en diciembre.** Alguien que reservó la caja en noviembre puede perder a su
-   animal antes de que llegue. Es raro y es devastador, y tiene que haber una respuesta preparada:
-   **reembolso completo sin preguntas, y ni una palabra de venta.**
+1. **Nada de urgencia, escasez ni descuentos con reloj.** Ni «solo hoy», ni «quedan 3», ni
+   contadores. Aplicado a un duelo, eso no es marketing: es aprovecharse.
+2. **Primero regala, y sin pedir nada.** Manda la carta de *"antes de empezar"* y el capítulo I
+   completos, gratis. Esa persona ya te dio su email: no le pongas otro muro.
+3. **Y después ofrece el libro en una línea, sin insistir.** *"Si te ha servido, el libro completo
+   y los tres cuadernos están aquí."* Nada más. Si le sirve, vuelve.
+4. **Ningún emoji, ninguna exclamación, ningún «¡hola!».** Ese email se escribe como se le escribe
+   a una persona, no como se escribe una campaña.
 
-> Esa es la clase de detalle por el que una marca se recuerda. Y es también lo correcto,
-> independientemente de lo que haga por el negocio.
+### Y una decisión de precio que te dejo a ti, con mi recomendación
+
+*Sigue Contigo* es objetivamente el producto más grande que tienes: cuatro cuadernos, 99 páginas.
+Por trabajo, justificaría el precio más alto del catálogo.
+
+> **Mi recomendación: no lo pongas por encima de los otros. Mismo precio, 49,90 €.**
+
+El producto lo justifica, pero **cobrar el precio más alto justo a quien está en el peor momento
+de su vida con un animal no es un sitio donde quieras estar**, ni ante ellos ni ante ti. Pónlo al
+nivel de los demás y que el valor sea evidente. La decisión es tuya, pero esa es mi opinión.
+
+### El canal: este libro no se anuncia en frío
+
+Este es el único de los tres que **yo no pondría en anuncios de Meta**, y por dos motivos:
+
+**El práctico:** no puedes segmentar «acaba de perder a su mascota» — ese dato no existe y no
+deberías querer que existiera. Cualquier público que construyas será impreciso, y enseñarle un
+anuncio sobre la muerte de una mascota a alguien que tiene a su perro durmiendo al lado es tirar
+el dinero y molestar.
+
+**El de fondo:** perseguir a gente en duelo con publicidad pagada no está bien, incluso cuando tu
+producto sea bueno y honesto. Y el tuyo lo es.
+
+**Este libro se encuentra, no se empuja.** Sus canales son:
+
+| Canal | Por qué funciona |
+|---|---|
+| **El diagnóstico** | La persona te lo dice ella. Es el mejor canal que tienes |
+| **Búsqueda en Google** | Quien busca a las tres de la mañana «se ha muerto mi perro y no puedo» te encuentra. Hay muy poca competencia en español |
+| **Boca a boca** | Es el tipo de libro que se regala a un amigo que lo está pasando |
+| **Veterinarias** | Una tarjeta en el mostrador de tu clínica. Es donde está esa persona el día que pasa |
+
+Ese último merece que lo pienses: **una clínica veterinaria de tu barrio es el punto de contacto
+natural.** No cuesta nada preguntar, y para ellos también es útil tener algo que ofrecer.
+
+### El caso de diciembre, ahora con respuesta
+
+Antes te dije que si alguien marca *"he perdido a mi mascota"* no tenías nada que darle. Sí lo
+tienes, y es bueno. Pero **en diciembre lo trataría con más cuidado todavía**: las primeras
+navidades sin un animal son especialmente duras.
+
+Si alguien marca esa opción en la página del QR de la caja de Navidad: **manda solo la carta y el
+capítulo I, gratis, y ninguna oferta.** El libro se lo ofreces en enero, si quieres. Diciembre no
+es el mes.
+
+Y si alguien pierde a su mascota entre la reserva y la entrega de la caja: **reembolso completo
+sin preguntas, ni una palabra de venta**, y si te parece, la carta y el capítulo I como regalo.
+Eso es todo.
 
 # 3. Y esto es lo que de verdad cambia
 
@@ -225,11 +282,13 @@ Navidad y no por un problema. De ahí el diagnóstico.
 # 6. Qué hay que cambiar en los documentos
 
 - [x] Quitado el "descuento del 30 % en Hogar en Calma" como oferta directa en la página del QR
-- [ ] Escribir los **ocho** emails automáticos, uno por etiqueta *(y el de la pérdida, aparte y sin venta)*
+- [ ] Escribir los **ocho** emails automáticos, uno por etiqueta *(y el de la pérdida con las cuatro reglas del 2.5)*
 - [ ] Montar la pregunta única en la página de descargas
 - [ ] Crear las etiquetas en el servicio de email antes de la preventa de noviembre
 - [ ] Tratar el calendario editorial de 12 meses como hipótesis: **el orden real lo decide el
       recuento de respuestas en enero**
-- [ ] **Aclarar si *Sigue Contigo* sirve para "la pérdida de una mascota"** o hay que escribirlo
+- [x] ~~Aclarar si *Sigue Contigo* sirve para la pérdida de una mascota~~ → **sí, es exactamente eso, y está terminado**
+- [ ] Decidir el precio de *Sigue Contigo* *(mi recomendación: 49,90 €, no más)*
+- [ ] Preguntar en una clínica veterinaria del barrio si dejarían tarjetas de *Sigue Contigo*
 - [ ] Preparar la respuesta al caso de quien pierde a su animal entre la reserva y la entrega:
       reembolso completo, sin preguntas y sin una palabra de venta
