@@ -12,9 +12,9 @@ Tus tres eBooks no son tres productos sueltos. Son **las tres etapas de la misma
 
 ```
         LA CONVIVENCIA          →        LA VEJEZ          →         LA PÉRDIDA
-      "Hogar en Calma"              "Edad Dorada"           "Siempre a tu Lado"
-      ansiedad, conducta,        cuidado de la mascota      acompañar el duelo
-      miedos, convivencia         mayor, calidad de vida      por su muerte
+      "Hogar en Calma"              "Edad Dorada"             "Sigue Contigo"
+      ansiedad, conducta,        cuidado de la mascota       + urna de cerámica
+      miedos, convivencia         mayor, calidad de vida     (fase posterior)
              │                            │                          │
              └────────────────────────────┴──────────────────────────┘
                                           │
@@ -25,7 +25,7 @@ Esa frase ya está en tus propias portadas. **Es tu posicionamiento y no lo sab�
 
 **Por qué esto es comercialmente potente y casi nadie en el nicho lo tiene:**
 
-1. **El LTV está incorporado en el producto.** Quien compra Hogar en Calma con un perro de 3 años, dentro de cinco años necesitará Edad Dorada, y después Siempre a tu Lado. No tienes que inventar razones para volver a venderle: la vida de su animal las inventa por ti.
+1. **El LTV está incorporado en el producto.** Quien compra Hogar en Calma con un perro de 3 años, dentro de cinco años necesitará Edad Dorada, y después el pack de Sigue Contigo. No tienes que inventar razones para volver a venderle: la vida de su animal las inventa por ti.
 2. **Los tres productos comparten avatar exacto**: dueño de mascota emocionalmente implicado. Un solo píxel, una sola audiencia, tres ofertas.
 3. **Es una marca, no un catálogo.** Eso es lo que te permite vender después una caja de Navidad a 49 € sin ser "otra tienda de mascotas".
 
@@ -74,9 +74,10 @@ Esto reordena todas las decisiones:
 |---|---|---|
 | **Edad Dorada** | Front-end (entrada de la campaña) | **22 €** |
 | **Hogar en Calma** | Order bump en el checkout | **+12 €** |
-| **Siempre a tu Lado** | Solo a lista y búsqueda, nunca frío agresivo | **16 €** |
-| **Pack "Toda una Vida"** (los 3) | Upsell post-compra | **39 €** |
+| **Pack los dos eBooks** | Landing directa, para quien no pasa por el bump | **29 €** |
+| **Reserva de caja de Navidad** | Upsell post-compra, **gratis** | acceso anticipado −15 % |
 | **Caja de Navidad** | Línea estacional aparte, sin eBooks dentro | **59 €** |
+| *Pack "Sigue Contigo" + urna* | *Fase posterior, no ahora* | *79–129 € (por definir)* |
 
 > **40–100 € era demasiado.** Son guías de ~50 páginas en nicho mascotas, con marca desconocida y tráfico frío. A 22 € consigues tres o cuatro veces más compradores que a 47 €, y en noviembre cada comprador vale lo mismo.
 
@@ -95,9 +96,11 @@ Quien compra una caja de Navidad para su animal es el dueño más implicado que 
 
 Hogar en Calma no desaparece: es el order bump, el email de cross-sell y el ángulo creativo alternativo cuando Edad Dorada se sature.
 
-## 2.7 Lo que NO se lanza en frío: "Siempre a tu Lado"
+## 2.7 Lo que NO entra en este lanzamiento
 
-El eBook de duelo requiere reglas propias (documento 06). Con un matiz que antes no tenía: **también acompaña a los niños de la casa**, y esa mitad sí es publicable. Puedes dirigirte a un padre sobre algo que va a ocurrir; no puedes perseguir a alguien por algo que acaba de ocurrirle. Esa es la frontera.
+**"Sigue Contigo" queda fuera del foco actual.** No es un eBook suelto: va en un pack memorial con la urna de cerámica, lo que lo convierte en un producto físico de ticket alto (79-129 €) con un canal propio —prescripción veterinaria y crematorios— y un momento de compra muy concreto. Se lanza después de Navidad. Todo el detalle, preparado, en el documento 06.
+
+**El foco de octubre son dos productos y nada más: Hogar en Calma y Edad Dorada.** Después, la preventa de las cajas.
 
 ## 2.8 Buenas noticias sobre publicidad
 

@@ -22,7 +22,7 @@ Se monta una vez y sirve para los tres eBooks. Cambia el copy, no la mecánica.
           └─────────────────┬───────────────────┘
                             ▼
           ┌─────────────────────────────────────┐
-          │  UPSELL 1 CLIC: pack completo +17 € │ ← palanca AOV
+          │  UPSELL: reserva tu caja de Navidad │ ← construye la preventa
           └─────────────────┬───────────────────┘
                             ▼
           ┌─────────────────────────────────────┐
@@ -85,12 +85,15 @@ Estructura de vídeo (15–30 s):
 **a) Order bump (+12 €)** — casilla en el checkout:
 > ☐ **Añade "Hogar en Calma" por solo 12 €** *(en lugar de 22 €)* — la guía de bienestar emocional para que tu mascota viva sin ansiedad. Acceso inmediato.
 
-**b) Upsell post-compra (+17 €)** — tras pagar, sin volver a pedir tarjeta:
-> **Pack "Toda una Vida"** — completa la colección con "Siempre a tu Lado" y ten los tres métodos para cada etapa de su vida.
+**b) Upsell post-compra — gratis, y vale más que dinero.** Tras pagar, en la página de gracias:
 
-Adopción esperada: bump 25–35 % (muy alta porque el precio es bajo y el público ya está comprando), upsell 10–20 %.
+> **Reserva tu caja de Navidad para él.** Sin pagar nada hoy: te guardamos el acceso anticipado y un **−15 %** cuando abramos la preventa en noviembre.
 
-**Impacto:** ticket de 22 € → **AOV real 29–32 €**, con margen casi íntegro.
+**Por qué esto en lugar de cobrar más:** estás capturando intención en el momento de máxima disposición a comprar, y construyendo la lista de preventa con gente que ya te ha dado dinero una vez. Un comprador reservado en octubre convierte en noviembre muchísimo mejor que un lead frío. Y al no cobrar nada, no asumes ningún compromiso legal sobre un producto que aún estás cerrando con la imprenta.
+
+Adopción esperada: bump 25-35 % (alta, porque el precio es bajo y el público ya está comprando); reserva 30-50 %.
+
+**Impacto:** ticket de 22 € → **AOV real 25-26 €**, más una lista de preventa cualificada que no te ha costado nada.
 
 ## 3.6 Flujos de Klaviyo
 

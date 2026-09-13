@@ -24,7 +24,9 @@ Hoy es **13 de septiembre**. Tienes ~16 semanas hasta el 6 de enero, y dos fecha
 
 ## FASE 1 — eBooks y construcción de lista · 1-31 octubre · 40 €/día
 
-> Objetivo: **30+ compradores, 300+ leads y un píxel entrenado.** No beneficio.
+> Objetivo: **30+ compradores, 300+ leads, 12+ reservas de caja y un píxel entrenado.** No beneficio.
+>
+> **Solo dos productos: Edad Dorada de entrada y Hogar en Calma como bump.** El pack de Sigue Contigo con la urna se prepara después de Navidad (doc. 06).
 
 **1 oct** — Encender. Una campaña ASC a 28 €/día con Edad Dorada de entrada y los 5 ángulos dentro de un solo conjunto. Campaña de muestra gratis a 12 €/día. **Empieza a 15 €/día los primeros 3 días** para no quemar la cuenta nueva.
 
@@ -36,6 +38,7 @@ Hoy es **13 de septiembre**. Tienes ~16 semanas hasta el 6 de enero, y dos fecha
 - [ ] Cuadro de mando el lunes, árbol de diagnósticos, matar y grabar hooks nuevos
 - [ ] Todo orgánico con +10.000 visualizaciones pasa a anuncio pagado
 - [ ] Activar el order bump de Hogar en Calma en cuanto haya tráfico
+- [ ] Activar la **reserva gratuita de caja de Navidad** en la página de gracias: captura intención en el momento de máxima disposición
 - [ ] **Cuando vuelvas a España: grabar. Es lo que más va a mover la aguja.**
 
 **25 oct** — Landing de preventa lista y flujo de lista de espera activo. Email a toda la lista: *"Se viene algo para diciembre"*.

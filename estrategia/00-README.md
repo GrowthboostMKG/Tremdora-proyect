@@ -1,5 +1,5 @@
 # Estrategia TREMDORA — tienda 100 % de mascotas
-### Lanzamiento de eBooks → preventa de cajas de Navidad
+### Lanzamiento de Hogar en Calma y Edad Dorada → preventa de cajas de Navidad
 
 > **Versión 2 (13 sept 2026).** La versión 1 partía de una premisa equivocada: interpreté "Edad Dorada" y "Hogar en Calma" como productos de bienestar humano. **Son productos de mascotas**, y TREMDORA es una tienda 100 % de mascotas. Todos los documentos están reescritos.
 
@@ -14,7 +14,7 @@
 | **[03 — Funnel maestro](03-funnel-maestro.md)** | Embudo de producto digital: landing, bump, upsell, flujos |
 | **[04 — Edad Dorada](04-edad-dorada.md)** | Producto de entrada: avatar, oferta, 5 ángulos, copys, orgánico |
 | **[05 — Hogar en Calma](05-hogar-en-calma.md)** | Order bump y segundo ángulo |
-| **[06 — Siempre a tu Lado](06-siempre-a-tu-lado.md)** | Duelo del adulto y de los niños de la casa: dos productos en uno |
+| **[06 — Sigue Contigo + urna](06-sigue-contigo.md)** | ⏸️ Fase posterior: pack memorial, canal veterinario y crematorios |
 | **[07 — Economía unitaria](07-economia-unitaria.md)** | Márgenes digitales, proyección de octubre, cuadro de mando |
 | **[08 — Cajas de Navidad](08-cajas-navidad.md)** | Línea independiente: el recuerdo como producto, márgenes, preventa y calendario |
 | **[09 — Checklist legal y fiscal](09-legal-fiscal-checklist.md)** | Lo que te bloquea, IVA, Seguridad Social, arreglos en los productos |
@@ -27,12 +27,12 @@
 
 1. **TREMDORA es una tienda 100 % de mascotas.** Todo gira alrededor del animal y del vínculo con su persona.
 2. Los tres libros comparten mecanismo: **observar (el diario) → reconocer (el libro) → actuar (el plan de 8 semanas)**. Enseñas al humano a leer a su mascota.
-3. Tus tres eBooks son **las tres etapas de la misma vida**: convivencia (Hogar en Calma) → vejez (Edad Dorada) → pérdida (Siempre a tu Lado). *"Porque cada etapa también es especial"* —tu propia frase— es tu posicionamiento.
+3. Tu catálogo son **las etapas de la misma vida**: convivencia (Hogar en Calma) → vejez (Edad Dorada) → pérdida (Sigue Contigo + urna, más adelante). *"Porque cada etapa también es especial"* —tu propia frase— es tu posicionamiento.
 4. **Los eBooks no son el negocio: son el mecanismo de captación** de las cajas de Navidad.
 5. Por eso el precio baja: **22 €**, no 40-100 €. Te interesa el número de compradores, no el ticket.
 6. **Edad Dorada va de front-end**, no por el eBook sino por la caja: el dueño de una mascota mayor es el mejor comprador de caja de Navidad que existe.
 7. Hogar en Calma es el **order bump a +12 €** y el segundo ángulo creativo.
-8. **Siempre a tu Lado son dos productos en uno.** El duelo del adulto no se segmenta y va a lista, búsqueda y prescripción veterinaria. El duelo **infantil sí es publicable**: segmentas parentalidad, no tragedia.
+8. **"Sigue Contigo" no entra en este lanzamiento.** Va en un pack con la urna de cerámica: ticket alto, canal propio (veterinarios y crematorios) y momento de compra muy concreto. Después de Navidad.
 9. **Las cajas de Navidad son una línea aparte**, sin eBooks dentro. Su diferenciador es **la actividad de recuerdo**: convierte un consumible en un objeto que se guarda, genera UGC solo y crea recompra anual.
 10. **Preventa: vendes primero, produces después.** Sin capital inmovilizado.
 11. **El 15 de octubre es tu fecha crítica**: arte en imprenta. Todo lo demás se organiza alrededor de esa fecha.
@@ -53,7 +53,7 @@
 
 ## Pendiente de confirmar
 
-- **"Siempre a tu Lado"**: qué recursos incluye, cuántas páginas, si está terminado (doc. 06)
+- **Pack "Sigue Contigo" + urna**: qué incluye la experiencia, coste y proveedor de la urna, fragilidad y envío (doc. 06)
 - **Plazo real de la imprenta** — determina si la fecha crítica es el 15 o el 1 de octubre
 - **Precios y mínimos de la distribuidora** — condicionan el PVP de la caja
 - **Precio final que decides para los eBooks** — los números del doc 07 parten de 22 €
