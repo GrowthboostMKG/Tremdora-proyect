@@ -53,7 +53,7 @@ Son **el mecanismo de adquisición**: construyen la lista y el píxel con los qu
 
 ```
   eBooks (oct)              →      LISTA + PÍXEL      →    CAJAS DE NAVIDAD (nov-ene)
-  22 € · margen 93 %             compradores reales         59 € · línea independiente
+  34 € · margen 94 %             compradores reales         59 € · línea independiente
   break-even o pérdida leve     de nicho mascotas          preventa, sin stock previo
 ```
 
@@ -72,14 +72,16 @@ Esto reordena todas las decisiones:
 
 | Producto | Rol | Precio recomendado |
 |---|---|---|
-| **Edad Dorada** | Front-end (entrada de la campaña) | **22 €** |
-| **Hogar en Calma** | Order bump en el checkout | **+12 €** |
-| **Pack los dos eBooks** | Landing directa, para quien no pasa por el bump | **29 €** |
+| **Edad Dorada** (6 recursos) | Front-end de la campaña | **34 €** fundacional → 44 € |
+| **Hogar en Calma** (4 recursos + audio) | Order bump en el checkout | **+17 €** · suelto 29 € |
+| **Pack los dos** | Landing directa | **49 €** |
 | **Reserva de caja de Navidad** | Upsell post-compra, **gratis** | acceso anticipado −15 % |
 | **Caja de Navidad** | Línea estacional aparte, sin eBooks dentro | **59 €** |
 | *Pack "Sigue Contigo" + urna* | *Fase posterior, no ahora* | *79–129 € (por definir)* |
 
-> **40–100 € era demasiado.** Son guías de ~50 páginas en nicho mascotas, con marca desconocida y tráfico frío. A 22 € consigues tres o cuatro veces más compradores que a 47 €, y en noviembre cada comprador vale lo mismo.
+> **Precio fundacional, no precio bajo.** No son guías sueltas: Edad Dorada son **seis recursos** y Hogar en Calma incluye una **frecuencia de audio creada para la ansiedad de la mascota**, que es lo único de todo tu catálogo que no se puede comparar con un PDF. Un pack así a 22 € manda la señal equivocada — por debajo de cierto umbral el precio deja de leerse como oferta y empieza a leerse como sospecha de calidad.
+>
+> Lo que hoy limita tu conversión no es el precio: son las **cero valoraciones**. Por eso el precio sube con la prueba social en lugar de fijarse de golpe: **34 € fundacional → 44 €** cuando tengas 25 valoraciones publicadas. La escasez es auténtica, y el cálculo de por qué el resultado de octubre apenas cambia está en el documento 07.
 
 ## 2.6 Por qué Edad Dorada va de front-end
 

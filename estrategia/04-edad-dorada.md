@@ -23,29 +23,43 @@
 | "Esto se lo pregunto al veterinario" | El veterinario te dice qué tiene. Esto te dice **qué haces tú el resto de la semana**. Complemento, nunca sustituto. |
 | "Otro PDF genérico de internet" | Enseña páginas reales. El diario, el plan de 8 semanas, las tarjetas. Se ve que hay trabajo. |
 | "Ya es tarde, no va a servir" | El plan es de 8 semanas, no de 8 meses. Los primeros cambios se notan en días. |
-| "Es caro para ser un PDF" | 6 recursos, 22 €. Una sola consulta veterinaria cuesta el doble. |
+| "Es caro para ser un PDF" | No es un PDF: son 6 recursos con método, diario y plan diario. Una sola consulta veterinaria cuesta más. |
 
 ## 4.2 La oferta
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  EDAD DORADA — La colección completa                     │
+│  EDAD DORADA — La colección completa · 6 recursos        │
 │                                                          │
-│  ✓ Edad Dorada · el método (51 pág.)        valor 27 €   │
-│  ✓ Diario de Bienestar Senior · 8 semanas   valor 17 €   │
-│  ✓ Plan Práctico de 8 Semanas               valor 17 €   │
-│  ✓ 20 Momentos · tarjetas de actividades    valor 15 €   │
-│  🎁 Nutrición Dorada · recetario y ejercicios valor 19 € │
-│  🎁 Cartas de Conexión                      valor  9 €   │
+│  ✓ Edad Dorada · el método (51 pág.)        valor 29 €   │
+│  ✓ Diario de Bienestar Senior · 8 semanas   valor 19 €   │
+│  ✓ Plan Práctico de 8 Semanas               valor 19 €   │
+│  ✓ 20 Momentos · tarjetas de actividades    valor 17 €   │
+│  🎁 Nutrición Dorada · recetario y ejercicios valor 21 € │
+│  🎁 Cartas de Conexión                      valor 12 €   │
 │  ─────────────────────────────────────────────────────   │
-│  VALOR TOTAL                                     104 €   │
-│  HOY                                              22 €   │
+│  VALOR TOTAL                                     117 €   │
+│  PRECIO FUNDACIONAL                               34 €   │
+│  (sube a 44 € cuando cerremos las primeras 100 plazas)   │
 │                                                          │
 │  Acceso inmediato · PDF y EPUB · en español              │
 └──────────────────────────────────────────────────────────┘
 ```
 
-> **Sobre la garantía:** con contenido digital de descarga inmediata, el cliente renuncia legalmente al desistimiento si aceptas la casilla correcta en el checkout (ver doc. 08). Aun así, **ofrece devolución voluntaria de 14 días**: en este nicho sube más las ventas de lo que te cuestan las devoluciones, y a 22 € casi nadie la pide.
+### Sobre el precio: fundacional, no barato
+
+**No es una colección de 22 €.** Son seis recursos con un método, un sistema de registro y un plan diario — y ponerle precio de PDF suelto lo devalúa: por debajo de cierto umbral, el precio deja de ser una oferta y empieza a leerse como sospecha de calidad.
+
+Pero hoy tienes **cero valoraciones**, y eso es lo que de verdad limita la conversión en frío. La solución no es elegir entre valor y conversión, es **separar el precio en el tiempo**:
+
+| Momento | Precio | Justificación |
+|---|---|---|
+| **Lanzamiento** (primeros ~100 compradores) | **34 €** | "Precio fundacional" — es verdad, y da una razón honesta de urgencia |
+| Con 25+ valoraciones publicadas | **44 €** | Ya tienes la prueba social que sostiene el precio real |
+
+La escasez es **auténtica**: no inventas un contador, anuncias que el precio sube cuando la colección deje de ser nueva. Eso convierte y no te quema la credibilidad.
+
+> **Sobre la garantía:** con contenido digital de descarga inmediata, el cliente renuncia legalmente al desistimiento si aceptas la casilla correcta en el checkout (ver doc. 08). Aun así, **ofrece devolución voluntaria de 14 días**: en este nicho sube más las ventas de lo que te cuestan las devoluciones, y a este precio casi nadie la pide.
 
 ## 4.3 Los 5 ángulos a testear
 
@@ -78,7 +92,7 @@ para seguir conectando con ella.
 
 No sustituye a tu veterinario. Es lo que haces entre visita y visita.
 
-Acceso inmediato · 22 €
+Acceso inmediato · 34 € (precio fundacional)
 
 👉 [Enlace]
 ```

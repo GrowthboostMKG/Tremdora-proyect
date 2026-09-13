@@ -29,9 +29,9 @@
 2. Los tres libros comparten mecanismo: **observar (el diario) → reconocer (el libro) → actuar (el plan de 8 semanas)**. Enseñas al humano a leer a su mascota.
 3. Tu catálogo son **las etapas de la misma vida**: convivencia (Hogar en Calma) → vejez (Edad Dorada) → pérdida (Sigue Contigo + urna, más adelante). *"Porque cada etapa también es especial"* —tu propia frase— es tu posicionamiento.
 4. **Los eBooks no son el negocio: son el mecanismo de captación** de las cajas de Navidad.
-5. Por eso el precio baja: **22 €**, no 40-100 €. Te interesa el número de compradores, no el ticket.
+5. **Precio fundacional: 34 € → 44 €** cuando tengas 25 valoraciones. No son guías sueltas —Edad Dorada son 6 recursos y Hogar en Calma trae una frecuencia de audio— pero hoy tienes cero prueba social, y eso es lo que limita la conversión, no el precio.
 6. **Edad Dorada va de front-end**, no por el eBook sino por la caja: el dueño de una mascota mayor es el mejor comprador de caja de Navidad que existe.
-7. Hogar en Calma es el **order bump a +12 €** y el segundo ángulo creativo.
+7. Hogar en Calma es el **order bump a +17 €** y el segundo ángulo creativo. Su **Frecuencia de Calma** es tu activo más diferencial y hoy vive escondida detrás de un QR.
 8. **"Sigue Contigo" no entra en este lanzamiento.** Va en un pack con la urna de cerámica: ticket alto, canal propio (veterinarios y crematorios) y momento de compra muy concreto. Después de Navidad.
 9. **Las cajas de Navidad son una línea aparte**, sin eBooks dentro. Su diferenciador es **la actividad de recuerdo**: convierte un consumible en un objeto que se guarda, genera UGC solo y crea recompra anual.
 10. **Preventa: vendes primero, produces después.** Sin capital inmovilizado.
@@ -45,7 +45,7 @@
 |---|---|---|
 | Producto | Bienestar humano y del hogar | **Mascotas** |
 | Secuencia | Un producto, luego el otro | **Uno de entrada + el otro como bump**, misma campaña y mismo píxel |
-| Precio | 62-78 € de AOV | **22 € de entrada, 28 € de AOV** |
+| Precio | 62-78 € de AOV | **34 € de entrada, 39 € de AOV** |
 | Objetivo | Rentabilidad del ecommerce | **Compradores y píxel para la preventa de Navidad** |
 | Política de Meta | Riesgo alto (atributos personales) | **Riesgo bajo**: protege la salud del usuario, no la de su mascota |
 
@@ -56,7 +56,7 @@
 - **Pack "Sigue Contigo" + urna**: qué incluye la experiencia, coste y proveedor de la urna, fragilidad y envío (doc. 06)
 - **Plazo real de la imprenta** — determina si la fecha crítica es el 15 o el 1 de octubre
 - **Precios y mínimos de la distribuidora** — condicionan el PVP de la caja
-- **Precio final que decides para los eBooks** — los números del doc 07 parten de 22 €
+- **Precio final que decides** — los números del doc 07 parten de 34 € fundacional
 - **Qué es exactamente la actividad de recuerdo de la caja** — es el corazón de esa línea y condiciona precio y copy
 - **COGS real por caja** con la distribuidora, y peso/volumen para calcular el envío
 

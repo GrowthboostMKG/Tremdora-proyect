@@ -12,7 +12,7 @@
 ## 9.2 IVA — donde más dinero se pierde por descuido
 
 - [ ] **Los libros electrónicos tributan al 4 %, no al 21 %.** Comprueba hoy cómo está configurado en Shopify.
-- [ ] **Pregunta al gestor, producto por producto:** ¿califican como "libro" el diario, el plan de 8 semanas, las tarjetas de actividades y el recetario? Si algún recurso tiene **contenido audiovisual predominante** (la tarjeta QR de Hogar en Calma dice "escanea y reproduce"), esa parte podría irse al 21 %.
+- [ ] **Pregunta al gestor, recurso por recurso:** ¿califican como "libro" el diario, el plan de 8 semanas, las tarjetas de actividades y el recetario? **Y en concreto, la Frecuencia de Calma**: es un audio, no una publicación, y podría tributar al 21 % aunque el resto del pack vaya al 4 %. Pregunta si conviene desglosarlo o si, por ser accesorio al pack, sigue el tipo del principal. Es una diferencia de 17 puntos.
 - [ ] **Las cajas de Navidad son producto físico: 21 %.** No las mezcles en la misma configuración fiscal.
 - [ ] **OSS:** si superas 10.000 € de ventas a consumidores de otros países de la UE, aplicas el IVA del país del cliente y necesitas alta en OSS (modelo 035) y declaración trimestral (modelo 369). Configúralo en Shopify desde el principio aunque aún no llegues.
 
@@ -46,7 +46,8 @@ Mirando los mockups que me has enseñado:
 
 - [ ] **"20_Momentos"** lleva un guion bajo de nombre de archivo que se coló en el diseño. Cambiar a "20 Momentos".
 - [ ] **Nombres de los componentes repetidos.** El "Diario" y el "Plan de 8 Semanas" aparecen en los dos packs, y eso está bien: **son el método** (observar → reconocer → actuar), no una duplicación por error. Lo que hay que arreglar es el nombre: un "Diario de Bienestar **Senior**" dentro del pack de ansiedad descoloca. Renómbralo por pack (p. ej. "Diario de Bienestar Emocional" en Hogar en Calma) y explica en el pack de los tres que cada diario es específico de su etapa.
-- [ ] **La tarjeta QR** de Hogar en Calma: en un producto digital el lector ya está en pantalla, un enlace funciona mejor que un QR. Y revisa la implicación de IVA (§9.2).
+- [ ] **La Frecuencia de Calma está escondida detrás de un QR en la contraportada.** Es el activo más diferencial de todo tu catálogo: sácalo a la portada del pack, a la imagen principal de la landing y al primer bloque de la oferta. Y en digital, un enlace funciona mejor que un QR — el lector ya está en pantalla.
+- [ ] **En el copy del audio, efecto y no resultado clínico.** "Un entorno sonoro que le ayuda a relajarse" sí; "elimina la ansiedad" no.
 - [ ] **Formato PDF + EPUB**, y tipografía cómoda: mucho de tu público lee en tablet.
 - [ ] **Disclaimer veterinario visible** en portada y landing: *"Este contenido no sustituye el diagnóstico ni el tratamiento de un veterinario."* Te protege y, paradójicamente, genera confianza.
 

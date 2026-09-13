@@ -12,13 +12,13 @@ Se monta una vez y sirve para los tres eBooks. Cambia el copy, no la mecánica.
                             ▼
           ┌─────────────────────────────────────┐
           │  LANDING DE VENTA — Edad Dorada     │
-          │  Oferta apilada + prueba social     │
+          │  117 € de valor → 34 € fundacional  │
           └─────────────────┬───────────────────┘
                             ▼
           ┌─────────────────────────────────────┐
           │  CHECKOUT                           │
           │  ☑ Casilla de desistimiento (legal) │
-          │  ☑ ORDER BUMP: Hogar en Calma +12 € │ ← palanca AOV
+          │  ☑ ORDER BUMP: Hogar en Calma +17 € │ ← palanca AOV
           └─────────────────┬───────────────────┘
                             ▼
           ┌─────────────────────────────────────┐
@@ -73,7 +73,7 @@ Estructura de vídeo (15–30 s):
 2. **Mockup del pack completo** (ya lo tienes, y es bueno)
 3. **Estrellas + nº de valoraciones**
 4. **Qué incluye**, recurso por recurso, con valor asignado a cada uno
-5. **Precio con ancla** → ~~76 €~~ **22 €**
+5. **Precio con ancla** → ~~117 €~~ **34 €** *(precio fundacional)*
 6. **Botón CTA**
 7. **Barra de confianza:** acceso inmediato · PDF + EPUB · atención en español · pago seguro
 8. Debajo: para quién es y para quién no, 3 páginas de muestra reales, FAQ de 8 preguntas, valoraciones con foto de la mascota
@@ -83,7 +83,7 @@ Estructura de vídeo (15–30 s):
 ## 3.5 Palancas de AOV
 
 **a) Order bump (+12 €)** — casilla en el checkout:
-> ☐ **Añade "Hogar en Calma" por solo 12 €** *(en lugar de 22 €)* — la guía de bienestar emocional para que tu mascota viva sin ansiedad. Acceso inmediato.
+> ☐ **Añade "Hogar en Calma" por solo 17 €** *(en lugar de 29 €)* — la colección de bienestar emocional, **con la Frecuencia de Calma** creada para la ansiedad de la mascota. Acceso inmediato.
 
 **b) Upsell post-compra — gratis, y vale más que dinero.** Tras pagar, en la página de gracias:
 
@@ -93,7 +93,7 @@ Estructura de vídeo (15–30 s):
 
 Adopción esperada: bump 25-35 % (alta, porque el precio es bajo y el público ya está comprando); reserva 30-50 %.
 
-**Impacto:** ticket de 22 € → **AOV real 25-26 €**, más una lista de preventa cualificada que no te ha costado nada.
+**Impacto:** ticket de 34 € → **AOV real ~39 €**, más una lista de preventa cualificada que no te ha costado nada.
 
 ## 3.6 Flujos de Klaviyo
 
