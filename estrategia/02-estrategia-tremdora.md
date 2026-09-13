@@ -29,7 +29,25 @@ Esa frase ya está en tus propias portadas. **Es tu posicionamiento y no lo sab�
 2. **Los tres productos comparten avatar exacto**: dueño de mascota emocionalmente implicado. Un solo píxel, una sola audiencia, tres ofertas.
 3. **Es una marca, no un catálogo.** Eso es lo que te permite vender después una caja de Navidad a 49 € sin ser "otra tienda de mascotas".
 
-## 2.3 Lo más importante: los eBooks NO son el negocio
+## 2.3 El mecanismo: los tres libros enseñan lo mismo
+
+Todos tus eBooks tratan **problemas que el humano tiene con su mascota**: hablan del comportamiento del animal, de cómo la persona debe reconocer patrones y qué hacer con ellos. Eso no es un detalle de contenido: **es tu mecanismo de venta**, y es el mismo en los tres.
+
+```
+   OBSERVAR              →        RECONOCER           →        ACTUAR
+   el Diario                      el Libro                     el Plan de 8 Semanas
+   registras lo que ves           identificas el patrón        una tarea concreta al día
+```
+
+**Tu producto ya está construido sobre ese mecanismo y no lo estabas contando.** El diario no es un extra: es la herramienta de observación. El plan de 8 semanas no es relleno: es la fase de acción. Cuéntalo así en todas las landings, porque es exactamente lo que convierte "un PDF" en "un método".
+
+> **Corrección a lo que te dije antes:** señalé que el "Diario" y el "Plan de 8 Semanas" repetidos en los dos packs eran un error de arquitectura. No lo son — **son el método, y debe repetirse**. Lo que sí hay que arreglar es el nombre: un diario llamado "de Bienestar Senior" dentro del pack de ansiedad descoloca. Renómbralo por pack.
+
+La frase de venta que sale de aquí, y que sirve para los tres libros:
+
+> *No es que tu mascota se porte mal. Es que te está diciendo algo y nadie te ha enseñado a leerlo.*
+
+## 2.4 Lo más importante: los eBooks NO son el negocio
 
 Son **el mecanismo de adquisición** del negocio, que son las **cajas de Navidad para mascotas**.
 
@@ -50,7 +68,7 @@ Esto reordena todas las decisiones:
 
 **Un comprador de 19 € convierte en la preventa de Navidad a un 10–15 %. Un lead gratuito, al 2–3 %.** Por eso te interesa el número de compradores, no el ticket.
 
-## 2.4 La escalera de precios
+## 2.5 La escalera de precios
 
 | Producto | Rol | Precio recomendado |
 |---|---|---|
@@ -62,7 +80,7 @@ Esto reordena todas las decisiones:
 
 > **40–100 € era demasiado.** Son guías de ~50 páginas en nicho mascotas, con marca desconocida y tráfico frío. A 22 € consigues tres o cuatro veces más compradores que a 47 €, y en noviembre cada comprador vale lo mismo.
 
-## 2.5 Por qué Edad Dorada va de front-end
+## 2.6 Por qué Edad Dorada va de front-end
 
 No por el eBook: **por la caja**.
 
@@ -77,11 +95,11 @@ Quien compra una caja de Navidad para su animal es el dueño más implicado que 
 
 Hogar en Calma no desaparece: es el order bump, el email de cross-sell y el ángulo creativo alternativo cuando Edad Dorada se sature.
 
-## 2.6 Lo que NO se lanza en frío: "Siempre a tu Lado"
+## 2.7 Lo que NO se lanza en frío: "Siempre a tu Lado"
 
-El eBook de duelo es el más delicado de tu catálogo y requiere reglas propias. Ver documento 06. Resumen: **nunca en campaña fría agresiva**. Se vende a la lista, por búsqueda y por recomendación. Hacerlo mal no solo es de mal gusto: es el tipo de anuncio que te reportan y te tumba la cuenta.
+El eBook de duelo requiere reglas propias (documento 06). Con un matiz que antes no tenía: **también acompaña a los niños de la casa**, y esa mitad sí es publicable. Puedes dirigirte a un padre sobre algo que va a ocurrir; no puedes perseguir a alguien por algo que acaba de ocurrirle. Esa es la frontera.
 
-## 2.7 Buenas noticias sobre publicidad
+## 2.8 Buenas noticias sobre publicidad
 
 En la versión anterior te advertí sobre la política de Meta de atributos personales. **Esa advertencia prácticamente desaparece:** protege la salud y condición del usuario, no la de su mascota.
 

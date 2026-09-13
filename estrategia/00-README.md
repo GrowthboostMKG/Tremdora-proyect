@@ -14,7 +14,7 @@
 | **[03 — Funnel maestro](03-funnel-maestro.md)** | Embudo de producto digital: landing, bump, upsell, flujos |
 | **[04 — Edad Dorada](04-edad-dorada.md)** | Producto de entrada: avatar, oferta, 5 ángulos, copys, orgánico |
 | **[05 — Hogar en Calma](05-hogar-en-calma.md)** | Order bump y segundo ángulo |
-| **[06 — Siempre a tu Lado](06-siempre-a-tu-lado.md)** | El producto de duelo y sus reglas propias |
+| **[06 — Siempre a tu Lado](06-siempre-a-tu-lado.md)** | Duelo del adulto y de los niños de la casa: dos productos en uno |
 | **[07 — Economía unitaria](07-economia-unitaria.md)** | Márgenes digitales, proyección de octubre, cuadro de mando |
 | **[08 — Cajas de Navidad](08-cajas-navidad.md)** | El negocio real: oferta, márgenes, preventa y calendario marcha atrás |
 | **[09 — Checklist legal y fiscal](09-legal-fiscal-checklist.md)** | Lo que te bloquea, IVA, Seguridad Social, arreglos en los productos |
@@ -23,18 +23,19 @@
 
 ---
 
-## Resumen en 10 líneas
+## Resumen en 11 líneas
 
 1. **TREMDORA es una tienda 100 % de mascotas.** Todo gira alrededor del animal y del vínculo con su persona.
-2. Tus tres eBooks son **las tres etapas de la misma vida**: convivencia (Hogar en Calma) → vejez (Edad Dorada) → pérdida (Siempre a tu Lado). *"Porque cada etapa también es especial"* —tu propia frase— es tu posicionamiento.
-3. **Los eBooks no son el negocio: son el mecanismo de captación** de las cajas de Navidad.
-4. Por eso el precio baja: **22 €**, no 40-100 €. Te interesa el número de compradores, no el ticket.
-5. **Edad Dorada va de front-end**, no por el eBook sino por la caja: el dueño de una mascota mayor es el mejor comprador de caja de Navidad que existe.
-6. Hogar en Calma es el **order bump a +12 €** y el segundo ángulo creativo.
-7. **Siempre a tu Lado nunca se lanza en frío agresivo.** Lista, búsqueda y prescripción veterinaria.
-8. **Mete los tres eBooks dentro de la caja de Navidad.** Coste marginal cero, sube el PVP a 69 € y el margen del 35 % al 45 %. Es lo que te hace incomparable.
-9. **Preventa: vendes primero, produces después.** Sin capital inmovilizado.
-10. **El 15 de octubre es tu fecha crítica**: arte en imprenta. Todo lo demás se organiza alrededor de esa fecha.
+2. Los tres libros comparten mecanismo: **observar (el diario) → reconocer (el libro) → actuar (el plan de 8 semanas)**. Enseñas al humano a leer a su mascota.
+3. Tus tres eBooks son **las tres etapas de la misma vida**: convivencia (Hogar en Calma) → vejez (Edad Dorada) → pérdida (Siempre a tu Lado). *"Porque cada etapa también es especial"* —tu propia frase— es tu posicionamiento.
+4. **Los eBooks no son el negocio: son el mecanismo de captación** de las cajas de Navidad.
+5. Por eso el precio baja: **22 €**, no 40-100 €. Te interesa el número de compradores, no el ticket.
+6. **Edad Dorada va de front-end**, no por el eBook sino por la caja: el dueño de una mascota mayor es el mejor comprador de caja de Navidad que existe.
+7. Hogar en Calma es el **order bump a +12 €** y el segundo ángulo creativo.
+8. **Siempre a tu Lado son dos productos en uno.** El duelo del adulto no se segmenta y va a lista, búsqueda y prescripción veterinaria. El duelo **infantil sí es publicable**: segmentas parentalidad, no tragedia.
+9. **Mete los tres eBooks dentro de la caja de Navidad.** Coste marginal cero, sube el PVP a 69 € y el margen del 35 % al 45 %. Es lo que te hace incomparable.
+10. **Preventa: vendes primero, produces después.** Sin capital inmovilizado.
+11. **El 15 de octubre es tu fecha crítica**: arte en imprenta. Todo lo demás se organiza alrededor de esa fecha.
 
 ---
 

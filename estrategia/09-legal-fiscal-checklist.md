@@ -45,7 +45,7 @@ Sobre tu preocupación del embargo: **domiciliar la deuda no crea un escudo.** U
 Mirando los mockups que me has enseñado:
 
 - [ ] **"20_Momentos"** lleva un guion bajo de nombre de archivo que se coló en el diseño. Cambiar a "20 Momentos".
-- [ ] **Componentes duplicados:** "Diario de Bienestar Senior" y "Plan Práctico de 8 Semanas" están en los dos packs. Quien compre ambos recibe lo mismo dos veces, y un diario "Senior" dentro del pack de ansiedad descoloca. **Renombra el de Hogar en Calma** (p. ej. "Diario de Bienestar Emocional") y dedupica el contenido del pack de los tres.
+- [ ] **Nombres de los componentes repetidos.** El "Diario" y el "Plan de 8 Semanas" aparecen en los dos packs, y eso está bien: **son el método** (observar → reconocer → actuar), no una duplicación por error. Lo que hay que arreglar es el nombre: un "Diario de Bienestar **Senior**" dentro del pack de ansiedad descoloca. Renómbralo por pack (p. ej. "Diario de Bienestar Emocional" en Hogar en Calma) y explica en el pack de los tres que cada diario es específico de su etapa.
 - [ ] **La tarjeta QR** de Hogar en Calma: en un producto digital el lector ya está en pantalla, un enlace funciona mejor que un QR. Y revisa la implicación de IVA (§9.2).
 - [ ] **Formato PDF + EPUB**, y tipografía cómoda: mucho de tu público lee en tablet.
 - [ ] **Disclaimer veterinario visible** en portada y landing: *"Este contenido no sustituye el diagnóstico ni el tratamiento de un veterinario."* Te protege y, paradójicamente, genera confianza.
