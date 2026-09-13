@@ -1,104 +1,127 @@
-# 8. Cajas de Navidad — el negocio real
+# 8. Cajas de Navidad — línea de producto independiente
 
-Todo lo anterior existe para que esto funcione. Aquí está el margen.
+> **Producto estacional físico**: cajas con motivos navideños para mascotas, con **una actividad para crear un recuerdo de ese día**. No incluye eBooks ni está anexada a ellos. Es otra línea de la tienda.
 
-## 8.1 La jugada que lo cambia todo: mete los eBooks dentro de la caja
-
-Una caja de Navidad para mascotas con snacks y un juguete es **exactamente igual que la de cualquier otra tienda**, y compite por precio. Pero tú tienes algo que ninguna otra tiene: **tres métodos digitales completos con coste marginal cero**.
+## 8.1 Qué relación tiene con los eBooks (y cuál no)
 
 ```
-        CAJA GENÉRICA                    TU CAJA
-   ┌──────────────────────┐      ┌──────────────────────────┐
-   │ Snacks               │      │ Snacks                   │
-   │ Juguete              │      │ Juguete                  │
-   │ Caja bonita          │      │ Caja impresa con SU NOMBRE│
-   │                      │      │ + Los 3 eBooks completos │
-   │                      │      │   (valor 104 €, coste 0) │
-   ├──────────────────────┤      ├──────────────────────────┤
-   │      39-49 €         │      │        69 €              │
-   │   margen ~35 %       │      │     margen ~45 %         │
-   └──────────────────────┘      └──────────────────────────┘
+   ❌ NO se venden juntas          ✅ SÍ comparten audiencia
+   ─────────────────────          ─────────────────────────
+   Nada de eBooks dentro           Mismo cliente: dueño de mascota
+   Nada de packs mixtos            Mismo píxel entrenado en octubre
+   Precios y landings separados    Misma lista para la preventa
+                                   Cross-sell por email en ambos sentidos
 ```
 
-Esto hace tres cosas a la vez: **sube el precio defendible, sube el margen y te hace incomparable.** Y la personalización con el nombre de la mascota (que tu imprenta puede hacer) convierte la caja en un regalo, no en una compra.
+**La conexión es comercial, no de producto.** Los eBooks de octubre te construyen la lista y el píxel; en noviembre le vendes las cajas a esa gente. Eso es todo — y es suficiente, porque es lo que hace que la publicidad de noviembre sea rentable.
 
-## 8.2 Economía de la caja
+## 8.2 El recuerdo es el producto
 
-| Concepto | Importe |
-|---|---|
-| PVP | 69,00 € |
-| IVA (21 %, es producto físico) | −11,98 € |
-| Producto de la distribuidora | −14,00 € |
-| Caja impresa + packaging | −6,00 € |
-| eBooks incluidos | **0,00 €** |
-| Envío | −5,00 € |
-| Comisiones | −1,30 € |
-| **Margen de contribución** | **30,72 € (45 %)** |
-| **CAC máximo** | **30,72 €** |
+Una caja con snacks y un juguete navideño es intercambiable con la de cualquier tienda y acaba compitiendo por precio. **La actividad de recuerdo no lo es**, y es lo único que debe protagonizar toda tu comunicación.
 
-Con un margen de 15 € (caja a 49 € sin eBooks) no podrías pagar publicidad. Con 30,72 € sí. **Esa es la diferencia entre tener negocio y no tenerlo.**
+Por qué es tan buen diferenciador:
 
-## 8.3 Dos versiones, no una
+1. **Convierte un consumible en un objeto que se guarda.** Los snacks se acaban en tres días; el recuerdo se queda en casa para siempre.
+2. **Genera UGC solo.** Nadie fotografía un paquete de premios. Todo el mundo fotografía el recuerdo que acaba de hacer con su perro. **Ese contenido es tu creatividad publicitaria del año siguiente, gratis.**
+3. **Es repetible cada año.** Uno por Navidad, coleccionable. Eso convierte un producto estacional en una **recompra anual**, que es lo más difícil de conseguir en estacional puro.
+4. **Justifica el precio.** Un recuerdo personalizado no se compara con una caja de golosinas, así que sales de la guerra de precios.
+5. **Es regalable.** Y el regalo aguanta precios más altos que el autoconsumo.
 
-Ya tienes la segmentación hecha por los eBooks:
+> **Instrucción de comunicación:** en anuncios y landing, el héroe es **el recuerdo terminado**, no la caja abierta con productos dentro. La foto de apertura de caja la tiene todo el mundo. La del recuerdo, solo tú.
 
-| Caja | Para | Contenido diferencial |
+## 8.3 Economía de la caja
+
+Sin eBooks dentro, el margen tiene que salir del precio y del control de costes. Estos son los números que necesitas defender:
+
+| Concepto | Escenario A | **Escenario B (objetivo)** |
 |---|---|---|
-| **Caja Edad Dorada** | Mascotas mayores | Snacks blandos, juguete de baja intensidad, manta. + pack Edad Dorada |
-| **Caja Hogar en Calma** | Mascotas nerviosas / adoptadas | Juguete de mordida, snack de calma, algo con olor. + pack Hogar en Calma |
+| PVP | 49,00 € | **59,00 €** |
+| IVA (21 %, producto físico) | −8,50 € | −10,24 € |
+| Producto de la distribuidora | −11,00 € | −11,00 € |
+| Kit de recuerdo | −3,00 € | −3,00 € |
+| Caja impresa y packaging | −5,00 € | −5,00 € |
+| Envío | −5,00 € | −5,00 € |
+| Comisiones | −0,99 € | −1,15 € |
+| **Margen de contribución** | **15,51 € (32 %)** | **24,61 € (42 %)** |
+| **CAC máximo** | **15,51 €** | **24,61 €** |
 
-Enviar a cada comprador la caja de *su* eBook convierte muchísimo mejor que una caja genérica: ya sabes qué animal tiene.
+**El escenario A no es un negocio.** Con 15 € de contribución no puedes pagar publicidad en frío: te la comes entera. Solo funcionaría vendiendo a lista y retargeting, y ahí el volumen es limitado.
 
-## 8.4 Preventa: vendes primero, produces después
+**Tres palancas para llegar al escenario B, en orden de facilidad:**
 
-No tienes capital para comprar stock a ciegas, así que **no lo hagas**. La preventa resuelve exactamente eso:
+1. **Sube a 59 € y que el recuerdo lo justifique.** Es la palanca gratis. Un objeto personalizado que se guarda no se compara con snacks.
+2. **Menos artículos, mejor elegidos.** Tres cosas buenas y un recuerdo memorable superan a ocho baratijas, y bajan el COGS. Negocia con la distribuidora sobre esa base.
+3. **Recupera el envío.** Cóbralo aparte, o pon envío gratis a partir de dos cajas. Son 5 € que van directos al margen —el 20 % de tu contribución.
 
-1. Abres pedidos con fecha de entrega comprometida y clara
+## 8.4 Palancas de AOV dentro de la línea
+
+- **Pack de 2 con descuento** — muchos hogares tienen dos mascotas, y quien no, regala la segunda. Preselecciónalo.
+- **Personalización con el nombre** de la mascota, +6 €. Tu imprenta puede hacerlo y el coste marginal es bajo.
+- **Recuerdo extra** como order bump, para hacer uno con cada miembro de la familia.
+- **Envío exprés** en la recta final de diciembre: la gente paga por llegar a tiempo.
+
+## 8.5 Dos versiones, segmentadas por tu propia lista
+
+Los eBooks no van dentro, pero **sí te dicen qué mascota tiene cada cliente**. Úsalo:
+
+| Caja | Para | Diferencia |
+|---|---|---|
+| **Estándar** | Cualquier mascota | Recuerdo + surtido navideño |
+| **Senior** | Mascotas mayores | Snacks blandos, juguete de baja intensidad, y el recuerdo con un acabado más cuidado |
+
+A un comprador de Edad Dorada le ofreces la Senior; a uno de Hogar en Calma, la estándar. Mismo email, distinto producto, mucha mejor conversión.
+
+## 8.6 Preventa: vendes primero, produces después
+
+No tienes capital para stock a ciegas, y no hace falta.
+
+1. Abres pedidos con **fecha de entrega visible antes de pagar**
 2. Cierras cantidades con distribuidora e imprenta **con los pedidos ya cobrados**
 3. Montas y envías
 
-**Tres condiciones para que esto sea honesto y legal:**
-- La fecha de entrega tiene que estar **escrita y visible** antes de pagar
-- Necesitas un mínimo de unidades comprometido con tu proveedor y un plazo real confirmado por escrito
-- Si no llegas, devuelves. Sin discusión. Ten la política escrita antes de abrir.
+**Tres condiciones innegociables:** la fecha escrita antes del pago, un plazo real confirmado por escrito con tu proveedor, y una política de devolución publicada desde el día uno.
 
-> Un retraso en Navidad no es un retraso: es un regalo que no llega. Sé conservadora con las fechas y promételas con margen.
+> Un retraso en Navidad no es un retraso: es un regalo que no llega. Promete con margen.
 
-## 8.5 Calendario marcha atrás (hoy es 13 de septiembre)
+## 8.7 Calendario marcha atrás (hoy es 13 de septiembre)
 
-| Fecha límite | Hito | Por qué esa fecha |
-|---|---|---|
-| **30 sept** | Legal, fiscal, medición y cobro resueltos | Sin esto no puedes vender nada |
-| **1 oct** | Campaña de eBooks en marcha | Necesitas 4-5 semanas de píxel y lista |
-| **10 oct** | **Distribuidora cerrada**: precios, mínimos, plazos por escrito | Condiciona el PVP de la caja |
-| **15 oct** | **Arte de la caja aprobado en imprenta** | ⚠️ **Punto de no retorno.** Impresión suele ser 2-4 semanas |
-| **25 oct** | Landing de preventa lista + flujo de lista de espera activo | Calentar antes de abrir |
-| **3-7 nov** | **Preventa abierta** | Deja 3 semanas hasta Black Friday |
-| **27 nov** | **Black Friday** | Pico de la preventa |
-| **1 dic** | Cantidad final cerrada con proveedores | Producción |
-| **~10 dic** | Cierre de pedidos con entrega garantizada en Navidad | Margen de montaje y envío |
-| **~18 dic** | Último envío para Navidad | Plazos de paquetería peninsular |
-| **19 dic – 2 ene** | **Campaña de Reyes** | En España es un segundo pico entero |
+| Fecha límite | Hito |
+|---|---|
+| **30 sept** | Legal, fiscal, medición y cobro resueltos |
+| **1 oct** | Campaña de eBooks en marcha — construye lista y píxel |
+| **10 oct** | **Distribuidora cerrada**: precios, mínimos y plazos por escrito |
+| **15 oct** | ⚠️ **Arte de la caja aprobado en imprenta.** Punto de no retorno |
+| **25 oct** | Landing de preventa lista y lista de espera activa |
+| **3-7 nov** | **Preventa abierta** |
+| **27 nov** | **Black Friday** — pico |
+| **1 dic** | Cantidad final cerrada con proveedores |
+| **~10 dic** | Cierre de pedidos con entrega garantizada en Navidad |
+| **~18 dic** | Último envío para Navidad |
+| **19 dic – 2 ene** | **Campaña de Reyes** |
 
-**El 15 de octubre es tu fecha crítica.** Tendrás que comprometer arte y cantidades mínimas con solo dos semanas de datos de venta de eBooks. Confirma hoy mismo el plazo real de tu imprenta: si son 4 semanas y no 2, esta fecha se te adelanta al 1 de octubre.
+**El 15 de octubre manda.** Confirma hoy el plazo real de tu imprenta: si son cuatro semanas y no dos, la fecha se te adelanta al 1 de octubre.
 
-## 8.6 No te olvides de Reyes
+## 8.8 No te olvides de Reyes
 
-En España, una parte enorme del regalo se compra para el **6 de enero**, no para el 25 de diciembre. Eso te da:
-- Una segunda ventana de venta de dos semanas con la campaña ya montada y amortizada
-- Un colchón si te retrasas con la producción de diciembre
-- Un ángulo propio: *"Los Reyes también le traen algo a él"*
+En España buena parte del regalo se compra para el **6 de enero**. Eso te da media temporada más con la campaña ya amortizada, un colchón si te retrasas en producción, y un ángulo propio: *"Los Reyes también le traen algo a él"*.
 
-Planifica el stock contando las dos fechas, no solo Navidad.
-
-## 8.7 Ángulos de anuncio para la caja
+## 8.9 Ángulos de anuncio
 
 | # | Ángulo | Hook |
 |---|---|---|
-| 1 | **Su nombre en la caja** | *"Este año tiene su propio regalo. Con su nombre puesto."* |
-| 2 | **Quizá la última** | *"Tiene 13 años. Esta Navidad va a ser especial."* — solo a audiencia de Edad Dorada |
+| 1 | **El recuerdo** | *"Los premios se acaban en tres días. Esto se queda para siempre."* |
+| 2 | **Su nombre en la caja** | *"Este año tiene su propio regalo. Con su nombre puesto."* |
 | 3 | **También es familia** | *"Todos abrieron un regalo menos él."* |
-| 4 | **Regalo para el dueño** | Para quien busca qué regalar a alguien obsesionado con su perro |
-| 5 | **Nochevieja y petardos** | *"Antes de las campanadas, prepáralo."* — enlaza con Hogar en Calma |
+| 4 | **Quizá la última** | *"Tiene 13 años. Esta Navidad quiero guardarla."* — **solo a audiencia de Edad Dorada** |
+| 5 | **Uno cada año** | *"El primero fue en 2026."* — instala la recompra anual desde el año uno |
 
-El ángulo 2 es el más potente de todo tu catálogo, y solo tú puedes usarlo: **nadie más tiene una lista de dueños de mascotas mayores.** Trátalo con delicadeza: emoción, no miedo.
+El ángulo 1 es tu mensaje principal en frío: **vende el recuerdo, no la caja.**
+
+El ángulo 4 es el más potente de todo tu catálogo y solo tú puedes usarlo, porque solo tú tendrás una lista de dueños de mascotas mayores. Trátalo con ternura y nunca con miedo: *"quiero guardar esta Navidad"*, jamás *"puede que sea la última"*.
+
+## 8.10 Pendiente de confirmar
+
+- **¿Qué es exactamente la actividad de recuerdo?** Es lo más importante de esta línea y necesito el detalle para escribir el copy y decidir el precio. ¿Huella, foto, adorno para el árbol, tarjeta?
+- **COGS real** por caja con la distribuidora, y si hay mínimos de pedido
+- **Plazo y coste de la imprenta**, incluida la personalización con nombre
+- **Peso y volumen** de la caja montada — determina el coste de envío, que aquí pesa el 20 % del margen

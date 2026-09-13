@@ -49,11 +49,11 @@ La frase de venta que sale de aquí, y que sirve para los tres libros:
 
 ## 2.4 Lo más importante: los eBooks NO son el negocio
 
-Son **el mecanismo de adquisición** del negocio, que son las **cajas de Navidad para mascotas**.
+Son **el mecanismo de adquisición**: construyen la lista y el píxel con los que en noviembre venderás las **cajas de Navidad**. Las dos líneas son productos independientes —no se venden juntas ni se empaquetan— pero comparten cliente, píxel y lista.
 
 ```
   eBooks (oct)              →      LISTA + PÍXEL      →    CAJAS DE NAVIDAD (nov-ene)
-  19-29 € · margen 93 %          compradores reales         49-59 € · el beneficio
+  22 € · margen 93 %             compradores reales         59 € · línea independiente
   break-even o pérdida leve     de nicho mascotas          preventa, sin stock previo
 ```
 
@@ -76,7 +76,7 @@ Esto reordena todas las decisiones:
 | **Hogar en Calma** | Order bump en el checkout | **+12 €** |
 | **Siempre a tu Lado** | Solo a lista y búsqueda, nunca frío agresivo | **16 €** |
 | **Pack "Toda una Vida"** (los 3) | Upsell post-compra | **39 €** |
-| **Caja de Navidad** | El negocio real | **49–59 €** |
+| **Caja de Navidad** | Línea estacional aparte, sin eBooks dentro | **59 €** |
 
 > **40–100 € era demasiado.** Son guías de ~50 páginas en nicho mascotas, con marca desconocida y tráfico frío. A 22 € consigues tres o cuatro veces más compradores que a 47 €, y en noviembre cada comprador vale lo mismo.
 

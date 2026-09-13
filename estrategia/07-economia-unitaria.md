@@ -39,7 +39,7 @@ Seamos honestos con el número:
 27 compradores × 15 % de conversión  =   4 cajas
 300 leads      ×  3 % de conversión  =   9 cajas
                                         ─────────
-                                        ~13 cajas   ≈ 900 €
+                                        ~13 cajas   ≈ 770 €
 ```
 
 **Eso no es un lanzamiento de Navidad.** Es un ensayo.
