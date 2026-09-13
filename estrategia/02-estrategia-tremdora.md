@@ -1,109 +1,93 @@
-# 2. Estrategia de lanzamiento TREMDORA
+# 2. Estrategia TREMDORA
 
-## 2.1 Punto de partida (lo que me has dicho)
+## 2.1 Qué es TREMDORA
 
-| Variable | Estado |
-|---|---|
-| Tienda | Shopify recién montada, sin ventas |
-| Marca | Desconocida, sin prueba social |
-| Base de datos | 0 contactos |
-| Redes sociales | En construcción |
-| Presupuesto ads | **1.200 €/mes = 40 €/día** |
-| Ticket | 40–100 € (trabajaremos sobre **AOV objetivo 62 €**) |
-| Productos | 2 híbridos (físico + componente digital) |
-| Mercado | España primero → LATAM después |
+**Una tienda 100 % de mascotas.** No de bienestar humano, no de hogar. Todo el catálogo gira alrededor del animal y del vínculo entre el animal y su persona.
 
-## 2.2 LA DECISIÓN MÁS IMPORTANTE: no lances los dos productos a la vez
+Lo que hace especial tu catálogo es que no trata la mascota como un objeto de consumo (pienso, juguetes, camas) sino como **un ser que atraviesa etapas** — y que su humano atraviesa con él.
 
-Esta es mi recomendación más firme y va contra tu planteamiento inicial. Te explico el porqué con números.
+## 2.2 La arquitectura de marca: el ciclo de una vida
 
-Con **40 €/día**, si repartes entre dos productos tienes **20 €/día por producto**. A un CPM en España de ~10 € y un CVR de tienda nueva (~1,5 %), eso son aproximadamente **0,3–0,5 pedidos al día por producto**.
-
-El problema no es el dinero: es que **Meta necesita datos para aprender**. El píxel sale de la fase de aprendizaje en torno a **50 conversiones por conjunto de anuncios cada 7 días**. Con 0,4 pedidos/día vas a tardar *cuatro meses* en llegar ahí — con dos productos, nunca llegas. Estarías pagando por dos algoritmos ciegos en lugar de uno que aprende.
-
-Además, con dos productos duplicas: creatividades, copys, flujos de email, fotos, atención al cliente y análisis. Con una sola persona y 1.200 €, eso es lo que mata el lanzamiento.
-
-### La secuencia correcta
+Tus tres eBooks no son tres productos sueltos. Son **las tres etapas de la misma historia**, en orden:
 
 ```
-Mes 1-2  ──►  PRODUCTO A a fuego (todo el presupuesto + todo el contenido)
-                     │
-                     ├──► Objetivo: 1 creativo ganador + funnel validado + 300-800 emails
-                     ▼
-Mes 3-4  ──►  PRODUCTO B lanzado PRIMERO a la lista de A (coste 0 €)
-                     │  y después con paid, financiado con el margen de A
-                     ▼
-Mes 5+   ──►  Cross-sell cruzado entre ambos + apertura LATAM
+        LA CONVIVENCIA          →        LA VEJEZ          →         LA PÉRDIDA
+      "Hogar en Calma"              "Edad Dorada"           "Siempre a tu Lado"
+      ansiedad, conducta,        cuidado de la mascota      acompañar el duelo
+      miedos, convivencia         mayor, calidad de vida      por su muerte
+             │                            │                          │
+             └────────────────────────────┴──────────────────────────┘
+                                          │
+                        « Porque cada etapa también es especial »
 ```
 
-El segundo producto se lanza **gratis** a una audiencia que ya te compró. Ese es el momento en que TREMDORA deja de ser dos productos sueltos y pasa a ser una marca con LTV.
+Esa frase ya está en tus propias portadas. **Es tu posicionamiento y no lo sabías.** Úsala como claim de marca en toda la tienda.
 
-### ¿Cuál va primero? Mi recomendación: **Hogar en Calma**
+**Por qué esto es comercialmente potente y casi nadie en el nicho lo tiene:**
 
-Aplica esta regla de decisión (marca el que puntúe más alto):
+1. **El LTV está incorporado en el producto.** Quien compra Hogar en Calma con un perro de 3 años, dentro de cinco años necesitará Edad Dorada, y después Siempre a tu Lado. No tienes que inventar razones para volver a venderle: la vida de su animal las inventa por ti.
+2. **Los tres productos comparten avatar exacto**: dueño de mascota emocionalmente implicado. Un solo píxel, una sola audiencia, tres ofertas.
+3. **Es una marca, no un catálogo.** Eso es lo que te permite vender después una caja de Navidad a 49 € sin ser "otra tienda de mascotas".
 
-| Criterio | Hogar en Calma | Edad Dorada |
+## 2.3 Lo más importante: los eBooks NO son el negocio
+
+Son **el mecanismo de adquisición** del negocio, que son las **cajas de Navidad para mascotas**.
+
+```
+  eBooks (oct)              →      LISTA + PÍXEL      →    CAJAS DE NAVIDAD (nov-ene)
+  19-29 € · margen 93 %          compradores reales         49-59 € · el beneficio
+  break-even o pérdida leve     de nicho mascotas          preventa, sin stock previo
+```
+
+Esto reordena todas las decisiones:
+
+| Decisión | Si los eBooks fueran el negocio | **Como son captación** |
 |---|---|---|
-| Tamaño de audiencia fría en Meta | **Amplia** (hogar, descanso, bienestar) | Más estrecha |
-| Riesgo de rechazo publicitario | Bajo | **Alto** (ver 2.3) |
-| Facilidad de creatividad visual | **Alta** (producto en escena, ASMR, antes/después) | Media (sensibilidad en el retrato) |
-| Estacionalidad | Favorable otoño-invierno | Neutra |
-| Comprador = usuario | **Sí** (menos fricción) | Frecuentemente no (hijo/a compra para el padre/madre) |
+| Precio | Lo más alto que aguante | **Lo más bajo que cubra el CAC** |
+| Métrica reina | ROAS | **Nº de compradores y calidad del píxel** |
+| Objetivo del mes 1 | Beneficio | **Compradores antes del 1 de noviembre** |
+| Umbral de éxito | CPA < 24 € | **Break-even aceptable, pérdida leve tolerable** |
 
-**Hogar en Calma** es el mejor cabeza de playa para tráfico pagado: audiencia más ancha, política publicitaria más permisiva y creatividades más baratas de producir. **Edad Dorada** es probablemente el producto de **mayor margen emocional y mejor conversión**, pero necesita más prueba social y más cuidado con Meta — por eso va segundo, cuando ya tengas reseñas y lista.
+**Un comprador de 19 € convierte en la preventa de Navidad a un 10–15 %. Un lead gratuito, al 2–3 %.** Por eso te interesa el número de compradores, no el ticket.
 
-> Si tus datos internos contradicen esto (p. ej. Edad Dorada tiene mucho más margen o ya tienes validación previa), invierte el orden. Lo que **no** es negociable es lanzar los dos a la vez con 1.200 €.
+## 2.4 La escalera de precios
 
-## 2.3 Aviso operativo crítico: política de Meta en "Edad Dorada"
-
-Meta prohíbe los anuncios que **impliquen conocimiento de un atributo personal** del usuario: salud, condición física, edad avanzada, discapacidad. Esto rechaza cuentas enteras, no solo anuncios.
-
-| ❌ Nunca escribas | ✅ Escribe esto |
-|---|---|
-| "¿Tu madre tiene artrosis?" | "Muchas familias descubren que pequeños gestos del día a día se vuelven cuesta arriba" |
-| "Si tienes más de 70 años y te cuesta dormir…" | "Dormir del tirón después de los 70 es más fácil de lo que parece" |
-| "Para personas con movilidad reducida" | "Diseñado para moverse por casa con total seguridad" |
-| "Deja de sufrir dolores de espalda" | "Así es como se siente una espalda descansada" |
-
-**Regla:** habla en tercera persona o de forma general y aspiracional. Nunca en segunda persona señalando una condición. Y **jamás hagas promesas médicas** ("cura", "alivia el dolor", "trata la artrosis") — eso además te expone a la normativa española de publicidad de productos sanitarios.
-
-## 2.4 Posicionamiento de la marca TREMDORA
-
-TREMDORA no es una tienda de productos: es una marca sobre **el bienestar cotidiano en casa, en cada etapa de la vida**. Ese paraguas es lo que permite que los dos productos convivan y se vendan cruzados.
-
-```
-                    TREMDORA
-        "Bienestar que se nota en casa"
-                        │
-        ┌───────────────┴───────────────┐
-        ▼                               ▼
-  HOGAR EN CALMA                   EDAD DORADA
-  El hogar como refugio        Vivir bien los mejores años
-  Comprador: 30-55              Comprador: 45-65 (para 70+)
-  Emoción: descanso, orden      Emoción: cuidado, tranquilidad
-```
-
-**El puente comercial:** quien compra Hogar en Calma para sí, a menudo también cuida de un padre o madre mayor. Y quien compra Edad Dorada para su madre, quiere calma en su propia casa. **Ese cross-sell por email es margen puro y es la razón estratégica de tener las dos líneas bajo una sola marca.**
-
-## 2.5 El ángulo híbrido: tu ventaja competitiva real
-
-Tus productos son **físico + digital**. Esto no es un detalle: es tu única ventaja estructural frente a un dropshipper chino con el mismo producto.
-
-1. **El digital no se puede copiar.** Cualquiera clona tu producto físico en AliExpress. Nadie clona tu método, tu guía, tu programa de 21 días.
-2. **El digital tiene margen ~100 %.** Cada euro que muevas del físico al digital es margen puro que puedes reinvertir en CAC.
-3. **El digital justifica el precio.** Un producto de 39 € + una guía valorada en 47 € se vende a 69 € sin parecer caro.
-4. **El digital crea el flujo de email.** La entrega del contenido digital es una secuencia de emails que la gente **abre sí o sí** — y ahí es donde vendes el segundo producto.
-
-> **Instrucción concreta:** nunca vendas "producto + PDF". Vende **"el método TREMDORA, y el producto es la herramienta que lo hace posible"**. Cambia la jerarquía y cambia el precio que puedes pedir.
-
-## 2.6 Objetivos realistas de los primeros 90 días
-
-Sé honesto contigo mismo: **el mes 1 con 1.200 € no es rentable, y no debe serlo.** El mes 1 se compra información, no beneficio.
-
-| Horizonte | Objetivo real | Qué NO es el objetivo |
+| Producto | Rol | Precio recomendado |
 |---|---|---|
-| **Días 1–14** | Tienda lista, oferta cerrada, 15 creativos grabados, lead magnet publicado | Vender |
-| **Días 15–45** | 1–2 creativos ganadores identificados, 25–40 pedidos, 400+ emails captados | Ser rentable |
-| **Días 46–90** | CPA por debajo del break-even, email >20 % del revenue, lanzamiento del producto 2 | Escalar a 5.000 €/mes |
+| **Edad Dorada** | Front-end (entrada de la campaña) | **22 €** |
+| **Hogar en Calma** | Order bump en el checkout | **+12 €** |
+| **Siempre a tu Lado** | Solo a lista y búsqueda, nunca frío agresivo | **16 €** |
+| **Pack "Toda una Vida"** (los 3) | Upsell post-compra | **39 €** |
+| **Caja de Navidad** | El negocio real | **49–59 €** |
 
-**Métrica de éxito del mes 1:** haber encontrado **un** ángulo creativo con hook rate >25 % y CTR >1,5 %. Eso, y no las ventas, es lo que determina si el mes 3 funciona.
+> **40–100 € era demasiado.** Son guías de ~50 páginas en nicho mascotas, con marca desconocida y tráfico frío. A 22 € consigues tres o cuatro veces más compradores que a 47 €, y en noviembre cada comprador vale lo mismo.
+
+## 2.5 Por qué Edad Dorada va de front-end
+
+No por el eBook: **por la caja**.
+
+| Criterio | Edad Dorada | Hogar en Calma |
+|---|---|---|
+| Valor percibido del pack | **6 recursos** | 4 recursos |
+| Urgencia emocional | **Muy alta** (el tiempo se acaba) | Alta (molestia diaria) |
+| Tamaño de audiencia fría | Media | **Amplia** |
+| **Calidad como comprador de caja de Navidad** | **Máxima** | Media |
+
+Quien compra una caja de Navidad para su animal es el dueño más implicado que existe. **El dueño de una mascota mayor sabe que quizá sea la última Navidad juntos.** Ese es el perfil que quieres tener en la lista el 1 de noviembre.
+
+Hogar en Calma no desaparece: es el order bump, el email de cross-sell y el ángulo creativo alternativo cuando Edad Dorada se sature.
+
+## 2.6 Lo que NO se lanza en frío: "Siempre a tu Lado"
+
+El eBook de duelo es el más delicado de tu catálogo y requiere reglas propias. Ver documento 06. Resumen: **nunca en campaña fría agresiva**. Se vende a la lista, por búsqueda y por recomendación. Hacerlo mal no solo es de mal gusto: es el tipo de anuncio que te reportan y te tumba la cuenta.
+
+## 2.7 Buenas noticias sobre publicidad
+
+En la versión anterior te advertí sobre la política de Meta de atributos personales. **Esa advertencia prácticamente desaparece:** protege la salud y condición del usuario, no la de su mascota.
+
+- ✅ "¿Tu perro se pone nervioso cada vez que sales de casa?" — publicable
+- ✅ "Tu gato ya no salta al sofá como antes" — publicable
+- ⚠️ Evita afirmaciones veterinarias ("cura", "trata", "diagnostica"). Posiciónate como **complemento del veterinario, nunca sustituto**.
+- ⚠️ En el producto de duelo, tono de acompañamiento, jamás de urgencia o escasez.
+
+Tienes mucha más libertad creativa de la que te dije.
