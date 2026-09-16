@@ -83,7 +83,7 @@ Y lo único prohibido, por mucha prisa que dé la Navidad: **abrir ventas antes 
 >
 > **Solo dos productos: Edad Dorada de entrada y Hogar en Calma como bump.** El pack de Sigue Contigo con la urna se prepara después de Navidad (doc. 06).
 
-**1 oct** — Encender. Una campaña ASC a 28 €/día con Edad Dorada de entrada y los 5 ángulos dentro de un solo conjunto. Campaña de muestra gratis a 12 €/día. **Empieza a 15 €/día los primeros 3 días** para no quemar la cuenta nueva.
+**Al desbloquearse el alta** — Encender con **15 €/día en total**: 9 €/día a la campaña de captación (que hace de laboratorio de creativos, treinta veces más barato que aprender con compras) y 6 €/día a la campaña de venta. **Máximo 4-5 anuncios activos**: con este presupuesto, más anuncios significan que ninguno recibe impresiones suficientes para juzgarlo. A partir de la semana 4, invierte el reparto a favor de la venta con el ángulo ganador ya identificado.
 
 **10 oct** — ⚠️ **Distribuidora cerrada**: precios, mínimos y plazos por escrito.
 

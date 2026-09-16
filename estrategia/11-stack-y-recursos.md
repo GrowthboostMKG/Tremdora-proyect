@@ -19,13 +19,15 @@ Para noviembre añade una app de order bump y upsell post-compra (~35-50 €/mes
 
 | Partida | Sept | Oct | Nov | Dic |
 |---|---|---|---|---|
-| Meta Ads | 0 € | 1.200 € | 1.200 €+ | 1.200 €+ |
+| Meta Ads | 0 € | 460 € | 460 € | 460 €+ |
 | Software | ~50 € | ~65 € | ~110 € | ~110 € |
 | Imprenta (arte + tirada) | — | señal | resto | — |
 | Stock distribuidora | — | — | **solo lo ya vendido** | — |
 | **Cuota autónoma** | — | 80 € o ~300 € | " | " |
 
 > La preventa existe precisamente para que la fila de stock nunca sea un desembolso a ciegas.
+
+**Presupuesto publicitario: 460 €/mes (15 €/día).** El coste neto real de tu bolsillo es menor porque las ventas vuelven: ~294 € el mes 1, y positivo desde el mes 2-3 si aparece un creativo ganador (ver doc. 07). Se sube con beneficio, no con sueldo.
 
 ## 11.3 Reparto de tu tiempo
 
