@@ -20,6 +20,7 @@
 | **[09 — Checklist legal y fiscal](09-legal-fiscal-checklist.md)** | Lo que te bloquea, IVA, Seguridad Social, arreglos en los productos |
 | **[10 — Plan de ejecución](10-plan-ejecucion.md)** | De hoy a Reyes, semana a semana. **Empieza por aquí.** |
 | **[11 — Stack y recursos](11-stack-y-recursos.md)** | Herramientas, presupuesto y qué puedes hacer desde fuera de España |
+| **[12 — Montar Meta paso a paso](12-montar-meta-paso-a-paso.md)** | De cero: portfolio, cuenta publicitaria, píxel, API de Conversiones y control de presupuesto |
 
 ---
 
