@@ -21,7 +21,10 @@
 | **[10 — Plan de ejecución](10-plan-ejecucion.md)** | De hoy a Reyes, semana a semana. **Empieza por aquí.** |
 | **[11 — Stack y recursos](11-stack-y-recursos.md)** | Herramientas, presupuesto y qué puedes hacer desde fuera de España |
 | **[12 — Montar Meta paso a paso](12-montar-meta-paso-a-paso.md)** | De cero: portfolio, cuenta publicitaria, píxel, API de Conversiones y control de presupuesto |
-| **[13 — Plan de creatividades](13-creatividades-plan.md)** | Cuántos anuncios a 15 €/día, los cinco de arranque con receta de grabación y el sistema de tres rondas |
+| **[13 — Plan de creatividades](13-creatividades-plan.md)** | Cuántos anuncios a 15 €/día, los cinco de arranque y el sistema de tres rondas |
+| **[14 — Guiones de los vídeos](14-guiones-videos.md)** | Los cinco anuncios segundo a segundo: imagen, texto en pantalla y audio |
+| **[15 — Crear las campañas](15-crear-campanas-paso-a-paso.md)** | Clic a clic en Meta: las dos campañas, subir anuncios, columnas de métricas |
+| **[16 — Contenido y la serie](16-contenido-redes-serie.md)** | Calendario semanal y la serie de 8 episodios "8 semanas con…" |
 
 ---
 
