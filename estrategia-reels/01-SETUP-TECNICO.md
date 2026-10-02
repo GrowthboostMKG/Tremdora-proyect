@@ -174,3 +174,96 @@ Son 5 minutos más por reel y la diferencia en retención es grande.
 - **Portada coherente**: 4–5 palabras, misma tipografía y mismo sitio en todos los reels. Es lo que hace que tu perfil se vea como una cuenta y no como una carpeta.
 - **Duración**: 20–35 s para informativos (solución, dato, error, comparación). 35–60 s para tutorial y storytelling. Por debajo de 12 s no da tiempo a nada; por encima de 75 s, el primer mes, no.
 - **Exporta a 1080×1920** y sube por wifi, no con datos: la app comprime más si la conexión es mala.
+
+---
+---
+
+# 9. AJUSTES DEL iPHONE 17 PRO
+
+> Menús de iOS a octubre de 2026. Si alguno no aparece con ese nombre exacto, búscalo en Ajustes: Apple los mueve de sitio entre versiones.
+
+## Los cinco ajustes que hay que tocar
+
+**1. Resolución y fotogramas**
+`Ajustes → Cámara → Grabar vídeo → **4K a 30 fps**`
+Es el mejor equilibrio para redes: calidad de sobra, margen para reencuadrar, y archivos manejables. Nada de 60 fps salvo que vayas a hacer cámara lenta.
+
+**2. HDR desactivado — el más importante y el que nadie toca**
+`Ajustes → Cámara → Grabar vídeo → Vídeo HDR → **desactivado**`
+El HDR satura de más, exagera el movimiento y da un aspecto raro sobre los tonos de piel. Y al subirlo a Instagram, la recompresión lo empeora: colores quemados y grises lavados. **Apágalo y se acabó el problema.**
+
+**3. Sonido en Audio Espacial**
+`Ajustes → Cámara → Grabar sonido → **Audio Espacial**`
+Es imprescindible para el punto siguiente.
+
+**4. Audio Mix — esto cambia tu lista de la compra**
+Después de grabar: `Fotos → abres el vídeo → Editar → **Audio Mix** → Estudio`
+
+Las opciones son **Estándar**, **En el encuadre**, **Estudio** y **Cinematográfico**. «Estudio» reduce el ruido de fondo y la reverberación, y hace que suene como grabado en un estudio. Para una cabeza parlante en un salón, es exactamente lo que necesitas.
+
+> ⚠️ **Corrección a lo que te dije antes sobre el micro.**
+> **Audio Mix solo funciona con Audio Espacial y los micrófonos del propio iPhone.** Si grabas con micro externo, al editar **no aparece la opción**.
+>
+> Así que antes de comprar nada: **graba 20 segundos con los micros del iPhone y pásales Audio Mix en «Estudio»**, y escúchalo con auriculares. En una habitación con textiles y a 70–100 cm, es muy probable que suene mejor que un micro de solapa barato — y entonces no necesitas comprar nada.
+>
+> Si aun así tu habitación tiene mucho eco, entonces sí: micro de solapa, y renuncias a Audio Mix. Pero **pruébalo antes de gastar**.
+
+**5. Cuadrícula**
+`Ajustes → Cámara → Cuadrícula → activada`
+La necesitas para poner los ojos en el tercio superior.
+
+## Ajustes secundarios que también suman
+
+- **Bloquear balance de blancos** — en `Ajustes → Cámara → Grabar vídeo`, si tu versión lo trae. Evita que el color de la imagen cambie solo a mitad de toma.
+- **Modo Acción: desactivado.** Recorta el encuadre y necesita mucha luz. No lo necesitas sentada.
+- **Modo Cine: desactivado.** El desenfoque es simulado y se le ven los bordes mal recortados en el pelo, las orejas y las manos.
+- **Formato: Alta eficiencia.** Ocupa mucho menos. Si tu editor da problemas, cambia a «Más compatible».
+- **Cámara frontal reflejada:** da igual, porque vas a grabar con la trasera.
+
+## Lo que te da el Pro y conviene aprovechar
+
+- **El 2x favorece.** Comprime los rasgos y separa del fondo sin que tengas que alejarte. Pide algo más de luz que el 1x. **Pruébalo: a mucha gente le sienta mejor que el 1x.**
+- **Nunca el 0,5x** para tu cara. Deforma.
+- **El modo macro es tu plano D.** Almohadillas, dientes, una uña, la textura del pienso, el cierre de un arnés. Acércate mucho y el móvil cambia solo. Esos insertos elevan el nivel de un tutorial enormemente.
+- **Bloqueo AE/AF:** mantén pulsado sobre tu cara hasta que aparezca el aviso. Imprescindible.
+
+---
+
+# 10. TRES SETS, Y CÓMO VA LA LUZ EN CADA UNO
+
+Monta los tres una vez, marca el suelo con cinta, y ya solo mueves el trípode.
+
+## SET A — Hablar a cámara *(solución, precaución, comparación, choice)*
+
+**Montaje:** silla sin ruedas, fondo con 1,5–2 m de profundidad detrás, tres elementos máximo.
+**Cámara:** trípode a la altura de tus ojos (110–125 cm), 1x o 2x, a 70–100 cm.
+**Luz:** ventana o panel a **45° delante y a un lado**, a la altura de tus ojos. Rebote blanco en el lado contrario, a un metro. Luz del techo apagada.
+**Comprobación:** puntito de luz en los ojos, sombra de la nariz corta y suave.
+
+## SET B — Suelo con la mascota *(storytelling, acompañar, celebrar)*
+
+**Montaje:** alfombra o sofá, tú sentada en el suelo, la mascota a tu altura.
+**Cámara:** trípode bajo, **a la altura de los ojos de ella**, no de los tuyos. Es lo que hace que el plano se sienta íntimo.
+**Luz:** la misma ventana, pero ahora te sientas **más cerca de ella** porque estás más abajo y llega menos luz. Más suave que en el set A: aquí interesa que sea cálido, no nítido.
+**Truco:** los cojines claros alrededor hacen de rebote gratis y te rellenan la cara desde abajo.
+
+## SET C — Cenital sobre mesa *(tutorial, mal·bien·mejor, producto)*
+
+El que más te va a diferenciar, y el que nadie monta.
+
+**Montaje:** mesa, mantel liso de color plano, y el móvil **mirando hacia abajo**. Con un trípode con brazo cenital, o apoyado en una balda / entre dos pilas de libros.
+**Qué se graba:** tus manos. El comedero, el cepillo, el arnés, el cortaúñas, las raciones de comida, los tres niveles de mal/bien/mejor.
+**Luz:** aquí **la luz va lateral**, nunca desde la misma posición que la cámara — si la pones arriba, tu propia mano hace sombra sobre el objeto. Ventana a un lado de la mesa y rebote al otro.
+**Por qué merece la pena:** los tutoriales con plano cenital retienen mucho más que los mismos explicados hablando. Y se graban sin maquillaje, sin peinarse y en cinco minutos.
+
+## El orden de una sesión de 2 horas
+
+| | |
+|---|---|
+| **0–10 min** | Montar set A, prueba de luz y de audio, los 20 segundos de Audio Mix |
+| **10–60 min** | Grabar los 5 reels de hablar a cámara, planos A y B |
+| **60–75 min** | Mover a set C y grabar todos los insertos y tutoriales cenitales |
+| **75–100 min** | Set B con la mascota: storytelling e insertos de ella |
+| **100–120 min** | Volcar, renombrar por número de reel, y copia de seguridad |
+
+**Graba todos los reels del mismo set seguidos, no en el orden en que los vas a publicar.** Montar el set cuesta lo mismo para uno que para cinco, y ese es todo el secreto de llegar al mes tres sin abandonar.

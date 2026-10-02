@@ -17,6 +17,7 @@
 | `07-MONTAR-EL-PERFIL.md` | El @, el nombre, la foto, la bio, el enlace y el tipo de cuenta, campo por campo | **Ahora, antes de todo** |
 | `08-REFERENTES.md` | Qué cuentas estudiar y cómo analizarlas para sacar datos de verdad | Una tarde al mes |
 | `09-CATALOGO-Y-TERRITORIOS.md` | Los cuatro verbos, el duelo y las frecuencias: reglas de las áreas delicadas | Antes de tocar esos temas |
+| `10-BANCO-60-GUIONES.md` | 60 guiones en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
 
 ---
 
