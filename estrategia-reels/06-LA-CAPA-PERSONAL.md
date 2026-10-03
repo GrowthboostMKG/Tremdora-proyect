@@ -267,3 +267,62 @@ La regla general del playbook es cambiar de plano cada 3–5 segundos. **Aquí n
 - **Publícalo en la semana 3 o 4**, después del reel de Paris. Antes no: necesita que ya hayan visto que resuelves cosas, o suena a declaración de intenciones vacía.
 - **Fija los dos:** el **15** (la historia) y el **85** (el manifiesto). Instagram deja fijar tres — el tercero, el reel de solución que mejor te vaya.
 - Juntos, esos dos reels responden las dos preguntas de quien llega a tu perfil: **quién eres** y **qué voy a sacar de seguirte**.
+
+---
+---
+
+# REEL 86 — EL VÍDEO DE MARCA
+**45 s · Planos A, C y D · Fondo B · Sirve para reel, para la portada de la tienda y para anuncios**
+
+> **Las tres piezas de marca y en qué se diferencian:**
+>
+> | | Qué es | Voz | Dónde vive |
+> |---|---|---|---|
+> | **Reel 15** | Tu historia personal con Paris | Primera persona, íntima, lenta | Instagram, fijado |
+> | **Reel 85** | El manifiesto: qué defiendes y qué no | Declarativa, filtra audiencia | Instagram, fijado |
+> | **Reel 86** | El vídeo de marca: qué es Tremdora y de dónde sale | Cálida y cerrada, de spot | Instagram, **tienda, web y anuncios** |
+>
+> El 15 emociona. El 85 filtra. **El 86 presenta.** Es el único de los tres que funciona fuera de Instagram.
+
+**PORTADA:** `TREMDORA NACIÓ DE UNA PERRA`
+
+| Tiempo | Bloque | Guion | Plano |
+|---|---|---|---|
+| 0–6 s | **ORIGEN** | «Tremdora nació de una perra que se llamaba Paris.» | C |
+| 6–16 s | **LO QUE ENSEÑÓ** | «Con ella aprendí que casi nada de lo que hacen es porque sí. Que cuando un animal cambia, está diciendo algo. Y que entenderlo a tiempo nos cambia la vida a los dos.» | C → D |
+| 16–26 s | **LO QUE VINO DESPUÉS** | «Hay cosas que aprendí más tarde. No porque lo hiciera mal: lo hice con lo que sabía, que es lo que hacemos todos. Pero me pareció una pena quedármelas.» | A |
+| 26–38 s | **QUÉ ES TREMDORA** | «Así que Tremdora es esto: un sitio para **entender** a tu mascota, **cuidarla**, **acompañarla** y **celebrarla**. Guías, cuidados y cosas pensadas para que no tengas que aprenderlo tarde.» | A → D |
+| 38–45 s | **CIERRE + LOOP** | «Hecho con amor, en memoria de Paris. Para que los nuestros estén mejor.» | C |
+
+**Insertos (D):** Paris, si tienes imágenes · tu mascota actual · tus manos · producto de la tienda, muy de pasada
+**Pie de foto:** Tremdora nació de una perra que se llamaba Paris. Entender, cuidar, acompañar y celebrar — para que no tengamos que aprenderlo tarde 🤍
+
+---
+
+## Por qué está escrito así
+
+**Empieza por la marca, no por ti.** «Tremdora nació de una perra» pone el nombre en el primer segundo. Es lo que lo hace servir como vídeo de marca y no como vídeo personal — por eso el 15 sigue siendo necesario.
+
+**Sin una gota de culpa.** El bloque de «lo que vino después» está escrito a propósito para que no suene a «ojalá hubiera sabido»: *lo hiciste con lo que sabías, como todos*. Importa por ti, y por la mucha gente que lo verá habiendo perdido a su animal.
+
+**Lleva tus cuatro verbos dentro.** Entender, cuidar, acompañar y celebrar son tu catálogo entero y tu bio: al decirlos en voz alta en el vídeo de marca, quedan fijados.
+
+**El loop cierra limpio:** abre con «nació de una perra» y cierra con «en memoria de Paris».
+
+**Y la última frase es la promesa, no un CTA.** «Para que los nuestros estén mejor» no pide nada. En el vídeo de marca no se vende: se dice quién eres. La venta la hace todo lo demás.
+
+## Cómo grabarlo
+
+- **Es el más producido de los tres.** Aquí sí puede haber música — cálida y muy baja, nunca piano triste — y más insertos.
+- **Plano C (tres cuartos) para la apertura y el cierre**, plano A para la parte del medio. El 3/4 da tono de confidencia en el principio y en el final; el frontal da claridad cuando explicas qué es.
+- **Dos o tres tomas y te quedas con la más natural**, no con la más entera. Si se te quiebra la voz una vez, eso no es drama: es verdad.
+- **Sonríe al decir su nombre.** Las dos veces.
+
+## Dónde se usa
+
+1. **Reel fijado** en Instagram, junto al 15 y al 85.
+2. **Portada de la tienda** — el vídeo de «quiénes somos» de tremdora.com.
+3. **Base para anuncios** cuando empieces a invertir: es el creativo de marca, el que se usa para público frío.
+4. **Primera historia de la destacada** «Sobre Tremdora».
+
+Grábalo **en horizontal también**, o con margen a los lados, si lo vas a usar en la web: ahí el 9:16 se queda corto.
