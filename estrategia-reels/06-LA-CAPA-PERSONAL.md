@@ -214,3 +214,56 @@ El hook es lo único que conviene llevar memorizado palabra por palabra. Tres op
 - **El CTA pide que elijan uno**: te da los tres reels de la semana siguiente escritos.
 
 **Pie de foto:** Mi día, y el porqué de cada cosa. ¿Cuál te ha sorprendido? Hago un reel entero del que más me digáis 👇
+
+---
+---
+
+# REEL 85 — EL MANIFIESTO DE TREMDORA
+**Semana 3 o 4 · 55 s · Planos A y B · Fondo A · Se fija en el perfil junto al 15**
+
+> **No es el reel 15.** El 15 cuenta **de dónde vienes** — Paris, lo que aprendiste, por qué existe esto. Este declara **qué es Tremdora y qué defiende**. Son dos piezas distintas y se complementan: la historia emociona, el manifiesto filtra.
+
+**PORTADA:** `QUÉ ES TREMDORA`
+
+| Tiempo | Bloque | Guion |
+|---|---|---|
+| 0–5 s | **HOOK** | «Aquí no vas a encontrar trucos para que tu perro obedezca.» |
+| 5–14 s | **QUÉ SÍ** | «Vas a encontrar el porqué. Por qué tira de la correa, por qué araña el sofá, por qué deja de comer de un día para otro. Porque cuando entiendes el porqué, la mayoría de los problemas dejan de ser problemas.» |
+| 14–25 s | **EL MÉTODO** | «Y no me lo invento: casi todo lo que llamamos "mal comportamiento" tiene una explicación en cómo funciona su cerebro y en cómo aprenden. Eso es lo que traduzco aquí — para que no haga falta ser profesional para entender a tu mascota.» |
+| 25–36 s | **PARIS, en una frase** | «Esto empezó por una perra que se llamaba Paris. Con ella aprendí a mirar. El resto lo aprendí después, y me pareció una pena guardármelo.» |
+| 36–47 s | **QUÉ NO VAS A ENCONTRAR** | «Así que aquí no hay castigos, ni collares que aprietan, ni "es que es dominante", ni soluciones milagro. Si algo no se sostiene, no te lo voy a contar — aunque funcione muy bien en vídeo.» |
+| 47–55 s | **PARA QUIÉN + LOOP** | «Si lo que buscas son trucos rápidos, esta no es tu cuenta. Si lo que quieres es entenderla, bienvenida. Eso es Tremdora.» |
+
+**Pie de foto:** No enseño a obedecer. Explico por qué hacen lo que hacen, con lo que dice la evidencia y sin mitos. Empezó por una perra que se llamaba Paris 🤍
+
+---
+
+## Por qué funciona este guion
+
+**Abre por el negativo.** «Aquí no vas a encontrar…» es de los arranques más potentes que existen para una marca: define por contraste, se entiende en dos segundos y obliga a quedarse para saber qué sí hay.
+
+**Filtra, y filtrar es el objetivo.** Un manifiesto que le gusta a todo el mundo no es un manifiesto. Al decir que esta no es la cuenta de los trucos rápidos, **pierdes a quien nunca te iba a comprar y te quedas con quien sí** — y esa es exactamente la audiencia que convierte.
+
+**Declara tu categoría.** Es el reel en el que dejas por escrito que lo tuyo es entender, no adiestrar. Como no hay nadie ocupando ese espacio en español, este reel **planta la bandera**.
+
+**Mete a Paris sin repetir el 15.** Una frase, de pasada, como la razón y no como el tema. Quien quiera la historia entera, la tiene en el otro reel fijado justo al lado.
+
+**Y el loop cierra solo:** empieza con «obedecer» y termina con «entenderla». Es la misma idea dada la vuelta.
+
+## Cómo grabarlo — una excepción a la regla
+
+> **Este es el único reel donde conviene cortar poco.**
+
+La regla general del playbook es cambiar de plano cada 3–5 segundos. **Aquí no.** Un manifiesto se sostiene en que no apartas la mirada: la quietud *es* el mensaje. Si lo troceas, parece un anuncio.
+
+- **Plano A casi entero**, con dos o tres cortes a plano B en las frases fuertes: «el porqué», «ni soluciones milagro», «bienvenida».
+- **Muy poco plano D.** Como mucho un inserto de Paris en su frase, y nada más.
+- **Mírala a la lente todo el rato.** Aquí no hay B-roll que te salve: va la cara.
+- **Tono firme y tranquilo**, no de arenga. Estás declarando algo que tienes claro, no convenciendo a nadie.
+- **Música: muy baja o ninguna.** Tu voz sola funciona mejor que cualquier cosa.
+
+## Dónde va
+
+- **Publícalo en la semana 3 o 4**, después del reel de Paris. Antes no: necesita que ya hayan visto que resuelves cosas, o suena a declaración de intenciones vacía.
+- **Fija los dos:** el **15** (la historia) y el **85** (el manifiesto). Instagram deja fijar tres — el tercero, el reel de solución que mejor te vaya.
+- Juntos, esos dos reels responden las dos preguntas de quien llega a tu perfil: **quién eres** y **qué voy a sacar de seguirte**.

@@ -13,7 +13,7 @@
 | `03-CALENDARIO-Y-LANZAMIENTO.md` | Calendario semanal corregido + plan de lanzamiento de 4 semanas | Una vez, y para planificar cada mes |
 | `04-GUIONES.md` | 14 reels completos, listos para grabar (2 semanas) | En la grabación |
 | `05-CHECKLISTS.md` | Checklist de grabación, de edición y de publicación | Cada día de rodaje |
-| `06-LA-CAPA-PERSONAL.md` | Cómo se muestra quién eres: presencia, ángulo e historia + 3 guiones | Antes de grabar tu historia |
+| `06-LA-CAPA-PERSONAL.md` | Presencia, ángulo e historia + 4 guiones, incluido el manifiesto de marca | Antes de grabar tu historia |
 | `07-MONTAR-EL-PERFIL.md` | El @, el nombre, la foto, la bio, el enlace y el tipo de cuenta, campo por campo | **Ahora, antes de todo** |
 | `08-REFERENTES.md` | Qué cuentas estudiar y cómo analizarlas para sacar datos de verdad | Una tarde al mes |
 | `09-CATALOGO-Y-TERRITORIOS.md` | Los cuatro verbos, el duelo y las frecuencias: reglas de las áreas delicadas | Antes de tocar esos temas |
