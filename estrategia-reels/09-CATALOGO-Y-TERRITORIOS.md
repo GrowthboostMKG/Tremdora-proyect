@@ -17,8 +17,8 @@ Entender · Cuidar · Acompañar · Celebrar
 | Verbo | Producto | Territorio de contenido |
 |---|---|---|
 | **Entender** | Guías de comportamiento, neurociencia | Solución, errores, datos, comparaciones |
-| **Cuidar** | Artículos, alimentación, salud | Tutoriales, alimentación según el problema |
-| **Acompañar** | Ebook del duelo, sonido y calma | Storytelling, vínculo, el final de la vida |
+| **Cuidar** | Artículos, alimentación, salud, **«Edad dorada»** | Tutoriales, alimentación y cuidados según el problema |
+| **Acompañar** | Ebook del duelo, **«Hogar en calma»**, sonido | Storytelling, vínculo, ansiedad, el final de la vida |
 | **Celebrar** | Packs de cumpleaños, Navidad, experiencias | Estacional, comunidad, celebración |
 
 **«Acompañar» es la palabra más Tremdora de las cuatro.** La marca nace de haber perdido a Paris; ese verbo es la marca entera en una palabra.
@@ -110,6 +110,18 @@ Tu marca dice **«sin mitos»** y cita estudios. Si vendes lo segundo con el len
 2. **Nunca lo presentes como alternativa a un tratamiento.** Un perro con ansiedad por separación grave necesita un profesional; la música es un apoyo.
 3. **Ten la fuente a mano.** Si vas a decir que el sonido ayuda, ten el estudio que lo dice y déjalo en el comentario fijado.
 4. **Si decides mantener el lenguaje de las frecuencias sanadoras**, es tu negocio y tu decisión — pero entonces **sepáralo de la marca de divulgación**, porque las dos cosas no pueden convivir en el mismo perfil sin que una se lleve a la otra por delante.
+
+---
+---
+
+# LOS DOS TERRITORIOS CON DOCUMENTO PROPIO
+
+**«Hogar en calma»** (ansiedad) y **«Edad dorada»** (mascota mayor) tienen su tesis, sus reglas y 24 guiones en `11-TERRITORIOS-DE-PRODUCTO.md`.
+
+- **Hogar en calma** → *la ansiedad no se corrige, se previene con previsibilidad.* Verbo: Acompañar.
+- **Edad dorada** → *«no está viejo, le duele».* Verbos: Cuidar y Acompañar.
+
+Y la regla que los une con el duelo: **nunca se menciona el ebook del duelo en contenido de edad dorada.** Está desarrollada al final de ese documento.
 
 ---
 ---

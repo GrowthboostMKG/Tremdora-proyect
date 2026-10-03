@@ -18,6 +18,7 @@
 | `08-REFERENTES.md` | Qué cuentas estudiar y cómo analizarlas para sacar datos de verdad | Una tarde al mes |
 | `09-CATALOGO-Y-TERRITORIOS.md` | Los cuatro verbos, el duelo y las frecuencias: reglas de las áreas delicadas | Antes de tocar esos temas |
 | `10-BANCO-60-GUIONES.md` | 60 guiones en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
+| `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» (ansiedad) y «Edad dorada» (mascota mayor) + 24 guiones | Al promocionar esos dos |
 
 ---
 
