@@ -1,0 +1,11 @@
+# Productos vendibles: NO deben versionarse.
+# Son los archivos que entregas a quien compra, y el historial de Git
+# los conservaría para siempre aunque luego se borren.
+pdf/Hogar en Calma*
+pdf/Edad Dorada*
+pdf/*Coleccion Completa*
+pdf/*Pack Completo*
+*.zip
+
+# Excepción: la documentación de estrategia sí se versiona
+!pdf/TREMDORA-Plan-Completo.pdf
