@@ -9,3 +9,6 @@ pdf/*Pack Completo*
 
 # Excepción: la documentación de estrategia sí se versiona
 !pdf/TREMDORA-Plan-Completo.pdf
+
+# Archivos de producto sueltos
+pdf/productos/
