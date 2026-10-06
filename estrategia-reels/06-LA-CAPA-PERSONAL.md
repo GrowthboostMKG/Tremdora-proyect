@@ -218,7 +218,7 @@ El hook es lo único que conviene llevar memorizado palabra por palabra. Tres op
 ---
 ---
 
-# REEL 85 — EL MANIFIESTO DE TREMDORA
+# REEL 102 — EL MANIFIESTO DE TREMDORA
 **Semana 3 o 4 · 55 s · Planos A y B · Fondo A · Se fija en el perfil junto al 15**
 
 > **No es el reel 15.** El 15 cuenta **de dónde vienes** — Paris, lo que aprendiste, por qué existe esto. Este declara **qué es Tremdora y qué defiende**. Son dos piezas distintas y se complementan: la historia emociona, el manifiesto filtra.
@@ -265,13 +265,13 @@ La regla general del playbook es cambiar de plano cada 3–5 segundos. **Aquí n
 ## Dónde va
 
 - **Publícalo en la semana 3 o 4**, después del reel de Paris. Antes no: necesita que ya hayan visto que resuelves cosas, o suena a declaración de intenciones vacía.
-- **Fija los dos:** el **15** (la historia) y el **85** (el manifiesto). Instagram deja fijar tres — el tercero, el reel de solución que mejor te vaya.
+- **Fija los dos:** el **15** (la historia) y el **102** (el manifiesto). Instagram deja fijar tres — el tercero, el reel de solución que mejor te vaya.
 - Juntos, esos dos reels responden las dos preguntas de quien llega a tu perfil: **quién eres** y **qué voy a sacar de seguirte**.
 
 ---
 ---
 
-# REEL 86 — EL VÍDEO DE MARCA
+# REEL 103 — EL VÍDEO DE MARCA
 **45 s · Planos A, C y D · Fondo B · Sirve para reel, para la portada de la tienda y para anuncios**
 
 > **Las tres piezas de marca y en qué se diferencian:**
@@ -279,10 +279,10 @@ La regla general del playbook es cambiar de plano cada 3–5 segundos. **Aquí n
 > | | Qué es | Voz | Dónde vive |
 > |---|---|---|---|
 > | **Reel 15** | Tu historia personal con Paris | Primera persona, íntima, lenta | Instagram, fijado |
-> | **Reel 85** | El manifiesto: qué defiendes y qué no | Declarativa, filtra audiencia | Instagram, fijado |
-> | **Reel 86** | El vídeo de marca: qué es Tremdora y de dónde sale | Cálida y cerrada, de spot | Instagram, **tienda, web y anuncios** |
+> | **Reel 102** | El manifiesto: qué defiendes y qué no | Declarativa, filtra audiencia | Instagram, fijado |
+> | **Reel 103** | El vídeo de marca: qué es Tremdora y de dónde sale | Cálida y cerrada, de spot | Instagram, **tienda, web y anuncios** |
 >
-> El 15 emociona. El 85 filtra. **El 86 presenta.** Es el único de los tres que funciona fuera de Instagram.
+> El 15 emociona. El 102 filtra. **El 103 presenta.** Es el único de los tres que funciona fuera de Instagram.
 
 **PORTADA:** `TREMDORA NACIÓ DE UNA PERRA`
 
@@ -320,7 +320,7 @@ La regla general del playbook es cambiar de plano cada 3–5 segundos. **Aquí n
 
 ## Dónde se usa
 
-1. **Reel fijado** en Instagram, junto al 15 y al 85.
+1. **Reel fijado** en Instagram, junto al 15 y al 102.
 2. **Portada de la tienda** — el vídeo de «quiénes somos» de tremdora.com.
 3. **Base para anuncios** cuando empieces a invertir: es el creativo de marca, el que se usa para público frío.
 4. **Primera historia de la destacada** «Sobre Tremdora».

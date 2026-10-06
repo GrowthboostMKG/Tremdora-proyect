@@ -17,8 +17,25 @@
 | `07-MONTAR-EL-PERFIL.md` | El @, el nombre, la foto, la bio, el enlace y el tipo de cuenta, campo por campo | **Ahora, antes de todo** |
 | `08-REFERENTES.md` | Qué cuentas estudiar y cómo analizarlas para sacar datos de verdad | Una tarde al mes |
 | `09-CATALOGO-Y-TERRITORIOS.md` | Los cuatro verbos, el duelo y las frecuencias: reglas de las áreas delicadas | Antes de tocar esos temas |
-| `10-BANCO-60-GUIONES.md` | 60 guiones en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
-| `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» (ansiedad) y «Edad dorada» (mascota mayor) + 24 guiones | Al promocionar esos dos |
+| `10-BANCO-60-GUIONES.md` | Guiones 18–77 en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
+| `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» y «Edad dorada» + guiones 78–101 | Al promocionar esos dos |
+
+---
+
+## DÓNDE ESTÁ CADA GUION
+
+**103 guiones en total**, numerados sin repeticiones. Este es el mapa:
+
+| Números | Qué son | Archivo |
+|---|---|---|
+| **1–14** | Los guiones base, completos palabra por palabra | `04-GUIONES.md` |
+| **15–17** | Tu historia de Paris · neurociencia aplicada · un día en mi vida | `06-LA-CAPA-PERSONAL.md` |
+| **18–77** | El banco: solución, precaución, versus, mal·bien·mejor, choice, temporal, resultados | `10-BANCO-60-GUIONES.md` |
+| **78–89** | «Hogar en calma» — ansiedad | `11-TERRITORIOS-DE-PRODUCTO.md` |
+| **90–101** | «Edad dorada» — mascota mayor | `11-TERRITORIOS-DE-PRODUCTO.md` |
+| **102–103** | El manifiesto · el vídeo de marca | `06-LA-CAPA-PERSONAL.md` |
+
+**No hay otro documento aparte ni ningún PDF suelto: todo está aquí y en la página del playbook.**
 
 ---
 

@@ -16,5 +16,5 @@ Toda la documentación está en [`estrategia-reels/`](./estrategia-reels/):
 | [07 — Montar el perfil](./estrategia-reels/07-MONTAR-EL-PERFIL.md) | Los 9 pasos con el texto exacto de cada campo: @, nombre, foto, bio, enlace |
 | [08 — Referentes](./estrategia-reels/08-REFERENTES.md) | Cuentas a estudiar y el método para analizarlas con datos reales |
 | [09 — Catálogo y territorios](./estrategia-reels/09-CATALOGO-Y-TERRITORIOS.md) | Los cuatro verbos, el territorio del duelo y las reglas de las frecuencias |
-| [10 — Banco de 60 guiones](./estrategia-reels/10-BANCO-60-GUIONES.md) | 60 reels en 7 categorías: solución, precaución, versus, mal·bien·mejor, choice, temporal, resultados |
-| [11 — Territorios de producto](./estrategia-reels/11-TERRITORIOS-DE-PRODUCTO.md) | «Hogar en calma» y «Edad dorada»: tesis, reglas y 24 guiones |
+| [10 — Banco de 60 guiones](./estrategia-reels/10-BANCO-60-GUIONES.md) | Guiones 18–77 en 7 categorías: solución, precaución, versus, mal·bien·mejor, choice, temporal, resultados |
+| [11 — Territorios de producto](./estrategia-reels/11-TERRITORIOS-DE-PRODUCTO.md) | «Hogar en calma» y «Edad dorada»: tesis, reglas y guiones 78–101 |
