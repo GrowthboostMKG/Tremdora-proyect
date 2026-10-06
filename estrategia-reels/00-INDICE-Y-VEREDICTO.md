@@ -19,6 +19,7 @@
 | `09-CATALOGO-Y-TERRITORIOS.md` | Los cuatro verbos, el duelo y las frecuencias: reglas de las áreas delicadas | Antes de tocar esos temas |
 | `10-BANCO-60-GUIONES.md` | Guiones 18–77 en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
 | `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» y «Edad dorada» + guiones 78–101 | Al promocionar esos dos |
+| `12-HISTORIAS.md` | Qué publicar en stories cada día, y cómo se vende ahí | Cada mañana, 5 minutos |
 
 ---
 
