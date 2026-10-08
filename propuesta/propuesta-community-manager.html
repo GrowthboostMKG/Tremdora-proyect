@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Propuesta Community Manager</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1d2b2e; --deep:#1f3a3d; --deep2:#2c4f52; --sand:#f5f0e8; --sand2:#ebe3d6;
+    --gold:#c08a3e; --gold-soft:#f1e3cc; --muted:#5f6b6d; --line:#ddd3c3; --white:#fff;
+  }
+  @page{size:A4;margin:0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--white)}
+  body{font-family:Inter,"Liberation Sans",sans-serif;color:var(--ink);font-size:10.4pt;line-height:1.5;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:20mm 18mm 18mm}
+  .page:last-child{page-break-after:auto}
+  h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:600;color:var(--deep);line-height:1.15}
+  h2{font-size:24pt;margin-bottom:4mm}
+  h3{font-size:13pt;margin-bottom:2mm}
+  p{margin-bottom:3mm}
+  .eyebrow{font-size:8pt;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:2mm}
+  .lead{font-size:11.5pt;color:var(--muted);max-width:150mm;margin-bottom:7mm}
+  .footer{position:absolute;bottom:9mm;left:18mm;right:18mm;display:flex;justify-content:space-between;font-size:7.5pt;color:var(--muted);border-top:1px solid var(--line);padding-top:2.5mm}
+  strong{font-weight:600;color:var(--deep)}
+
+  /* Cover */
+  .cover{background:var(--deep);color:var(--sand);padding:0}
+  .cover .inner{position:absolute;inset:0;padding:26mm 20mm}
+  .cover .frame{position:absolute;inset:10mm;border:1px solid rgba(192,138,62,.45)}
+  .cover .eyebrow{color:var(--gold);font-size:9pt}
+  .cover h1{color:var(--sand);font-size:40pt;margin:10mm 0 6mm;font-weight:600}
+  .cover h1 em{color:var(--gold);font-style:italic;font-weight:500}
+  .cover .sub{font-size:13pt;color:#d9d2c5;max-width:140mm;line-height:1.55}
+  .cover .meta{position:absolute;left:20mm;right:20mm;bottom:26mm;display:flex;justify-content:space-between;align-items:flex-end;font-size:9.5pt;color:#cfc7b8}
+  .cover .meta b{display:block;color:var(--sand);font-weight:600;font-size:11pt;margin-top:1mm}
+  .cover .house{position:absolute;right:20mm;top:96mm;width:62mm;opacity:.9}
+
+  /* Components */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm}
+  .card{background:var(--sand);border-radius:3mm;padding:6mm}
+  .card.dark{background:var(--deep);color:var(--sand)}
+  .card.dark h3{color:var(--sand)}
+  .card.dark strong{color:var(--gold-soft)}
+  .num{font-family:"Playfair Display",serif;font-size:26pt;color:var(--gold);line-height:1}
+  .tag{display:inline-block;background:var(--gold-soft);color:#7a5520;font-size:7.5pt;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border-radius:10mm;padding:1mm 3mm;margin-bottom:2.5mm}
+  ul.clean{list-style:none}
+  ul.clean li{padding-left:5mm;position:relative;margin-bottom:1.6mm}
+  ul.clean li:before{content:"";position:absolute;left:0;top:2.1mm;width:2mm;height:2mm;border-radius:50%;background:var(--gold)}
+  .card.dark ul.clean li:before{background:var(--gold)}
+  .quote{border-left:3px solid var(--gold);padding:2mm 0 2mm 5mm;font-family:"Playfair Display",serif;font-size:13pt;color:var(--deep);font-style:italic;margin:6mm 0}
+  .stat-row{display:flex;gap:5mm;margin:5mm 0 7mm}
+  .stat{flex:1;border-top:2px solid var(--deep);padding-top:3mm}
+  .stat .v{font-family:"Playfair Display",serif;font-size:22pt;color:var(--deep)}
+  .stat .l{font-size:8.5pt;color:var(--muted)}
+
+  table{width:100%;border-collapse:collapse;font-size:9pt}
+  th{background:var(--deep);color:var(--sand);text-align:left;font-weight:600;padding:2.4mm 3mm;font-size:8.5pt}
+  td{padding:2.3mm 3mm;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#faf7f2}
+
+  /* Pricing */
+  .plans{display:grid;grid-template-columns:1fr 1.08fr 1fr;gap:4mm;align-items:stretch;margin-top:2mm}
+  .plan{border:1px solid var(--line);border-radius:3mm;padding:5.5mm 5mm;position:relative;background:#fff;display:flex;flex-direction:column}
+  .plan h3{font-size:14pt;margin-bottom:1mm}
+  .plan .for{font-size:8.3pt;color:var(--muted);min-height:9mm;margin-bottom:2mm}
+  .plan .price{font-family:"Playfair Display",serif;font-size:27pt;color:var(--deep);line-height:1}
+  .plan .price small{font-family:Inter,sans-serif;font-size:8.5pt;color:var(--muted)}
+  .plan ul{margin-top:3mm;font-size:8.5pt}
+  .plan.best{background:var(--deep);color:var(--sand);border-color:var(--deep);transform:translateY(-3mm);box-shadow:0 3mm 8mm rgba(31,58,61,.25)}
+  .plan.best h3,.plan.best .price{color:var(--sand)}
+  .plan.best .for,.plan.best .price small{color:#cbd3d0}
+  .plan.best strong{color:var(--gold-soft)}
+  .ribbon{position:absolute;top:-3.2mm;left:50%;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:7.3pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1.2mm 3.5mm;border-radius:10mm;white-space:nowrap}
+  .bonus{margin-top:4mm;display:grid;grid-template-columns:1.15fr 1fr;gap:5mm}
+
+  /* Timeline */
+  .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:3mm;margin:4mm 0 8mm}
+  .step{background:var(--sand);border-radius:3mm;padding:4mm 3.5mm;font-size:8.6pt}
+  .step .n{font-family:"Playfair Display",serif;color:var(--gold);font-size:17pt;line-height:1;margin-bottom:1.5mm}
+  .step b{display:block;color:var(--deep);font-size:9.5pt;margin-bottom:1mm}
+  .road{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+  .phase{border-top:4px solid var(--gold);background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:2mm;padding:4.5mm}
+  .phase .when{font-size:8pt;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);font-weight:700}
+  .phase h3{font-size:13pt;margin:1mm 0 2mm}
+  .phase ul{font-size:8.7pt}
+  .kpi{margin-top:3mm;background:var(--sand);border-radius:2mm;padding:2.5mm 3mm;font-size:8.5pt}
+  .note{font-size:8pt;color:var(--muted);margin-top:3mm}
+
+  .ideas{display:grid;grid-template-columns:1fr 1fr;gap:2.6mm 5mm;margin-top:3mm}
+  .idea{display:flex;gap:3mm;align-items:flex-start;font-size:9pt;border-bottom:1px solid var(--line);padding-bottom:2.2mm}
+  .idea .i{font-family:"Playfair Display",serif;color:var(--gold);font-size:12pt;min-width:6mm;line-height:1.2}
+  .idea b{color:var(--deep)}
+  .idea span{display:block;color:var(--muted);font-size:8.2pt}
+
+  .cta{background:var(--deep);color:var(--sand);border-radius:3mm;padding:8mm;margin-top:6mm}
+  .cta h3{color:var(--sand);font-size:17pt;margin-bottom:3mm}
+  .cta .contact{display:flex;gap:10mm;margin-top:5mm;font-size:10pt}
+  .cta .contact div span{display:block;font-size:7.5pt;color:var(--gold);letter-spacing:.12em;text-transform:uppercase;font-weight:600}
+</style>
+</head>
+<body>
+
+<!-- ================= PORTADA ================= -->
+<section class="page cover">
+  <div class="frame"></div>
+  <div class="inner">
+    <div class="eyebrow">Propuesta de colaboración · Gestión de redes sociales</div>
+    <h1>De perfil nuevo<br>a <em>referente</em><br>inmobiliario</h1>
+    <p class="sub">Estrategia de contenido, vídeo y comunidad para posicionar vuestra inmobiliaria como la voz de confianza en compra y venta de viviendas de la zona.</p>
+    <svg class="house" viewBox="0 0 120 120" fill="none" stroke="#c08a3e" stroke-width="1.6">
+      <path d="M14 58 L60 18 L106 58"/><path d="M24 50 V104 H96 V50"/>
+      <rect x="50" y="72" width="20" height="32"/><rect x="32" y="62" width="12" height="12"/><rect x="76" y="62" width="12" height="12"/>
+      <path d="M84 30 V20 H94 V39"/>
+      <circle cx="60" cy="47" r="6"/>
+    </svg>
+    <div class="meta">
+      <div>Preparado para<b>[Nombre de la inmobiliaria]</b></div>
+      <div style="text-align:right">Presentado por<b>[Tu nombre] · Community Manager</b>Octubre 2026</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PUNTO DE PARTIDA ================= -->
+<section class="page">
+  <div class="eyebrow">01 · Punto de partida</div>
+  <h2>Empezar de cero es una ventaja</h2>
+  <p class="lead">Hoy la cuenta tiene unas pocas publicaciones y 23 seguidores. Lejos de ser un problema, es el mejor momento para construir una marca bien hecha desde el principio: sin malos hábitos, sin contenido que corregir y con una identidad clara desde la primera publicación.</p>
+
+  <div class="stat-row">
+    <div class="stat"><div class="v">Online</div><div class="l">es donde empieza hoy casi cualquier búsqueda de vivienda, antes de llamar a una agencia</div></div>
+    <div class="stat"><div class="v">Reels</div><div class="l">el formato que más alcance orgánico consigue hoy en Instagram, incluso con pocos seguidores</div></div>
+    <div class="stat"><div class="v">Confianza</div><div class="l">es lo que decide a quién confía un propietario la venta de su casa</div></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <span class="tag">Lo que pasa hoy</span>
+      <h3>Una cuenta “escaparate”</h3>
+      <ul class="clean">
+        <li>Publicaciones esporádicas, sin calendario ni línea visual.</li>
+        <li>Contenido centrado en el inmueble, no en las personas.</li>
+        <li>Poca visibilidad fuera del círculo cercano.</li>
+        <li>Sin un camino claro para que un propietario os contacte.</li>
+      </ul>
+    </div>
+    <div class="card dark">
+      <span class="tag">Lo que proponemos</span>
+      <h3>Una cuenta “asesora”</h3>
+      <ul class="clean">
+        <li>Contenido que <strong>enseña, resuelve dudas y genera confianza</strong>.</li>
+        <li>Una <strong>cara visible</strong> que habla a cámara y humaniza la marca.</li>
+        <li>Publicación constante y planificada mes a mes.</li>
+        <li>Perfil preparado para <strong>captar compradores y propietarios</strong>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="quote">“La gente no compra ni vende con una inmobiliaria: compra y vende con las personas en las que confía.”</div>
+
+  <h3>Objetivos de la colaboración</h3>
+  <div class="grid3" style="margin-top:3mm">
+    <div><div class="num">1</div><p><strong>Visibilidad local.</strong> Que en la zona se conozca la marca y se asocie a la compraventa de viviendas.</p></div>
+    <div><div class="num">2</div><p><strong>Autoridad.</strong> Ser la cuenta a la que se acude para entender cómo comprar o vender bien.</p></div>
+    <div><div class="num">3</div><p><strong>Oportunidades reales.</strong> Convertir seguidores en consultas de compradores y, sobre todo, en propietarios que quieren vender.</p></div>
+  </div>
+  <div class="footer"><span>Propuesta Community Manager · [Nombre de la inmobiliaria]</span><span>2</span></div>
+</section>
+
+<!-- ================= ESTRATEGIA ================= -->
+<section class="page">
+  <div class="eyebrow">02 · Estrategia</div>
+  <h2>Cuatro pilares de contenido</h2>
+  <p class="lead">Cada publicación del mes responde a uno de estos cuatro pilares. Así el perfil está equilibrado: aporta valor, enseña producto, genera cercanía y abre la puerta a nuevos encargos.</p>
+
+  <div class="grid2" style="gap:5mm">
+    <div class="card"><span class="tag">40% · Educar</span><h3>Contenido de valor</h3>
+      <p>Vídeos en cámara y carruseles que explican de forma sencilla lo que nadie cuenta: gastos de compra, documentación, hipotecas, cómo fijar el precio, errores frecuentes. <strong>Es lo que construye autoridad y se comparte.</strong></p></div>
+    <div class="card"><span class="tag">25% · Mostrar</span><h3>Inmuebles que enamoran</h3>
+      <p>Tours en vídeo de las propiedades en cartera, con guion y ritmo, no simples fotos. Detalles, puntos fuertes y el barrio. <strong>Cada inmueble se convierte en contenido que atrae compradores.</strong></p></div>
+    <div class="card"><span class="tag">20% · Conectar</span><h3>Las personas detrás</h3>
+      <p>El equipo, el día a día, visitas, firmas, entregas de llaves, el barrio y sus negocios. <strong>Humaniza la marca y crea la confianza</strong> que una empresa nueva necesita.</p></div>
+    <div class="card"><span class="tag">15% · Captar</span><h3>Propietarios que quieren vender</h3>
+      <p>Contenido dirigido a quien tiene una vivienda: “¿cuánto vale tu casa?”, “cómo vender más rápido”, casos de éxito. <strong>Con una llamada a la acción clara: valoración gratuita.</strong></p></div>
+  </div>
+
+  <div class="grid2" style="margin-top:7mm;grid-template-columns:1.1fr 1fr">
+    <div>
+      <div class="eyebrow">El diferencial</div>
+      <h3>Una cara visible que conoce el terreno</h3>
+      <p>Además de gestionar las redes, trabajaré con vosotros como <strong>captadora de propiedades</strong>. Eso significa que el contenido no se crea desde fuera: sale del trabajo real con propietarios, visitas y operaciones.</p>
+      <p>Mis objetivos y los vuestros están alineados: <strong>cuanto más fuerte sea el perfil, más fácil es captar inmuebles</strong>, y cuantos más inmuebles, más contenido de calidad. Un círculo que se retroalimenta.</p>
+    </div>
+    <div class="card dark">
+      <h3>Canales</h3>
+      <ul class="clean">
+        <li><strong>Instagram</strong> · canal principal. Reels, carruseles y stories.</li>
+        <li><strong>Facebook</strong> · publicación cruzada. Llega al propietario de 40+ años, el que más vende.</li>
+        <li><strong>TikTok</strong> · reutilizamos los reels para ganar alcance sin coste extra de producción.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer"><span>Propuesta Community Manager · [Nombre de la inmobiliaria]</span><span>3</span></div>
+</section>
+
+<!-- ================= IDEAS + SEMANA TIPO ================= -->
+<section class="page">
+  <div class="eyebrow">03 · Así se verá el contenido</div>
+  <h2>Ideas de vídeo y semana tipo</h2>
+  <p class="lead">Un adelanto de los temas con los que arrancaríamos. Todos llevan guion propio, gancho en los primeros segundos y una llamada a la acción.</p>
+
+  <div class="ideas">
+    <div class="idea"><div class="i">01</div><div><b>“Lo que nadie te cuenta al vender tu piso”</b><span>Serie en cámara · Educar / Captar</span></div></div>
+    <div class="idea"><div class="i">02</div><div><b>¿Cuánto cuesta realmente comprar una casa?</b><span>Impuestos, notaría, registro, gestoría · Educar</span></div></div>
+    <div class="idea"><div class="i">03</div><div><b>3 errores que bajan el precio de tu vivienda</b><span>Reel en cámara · Captar</span></div></div>
+    <div class="idea"><div class="i">04</div><div><b>Hipoteca fija o variable, explicado en 60 segundos</b><span>Reel en cámara · Educar</span></div></div>
+    <div class="idea"><div class="i">05</div><div><b>Documentos que necesitas para vender</b><span>Carrusel guardable · Educar</span></div></div>
+    <div class="idea"><div class="i">06</div><div><b>Tour exprés: “Te enseño esta casa en 30 segundos”</b><span>Reel de propiedad · Mostrar</span></div></div>
+    <div class="idea"><div class="i">07</div><div><b>Mito o realidad inmobiliario</b><span>Formato recurrente semanal · Educar</span></div></div>
+    <div class="idea"><div class="i">08</div><div><b>Vivir en [zona]: lo mejor del barrio</b><span>Reel en exteriores · Conectar</span></div></div>
+    <div class="idea"><div class="i">09</div><div><b>Antes y después: preparar una casa para vender</b><span>Home staging low cost · Mostrar / Captar</span></div></div>
+    <div class="idea"><div class="i">10</div><div><b>5 preguntas que debes hacer antes de comprar</b><span>Reel en cámara · Educar</span></div></div>
+    <div class="idea"><div class="i">11</div><div><b>Un día captando propiedades conmigo</b><span>Detrás de cámaras · Conectar</span></div></div>
+    <div class="idea"><div class="i">12</div><div><b>¡Vendida! Historia de una entrega de llaves</b><span>Caso de éxito · Conectar / Captar</span></div></div>
+  </div>
+
+  <h3 style="margin-top:8mm">Semana tipo (Plan Crecimiento)</h3>
+  <table style="margin-top:2mm">
+    <tr><th style="width:20%">Día</th><th style="width:30%">Formato</th><th>Ejemplo</th></tr>
+    <tr><td><strong>Lunes</strong></td><td>Reel en cámara</td><td>“¿Cuánto cuesta realmente comprar una casa?”</td></tr>
+    <tr><td><strong>Miércoles</strong></td><td>Carrusel de valor</td><td>Checklist de documentos para vender</td></tr>
+    <tr><td><strong>Viernes</strong></td><td>Reel de propiedad</td><td>Tour exprés del inmueble destacado de la semana</td></tr>
+    <tr><td><strong>Sábado</strong></td><td>Post de conexión</td><td>Equipo, barrio, testimonio o entrega de llaves</td></tr>
+    <tr><td><strong>Lunes a viernes</strong></td><td>Stories</td><td>Encuestas, preguntas, novedades, detrás de cámaras y recordatorio de valoración gratuita</td></tr>
+  </table>
+  <div class="footer"><span>Propuesta Community Manager · [Nombre de la inmobiliaria]</span><span>4</span></div>
+</section>
+
+<!-- ================= PLANES ================= -->
+<section class="page">
+  <div class="eyebrow">04 · Inversión</div>
+  <h2>Planes pensados para empezar</h2>
+  <p class="lead">Tres opciones para crecer al ritmo de la empresa. Todas incluyen guiones, grabación, edición, publicación e informe mensual. Recomiendo el <strong>Plan Crecimiento</strong> como punto de partida.</p>
+
+  <div class="plans">
+    <div class="plan">
+      <h3>Esencial</h3>
+      <div class="for">Para tener presencia constante y profesional.</div>
+      <div class="price">290 €<small> /mes</small></div>
+      <ul class="clean">
+        <li><strong>12 publicaciones</strong> al mes</li>
+        <li>4 reels en cámara con guion y edición</li>
+        <li>8 carruseles o posts diseñados</li>
+        <li>12 stories al mes</li>
+        <li>Instagram + Facebook</li>
+        <li>Respuesta a comentarios y mensajes 3 días/semana</li>
+        <li>Calendario mensual para aprobación</li>
+        <li>Informe mensual de resultados</li>
+      </ul>
+    </div>
+    <div class="plan best">
+      <div class="ribbon">Recomendado</div>
+      <h3>Crecimiento</h3>
+      <div class="for">Para ganar autoridad y empezar a recibir consultas.</div>
+      <div class="price">450 €<small> /mes</small></div>
+      <ul class="clean">
+        <li><strong>16 publicaciones</strong> al mes</li>
+        <li><strong>8 reels</strong>: 4 en cámara + 4 tours de propiedades</li>
+        <li>8 carruseles o posts diseñados</li>
+        <li><strong>Stories de lunes a viernes</strong></li>
+        <li>Instagram + Facebook + <strong>TikTok</strong></li>
+        <li>Gestión de comunidad de lunes a viernes</li>
+        <li>Embudo de captación: “valoración gratuita”</li>
+        <li>1 jornada de grabación al mes</li>
+        <li>Informe + reunión mensual de estrategia</li>
+      </ul>
+    </div>
+    <div class="plan">
+      <h3>Referente</h3>
+      <div class="for">El siguiente paso, cuando el negocio lo pida.</div>
+      <div class="price">690 €<small> /mes</small></div>
+      <ul class="clean">
+        <li>Todo lo del Plan Crecimiento</li>
+        <li><strong>20 publicaciones</strong> (12 reels)</li>
+        <li>Stories diarias</li>
+        <li>Gestión de campañas en Meta Ads*</li>
+        <li>Optimización de Google Business Profile</li>
+        <li>Colaboraciones con negocios locales</li>
+        <li>2 jornadas de grabación al mes</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Precios sin IVA. *La inversión en publicidad se paga directamente a Meta y no está incluida en la tarifa.</p>
+
+  <div class="bonus">
+    <div class="card dark">
+      <span class="tag">Regalo de lanzamiento</span>
+      <h3>Puesta en marcha gratis <span style="font-family:Inter;font-size:9pt;color:#cbd3d0;text-decoration:line-through;font-weight:400">250 €</span></h3>
+      <p style="font-size:9.2pt;margin-bottom:2mm">Al contratar cualquier plan con un compromiso inicial de 3 meses:</p>
+      <ul class="clean" style="font-size:9pt">
+        <li>Auditoría y optimización del perfil (bio, foto, destacados, enlace).</li>
+        <li>Kit de plantillas de marca para carruseles y stories.</li>
+        <li>Vídeo de presentación de la inmobiliaria para fijar en el perfil.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">Precio de lanzamiento</span>
+      <h3>Tarifa congelada 3 meses</h3>
+      <p style="font-size:9.2pt">Mantenemos este precio durante los tres primeros meses. En el cuarto mes revisamos juntos los resultados y decidimos el siguiente paso con datos sobre la mesa.</p>
+      <p style="font-size:9.2pt;margin-bottom:0"><strong>Recomendación opcional:</strong> a partir del mes 2, 100–150 €/mes en anuncios para impulsar la campaña de valoración gratuita.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Propuesta Community Manager · [Nombre de la inmobiliaria]</span><span>5</span></div>
+</section>
+
+<!-- ================= PROCESO + HOJA DE RUTA ================= -->
+<section class="page">
+  <div class="eyebrow">05 · Cómo trabajamos</div>
+  <h2>Un proceso sencillo cada mes</h2>
+  <p class="lead">Todo el contenido del mes se planifica y se aprueba por adelantado. Vosotros solo tenéis que revisar y dar el visto bueno: el resto corre de mi cuenta.</p>
+
+  <div class="steps">
+    <div class="step"><div class="n">1</div><b>Planificación</b>Calendario del mes siguiente y guiones de cada vídeo.</div>
+    <div class="step"><div class="n">2</div><b>Aprobación</b>Lo revisáis y aprobáis en 48 h. Ajustes incluidos.</div>
+    <div class="step"><div class="n">3</div><b>Grabación</b>Una jornada en la que grabamos todo el mes en bloque.</div>
+    <div class="step"><div class="n">4</div><b>Edición y publicación</b>Montaje, subtítulos, música y programación.</div>
+    <div class="step"><div class="n">5</div><b>Medición</b>Informe con resultados y aprendizajes para el mes siguiente.</div>
+  </div>
+
+  <div class="eyebrow">Hoja de ruta · primeros 6 meses</div>
+  <h3 style="font-size:17pt;margin-bottom:4mm">Del arranque a la autoridad</h3>
+  <div class="road">
+    <div class="phase">
+      <div class="when">Mes 1</div><h3>Cimientos</h3>
+      <ul class="clean">
+        <li>Identidad visual y tono de marca.</li>
+        <li>Perfil optimizado y destacados.</li>
+        <li>Primer mes de contenido completo.</li>
+        <li>Vídeo de presentación.</li>
+      </ul>
+      <div class="kpi"><strong>Objetivo:</strong> 150–250 seguidores y primeras interacciones de la zona.</div>
+    </div>
+    <div class="phase">
+      <div class="when">Meses 2–3</div><h3>Tracción</h3>
+      <ul class="clean">
+        <li>Formatos recurrentes que el público reconoce.</li>
+        <li>Lanzamiento de la valoración gratuita.</li>
+        <li>Ajuste según lo que mejor funciona.</li>
+      </ul>
+      <div class="kpi"><strong>Objetivo:</strong> 400–700 seguidores y primeras consultas por mensaje directo.</div>
+    </div>
+    <div class="phase">
+      <div class="when">Meses 4–6</div><h3>Autoridad</h3>
+      <ul class="clean">
+        <li>Series propias y casos de éxito.</li>
+        <li>Colaboraciones locales.</li>
+        <li>Valorar el salto al Plan Referente.</li>
+      </ul>
+      <div class="kpi"><strong>Objetivo:</strong> 1.000–2.000 seguidores y solicitudes de valoración cada mes.</div>
+    </div>
+  </div>
+  <p class="note">Objetivos orientativos para crecimiento orgánico. Más allá de los seguidores, mediremos lo que importa al negocio: alcance en la zona, mensajes recibidos, solicitudes de valoración y propiedades captadas a través de redes.</p>
+  <div class="footer"><span>Propuesta Community Manager · [Nombre de la inmobiliaria]</span><span>6</span></div>
+</section>
+
+<!-- ================= CONDICIONES + CIERRE ================= -->
+<section class="page">
+  <div class="eyebrow">06 · Detalles</div>
+  <h2>Lo que necesito y condiciones</h2>
+
+  <div class="grid2" style="margin-top:5mm">
+    <div class="card">
+      <h3>Para empezar necesito</h3>
+      <ul class="clean">
+        <li>Acceso a las cuentas de Instagram, Facebook y TikTok.</li>
+        <li>Logotipo, colores y material de marca disponible.</li>
+        <li>Información y acceso a los inmuebles en cartera para grabar.</li>
+        <li>Una persona de contacto para aprobar el calendario.</li>
+        <li>Aprobación del contenido en un máximo de 48 h.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Condiciones</h3>
+      <ul class="clean">
+        <li>Compromiso inicial de 3 meses; después, mes a mes.</li>
+        <li>Pago mensual por adelantado, en los 5 primeros días del mes.</li>
+        <li>Cancelación con 30 días de preaviso.</li>
+        <li>Todo el contenido creado es propiedad de la inmobiliaria.</li>
+        <li>Precios sin IVA. Propuesta válida durante 30 días.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 style="margin-top:8mm">No incluido (disponible bajo presupuesto)</h3>
+  <p style="color:var(--muted)">Inversión publicitaria, fotografía profesional de inmuebles con equipo especializado, vídeo con dron, diseño de logotipo o identidad corporativa completa, y gestión de la página web.</p>
+
+  <div class="cta">
+    <div class="eyebrow" style="color:var(--gold)">Próximos pasos</div>
+    <h3>¿Empezamos a construir vuestra marca?</h3>
+    <ul style="font-size:10pt;list-style:none">
+      <li><strong>1.</strong> Elegís el plan que mejor encaja con vosotros.</li>
+      <li><strong>2.</strong> Reunión de arranque de 1 hora para conocer a fondo el negocio y la zona.</li>
+      <li><strong>3.</strong> En 7 días tenéis el perfil optimizado y el calendario del primer mes listo para aprobar.</li>
+    </ul>
+    <div class="contact">
+      <div><span>Nombre</span>[Tu nombre]</div>
+      <div><span>Teléfono</span>[Tu teléfono]</div>
+      <div><span>Email</span>[Tu email]</div>
+    </div>
+  </div>
+  <div class="quote" style="margin-top:9mm">Gracias por la confianza. Vuestro crecimiento será también el mío.</div>
+  <div class="footer"><span>Propuesta Community Manager · [Nombre de la inmobiliaria]</span><span>7</span></div>
+</section>
+
+</body>
+</html>
