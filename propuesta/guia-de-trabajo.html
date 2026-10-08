@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Guía de trabajo · Inmorpesa</title>
+<style>
+  :root{--ink:#232323;--olive:#4b4c31;--khaki:#a9a883;--cream:#dcdad1;--sand:#efede7;--muted:#66665e;--line:#d9d6cc}
+  @page{size:A4;margin:16mm 17mm 16mm}
+  @page :first{margin:0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,"Liberation Sans",sans-serif;color:var(--ink);font-size:10pt;line-height:1.55;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cover{height:297mm;background:#232323;color:var(--cream);padding:30mm 20mm;position:relative;page-break-after:always}
+  .cover:after{content:"";position:absolute;right:0;top:0;width:46mm;height:166mm;background:var(--olive);clip-path:polygon(0 0,100% 0,100% 100%,0 72.3%)}
+  .cover img{width:24mm;border-radius:50%;margin-bottom:24mm}
+  .cover .eb{font-size:8pt;letter-spacing:.22em;text-transform:uppercase;color:var(--khaki);font-weight:600;margin-bottom:4mm}
+  .cover h1{font-size:34pt;font-weight:300;line-height:1.1;color:var(--cream);max-width:130mm;margin-bottom:8mm}
+  .cover h1 em{font-style:normal;color:var(--khaki)}
+  .cover p{font-size:11.5pt;font-weight:300;color:#bdbbb2;max-width:120mm}
+  .cover .idx{margin-top:18mm;font-size:10pt;color:#cfcdc3;line-height:2}
+  .cover .idx b{color:var(--khaki);font-weight:500;display:inline-block;width:10mm}
+  .cover .who{position:absolute;left:20mm;bottom:20mm;font-size:8.5pt;color:#9f9d94}
+  .cover .who b{color:var(--cream);font-weight:500}
+
+  h2{font-size:21pt;font-weight:300;letter-spacing:-.015em;margin:0 0 2mm;page-break-before:always;page-break-after:avoid}
+  .sec-eb{font-size:7.6pt;letter-spacing:.2em;text-transform:uppercase;color:var(--olive);font-weight:700;margin-bottom:1.5mm}
+  .intro{color:var(--muted);font-size:10.5pt;font-weight:300;margin-bottom:6mm}
+  h3{font-size:12pt;font-weight:600;margin:6mm 0 2mm;page-break-after:avoid;display:flex;align-items:center;gap:2.5mm}
+  h3 .pl{font-size:6.8pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border-radius:8mm;padding:.6mm 2.4mm;background:var(--cream);color:var(--olive)}
+  h3 .pl.c{background:var(--olive);color:#fff}
+  h3 .pl.r{background:#232323;color:#fff}
+  h4{font-size:9.5pt;font-weight:700;margin:3mm 0 1mm;color:var(--olive);page-break-after:avoid}
+  p{margin-bottom:2.2mm}
+  ol,ul{margin:0 0 2.5mm 5.5mm}
+  li{margin-bottom:1.1mm;padding-left:1mm}
+  ol li::marker{color:var(--olive);font-weight:700}
+  ul li::marker{color:var(--olive)}
+  strong{font-weight:600}
+  .box{background:var(--sand);border-radius:2mm;padding:4mm 5mm;margin:3mm 0 4mm;page-break-inside:avoid}
+  .box.dark{background:#232323;color:#e8e7e0}
+  .box.dark strong{color:#fff}
+  .box .t{font-size:7.4pt;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--olive);margin-bottom:1.5mm}
+  .box.dark .t{color:var(--khaki)}
+  .tip{border-left:3px solid var(--olive);padding:1mm 0 1mm 4mm;margin:3mm 0;color:#444;font-size:9.5pt;page-break-inside:avoid}
+  table{width:100%;border-collapse:collapse;font-size:8.8pt;margin:2mm 0 4mm;page-break-inside:avoid}
+  th{background:#232323;color:var(--cream);text-align:left;font-weight:500;padding:2mm 2.5mm}
+  td{padding:2mm 2.5mm;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#f7f6f2}
+  .mono{font-family:"DejaVu Sans Mono",monospace;font-size:8.6pt;background:#fff;border:1px dashed #c9c6bb;border-radius:2mm;padding:3mm 4mm;white-space:pre-wrap;margin:2mm 0 4mm;page-break-inside:avoid;line-height:1.5}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+  .avoid{page-break-inside:avoid}
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <img src="logo-inmorpesa.png">
+  <div class="eb">Uso interno · Growth Boost MKG</div>
+  <h1>Guía de trabajo<br><em>paso a paso</em></h1>
+  <p>Cómo ejecutar cada servicio de los planes Esencial, Crecimiento y Referente para Inmorpesa: herramientas, rutinas, plantillas y checklists.</p>
+  <div class="idx">
+    <div><b>01</b>Kit de herramientas</div>
+    <div><b>02</b>La puesta en marcha (semana 1)</div>
+    <div><b>03</b>El ciclo de cada mes</div>
+    <div><b>04</b>Plan Esencial, servicio a servicio</div>
+    <div><b>05</b>Lo que añade el Plan Crecimiento</div>
+    <div><b>06</b>Lo que añade el Plan Referente</div>
+    <div><b>07</b>Plantillas listas para copiar</div>
+    <div><b>08</b>Horas de trabajo por plan</div>
+  </div>
+  <div class="who"><b>Victoria Silvera</b> · Community Manager · Growth Boost MKG</div>
+</section>
+
+<!-- 01 -->
+<h2><span class="sec-eb" style="display:block">01</span>Kit de herramientas</h2>
+<p class="intro">Con esto cubres los tres planes. Casi todo es gratis; lo único que merece la pena pagar desde el principio es Canva Pro y un micrófono.</p>
+<table>
+  <tr><th style="width:24%">Para qué</th><th style="width:30%">Herramienta</th><th>Notas</th></tr>
+  <tr><td><strong>Grabar</strong></td><td>Tu móvil + trípode con soporte</td><td>Graba en 4K o 1080p a 30 fps, en vertical. Limpia la lente antes de cada toma.</td></tr>
+  <tr><td><strong>Sonido</strong></td><td>Micrófono inalámbrico de solapa (tipo lavalier)</td><td>Es la compra más importante: un vídeo con mal sonido no se ve, aunque la imagen sea buena.</td></tr>
+  <tr><td><strong>Luz</strong></td><td>Luz natural de ventana o aro de luz</td><td>Ponte de cara a la ventana, nunca de espaldas.</td></tr>
+  <tr><td><strong>Editar vídeo</strong></td><td>CapCut (móvil u ordenador)</td><td>Subtítulos automáticos, cortes, música y plantillas.</td></tr>
+  <tr><td><strong>Diseño</strong></td><td>Canva Pro</td><td>Kit de marca de Inmorpesa (colores, logo, tipografías) y plantillas reutilizables.</td></tr>
+  <tr><td><strong>Programar</strong></td><td>Meta Business Suite (gratis)</td><td>Publica y programa en Instagram y Facebook a la vez. Alternativa: Metricool, que también incluye TikTok.</td></tr>
+  <tr><td><strong>Planificar</strong></td><td>Google Sheets o Notion</td><td>Calendario de contenido y registro de contactos (leads).</td></tr>
+  <tr><td><strong>Archivos</strong></td><td>Google Drive</td><td>Una carpeta por mes: Guiones / Brutos / Editados / Diseños / Informe.</td></tr>
+  <tr><td><strong>Formularios</strong></td><td>Google Forms</td><td>Formulario de “valoración gratuita”.</td></tr>
+  <tr><td><strong>Mensajes</strong></td><td>WhatsApp Business (de la inmobiliaria)</td><td>Respuestas rápidas, etiquetas y mensaje de bienvenida.</td></tr>
+</table>
+<div class="box">
+  <div class="t">Organiza el Drive así desde el día 1</div>
+  Inmorpesa / 2026-11 Noviembre / 01 Guiones · 02 Brutos · 03 Editados · 04 Diseños · 05 Informe<br>
+  Inmorpesa / Marca / Logos · Plantillas Canva · Fotos equipo · Música<br>
+  Inmorpesa / Inmuebles / [Referencia del inmueble] / Fotos · Vídeo · Ficha
+</div>
+
+<!-- 02 -->
+<h2><span class="sec-eb" style="display:block">02</span>La puesta en marcha (semana 1)</h2>
+<p class="intro">Es el “regalo de lanzamiento” de la propuesta. Se hace una sola vez, antes de empezar a publicar.</p>
+
+<h3>Paso 1 · Accesos y cuentas</h3>
+<ol>
+  <li>Pide que la cuenta de Instagram sea <strong>profesional (empresa)</strong>: Configuración → Tipo de cuenta y herramientas → Cambiar a cuenta profesional → Empresa → categoría “Inmobiliaria”.</li>
+  <li>Comprueba que existe una <strong>página de Facebook</strong> de Inmorpesa y que está <strong>vinculada a Instagram</strong> (desde Meta Business Suite → Configuración → Cuentas).</li>
+  <li>Pide que te añadan como <strong>persona con acceso</strong> en Meta Business Suite en lugar de compartir contraseñas. Así ellos siempre conservan el control.</li>
+  <li>Si van a tener TikTok: crea la cuenta con el email de la empresa y cámbiala a <strong>cuenta de empresa</strong>.</li>
+</ol>
+
+<h3>Paso 2 · Optimizar el perfil</h3>
+<ol>
+  <li><strong>Nombre del perfil</strong> (el campo “Nombre”, no el usuario): “Inmorpesa · Inmobiliaria familiar”. Ese campo aparece en las búsquedas, así que conviene que incluya “inmobiliaria”.</li>
+  <li><strong>Bio</strong>: copia la bio propuesta (página 3 de la propuesta) y ajústala con ellos.</li>
+  <li><strong>Enlace</strong>: añade varios enlaces (Instagram lo permite): web, WhatsApp (<em>wa.me/34XXXXXXXXX</em>) y formulario de valoración.</li>
+  <li><strong>Botones de contacto</strong>: en Editar perfil → Opciones de contacto, añade teléfono, email y WhatsApp.</li>
+</ol>
+
+<h3>Paso 3 · Historias destacadas</h3>
+<ol>
+  <li>Diseña en Canva 5 portadas (1080×1920) con la estética de la marca: Vender · Comprar · Quiénes somos · Vendidas · Consejos.</li>
+  <li>Publica en stories al menos 1 contenido para cada una y, desde la story, pulsa “Destacar” para crear cada destacado.</li>
+  <li>Cambia la portada de cada destacado con el diseño de Canva.</li>
+</ol>
+
+<h3>Paso 4 · Plantillas de marca en Canva</h3>
+<ol>
+  <li>Crea el <strong>Kit de marca</strong>: colores (#4B4C31 oliva, #232323 carbón, #DCDAD1 piedra), logo y tipografía de palo seco en peso fino (como en sus posts actuales).</li>
+  <li>Crea y guarda 4 plantillas: carrusel (1080×1350), post único (1080×1350), story (1080×1920) y portada de reel (1080×1920).</li>
+</ol>
+
+<h3>Paso 5 · Vídeo de presentación y publicaciones fijadas</h3>
+<ol>
+  <li>Graba “¿Quién coge el teléfono en Inmorpesa?” (guion en la sección 07).</li>
+  <li>Publica y fija 3 publicaciones (los tres puntos de la publicación → Fijar en tu perfil): presentación, valoración gratuita y propiedad estrella.</li>
+</ol>
+
+<!-- 03 -->
+<h2><span class="sec-eb" style="display:block">03</span>El ciclo de cada mes</h2>
+<p class="intro">La clave para que esto sea llevadero: trabajar <strong>por bloques</strong> (todo el guion junto, toda la grabación junta, toda la edición junta), no día a día.</p>
+<table>
+  <tr><th style="width:22%">Cuándo</th><th style="width:30%">Qué haces</th><th>Resultado</th></tr>
+  <tr><td><strong>Días 15–20</strong> del mes anterior</td><td>Revisas resultados, eliges temas y escribes guiones</td><td>Calendario + guiones en el Sheets</td></tr>
+  <tr><td><strong>Día 20–22</strong></td><td>Envías el calendario a Inmorpesa</td><td>Aprobación en 48 h</td></tr>
+  <tr><td><strong>Días 23–25</strong></td><td>Jornada de grabación (3–4 h)</td><td>Todos los vídeos a cámara + tomas de recurso</td></tr>
+  <tr><td><strong>Días 25–30</strong></td><td>Editas vídeos y diseñas carruseles</td><td>Todo el contenido listo en “03 Editados”</td></tr>
+  <tr><td><strong>Último día</strong></td><td>Programas todo en Meta Business Suite</td><td>Mes completo programado</td></tr>
+  <tr><td><strong>Durante el mes</strong></td><td>Stories, comunidad y tours de propiedades nuevas</td><td>Perfil vivo cada día</td></tr>
+  <tr><td><strong>Días 1–3</strong> del mes siguiente</td><td>Informe del mes anterior</td><td>Informe enviado (+ reunión en Crecimiento)</td></tr>
+</table>
+<div class="tip">Consejo: deja siempre 2 huecos libres en el calendario para inmuebles que entren durante el mes o temas de actualidad. Así no rompes la planificación.</div>
+
+<!-- 04 -->
+<h2><span class="sec-eb" style="display:block">04</span>Plan Esencial, servicio a servicio</h2>
+<p class="intro">Todo lo de esta sección también forma parte de Crecimiento y Referente; en esos planes solo cambian las cantidades.</p>
+
+<h3><span class="pl">Esencial</span>12 publicaciones al mes</h3>
+<p>Son 3 publicaciones por semana. Repártelas según los pilares de contenido:</p>
+<table>
+  <tr><th>Pilar</th><th>Cantidad (Esencial)</th><th>Ejemplo</th></tr>
+  <tr><td>Educar</td><td>5</td><td>Gastos de comprar, documentos para vender</td></tr>
+  <tr><td>Mostrar</td><td>3</td><td>Propiedad destacada (carrusel de fotos)</td></tr>
+  <tr><td>Conectar</td><td>2</td><td>Equipo, barrio, entrega de llaves</td></tr>
+  <tr><td>Captar</td><td>2</td><td>“¿Cuánto vale tu casa?” + valoración gratuita</td></tr>
+</table>
+<p>Mejores momentos para publicar como punto de partida: de lunes a viernes entre las 13:00 y las 14:30 o entre las 19:30 y las 21:30. Después del primer mes, ajústalo con los datos de Instagram (Estadísticas → Tu audiencia → Momentos de más actividad).</p>
+
+<h3><span class="pl">Esencial</span>Reels a cámara con guion y edición</h3>
+<h4>A · Escribir el guion (20–30 min por vídeo)</h4>
+<ol>
+  <li>Elige <strong>una sola idea</strong> por vídeo. Si necesitas explicar dos cosas, son dos vídeos.</li>
+  <li>Escribe con esta estructura (plantilla en la sección 07):
+    <ul>
+      <li><strong>Gancho (0–3 s):</strong> una frase que pare el scroll. “Si vas a vender tu piso, no hagas esto.”</li>
+      <li><strong>Desarrollo (15–40 s):</strong> 3 puntos como máximo, frases cortas.</li>
+      <li><strong>Cierre + llamada a la acción:</strong> “Si quieres saber cuánto vale tu casa, escríbenos ‘VALORAR’ por mensaje.”</li>
+    </ul>
+  </li>
+  <li>Léelo en voz alta: si te trabas, simplifica. Duración ideal: <strong>30–60 segundos</strong>.</li>
+</ol>
+<h4>B · Grabar</h4>
+<ol>
+  <li>Móvil en vertical en el trípode, cámara a la altura de los ojos, a 1–1,5 m de distancia.</li>
+  <li>Cámara trasera (tiene más calidad). Si necesitas verte, usa el modo espejo o la delantera en 4K.</li>
+  <li>Micrófono de solapa puesto y prueba de sonido de 5 segundos.</li>
+  <li>Graba <strong>por frases</strong>: di una frase, pausa de 2 segundos y sigue. Si te equivocas, repites solo esa frase. Luego se corta en edición.</li>
+  <li>Graba también 5–10 <strong>tomas de recurso</strong> (b-roll) de 3–5 s: llaves, puerta abriéndose, firmar, calle, fachada, tú caminando. Sirven para tapar cortes y dar ritmo.</li>
+</ol>
+<h4>C · Editar en CapCut (30–45 min por vídeo)</h4>
+<ol>
+  <li>Nuevo proyecto → importa la toma principal. Formato 9:16.</li>
+  <li><strong>Corta los silencios y errores</strong>: herramienta “Eliminar pausas” o cortes manuales con “Dividir”.</li>
+  <li>Añade las tomas de recurso encima (“Superposición”) en los momentos en que hablas de algo visual.</li>
+  <li><strong>Subtítulos automáticos</strong>: Texto → Subtítulos automáticos → Español. Revisa las faltas. Usa siempre el mismo estilo: tipografía de la marca, blanco o piedra, centrados en el tercio inferior.</li>
+  <li>Pon el gancho como <strong>texto grande</strong> en los primeros 3 segundos.</li>
+  <li><strong>Música</strong> de fondo suave, al 10–15 % de volumen. Mejor añadir la música dentro de Instagram al publicar, porque así evitas problemas de derechos.</li>
+  <li>Portada: diseña en Canva con la plantilla de portada y añádela al final como fotograma o súbela en Instagram al publicar.</li>
+  <li>Exporta en <strong>1080p, 30 fps</strong> y guarda en “03 Editados” con nombre: <em>2026-11-04_reel_vender-rapido.mp4</em>.</li>
+</ol>
+
+<h3><span class="pl">Esencial</span>Carruseles y posts diseñados</h3>
+<ol>
+  <li>Abre la plantilla de carrusel en Canva (1080×1350, formato vertical: ocupa más pantalla).</li>
+  <li>Estructura de 5–8 diapositivas:
+    <ul>
+      <li><strong>1 · Portada:</strong> título que genere curiosidad (“5 documentos que necesitas para vender tu piso”).</li>
+      <li><strong>2 a 6 · Contenido:</strong> una idea por diapositiva, poco texto y letra grande.</li>
+      <li><strong>Última · Llamada a la acción:</strong> “Guárdalo para cuando lo necesites” o “Escríbenos VALORAR”.</li>
+    </ul>
+  </li>
+  <li>Descarga como <strong>PNG</strong> (todas las páginas) y guarda en “04 Diseños”.</li>
+  <li>Escribe el texto de la publicación (copy): primera línea gancho, 3–5 líneas de valor, llamada a la acción y 3–5 hashtags locales y del sector (#inmobiliaria #vendermipiso #[ciudad]…).</li>
+</ol>
+<div class="tip">Los carruseles que más funcionan son los que la gente <strong>guarda</strong>: checklists, pasos y comparativas. Piensa “¿esto lo guardaría yo?”.</div>
+
+<h3><span class="pl">Esencial</span>12 stories al mes</h3>
+<p>3 por semana. Las stories no buscan alcance, sino <strong>cercanía y conversación</strong> con quien ya te sigue.</p>
+<ul>
+  <li><strong>Encuesta:</strong> “¿Comprar o alquilar?” (sticker de encuesta).</li>
+  <li><strong>Pregunta:</strong> “¿Qué duda tienes sobre vender tu casa?”. Las respuestas te dan ideas de vídeos.</li>
+  <li><strong>Compartir el reel nuevo</strong> con un texto: “Nuevo vídeo 👇”.</li>
+  <li><strong>Detrás de cámaras:</strong> visita, oficina, grabación.</li>
+  <li><strong>Enlace</strong> (sticker de enlace) a la valoración gratuita o a una propiedad en la web.</li>
+</ul>
+<p>Puedes programarlas en Meta Business Suite, aunque las espontáneas (grabadas en el momento) suelen funcionar mejor.</p>
+
+<h3><span class="pl">Esencial</span>Publicar en Instagram y Facebook</h3>
+<ol>
+  <li>Entra en <strong>Meta Business Suite</strong> (web o app) → Planificador → Crear publicación o Crear reel.</li>
+  <li>Marca <strong>Instagram y Facebook</strong> como destino a la vez.</li>
+  <li>Sube el archivo, pega el texto, añade la ubicación (ciudad o barrio) y etiqueta a la cuenta si procede.</li>
+  <li>“Programar” → elige día y hora → confirmar.</li>
+  <li>Revisa el planificador al final: todo el mes debe verse en el calendario.</li>
+</ol>
+
+<h3><span class="pl">Esencial</span>Respuesta a comentarios y mensajes (3 días por semana)</h3>
+<ol>
+  <li>Fija tus días y horas, por ejemplo <strong>lunes, miércoles y viernes de 10:00 a 10:30</strong>.</li>
+  <li>Entra en Meta Business Suite → <strong>Bandeja de entrada</strong>: ahí ves juntos los comentarios y mensajes de Instagram y Facebook.</li>
+  <li>Responde todos los comentarios, aunque sea con un “¡Gracias!”. Si es una pregunta, responde y añade “Te escribimos por privado”.</li>
+  <li>Crea <strong>respuestas guardadas</strong> en la Bandeja de entrada para las preguntas frecuentes (plantillas en la sección 07).</li>
+  <li>Si alguien pregunta por un inmueble o por vender: <strong>pásalo a la inmobiliaria el mismo día</strong> (WhatsApp o llamada) y apúntalo en la hoja de contactos con fecha, nombre, red social, tipo (compra o venta) y estado.</li>
+</ol>
+<div class="tip">Deja claro con Inmorpesa por escrito qué puedes responder tú (información general) y qué deben responder ellos (precios, negociaciones o visitas).</div>
+
+<h3><span class="pl">Esencial</span>Calendario mensual para aprobación</h3>
+<ol>
+  <li>Crea un Google Sheets con estas columnas: <em>Fecha · Día · Red · Formato · Pilar · Tema · Gancho/título · Guion o texto · Estado · Comentarios del cliente</em>.</li>
+  <li>Rellena todo el mes. En “Guion o texto” pega el guion completo de cada vídeo.</li>
+  <li>Compártelo con Inmorpesa con permiso de <strong>“Comentador”</strong> (pueden comentar pero no borrar).</li>
+  <li>Envía el enlace con un mensaje: “Aquí tenéis el calendario de noviembre. Necesito vuestra aprobación o comentarios antes del [fecha, 48 h]”.</li>
+  <li>Cambia el estado de cada fila: Pendiente → Aprobado → Grabado → Editado → Programado → Publicado.</li>
+</ol>
+
+<h3><span class="pl">Esencial</span>Informe mensual de resultados</h3>
+<ol>
+  <li>Del día 1 al 3 de cada mes, entra en Meta Business Suite → <strong>Estadísticas</strong> (o en Instagram → Panel profesional) y selecciona el mes anterior.</li>
+  <li>Apunta estos datos (y los del mes anterior para comparar):
+    <ul>
+      <li>Seguidores totales y seguidores nuevos.</li>
+      <li>Alcance (cuentas alcanzadas), y cuántas no eran seguidores.</li>
+      <li>Interacciones: me gusta, comentarios, guardados y compartidos.</li>
+      <li>Las 3 publicaciones con mejor resultado, y por qué crees que funcionaron.</li>
+      <li>Mensajes recibidos y <strong>contactos reales</strong> (de tu hoja de contactos).</li>
+    </ul>
+  </li>
+  <li>Hazlo en Canva (plantilla de 3–4 páginas): resumen, datos, mejores publicaciones, aprendizajes y plan del próximo mes.</li>
+  <li>Expórtalo a PDF y envíalo. Destaca siempre <strong>los contactos y las oportunidades</strong>, no solo los seguidores.</li>
+</ol>
+
+<!-- 05 -->
+<h2><span class="sec-eb" style="display:block">05</span>Lo que añade el Plan Crecimiento</h2>
+<p class="intro">Todo lo del Esencial, con más volumen (16 publicaciones: 8 reels y 8 carruseles), y además lo siguiente.</p>
+
+<h3><span class="pl c">Crecimiento</span>Tours de propiedades (4 reels al mes)</h3>
+<ol>
+  <li>Pide a la inmobiliaria la ficha del inmueble (precio, m², habitaciones, puntos fuertes) y una cita para grabar.</li>
+  <li>Antes de grabar: ventanas abiertas, luces encendidas, camas hechas y nada personal a la vista.</li>
+  <li>Graba en vertical, con movimientos lentos y fluidos (caminando despacio con el móvil estable o con estabilizador):
+    <ul>
+      <li>Fachada o portal → puerta abriéndose → salón → cocina → dormitorios → baño → terraza o vistas.</li>
+      <li>De cada estancia, una toma general de 5 s y 1–2 detalles (luz, acabados, armario).</li>
+    </ul>
+  </li>
+  <li>Edita en CapCut: tomas de 1–2 s al ritmo de la música, texto con los datos clave (“3 hab · 2 baños · 95 m²”) y cierre con “Pide tu visita: escríbenos ‘VISITA’”.</li>
+  <li>Duración ideal: 20–40 s. Usa el formato “Te enseño esta casa en 30 segundos”.</li>
+</ol>
+<div class="tip">Pide siempre permiso al propietario para grabar y publicar. No muestres la dirección exacta ni objetos personales.</div>
+
+<h3><span class="pl c">Crecimiento</span>Stories de lunes a viernes</h3>
+<p>Entre 2 y 4 stories al día. Rutina sencilla para cada día de la semana:</p>
+<table>
+  <tr><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr>
+  <tr><td>Compartir el reel nuevo + encuesta</td><td>Consejo rápido o “¿Sabías que…?”</td><td>Inmueble de la semana con enlace</td><td>Caja de preguntas</td><td>Detrás de cámaras + recordatorio de valoración gratuita</td></tr>
+</table>
+
+<h3><span class="pl c">Crecimiento</span>TikTok</h3>
+<ol>
+  <li>Usa los mismos reels. Sube a TikTok el archivo <strong>original de CapCut</strong>, nunca el descargado de Instagram, porque lleva marca de agua y TikTok lo penaliza.</li>
+  <li>Adapta el texto: más corto, con 3–5 hashtags.</li>
+  <li>Puedes programar desde TikTok en el ordenador (opción de programar al subir) o desde Metricool.</li>
+  <li>Publica a la vez o un día después que en Instagram.</li>
+</ol>
+
+<h3><span class="pl c">Crecimiento</span>Gestión de comunidad de lunes a viernes</h3>
+<ol>
+  <li>Dos momentos cada día: <strong>10:00 y 18:00, 15 minutos cada uno</strong>.</li>
+  <li>Responde comentarios y mensajes (como en el Esencial).</li>
+  <li><strong>Interacción activa (10 min al día):</strong> desde la cuenta de Inmorpesa, comenta de verdad en publicaciones de cuentas locales: negocios del barrio, ayuntamiento, medios locales, arquitectos o reformistas. Así la cuenta empieza a sonar en la zona.</li>
+  <li>Responde a todas las respuestas de stories: son conversaciones directas con potenciales clientes.</li>
+</ol>
+
+<h3><span class="pl c">Crecimiento</span>Embudo de captación con “valoración gratuita”</h3>
+<p>Es el camino por el que un seguidor se convierte en un propietario que quiere vender. Es la pieza más importante para tu trabajo como captadora.</p>
+<ol>
+  <li><strong>Crea el formulario</strong> en Google Forms: “Valoración gratuita de tu vivienda”. Campos: nombre, teléfono, zona o dirección aproximada, tipo de vivienda, m², habitaciones, “¿cuándo te gustaría vender?” (ya / 3–6 meses / solo quiero saber el valor) y casilla de aceptación de privacidad (texto legal que facilite la inmobiliaria).</li>
+  <li>Activa las <strong>notificaciones por email</strong> de respuestas nuevas (Respuestas → ⋮ → Recibir notificaciones) para ti y la inmobiliaria.</li>
+  <li><strong>Pon el enlace</strong> en la bio, en el destacado “Vender” y en el sticker de enlace de las stories.</li>
+  <li><strong>Palabra clave por mensaje</strong>: en los vídeos de captar, pide “Escríbenos VALORAR”. Crea una respuesta guardada que envíe el enlace del formulario.</li>
+  <li><strong>Seguimiento</strong>: en menos de 24 h, la inmobiliaria (o tú como captadora) llama al propietario. Apunta en la hoja de contactos el resultado: valoración hecha → visita → encargo firmado.</li>
+  <li><strong>Cuenta los resultados</strong> en el informe: solicitudes recibidas, valoraciones hechas y encargos conseguidos. Esto es lo que justifica subir la tarifa.</li>
+</ol>
+
+<h3><span class="pl c">Crecimiento</span>Jornada de grabación mensual</h3>
+<div class="box">
+  <div class="t">Checklist del día de grabación</div>
+  <div class="grid2">
+    <div><strong>El día antes</strong>
+      <ul><li>Guiones impresos o en el móvil</li><li>Batería del móvil y del micrófono al 100 %</li><li>Espacio libre en el móvil (más de 20 GB)</li><li>Ropa: 2 o 3 cambios lisos, en colores de la marca (piedra, oliva, negro)</li></ul></div>
+    <div><strong>El día de grabación</strong>
+      <ul><li>Primero los vídeos a cámara (estás más fresca)</li><li>Cambia de ropa o de fondo cada 2–3 vídeos para que no parezcan grabados el mismo día</li><li>Después, las tomas de recurso y la oficina</li><li>Al terminar, pasa todo a Drive → “02 Brutos”</li></ul></div>
+  </div>
+</div>
+
+<h3><span class="pl c">Crecimiento</span>Informe y reunión mensual de estrategia</h3>
+<ol>
+  <li>Envía el informe 1 o 2 días antes de la reunión.</li>
+  <li>Reunión de 45 minutos (presencial o videollamada) con esta agenda:
+    <ul><li>Resultados del mes (10 min).</li><li>Qué ha funcionado y qué no (10 min).</li><li>Inmuebles nuevos y novedades de la inmobiliaria (10 min).</li><li>Temas y foco del mes siguiente (15 min).</li></ul>
+  </li>
+  <li>Después, envía un resumen de 5 líneas con lo acordado.</li>
+</ol>
+
+<!-- 06 -->
+<h2><span class="sec-eb" style="display:block">06</span>Lo que añade el Plan Referente</h2>
+<p class="intro">Todo lo de Crecimiento con más volumen (20 publicaciones, 12 reels y stories diarias), y además lo siguiente.</p>
+
+<h3><span class="pl r">Referente</span>Campañas en Meta Ads</h3>
+<ol>
+  <li>Entra en <strong>Administrador de anuncios</strong> (desde Meta Business Suite → Anuncios → Administrador de anuncios). Inmorpesa debe añadir su tarjeta: la inversión la pagan ellos directamente a Meta.</li>
+  <li>Crear campaña → objetivo <strong>“Clientes potenciales”</strong> (para captar propietarios) o <strong>“Interacción → Mensajes”</strong> (para que te escriban por WhatsApp o Instagram).</li>
+  <li><strong>Categoría especial “Vivienda”:</strong> los anuncios inmobiliarios pueden tener que declararla. Si Meta la pide, actívala: limita algunas opciones de segmentación (edad, sexo, zonas muy pequeñas), pero es obligatoria.</li>
+  <li><strong>Presupuesto:</strong> empieza con 5 € al día (unos 150 € al mes), en un solo conjunto de anuncios.</li>
+  <li><strong>Público:</strong> ubicación = la ciudad o zona de trabajo y alrededores. Deja la segmentación amplia: el algoritmo aprende solo.</li>
+  <li><strong>Anuncio:</strong> usa el reel que mejor haya funcionado de forma orgánica (por ejemplo, “3 errores que bajan el precio de tu vivienda”) con el texto “Valoramos tu vivienda gratis y sin compromiso”.</li>
+  <li><strong>Formulario instantáneo</strong> (si eliges Clientes potenciales): nombre, teléfono, zona y “¿cuándo quieres vender?”. Descarga los contactos cada día desde Meta Business Suite y pásalos a la inmobiliaria.</li>
+  <li><strong>Revisión:</strong> deja la campaña 7 días sin tocarla. Después mira el <strong>coste por contacto</strong>. Si un anuncio no funciona, prueba otro vídeo; no cambies todo a la vez.</li>
+</ol>
+<div class="tip">Reporta en el informe: inversión, número de contactos, coste por contacto y cuántos se convirtieron en valoración o encargo.</div>
+
+<h3><span class="pl r">Referente</span>Google Business Profile (ficha de Google Maps)</h3>
+<ol>
+  <li>Entra en <strong>business.google.com</strong> con la cuenta de Google de la inmobiliaria. Busca “Inmorpesa”: si la ficha existe, reclámala; si no, créala.</li>
+  <li>Categoría principal: <strong>“Agencia inmobiliaria”</strong>. Rellena dirección, horario, teléfono, web y descripción (usa las mismas palabras que en la bio).</li>
+  <li><strong>Verifica</strong> la ficha (Google pide videollamada, código o carta, según el caso).</li>
+  <li>Sube 10–15 fotos: fachada, oficina, equipo y logo.</li>
+  <li>Publica <strong>1 novedad a la semana</strong> en la ficha: reutiliza el carrusel o el inmueble de la semana.</li>
+  <li><strong>Reseñas:</strong> crea el enlace para pedir reseñas (desde la ficha → “Pedir reseñas”) y que la inmobiliaria lo envíe a cada cliente tras firmar. Responde todas las reseñas.</li>
+</ol>
+
+<h3><span class="pl r">Referente</span>Colaboraciones con negocios locales</h3>
+<ol>
+  <li>Haz una lista de 10 negocios que encajen con quien compra o vende casa: reformas, interiorismo, mudanzas, gestorías, notarías, cafeterías y tiendas del barrio.</li>
+  <li>Escríbeles por mensaje directo (plantilla en la sección 07) proponiendo un contenido conjunto <strong>gratuito para ambos</strong>.</li>
+  <li>Formatos: entrevista de 60 s (“El reformista responde: ¿cuánto cuesta reformar un baño?”), ruta por el barrio presentando negocios o sorteo conjunto.</li>
+  <li>Publicad el contenido como <strong>colaboración</strong> (al publicar → Etiquetar personas → Invitar a colaborador). Así aparece en ambos perfiles y suma alcance.</li>
+  <li>Objetivo: 1 colaboración al mes.</li>
+</ol>
+
+<h3><span class="pl r">Referente</span>2 jornadas de grabación al mes</h3>
+<p>Una jornada para vídeos a cámara (días 23–25) y otra a mitad de mes para tours de propiedades nuevas, colaboraciones y contenido de actualidad. Sigue la misma checklist.</p>
+
+<!-- 07 -->
+<h2><span class="sec-eb" style="display:block">07</span>Plantillas listas para copiar</h2>
+
+<h4>Plantilla de guion</h4>
+<div class="mono">TÍTULO: ______________________   PILAR: Educar / Mostrar / Conectar / Captar
+DURACIÓN OBJETIVO: 45 s
+
+GANCHO (0–3 s · texto grande en pantalla):
+"________________________________________"
+
+DESARROLLO (3 puntos máximo):
+1. ______________________   [toma de recurso: ____]
+2. ______________________   [toma de recurso: ____]
+3. ______________________
+
+CIERRE + LLAMADA A LA ACCIÓN:
+"Si ________, escríbenos ______ por mensaje."
+
+TEXTO DE LA PUBLICACIÓN: ______________________
+HASHTAGS: #inmobiliaria #______ #______</div>
+
+<h4>Ejemplo · “¿Quién coge el teléfono en Inmorpesa?” (vídeo de presentación)</h4>
+<div class="mono">GANCHO: "¿Te ha pasado llamar a una inmobiliaria y que no conteste nadie?"
+DESARROLLO:
+1. "En Inmorpesa no hay centralita. Llamas, y te cogemos nosotros."
+2. "Somos una inmobiliaria familiar: [nombres y qué hace cada uno]."
+3. "Te acompañamos en todo: precio, papeles, visitas y firma."
+CIERRE: "Si estás pensando en comprar o vender, escríbenos. Te contesta una persona."</div>
+
+<h4>Ejemplo · “Vender rápido y vender bien no siempre es lo mismo”</h4>
+<div class="mono">GANCHO: "Vender rápido y vender bien no siempre es lo mismo."
+DESARROLLO:
+1. "Si pones un precio muy bajo, vendes rápido… pero pierdes dinero."
+2. "Si pones un precio muy alto, la casa se 'quema' y acabas bajando igual."
+3. "Vender bien es encontrar el equilibrio entre precio, tiempo y condiciones."
+CIERRE: "¿Quieres saber cuál es el precio correcto de tu casa? Escríbenos VALORAR."</div>
+
+<h4>Respuestas guardadas para mensajes</h4>
+<div class="mono">VALORAR → "¡Hola! Gracias por escribirnos 😊 Aquí puedes pedir tu valoración gratuita en 1 minuto: [enlace]. En menos de 24 h te llamamos personalmente."
+
+INMUEBLE → "¡Hola! Gracias por tu interés en esta vivienda. ¿Nos dejas tu nombre y teléfono? Te llamamos hoy mismo para darte toda la información y organizar una visita."
+
+GENERAL → "¡Hola! Gracias por escribir. Aquí te atiende una persona, no un robot 😉 ¿En qué podemos ayudarte?"</div>
+
+<h4>Mensaje para proponer una colaboración</h4>
+<div class="mono">"¡Hola, [nombre]! Somos Inmorpesa, una inmobiliaria familiar de la zona. Nos encanta lo que hacéis y creemos que a nuestros seguidores (gente que va a comprar o reformar casa) también les interesaría. ¿Os apetece grabar un vídeo corto juntos? Lo publicaríamos en los dos perfiles, sin coste para nadie. ¡Nos encantaría conoceros!"</div>
+
+<h4>Mensaje para enviar el calendario</h4>
+<div class="mono">"¡Hola! Aquí tenéis el calendario de [mes] con todos los guiones: [enlace]. Podéis dejar comentarios directamente en cada fila. Necesito vuestra aprobación antes del [fecha] para grabar el [fecha de grabación]. ¡Gracias!"</div>
+
+<!-- 08 -->
+<h2><span class="sec-eb" style="display:block">08</span>Horas de trabajo por plan</h2>
+<p class="intro">Estimación orientativa una vez tengas la rutina rodada (los dos primeros meses tardarás algo más). Te sirve para comprobar que la tarifa compensa y para defender el precio si os sentáis a negociar.</p>
+<table>
+  <tr><th>Tarea</th><th>Esencial</th><th>Crecimiento</th><th>Referente</th></tr>
+  <tr><td>Planificación y guiones</td><td>4 h</td><td>6 h</td><td>8 h</td></tr>
+  <tr><td>Grabación (incluye desplazamientos)</td><td>3 h</td><td>6 h</td><td>10 h</td></tr>
+  <tr><td>Edición de reels</td><td>3 h</td><td>6 h</td><td>9 h</td></tr>
+  <tr><td>Diseño de carruseles y posts</td><td>4 h</td><td>4 h</td><td>4 h</td></tr>
+  <tr><td>Stories</td><td>1,5 h</td><td>4 h</td><td>6 h</td></tr>
+  <tr><td>Programación (IG, FB y TikTok)</td><td>1 h</td><td>2 h</td><td>2,5 h</td></tr>
+  <tr><td>Comunidad y mensajes</td><td>3 h</td><td>10 h</td><td>10 h</td></tr>
+  <tr><td>Informe (+ reunión)</td><td>2 h</td><td>3 h</td><td>3 h</td></tr>
+  <tr><td>Meta Ads, Google Business y colaboraciones</td><td>—</td><td>—</td><td>8 h</td></tr>
+  <tr><td><strong>Total aproximado al mes</strong></td><td><strong>≈ 21,5 h</strong></td><td><strong>≈ 41 h</strong></td><td><strong>≈ 60 h</strong></td></tr>
+  <tr><td><strong>Tarifa / hora resultante</strong></td><td><strong>≈ 16 €/h</strong></td><td><strong>≈ 12 €/h</strong></td><td><strong>≈ 12 €/h</strong></td></tr>
+</table>
+<div class="box dark">
+  <div class="t">Cómo leer esta tabla</div>
+  El Plan Crecimiento a 500 € es el que más horas te pide por euro. Se compensa porque te sirve como captadora (los propietarios que entren por redes son también tus oportunidades) y porque, a medida que ganes rapidez con plantillas y rutinas, las horas bajan. <strong>Por eso no conviene bajar de 450 €</strong> en ese plan, y en la revisión del mes 4 tendrás datos para subirlo.
+</div>
+
+</body>
+</html>
