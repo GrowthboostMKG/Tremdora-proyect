@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tutoriales · Inmorpesa</title>
+<style>
+  :root{--ink:#232323;--olive:#4b4c31;--khaki:#a9a883;--cream:#dcdad1;--sand:#efede7;--muted:#66665e;--line:#d9d6cc}
+  @page{size:A4;margin:16mm 17mm 16mm}
+  @page :first{margin:0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,"Liberation Sans",sans-serif;color:var(--ink);font-size:10pt;line-height:1.55;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cover{height:297mm;background:#232323;color:var(--cream);padding:30mm 20mm;position:relative;page-break-after:always}
+  .cover:after{content:"";position:absolute;right:0;top:0;width:46mm;height:166mm;background:var(--olive);clip-path:polygon(0 0,100% 0,100% 100%,0 72.3%)}
+  .cover img{width:24mm;border-radius:50%;margin-bottom:24mm}
+  .cover .eb{font-size:8pt;letter-spacing:.22em;text-transform:uppercase;color:var(--khaki);font-weight:600;margin-bottom:4mm}
+  .cover h1{font-size:34pt;font-weight:300;line-height:1.1;color:var(--cream);max-width:130mm;margin-bottom:8mm}
+  .cover h1 em{font-style:normal;color:var(--khaki)}
+  .cover p{font-size:11.5pt;font-weight:300;color:#bdbbb2;max-width:120mm}
+  .cover .idx{margin-top:18mm;font-size:10pt;color:#cfcdc3;line-height:2}
+  .cover .idx b{color:var(--khaki);font-weight:500;display:inline-block;width:10mm}
+  .cover .who{position:absolute;left:20mm;bottom:20mm;font-size:8.5pt;color:#9f9d94}
+  .cover .who b{color:var(--cream);font-weight:500}
+
+  h2{font-size:21pt;font-weight:300;letter-spacing:-.015em;margin:0 0 2mm;page-break-before:always;page-break-after:avoid}
+  .sec-eb{font-size:7.6pt;letter-spacing:.2em;text-transform:uppercase;color:var(--olive);font-weight:700;margin-bottom:1.5mm}
+  .intro{color:var(--muted);font-size:10.5pt;font-weight:300;margin-bottom:6mm}
+  h3{font-size:12pt;font-weight:600;margin:6mm 0 2mm;page-break-after:avoid;display:flex;align-items:center;gap:2.5mm}
+  h3 .pl{font-size:6.8pt;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border-radius:8mm;padding:.6mm 2.4mm;background:var(--cream);color:var(--olive)}
+  h3 .pl.c{background:var(--olive);color:#fff}
+  h3 .pl.r{background:#232323;color:#fff}
+  h4{font-size:9.5pt;font-weight:700;margin:3mm 0 1mm;color:var(--olive);page-break-after:avoid}
+  p{margin-bottom:2.2mm}
+  ol,ul{margin:0 0 2.5mm 5.5mm}
+  li{margin-bottom:1.1mm;padding-left:1mm}
+  ol li::marker{color:var(--olive);font-weight:700}
+  ul li::marker{color:var(--olive)}
+  strong{font-weight:600}
+  .box{background:var(--sand);border-radius:2mm;padding:4mm 5mm;margin:3mm 0 4mm;page-break-inside:avoid}
+  .box.dark{background:#232323;color:#e8e7e0}
+  .box.dark strong{color:#fff}
+  .box .t{font-size:7.4pt;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--olive);margin-bottom:1.5mm}
+  .box.dark .t{color:var(--khaki)}
+  .tip{border-left:3px solid var(--olive);padding:1mm 0 1mm 4mm;margin:3mm 0;color:#444;font-size:9.5pt;page-break-inside:avoid}
+  table{width:100%;border-collapse:collapse;font-size:8.8pt;margin:2mm 0 4mm;page-break-inside:avoid}
+  th{background:#232323;color:var(--cream);text-align:left;font-weight:500;padding:2mm 2.5mm}
+  td{padding:2mm 2.5mm;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#f7f6f2}
+  .mono{font-family:"DejaVu Sans Mono",monospace;font-size:8.6pt;background:#fff;border:1px dashed #c9c6bb;border-radius:2mm;padding:3mm 4mm;white-space:pre-wrap;margin:2mm 0 4mm;page-break-inside:avoid;line-height:1.5}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+  .avoid{page-break-inside:avoid}
+  .note-first{page-break-before:always;background:var(--sand);border-radius:2mm;padding:5mm;font-size:9.6pt;margin-bottom:6mm}
+  .note-first + h2{page-break-before:avoid}
+</style>
+
+</head>
+<body>
+<section class="cover">
+  <img src="logo-inmorpesa.png">
+  <div class="eb">Anexo de la guía de trabajo · Uso interno</div>
+  <h1>Tutoriales<br><em>pantalla a pantalla</em></h1>
+  <p>Instrucciones detalladas para las tareas que necesitan configuración: formularios, Google Sheets, mensajes, Instagram, Google Business Profile y colaboraciones.</p>
+  <div class="idx">
+    <div><b>A</b>Hoja de contactos en Google Sheets</div>
+    <div><b>B</b>Calendario: compartir y estados</div>
+    <div><b>C</b>Respuestas guardadas en mensajes</div>
+    <div><b>D</b>Pasar contactos a la inmobiliaria</div>
+    <div><b>E</b>Formulario de valoración gratuita</div>
+    <div><b>F</b>Enlaces en la bio, destacado y stories</div>
+    <div><b>G</b>Palabra clave “VALORAR” y seguimiento</div>
+    <div><b>H</b>Google Business Profile</div>
+    <div><b>I</b>Colaboraciones con negocios locales</div>
+  </div>
+  <div class="who"><b>Victoria Silvera</b> · Community Manager · Growth Boost MKG</div>
+</section>
+
+<div class="note-first">
+  <strong>Antes de empezar:</strong> Google y Meta cambian de vez en cuando el nombre o el sitio de algunos botones. Si algo no aparece exactamente como aquí, busca un nombre parecido en el mismo menú o escribe el nombre de la función en la ayuda de la aplicación. Todo lo que hagas con datos de clientes (formularios, hojas de contactos) debe estar a nombre de <strong>Inmorpesa</strong>, que es la responsable de esos datos.
+</div>
+
+<!-- A -->
+<h2><span class="sec-eb" style="display:block">A</span>Hoja de contactos en Google Sheets</h2>
+<p class="intro">Es la lista donde apuntas cada persona que escribe interesada en comprar o vender. Sirve para no perder ningún contacto y para contar resultados en el informe.</p>
+
+<h3>Paso 1 · Crear la hoja</h3>
+<ol>
+  <li>Entra en <strong>sheets.google.com</strong> con tu cuenta de Google (desde el ordenador es más cómodo).</li>
+  <li>Pulsa <strong>“+ Hoja de cálculo en blanco”</strong>.</li>
+  <li>Arriba a la izquierda, donde pone “Hoja de cálculo sin título”, haz clic y escribe: <strong>Inmorpesa · Contactos redes</strong>.</li>
+</ol>
+
+<h3>Paso 2 · Escribir las columnas</h3>
+<p>En la fila 1 escribe una palabra en cada celda, de la A a la J:</p>
+<table>
+  <tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th></tr>
+  <tr><td>Fecha</td><td>Nombre</td><td>Teléfono</td><td>Red</td><td>Tipo</td><td>Zona</td><td>Mensaje / interés</td><td>Pasado a</td><td>Estado</td><td>Notas</td></tr>
+</table>
+<ol>
+  <li>Selecciona la fila 1 (clic en el número “1” de la izquierda) → pon el texto en <strong>negrita</strong> (botón B) y un color de fondo (icono del cubo de pintura).</li>
+  <li>Menú <strong>Ver → Inmovilizar → 1 fila</strong>. Así los títulos se quedan fijos al bajar.</li>
+</ol>
+
+<h3>Paso 3 · Crear los desplegables (para no escribir a mano)</h3>
+<ol>
+  <li>Selecciona la columna D entera (clic en la letra <strong>D</strong>).</li>
+  <li>Menú <strong>Insertar → Desplegable</strong>. Se abre un panel a la derecha.</li>
+  <li>En “Opción 1” escribe <em>Instagram</em>; pulsa “Añadir otro elemento” y escribe <em>Facebook</em>, luego <em>TikTok</em>, <em>Formulario</em> y <em>Anuncio</em>. Pulsa <strong>Hecho</strong>.</li>
+  <li>Repite con la columna <strong>E (Tipo)</strong>: <em>Vender · Comprar · Alquilar · Otro</em>.</li>
+  <li>Repite con la columna <strong>I (Estado)</strong>: <em>Nuevo · Llamado · Valoración hecha · Visita · Encargo firmado · Descartado</em>. Puedes dar un color a cada opción en el mismo panel (por ejemplo, verde para “Encargo firmado”).</li>
+</ol>
+
+<h3>Paso 4 · Compartirla con la inmobiliaria</h3>
+<ol>
+  <li>Botón verde <strong>Compartir</strong> (arriba a la derecha).</li>
+  <li>Escribe el email de la persona de Inmorpesa → a la derecha elige <strong>Editor</strong> (así ellos también pueden actualizar el estado) → <strong>Enviar</strong>.</li>
+</ol>
+<div class="tip">Cada vez que entre un contacto: nueva fila, rellena fecha, nombre, red, tipo y estado “Nuevo”. Cuando la inmobiliaria lo llame, que cambie el estado. Al final de mes, cuentas cuántos hay de cada estado para el informe.</div>
+
+<!-- B -->
+<h2><span class="sec-eb" style="display:block">B</span>Calendario: compartir y estados</h2>
+<p class="intro">Corresponde a los pasos 3, 4 y 5 del “Calendario mensual para aprobación”.</p>
+
+<h3>Paso 1 · Crear el calendario</h3>
+<ol>
+  <li>Crea una hoja nueva igual que en el tutorial A y llámala <strong>Inmorpesa · Calendario noviembre 2026</strong>.</li>
+  <li>Columnas de la fila 1: <em>Fecha · Día · Red · Formato · Pilar · Tema · Gancho o título · Guion o texto · Estado · Comentarios del cliente</em>.</li>
+  <li>Para que los guiones largos se lean bien: selecciona la columna H → menú <strong>Formato → Ajuste de texto → Ajustar</strong>. Ensancha la columna arrastrando el borde de la letra H.</li>
+</ol>
+
+<h3>Paso 2 · Columna de estado con desplegable</h3>
+<ol>
+  <li>Selecciona la columna I (Estado) → <strong>Insertar → Desplegable</strong>.</li>
+  <li>Opciones: <em>Pendiente · Aprobado · Grabado · Editado · Programado · Publicado</em>. Dale un color a cada una (gris, amarillo, azul, naranja, morado, verde).</li>
+  <li>Así, con un vistazo al color, sabes cómo va el mes. Cada vez que avances con una publicación, despliega la celda y cambia el estado.</li>
+</ol>
+
+<h3>Paso 3 · Compartir con permiso de “Comentador”</h3>
+<ol>
+  <li>Pulsa <strong>Compartir</strong>.</li>
+  <li>Escribe el email de la persona de Inmorpesa que aprueba.</li>
+  <li>En el desplegable de la derecha (por defecto pone “Editor”), elige <strong>Comentador</strong>. Así pueden dejar comentarios, pero no borrar ni cambiar tus textos sin querer.</li>
+  <li>Desmarca “Notificar” si prefieres enviar tú el enlace por WhatsApp, o déjalo marcado para que les llegue un email. Pulsa <strong>Enviar</strong> o <strong>Compartir</strong>.</li>
+  <li>Para copiar el enlace: en la misma ventana, pulsa <strong>Copiar enlace</strong>.</li>
+</ol>
+
+<h3>Paso 4 · Enviar el mensaje</h3>
+<p>Pega el enlace en WhatsApp o email con el texto de la plantilla (guía, sección 07). Pon una fecha concreta: si envías el día 20, “antes del miércoles 22 a las 14:00”.</p>
+
+<h3>Paso 5 · Cómo comentan ellos (explícaselo el primer mes)</h3>
+<ol>
+  <li>Clic derecho sobre la celda (en el móvil: mantener pulsada) → <strong>Comentar</strong> → escriben y pulsan “Comentar”.</li>
+  <li>Tú recibes un aviso por email. Cuando hagas el cambio, pulsa <strong>✓ (Resolver)</strong> en el comentario y cambia el estado a “Aprobado”.</li>
+</ol>
+
+<!-- C -->
+<h2><span class="sec-eb" style="display:block">C</span>Respuestas guardadas en mensajes</h2>
+<p class="intro">Son textos que escribes una vez y luego insertas con un toque, para no escribir lo mismo cada vez. Hazlas en Meta Business Suite y te sirven para Instagram y Facebook.</p>
+
+<h3>Opción 1 · Desde Meta Business Suite (recomendado, en el ordenador)</h3>
+<ol>
+  <li>Entra en <strong>business.facebook.com</strong> → menú de la izquierda → <strong>Bandeja de entrada</strong>.</li>
+  <li>Abre cualquier conversación. Debajo, en la caja donde se escribe la respuesta, busca el icono de <strong>respuestas guardadas</strong> (suele ser un bocadillo con rayas o un icono de mensaje).</li>
+  <li>Pulsa <strong>“Crear respuesta guardada”</strong> (o “+ Nueva”).</li>
+  <li>Rellena:
+    <ul>
+      <li><strong>Nombre o atajo:</strong> VALORAR</li>
+      <li><strong>Mensaje:</strong> el texto de la plantilla, con el enlace del formulario (lo creas en el tutorial E).</li>
+    </ul>
+  </li>
+  <li>Guarda. Repite para <strong>INMUEBLE</strong> y <strong>GENERAL</strong>.</li>
+  <li><strong>Para usarla:</strong> en una conversación, pulsa el icono de respuestas guardadas y elige la que quieras. Personaliza el nombre de la persona antes de enviar.</li>
+</ol>
+
+<h3>Opción 2 · Desde la app de Instagram (móvil)</h3>
+<ol>
+  <li>En el perfil de Inmorpesa → menú ☰ (arriba a la derecha) → <strong>Herramientas para empresas</strong> (o “Herramientas y controles de empresa”) → <strong>Respuestas guardadas</strong>.</li>
+  <li>Pulsa <strong>+</strong> → en “Atajo” escribe una palabra corta (por ejemplo <em>valorar</em>) → en “Mensaje” pega el texto → Guardar.</li>
+  <li><strong>Para usarla:</strong> en un chat, escribe el atajo y pulsa la sugerencia que aparece, o pulsa el icono de bocadillo junto a la caja de texto.</li>
+</ol>
+
+<!-- D -->
+<h2><span class="sec-eb" style="display:block">D</span>Pasar contactos a la inmobiliaria el mismo día</h2>
+<p class="intro">Corresponde al paso 5 de “Respuesta a comentarios y mensajes”. El objetivo es que ningún interesado se enfríe.</p>
+<ol>
+  <li><strong>Crea un grupo de WhatsApp</strong> con la persona responsable de Inmorpesa: WhatsApp → icono de nuevo chat → <strong>Nuevo grupo</strong> → añade al contacto → nombre del grupo: <em>Inmorpesa · Contactos redes</em>.</li>
+  <li>Cuando alguien muestre interés (por mensaje, comentario o formulario), <strong>pídele nombre y teléfono</strong> con la respuesta guardada INMUEBLE o VALORAR.</li>
+  <li>Cuando te lo dé, envía al grupo este mensaje (cópialo como respuesta rápida en tu WhatsApp):</li>
+</ol>
+<div class="mono">🔔 NUEVO CONTACTO
+Nombre: ________
+Teléfono: ________
+Viene de: Instagram / Facebook / TikTok / Formulario
+Quiere: Vender / Comprar
+Interés: (ej. piso de 3 hab. de la calle X / valorar su casa en zona Y)
+Le hemos dicho que le llamamos: hoy / mañana por la mañana</div>
+<ol start="4">
+  <li><strong>Apunta el contacto</strong> en la hoja (tutorial A) con estado “Nuevo” y en la columna “Pasado a”, el nombre de quien lo va a llamar.</li>
+  <li>Al día siguiente, pregunta en el grupo cómo fue y actualiza el estado.</li>
+</ol>
+<div class="tip">Si el contacto es de un propietario que quiere vender y tú eres la captadora, acuerda con Inmorpesa desde el principio si lo llamas tú directamente. Déjalo por escrito para que no haya dudas con las comisiones.</div>
+
+<!-- E -->
+<h2><span class="sec-eb" style="display:block">E</span>Formulario de valoración gratuita</h2>
+<p class="intro">Corresponde a los pasos 1 y 2 del embudo de captación. Lo ideal es crearlo con la cuenta de Google de Inmorpesa (y añadirte como colaboradora), porque los datos son suyos.</p>
+
+<h3>Paso 1 · Crear el formulario</h3>
+<ol>
+  <li>Entra en <strong>forms.google.com</strong> → pulsa <strong>“+ En blanco”</strong> (formulario vacío).</li>
+  <li>Donde pone “Formulario sin título” escribe: <strong>Valoración gratuita de tu vivienda · Inmorpesa</strong>.</li>
+  <li>En la descripción, debajo: <em>“Déjanos tus datos y te llamamos en menos de 24 h para valorar tu casa, sin compromiso. Aquí te atiende una persona.”</em></li>
+  <li><strong>Personalizar el aspecto:</strong> icono de la paleta 🎨 (arriba) → color oliva, fuente sencilla y, en “Encabezado”, sube una imagen de Canva de 1600×400 con el logo.</li>
+</ol>
+
+<h3>Paso 2 · Añadir las preguntas</h3>
+<p>Para cada pregunta: pulsa el <strong>⊕</strong> de la barra lateral, escribe la pregunta, elige el tipo en el desplegable de la derecha y activa <strong>“Obligatoria”</strong> abajo cuando haga falta.</p>
+<table>
+  <tr><th>Pregunta</th><th>Tipo</th><th>Obligatoria</th></tr>
+  <tr><td>Nombre</td><td>Respuesta corta</td><td>Sí</td></tr>
+  <tr><td>Teléfono</td><td>Respuesta corta</td><td>Sí</td></tr>
+  <tr><td>Zona o dirección aproximada de la vivienda</td><td>Respuesta corta</td><td>Sí</td></tr>
+  <tr><td>Tipo de vivienda</td><td>Varias opciones: Piso · Casa / chalet · Ático · Local · Otro</td><td>Sí</td></tr>
+  <tr><td>Metros cuadrados (aprox.)</td><td>Respuesta corta</td><td>No</td></tr>
+  <tr><td>Número de habitaciones</td><td>Desplegable: 1 · 2 · 3 · 4 · 5 o más</td><td>No</td></tr>
+  <tr><td>¿Cuándo te gustaría vender?</td><td>Varias opciones: Lo antes posible · En 3–6 meses · Solo quiero saber cuánto vale</td><td>Sí</td></tr>
+  <tr><td>Privacidad</td><td>Casillas: “He leído y acepto la política de privacidad”</td><td>Sí</td></tr>
+</table>
+<div class="tip"><strong>Privacidad (importante):</strong> en la pregunta de la casilla, pulsa los tres puntos ⋮ → <strong>Descripción</strong> y pega el texto legal que te dé Inmorpesa (quién es el responsable de los datos, para qué se usan y el enlace a su política de privacidad en inmorpesa.com). Si no lo tienen, pídeselo a su gestoría o asesor: es obligatorio por la protección de datos (RGPD).</div>
+
+<h3>Paso 3 · Ajustes</h3>
+<ol>
+  <li>Pestaña <strong>Configuración</strong> (arriba) → <strong>Respuestas</strong> → desactiva “Recopilar direcciones de correo” (si no, pide iniciar sesión en Google y mucha gente abandona).</li>
+  <li>En <strong>Presentación → Mensaje de confirmación</strong>, escribe: <em>“¡Gracias! Te llamamos en menos de 24 h. Si lo prefieres, escríbenos por WhatsApp: [enlace]”</em>.</li>
+</ol>
+
+<h3>Paso 4 · Conectar las respuestas con una hoja</h3>
+<ol>
+  <li>Pestaña <strong>Respuestas</strong> → botón verde <strong>“Vincular a Hojas de cálculo”</strong> → “Crear una hoja de cálculo nueva” → Crear.</li>
+  <li>Cada respuesta del formulario aparecerá automáticamente como una fila nueva en esa hoja.</li>
+</ol>
+
+<h3>Paso 5 · Activar los avisos por email</h3>
+<ol>
+  <li>Pestaña <strong>Respuestas</strong> → los tres puntos <strong>⋮</strong> → <strong>“Recibir notificaciones por correo electrónico de nuevas respuestas”</strong>.</li>
+  <li>El aviso llega solo a quien lo activa. Para que llegue también a la otra persona: botón <strong>Enviar</strong> (arriba a la derecha) → ⋮ → <strong>Añadir colaboradores</strong> → añade su email. Esa persona abre el formulario y repite el paso 1 desde su cuenta.</li>
+</ol>
+
+<h3>Paso 6 · Copiar el enlace del formulario</h3>
+<ol>
+  <li>Botón <strong>Enviar</strong> (arriba a la derecha) → pestaña con el icono de <strong>enlace 🔗</strong>.</li>
+  <li>Marca <strong>“Acortar URL”</strong> → <strong>Copiar</strong>. Guarda ese enlace en una nota: lo usarás en la bio, en las stories y en las respuestas guardadas.</li>
+  <li>Haz una prueba: rellena tú el formulario desde el móvil y comprueba que llega el email y aparece la fila en la hoja.</li>
+</ol>
+
+<!-- F -->
+<h2><span class="sec-eb" style="display:block">F</span>Enlaces en la bio, destacado y stories</h2>
+<p class="intro">Corresponde al paso 3 del embudo: poner el formulario donde lo vea la gente.</p>
+
+<h3>Paso 1 · Enlace en la bio (perfil)</h3>
+<ol>
+  <li>App de Instagram → perfil de Inmorpesa → <strong>Editar perfil</strong> → <strong>Enlaces</strong> → <strong>Añadir enlace externo</strong>.</li>
+  <li>URL: pega el enlace del formulario. Título: <strong>Valoración gratuita</strong>. Pulsa ✓.</li>
+  <li>Añade también la web (título <em>Web</em>) y WhatsApp (URL <em>https://wa.me/34XXXXXXXXX</em> con el número de la inmobiliaria sin espacios; título <em>WhatsApp</em>).</li>
+  <li>Pon el de valoración el <strong>primero</strong>: en la lista de enlaces se puede reordenar manteniendo pulsado y arrastrando.</li>
+</ol>
+
+<h3>Paso 2 · Story con enlace</h3>
+<ol>
+  <li>Crea en Canva una story (1080×1920) con el texto “¿Cuánto vale tu casa? Valoración gratuita en 1 minuto”, dejando espacio libre en el centro. Descárgala en el móvil.</li>
+  <li>Instagram → <strong>+</strong> → <strong>Historia</strong> → elige la imagen.</li>
+  <li>Pulsa el icono de <strong>stickers</strong> (la cara cuadrada de arriba) → <strong>Enlace</strong> → pega el enlace del formulario → <strong>Personalizar texto del sticker</strong>: “VALORAR MI CASA” → Listo.</li>
+  <li>Coloca el sticker en el espacio libre y toca encima para cambiar su color. Publica en <strong>Tu historia</strong>.</li>
+</ol>
+
+<h3>Paso 3 · Guardarla en el destacado “Vender”</h3>
+<ol>
+  <li>Mientras la story está publicada (24 h), ábrela → abajo pulsa <strong>Destacar</strong> (corazón) → elige el destacado “Vender” o pulsa <strong>Nuevo</strong> y escribe “Vender”.</li>
+  <li>Para cambiar la portada: en tu perfil, mantén pulsado el destacado → <strong>Editar destacado</strong> → <strong>Editar portada</strong> → icono de galería → elige la portada de Canva.</li>
+  <li>Las stories viejas también se pueden añadir: perfil → ☰ → <strong>Archivo</strong> → abre la story → Destacar.</li>
+</ol>
+
+<!-- G -->
+<h2><span class="sec-eb" style="display:block">G</span>Palabra clave “VALORAR” y seguimiento</h2>
+<p class="intro">Corresponde a los pasos 4, 5 y 6 del embudo.</p>
+
+<h3>Paso 1 · Pedir la palabra en el contenido</h3>
+<ol>
+  <li>En los vídeos de captar, termina siempre con: <em>“Si quieres saber cuánto vale tu casa, escríbenos VALORAR por mensaje.”</em></li>
+  <li>Pon también la frase en el texto de la publicación y como texto en pantalla al final del vídeo.</li>
+</ol>
+
+<h3>Paso 2 · Responder</h3>
+<p><strong>Manual (para empezar):</strong> cuando alguien escriba “VALORAR”, contesta con la respuesta guardada VALORAR (tutorial C).</p>
+<p><strong>Automática (opcional, cuando haya volumen):</strong></p>
+<ol>
+  <li>Meta Business Suite → <strong>Bandeja de entrada</strong> → icono o pestaña de <strong>Automatizaciones</strong>.</li>
+  <li>Busca la opción de crear una automatización por <strong>palabra clave</strong> (puede llamarse “Respuestas automáticas por palabra clave” o similar).</li>
+  <li>Palabra: <em>valorar</em> → canal: Instagram (y Facebook) → mensaje: el texto de VALORAR con el enlace → Guardar y activar.</li>
+  <li>Prueba desde otra cuenta escribiendo “valorar” para comprobar que funciona.</li>
+</ol>
+
+<h3>Paso 3 · Seguimiento en menos de 24 h</h3>
+<ol>
+  <li>Cuando llega una respuesta del formulario (aviso por email), pásala al grupo de WhatsApp (tutorial D) y apúntala en la hoja de contactos (tutorial A) con estado “Nuevo”.</li>
+  <li>Quien llame (la inmobiliaria o tú) actualiza el estado: <em>Llamado → Valoración hecha → Visita → Encargo firmado</em> (o “Descartado”, indicando el motivo en Notas).</li>
+</ol>
+
+<h3>Paso 4 · Contar los resultados para el informe</h3>
+<ol>
+  <li>En la hoja de contactos, filtra por fechas del mes: selecciona la fila 1 → <strong>Datos → Crear un filtro</strong> → en la columna Fecha, pulsa el icono del filtro → “Filtrar por condición” → “La fecha es posterior a…”.</li>
+  <li>Abajo a la derecha de la pantalla, al seleccionar una columna, Sheets muestra el <strong>recuento</strong>. Apunta: solicitudes recibidas, valoraciones hechas, visitas y encargos firmados.</li>
+  <li>En el informe ponlo así: <em>“Este mes: 9 solicitudes de valoración → 5 valoraciones → 2 encargos firmados”</em>. Es el dato que más convence para subir la tarifa.</li>
+</ol>
+
+<!-- H -->
+<h2><span class="sec-eb" style="display:block">H</span>Google Business Profile (ficha de Google Maps)</h2>
+<p class="intro">Es la ficha que sale en Google y en Maps al buscar “inmobiliaria cerca de mí” o “Inmorpesa”. La ficha debe ser propiedad de Inmorpesa; tú entras como administradora.</p>
+
+<h3>Paso 1 · Entrar y buscar la ficha</h3>
+<ol>
+  <li>Con la cuenta de Google de Inmorpesa, entra en <strong>google.com/business</strong> → <strong>Gestionar ahora</strong>.</li>
+  <li>Escribe <strong>Inmorpesa</strong> en el buscador del nombre de la empresa.</li>
+  <li><strong>Si aparece en la lista:</strong> selecciónala. Si nadie la gestiona, Google te deja reclamarla y continuar. Si ya la gestiona otra persona, sale “Solicitar acceso”: rellena el formulario y Google avisa al propietario actual (puede tardar unos días).</li>
+  <li><strong>Si no aparece:</strong> pulsa “Crear una empresa con este nombre” y sigue al paso 2.</li>
+</ol>
+
+<h3>Paso 2 · Rellenar los datos</h3>
+<ol>
+  <li><strong>Categoría:</strong> escribe “inmobiliaria” y elige <strong>Agencia inmobiliaria</strong>.</li>
+  <li><strong>¿Tiene un local que los clientes pueden visitar?</strong> Sí, si tienen oficina abierta al público (pon la dirección exacta). Si trabajan sin oficina abierta, elige No y en el siguiente paso indica las <strong>zonas de servicio</strong> (por ejemplo, las ciudades o barrios donde trabajan).</li>
+  <li><strong>Teléfono y web:</strong> el teléfono de la inmobiliaria e inmorpesa.com.</li>
+  <li>Acepta las opciones y continúa hasta la verificación.</li>
+</ol>
+
+<h3>Paso 3 · Verificar la ficha</h3>
+<p>Google elige el método según el caso. Los más habituales:</p>
+<ul>
+  <li><strong>Grabación de vídeo:</strong> un vídeo continuo, sin cortes, de 1–2 minutos en el que se vea: la calle y algún comercio vecino, el rótulo o la fachada con el nombre, el interior de la oficina y una prueba de que gestionas el negocio (abrir la oficina con las llaves, documentos con el nombre de la empresa…). Se sube desde la propia ficha. La revisión suele tardar unos días.</li>
+  <li><strong>Código por teléfono, SMS o email:</strong> introduces el código que recibes y listo.</li>
+  <li><strong>Carta postal:</strong> llega una carta con un código a la dirección (puede tardar unas semanas). No cambies datos de la ficha mientras esperas.</li>
+</ul>
+
+<h3>Paso 4 · Añadirte como administradora</h3>
+<ol>
+  <li>Desde la cuenta de Inmorpesa, busca “Inmorpesa” en Google: arriba aparece el panel para gestionar la ficha.</li>
+  <li>Pulsa los tres puntos <strong>⋮</strong> → <strong>Configuración del perfil de empresa</strong> → <strong>Personas y acceso</strong> → <strong>Añadir</strong>.</li>
+  <li>Escribe tu email → función <strong>Administrador</strong> → Invitar. Acepta la invitación desde tu correo.</li>
+  <li>A partir de ahí, gestionas la ficha buscando “Inmorpesa” en Google con tu cuenta o desde la app de Google Maps (perfil → “Tu perfil de empresa”).</li>
+</ol>
+
+<h3>Paso 5 · Fotos y descripción</h3>
+<ol>
+  <li>En el panel de la ficha → <strong>Editar perfil</strong> → <strong>Descripción</strong>: usa el mismo mensaje de la bio (“Inmobiliaria familiar. Sin centralita: te atiende una persona…”).</li>
+  <li>Pulsa <strong>Añadir foto</strong> → sube el logo (como logotipo), una portada y 10–15 fotos: fachada, oficina, equipo trabajando, entregas de llaves.</li>
+</ol>
+
+<h3>Paso 6 · Publicar una novedad cada semana</h3>
+<ol>
+  <li>Panel de la ficha → <strong>Añadir novedad</strong> (o “Crear publicación”).</li>
+  <li>Sube una imagen (la portada del carrusel de la semana o una foto del inmueble), escribe 2–4 líneas de texto.</li>
+  <li>Añade un <strong>botón</strong>: “Más información” con el enlace a la web o al formulario de valoración → <strong>Publicar</strong>.</li>
+</ol>
+
+<h3>Paso 7 · Pedir y responder reseñas</h3>
+<ol>
+  <li>Panel de la ficha → <strong>Pedir reseñas</strong> → <strong>Copiar enlace</strong>.</li>
+  <li>Prepara este mensaje para que la inmobiliaria lo envíe por WhatsApp tras cada firma o entrega de llaves:</li>
+</ol>
+<div class="mono">"¡Hola, [nombre]! Ha sido un placer acompañarte en [la venta / la compra] de tu casa. Si te ha gustado nuestro trato, nos ayudaría muchísimo que dejaras una reseña aquí, es solo un minuto: [enlace]. ¡Gracias de corazón! — Equipo Inmorpesa"</div>
+<ol start="3">
+  <li><strong>Responder:</strong> panel de la ficha → <strong>Leer reseñas</strong> → <strong>Responder</strong> en cada una. Positiva: agradece con el nombre y menciona algo concreto. Negativa: responde con calma, sin discutir, y ofrece hablar por teléfono.</li>
+</ol>
+<div class="tip">Google no permite ofrecer regalos o descuentos a cambio de reseñas, ni que las escriba alguien del equipo. Solo clientes reales.</div>
+
+<!-- I -->
+<h2><span class="sec-eb" style="display:block">I</span>Colaboraciones con negocios locales</h2>
+<p class="intro">Corresponde a los pasos 1 y 2 de colaboraciones.</p>
+
+<h3>Paso 1 · Encontrar los negocios</h3>
+<ol>
+  <li>Abre <strong>Google Maps</strong> y busca, una a una: “reformas [zona]”, “interiorismo [zona]”, “mudanzas [zona]”, “gestoría [zona]”, “cafetería [barrio]”…</li>
+  <li>Entra en cada ficha y mira si tienen <strong>Instagram</strong> (suele estar en la web o buscando su nombre en Instagram).</li>
+  <li>Elige los que tengan cuenta <strong>activa</strong> (publicaciones recientes), buenas reseñas y una imagen cuidada que encaje con Inmorpesa.</li>
+  <li>También en Instagram: busca “#reformas[ciudad]” o el nombre de la ciudad y mira qué negocios locales aparecen.</li>
+</ol>
+
+<h3>Paso 2 · Apuntarlos en una hoja</h3>
+<table>
+  <tr><th>Negocio</th><th>Sector</th><th>@Instagram</th><th>Seguidores</th><th>Idea de colaboración</th><th>Fecha contacto</th><th>Estado</th></tr>
+  <tr><td>Reformas X</td><td>Reformas</td><td>@reformasx</td><td>1.200</td><td>“¿Cuánto cuesta reformar un baño?”</td><td>10/11</td><td>Pendiente respuesta</td></tr>
+</table>
+<p>Estado (desplegable): <em>Por contactar · Contactado · Interesado · Grabado · Publicado · No interesado</em>.</p>
+
+<h3>Paso 3 · “Calentar” antes de escribir</h3>
+<ol>
+  <li>Desde la cuenta de Inmorpesa, <strong>sigue</strong> al negocio.</li>
+  <li>Durante 3–5 días, dale “me gusta” y deja <strong>1 o 2 comentarios sinceros</strong> en sus publicaciones (no “¡Qué bonito!”, sino algo concreto: “Ese suelo de madera ha quedado espectacular”).</li>
+  <li>Así, cuando les escribas, ya os conocen.</li>
+</ol>
+
+<h3>Paso 4 · Enviar el mensaje directo</h3>
+<ol>
+  <li>En su perfil → <strong>Mensaje</strong> → pega la plantilla de colaboración (guía, sección 07) cambiando el nombre y añadiendo la idea concreta: “Habíamos pensado en un vídeo de 1 minuto respondiendo cuánto cuesta reformar un baño”.</li>
+  <li>Si no responden en 5–7 días, envía un recordatorio corto: <em>“¡Hola! Solo quería saber si os encajaba la idea del vídeo. ¡Sin compromiso!”</em>. Si siguen sin contestar, pasa al siguiente de la lista.</li>
+  <li>Si dicen que sí, acordad día, lugar y guion (tú lo preparas y se lo envías antes).</li>
+</ol>
+
+<h3>Paso 5 · Publicar como colaboración</h3>
+<ol>
+  <li>Al publicar el reel o carrusel en Instagram, en la pantalla final pulsa <strong>Etiquetar personas</strong> → <strong>Invitar a colaborador</strong> → busca su cuenta → Listo.</li>
+  <li>El negocio recibe una invitación y debe <strong>aceptarla</strong>. Avísales antes por mensaje.</li>
+  <li>Cuando acepten, la publicación aparece en los dos perfiles y suma el alcance de ambos.</li>
+</ol>
+
+</body>
+</html>
