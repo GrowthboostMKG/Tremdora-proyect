@@ -26,7 +26,7 @@ La luz es el 70 % de la diferencia entre "parece un vídeo casero" y "parece una
 ### Si usas luz natural (recomendado para empezar)
 - **Siéntate mirando a la ventana**, o girada 45° respecto a ella. Nunca de espaldas: el móvil expone para la ventana y tú sales en silueta oscura.
 - **Ventana con visillo o cortina fina.** Sol directo en la cara = sombras duras, ojos entrecerrados, brillos. La cortina convierte el sol en luz suave.
-- **Graba siempre a la misma hora.** Si grabas a las 10:00 el lunes y a las 18:00 el jueves, tus reels no parecen de la misma cuenta. Elige tu franja y respétala. Las mejores: media mañana y media tarde, con día nublado o visillo.
+- **Si usas luz natural, procura la misma franja.** Pero esto **no es obligatorio** — ver «Grabar a horas distintas» más abajo. Las mejores franjas: media mañana y media tarde, con día nublado o visillo.
 - **Apaga la luz del techo.** La luz cenital hace sombras bajo los ojos y bajo la nariz. Es la que peor sienta a una cara. Apágala aunque te parezca que "así se ve más".
 
 ### Si compras luz (para grabar de noche o en días grises)
@@ -42,6 +42,31 @@ La luz es el 70 % de la diferencia entre "parece un vídeo casero" y "parece una
 1. **¿Ves un puntito de luz reflejado en tus ojos?** Si sí, la luz está bien colocada. Si tus ojos están apagados, la luz está demasiado alta o demasiado lateral.
 2. **¿La sombra de tu nariz es corta y suave?** Bien. ¿Es larga, dura y cruza la mejilla? Baja la luz o difúndela más.
 3. **¿Tienes ojeras marcadas?** La luz está demasiado alta. Bájala a la altura de los ojos.
+
+---
+
+### Grabar a horas distintas — cuando no tienes la misma franja libre
+
+**Lo que importa no es la hora: es la luz.** La hora solo era un atajo para conseguir que la luz fuera igual. Si lo consigues de otra forma, el reloj da igual.
+
+**La solución definitiva: que la luz la pongas tú.**
+Con un horario irregular, el panel LED deja de ser un extra y pasa a ser lo que resuelve el problema. Si tu luz principal es artificial, **la hora deja de existir**: persiana cerrada, panel encendido, y las nueve de la noche de un martes son idénticas a las once de la mañana de un sábado. Si el panel es bicolor, **fíjalo en 5.200 K y no lo toques nunca más**: ese número es lo que hace que todas tus sesiones encajen entre sí.
+
+**Mientras tanto: dos presets y grabar en bloque.**
+La coherencia que de verdad importa es **dentro de la misma sesión, no entre sesiones**. Si grabas cinco reels de una sentada, esos cinco tienen la misma luz — y nadie compara el reel del lunes con el del jueves anterior. Lo que canta es que la luz salte *dentro* de un mismo reel.
+
+| Preset | Cuándo | Cómo |
+|---|---|---|
+| **DÍA** | Hay luz natural | Ventana a 45°, visillo puesto, techo apagado |
+| **NOCHE** | No la hay | **Persiana cerrada**, lámpara de pie con pantalla blanca a 45°, techo apagado. Un folio o papel de horno delante hace de difusor |
+
+Marca el suelo con cinta para que la silla y el trípode caigan en el mismo sitio en los dos. Y agrupa: si grabas de noche, graba los cinco de noche.
+
+**Lo único que no se puede mezclar nunca:** luz de ventana y lámpara cálida en la misma toma. Eso sí deja la cara de dos colores y no hay quien lo arregle. Si a última hora ya entra poca luz, **cierra la persiana del todo y usa solo artificial** — no intentes sumar las dos.
+
+**Y lo que no se arregle, se iguala editando.** Si una sesión sale más cálida, se corrige con la temperatura de color en el editor. Diez segundos por reel. No hace falta que salgan idénticas de cámara.
+
+> **Y la regla que manda sobre todo esto: la constancia de publicar vale cien veces más que la constancia de la luz.** Una cuenta con luz variable que publica cada semana se come a una con luz perfecta que publica cuando puede. Que esto no te frene ni un día.
 
 ---
 
