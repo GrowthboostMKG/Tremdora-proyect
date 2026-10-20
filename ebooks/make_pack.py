@@ -14,6 +14,8 @@ import hashlib, os, subprocess, sys, zipfile
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PACK = 'Sigue Contigo - Pack completo'
 AUDIO_EXT = {'.mp3', '.wav', '.m4a', '.flac', '.aac', '.ogg'}
+# En "Hogar en Calma" la frecuencia se entrega como PDF, no como audio,
+# así que se reconoce por el nombre además de por la extensión.
 
 # Orden de entrega. Cada pieza se busca primero en pdf/ y luego en assets/.
 ORDEN = [
@@ -34,12 +36,13 @@ def localizar(nombre):
 
 
 def frecuencia():
-    """Audio de la frecuencia, si ya está en assets/."""
+    """La frecuencia, si ya está en assets/ — como audio o como PDF."""
     adir = os.path.join(ROOT, 'assets')
     if not os.path.isdir(adir):
         return []
     return [os.path.join(adir, n) for n in sorted(os.listdir(adir))
-            if os.path.splitext(n)[1].lower() in AUDIO_EXT]
+            if os.path.splitext(n)[1].lower() in AUDIO_EXT
+            or 'frecuencia' in n.lower()]
 
 
 def main():
@@ -87,7 +90,7 @@ def main():
     print('   sha256 %s' % sha)
 
     if not frecuencia():
-        print('\n   Nota: aún no hay audio de frecuencia en assets/.'
+        print('\n   Nota: aún no hay frecuencia en assets/ (audio o PDF).'
               '\n   Déjalo ahí y vuelve a ejecutar este script: se añadirá al ZIP'
               '\n   y aparecerá listado en la página «Empieza por aquí».')
 

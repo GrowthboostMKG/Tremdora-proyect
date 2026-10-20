@@ -83,10 +83,20 @@ Sigue Contigo - Pack completo/
 
 ### Añadir la frecuencia
 
-Deja el audio en `assets/` con el nombre `5. Sigue Contigo - Frecuencia XXX Hz.mp3`
-y vuelve a ejecutar `python3 make_pack.py`. El script lo detecta por extensión
-(`.mp3`, `.wav`, `.m4a`, `.flac`, `.aac`, `.ogg`), lo mete en el ZIP y regenera la
-página «Empieza por aquí» con su fila ya incluida — no hay que tocar nada más.
+Deja el archivo en `assets/` como `5. Sigue Contigo - Frecuencia.pdf` (o `.mp3`)
+y vuelve a ejecutar `python3 make_pack.py`. El script lo detecta por extensión de
+audio (`.mp3`, `.wav`, `.m4a`, `.flac`, `.aac`, `.ogg`) **o porque el nombre
+contenga «frecuencia»** — en «Hogar en Calma» la frecuencia se entrega como PDF,
+no como audio. Lo mete en el ZIP y regenera la página «Empieza por aquí» con su
+fila ya incluida; no hay que tocar nada más.
+
+### Cómo se empaquetan las otras series en Shopify
+
+| Pack | Precio | Piezas |
+|------|--------|--------|
+| Hogar en Calma | 39,90 € | eBook · Diario · Plan 8 semanas · Rutinas de Calma · **Frecuencia (PDF)** |
+| Edad Dorada | 49,90 € | eBook · Diario · Plan 8 semanas · Nutrición Dorada · 20 Momentos · Cartas de Conexión · Ritual de 10 Minutos |
+| Sigue Contigo | — | Empieza por aquí · eBook · Diario del Oleaje · Plan 8 semanas · Ellos También se Despiden (+ frecuencia pendiente) |
 
 `assets/` guarda las piezas que no genera este repo. Ahora mismo está vacío: solo
 espera la frecuencia.

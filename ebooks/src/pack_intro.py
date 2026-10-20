@@ -26,7 +26,8 @@ LIBROS = [
 
 
 def extras():
-    """Material adicional presente en assets/ (audio de frecuencia, etc.)."""
+    """Material adicional en assets/. La frecuencia puede ser audio o PDF:
+    en «Hogar en Calma» se entrega como PDF."""
     out = []
     adir = os.path.join(ROOT, 'assets')
     for name in sorted(os.listdir(adir)) if os.path.isdir(adir) else []:
@@ -34,6 +35,9 @@ def extras():
         if ext in AUDIO_EXT:
             out.append((name, "Para escuchar",
                         "Ponla baja, de fondo, mientras lees o escribes."))
+        elif 'frecuencia' in name.lower():
+            out.append((name, "La frecuencia",
+                        "La frecuencia de acompañamiento de este pack."))
     return out
 
 
