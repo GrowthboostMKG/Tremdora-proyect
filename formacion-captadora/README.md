@@ -13,9 +13,11 @@ con criterio.
 ## Cómo usar esta formación
 
 1. Lee los módulos **en orden** la primera vez (no te saltes el 01: es tu escudo legal).
-2. Sigue el **plan de 90 días** (módulo 00): cada semana tiene tareas concretas.
+2. Arranca con el **plan de 90 días** (módulo 00) y, a la vez, instala tu **sistema de trabajo
+   permanente** (módulo 13): es la estructura con la que trabajarás siempre.
 3. Imprime o ten a mano las **plantillas** (módulo 09) y los **guiones** (módulo 04).
-4. Cada viernes, rellena el **cuadro de mando** (módulo 08) y ajusta.
+4. Organízalo todo en el **Excel de organización** (`plantillas/organizacion-captadora.xlsx`)
+   y haz cada viernes la **revisión semanal** (módulo 13 §3).
 5. Rellena el **inventario de herramientas** (módulo 10) con las herramientas que te da
    tu agencia: todo el método se adapta a ellas.
 
@@ -34,6 +36,11 @@ con criterio.
 | 08 | [Organización, rutina y cuadro de mando](08-organizacion-rutina-kpis.md) | Rutina diaria/semanal, embudo, KPIs y CRM |
 | 09 | [Plantillas listas para usar](09-plantillas.md) | Mensajes, cartas, fichas, checklists |
 | 10 | [Herramientas](10-herramientas.md) | Inventario de tus herramientas y cómo exprimir cada una |
+| 11 | [Del "me interesa" a la notaría](11-proceso-cliente-interesado-hasta-cierre.md) | Paso a paso con propietario, comprador e inversor interesados, hasta el cierre y la postventa |
+| 12 | [Sistema de seguimiento](12-sistema-de-seguimiento.md) | Acompañar sin agobiar y sin perder la venta: cadencias, silencios, señales de alarma |
+| 13 | [Sistema de trabajo permanente](13-sistema-de-trabajo-permanente.md) | Tu estructura para siempre: ciclos diario, semanal, mensual, trimestral y anual |
+| 14 | [Plantillas de organización](14-plantillas-organizacion.md) | Fichas, hoja de visita, oferta, calendario de cierre, revisiones |
+| 📊 | [Excel de organización](plantillas/organizacion-captadora.xlsx) | Propietarios, compradores, inversores, prescriptores, seguimientos, cierres, cuadro semanal y plan anual |
 
 ---
 

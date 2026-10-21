@@ -1,5 +1,8 @@
 # Módulo 06 · Proceso de captación de principio a fin
 
+> Versión detallada de cada fase, con criterios de salida, el lado comprador y el control de
+> arras a notaría: [módulo 11](11-proceso-cliente-interesado-hasta-cierre.md).
+
 ```
 1. Contacto con permiso → 2. Cualificación → 3. Preparación → 4. Visita de valoración
 → 5. Presentación del plan → 6. Firma del encargo → 7. Puesta en marcha

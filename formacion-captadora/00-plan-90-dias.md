@@ -1,5 +1,8 @@
 # Módulo 00 · Plan de 90 días
 
+> Este plan es el **arranque**. La estructura con la que trabajarás siempre, a partir del día 1
+> y para siempre, es el [sistema de trabajo permanente](13-sistema-de-trabajo-permanente.md).
+
 Objetivo realista para alguien que empieza a trabajar sola con un método de captación
 no agresivo:
 
