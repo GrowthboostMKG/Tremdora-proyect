@@ -50,7 +50,7 @@ notarás en los resultados.
 | **Lunes** | **Planificación semanal** (plantilla 14 §8): objetivos, citas, prioridades por motor | 30 min |
 | **Lunes** | Reunión con tu responsable | 30 min |
 | **Martes** | Prescriptores: 2 visitas o contactos | 1–2 h |
-| **Miércoles** | Contenido: grabar/preparar 2–3 piezas | 1 h |
+| **Miércoles** | Contenido: grabar/preparar 2–3 piezas (con Claude, módulo 15 §5) | 1 h |
 | **Jueves** | Inversores: actualizar fichas, enviar producto | 1 h |
 | **Viernes** | **Revisión semanal** (abajo) + buzoneo | 45 min + 1–2 h |
 

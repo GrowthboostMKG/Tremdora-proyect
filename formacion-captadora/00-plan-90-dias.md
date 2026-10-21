@@ -32,6 +32,8 @@ no agresivo:
       LinkedIn.
 - [ ] Preparar tu **kit de valor** (módulo 03 §2): guía del vendedor, informe de precios
       de la zona, checklist de documentación.
+- [ ] Preparar tu **documento de contexto** para Claude y tu biblioteca de respuestas rápidas
+      (módulo 15 §0.1 y §2.2).
 
 ### Semana 2 — Conocer la zona como nadie
 - [ ] Recorrer la zona a pie **dos veces** (mañana y tarde). Anotar: carteles de "se vende",

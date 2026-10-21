@@ -80,7 +80,7 @@ Consejos:
 
 ## Paso 7 · Puesta en marcha (primeros 7 días)
 - Día 1–2: fotos, vídeo, plano.
-- Día 3: anuncio redactado y aprobado por el propietario.
+- Día 3: anuncio redactado (estructura y prompts en el módulo 15 §1) y aprobado por el propietario.
 - Día 3–7: pre-lanzamiento a base de compradores e inversores.
 - Día 7: publicación en portales + redes.
 - Mensaje al propietario: "¡Ya está publicado! Aquí tienes el enlace."

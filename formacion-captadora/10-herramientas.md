@@ -71,6 +71,8 @@
 
 ## 4. Inteligencia artificial como asistente (con criterio)
 
+> Guía completa, con método y prompts listos para usar: [módulo 15](15-claude-ia-asistente.md).
+
 - Redactar borradores de anuncios, mensajes y posts (revísalos siempre y dales tu voz).
 - Resumir normativa o noticias (verifica en la fuente oficial).
 - Preparar el guion de tu vídeo semanal.

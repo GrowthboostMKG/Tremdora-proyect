@@ -40,6 +40,7 @@ con criterio.
 | 12 | [Sistema de seguimiento](12-sistema-de-seguimiento.md) | Acompañar sin agobiar y sin perder la venta: cadencias, silencios, señales de alarma |
 | 13 | [Sistema de trabajo permanente](13-sistema-de-trabajo-permanente.md) | Tu estructura para siempre: ciclos diario, semanal, mensual, trimestral y anual |
 | 14 | [Plantillas de organización](14-plantillas-organizacion.md) | Fichas, hoja de visita, oferta, calendario de cierre, revisiones |
+| 15 | [Claude (IA) como tu asistente](15-claude-ia-asistente.md) | Anuncios que venden, respuesta inmediata, informes de zona, papeleo y contenido, con prompts listos |
 | 📕 | [Guía completa en PDF](Formacion-Captadora-Inmobiliaria-2026.pdf) | Todos los módulos en un único PDF para estudiar e imprimir |
 | 📊 | [Excel de organización](plantillas/organizacion-captadora.xlsx) | Propietarios, compradores, inversores, prescriptores, seguimientos, cierres, cuadro semanal y plan anual |
 
