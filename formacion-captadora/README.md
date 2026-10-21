@@ -37,10 +37,11 @@ con criterio.
 | 09 | [Plantillas listas para usar](09-plantillas.md) | Mensajes, cartas, fichas, checklists |
 | 10 | [Herramientas](10-herramientas.md) | Inventario de tus herramientas y cómo exprimir cada una |
 | 11 | [Del "me interesa" a la notaría](11-proceso-cliente-interesado-hasta-cierre.md) | Paso a paso con propietario, comprador e inversor interesados, hasta el cierre y la postventa |
-| 12 | [Sistema de seguimiento](12-sistema-de-seguimiento.md) | Acompañar sin agobiar y sin perder la venta: cadencias, silencios, señales de alarma |
+| 12 | [Sistema de seguimiento](12-sistema-de-seguimiento.md) | Acompañar sin agobiar y sin perder la venta: cadencias, silencios, señales de alarma y seguimiento ameno con ejemplos |
 | 13 | [Sistema de trabajo permanente](13-sistema-de-trabajo-permanente.md) | Tu estructura para siempre: ciclos diario, semanal, mensual, trimestral y anual |
 | 14 | [Plantillas de organización](14-plantillas-organizacion.md) | Fichas, hoja de visita, oferta, calendario de cierre, revisiones |
 | 15 | [Claude (IA) como tu asistente](15-claude-ia-asistente.md) | Anuncios que venden, respuesta inmediata, informes de zona, papeleo y contenido, con prompts listos |
+| 16 | [Llamadas telefónicas sin invadir](16-llamadas-telefonicas-sin-invadir.md) | Cuándo puedes llamar (semáforo legal), cómo llevar la llamada para que no te cuelguen y cómo desactivar el rechazo |
 | 📕 | [Guía completa en PDF](Formacion-Captadora-Inmobiliaria-2026.pdf) | Todos los módulos en un único PDF para estudiar e imprimir |
 | 📊 | [Excel de organización](plantillas/organizacion-captadora.xlsx) | Propietarios, compradores, inversores, prescriptores, seguimientos, cierres, cuadro semanal y plan anual |
 

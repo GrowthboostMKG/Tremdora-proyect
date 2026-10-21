@@ -60,6 +60,9 @@
 
 ## 4. Cuando el propietario te llama o te pide que le llames (llamada con permiso)
 
+> Guía completa de llamadas (semáforo de cuándo llamar, método H-O-L-A, guiones por situación y
+> respuestas a los primeros segundos): [módulo 16](16-llamadas-telefonicas-sin-invadir.md).
+
 Estructura **A-P-E-C** (Agradecer, Preguntar, Escuchar, Concretar):
 
 1. **Agradecer**: "Gracias por escribirme, [nombre]."

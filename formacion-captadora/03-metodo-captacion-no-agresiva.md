@@ -65,7 +65,7 @@ inicia el contacto** → consentimiento.
 ### Fuente 1 · Particulares que ya anuncian (FSBO: "for sale by owner")
 El propietario ya quiere vender: no le interrumpes, le **ofreces ayuda**.
 
-- **Nunca llames en frío**. Usa el **chat del portal** o un WhatsApp corto y educado
+- **No llames en frío** (cuándo sí puedes llamar y cómo hacerlo: [módulo 16](16-llamadas-telefonicas-sin-invadir.md)). Usa el **chat del portal** o un WhatsApp corto y educado
   (guion en módulo 04 §1). Si el anuncio dice "no agencias", **no contactes**: anótalo y
   espera a que pasen 4–6 semanas sin vender, o a que te conozca por otra vía (buzoneo,
   comercio, vecino).

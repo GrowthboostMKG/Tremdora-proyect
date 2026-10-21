@@ -18,6 +18,8 @@
 | **Lista Robinson (Adigital)** | Antes de una campaña comercial (cartas nominativas, llamadas, emails) a personas sin relación previa, se debe consultar la Lista Robinson. Pregunta a tu agencia cómo lo gestiona. |
 | **Numeración de llamadas comerciales** | La normativa de numeración ha introducido numeración específica para llamadas comerciales. Confirma con tu agencia si os aplica. |
 
+**Cuándo sí puedes llamar** y cómo hacerlo sin invadir: [módulo 16](16-llamadas-telefonicas-sin-invadir.md).
+
 **Conclusión práctica**: tu método se basa en que **el propietario dé el primer "sí"**
 (responde a un mensaje, escanea un QR, pide un informe, te escribe, te lo presenta un
 prescriptor). A partir de ese momento ya hay relación y consentimiento.

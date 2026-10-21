@@ -161,3 +161,94 @@ Cada contacto, en el CRM o en el Excel de organización (hoja "Seguimientos"):
 
 **Regla de oro: ningún contacto sin próxima acción y fecha.** Cada mañana trabajas la lista de
 "próximas acciones de hoy"; así nadie se queda olvidado y nadie recibe mensajes de más.
+
+---
+
+## 9. Seguimiento ameno: que te esperen en lugar de evitarte
+
+> El objetivo es que, cuando el propietario vea tu nombre en el móvil, piense *"a ver qué me cuenta
+> hoy"* y no *"otra vez esta"*.
+
+### 9.1 La regla de las 3 V
+1. **Valor**: cada mensaje le da algo (un dato, una ayuda, una sonrisa).
+2. **Variedad**: no repitas el mismo tipo de mensaje dos veces seguidas.
+3. **Voluntad libre**: siempre puede no responder sin sentirse mal. Nunca reproches el silencio.
+
+### 9.2 Qué hace que un seguimiento suene hostil (evítalo siempre)
+| Suena hostil o invasivo | Suena ameno |
+|---|---|
+| "No me has contestado…" / "Te escribí la semana pasada…" | Empieza de cero, con algo nuevo |
+| "¿Has pensado ya algo?" | "Me acordé de ti al ver…" |
+| Urgencias falsas ("hay que decidir ya") | Datos reales y tiempo para pensar |
+| Escribir, llamar y enviar email el mismo día | **Un solo canal**, el que eligió (módulo 12 §2) |
+| Mensajes a las 22:30 o en domingo | Horario laboral razonable |
+| Textos largos o audios de 3 minutos | 2–4 líneas; audios de menos de 30 segundos y solo si le gustan |
+| Copiar y pegar el mismo mensaje a todos | Un detalle personal en cada mensaje |
+| Culpabilizar ("si no bajas el precio no se venderá") | "Los datos dicen…" y una propuesta |
+
+### 9.3 Ocho formatos para variar
+1. **Dato de mercado** de su calle o edificio.
+2. **Recurso útil**: guía, calculadora de gastos, cambio normativo explicado en 3 líneas.
+3. **Recomendación local**: un buen pintor, un certificador energético, un taller de reformas.
+4. **Felicitación**: aniversario de compra, fiestas, una buena noticia que te contó.
+5. **Pregunta sencilla** de responder con una palabra.
+6. **Invitación**: charla en el barrio, evento, café informativo.
+7. **"Me acordé de ti"**: algo relacionado con lo que te contó (su perro, la obra de su calle, el
+   colegio de sus hijos).
+8. **Caso real** (sin datos personales): "Así vendimos un piso parecido al tuyo".
+
+### 9.4 Biblioteca de mensajes amenos (adáptalos con tu estilo)
+
+**Dato con gancho**
+> "¡Hola, [nombre]! Curiosidad de la semana: en tu calle los pisos con terraza se están vendiendo
+> un 12 % más caros que los que no tienen. El tuyo juega con ventaja 😉"
+
+**"Me acordé de ti"**
+> "Hola, [nombre]. Pasé hoy por tu calle y vi que por fin han terminado las obras de la plaza. ¡Ha
+> quedado genial! Eso suma, y mucho, al valor de los pisos de alrededor."
+
+**Recomendación útil**
+> "Hola, [nombre]. Me comentaste que querías pintar antes de decidir nada. Te paso el contacto de
+> [pintor], que ha trabajado en varios pisos de la zona y está muy bien de precio. Sin compromiso,
+> ¡solo por si te ayuda!"
+
+**Pregunta fácil**
+> "Pregunta rápida, [nombre]: ¿te interesa más saber qué precio de venta podrías conseguir o cuánto
+> te quedaría limpio después de impuestos? Con una palabra me vale 🙂"
+
+**Normativa explicada fácil**
+> "Hola, [nombre]. Te resumo en 3 líneas un cambio que te puede afectar si alquilas: [resumen]. Si
+> quieres el detalle, te lo cuento."
+
+**Invitación**
+> "Hola, [nombre]. El jueves 14 hacemos un café informativo en [lugar] con una gestoría sobre
+> herencias y venta de vivienda. Es gratis y sin ventas. Si te apetece venir, te guardo sitio."
+
+**Felicitación**
+> "¡Feliz aniversario de casa, [nombre]! Hoy hace dos años que os dimos las llaves. Espero que la
+> sigáis disfrutando muchísimo."
+
+**Caso real**
+> "Hola, [nombre]. Esta semana hemos vendido un piso muy parecido al tuyo en [calle]: estaba
+> publicado por su dueño desde hacía 4 meses y con nosotros se vendió en 3 semanas. Lo que cambió
+> fue [fotos + precio ajustado a ventas reales]. Te lo cuento por si te sirve como idea."
+
+**Retomar tras mucho tiempo**
+> "¡Hola, [nombre]! Hace tiempo que no hablamos y me acordé de ti al preparar el informe de precios
+> de este trimestre. Te lo dejo aquí por si te da curiosidad ver cómo ha evolucionado tu zona. ¡Un
+> abrazo!"
+
+**Mensaje de cierre amable** → §5.
+
+### 9.5 Seguimiento por teléfono (cuando es bienvenido)
+- Llama **solo** si es el canal que eligió o si has pedido permiso por mensaje.
+- Estructura corta: saludo + **motivo concreto** ("te llamo por el dato que te comenté") + pregunta
+  abierta + acuerdo pequeño + despedida. Detalle en el **módulo 16**.
+- Si no lo coge: un único mensaje de voz de 20 segundos diciendo que no hace falta que te devuelva
+  la llamada (módulo 16 §5.8), y no vuelvas a llamar ese día.
+
+### 9.6 El toque personal que nadie hace
+- Apunta en el CRM **detalles personales** que te cuenten (sin datos sensibles): el nombre de su
+  perro, que su hija empieza la universidad, que le encanta su terraza. Úsalos con naturalidad.
+- **Una nota escrita a mano** tras una visita de valoración o una firma se recuerda años.
+- **Celebra sus buenas noticias**, aunque no tengan nada que ver con la venta.
