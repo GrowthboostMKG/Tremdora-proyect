@@ -44,6 +44,7 @@ con criterio.
 | 16 | [Llamadas telefónicas sin invadir](16-llamadas-telefonicas-sin-invadir.md) | Cuándo puedes llamar (semáforo legal), cómo llevar la llamada para que no te cuelguen y cómo desactivar el rechazo |
 | 17 | [Vender una vivienda premium (caso villa)](17-venta-vivienda-premium-villa.md) | Perfiles de comprador, presentación, tour, landing, portales, plan de lanzamiento, visita y guion para una villa |
 | 🌐 | [Plantilla de landing de la villa](plantillas/landing-villa/index.html) | Página de presentación lista para rellenar con tus fotos y datos |
+| 🏡 | [Caso: villa en Cerro Alarcón](casos/villa-cerro-alarcon/ficha-de-trabajo.md) | Ficha de trabajo con los datos del anuncio, verificaciones, diagnóstico, nuevo anuncio, visita y objeciones ([PDF](casos/villa-cerro-alarcon/Ficha-Villa-Cerro-Alarcon.pdf) · [landing](casos/villa-cerro-alarcon/landing.html)) |
 | 📕 | [Guía completa en PDF](Formacion-Captadora-Inmobiliaria-2026.pdf) | Todos los módulos en un único PDF para estudiar e imprimir |
 | 📊 | [Excel de organización](plantillas/organizacion-captadora.xlsx) | Propietarios, compradores, inversores, prescriptores, seguimientos, cierres, cuadro semanal y plan anual |
 
