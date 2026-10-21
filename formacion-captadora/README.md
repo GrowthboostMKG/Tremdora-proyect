@@ -42,6 +42,8 @@ con criterio.
 | 14 | [Plantillas de organización](14-plantillas-organizacion.md) | Fichas, hoja de visita, oferta, calendario de cierre, revisiones |
 | 15 | [Claude (IA) como tu asistente](15-claude-ia-asistente.md) | Anuncios que venden, respuesta inmediata, informes de zona, papeleo y contenido, con prompts listos |
 | 16 | [Llamadas telefónicas sin invadir](16-llamadas-telefonicas-sin-invadir.md) | Cuándo puedes llamar (semáforo legal), cómo llevar la llamada para que no te cuelguen y cómo desactivar el rechazo |
+| 17 | [Vender una vivienda premium (caso villa)](17-venta-vivienda-premium-villa.md) | Perfiles de comprador, presentación, tour, landing, portales, plan de lanzamiento, visita y guion para una villa |
+| 🌐 | [Plantilla de landing de la villa](plantillas/landing-villa/index.html) | Página de presentación lista para rellenar con tus fotos y datos |
 | 📕 | [Guía completa en PDF](Formacion-Captadora-Inmobiliaria-2026.pdf) | Todos los módulos en un único PDF para estudiar e imprimir |
 | 📊 | [Excel de organización](plantillas/organizacion-captadora.xlsx) | Propietarios, compradores, inversores, prescriptores, seguimientos, cierres, cuadro semanal y plan anual |
 
