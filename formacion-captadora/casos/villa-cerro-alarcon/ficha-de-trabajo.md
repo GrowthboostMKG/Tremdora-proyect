@@ -173,6 +173,9 @@ convertir un salón).
 
 ## 8. La visita con compradores, adaptada a esta casa
 
+> Guion completo (zona por zona, horarios, frases con emoción y todas las objeciones):
+> [`guion-de-visita.md`](guion-de-visita.md).
+
 Recorrido recomendado (módulo 17 §8.3), con los puntos fuertes de esta villa:
 
 1. **Llegada**: silencio del pinar, privacidad de la parcela de 1.370 m².
