@@ -13,7 +13,13 @@
 4. **Una idea por diapositiva. Máximo 25 palabras.** Si no cabe, va en dos.
 5. **Cada diapositiva termina un poco incompleta.** Una frase colgando, un «pero», una cuenta. Eso es lo que mueve el pulgar.
 6. **Texto grande y arriba.** El pulgar tapa el tercio inferior, igual que en stories.
-7. **De 7 a 9 diapositivas.** Menos se queda corto, más se abandona a la mitad.
+7. **De 7 a 9 diapositivas.** Menos se queda corto, más se abandona a la mitad. *(Excepción: si el tema pide diagnóstico **y** solución, 10 está bien — es el caso del carrusel 1.)*
+
+### Y una regla que se me olvidó al escribirlos
+
+**Un carrusel de diagnóstico sin solución deja al lector a medias.** Si enumeras señales, tienes que decir **qué hacer con ellas esta semana** — aunque el tratamiento sea clínico y no puedas darlo tú. Siempre hay algo que el dueño puede empezar hoy: el peso, el entorno, cómo se mueve, qué pedir en la consulta.
+
+*La excepción es una serie*: ahí el primer carrusel **sí** puede quedarse en el diagnóstico, porque la solución llega en los siguientes y por eso vuelven.
 
 ---
 ---
@@ -21,23 +27,22 @@
 # EDAD DORADA
 
 ## CARRUSEL 1 — «No está viejo. Le duele.»
-**9 diapositivas · Las señales que confundimos con la edad**
+**10 diapositivas · Las señales que confundimos con la edad, y qué hacer con ellas**
 
 | # | Texto de la diapositiva | Imagen |
 |---|---|---|
-| **1** | **NO ESTÁ VIEJO.**<br>**LE DUELE.**<br><sub>6 señales que casi todos confundimos</sub> | Perro mayor mirando hacia el sofá |
+| **1** | **NO ESTÁ VIEJO.**<br>**LE DUELE.**<br><sub>6 señales, y qué hacer esta semana</sub> | Perro mayor mirando hacia el sofá |
 | **2** | Un día deja de subir al sofá.<br>Y pensamos: «bueno, ya tiene sus años». | Sofá vacío, él en el suelo al lado |
 | **3** | Pero **no dejan de hacer lo que les gusta porque cumplan años.**<br>Dejan de hacerlo porque les cuesta. | Primer plano de su cara |
-| **4** | Mira si reconoces estas tres:<br>· Ya no sube al sofá ni a la cama<br>· Baja las escaleras despacio, o de lado<br>· Tarda en levantarse por la mañana | Escalera, en picado |
-| **5** | Y estas otras tres:<br>· Duerme en una postura distinta<br>· Juega menos, o ha dejado de jugar<br>· Se queda atrás en el paseo | Juguete sin usar |
-| **6** | Si reconoces **dos o más**, eso no es su carácter.<br>Y tampoco es la edad.<br>**Es dolor.** | Sus patas |
-| **7** | Y ahí está la buena noticia:<br>el dolor **se puede tratar**.<br>Cuanto antes se empieza, mejor se vive. | Él tumbado, tranquilo |
-| **8** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
-| **9** | **Guárdalo** y díselo a tu veterinario con estos ejemplos concretos — no con un «está mayor».<br><br>🤍 En **Edad dorada** tienes qué mirar mes a mes. | Portada del pack, pequeña |
+| **4** | Las seis señales:<br>· No sube al sofá ni a la cama<br>· Baja las escaleras despacio o de lado<br>· Tarda en levantarse<br>· Duerme en otra postura<br>· Juega menos<br>· Se queda atrás en el paseo | Escalera, en picado |
+| **5** | Si reconoces **dos o más**, eso no es su carácter.<br>Y tampoco es la edad.<br>**Es dolor.** | Sus patas |
+| **6** | **Y esto sí puedes empezarlo esta semana, sin esperar a nadie:**<br><br>**1 · El peso.** Si le sobra, empieza por ahí. Cada kilo de más es carga sobre articulaciones que ya duelen. *(La pauta, con tu veterinario.)* | Báscula |
+| **7** | **2 ·** Alfombras donde resbale.<br>**3 ·** Que deje de saltar: una rampa o un escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
+| **8** | **Y en la consulta, pide algo concreto:**<br>que le **valoren el dolor** — con estos ejemplos, no con un «está mayor».<br>Porque el dolor **se puede tratar.** | Ella hablando con el veterinario |
+| **9** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
+| **10** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar y qué adaptar, mes a mes. | Portada del pack, pequeña |
 
-**Pie de foto:** «Ya no sube al sofá porque está viejo.» No: es que le duele saltar. Y eso se trata. Guárdate estas seis señales y llévalas a tu próxima revisión 🤍
-
----
+**Pie de foto:** «Ya no sube al sofá porque está viejo.» No: es que le duele saltar. Y hay cuatro cosas que puedes empezar esta misma semana, antes incluso de la consulta 🤍
 
 ## CARRUSEL 2 — «No te está ignorando»
 **8 diapositivas · La sordera**
