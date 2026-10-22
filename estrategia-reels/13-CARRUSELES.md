@@ -37,7 +37,7 @@
 | **4** | Las seis señales:<br>· No sube al sofá ni a la cama<br>· Baja las escaleras despacio o de lado<br>· Tarda en levantarse<br>· Duerme en otra postura<br>· Juega menos<br>· Se queda atrás en el paseo | Escalera, en picado |
 | **5** | Si reconoces **dos o más**, eso no es su carácter.<br>Y tampoco es la edad.<br>**Es dolor.** | Sus patas |
 | **6** | **Y esto sí puedes empezarlo esta semana, sin esperar a nadie:**<br><br>**1 · El peso.** Si le sobra, empieza por ahí. Cada kilo de más es carga sobre articulaciones que ya duelen. *(La pauta, con tu veterinario.)* | Báscula |
-| **7** | **2 ·** Alfombras donde resbale.<br>**3 ·** Que deje de saltar: una rampa o un escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
+| **7** | **2 ·** Alfombras **antideslizantes** en sus rutas: cama, comedero, puerta.<br>**3 ·** Que deje de saltar: una rampa o un escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
 | **8** | **Y en la consulta, pide algo concreto:**<br>que le **valoren el dolor** — con estos ejemplos, no con un «está mayor».<br>Porque el dolor **se puede tratar.** | Ella hablando con el veterinario |
 | **9** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
 | **10** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar y qué adaptar, mes a mes. | Portada del pack, pequeña |

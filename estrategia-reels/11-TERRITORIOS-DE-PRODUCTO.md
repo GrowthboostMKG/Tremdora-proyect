@@ -142,7 +142,7 @@ Es el territorio donde más valor real aportas y donde más gente te va a dar la
 
 ### 92. Lo más barato que puedes hacer hoy
 **HOOK:** «Una alfombra. Eso es todo lo que necesita tu perro mayor para dejar de tener miedo a andar por casa.»
-**CUERPO:** 1) El suelo liso es un problema enorme para un animal con menos fuerza: resbala, se asusta y deja de moverse. 2) Dejar de moverse acelera la pérdida de masa muscular, y eso acelera todo lo demás. 3) Alfombras o pasillos antideslizantes en sus rutas habituales: cama, comedero, puerta. 4) Y revísale el pelo entre las almohadillas, que ahí también resbala. 5) Cuesta treinta euros y le cambia el día.
+**CUERPO:** 1) El suelo liso es un problema enorme para un animal con menos fuerza: resbala, se asusta y deja de moverse. 2) Dejar de moverse acelera la pérdida de masa muscular, y eso acelera todo lo demás. 3) Alfombras o pasillos **antideslizantes** en sus rutas habituales: cama, comedero, puerta. Y comprueba que **la alfombra tampoco patine**: sobre suelo liso, una que se mueva es peor que ninguna. 4) Y revísale el pelo entre las almohadillas, que ahí también resbala. 5) Cuesta treinta euros y le cambia el día.
 **CTA:** «Guárdalo y mira esta noche por dónde pasa él.»
 
 ### 93. Seis señales de alerta en gatos mayores
@@ -172,7 +172,7 @@ Es el territorio donde más valor real aportas y donde más gente te va a dar la
 
 ### 98. Adapta la casa en una tarde
 **HOOK:** «Cinco cosas de tu casa que puedes cambiar hoy por un animal mayor.»
-**CUERPO:** 1) Alfombras en sus rutas, contra los resbalones. 2) Una rampa o un escalón para el sofá y el coche: así no salta, y saltar es lo que más daño hace. 3) Cama más gruesa y en sitio sin corrientes — el frío le pesa más que antes. 4) Agua en varios puntos, para que no tenga que cruzar la casa. 5) Y en gatos: **arenero con la entrada baja**, porque muchos dejan de usarlo simplemente porque les duele entrar.
+**CUERPO:** 1) Alfombras **antideslizantes** en sus rutas, contra los resbalones — que no patine también la alfombra. 2) Una rampa o un escalón para el sofá y el coche: así no salta, y saltar es lo que más daño hace. 3) Cama más gruesa y en sitio sin corrientes — el frío le pesa más que antes. 4) Agua en varios puntos, para que no tenga que cruzar la casa. 5) Y en gatos: **arenero con la entrada baja**, porque muchos dejan de usarlo simplemente porque les duele entrar.
 **CTA:** «Guárdalo y haz al menos la primera esta tarde.»
 
 ### 99. Revisión cada seis meses
