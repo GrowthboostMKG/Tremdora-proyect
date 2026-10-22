@@ -145,3 +145,144 @@
 **Reutilización:** de cada carrusel salen **un reel** (misma estructura, contada a cámara) y **entre cinco y ocho stories** — una por diapositiva, con una encuesta en la del giro.
 
 **Y la regla de siempre: cero mención al ebook del duelo** en los tres de Edad dorada.
+
+---
+---
+
+# PARTE 2 — LA SERIE DE 5 PUBLICACIONES
+## «Hogar en calma» — un guion repartido en cinco carruseles
+
+> Esto **no son cinco carruseles sueltos**: es un guion continuo. Cada uno se entiende solo (nadie los ve en orden), pero juntos cuentan el recorrido completo — y el producto **solo aparece en el quinto**, después de cuatro publicaciones de valor puro.
+
+### El arco
+
+| # | Publicación | Qué hace |
+|---|---|---|
+| **1** | ¿Es ansiedad o es aburrimiento? | **Reconocer.** Es la puerta de entrada: aquí es donde entra más gente |
+| **2** | Los primeros 30 minutos | **Entender.** El giro: no es venganza, es angustia |
+| **3** | Las señales de salida | **Actuar.** Lo primero que puede hacer hoy mismo |
+| **4** | El refugio y la rutina | **Sostener.** Lo que mantiene el cambio |
+| **5** | Lo que no se arregla solo | **Cerrar.** Cuándo un profesional — y aquí sí, el ebook |
+
+### Las 6 reglas de una serie
+
+1. **El número, visible en la portada.** `HOGAR EN CALMA · 1 DE 5`. Es lo que hace que vuelvan.
+2. **Cada uno tiene que funcionar solo.** Nadie los va a ver en orden, así que ninguno puede empezar con «como vimos ayer».
+3. **La última diapositiva anuncia la siguiente.** «Mañana: los primeros 30 minutos.» Ese es el enganche.
+4. **Misma plantilla visual en los cinco.** Mismo color, misma tipografía, mismo sitio del número. En tu cuadrícula se tiene que ver que son un bloque.
+5. **Días seguidos.** Una serie partida en tres semanas deja de ser una serie.
+6. **El producto solo en el quinto.** Si vendes en el primero, los otros cuatro no los ve nadie.
+
+---
+
+## 1 DE 5 — «¿Es ansiedad o es aburrimiento?»
+**8 diapositivas**
+
+| # | Texto |
+|---|---|
+| **1** | **¿ES ANSIEDAD<br>O ES ABURRIMIENTO?**<br><sub>Hogar en calma · 1 de 5</sub> |
+| **2** | Vuelves a casa y hay algo roto.<br>Y no sabes si está enfadado, aburrido, o lo está pasando mal de verdad. |
+| **3** | La respuesta está en **dónde** lo rompe. |
+| **4** | **Aburrimiento:**<br>destrozos repartidos por la casa, cosas de morder, y te recibe como siempre. |
+| **5** | **Ansiedad:**<br>concentrado **en las salidas** — puerta, marco, ventana, persiana.<br>Y suele venir con llanto continuo, babeo, o necesidades dentro habiendo salido antes. |
+| **6** | No son el mismo problema **y no se arreglan igual.**<br>Uno pide estimulación.<br>El otro pide trabajo de separación. |
+| **7** | Y si son las dos cosas a la vez, **también es normal.**<br>Saber cuál es cuál ya es la mitad del camino. |
+| **8** | **Guárdalo** y esta noche mira dónde están las marcas.<br><br>Mañana: **lo que de verdad pasa en los primeros 30 minutos.** · 2 de 5 |
+
+**Pie de foto:** Antes de buscar soluciones, mira dónde rompe. Si es en la puerta y el marco, no es aburrimiento. Esta noche fíjate y mañana seguimos 🤍
+
+---
+
+## 2 DE 5 — «Los primeros 30 minutos»
+**8 diapositivas**
+
+| # | Texto |
+|---|---|
+| **1** | **LOS PRIMEROS<br>30 MINUTOS.**<br><sub>Hogar en calma · 2 de 5</sub> |
+| **2** | Sales de casa y no sabes qué pasa después.<br>Y vives todo el día con esa duda. |
+| **3** | Casi todo lo que le ocurre **no está repartido por el día.**<br>Pasa en la primera media hora. |
+| **4** | El diagnóstico más barato que existe:<br>**deja el móvil grabando media hora.**<br>Luego lo miras. |
+| **5** | Si se tumba y se duerme → **no hay problema de separación**, aunque después rompa algo.<br>Si llora, jadea o araña la puerta → sí lo hay. |
+| **6** | Y aquí está lo importante:<br>**no es venganza. No es un capricho. No es que te castigue.**<br>Es angustia. |
+| **7** | **No se porta mal cuando te vas.**<br>**Lo pasa mal cuando te vas.**<br>No es lo mismo — y cambia todo lo que vas a hacer a partir de ahora. |
+| **8** | Graba esa media hora mañana.<br><br>Y mañana aquí: **por qué se pone nervioso antes de que te vayas.** · 3 de 5 |
+
+**Pie de foto:** No se porta mal cuando te vas. Lo pasa mal cuando te vas. Graba media hora y míralo: es el diagnóstico más barato que hay 🤍
+
+---
+
+## 3 DE 5 — «Las señales de salida»
+**8 diapositivas**
+
+| # | Texto |
+|---|---|
+| **1** | **NO SE PONE NERVIOSO<br>CUANDO TE VAS.**<br><sub>Se pone nervioso cuando coges las llaves · 3 de 5</sub> |
+| **2** | Te has fijado alguna vez:<br>antes de que llegues a la puerta, **él ya lo sabe.** |
+| **3** | Ha aprendido la secuencia entera.<br>Zapatos. Chaqueta. Llaves. Bolso.<br>Y empieza a angustiarse mucho antes de que salgas. |
+| **4** | Así que el trabajo no empieza en la puerta.<br>Empieza **vaciando de significado esas señales.** |
+| **5** | Coge las llaves… y siéntate.<br>Ponte los zapatos… y haz la cena.<br>Coge el bolso… y déjalo. |
+| **6** | **Veinte veces al día. Sin salir.**<br>Hasta que coger las llaves no signifique nada. |
+| **7** | Parece demasiado simple para funcionar.<br>Pero es **la mitad del problema**, y es gratis. |
+| **8** | **Guárdalo** y haz hoy diez veces lo de las llaves.<br><br>Mañana: **el sitio de la casa que lo cambia todo.** · 4 de 5 |
+
+**Pie de foto:** Antes de que llegues a la puerta, él ya lo sabe. Coge las llaves y siéntate. Diez veces hoy. Suena absurdo y es la mitad del problema 🤍
+
+---
+
+## 4 DE 5 — «El refugio y la rutina»
+**8 diapositivas**
+
+| # | Texto |
+|---|---|
+| **1** | **EL SITIO DE TU CASA<br>QUE LO CAMBIA TODO.**<br><sub>Hogar en calma · 4 de 5</sub> |
+| **2** | Lo que más calma a un animal ansioso **no es un juguete.**<br>Es saber lo que viene después. |
+| **3** | Y necesita dos cosas:<br>**un sitio seguro** y **un orden que no cambie.** |
+| **4** | **El refugio:** un rincón, con pared a la espalda y vista a la puerta.<br>Regla de oro: **ahí no se le toca, no se le saca, y los niños no entran.** |
+| **5** | Si el refugio no es seguro al cien por cien, deja de ser refugio.<br>Puerta siempre abierta. **Él decide.** |
+| **6** | **La rutina:** no hace falta ser rígida con el reloj. Lo que importa es **el orden.**<br>Siempre paseo → comida → descanso. |
+| **7** | Es gratis, es aburrido, y es **lo que más funciona** de toda la serie.<br>Porque la ansiedad es, en buena parte, no poder anticipar. |
+| **8** | **Guárdalo** y móntale el refugio este fin de semana.<br><br>Mañana, el último: **lo que no se arregla solo.** · 5 de 5 |
+
+**Pie de foto:** Un rincón donde nadie le moleste, y un orden que no cambie. Suena a poco y es lo que más funciona de los cinco días 🤍
+
+---
+
+## 5 DE 5 — «Lo que no se arregla solo»
+**8 diapositivas**
+
+| # | Texto |
+|---|---|
+| **1** | **LO QUE NO SE<br>ARREGLA SOLO.**<br><sub>Hogar en calma · 5 de 5</sub> |
+| **2** | Durante cuatro días hemos visto qué mirar y por dónde empezar.<br>Hoy toca lo otro: **cuándo esto se te queda grande.** |
+| **3** | **Se autolesiona:** se lame hasta hacerse herida, se rompe uñas o dientes contra la puerta. |
+| **4** | **Hay pánico, no nerviosismo:** no responde a nada, no come, no reacciona ni a ti. |
+| **5** | **Llevas meses y no mejora** con nada de lo que has probado. |
+| **6** | **Ha aparecido de golpe, sin motivo.** Eso puede ser dolor o un problema médico — y entonces toca **veterinario antes que etólogo.** |
+| **7** | Si te has reconocido en alguna:<br>**pedir ayuda no es haber fracasado.**<br>Es, sencillamente, la decisión correcta. |
+| **8** | **Guárdate la serie entera** para tenerla a mano.<br><br>🤍 Y si quieres el método completo, paso a paso, está en **Hogar en calma** — el enlace está en mi perfil. |
+
+**Pie de foto:** Cinco días para entender qué le pasa y por dónde empezar. Y lo más importante del último: pedir ayuda no es haber fracasado 🤍 Gracias por haber llegado hasta aquí.
+
+---
+
+## CALENDARIO Y STORIES
+
+**Cinco días seguidos**, de lunes a viernes. Y cada día, en stories:
+
+| Día | Stories |
+|---|---|
+| **Lunes** | Comparte el 1 con «¿a ti dónde te lo rompe?» + encuesta: **puerta / por toda la casa** |
+| **Martes** | Comparte el 2 + caja: «¿qué hace el tuyo cuando te vas?» |
+| **Miércoles** | Comparte el 3 + tú haciendo lo de las llaves, en vídeo |
+| **Jueves** | Comparte el 4 + enseña el refugio de tu mascota |
+| **Viernes** | Recopilatorio de los cinco + el enlace. **Y guárdalo todo en una destacada llamada «Hogar en calma»** |
+
+**Esa destacada es el activo real de la serie:** se queda ahí para siempre, y cualquiera que llegue a tu perfil dentro de seis meses se la encuentra entera.
+
+## POR QUÉ ESTA SERIE CONVIERTE
+
+**Cuatro publicaciones dando y una pidiendo.** Quien llega al quinto carrusel ya te ha visto resolver cuatro cosas gratis. No le estás vendiendo a un desconocido: le estás vendiendo a alguien que ya ha comprobado que sabes.
+
+**El quinto no vende el ebook: cierra la serie y lo menciona.** El CTA principal sigue siendo «guárdate la serie». El producto va después, en una línea, sin insistir.
+
+**Y el último pie de foto da las gracias.** Parece un detalle y no lo es: cierra la relación en un tono de agradecimiento, no de transacción.

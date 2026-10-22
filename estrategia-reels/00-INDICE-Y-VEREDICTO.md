@@ -20,7 +20,7 @@
 | `10-BANCO-60-GUIONES.md` | Guiones 18–77 en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
 | `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» y «Edad dorada» + guiones 78–101 | Al promocionar esos dos |
 | `12-HISTORIAS.md` | Qué publicar en stories cada día, y cómo se vende ahí | Cada mañana, 5 minutos |
-| `13-CARRUSELES.md` | Seis carruseles que venden los dos ebooks, diapositiva a diapositiva | Al promocionar un ebook |
+| `13-CARRUSELES.md` | Seis carruseles sueltos y la serie de 5 publicaciones, diapositiva a diapositiva | Al promocionar un ebook |
 
 ---
 
