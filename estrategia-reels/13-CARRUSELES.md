@@ -1,25 +1,26 @@
 # 13 — Carruseles
-### Tres de «Edad dorada» y tres de «Hogar en calma»
+### Seis sueltos y una serie de cinco publicaciones
 
 > **Por qué el carrusel vende mejor que el reel:** permite dar el valor **entero**, así que el producto llega como continuación natural y no como corte publicitario. Es el formato del ebook.
 >
 > **En un carrusel el texto es literal**, al contrario que en los reels. Lo que está escrito aquí es lo que va en cada diapositiva.
 
-## Las 7 reglas del carrusel
+## Las 8 reglas del carrusel
 
 1. **Las diapositivas 1 y 2 hacen todo el trabajo.** Si la 2 no se gana el deslizamiento, nadie ve de la 3 en adelante.
-2. **Estructura fija:** 1 = hook · 2 = reconocimiento («esto te pasa») · 3 = el giro («pero no es lo que crees») · 4–7 = la solución · penúltima = la frase que quita la culpa · última = CTA.
-3. **La penúltima es la que se guarda y se comparte.** **Nunca mezcles la emoción y el CTA en la misma diapositiva.**
-4. **Una idea por diapositiva. Máximo 25 palabras.** Si no cabe, va en dos.
-5. **Cada diapositiva termina un poco incompleta.** Una frase colgando, un «pero», una cuenta. Eso es lo que mueve el pulgar.
-6. **Texto grande y arriba.** El pulgar tapa el tercio inferior, igual que en stories.
-7. **De 7 a 9 diapositivas.** Menos se queda corto, más se abandona a la mitad. *(Excepción: si el tema pide diagnóstico **y** solución, 10 está bien — es el caso del carrusel 1.)*
+2. **Estructura fija:** 1 = hook · 2 = reconocimiento («esto te pasa») · 3 = el giro («pero no es lo que crees») · **de la 4 en adelante** = la solución · penúltima = la frase que quita la culpa · última = CTA.
+3. **La penúltima es la que se guarda y se comparte**, porque es la que quita la culpa.
+4. **Nunca mezcles la emoción y el CTA en la misma diapositiva.** La frase que emociona pierde la mitad de su fuerza si lleva un producto al lado: se lee como anzuelo.
+5. **Una idea por diapositiva. Máximo 25 palabras.** Si no cabe, va en dos. *(Única excepción: las diapositivas de lista, que pueden llevar cuatro o seis puntos cortos.)*
+6. **Cada diapositiva termina un poco incompleta.** Una frase colgando, un «pero», una cuenta. Eso es lo que mueve el pulgar.
+7. **Texto grande y arriba.** El pulgar tapa el tercio inferior, igual que en stories.
+8. **De 7 a 10 diapositivas.** Menos se queda corto, más se abandona a la mitad. Los temas que piden **diagnóstico y solución** se van a 10; los que solo desarrollan una idea se quedan en 8.
 
-### Y una regla que se me olvidó al escribirlos
+### La regla que lo decide todo
 
 **Un carrusel de diagnóstico sin solución deja al lector a medias.** Si enumeras señales, tienes que decir **qué hacer con ellas esta semana** — aunque el tratamiento sea clínico y no puedas darlo tú. Siempre hay algo que el dueño puede empezar hoy: el peso, el entorno, cómo se mueve, qué pedir en la consulta.
 
-*La excepción es una serie*: ahí el primer carrusel **sí** puede quedarse en el diagnóstico, porque la solución llega en los siguientes y por eso vuelven.
+**La única excepción es una serie**: ahí el primer carrusel sí puede quedarse en el diagnóstico, porque la solución llega en los siguientes — y por eso vuelven.
 
 ---
 ---
@@ -66,7 +67,7 @@
 ---
 
 ## CARRUSEL 3 — «Tu casa se le ha hecho difícil»
-**9 diapositivas · Adaptar el hogar**
+**10 diapositivas · Adaptar el hogar**
 
 | # | Texto de la diapositiva | Imagen |
 |---|---|---|
@@ -78,7 +79,8 @@
 | **6** | **Y esto se olvida siempre:**<br>uñas cortas y **el pelo de entre las almohadillas recortado.**<br>Con las uñas largas y el pelo apoya mal, y resbala mucho más. | Almohadillas, en macro |
 | **7** | Tres cosas más:<br>· Rampa o escalón para sofá y coche<br>· Cama **gruesa y firme** — si se hunde, le cuesta levantarse<br>· Agua en varios puntos | Rampa, cama, bebedero |
 | **8** | Y en gatos: **arenero de entrada baja.**<br>Muchos dejan de usarlo **solo porque les duele entrar**, y llevamos años llamándolo «manía». | Gato junto al arenero |
-| **9** | No es que se haya hecho viejo de golpe.<br>**Es que la casa dejó de estar pensada para él.**<br>Y eso sí lo puedes arreglar.<br><br>🤍 La casa entera, habitación por habitación, en **Edad dorada**. | Él tumbado tranquilo |
+| **9** | No es que se haya hecho viejo de golpe.<br>**Es que la casa dejó de estar pensada para él.**<br>Y eso sí lo puedes arreglar. | Él tumbado tranquilo |
+| **10** | **Guárdalo** y esta noche fíjate por dónde pasa él. Empieza por ahí.<br><br>🤍 La casa entera, habitación por habitación, en **Edad dorada**. | Portada del pack |
 
 **Pie de foto:** No se ha hecho viejo de golpe: la casa dejó de estar pensada para él. Empieza por las alfombras y por las uñas — las dos cosas cuestan casi nada 🤍
 
@@ -134,13 +136,13 @@
 | **1** | **TU GATO NO ES RARO.**<br><sub>Está asustado.</sub> | Gato escondido, solo los ojos |
 | **2** | Con los perros se nota: lloran, rompen, arañan la puerta.<br>Los gatos no hacen nada de eso.<br>Por eso se nos pasa. | Gato quieto en un rincón |
 | **3** | Un gato ansioso **no monta ruido. Se apaga.** | Gato mirando a la pared |
-| **4** | Las cuatro señales:<br>· Se lame hasta hacerse calvas, sobre todo en barriga y patas<br>· Se esconde mucho más de lo normal | Zona sin pelo en la barriga |
-| **5** | · Hace sus necesidades fuera del arenero<br>· Deja de comer, o come a destiempo | Arenero y plato |
-| **6** | ⚠️ El estrés en gatos se asocia a **problemas urinarios**.<br>Si hace esfuerzos para orinar o ves sangre, **es urgencia veterinaria** — sobre todo en machos. | Solo texto, fondo plano |
-| **7** | **Lo primero: pregúntate qué cambió en casa este mes.**<br>Una mudanza, un mueble nuevo, obras, alguien que llegó o se fue, un horario distinto.<br>Para él no son detalles: son su mapa. | Caja de mudanza |
-| **8** | **Y lo segundo, los recursos.** Un gato necesita poder comer, beber, esconderse y subir **sin cruzarse con nadie**:<br>· Comida y agua **separadas**<br>· Sitios altos donde mirar desde arriba<br>· Escondites a ras de suelo | Gato en alto, mirando |
-| **9** | **El arenero, aparte:** uno por gato **más uno**, abiertos, en sitio tranquilo y lejos de la comida.<br>Es lo que más rápido cambia las cosas. | Arenero en rincón tranquilo |
-| **10** | Nada de esto es una manía.<br>**Es un gato pidiendo ayuda de la única forma que sabe:** dejando de hacer cosas.<br><br>🤍 **Guárdalo.** En **Hogar en calma** tienes el resto. | Gato tranquilo, mirándote |
+| **4** | Las cuatro señales:<br>· Se lame hasta hacerse calvas, sobre todo en barriga y patas<br>· Se esconde mucho más de lo normal<br>· Hace sus necesidades fuera del arenero<br>· Deja de comer, o come a destiempo | Zona sin pelo en la barriga |
+| **5** | ⚠️ El estrés en gatos se asocia a **problemas urinarios**.<br>Si hace esfuerzos para orinar o ves sangre, **es urgencia veterinaria** — sobre todo en machos. | Solo texto, fondo plano |
+| **6** | **Lo primero: pregúntate qué cambió en casa este mes.**<br>Una mudanza, un mueble nuevo, obras, alguien que llegó o se fue, un horario distinto.<br>Para él no son detalles: son su mapa. | Caja de mudanza |
+| **7** | **Y lo segundo, los recursos.** Un gato necesita poder comer, beber, esconderse y subir **sin cruzarse con nadie**:<br>· Comida y agua **separadas**<br>· Sitios altos donde mirar desde arriba<br>· Escondites a ras de suelo | Gato en alto, mirando |
+| **8** | **El arenero, aparte:** uno por gato **más uno**, abiertos, en sitio tranquilo y lejos de la comida.<br>Es lo que más rápido cambia las cosas. | Arenero en rincón tranquilo |
+| **9** | Nada de esto es una manía.<br>**Es un gato pidiendo ayuda de la única forma que sabe:**<br>dejando de hacer cosas. | Gato tranquilo, mirándote |
+| **10** | **Guárdalo.** Y empieza hoy por lo más fácil: el arenero y los sitios altos.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
 
 **Pie de foto:** Los gatos no piden ayuda haciendo ruido. La piden dejando de hacer cosas. Y casi siempre la respuesta está en algo que cambió en casa este mes 🤍
 
@@ -151,7 +153,7 @@
 
 **Los seis siguen el mismo arco:** reconocimiento → el giro → **la solución** → quitar la culpa → CTA. Después de la revisión, **los seis tienen solución**: ninguno se queda en enumerar señales.
 
-**La diapositiva que quita la culpa** (la penúltima en casi todos) es la que se guarda y se comparte. No la toques, y no la mezcles con el CTA.
+**La diapositiva que quita la culpa es siempre la penúltima**, y es la que se guarda y se comparte. No la toques, y no la mezcles con el CTA: una frase que emociona pierde la mitad de su fuerza si lleva un producto al lado.
 
 **Los avisos marcados con ⚠️ no se quitan por hacerlo más corto.** Son los que evitan que alguien se confíe: el coche y el perro sordo, el cambio súbito, la desensibilización hecha deprisa, el pánico que necesita profesional y la urgencia urinaria en gatos.
 
