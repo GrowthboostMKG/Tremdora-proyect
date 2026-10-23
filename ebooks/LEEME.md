@@ -126,9 +126,13 @@ resbaladizos*.
 
 Están rehechos de cero, no parcheados:
 
-- Portada y contraportada propias, con un color por libro: **verde salvia** para
-  *Hogar en Calma*, **oro cálido** para *Edad Dorada*. Se distinguen de un vistazo
-  en la cuadrícula de la tienda y se ve que son la misma familia.
+- **La paleta es la de tus originales**, sacada del PDF que me pasaste, no
+  aproximada: papel crema `#FBF3E6`, texto marrón `#3B2A20`, terracota `#C1613A` y
+  `#A8502E`, y verde salvia `#748156`. Nada de portadas oscuras.
+- **El titular lleva la segunda palabra en cursiva terracota** —*Hogar en Calma*,
+  *Edad Dorada*— igual que en tus portadas originales. Es la firma visual de la serie.
+- Cada libro mantiene su acento secundario, el mismo que ya tenía: **salvia** en
+  *Hogar en Calma* (las cajas de ejercicio) y **terracota** en *Edad Dorada*.
 - **Cada ejercicio en su propia página**, centrado, para poder trabajarlo con el
   libro abierto al lado.
 - **Comprobado página por página que no se corta nada.** En la versión anterior se

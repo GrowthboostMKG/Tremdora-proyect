@@ -8,13 +8,16 @@
 * { box-sizing: border-box; }
 
 :root {
-  --paper:   #FDFBF7;
-  --ink:     #2B2622;
-  --ink-2:   #5A5048;
-  --ink-3:   #8A7F74;
-  --rule:    #E2DACE;
-  --accent:  #6E8B7E;
-  --accent-soft: #EDF2EF;
+  --paper:   #FBF3E6;   /* crema del original */
+  --card:    #FDF8F0;   /* fondo de cajas y fichas */
+  --ink:     #3B2A20;   /* marrón oscuro del original */
+  --ink-2:   #6B4A38;
+  --ink-3:   #9A8470;
+  --rule:    #E8DAC3;
+  --terra:   #C1613A;   /* terracota */
+  --terra-2: #A8502E;   /* terracota de titulares */
+  --accent:  #748156;
+  --accent-soft: #EDEFE0;
 }
 
 html, body { margin: 0; padding: 0; }
@@ -76,8 +79,8 @@ h1, h2, h3, h4, .kicker, .tag {
   padding: 0;
   display: flex;
   flex-direction: column;
-  background: var(--ink);
-  color: #F6F1E8;
+  background: linear-gradient(170deg, #F9F1E2 0%, #F6E7D2 55%, #EFD7BE 100%);
+  color: var(--ink);
 }
 .cover .cv-top {
   padding: 22mm 22mm 0;
@@ -87,13 +90,13 @@ h1, h2, h3, h4, .kicker, .tag {
   font-family: "Inter Display", Inter, sans-serif;
   font-size: 9pt; font-weight: 800;
   letter-spacing: .4em;
-  color: var(--accent);
+  color: var(--terra-2);
 }
 .cover .serie {
   font-family: Inter, sans-serif;
   font-size: 7.2pt; font-weight: 600;
   letter-spacing: .2em; text-transform: uppercase;
-  color: rgba(246,241,232,.55);
+  color: var(--ink-2);
   margin-top: 3mm;
 }
 .cover .cv-mid {
@@ -107,19 +110,19 @@ h1, h2, h3, h4, .kicker, .tag {
   letter-spacing: -.02em;
   font-weight: 700;
   margin: 0 0 7mm;
-  color: #FFFDF8;
+  color: var(--ink);
 }
 .cover .cv-sub {
   font-size: 12.4pt;
   line-height: 1.5;
-  color: rgba(246,241,232,.82);
+  color: var(--ink-2);
   max-width: 128mm;
   text-align: left;
   font-style: italic;
 }
 .cover .rule {
   width: 26mm; height: 2px;
-  background: var(--accent);
+  background: var(--terra);
   margin: 9mm 0;
 }
 .cover .cv-bot {
@@ -130,20 +133,20 @@ h1, h2, h3, h4, .kicker, .tag {
   font-family: Inter, sans-serif;
   font-size: 7pt; font-weight: 600;
   letter-spacing: .18em; text-transform: uppercase;
-  color: rgba(246,241,232,.5);
+  color: var(--ink-3);
   margin-bottom: 3mm;
 }
 .cover .cv-bot .names {
   font-size: 9.6pt;
   line-height: 1.75;
-  color: rgba(246,241,232,.78);
+  color: var(--ink-2);
 }
 .cover .edi {
   margin-top: 10mm;
   font-family: Inter, sans-serif;
   font-size: 7.4pt; font-weight: 700;
   letter-spacing: .3em; text-transform: uppercase;
-  color: var(--accent);
+  color: var(--terra-2);
 }
 
 /* ---------- dedicatoria ---------- */
@@ -280,7 +283,7 @@ h1, h2, h3, h4, .kicker, .tag {
   font-size: 30pt;
   line-height: .86;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--terra-2);
   margin: 1.5mm 2mm 0 0;
 }
 
@@ -302,22 +305,23 @@ h1, h2, h3, h4, .kicker, .tag {
 .box p { font-size: 9.9pt; margin-bottom: .55em; }
 
 .warn {
-  background: #FBF2EC;
-  border-left-color: #C27A4E;
+  background: #F8E9DC;
+  border-left-color: var(--terra);
 }
-.warn .lbl { color: #A85F34; }
+.warn .lbl { color: var(--terra-2); }
 
 .quote {
   margin: 8mm 0;
-  padding: 0 8mm;
-  text-align: center;
+  padding: 1mm 0 1mm 7mm;
+  border-left: 2.5px solid var(--terra);
+  text-align: left;
 }
 .quote p {
-  text-align: center;
+  text-align: left;
   font-size: 13pt;
   line-height: 1.45;
   font-style: italic;
-  color: var(--ink);
+  color: var(--terra-2);
   margin-bottom: 3mm;
 }
 .quote .src {
@@ -328,6 +332,7 @@ h1, h2, h3, h4, .kicker, .tag {
 }
 
 .note {
+  background: var(--card);
   border: 1px solid var(--rule);
   border-radius: 3px;
   padding: 4.5mm 5mm;
@@ -344,10 +349,10 @@ h1, h2, h3, h4, .kicker, .tag {
 .ex {
   border: 1px solid var(--rule);
   border-top: 2.5px solid var(--accent);
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 5.5mm 6mm;
   margin: 7mm 0 0;
-  background: #fff;
+  background: var(--card);
 }
 .ex .lbl {
   font-family: Inter, sans-serif;
@@ -453,7 +458,7 @@ ul.check li::before {
   line-height: 1.1;
 }
 .ficha .f-q {
-  background: #fff;
+  background: var(--card);
   border-left: 2.5px solid var(--accent);
   padding: 5mm 6mm;
   font-size: 12pt;
@@ -473,10 +478,11 @@ ul.check li::before {
 .ficha ul.diamond li { font-size: 10.2pt; margin-bottom: 3.4mm; }
 .ficha .today {
   margin-top: 9mm;
-  background: var(--ink);
-  color: #F6F1E8;
+  background: var(--card);
+  color: var(--ink);
+  border: 1px dashed var(--terra);
   padding: 5mm 6mm;
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 10pt;
   line-height: 1.5;
 }
@@ -484,34 +490,34 @@ ul.check li::before {
   font-family: Inter, sans-serif;
   font-size: 6.8pt; font-weight: 700;
   letter-spacing: .2em; text-transform: uppercase;
-  color: var(--accent);
+  color: var(--terra-2);
   display: block; margin-bottom: 2mm;
 }
 
 /* ---------- portadilla de parte ---------- */
 
 .part {
-  background: var(--ink);
-  color: #F6F1E8;
+  background: linear-gradient(170deg, #F8EFE0 0%, #F3E2CC 100%);
+  color: var(--ink);
   display: flex; flex-direction: column; justify-content: center;
 }
 .part .p-kick {
   font-family: Inter, sans-serif;
   font-size: 7.4pt; font-weight: 700;
   letter-spacing: .3em; text-transform: uppercase;
-  color: var(--accent);
+  color: var(--terra-2);
   margin-bottom: 5mm;
 }
 .part h1 {
   font-size: 34pt; line-height: 1.08;
-  color: #FFFDF8;
+  color: var(--ink);
   margin: 0 0 7mm;
   letter-spacing: -.01em;
 }
 .part p {
   font-size: 11.6pt;
   line-height: 1.6;
-  color: rgba(246,241,232,.8);
+  color: var(--ink-2);
   max-width: 125mm;
   text-align: left;
   font-style: italic;
@@ -529,7 +535,7 @@ ul.check li::before {
   border: 1px solid var(--rule);
   border-top: 2px solid var(--accent);
   padding: 4mm 4.5mm;
-  background: #fff;
+  background: var(--card);
 }
 .pillar .fld {
   font-family: Inter, sans-serif;
@@ -599,7 +605,7 @@ td.wk {
   border: 1px solid var(--rule);
   border-left: 2.5px solid var(--accent);
   padding: 4mm 4.5mm;
-  background: #fff;
+  background: var(--card);
 }
 .card .nm {
   font-family: "Inter Display", Inter, sans-serif;
@@ -659,9 +665,9 @@ td.wk {
   border-radius: 2px;
   padding: 4mm 2.5mm;
   text-align: center;
-  background: #fff;
+  background: var(--card);
 }
-.sys.hot { background: #FBF2EC; border-color: #E3C8B4; }
+.sys.hot { background: #F8E9DC; border-color: #E2BFA4; }
 .sys.cool { background: var(--accent-soft); border-color: var(--accent); }
 .sys .n {
   font-family: Inter, sans-serif;
@@ -765,7 +771,7 @@ td.wk {
   border-left: 3px solid var(--accent);
   padding: 5mm 6mm;
   margin-bottom: 5mm;
-  background: #fff;
+  background: var(--card);
 }
 .serie-card .n {
   font-family: Inter, sans-serif;
@@ -780,8 +786,8 @@ td.wk {
 /* ---------- contracubierta ---------- */
 
 .back {
-  background: var(--ink);
-  color: #F6F1E8;
+  background: linear-gradient(170deg, #F9F1E2 0%, #F6E7D2 55%, #EFD7BE 100%);
+  color: var(--ink);
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
   text-align: center;
@@ -790,12 +796,12 @@ td.wk {
   font-family: "Inter Display", Inter, sans-serif;
   font-size: 10pt; font-weight: 800;
   letter-spacing: .42em;
-  color: var(--accent);
+  color: var(--terra-2);
   margin-bottom: 10mm;
 }
 .back h2 {
   font-size: 30pt;
-  color: #FFFDF8;
+  color: var(--ink);
   margin: 0 0 6mm;
   line-height: 1.1;
 }
@@ -804,22 +810,22 @@ td.wk {
   font-size: 12pt;
   font-style: italic;
   line-height: 1.6;
-  color: rgba(246,241,232,.82);
+  color: var(--ink-2);
   max-width: 118mm;
 }
 .back .bk-rule {
   width: 22mm; height: 2px;
-  background: var(--accent);
+  background: var(--terra);
   margin: 10mm 0;
 }
 .back .bk-find {
   font-family: Inter, sans-serif;
   font-size: 9.4pt;
   line-height: 1.75;
-  color: rgba(246,241,232,.7);
+  color: var(--ink-2);
   font-style: normal;
 }
-.back .bk-find b { color: #F6F1E8; font-weight: 600; }
+.back .bk-find b { color: var(--terra-2); font-weight: 600; }
 
 /* ---------- utilidades ---------- */
 
@@ -930,4 +936,13 @@ h3.sub .pre {
   margin-top: 1.8mm;
   letter-spacing: .02em;
   line-height: 1.5;
+}
+
+/* --- la palabra en cursiva terracota, como en los originales --- */
+.cover h1 em, .back h2 em {
+  font-family: Caladea, "Bitstream Charter", Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  color: var(--terra-2);
+  letter-spacing: 0;
 }
