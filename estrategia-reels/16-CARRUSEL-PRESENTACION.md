@@ -169,51 +169,46 @@ es por qué existe Tremdora.** Entre los dos va la foto.
 
 # El pie de foto
 
-Las dos primeras líneas son lo único que se ve antes del «... más», así que el gancho va
-arriba del todo. **1.160 caracteres** — el límite de Instagram son 2.200.
+> **La regla:** el carrusel cuenta **la historia**. El pie dice **qué vas a encontrar
+> aquí**. Si el pie repite las diapositivas, quien ya ha deslizado no tiene ningún motivo
+> para leerlo — y quien no ha deslizado tampoco, porque ya se lo has contado.
+
+**566 caracteres.** Está en `carrusel-presentacion/pie-de-foto.txt` para copiarlo entero.
 
 ```
-Estuve diecisiete años compitiendo con mi perra Paris.
-Y aun así hubo cosas suyas que no entendí hasta que fue tarde.
+Soy Victoria, y la que duerme en la foto es Paris.
 
-Que fuera tranquila no era solo su carácter: la calma también se construye.
-Que algunos días estuviera «rara» no era que estuviera rara: era su cerebro
-haciendo algo que yo no sabía leer. Y que siempre habría más tardes nuestras
-no era verdad — ese momento mejor no llega solo, se busca o no pasa.
+Estuvimos diecisiete años juntas y aun así se me escaparon cosas. Aquí voy
+a contar las que aprendí tarde, para que a ti te lleguen a tiempo: qué pasa
+por la cabeza de un perro o de un gato, y qué puedes hacer con eso el martes
+por la tarde, en tu salón.
 
-De ahí viene Tremdora: juntar lo que la ciencia ya sabe sobre perros y gatos
-con lo que necesitas el martes por la tarde, en tu salón, con tu animal
-delante. Sin dominación, sin castigo, sin trucos.
-
-No soy veterinaria. Nada de esto es mío: es de Lorenz, de Panksepp, de Gruen,
-de Grandin. Lo único que hago yo es traducirlo y ponerlo donde se pueda usar
-— que es lo que me habría gustado encontrar a mí.
-
-Si llevas años con tu animal y sientes que hay cosas suyas que no entiendes,
-es lo normal. Nadie nos lo ha explicado nunca. Eso es lo que vengo a hacer aquí.
-
-Cuéntame una cosa: ¿cómo se llama el tuyo, y qué es lo que más te cuesta
-entenderle? Los leo todos 🤍
-
-#bienestaranimal #etologiacanina #perrosenior #cuidadodemascotas #tremdora
-```
-
-### Versión corta, por si la prefieres
-
-```
-Estuve diecisiete años compitiendo con mi perra Paris.
-Y aun así hubo cosas suyas que no entendí hasta que fue tarde.
-
-Tremdora nace de ahí: de juntar lo que la ciencia ya sabe sobre perros y gatos
-con lo que necesitas el martes por la tarde, en tu salón, con tu animal
-delante. Sin dominación, sin castigo, sin trucos.
-
-Si llevas años con el tuyo y sientes que hay cosas suyas que no entiendes, es
-lo normal: nadie nos lo ha explicado nunca. Eso es lo que vengo a hacer aquí.
+No soy veterinaria. Traduzco lo que la ciencia lleva un siglo publicando y lo
+pongo donde se pueda usar. Sin dominación, sin castigo, sin trucos.
 
 ¿Cómo se llama el tuyo? 🤍
 
-#bienestaranimal #etologiacanina #perrosenior #cuidadodemascotas #tremdora
+#bienestaranimal #etologiacanina #comportamientofelino #cuidadodemascotas #tremdora
+```
+
+**Lo único que este pie dice y el carrusel no:** *«las que aprendí tarde, para que a ti te
+lleguen a tiempo»*. Esa frase es la promesa de la cuenta entera, y es el motivo por el que
+alguien le da a seguir. En las diapositivas no está.
+
+### Versión aún más corta
+
+Para cuando quieras que el peso lo lleve del todo la imagen. **355 caracteres:**
+
+```
+Soy Victoria, y la que duerme en la foto es Paris.
+
+Diecisiete años juntas, y aun así se me escaparon cosas. Aquí voy a contar
+las que aprendí tarde, para que a ti te lleguen a tiempo. Perros y gatos,
+ciencia de verdad, sin castigo ni trucos.
+
+¿Cómo se llama el tuyo? 🤍
+
+#bienestaranimal #etologiacanina #comportamientofelino #cuidadodemascotas #tremdora
 ```
 
 ### Por qué estos cinco hashtags y no otros
@@ -221,16 +216,21 @@ lo normal: nadie nos lo ha explicado nunca. Eso es lo que vengo a hacer aquí.
 | | Qué hace |
 |---|---|
 | `#bienestaranimal` | **La categoría.** Dice de qué va la cuenta entera |
-| `#etologiacanina` | **Lo que te diferencia.** Es la palabra de quien ya busca ciencia, no trucos |
-| `#perrosenior` | **Tu territorio más fuerte.** Edad Dorada es el pack con menos competencia |
+| `#etologiacanina` | **Perro**, y además la palabra de quien busca ciencia y no trucos |
+| `#comportamientofelino` | **Gato.** En el post de presentación tienen que verse las dos especies |
 | `#cuidadodemascotas` | **Donde está tu gente.** El más genérico de los cinco, a propósito |
 | `#tremdora` | **El tuyo.** No tiene tráfico hoy; su valor es que agrupa tu archivo |
+
+**Ojo con esto:** la primera versión llevaba `#perrosenior` y ningún hashtag de gato. En el
+post que presenta una tienda de perros **y** gatos, eso es un error — así que ahí entra
+`#comportamientofelino`. En los demás carruseles manda el tema de cada uno: los de gato
+llevan etiquetas de gato y los de perro, de perro (documento 15).
 
 **Nada de `#reels`, `#viral` ni `#parati`:** son justo las que Instagram dice que quiere
 reducir, y no describen el post.
 
 **Y recuerda que son cinco como máximo** desde diciembre de 2025, y que los que pongas en
-el primer comentario **cuentan dentro de esos cinco**. Ponlos en el pie y ya está.
+el primer comentario **cuentan dentro de esos cinco**.
 
 ---
 
