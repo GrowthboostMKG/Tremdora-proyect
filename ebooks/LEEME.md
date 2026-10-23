@@ -25,12 +25,10 @@ Los dos libros **no decían «Tremdora» ni una sola vez**. Ahora:
 - **Fuera `growthboostmkg@gmail.com`** de los dos libros. Cero apariciones.
 - Pie de marca: **Entender · Cuidar · Acompañar · Celebrar**.
 
-> **Lo único que falta y tienes que decirme tú:** el **@ definitivo de Instagram** y
-> el **dominio de la tienda**. No los he puesto inventados porque un correo que
-> rebota o un @ equivocado en un PDF que ya has vendido no tiene arreglo. De momento
-> la contraportada dice «Encuéntranos como **Tremdora** en Instagram y en nuestra
-> tienda online», que es verdad siempre. Dime los dos datos y te regenero los PDF
-> en un minuto.
+- **Contacto real en los dos libros:** `tremdora.com` y `@tremdora_pets`, en la
+  contraportada y en la página de créditos. No hay ningún correo inventado: si
+  quieres añadir uno (por ejemplo `hola@tremdora.com`), dímelo cuando lo tengas
+  creado y lo añado.
 
 ### 2 · «Hogar en Calma» — nuevo programa felino
 
