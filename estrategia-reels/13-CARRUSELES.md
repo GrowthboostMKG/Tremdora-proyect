@@ -41,7 +41,7 @@
 | **7** | **2 ·** Alfombras **antideslizantes** en sus rutas: cama, comedero, puerta.<br>**3 ·** Que deje de saltar: rampa o escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
 | **8** | **En la consulta, pide algo concreto:** que le **valoren el dolor**, con estos ejemplos.<br><br>⚠️ Y si el cambio ha sido **de golpe**, no esperes a la semana que viene: eso se mira ya. | Ella hablando con el veterinario |
 | **9** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
-| **10** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar y qué adaptar, mes a mes. | Portada del pack, pequeña |
+| **10** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack, pequeña |
 
 **Pie de foto:** «Ya no sube al sofá porque está viejo.» No: es que le duele saltar. Y hay cuatro cosas que puedes empezar esta misma semana, antes incluso de la consulta 🤍
 
@@ -80,7 +80,7 @@
 | **7** | Tres cosas más:<br>· Rampa o escalón para sofá y coche<br>· Cama **gruesa y firme** — si se hunde, le cuesta levantarse<br>· Agua en varios puntos | Rampa, cama, bebedero |
 | **8** | Y en gatos: **arenero de entrada baja.**<br>Muchos dejan de usarlo **solo porque les duele entrar**, y llevamos años llamándolo «manía». | Gato junto al arenero |
 | **9** | No es que se haya hecho viejo de golpe.<br>**Es que la casa dejó de estar pensada para él.**<br>Y eso sí lo puedes arreglar. | Él tumbado tranquilo |
-| **10** | **Guárdalo** y esta noche fíjate por dónde pasa él. Empieza por ahí.<br><br>🤍 La casa entera, habitación por habitación, en **Edad dorada**. | Portada del pack |
+| **10** | **Guárdalo** y esta noche fíjate por dónde pasa él. Empieza por ahí.<br><br>🤍 La casa entera, riesgo por riesgo, en **Edad dorada**. | Portada del pack |
 
 **Pie de foto:** No se ha hecho viejo de golpe: la casa dejó de estar pensada para él. Empieza por las alfombras y por las uñas — las dos cosas cuestan casi nada 🤍
 
@@ -256,7 +256,7 @@
 | **1** | **EL SITIO DE TU CASA<br>QUE LO CAMBIA TODO.**<br><sub>Hogar en calma · 4 de 5</sub> |
 | **2** | Lo que más calma a un animal ansioso **no es un juguete.**<br>Es saber lo que viene después. |
 | **3** | Y necesita dos cosas:<br>**un sitio seguro** y **un orden que no cambie.** |
-| **4** | **El refugio:** un rincón, con pared a la espalda y vista a la puerta.<br>Regla de oro: **ahí no se le toca, no se le saca, y los niños no entran.** |
+| **4** | **El refugio:** un rincón tranquilo, **lejos de la puerta de la calle** y de ventanas con mucho ruido.<br>Regla de oro: **ahí no se le toca, no se le saca, y los niños no entran.** |
 | **5** | Si el refugio no es seguro al cien por cien, deja de ser refugio.<br>Puerta siempre abierta. **Él decide.** |
 | **6** | **La rutina:** no hace falta ser rígida con el reloj. Lo que importa es **el orden.**<br>Siempre paseo → comida → descanso. |
 | **7** | Es gratis, es aburrido, y es **lo que más funciona** de toda la serie.<br>Porque la ansiedad es, en buena parte, no poder anticipar. |
