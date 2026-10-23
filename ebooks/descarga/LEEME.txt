@@ -1,0 +1,63 @@
+TREMDORA · los tres packs, listos para Shopify
+===============================================
+
+TREMDORA-packs.zip  ·  7,6 MB  ·  18 PDF + 18 portadas JPG
+
+Dentro, una carpeta por pack, y en cada una:
+  PDF/        los archivos que se venden
+  Portadas/   la imagen del producto (1500 px de ancho)
+
+
+1-HOGAR-EN-CALMA  ·  5 piezas, 112 páginas
+  Hogar-en-Calma-Tremdora.pdf ................. 59 p  · el método
+  Hogar-en-Calma-2-Diario-de-la-Calma.pdf ..... 18 p
+  Hogar-en-Calma-3-Plan-8-Semanas.pdf ......... 13 p
+  Hogar-en-Calma-4-Rutinas-de-Calma.pdf ....... 9 p
+  Hogar-en-Calma-MUESTRA-GRATIS.pdf ........... 13 p  · gratis
+  (falta la Frecuencia, que la sube la autora)
+
+2-EDAD-DORADA  ·  8 piezas, 128 páginas
+  Edad-Dorada-Tremdora.pdf .................... 55 p  · el método
+  Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf . 11 p
+  Edad-Dorada-3-Plan-8-Semanas.pdf ............ 12 p
+  Edad-Dorada-4-Nutricion-Dorada.pdf .......... 7 p
+  Edad-Dorada-5-20-Momentos.pdf ............... 9 p
+  Edad-Dorada-6-Cartas-de-Conexion.pdf ........ 10 p
+  Edad-Dorada-7-Ritual-de-10-Minutos.pdf ...... 6 p
+  Edad-Dorada-MUESTRA-GRATIS.pdf .............. 13 p  · gratis
+
+3-SIGUE-CONTIGO  ·  5 piezas, 101 páginas
+  0. Empieza por aqui.pdf ..................... 1 p
+  1. Sigue Contigo - eBook completo.pdf ....... 43 p
+  2. Sigue Contigo - Diario del Oleaje.pdf .... 20 p
+  3. Sigue Contigo - Plan Practico 8 Semanas .. 16 p
+  4. Sigue Contigo - Ellos Tambien se Despiden  21 p
+
+
+COMPROBADO EN LOS DIECIOCHO
+---------------------------
+· Misma hoja: 468 x 679,92 pt (165 x 240 mm, formato libro)
+· Sin contrasena ni restricciones de copia o impresion
+· Texto seleccionable y buscable (ninguno es imagen escaneada)
+· Ninguno pasa de 1,1 MB (el limite de Shopify son 20 MB por archivo)
+· Marca Tremdora, tremdora.com y @tremdora_pets dentro de todos
+· Ninguna pagina cortada: las secciones del origen coinciden con las
+  paginas del PDF en los trece generados, y el verificador del pack da
+  "sin desbordes" en los cinco de Sigue Contigo
+
+
+PARA SUBIRLO A SHOPIFY
+----------------------
+1. Instala la app gratuita "Digital Downloads" de Shopify.
+2. Productos > Anadir producto, uno por pack (no uno por archivo).
+3. En el producto, anade TODOS los PDF de ese pack como archivos
+   digitales. El cliente recibe un enlace con todo.
+4. Marca "Este producto no requiere envio".
+5. Imagen del producto: la portada del libro principal. Las demas
+   portadas, como imagenes adicionales de la galeria.
+6. Las dos MUESTRA-GRATIS van como producto aparte a 0 EUR, o como
+   descarga a cambio del correo.
+
+Si alguien va a imprimir los diarios y los planes: en el cuadro de
+impresion, "ajustar a pagina" sobre A4. El papel se amplia un 27 % y las
+lineas de escritura quedan en unos 9 mm.
