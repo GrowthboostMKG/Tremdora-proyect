@@ -1,0 +1,881 @@
+/* ============================================================
+   TREMDORA · maqueta de ebook para PDF (A4)
+   Cada libro define --accent y --accent-soft.
+   ============================================================ */
+
+@page { size: A4; margin: 0; }
+
+* { box-sizing: border-box; }
+
+:root {
+  --paper:   #FDFBF7;
+  --ink:     #2B2622;
+  --ink-2:   #5A5048;
+  --ink-3:   #8A7F74;
+  --rule:    #E2DACE;
+  --accent:  #6E8B7E;
+  --accent-soft: #EDF2EF;
+}
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Caladea, "Bitstream Charter", Georgia, serif;
+  font-size: 10.1pt;
+  line-height: 1.56;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* ---------- la página ---------- */
+
+.page {
+  position: relative;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 24mm 22mm 22mm;
+  overflow: visible;
+  page-break-after: always;
+  break-after: page;
+}
+.page:last-child { page-break-after: auto; }
+
+/* las páginas de bloque conservan altura exacta para poder centrar */
+.cover, .ded, .part, .back { height: 297mm; min-height: 297mm; }
+
+/* ---------- tipografía base ---------- */
+
+p { margin: 0 0 .72em; text-align: justify; hyphens: auto; }
+p:last-child { margin-bottom: 0; }
+b, strong { font-weight: 700; }
+em, i { font-style: italic; }
+
+.sans { font-family: Inter, "Liberation Sans", sans-serif; }
+
+h1, h2, h3, h4, .kicker, .tag {
+  font-family: "Inter Display", Inter, "Liberation Sans", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  hyphens: none;
+}
+
+.kicker {
+  font-size: 7.4pt;
+  font-weight: 700;
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 5mm;
+}
+
+/* ---------- cubierta ---------- */
+
+.cover {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--ink);
+  color: #F6F1E8;
+}
+.cover .cv-top {
+  padding: 22mm 22mm 0;
+  flex: 0 0 auto;
+}
+.cover .brand {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 9pt; font-weight: 800;
+  letter-spacing: .4em;
+  color: var(--accent);
+}
+.cover .serie {
+  font-family: Inter, sans-serif;
+  font-size: 7.2pt; font-weight: 600;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: rgba(246,241,232,.55);
+  margin-top: 3mm;
+}
+.cover .cv-mid {
+  flex: 1 1 auto;
+  padding: 0 22mm;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.cover h1 {
+  font-size: 46pt;
+  line-height: 1.02;
+  letter-spacing: -.02em;
+  font-weight: 700;
+  margin: 0 0 7mm;
+  color: #FFFDF8;
+}
+.cover .cv-sub {
+  font-size: 12.4pt;
+  line-height: 1.5;
+  color: rgba(246,241,232,.82);
+  max-width: 128mm;
+  text-align: left;
+  font-style: italic;
+}
+.cover .rule {
+  width: 26mm; height: 2px;
+  background: var(--accent);
+  margin: 9mm 0;
+}
+.cover .cv-bot {
+  flex: 0 0 auto;
+  padding: 0 22mm 20mm;
+}
+.cover .cv-bot .lbl {
+  font-family: Inter, sans-serif;
+  font-size: 7pt; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase;
+  color: rgba(246,241,232,.5);
+  margin-bottom: 3mm;
+}
+.cover .cv-bot .names {
+  font-size: 9.6pt;
+  line-height: 1.75;
+  color: rgba(246,241,232,.78);
+}
+.cover .edi {
+  margin-top: 10mm;
+  font-family: Inter, sans-serif;
+  font-size: 7.4pt; font-weight: 700;
+  letter-spacing: .3em; text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ---------- dedicatoria ---------- */
+
+.ded {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center;
+}
+.ded p {
+  text-align: center;
+  font-size: 12pt;
+  font-style: italic;
+  color: var(--ink-2);
+  max-width: 108mm;
+  line-height: 1.8;
+}
+.ded .nm {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 15pt; font-weight: 600;
+  font-style: normal;
+  color: var(--accent);
+  margin-bottom: 6mm;
+  letter-spacing: .02em;
+}
+.ded .paw { font-size: 14pt; margin-bottom: 8mm; }
+
+/* ---------- portadilla / presentación ---------- */
+
+.present h1 {
+  font-size: 27pt; line-height: 1.1;
+  margin: 0 0 3mm;
+}
+.present .ph-sub {
+  font-family: Inter, sans-serif;
+  font-size: 10pt; font-weight: 500;
+  color: var(--accent);
+  margin: 0 0 9mm;
+  line-height: 1.45;
+}
+.legal {
+  margin-top: 14mm;
+  border-top: 1px solid var(--rule);
+  padding-top: 4mm;
+  font-family: Inter, sans-serif;
+  font-size: 7.1pt;
+  line-height: 1.55;
+  color: var(--ink-3);
+  text-align: left;
+}
+.legal b { color: var(--ink-2); }
+
+/* ---------- índice ---------- */
+
+.toc h1 { font-size: 24pt; margin: 0 0 2mm; }
+.toc .toc-dek {
+  font-family: Inter, sans-serif;
+  font-size: 9pt; color: var(--ink-2);
+  margin-bottom: 8mm; line-height: 1.5;
+}
+.toc-part {
+  font-family: Inter, sans-serif;
+  font-size: 7pt; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent);
+  margin: 4.6mm 0 2.2mm;
+  padding-bottom: 1.3mm;
+  border-bottom: 1px solid var(--rule);
+}
+.toc-row {
+  display: flex; align-items: baseline;
+  gap: 4mm;
+  padding: .9mm 0;
+  font-size: 9.3pt;
+}
+.toc-row .n {
+  font-family: Inter, sans-serif;
+  font-size: 8.4pt; font-weight: 700;
+  color: var(--accent);
+  width: 9mm; flex: 0 0 9mm;
+}
+.toc-row .t { flex: 1 1 auto; }
+.toc-row .who {
+  font-family: Inter, sans-serif;
+  font-size: 7.6pt; font-style: italic;
+  color: var(--ink-3);
+  flex: 0 0 auto;
+}
+.toc-row.nue .t::after {
+  content: "NUEVO";
+  font-family: Inter, sans-serif;
+  font-size: 6pt; font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: .6mm 1.6mm;
+  border-radius: 2px;
+  margin-left: 2.5mm;
+  vertical-align: 1px;
+}
+
+/* ---------- apertura de capítulo ---------- */
+
+.ch-num {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 40pt; font-weight: 700;
+  color: var(--accent-soft);
+  line-height: .9;
+  margin-bottom: 1mm;
+}
+.ch-disc {
+  font-family: Inter, sans-serif;
+  font-size: 7.2pt; font-weight: 700;
+  letter-spacing: .24em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 3mm;
+}
+.ch-title {
+  font-size: 23pt; line-height: 1.12;
+  margin: 0 0 3mm;
+  letter-spacing: -.01em;
+}
+.ch-who {
+  font-family: Inter, sans-serif;
+  font-size: 8.6pt; font-style: italic;
+  color: var(--ink-3);
+  margin: 0 0 8mm;
+  padding-bottom: 5mm;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lead::first-letter {
+  float: left;
+  font-size: 30pt;
+  line-height: .86;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 1.5mm 2mm 0 0;
+}
+
+/* ---------- cajas ---------- */
+
+.box {
+  background: var(--accent-soft);
+  border-left: 2.5px solid var(--accent);
+  padding: 5mm 6mm;
+  margin: 6mm 0;
+}
+.box .lbl {
+  font-family: Inter, sans-serif;
+  font-size: 7pt; font-weight: 700;
+  letter-spacing: .18em; text-transform: uppercase;
+  color: var(--accent);
+  display: block; margin-bottom: 2.5mm;
+}
+.box p { font-size: 9.9pt; margin-bottom: .55em; }
+
+.warn {
+  background: #FBF2EC;
+  border-left-color: #C27A4E;
+}
+.warn .lbl { color: #A85F34; }
+
+.quote {
+  margin: 8mm 0;
+  padding: 0 8mm;
+  text-align: center;
+}
+.quote p {
+  text-align: center;
+  font-size: 13pt;
+  line-height: 1.45;
+  font-style: italic;
+  color: var(--ink);
+  margin-bottom: 3mm;
+}
+.quote .src {
+  font-family: Inter, sans-serif;
+  font-size: 6.9pt; font-weight: 600;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.note {
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 4.5mm 5mm;
+  margin: 6mm 0;
+  font-size: 9.4pt;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.note p { font-size: 9.4pt; }
+.note b { color: var(--ink); }
+
+/* ---------- ejercicio ---------- */
+
+.ex {
+  border: 1px solid var(--rule);
+  border-top: 2.5px solid var(--accent);
+  border-radius: 2px;
+  padding: 5.5mm 6mm;
+  margin: 7mm 0 0;
+  background: #fff;
+}
+.ex .lbl {
+  font-family: Inter, sans-serif;
+  font-size: 6.9pt; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent);
+  display: block; margin-bottom: 3mm;
+}
+.ex h4 {
+  font-size: 12.4pt;
+  margin: 0 0 1.5mm;
+  line-height: 1.25;
+}
+.ex .obj {
+  font-size: 9.2pt;
+  font-style: italic;
+  color: var(--ink-2);
+  margin: 0 0 4mm;
+  text-align: left;
+}
+.ex ol { margin: 0; padding-left: 6.5mm; }
+.ex ol li {
+  font-size: 9.5pt;
+  line-height: 1.52;
+  margin-bottom: 2.3mm;
+  padding-left: 1.5mm;
+}
+.ex ol li::marker { color: var(--accent); font-weight: 700; }
+
+/* ---------- listas de señales (dos columnas) ---------- */
+
+.signals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm 7mm;
+  margin: 6mm 0;
+  padding: 5mm 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.signals .s t, .signals .s .h {
+  display: block;
+  font-family: Inter, sans-serif;
+  font-size: 9.3pt; font-weight: 700;
+  color: var(--ink);
+  margin-bottom: .6mm;
+}
+.signals .s .d {
+  display: block;
+  font-size: 8.7pt;
+  line-height: 1.42;
+  color: var(--ink-2);
+}
+
+/* ---------- lista con viñeta de rombo ---------- */
+
+ul.diamond { list-style: none; margin: 5mm 0; padding: 0; }
+ul.diamond li {
+  position: relative;
+  padding-left: 6mm;
+  margin-bottom: 2.6mm;
+  font-size: 9.9pt;
+  line-height: 1.55;
+}
+ul.diamond li::before {
+  content: "◆";
+  position: absolute; left: 0; top: -.2mm;
+  color: var(--accent);
+  font-size: 7.4pt;
+}
+
+ul.check { list-style: none; margin: 5mm 0; padding: 0; }
+ul.check li {
+  position: relative;
+  padding-left: 7mm;
+  margin-bottom: 3mm;
+  font-size: 9.8pt;
+  line-height: 1.52;
+}
+ul.check li::before {
+  content: "";
+  position: absolute; left: 0; top: 1.4mm;
+  width: 3.4mm; height: 3.4mm;
+  border: 1.2px solid var(--accent);
+  border-radius: 1px;
+}
+
+/* ---------- ficha rápida ---------- */
+
+.ficha {
+  background: var(--accent-soft);
+}
+.ficha .f-kick {
+  font-family: Inter, sans-serif;
+  font-size: 7.2pt; font-weight: 700;
+  letter-spacing: .24em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4mm;
+}
+.ficha h2 {
+  font-size: 25pt;
+  margin: 0 0 6mm;
+  line-height: 1.1;
+}
+.ficha .f-q {
+  background: #fff;
+  border-left: 2.5px solid var(--accent);
+  padding: 5mm 6mm;
+  font-size: 12pt;
+  font-style: italic;
+  line-height: 1.45;
+  margin-bottom: 8mm;
+}
+.ficha .f-h {
+  font-family: Inter, sans-serif;
+  font-size: 7.2pt; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--ink-2);
+  margin: 0 0 4mm;
+  padding-bottom: 2mm;
+  border-bottom: 1px solid rgba(0,0,0,.09);
+}
+.ficha ul.diamond li { font-size: 10.2pt; margin-bottom: 3.4mm; }
+.ficha .today {
+  margin-top: 9mm;
+  background: var(--ink);
+  color: #F6F1E8;
+  padding: 5mm 6mm;
+  border-radius: 2px;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+.ficha .today .lbl {
+  font-family: Inter, sans-serif;
+  font-size: 6.8pt; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent);
+  display: block; margin-bottom: 2mm;
+}
+
+/* ---------- portadilla de parte ---------- */
+
+.part {
+  background: var(--ink);
+  color: #F6F1E8;
+  display: flex; flex-direction: column; justify-content: center;
+}
+.part .p-kick {
+  font-family: Inter, sans-serif;
+  font-size: 7.4pt; font-weight: 700;
+  letter-spacing: .3em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 5mm;
+}
+.part h1 {
+  font-size: 34pt; line-height: 1.08;
+  color: #FFFDF8;
+  margin: 0 0 7mm;
+  letter-spacing: -.01em;
+}
+.part p {
+  font-size: 11.6pt;
+  line-height: 1.6;
+  color: rgba(246,241,232,.8);
+  max-width: 125mm;
+  text-align: left;
+  font-style: italic;
+}
+
+/* ---------- rejilla de pilares ---------- */
+
+.pillars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm 6mm;
+  margin-top: 7mm;
+}
+.pillar {
+  border: 1px solid var(--rule);
+  border-top: 2px solid var(--accent);
+  padding: 4mm 4.5mm;
+  background: #fff;
+}
+.pillar .fld {
+  font-family: Inter, sans-serif;
+  font-size: 6.4pt; font-weight: 700;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--accent);
+  display: block; margin-bottom: 1.8mm;
+}
+.pillar .who {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 11.4pt; font-weight: 600;
+  display: block; margin-bottom: 1.5mm;
+}
+.pillar .d {
+  font-size: 8.7pt;
+  line-height: 1.45;
+  color: var(--ink-2);
+  display: block;
+}
+
+/* ---------- tablas ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6mm 0;
+  font-size: 9.4pt;
+}
+th {
+  font-family: Inter, sans-serif;
+  font-size: 7pt; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent);
+  text-align: left;
+  padding: 0 4mm 2.5mm 0;
+  border-bottom: 1.5px solid var(--accent);
+}
+td {
+  padding: 3mm 4mm 3mm 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+  line-height: 1.5;
+}
+td:last-child, th:last-child { padding-right: 0; }
+td.k {
+  font-family: Inter, sans-serif;
+  font-size: 8.8pt; font-weight: 600;
+  color: var(--ink);
+  width: 32mm;
+}
+td.wk {
+  font-family: Inter, sans-serif;
+  font-size: 9.6pt; font-weight: 700;
+  color: var(--accent);
+  width: 18mm;
+}
+
+/* ---------- enfermedades (fichas pequeñas) ---------- */
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.6mm 5mm;
+  margin-top: 6mm;
+}
+.card {
+  border: 1px solid var(--rule);
+  border-left: 2.5px solid var(--accent);
+  padding: 4mm 4.5mm;
+  background: #fff;
+}
+.card .nm {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 11pt; font-weight: 600;
+  display: block; margin-bottom: 1.5mm;
+}
+.card .d {
+  font-size: 8.6pt; line-height: 1.42;
+  color: var(--ink-2);
+  display: block; margin-bottom: 2.5mm;
+}
+.card .sg {
+  font-family: Inter, sans-serif;
+  font-size: 6.4pt; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent);
+  display: block; margin-bottom: 1mm;
+}
+.card .sv {
+  font-size: 8.6pt; line-height: 1.42;
+  display: block;
+}
+
+/* ---------- escala ---------- */
+
+.scale-row {
+  display: flex; align-items: center;
+  padding: 3.4mm 0;
+  border-bottom: 1px solid var(--rule);
+}
+.scale-row .nm {
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 9.6pt; font-weight: 600;
+}
+.scale-row .nums { display: flex; gap: 6mm; }
+.scale-row .nums span {
+  width: 7mm; height: 7mm;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: Inter, sans-serif;
+  font-size: 8.4pt; font-weight: 600;
+  color: var(--accent);
+}
+
+/* ---------- diagrama de sistemas ---------- */
+
+.sysgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4mm;
+  margin: 7mm 0 3mm;
+}
+.sys {
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 4mm 2.5mm;
+  text-align: center;
+  background: #fff;
+}
+.sys.hot { background: #FBF2EC; border-color: #E3C8B4; }
+.sys.cool { background: var(--accent-soft); border-color: var(--accent); }
+.sys .n {
+  font-family: Inter, sans-serif;
+  font-size: 8.6pt; font-weight: 700;
+  letter-spacing: .06em;
+  display: block; margin-bottom: 1.5mm;
+}
+.sys .d {
+  font-size: 7.6pt; line-height: 1.35;
+  color: var(--ink-2);
+  display: block;
+}
+.syscap {
+  font-family: Inter, sans-serif;
+  font-size: 8pt; font-style: italic;
+  color: var(--ink-3);
+  text-align: center;
+}
+
+/* ---------- señales de mano ---------- */
+
+.hands {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm 6mm;
+  margin: 6mm 0;
+}
+.hand {
+  display: flex; gap: 3.5mm;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 3.5mm;
+}
+.hand .ic {
+  flex: 0 0 7mm;
+  width: 7mm; height: 7mm;
+  border: 1.2px solid var(--accent);
+  border-radius: 50%;
+  font-family: Inter, sans-serif;
+  font-size: 8.4pt;
+  font-weight: 700;
+  line-height: 6.6mm;
+  text-align: center;
+  color: var(--accent);
+}
+.hand .nm {
+  font-family: Inter, sans-serif;
+  font-size: 9.2pt; font-weight: 700;
+  display: block; margin-bottom: .8mm;
+}
+.hand .d {
+  font-size: 8.5pt; line-height: 1.42;
+  color: var(--ink-2);
+  display: block;
+}
+
+/* ---------- autora ---------- */
+
+.author h1 { font-size: 26pt; margin: 0 0 6mm; line-height: 1.12; }
+.author .a-lead {
+  font-size: 12.4pt;
+  line-height: 1.6;
+  color: var(--ink);
+  font-style: italic;
+  margin-bottom: 6mm;
+  text-align: left;
+}
+.author .sig {
+  margin-top: 8mm;
+  padding-top: 5mm;
+  border-top: 1px solid var(--rule);
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 12pt; font-weight: 600;
+  color: var(--accent);
+}
+.author .sig span {
+  display: block;
+  font-family: Inter, sans-serif;
+  font-size: 8.4pt; font-weight: 500;
+  color: var(--ink-3);
+  margin-top: 1.5mm;
+  letter-spacing: .02em;
+}
+
+/* ---------- referencias ---------- */
+
+.refs .ref {
+  padding: 3.4mm 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 9.3pt;
+  line-height: 1.5;
+}
+.refs .ref b {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-weight: 600;
+}
+
+/* ---------- la serie ---------- */
+
+.serie-card {
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  padding: 5mm 6mm;
+  margin-bottom: 5mm;
+  background: #fff;
+}
+.serie-card .n {
+  font-family: Inter, sans-serif;
+  font-size: 6.8pt; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent);
+  display: block; margin-bottom: 2mm;
+}
+.serie-card h3 { font-size: 14pt; margin: 0 0 2.5mm; }
+.serie-card p { font-size: 9.5pt; margin: 0; }
+
+/* ---------- contracubierta ---------- */
+
+.back {
+  background: var(--ink);
+  color: #F6F1E8;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center;
+}
+.back .bk-brand {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 10pt; font-weight: 800;
+  letter-spacing: .42em;
+  color: var(--accent);
+  margin-bottom: 10mm;
+}
+.back h2 {
+  font-size: 30pt;
+  color: #FFFDF8;
+  margin: 0 0 6mm;
+  line-height: 1.1;
+}
+.back p {
+  text-align: center;
+  font-size: 12pt;
+  font-style: italic;
+  line-height: 1.6;
+  color: rgba(246,241,232,.82);
+  max-width: 118mm;
+}
+.back .bk-rule {
+  width: 22mm; height: 2px;
+  background: var(--accent);
+  margin: 10mm 0;
+}
+.back .bk-find {
+  font-family: Inter, sans-serif;
+  font-size: 9.4pt;
+  line-height: 1.75;
+  color: rgba(246,241,232,.7);
+  font-style: normal;
+}
+.back .bk-find b { color: #F6F1E8; font-weight: 600; }
+
+/* ---------- utilidades ---------- */
+
+.mt0 { margin-top: 0; }
+.mt4 { margin-top: 4mm; }
+.mt7 { margin-top: 7mm; }
+h3.sub {
+  font-size: 13pt;
+  margin: 7mm 0 3mm;
+  color: var(--ink);
+}
+h3.sub .pre {
+  display: block;
+  font-family: Inter, sans-serif;
+  font-size: 6.9pt; font-weight: 700;
+  letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.5mm;
+}
+.sec-head {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 5mm;
+  margin-bottom: 7mm;
+}
+.sec-head .l {
+  font-family: Inter, sans-serif;
+  font-size: 7.2pt; font-weight: 700;
+  letter-spacing: .24em; text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 3mm;
+}
+.sec-head h1 { font-size: 23pt; line-height: 1.12; margin: 0 0 2.5mm; }
+.sec-head .d {
+  font-family: Inter, sans-serif;
+  font-size: 9.4pt; font-style: italic;
+  color: var(--ink-3);
+}
+.sec-letter {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 34pt; font-weight: 700;
+  color: var(--accent-soft);
+  line-height: .9;
+  margin-bottom: 1mm;
+}
+
+/* --- integridad de los bloques al paginar --- */
+.box, .ex, .quote, .note, .signals, .pillar, .card, .serie-card,
+.ficha .f-q, .ficha .today, .hand, .scale-row {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.ex h4, .ch-title, h3.sub { page-break-after: avoid; break-after: avoid; }
+
+/* --- página de ejercicio: centrada, para que no se vea vacía --- */
+.page.exer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
