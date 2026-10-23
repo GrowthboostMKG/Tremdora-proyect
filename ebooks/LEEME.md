@@ -162,3 +162,17 @@ Y para comprobar que nada se sale de la página:
 python3 fuentes/measure.py hogar
 python3 fuentes/measure.py edad
 ```
+
+---
+
+## Archivos para la ficha de producto
+
+En `portadas/` tienes la página 1 de cada libro exportada a JPG, lista para usar como
+imagen del producto en Shopify:
+
+- `portada-Hogar-en-Calma.jpg` — 1500 × 2122 px
+- `portada-Edad-Dorada.jpg` — 1500 × 2122 px
+
+Son verticales (proporción A4). Shopify las acepta tal cual, pero si prefieres que la
+cuadrícula de la tienda se vea uniforme, súbelas sobre un fondo cuadrado del mismo
+color de cada libro.
