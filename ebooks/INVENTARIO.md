@@ -1,6 +1,6 @@
 # Inventario de PDF · todo lo listo para Shopify
 
-Actualizado tras la revisión completa. **Nueve PDF listos para vender.**
+Actualizado tras la revisión completa. **Trece PDF listos para vender.**
 
 ---
 
@@ -9,6 +9,8 @@ Actualizado tras la revisión completa. **Nueve PDF listos para vender.**
 | Archivo | Páginas | Peso | Portada |
 |---|---|---|---|
 | `Hogar-en-Calma-Tremdora.pdf` | 59 | 1,2 MB | `portadas/portada-Hogar-en-Calma.jpg` |
+| `complementos/Hogar-en-Calma-2-Diario-de-la-Calma.pdf` | 19 | 0,6 MB | en `complementos/portadas/` |
+| `complementos/Hogar-en-Calma-3-Plan-8-Semanas.pdf` | 14 | 0,5 MB | en `complementos/portadas/` |
 | `muestras/Hogar-en-Calma-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB | `muestras/portada-muestra-Hogar-en-Calma.jpg` |
 
 ## 2 · Edad Dorada
@@ -16,6 +18,8 @@ Actualizado tras la revisión completa. **Nueve PDF listos para vender.**
 | Archivo | Páginas | Peso | Portada |
 |---|---|---|---|
 | `Edad-Dorada-Tremdora.pdf` | 55 | 1,1 MB | `portadas/portada-Edad-Dorada.jpg` |
+| `complementos/Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf` | 12 | 0,5 MB | en `complementos/portadas/` |
+| `complementos/Edad-Dorada-3-Plan-8-Semanas.pdf` | 13 | 0,4 MB | en `complementos/portadas/` |
 | `muestras/Edad-Dorada-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB | `muestras/portada-muestra-Edad-Dorada.jpg` |
 
 ## 3 · Sigue Contigo — la serie del duelo, cinco piezas
@@ -94,26 +98,36 @@ verificado página a página.
 
 ## Lo que sigue sin existir
 
-De los tres packs, estas piezas están prometidas en la estrategia y **no existen
-todavía**:
+**Hogar en Calma** — Rutinas de Calma · Frecuencia
+**Edad Dorada** — Nutrición Dorada · 20 Momentos · Cartas de Conexión · Ritual de 10 Minutos
 
-**Hogar en Calma** — Diario · Plan de 8 Semanas · Rutinas de Calma · Frecuencia
-**Edad Dorada** — Diario de Bienestar Senior · Plan de 8 Semanas · Nutrición Dorada ·
-20 Momentos · Cartas de Conexión · Ritual de 10 Minutos
+El Diario y el Plan de los dos packs **ya están hechos**, y con nombre propio para que
+no choquen entre packs:
 
-Y hay un choque de nombres que conviene resolver antes de crearlas: **los tres packs
-llevan un «Diario» y un «Plan Práctico de 8 Semanas»**. *Sigue Contigo* ya lo resolvió
-bien llamando al suyo **«Diario del Oleaje»**. Los otros dos necesitan también nombre
-propio, o quien compre dos packs tendrá cuatro archivos casi homónimos.
+| Pack | Diario | Plan |
+|---|---|---|
+| Hogar en Calma | **Diario de la Calma** | Plan de 8 Semanas |
+| Edad Dorada | **Diario de los Días Buenos** | Plan de 8 Semanas |
+| Sigue Contigo | Diario del Oleaje | Plan Práctico de 8 Semanas |
 
----
+Las **25 menciones** que los dos libros principales hacían a «Diario de Bienestar» y
+«Diario de Bienestar Senior» están actualizadas a los nombres nuevos.
+
+> **Sobre la pieza «Frecuencia»:** antes de crearla conviene hablarlo. Hay una rama
+> (`claude/qr-432hz-frequency-qah9fw`) que la plantea como una frecuencia de 432 Hz, y
+> eso no tiene respaldo científico. En una marca cuyo valor entero es «desde la
+> neurociencia y los estudios científicos», es la única pieza del catálogo que puede
+> costarte la credibilidad que construye todo lo demás. Se puede vender lo mismo
+> —enriquecimiento auditivo, sonido ambiente que amortigua ruidos— de forma
+> defendible, pero hay que escribirlo con cuidado.
 
 ## Cómo regenerar
 
 ```
-# Hogar en Calma, Edad Dorada y las dos muestras
-python3 fuentes/muestra.py     # regenera el HTML de las muestras desde el completo
-python3 fuentes/build.py       # genera los cuatro PDF
+# Hogar en Calma, Edad Dorada, muestras y complementos
+python3 fuentes/complementos.py  # regenera los cuatro diarios y planes
+python3 fuentes/muestra.py       # regenera las muestras desde los libros completos
+python3 fuentes/build.py         # genera los ocho PDF
 
 # Sigue Contigo
 cd sigue-contigo && CHROME=/opt/pw-browsers/chromium ./build.sh

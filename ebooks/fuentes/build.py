@@ -44,6 +44,10 @@ if __name__ == "__main__":
         ("edad", "Edad-Dorada-Tremdora.pdf"),
         ("muestra-hogar", "Hogar-en-Calma-MUESTRA-GRATIS.pdf"),
         ("muestra-edad", "Edad-Dorada-MUESTRA-GRATIS.pdf"),
+        ("c2-diario-calma", "Hogar-en-Calma-2-Diario-de-la-Calma.pdf"),
+        ("c3-plan-calma", "Hogar-en-Calma-3-Plan-8-Semanas.pdf"),
+        ("c2-diario-dias", "Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf"),
+        ("c3-plan-dorada", "Edad-Dorada-3-Plan-8-Semanas.pdf"),
     ]
     if len(sys.argv) > 1:
         jobs = [j for j in jobs if j[0] in sys.argv[1:]]
