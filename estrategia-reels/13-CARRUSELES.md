@@ -23,6 +23,41 @@
 **La única excepción es una serie**: ahí el primer carrusel sí puede quedarse en el diagnóstico, porque la solución llega en los siguientes — y por eso vuelven.
 
 ---
+
+## Los bloques, igual que en los guiones de reel
+
+Cada diapositiva de los quince carruseles lleva **su bloque escrito en la tabla**, en la
+columna de al lado del número. Es la misma lógica que la columna *Bloque* de los guiones
+de reel (documentos 04, 10 y 11) — solo que aquí la unidad no es el segundo, es la
+diapositiva.
+
+| Bloque | Qué hace | Dónde va |
+|---|---|---|
+| **HOOK** | La portada. Una frase de dos o tres palabras que funcione pequeña en la cuadrícula | Siempre la 1 |
+| **PROBLEMA** | «Esto te pasa.» El reconocimiento, con sus palabras y no con las tuyas | La 2, a veces también la 3 |
+| **EL GIRO** | «Pero no es lo que crees.» Es la diapositiva que justifica todo el carrusel | Normalmente la 3 |
+| **SEÑALES** | La lista de diagnóstico: qué mirar en casa | Después del giro |
+| **SOLUCIÓN** | Qué hacer, y **una solución por cada problema que hayas abierto** | De la 4 en adelante |
+| **⚠️ AVISO** | Lo que evita que alguien se confíe o haga daño sin querer | Pegado a la solución que corrige |
+| **SIN CULPA** | La frase que le quita el peso de encima. **Es la que se guarda y se comparte** | Siempre la penúltima |
+| **CTA** | Primero «guárdalo», y **solo después** el producto | Siempre la última |
+
+**Dos reglas que salen de esta tabla y que conviene no saltarse:**
+
+**1 · Cada PROBLEMA que abras tiene que tener su SOLUCIÓN.** Si en una diapositiva
+planteas tres cosas (el pis, el sofá y el mordisco), no vale una sola diapositiva de
+soluciones al final: cada una lleva la suya al lado. Si no, el lector se queda con tres
+problemas y una respuesta genérica.
+
+**2 · SIN CULPA y CTA nunca van juntos.** Son dos bloques y dos diapositivas. Una frase
+que emociona pierde la mitad de su fuerza si lleva un producto al lado.
+
+**Y para pasar un carrusel a reel** —que es lo que vas a hacer con casi todos— los bloques
+se traducen solos: HOOK son los 3 primeros segundos, PROBLEMA y EL GIRO son el desarrollo,
+SOLUCIÓN es el cuerpo, y SIN CULPA + CTA son el cierre. Por eso llevan el mismo nombre en
+los dos sitios.
+
+---
 ---
 
 # EDAD DORADA
@@ -30,18 +65,18 @@
 ## CARRUSEL 1 — «No está viejo. Le duele.»
 **10 diapositivas · Las señales que confundimos con la edad, y qué hacer con ellas**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **NO ESTÁ VIEJO.**<br>**LE DUELE.**<br><sub>6 señales, y qué hacer esta semana</sub> | Perro mayor mirando hacia el sofá |
-| **2** | Un día deja de subir al sofá.<br>Y pensamos: «bueno, ya tiene sus años». | Sofá vacío, él en el suelo al lado |
-| **3** | Pero **no dejan de hacer lo que les gusta porque cumplan años.**<br>Dejan de hacerlo porque les cuesta. | Primer plano de su cara |
-| **4** | Las seis señales:<br>· No sube al sofá ni a la cama<br>· Baja las escaleras despacio o de lado<br>· Tarda en levantarse<br>· Duerme en otra postura<br>· Juega menos<br>· Se queda atrás en el paseo | Escalera, en picado |
-| **5** | Si reconoces **dos o más**, eso no es su carácter.<br>Y tampoco es la edad.<br>**Es dolor.** | Sus patas |
-| **6** | **Esto puedes empezarlo esta semana, sin esperar a nadie:**<br><br>**1 · El peso.** Si no le palpas las costillas con la mano plana, le sobra. Y cada kilo de más es carga sobre articulaciones que ya duelen. | Báscula |
-| **7** | **2 ·** Alfombras **antideslizantes** en sus rutas: cama, comedero, puerta.<br>**3 ·** Que deje de saltar: rampa o escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
-| **8** | **En la consulta, pide algo concreto:** que le **valoren el dolor**, con estos ejemplos.<br><br>⚠️ Y si el cambio ha sido **de golpe**, no esperes a la semana que viene: eso se mira ya. | Ella hablando con el veterinario |
-| **9** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
-| **10** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack, pequeña |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **NO ESTÁ VIEJO.**<br>**LE DUELE.**<br><sub>6 señales, y qué hacer esta semana</sub> | Perro mayor mirando hacia el sofá |
+| **2** | **PROBLEMA** | Un día deja de subir al sofá.<br>Y pensamos: «bueno, ya tiene sus años». | Sofá vacío, él en el suelo al lado |
+| **3** | **EL GIRO** | Pero **no dejan de hacer lo que les gusta porque cumplan años.**<br>Dejan de hacerlo porque les cuesta. | Primer plano de su cara |
+| **4** | **SEÑALES** | Las seis señales:<br>· No sube al sofá ni a la cama<br>· Baja las escaleras despacio o de lado<br>· Tarda en levantarse<br>· Duerme en otra postura<br>· Juega menos<br>· Se queda atrás en el paseo | Escalera, en picado |
+| **5** | **SEÑALES** | Si reconoces **dos o más**, eso no es su carácter.<br>Y tampoco es la edad.<br>**Es dolor.** | Sus patas |
+| **6** | **SOLUCIÓN** | **Esto puedes empezarlo esta semana, sin esperar a nadie:**<br><br>**1 · El peso.** Si no le palpas las costillas con la mano plana, le sobra. Y cada kilo de más es carga sobre articulaciones que ya duelen. | Báscula |
+| **7** | **SOLUCIÓN** | **2 ·** Alfombras **antideslizantes** en sus rutas: cama, comedero, puerta.<br>**3 ·** Que deje de saltar: rampa o escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
+| **8** | **SOLUCIÓN · ⚠️** | **En la consulta, pide algo concreto:** que le **valoren el dolor**, con estos ejemplos.<br><br>⚠️ Y si el cambio ha sido **de golpe**, no esperes a la semana que viene: eso se mira ya. | Ella hablando con el veterinario |
+| **9** | **SIN CULPA** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
+| **10** | **CTA** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack, pequeña |
 
 **Pie de foto:** «Ya no sube al sofá porque está viejo.» No: es que le duele saltar. Y hay cuatro cosas que puedes empezar esta misma semana, antes incluso de la consulta 🤍
 
@@ -50,17 +85,17 @@
 ## CARRUSEL 2 — «No te está ignorando»
 **9 diapositivas · La sordera**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **NO TE ESTÁ**<br>**IGNORANDO.**<br><sub>Ya no te oye.</sub> | Él de espaldas, mirando a otro lado |
-| **2** | Le llamas y no viene.<br>Le llamas otra vez, más alto.<br>Y piensas que se ha vuelto cabezota con los años. | Ella llamándole desde lejos |
-| **3** | La audición se va **poco a poco**.<br>Tan despacio que no lo notas como pérdida: lo notas como desobediencia. | Su oreja, en macro |
-| **4** | La prueba, en casa: haz sonar unas llaves **a su espalda**, con él despierto y tranquilo.<br>*(Nada de palmadas: el aire que mueven lo nota y te da un falso negativo.)* | Llaves sonando detrás |
-| **5** | Si no reacciona, **al veterinario** — y no lo des por perdido:<br>a veces es **cera o una infección de oído**, y eso se trata. | Revisión del oído |
-| **6** | ⚠️ **Y lo primero de todo, por seguridad:**<br>un perro sordo **no oye un coche**.<br>A partir de ahora, correa en la calle y suelto solo en sitios cerrados. | Correa puesta, calle |
-| **7** | **Enséñale señales con las manos ahora**, mientras todavía oye algo. Después cuesta mucho más.<br>Y nunca le despiertes tocándole de golpe: acércate por donde te vea, o pisa fuerte — la vibración sí la nota. | Una señal de mano clara |
-| **8** | Un perro sordo vive estupendamente.<br>**Solo necesita que cambies el idioma.**<br>Y eso lo puedes hacer tú. | Los dos mirándose |
-| **9** | **Guárdalo** y empieza hoy por una sola señal de mano.<br><br>🤍 En **Edad dorada** están las que de verdad va a necesitar. | Portada del pack |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **NO TE ESTÁ**<br>**IGNORANDO.**<br><sub>Ya no te oye.</sub> | Él de espaldas, mirando a otro lado |
+| **2** | **PROBLEMA** | Le llamas y no viene.<br>Le llamas otra vez, más alto.<br>Y piensas que se ha vuelto cabezota con los años. | Ella llamándole desde lejos |
+| **3** | **EL GIRO** | La audición se va **poco a poco**.<br>Tan despacio que no lo notas como pérdida: lo notas como desobediencia. | Su oreja, en macro |
+| **4** | **SOLUCIÓN** | La prueba, en casa: haz sonar unas llaves **a su espalda**, con él despierto y tranquilo.<br>*(Nada de palmadas: el aire que mueven lo nota y te da un falso negativo.)* | Llaves sonando detrás |
+| **5** | **SOLUCIÓN** | Si no reacciona, **al veterinario** — y no lo des por perdido:<br>a veces es **cera o una infección de oído**, y eso se trata. | Revisión del oído |
+| **6** | **⚠️ AVISO** | ⚠️ **Y lo primero de todo, por seguridad:**<br>un perro sordo **no oye un coche**.<br>A partir de ahora, correa en la calle y suelto solo en sitios cerrados. | Correa puesta, calle |
+| **7** | **SOLUCIÓN** | **Enséñale señales con las manos ahora**, mientras todavía oye algo. Después cuesta mucho más.<br>Y nunca le despiertes tocándole de golpe: acércate por donde te vea, o pisa fuerte — la vibración sí la nota. | Una señal de mano clara |
+| **8** | **SIN CULPA** | Un perro sordo vive estupendamente.<br>**Solo necesita que cambies el idioma.**<br>Y eso lo puedes hacer tú. | Los dos mirándose |
+| **9** | **CTA** | **Guárdalo** y empieza hoy por una sola señal de mano.<br><br>🤍 En **Edad dorada** están las que de verdad va a necesitar. | Portada del pack |
 
 **Pie de foto:** Durante meses pensamos que se ha vuelto cabezota. No nos oye. Y ojo: un perro sordo no oye un coche — correa en la calle desde el primer día 🤍
 
@@ -69,18 +104,18 @@
 ## CARRUSEL 3 — «Tu casa se le ha hecho difícil»
 **10 diapositivas · Adaptar el hogar**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **TU CASA SE LE HA**<br>**HECHO DIFÍCIL.**<br><sub>Y se arregla en una tarde.</sub> | Pasillo de suelo liso, vacío |
-| **2** | Cada vez sale menos de su cama.<br>Y lo leemos como que duerme más con la edad.<br>A veces es otra cosa. | Él en su cama, mirando |
-| **3** | Si el suelo resbala, **cada paso es un susto.**<br>Y cuando moverse da miedo, se mueven menos. | Sus patas sobre suelo brillante |
-| **4** | El problema es que moverse menos **le quita músculo**.<br>Y menos músculo es más dolor.<br>Es una rueda — y se puede parar. | Él andando despacio |
-| **5** | **Lo más barato, primero:** alfombras **antideslizantes** en sus rutas — cama, comedero, puerta.<br>Y comprueba que **la alfombra tampoco patine**. | Alfombra puesta en el pasillo |
-| **6** | **Y esto se olvida siempre:**<br>uñas cortas y **el pelo de entre las almohadillas recortado.**<br>Con las uñas largas y el pelo apoya mal, y resbala mucho más. | Almohadillas, en macro |
-| **7** | Tres cosas más:<br>· Rampa o escalón para sofá y coche<br>· Cama **gruesa y firme** — si se hunde, le cuesta levantarse<br>· Agua en varios puntos | Rampa, cama, bebedero |
-| **8** | Y en gatos: **arenero de entrada baja.**<br>Muchos dejan de usarlo **solo porque les duele entrar**, y llevamos años llamándolo «manía». | Gato junto al arenero |
-| **9** | No es que se haya hecho viejo de golpe.<br>**Es que la casa dejó de estar pensada para él.**<br>Y eso sí lo puedes arreglar. | Él tumbado tranquilo |
-| **10** | **Guárdalo** y esta noche fíjate por dónde pasa él. Empieza por ahí.<br><br>🤍 La casa entera, riesgo por riesgo, en **Edad dorada**. | Portada del pack |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **TU CASA SE LE HA**<br>**HECHO DIFÍCIL.**<br><sub>Y se arregla en una tarde.</sub> | Pasillo de suelo liso, vacío |
+| **2** | **PROBLEMA** | Cada vez sale menos de su cama.<br>Y lo leemos como que duerme más con la edad.<br>A veces es otra cosa. | Él en su cama, mirando |
+| **3** | **EL GIRO** | Si el suelo resbala, **cada paso es un susto.**<br>Y cuando moverse da miedo, se mueven menos. | Sus patas sobre suelo brillante |
+| **4** | **PROBLEMA** | El problema es que moverse menos **le quita músculo**.<br>Y menos músculo es más dolor.<br>Es una rueda — y se puede parar. | Él andando despacio |
+| **5** | **SOLUCIÓN** | **Lo más barato, primero:** alfombras **antideslizantes** en sus rutas — cama, comedero, puerta.<br>Y comprueba que **la alfombra tampoco patine**. | Alfombra puesta en el pasillo |
+| **6** | **SOLUCIÓN** | **Y esto se olvida siempre:**<br>uñas cortas y **el pelo de entre las almohadillas recortado.**<br>Con las uñas largas y el pelo apoya mal, y resbala mucho más. | Almohadillas, en macro |
+| **7** | **SOLUCIÓN** | Tres cosas más:<br>· Rampa o escalón para sofá y coche<br>· Cama **gruesa y firme** — si se hunde, le cuesta levantarse<br>· Agua en varios puntos | Rampa, cama, bebedero |
+| **8** | **SOLUCIÓN** | Y en gatos: **arenero de entrada baja.**<br>Muchos dejan de usarlo **solo porque les duele entrar**, y llevamos años llamándolo «manía». | Gato junto al arenero |
+| **9** | **SIN CULPA** | No es que se haya hecho viejo de golpe.<br>**Es que la casa dejó de estar pensada para él.**<br>Y eso sí lo puedes arreglar. | Él tumbado tranquilo |
+| **10** | **CTA** | **Guárdalo** y esta noche fíjate por dónde pasa él. Empieza por ahí.<br><br>🤍 La casa entera, riesgo por riesgo, en **Edad dorada**. | Portada del pack |
 
 **Pie de foto:** No se ha hecho viejo de golpe: la casa dejó de estar pensada para él. Empieza por las alfombras y por las uñas — las dos cosas cuestan casi nada 🤍
 
@@ -92,18 +127,18 @@
 ## CARRUSEL 4 — «Los primeros 30 minutos»
 **10 diapositivas · Ansiedad por separación**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **LOS PRIMEROS**<br>**30 MINUTOS.**<br><sub>Ahí pasa casi todo.</sub> | Puerta cerrada, desde dentro |
-| **2** | Sales de casa y no sabes qué ocurre después.<br>Vuelves, y a veces hay algo roto. | Marco de puerta con marcas |
-| **3** | Casi todo lo que le pasa **no está repartido por el día**: ocurre en la primera media hora.<br>Por eso **lo que haces justo antes de salir importa más que las ocho horas siguientes.** | Reloj y llaves |
-| **4** | El diagnóstico más barato que existe:<br>**deja el móvil grabando media hora** y míralo luego.<br>*(Si no lo tienes claro, graba más rato: no todos tienen el pico al principio.)* | Móvil apoyado, grabando |
-| **5** | Si se tumba y se duerme → **no hay problema de separación**, aunque después rompa algo. Eso es otra cosa.<br>Si llora, jadea o araña la puerta → sí lo hay. | Él dormido |
-| **6** | Y eso **no es un capricho ni una venganza.**<br>Es angustia. Y se trabaja. | Él mirando la puerta |
-| **7** | **Lo que puedes hacer hoy, gratis:**<br>ni despedida larga ni fiesta al volver.<br>Que irte y volver sea **lo más aburrido del día.** | Ella saliendo sin mirar atrás |
-| **8** | ⚠️ **Y lo que ya no es cosa de internet:**<br>si se autolesiona, se rompe las uñas contra la puerta o hay pánico de verdad, **eso necesita un profesional.** Pedir ayuda no es fracasar. | Puerta arañada |
-| **9** | **No se porta mal cuando te vas.**<br>**Lo pasa mal cuando te vas.**<br>No es lo mismo, y cambia todo lo que harás a partir de ahora. | Tu mano y su cabeza |
-| **10** | Graba esa media hora mañana y **guárdate esto** para saber qué estás mirando.<br><br>🤍 El método completo está en **Hogar en calma**. | Portada del ebook |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **LOS PRIMEROS**<br>**30 MINUTOS.**<br><sub>Ahí pasa casi todo.</sub> | Puerta cerrada, desde dentro |
+| **2** | **PROBLEMA** | Sales de casa y no sabes qué ocurre después.<br>Vuelves, y a veces hay algo roto. | Marco de puerta con marcas |
+| **3** | **PROBLEMA** | Casi todo lo que le pasa **no está repartido por el día**: ocurre en la primera media hora.<br>Por eso **lo que haces justo antes de salir importa más que las ocho horas siguientes.** | Reloj y llaves |
+| **4** | **SOLUCIÓN** | El diagnóstico más barato que existe:<br>**deja el móvil grabando media hora** y míralo luego.<br>*(Si no lo tienes claro, graba más rato: no todos tienen el pico al principio.)* | Móvil apoyado, grabando |
+| **5** | **SEÑALES** | Si se tumba y se duerme → **no hay problema de separación**, aunque después rompa algo. Eso es otra cosa.<br>Si llora, jadea o araña la puerta → sí lo hay. | Él dormido |
+| **6** | **EL GIRO** | Y eso **no es un capricho ni una venganza.**<br>Es angustia. Y se trabaja. | Él mirando la puerta |
+| **7** | **SOLUCIÓN** | **Lo que puedes hacer hoy, gratis:**<br>ni despedida larga ni fiesta al volver.<br>Que irte y volver sea **lo más aburrido del día.** | Ella saliendo sin mirar atrás |
+| **8** | **⚠️ AVISO** | ⚠️ **Y lo que ya no es cosa de internet:**<br>si se autolesiona, se rompe las uñas contra la puerta o hay pánico de verdad, **eso necesita un profesional.** Pedir ayuda no es fracasar. | Puerta arañada |
+| **9** | **SIN CULPA** | **No se porta mal cuando te vas.**<br>**Lo pasa mal cuando te vas.**<br>No es lo mismo, y cambia todo lo que harás a partir de ahora. | Tu mano y su cabeza |
+| **10** | **CTA** | Graba esa media hora mañana y **guárdate esto** para saber qué estás mirando.<br><br>🤍 El método completo está en **Hogar en calma**. | Portada del ebook |
 
 **Pie de foto:** No se porta mal cuando te vas. Lo pasa mal cuando te vas. Graba media hora mañana y mira qué hace de verdad en los primeros minutos 🤍
 
@@ -112,17 +147,17 @@
 ## CARRUSEL 5 — «Para el miedo a los ruidos, diciembre es tarde»
 **9 diapositivas · Fobia a los ruidos**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **PARA EL MIEDO A LOS RUIDOS,**<br>**DICIEMBRE ES TARDE.**<br><sub>Se empieza meses antes.</sub> | Ventana de noche |
-| **2** | Llega la primera traca y se mete debajo de la cama temblando.<br>Y te sientes inútil, porque no hay nada que puedas decirle. | Perro bajo la cama |
-| **3** | La noche del ruido **solo se puede gestionar.**<br>Lo que de verdad lo cambia se hace antes. | Calendario |
-| **4** | **Esa misma noche:** habitación interior, persianas bajadas, un ruido de fondo constante.<br>Déjale elegir dónde esconderse — **y no le saques de ahí para consolarle.** | Rincón con su cama y una manta |
-| **5** | Acompáñale con calma, sin dramatizar: tu tensión también la lee.<br>Y **no le saques a pasear** en horas de petardos. | Ella sentada en el suelo, cerca |
-| **6** | **Lo que sí lo cambia**, desde meses antes:<br>grabaciones de esos ruidos a volumen **muy bajo**, mientras pasa algo bueno, subiendo poco a poco durante semanas. | Altavoz y premio |
-| **7** | ⚠️ **Pero con freno:** si en algún momento **reacciona**, has subido demasiado. Baja el volumen.<br>Hecho deprisa, esto **empeora** el miedo en vez de quitarlo. | Mando del volumen |
-| **8** | **No le estás fallando.**<br>Esa noche no hay nada que puedas decirle — pero hay muchísimo que puedes preparar antes. | Los dos en el sofá |
-| **9** | **Guárdalo y ponte el recordatorio para septiembre.** Microchip y datos al día: son las noches con más animales perdidos del año.<br>Si lo pasa muy mal, pide cita **con margen**.<br><br>🤍 El plan completo, en **Hogar en calma**. | Portada del ebook |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **PARA EL MIEDO A LOS RUIDOS,**<br>**DICIEMBRE ES TARDE.**<br><sub>Se empieza meses antes.</sub> | Ventana de noche |
+| **2** | **PROBLEMA** | Llega la primera traca y se mete debajo de la cama temblando.<br>Y te sientes inútil, porque no hay nada que puedas decirle. | Perro bajo la cama |
+| **3** | **EL GIRO** | La noche del ruido **solo se puede gestionar.**<br>Lo que de verdad lo cambia se hace antes. | Calendario |
+| **4** | **SOLUCIÓN** | **Esa misma noche:** habitación interior, persianas bajadas, un ruido de fondo constante.<br>Déjale elegir dónde esconderse — **y no le saques de ahí para consolarle.** | Rincón con su cama y una manta |
+| **5** | **SOLUCIÓN** | Acompáñale con calma, sin dramatizar: tu tensión también la lee.<br>Y **no le saques a pasear** en horas de petardos. | Ella sentada en el suelo, cerca |
+| **6** | **SOLUCIÓN** | **Lo que sí lo cambia**, desde meses antes:<br>grabaciones de esos ruidos a volumen **muy bajo**, mientras pasa algo bueno, subiendo poco a poco durante semanas. | Altavoz y premio |
+| **7** | **⚠️ AVISO** | ⚠️ **Pero con freno:** si en algún momento **reacciona**, has subido demasiado. Baja el volumen.<br>Hecho deprisa, esto **empeora** el miedo en vez de quitarlo. | Mando del volumen |
+| **8** | **SIN CULPA** | **No le estás fallando.**<br>Esa noche no hay nada que puedas decirle — pero hay muchísimo que puedes preparar antes. | Los dos en el sofá |
+| **9** | **CTA** | **Guárdalo y ponte el recordatorio para septiembre.** Microchip y datos al día: son las noches con más animales perdidos del año.<br>Si lo pasa muy mal, pide cita **con margen**.<br><br>🤍 El plan completo, en **Hogar en calma**. | Portada del ebook |
 
 **Pie de foto:** No hay nada que puedas decirle esa noche. Pero hay muchísimo que puedes hacer tres meses antes — y si lo haces deprisa, empeora. Ponte el recordatorio 🤍
 
@@ -137,18 +172,18 @@
 ## CARRUSEL 6 — «Tu gato no es raro»
 **10 diapositivas · Ansiedad felina**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **TU GATO NO ES RARO.**<br><sub>Está asustado.</sub> | Gato escondido, solo los ojos |
-| **2** | Con los perros se nota: lloran, rompen, arañan la puerta.<br>Los gatos no hacen nada de eso.<br>Por eso se nos pasa. | Gato quieto en un rincón |
-| **3** | Un gato ansioso **no monta ruido. Se apaga.** | Gato mirando a la pared |
-| **4** | Las cuatro señales:<br>· Se lame hasta hacerse calvas, sobre todo en barriga y patas<br>· Se esconde mucho más de lo normal<br>· Hace sus necesidades fuera del arenero<br>· Deja de comer, o come a destiempo | Zona sin pelo en la barriga |
-| **5** | ⚠️ El estrés en gatos se asocia a **problemas urinarios**.<br>Si hace esfuerzos para orinar o ves sangre, **es urgencia veterinaria** — sobre todo en machos. | Solo texto, fondo plano |
-| **6** | **Lo primero: pregúntate qué cambió en casa este mes.**<br>Una mudanza, un mueble nuevo, obras, alguien que llegó o se fue, un horario distinto.<br>Para él no son detalles: son su mapa. | Caja de mudanza |
-| **7** | **Y lo segundo, los recursos.** Un gato necesita poder comer, beber, esconderse y subir **sin cruzarse con nadie**:<br>· Comida y agua **separadas**<br>· Sitios altos donde mirar desde arriba<br>· Escondites a ras de suelo | Gato en alto, mirando |
-| **8** | **El arenero, aparte:** uno por gato **más uno**, abiertos, en sitio tranquilo y lejos de la comida.<br>Es lo que más rápido cambia las cosas. | Arenero en rincón tranquilo |
-| **9** | Nada de esto es una manía.<br>**Es un gato pidiendo ayuda de la única forma que sabe:**<br>dejando de hacer cosas. | Gato tranquilo, mirándote |
-| **10** | **Guárdalo.** Y empieza hoy por lo más fácil: el arenero y los sitios altos.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **TU GATO NO ES RARO.**<br><sub>Está asustado.</sub> | Gato escondido, solo los ojos |
+| **2** | **PROBLEMA** | Con los perros se nota: lloran, rompen, arañan la puerta.<br>Los gatos no hacen nada de eso.<br>Por eso se nos pasa. | Gato quieto en un rincón |
+| **3** | **EL GIRO** | Un gato ansioso **no monta ruido. Se apaga.** | Gato mirando a la pared |
+| **4** | **SEÑALES** | Las cuatro señales:<br>· Se lame hasta hacerse calvas, sobre todo en barriga y patas<br>· Se esconde mucho más de lo normal<br>· Hace sus necesidades fuera del arenero<br>· Deja de comer, o come a destiempo | Zona sin pelo en la barriga |
+| **5** | **⚠️ AVISO** | ⚠️ El estrés en gatos se asocia a **problemas urinarios**.<br>Si hace esfuerzos para orinar o ves sangre, **es urgencia veterinaria** — sobre todo en machos. | Solo texto, fondo plano |
+| **6** | **SOLUCIÓN** | **Lo primero: pregúntate qué cambió en casa este mes.**<br>Una mudanza, un mueble nuevo, obras, alguien que llegó o se fue, un horario distinto.<br>Para él no son detalles: son su mapa. | Caja de mudanza |
+| **7** | **SOLUCIÓN** | **Y lo segundo, los recursos.** Un gato necesita poder comer, beber, esconderse y subir **sin cruzarse con nadie**:<br>· Comida y agua **separadas**<br>· Sitios altos donde mirar desde arriba<br>· Escondites a ras de suelo | Gato en alto, mirando |
+| **8** | **SOLUCIÓN** | **El arenero, aparte:** uno por gato **más uno**, abiertos, en sitio tranquilo y lejos de la comida.<br>Es lo que más rápido cambia las cosas. | Arenero en rincón tranquilo |
+| **9** | **SIN CULPA** | Nada de esto es una manía.<br>**Es un gato pidiendo ayuda de la única forma que sabe:**<br>dejando de hacer cosas. | Gato tranquilo, mirándote |
+| **10** | **CTA** | **Guárdalo.** Y empieza hoy por lo más fácil: el arenero y los sitios altos.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
 
 **Pie de foto:** Los gatos no piden ayuda haciendo ruido. La piden dejando de hacer cosas. Y casi siempre la respuesta está en algo que cambió en casa este mes 🤍
 
@@ -164,18 +199,18 @@
 ## CARRUSEL 7 — «No está más tranquilo»
 **10 diapositivas · Artrosis en el gato mayor**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **NO ESTÁ MÁS TRANQUILO.**<br>**LE CUESTA.**<br><sub>6 señales en un gato mayor</sub> | Gato mayor tumbado en el suelo |
-| **2** | Un día deja de subir a la ventana.<br>Duerme abajo, en sitios nuevos.<br>Y pensamos: «se ha vuelto más casero». | Alféizar vacío |
-| **3** | De **100 gatos de más de 12 años** radiografiados, **90 tenían artrosis.**<br>En la ficha de **solo 4** estaba apuntada. | Solo texto, fondo plano |
-| **4** | O sea: **la tienen casi todos y casi nunca se ve.**<br>Porque un gato con dolor no cojea.<br>Deja de hacer cosas. | Gato quieto, mirando arriba |
-| **5** | Las seis señales:<br>· Ya no salta donde saltaba, o calcula y se baja<br>· Duerme bajo, no en sus sitios altos<br>· **Pelo apelmazado** en la espalda y la grupa<br>· Hace sus cosas fuera del arenero<br>· Uñas largas, no las gasta<br>· No deja que le toques el lomo | Gato bajando de un mueble |
-| **6** | **Lo del pelo es la señal más clara y la que menos se mira.**<br>Un gato que no se acicala la espalda no es un gato dejado: es un gato al que **girarse le duele**. | Zona apelmazada, de cerca |
-| **7** | **Esta semana, sin esperar a nadie:**<br>· Un escalón o una caja firme hasta su sitio alto<br>· Arenero de **entrada baja** — o recorta un lado<br>· Comedero y bebedero a su altura<br>· Cama caliente, lejos de corrientes<br>· Córtale las uñas | Caja como escalón |
-| **8** | ⚠️ **Al veterinario, y nada de analgésicos de casa.**<br>El **paracetamol** y el ibuprofeno **matan a un gato**: no tiene cómo procesarlos. Una sola pastilla puede bastar. | Solo texto, fondo plano |
-| **9** | **No se ha vuelto arisco ni vago.**<br>Lleva tiempo con dolor y lo ha llevado solo — porque esconderlo es justo lo que les mantuvo vivos durante miles de años. | Gato mayor mirándote |
-| **10** | **Guárdalo** y mira esta noche dónde duerme.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **NO ESTÁ MÁS TRANQUILO.**<br>**LE CUESTA.**<br><sub>6 señales en un gato mayor</sub> | Gato mayor tumbado en el suelo |
+| **2** | **PROBLEMA** | Un día deja de subir a la ventana.<br>Duerme abajo, en sitios nuevos.<br>Y pensamos: «se ha vuelto más casero». | Alféizar vacío |
+| **3** | **EL GIRO** | De **100 gatos de más de 12 años** radiografiados, **90 tenían artrosis.**<br>En la ficha de **solo 4** estaba apuntada. | Solo texto, fondo plano |
+| **4** | **EL GIRO** | O sea: **la tienen casi todos y casi nunca se ve.**<br>Porque un gato con dolor no cojea.<br>Deja de hacer cosas. | Gato quieto, mirando arriba |
+| **5** | **SEÑALES** | Las seis señales:<br>· Ya no salta donde saltaba, o calcula y se baja<br>· Duerme bajo, no en sus sitios altos<br>· **Pelo apelmazado** en la espalda y la grupa<br>· Hace sus cosas fuera del arenero<br>· Uñas largas, no las gasta<br>· No deja que le toques el lomo | Gato bajando de un mueble |
+| **6** | **SEÑALES** | **Lo del pelo es la señal más clara y la que menos se mira.**<br>Un gato que no se acicala la espalda no es un gato dejado: es un gato al que **girarse le duele**. | Zona apelmazada, de cerca |
+| **7** | **SOLUCIÓN** | **Esta semana, sin esperar a nadie:**<br>· Un escalón o una caja firme hasta su sitio alto<br>· Arenero de **entrada baja** — o recorta un lado<br>· Comedero y bebedero a su altura<br>· Cama caliente, lejos de corrientes<br>· Córtale las uñas | Caja como escalón |
+| **8** | **⚠️ AVISO** | ⚠️ **Al veterinario, y nada de analgésicos de casa.**<br>El **paracetamol** y el ibuprofeno **matan a un gato**: no tiene cómo procesarlos. Una sola pastilla puede bastar. | Solo texto, fondo plano |
+| **9** | **SIN CULPA** | **No se ha vuelto arisco ni vago.**<br>Lleva tiempo con dolor y lo ha llevado solo — porque esconderlo es justo lo que les mantuvo vivos durante miles de años. | Gato mayor mirándote |
+| **10** | **CTA** | **Guárdalo** y mira esta noche dónde duerme.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack |
 
 **Pie de foto:** De cien gatos mayores de 12 años, noventa tenían artrosis — y solo cuatro la tenían apuntada en su ficha. Un gato con dolor no cojea: deja de saltar. Seis señales, y cinco cosas que puedes cambiar esta semana 🤍
 
@@ -184,17 +219,17 @@
 ## CARRUSEL 8 — «No te está castigando»
 **9 diapositivas · Pis fuera del arenero, el sofá y los mordiscos**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **NO TE ESTÁ CASTIGANDO.**<br><sub>No sabe hacer eso.</sub> | Gato sentado en la cama, de frente |
-| **2** | Te hace pis en la cama justo el día que llegas tarde.<br>Araña el sofá nuevo.<br>Te muerde cuando le estabas acariciando.<br>Parece personal. | Mancha en el edredón |
-| **3** | **No lo es.**<br>Un gato no planea una venganza: no tiene con qué sostener un rencor.<br>Lo que estás viendo es otra cosa. | Primer plano de su cara |
-| **4** | **El pis fuera del arenero** casi nunca es el gato: es **el arenero**. O es dolor.<br><br>⚠️ Si hace fuerza para orinar y no sale nada, **es urgencia veterinaria** — sobre todo si es macho. | Arenero |
-| **5** | **El sofá** no es rebeldía: necesita arañar y el rascador que le pusiste no le sirve.<br>Tiene que ser **alto, firme y estar donde él vive** — no donde no molesta. | Rascador alto junto al sofá |
-| **6** | **El mordisco al acariciarle es un aviso, no un ataque.**<br>Casi siempre llevaba rato pidiéndote que pararas: la cola, la piel del lomo, las orejas hacia atrás. | Cola de gato moviéndose |
-| **7** | **Lo que sí funciona:**<br>· Un arenero por gato **más uno**, destapados y lejos de la comida<br>· Rascador alto y firme, en su zona<br>· Caricias **cortas**, y parar antes de que te lo pida<br>· **Nunca castigo**: con un gato solo consigues que te tenga miedo a ti | Los tres areneros |
-| **8** | Si llevas tiempo pensando que te la tiene jurada, **no eres mala persona**: es exactamente lo que parece desde fuera.<br>Pero desde dentro de él no hay nada de eso. Solo algo que no está bien y no sabe contarte. | Ella y el gato, tranquilos |
-| **9** | **Guárdalo** y empieza por el arenero: es lo que más rápido cambia las cosas.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **NO TE ESTÁ CASTIGANDO.**<br><sub>No sabe hacer eso.</sub> | Gato sentado en la cama, de frente |
+| **2** | **PROBLEMA** | Te hace pis en la cama justo el día que llegas tarde.<br>Araña el sofá nuevo.<br>Te muerde cuando le estabas acariciando.<br>Parece personal. | Mancha en el edredón |
+| **3** | **EL GIRO** | **No lo es.**<br>Un gato no planea una venganza: no tiene con qué sostener un rencor.<br>Lo que estás viendo es otra cosa. | Primer plano de su cara |
+| **4** | **PROBLEMA<br>+ SOLUCIÓN · ⚠️** | **EL PIS.** Casi nunca es el gato: es **el arenero**.<br>→ Uno por gato **más uno**, destapados, lejos de la comida y en sitio tranquilo.<br><br>⚠️ Y si hace fuerza para orinar y no sale nada, **es urgencia veterinaria** — sobre todo si es macho. | Arenero destapado |
+| **5** | **PROBLEMA<br>+ SOLUCIÓN** | **EL SOFÁ.** No es rebeldía: necesita arañar y el rascador que le pusiste no le sirve.<br>→ **Alto, firme y donde él vive** — no donde no molesta. Y uno por cada sitio que esté arañando. | Rascador alto junto al sofá |
+| **6** | **PROBLEMA<br>+ SOLUCIÓN** | **EL MORDISCO.** Es un aviso, no un ataque. Llevaba rato pidiéndote que pararas: la cola, la piel del lomo, las orejas hacia atrás.<br>→ Caricias **cortas**, y para **antes** de que te lo pida. | Cola de gato moviéndose |
+| **7** | **SOLUCIÓN** | **Y en los tres, lo mismo: nunca castigo.**<br>Con un gato no consigues que entienda nada — solo que te tenga miedo a ti.<br>Y un gato que te teme **deja de avisarte antes de morder.** | Ella y el gato, a distancia tranquila |
+| **8** | **SIN CULPA** | Si llevas tiempo pensando que te la tiene jurada, **no eres mala persona**: es exactamente lo que parece desde fuera.<br>Pero desde dentro de él no hay nada de eso. Solo algo que no está bien y no sabe contarte. | Ella y el gato, tranquilos |
+| **9** | **CTA** | **Guárdalo** y empieza por el arenero: es lo que más rápido cambia las cosas.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
 
 **Pie de foto:** Te hace pis en la cama el día que llegas tarde y parece personal. No lo es: un gato no sabe planear una venganza. Lo que hay detrás del pis, del sofá y del mordisco — y qué sí funciona 🤍
 
@@ -203,36 +238,37 @@
 ## CARRUSEL 9 — «Tu casa es aburridísima para él»
 **10 diapositivas · Los cinco pilares**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **TU CASA ES ABURRIDÍSIMA**<br>**PARA ÉL.**<br><sub>Y tiene arreglo esta noche.</sub> | Gato mirando por la ventana |
-| **2** | Duerme dieciséis horas, mira por el cristal, y vuelta a dormir.<br>Y pensamos que los gatos son así. | Gato dormido en el sofá |
-| **3** | **No son así: están así.**<br>Un gato de piso tiene el mismo cerebro de cazador que uno que sale. Lo que no tiene es dónde usarlo. | Sus ojos, atentos |
-| **4** | Lo que necesita en casa **está escrito**: los veterinarios felinos lo publicaron en 2013 y se llaman **los cinco pilares**. | Solo texto, fondo plano |
-| **5** | **1 · Un sitio seguro.**<br>Donde esconderse y, mejor todavía, mirar desde arriba.<br>Si no puede ver venir el peligro, no descansa de verdad. | Gato en lo alto de un armario |
-| **6** | **2 · Los recursos, separados.**<br>Comer, beber, el arenero, el rascador y dormir, cada cosa en un sitio.<br>Y uno por gato **más uno**. También si solo tienes uno. | Bebedero lejos del comedero |
-| **7** | **3 · Cazar todos los días.**<br>Diez minutos de caña — y que la «presa» **se deje coger al final**.<br>Un juego que nunca termina en captura frustra más que relaja. | Caña con plumas |
-| **8** | **4 · Que el contacto lo empiece él.**<br>Ratos cortos y muchos, mejor que uno largo.<br><br>**5 · Respeta su olfato.** Nada de arena perfumada, ambientadores ni aceites esenciales cerca de sus cosas. | Gato acercándose a una mano quieta |
-| **9** | Si tu gato «no juega», casi nunca es que no quiera.<br>**Es que llevamos años ofreciéndole el juguete equivocado, y a la hora equivocada.** | Juguetes sin tocar en un rincón |
-| **10** | **Guárdalo** y prueba esta noche: diez minutos de caña **antes de la cena**.<br><br>🤍 Más, en **Hogar en calma**. | Portada del ebook |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **TU CASA ES ABURRIDÍSIMA**<br>**PARA ÉL.**<br><sub>Y tiene arreglo esta noche.</sub> | Gato mirando por la ventana |
+| **2** | **PROBLEMA** | Duerme dieciséis horas, mira por el cristal, y vuelta a dormir.<br>Y pensamos que los gatos son así. | Gato dormido en el sofá |
+| **3** | **EL GIRO** | **No son así: están así.**<br>Un gato de piso tiene el mismo cerebro de cazador que uno que sale. Lo que no tiene es dónde usarlo. | Sus ojos, atentos |
+| **4** | **EL GIRO** | Lo que necesita en casa **está escrito**: los veterinarios felinos lo publicaron en 2013 y se llaman **los cinco pilares**. | Solo texto, fondo plano |
+| **5** | **SOLUCIÓN** | **1 · Un sitio seguro.**<br>Donde esconderse y, mejor todavía, mirar desde arriba.<br>Si no puede ver venir el peligro, no descansa de verdad. | Gato en lo alto de un armario |
+| **6** | **SOLUCIÓN** | **2 · Los recursos, separados.**<br>Comer, beber, el arenero, el rascador y dormir, cada cosa en un sitio.<br>Y uno por gato **más uno**. También si solo tienes uno. | Bebedero lejos del comedero |
+| **7** | **SOLUCIÓN** | **3 · Cazar todos los días.**<br>Diez minutos de caña — y que la «presa» **se deje coger al final**.<br>Un juego que nunca termina en captura frustra más que relaja. | Caña con plumas |
+| **8** | **SOLUCIÓN** | **4 · Que el contacto lo empiece él.**<br>Ratos cortos y muchos, mejor que uno largo.<br><br>**5 · Respeta su olfato.** Nada de arena perfumada, ambientadores ni aceites esenciales cerca de sus cosas. | Gato acercándose a una mano quieta |
+| **9** | **SIN CULPA** | Si tu gato «no juega», casi nunca es que no quiera.<br>**Es que llevamos años ofreciéndole el juguete equivocado, y a la hora equivocada.** | Juguetes sin tocar en un rincón |
+| **10** | **CTA** | **Guárdalo** y prueba esta noche: diez minutos de caña **antes de la cena**.<br><br>🤍 Más, en **Hogar en calma**. | Portada del ebook |
 
 **Pie de foto:** Duerme dieciséis horas y mira por la ventana, y pensamos que los gatos son así. No son así: están así. Las cinco cosas que un gato necesita en casa — y la que puedes probar esta misma noche 🤍
 
 ---
 
 ## CARRUSEL 10 — «Mírale la cara»
-**8 diapositivas · Cómo saber si a tu gato le duele**
+**9 diapositivas · Cómo saber si a tu gato le duele**
 
-| # | Texto de la diapositiva | Imagen |
-|---|---|---|
-| **1** | **A UN GATO CON DOLOR**<br>**SE LE VE EN LA CARA.**<br><sub>Cinco cosas, y solo hay que mirar.</sub> | Cara de gato, de frente |
-| **2** | Un perro con dolor cojea, se queja, te lo cuenta.<br>Un gato no.<br>Por eso con ellos llegamos tarde casi siempre. | Gato quieto en un rincón |
-| **3** | Pero hay algo que **sí** se le nota, y está estudiado y validado: **la cara**.<br>Se llama la **escala de muecas felina**. | Solo texto, fondo plano |
-| **4** | **Las cinco:**<br>· **Orejas** — se aplanan y giran hacia fuera<br>· **Ojos** — se entrecierran<br>· **Hocico** — de redondo a ovalado y tenso<br>· **Bigotes** — se estiran hacia delante<br>· **Cabeza** — cae por debajo de los hombros | Las cinco zonas señaladas |
-| **5** | **Truco:** compárala con una foto suya de cuando estaba bien.<br>Es mucho más fácil ver **el cambio** que ver la señal. | Dos fotos del mismo gato |
-| **6** | ⚠️ Esto **no diagnostica nada**: te dice que vayas, no qué tiene.<br>Y nunca, nunca le des un analgésico de los tuyos: **el paracetamol mata a un gato**. | Solo texto, fondo plano |
-| **7** | Si llevas años pensando que tu gato es «muy suyo» cuando le tocas cierta zona:<br>**a lo mejor no es su carácter.**<br>A lo mejor lleva tiempo doliéndole y es la única forma que tiene de decirlo. | Mano cerca, sin tocar |
-| **8** | **Guárdalo** y mírale la cara esta noche, con calma.<br><br>🤍 En **Edad dorada**, qué duele y qué se puede hacer. | Portada del pack |
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **A UN GATO CON DOLOR**<br>**SE LE VE EN LA CARA.**<br><sub>Cinco cosas, y solo hay que mirar.</sub> | Cara de gato, de frente |
+| **2** | **PROBLEMA** | Un perro con dolor cojea, se queja, te lo cuenta.<br>Un gato no.<br>Por eso con ellos llegamos tarde casi siempre. | Gato quieto en un rincón |
+| **3** | **EL GIRO** | Pero hay algo que **sí** se le nota, y está estudiado y validado: **la cara**.<br>Se llama la **escala de muecas felina**. | Solo texto, fondo plano |
+| **4** | **SEÑALES** | **Las cinco:**<br>· **Orejas** — se aplanan y giran hacia fuera<br>· **Ojos** — se entrecierran<br>· **Hocico** — de redondo a ovalado y tenso<br>· **Bigotes** — se estiran hacia delante<br>· **Cabeza** — cae por debajo de los hombros | Las cinco zonas señaladas |
+| **5** | **SOLUCIÓN** | **Truco:** compárala con una foto suya de cuando estaba bien.<br>Es mucho más fácil ver **el cambio** que ver la señal. | Dos fotos del mismo gato |
+| **6** | **SOLUCIÓN** | **Y qué haces con eso:**<br>apunta el día y la hora, **hazle una foto de frente** con buena luz, y mira si mañana sigue igual.<br>Eso es lo que llevas a la consulta — **una foto vale mucho más que «está raro»**. | Ella haciéndole una foto |
+| **7** | **⚠️ AVISO** | ⚠️ Esto **no diagnostica nada**: te dice que vayas, no qué tiene.<br>Y nunca, nunca le des un analgésico de los tuyos: **el paracetamol mata a un gato**. | Solo texto, fondo plano |
+| **8** | **SIN CULPA** | Si llevas años pensando que tu gato es «muy suyo» cuando le tocas cierta zona:<br>**a lo mejor no es su carácter.**<br>A lo mejor lleva tiempo doliéndole y es la única forma que tiene de decirlo. | Mano cerca, sin tocar |
+| **9** | **CTA** | **Guárdalo** y mírale la cara esta noche, con calma.<br><br>🤍 En **Edad dorada**, qué duele y qué se puede hacer. | Portada del pack |
 
 **Pie de foto:** Un gato con dolor no cojea ni se queja: lo esconde. Pero hay cinco cosas que sí se le ven en la cara, y están validadas. Mírale esta noche 🤍
 
@@ -324,16 +360,16 @@ esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 ## 1 DE 5 — «¿Es ansiedad o es aburrimiento?»
 **8 diapositivas**
 
-| # | Texto |
-|---|---|
-| **1** | **¿ES ANSIEDAD<br>O ES ABURRIMIENTO?**<br><sub>Hogar en calma · 1 de 5</sub> |
-| **2** | Vuelves a casa y hay algo roto.<br>Y no sabes si está enfadado, aburrido, o lo está pasando mal de verdad. |
-| **3** | La respuesta está en **dónde** lo rompe. |
-| **4** | **Aburrimiento:**<br>destrozos repartidos por la casa, cosas de morder, y te recibe como siempre. |
-| **5** | **Ansiedad:**<br>concentrado **en las salidas** — puerta, marco, ventana, persiana.<br>Y suele venir con llanto continuo, babeo, o necesidades dentro habiendo salido antes. |
-| **6** | No son el mismo problema **y no se arreglan igual.**<br>Uno pide estimulación.<br>El otro pide trabajo de separación. |
-| **7** | Y si son las dos cosas a la vez, **también es normal.**<br>Saber cuál es cuál ya es la mitad del camino. |
-| **8** | **Guárdalo** y esta noche mira dónde están las marcas.<br><br>Mañana: **lo que de verdad pasa en los primeros 30 minutos.** · 2 de 5 |
+| # | Bloque | Texto |
+|---|---|---|
+| **1** | **HOOK** | **¿ES ANSIEDAD<br>O ES ABURRIMIENTO?**<br><sub>Hogar en calma · 1 de 5</sub> |
+| **2** | **PROBLEMA** | Vuelves a casa y hay algo roto.<br>Y no sabes si está enfadado, aburrido, o lo está pasando mal de verdad. |
+| **3** | **EL GIRO** | La respuesta está en **dónde** lo rompe. |
+| **4** | **SEÑALES** | **Aburrimiento:**<br>destrozos repartidos por la casa, cosas de morder, y te recibe como siempre. |
+| **5** | **SEÑALES** | **Ansiedad:**<br>concentrado **en las salidas** — puerta, marco, ventana, persiana.<br>Y suele venir con llanto continuo, babeo, o necesidades dentro habiendo salido antes. |
+| **6** | **SOLUCIÓN** | No son el mismo problema **y no se arreglan igual.**<br>Uno pide estimulación.<br>El otro pide trabajo de separación. |
+| **7** | **SIN CULPA** | Y si son las dos cosas a la vez, **también es normal.**<br>Saber cuál es cuál ya es la mitad del camino. |
+| **8** | **CTA + GANCHO** | **Guárdalo** y esta noche mira dónde están las marcas.<br><br>Mañana: **lo que de verdad pasa en los primeros 30 minutos.** · 2 de 5 |
 
 **Pie de foto:** Antes de buscar soluciones, mira dónde rompe. Si es en la puerta y el marco, no es aburrimiento. Esta noche fíjate y mañana seguimos 🤍
 
@@ -342,16 +378,16 @@ esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 ## 2 DE 5 — «Los primeros 30 minutos»
 **8 diapositivas**
 
-| # | Texto |
-|---|---|
-| **1** | **LOS PRIMEROS<br>30 MINUTOS.**<br><sub>Hogar en calma · 2 de 5</sub> |
-| **2** | Sales de casa y no sabes qué pasa después.<br>Y vives todo el día con esa duda. |
-| **3** | Casi todo lo que le ocurre **no está repartido por el día.**<br>Pasa en la primera media hora. |
-| **4** | El diagnóstico más barato que existe:<br>**deja el móvil grabando media hora.**<br>Luego lo miras. |
-| **5** | Si se tumba y se duerme → **no hay problema de separación**, aunque después rompa algo.<br>Si llora, jadea o araña la puerta → sí lo hay. |
-| **6** | Y aquí está lo importante:<br>**no es venganza. No es un capricho. No es que te castigue.**<br>Es angustia. |
-| **7** | **No se porta mal cuando te vas.**<br>**Lo pasa mal cuando te vas.**<br>No es lo mismo — y cambia todo lo que vas a hacer a partir de ahora. |
-| **8** | Graba esa media hora mañana.<br><br>Y mañana aquí: **por qué se pone nervioso antes de que te vayas.** · 3 de 5 |
+| # | Bloque | Texto |
+|---|---|---|
+| **1** | **HOOK** | **LOS PRIMEROS<br>30 MINUTOS.**<br><sub>Hogar en calma · 2 de 5</sub> |
+| **2** | **PROBLEMA** | Sales de casa y no sabes qué pasa después.<br>Y vives todo el día con esa duda. |
+| **3** | **EL GIRO** | Casi todo lo que le ocurre **no está repartido por el día.**<br>Pasa en la primera media hora. |
+| **4** | **SOLUCIÓN** | El diagnóstico más barato que existe:<br>**deja el móvil grabando media hora.**<br>Luego lo miras. |
+| **5** | **SEÑALES** | Si se tumba y se duerme → **no hay problema de separación**, aunque después rompa algo.<br>Si llora, jadea o araña la puerta → sí lo hay. |
+| **6** | **EL GIRO** | Y aquí está lo importante:<br>**no es venganza. No es un capricho. No es que te castigue.**<br>Es angustia. |
+| **7** | **SIN CULPA** | **No se porta mal cuando te vas.**<br>**Lo pasa mal cuando te vas.**<br>No es lo mismo — y cambia todo lo que vas a hacer a partir de ahora. |
+| **8** | **CTA + GANCHO** | Graba esa media hora mañana.<br><br>Y mañana aquí: **por qué se pone nervioso antes de que te vayas.** · 3 de 5 |
 
 **Pie de foto:** No se porta mal cuando te vas. Lo pasa mal cuando te vas. Graba media hora y míralo: es el diagnóstico más barato que hay 🤍
 
@@ -360,16 +396,16 @@ esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 ## 3 DE 5 — «Las señales de salida»
 **8 diapositivas**
 
-| # | Texto |
-|---|---|
-| **1** | **NO SE PONE NERVIOSO<br>CUANDO TE VAS.**<br><sub>Se pone nervioso cuando coges las llaves · 3 de 5</sub> |
-| **2** | Te has fijado alguna vez:<br>antes de que llegues a la puerta, **él ya lo sabe.** |
-| **3** | Ha aprendido la secuencia entera.<br>Zapatos. Chaqueta. Llaves. Bolso.<br>Y empieza a angustiarse mucho antes de que salgas. |
-| **4** | Así que el trabajo no empieza en la puerta.<br>Empieza **vaciando de significado esas señales.** |
-| **5** | Coge las llaves… y siéntate.<br>Ponte los zapatos… y haz la cena.<br>Coge el bolso… y déjalo. |
-| **6** | **Veinte veces al día. Sin salir.**<br>Hasta que coger las llaves no signifique nada. |
-| **7** | Parece demasiado simple para funcionar.<br>Pero es **la mitad del problema**, y es gratis. |
-| **8** | **Guárdalo** y haz hoy diez veces lo de las llaves.<br><br>Mañana: **el sitio de la casa que lo cambia todo.** · 4 de 5 |
+| # | Bloque | Texto |
+|---|---|---|
+| **1** | **HOOK** | **NO SE PONE NERVIOSO<br>CUANDO TE VAS.**<br><sub>Se pone nervioso cuando coges las llaves · 3 de 5</sub> |
+| **2** | **PROBLEMA** | Te has fijado alguna vez:<br>antes de que llegues a la puerta, **él ya lo sabe.** |
+| **3** | **EL GIRO** | Ha aprendido la secuencia entera.<br>Zapatos. Chaqueta. Llaves. Bolso.<br>Y empieza a angustiarse mucho antes de que salgas. |
+| **4** | **SOLUCIÓN** | Así que el trabajo no empieza en la puerta.<br>Empieza **vaciando de significado esas señales.** |
+| **5** | **SOLUCIÓN** | Coge las llaves… y siéntate.<br>Ponte los zapatos… y haz la cena.<br>Coge el bolso… y déjalo. |
+| **6** | **SOLUCIÓN** | **Veinte veces al día. Sin salir.**<br>Hasta que coger las llaves no signifique nada. |
+| **7** | **SIN CULPA** | Parece demasiado simple para funcionar.<br>Pero es **la mitad del problema**, y es gratis. |
+| **8** | **CTA + GANCHO** | **Guárdalo** y haz hoy diez veces lo de las llaves.<br><br>Mañana: **el sitio de la casa que lo cambia todo.** · 4 de 5 |
 
 **Pie de foto:** Antes de que llegues a la puerta, él ya lo sabe. Coge las llaves y siéntate. Diez veces hoy. Suena absurdo y es la mitad del problema 🤍
 
@@ -378,16 +414,16 @@ esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 ## 4 DE 5 — «El refugio y la rutina»
 **8 diapositivas**
 
-| # | Texto |
-|---|---|
-| **1** | **EL SITIO DE TU CASA<br>QUE LO CAMBIA TODO.**<br><sub>Hogar en calma · 4 de 5</sub> |
-| **2** | Lo que más calma a un animal ansioso **no es un juguete.**<br>Es saber lo que viene después. |
-| **3** | Y necesita dos cosas:<br>**un sitio seguro** y **un orden que no cambie.** |
-| **4** | **El refugio:** un rincón tranquilo, **lejos de la puerta de la calle** y de ventanas con mucho ruido.<br>Regla de oro: **ahí no se le toca, no se le saca, y los niños no entran.** |
-| **5** | Si el refugio no es seguro al cien por cien, deja de ser refugio.<br>Puerta siempre abierta. **Él decide.** |
-| **6** | **La rutina:** no hace falta ser rígida con el reloj. Lo que importa es **el orden.**<br>Siempre paseo → comida → descanso. |
-| **7** | Es gratis, es aburrido, y es **lo que más funciona** de toda la serie.<br>Porque la ansiedad es, en buena parte, no poder anticipar. |
-| **8** | **Guárdalo** y móntale el refugio este fin de semana.<br><br>Mañana, el último: **lo que no se arregla solo.** · 5 de 5 |
+| # | Bloque | Texto |
+|---|---|---|
+| **1** | **HOOK** | **EL SITIO DE TU CASA<br>QUE LO CAMBIA TODO.**<br><sub>Hogar en calma · 4 de 5</sub> |
+| **2** | **PROBLEMA** | Lo que más calma a un animal ansioso **no es un juguete.**<br>Es saber lo que viene después. |
+| **3** | **EL GIRO** | Y necesita dos cosas:<br>**un sitio seguro** y **un orden que no cambie.** |
+| **4** | **SOLUCIÓN** | **El refugio:** un rincón tranquilo, **lejos de la puerta de la calle** y de ventanas con mucho ruido.<br>Regla de oro: **ahí no se le toca, no se le saca, y los niños no entran.** |
+| **5** | **SOLUCIÓN** | Si el refugio no es seguro al cien por cien, deja de ser refugio.<br>Puerta siempre abierta. **Él decide.** |
+| **6** | **SOLUCIÓN** | **La rutina:** no hace falta ser rígida con el reloj. Lo que importa es **el orden.**<br>Siempre paseo → comida → descanso. |
+| **7** | **SIN CULPA** | Es gratis, es aburrido, y es **lo que más funciona** de toda la serie.<br>Porque la ansiedad es, en buena parte, no poder anticipar. |
+| **8** | **CTA + GANCHO** | **Guárdalo** y móntale el refugio este fin de semana.<br><br>Mañana, el último: **lo que no se arregla solo.** · 5 de 5 |
 
 **Pie de foto:** Un rincón donde nadie le moleste, y un orden que no cambie. Suena a poco y es lo que más funciona de los cinco días 🤍
 
@@ -396,16 +432,16 @@ esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 ## 5 DE 5 — «Lo que no se arregla solo»
 **8 diapositivas**
 
-| # | Texto |
-|---|---|
-| **1** | **LO QUE NO SE<br>ARREGLA SOLO.**<br><sub>Hogar en calma · 5 de 5</sub> |
-| **2** | Durante cuatro días hemos visto qué mirar y por dónde empezar.<br>Hoy toca lo otro: **cuándo esto se te queda grande.** |
-| **3** | **Se autolesiona:** se lame hasta hacerse herida, se rompe uñas o dientes contra la puerta. |
-| **4** | **Hay pánico, no nerviosismo:** no responde a nada, no come, no reacciona ni a ti. |
-| **5** | **Llevas meses y no mejora** con nada de lo que has probado. |
-| **6** | **Ha aparecido de golpe, sin motivo.** Eso puede ser dolor o un problema médico — y entonces toca **veterinario antes que etólogo.** |
-| **7** | Si te has reconocido en alguna:<br>**pedir ayuda no es haber fracasado.**<br>Es, sencillamente, la decisión correcta. |
-| **8** | **Guárdate la serie entera** para tenerla a mano.<br><br>🤍 Y si quieres el método completo, paso a paso, está en **Hogar en calma** — el enlace está en mi perfil. |
+| # | Bloque | Texto |
+|---|---|---|
+| **1** | **HOOK** | **LO QUE NO SE<br>ARREGLA SOLO.**<br><sub>Hogar en calma · 5 de 5</sub> |
+| **2** | **PROBLEMA** | Durante cuatro días hemos visto qué mirar y por dónde empezar.<br>Hoy toca lo otro: **cuándo esto se te queda grande.** |
+| **3** | **SEÑALES** | **Se autolesiona:** se lame hasta hacerse herida, se rompe uñas o dientes contra la puerta. |
+| **4** | **SEÑALES** | **Hay pánico, no nerviosismo:** no responde a nada, no come, no reacciona ni a ti. |
+| **5** | **SEÑALES** | **Llevas meses y no mejora** con nada de lo que has probado. |
+| **6** | **⚠️ AVISO** | **Ha aparecido de golpe, sin motivo.** Eso puede ser dolor o un problema médico — y entonces toca **veterinario antes que etólogo.** |
+| **7** | **SIN CULPA** | Si te has reconocido en alguna:<br>**pedir ayuda no es haber fracasado.**<br>Es, sencillamente, la decisión correcta. |
+| **8** | **CTA** | **Guárdate la serie entera** para tenerla a mano.<br><br>🤍 Y si quieres el método completo, paso a paso, está en **Hogar en calma** — el enlace está en mi perfil. |
 
 **Pie de foto:** Cinco días para entender qué le pasa y por dónde empezar. Y lo más importante del último: pedir ayuda no es haber fracasado 🤍 Gracias por haber llegado hasta aquí.
 
