@@ -30,6 +30,10 @@ Los dos libros **no decían «Tremdora» ni una sola vez**. Ahora:
   quieres añadir uno (por ejemplo `hola@tremdora.com`), dímelo cuando lo tengas
   creado y lo añado.
 
+- **La foto de Victoria con Paris** cierra la página «Sobre la autora» de los dos
+  libros, con el pie «Victoria y Paris». Es la última página que lee alguien que
+  acaba de terminar el libro: ahí es donde convierte un lector en seguidor.
+
 ### 2 · «Hogar en Calma» — nuevo programa felino
 
 Era un libro de perros (23 menciones a «perro» contra 7 a «gato») y tu carrusel C6
