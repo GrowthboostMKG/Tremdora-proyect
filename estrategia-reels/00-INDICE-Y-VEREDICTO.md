@@ -20,7 +20,7 @@
 | `10-BANCO-60-GUIONES.md` | Guiones 18–77 en 7 categorías. Quince semanas de contenido a 4 por semana | Cada domingo de planificación |
 | `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» y «Edad dorada» + guiones 78–101 | Al promocionar esos dos |
 | `12-HISTORIAS.md` | Qué publicar en stories cada día, y cómo se vende ahí | Cada mañana, 5 minutos |
-| `13-CARRUSELES.md` | Diez carruseles sueltos —5 de perro y 5 de gato— y la serie de 5 publicaciones, diapositiva a diapositiva | Al promocionar un ebook |
+| `13-CARRUSELES.md` | Trece carruseles sueltos —5 de perro y 8 de gato— y la serie de 5 publicaciones, diapositiva a diapositiva | Al promocionar un ebook |
 | `14-REVISION-EBOOKS.md` | La auditoría completa de los eBook: qué se corrigió y por qué | Antes de tocar un eBook |
 | `15-HASHTAGS-Y-PALABRAS.md` | Los cinco hashtags de cada carrusel y las palabras que sí mueven el descubrimiento | Al escribir cada pie de foto |
 | `16-CARRUSEL-PRESENTACION.md` | El carrusel de presentación: nueve imágenes listas, el pie y la versión en dos textos | La primera publicación |

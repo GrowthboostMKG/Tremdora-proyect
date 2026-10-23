@@ -1,5 +1,5 @@
 # 13 — Carruseles
-### Diez sueltos —cinco de perro y cinco de gato— y una serie de cinco publicaciones
+### Trece sueltos —cinco de perro y ocho de gato— y una serie de cinco publicaciones
 
 > **Por qué el carrusel vende mejor que el reel:** permite dar el valor **entero**, así que el producto llega como continuación natural y no como corte publicitario. Es el formato del ebook.
 >
@@ -26,7 +26,7 @@
 
 ## Los bloques, igual que en los guiones de reel
 
-Cada diapositiva de los quince carruseles lleva **su bloque escrito en la tabla**, en la
+Cada diapositiva de los dieciocho carruseles lleva **su bloque escrito en la tabla**, en la
 columna de al lado del número. Es la misma lógica que la columna *Bloque* de los guiones
 de reel (documentos 04, 10 y 11) — solo que aquí la unidad no es el segundo, es la
 diapositiva.
@@ -60,10 +60,38 @@ los dos sitios.
 ---
 ---
 
-# EDAD DORADA
+# LOS TRECE CARRUSELES SUELTOS
+
+**Cinco de perro y ocho de gato.** Van seguidos y con la misma ficha: especie, pack,
+número de diapositivas y tema. El pack dice a qué ebook llevan — no es el orden de
+publicación, que está más abajo.
+
+| # | Carrusel | Especie | Pack | Diap. |
+|---|---|---|---|---|
+| **1** | No está viejo. Le duele. | 🐕 Perro | Edad Dorada | 10 |
+| **2** | No te está ignorando | 🐕 Perro | Edad Dorada | 9 |
+| **3** | Tu casa se le ha hecho difícil | 🐕 Perro *(+ gato)* | Edad Dorada | 10 |
+| **4** | Los primeros 30 minutos | 🐕 Perro | Hogar en Calma | 10 |
+| **5** | Diciembre es tarde | 🐕 Perro *(+ gato)* | Hogar en Calma | 9 |
+| **6** | Tu gato no es raro | 🐈 Gato | Hogar en Calma | 10 |
+| **7** | No está más tranquilo | 🐈 Gato | Edad Dorada | 10 |
+| **8** | No te está castigando | 🐈 Gato | Hogar en Calma | 9 |
+| **9** | Tu casa es aburridísima para él | 🐈 Gato | Hogar en Calma | 10 |
+| **10** | Mírale la cara | 🐈 Gato | Edad Dorada | 9 |
+| **11** | Un gato también echa de menos | 🐈 Gato | Hogar en Calma | 9 |
+| **12** | Maúlla a las tres de la mañana | 🐈 Gato | Edad Dorada | 10 |
+| **13** | No te preocupes porque beba poco | 🐈 Gato | Edad Dorada | 9 |
+
+> **Por qué ocho de gato y cinco de perro, y no al revés.** Porque el resto del material
+> va muy cargado de perro: de los 60 guiones de reel del documento 10, **solo 6 son de
+> gato**. Si los carruseles también fueran de perro, la cuenta entera lo sería. Con este
+> reparto, el conjunto queda equilibrado — que es lo que tiene que ver alguien que entra
+> al perfil con un gato en el regazo.
+
+---
 
 ## CARRUSEL 1 — «No está viejo. Le duele.»
-**10 diapositivas · Las señales que confundimos con la edad, y qué hacer con ellas**
+**Especie:** 🐕 Perro · **Pack:** Edad Dorada · **10 diapositivas** · **Tema:** Las señales que confundimos con la edad
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -83,7 +111,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 2 — «No te está ignorando»
-**9 diapositivas · La sordera**
+**Especie:** 🐕 Perro · **Pack:** Edad Dorada · **9 diapositivas** · **Tema:** La sordera
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -102,7 +130,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 3 — «Tu casa se le ha hecho difícil»
-**10 diapositivas · Adaptar el hogar**
+**Especie:** 🐕 Perro *(+ gato)* · **Pack:** Edad Dorada · **10 diapositivas** · **Tema:** Adaptar el hogar
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -120,12 +148,9 @@ los dos sitios.
 **Pie de foto:** No se ha hecho viejo de golpe: la casa dejó de estar pensada para él. Empieza por las alfombras y por las uñas — las dos cosas cuestan casi nada 🤍
 
 ---
----
-
-# HOGAR EN CALMA
 
 ## CARRUSEL 4 — «Los primeros 30 minutos»
-**10 diapositivas · Ansiedad por separación**
+**Especie:** 🐕 Perro · **Pack:** Hogar en Calma · **10 diapositivas** · **Tema:** Ansiedad por separación
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -145,7 +170,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 5 — «Para el miedo a los ruidos, diciembre es tarde»
-**9 diapositivas · Fobia a los ruidos**
+**Especie:** 🐕 Perro *(+ gato)* · **Pack:** Hogar en Calma · **9 diapositivas** · **Tema:** Fobia a los ruidos
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -170,7 +195,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 6 — «Tu gato no es raro»
-**10 diapositivas · Ansiedad felina**
+**Especie:** 🐈 Gato · **Pack:** Hogar en Calma · **10 diapositivas** · **Tema:** Ansiedad felina
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -188,16 +213,9 @@ los dos sitios.
 **Pie de foto:** Los gatos no piden ayuda haciendo ruido. La piden dejando de hacer cosas. Y casi siempre la respuesta está en algo que cambió en casa este mes 🤍
 
 ---
----
-
-# GATOS
-
-> Hasta aquí había **un solo carrusel felino** de seis, y la tienda es de perros **y**
-> gatos. Estos cuatro lo equilibran: cinco y cinco. Y no son los de perro con la palabra
-> cambiada — un gato no esconde el dolor igual, no se aburre igual y no pide ayuda igual.
 
 ## CARRUSEL 7 — «No está más tranquilo»
-**10 diapositivas · Artrosis en el gato mayor**
+**Especie:** 🐈 Gato · **Pack:** Edad Dorada · **10 diapositivas** · **Tema:** Artrosis en el gato mayor
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -217,7 +235,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 8 — «No te está castigando»
-**9 diapositivas · Pis fuera del arenero, el sofá y los mordiscos**
+**Especie:** 🐈 Gato · **Pack:** Hogar en Calma · **9 diapositivas** · **Tema:** Arenero, sofá y mordiscos
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -236,7 +254,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 9 — «Tu casa es aburridísima para él»
-**10 diapositivas · Los cinco pilares**
+**Especie:** 🐈 Gato · **Pack:** Hogar en Calma · **10 diapositivas** · **Tema:** Los cinco pilares
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -256,7 +274,7 @@ los dos sitios.
 ---
 
 ## CARRUSEL 10 — «Mírale la cara»
-**9 diapositivas · Cómo saber si a tu gato le duele**
+**Especie:** 🐈 Gato · **Pack:** Edad Dorada · **9 diapositivas** · **Tema:** Cómo saber si a tu gato le duele
 
 | # | Bloque | Texto de la diapositiva | Imagen |
 |---|---|---|---|
@@ -274,7 +292,65 @@ los dos sitios.
 
 ---
 
-## De dónde sale lo que se afirma en estos cuatro
+## CARRUSEL 11 — «Un gato también echa de menos»
+**Especie:** Gato · **Pack:** Hogar en Calma · **9 diapositivas** · **Tema:** Ansiedad por separación felina
+
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **UN GATO TAMBIÉN**<br>**ECHA DE MENOS.**<br><sub>Aunque no lo parezca.</sub> | Gato solo junto a la puerta |
+| **2** | **PROBLEMA** | «Los gatos son independientes, se quedan solos sin problema.»<br>Es la frase que más repetimos.<br>Y es solo **media** verdad. | Piso vacío, gato en el sofá |
+| **3** | **EL GIRO** | Un gato no llora en la puerta como un perro.<br>**Deja pistas.**<br>Y las pistas las leemos como otra cosa. | Su cara, de cerca |
+| **4** | **SEÑALES** | Las señales de que no lleva bien quedarse solo:<br>· Se hace pis **en tu cama o en tu ropa** — no en cualquier sitio: en lo que huele a ti<br>· Maúlla mucho justo cuando te vas<br>· Vomita, o se acicala hasta hacerse calvas<br>· Te recibe pegado y no se despega en horas | Ropa suya encima de la cama |
+| **5** | **EL GIRO** | **Lo del pis en tu cama es lo que peor interpretamos.**<br>No te lo está haciendo *a ti*: está mezclando su olor con el tuyo, que es lo que hace un gato cuando se siente inseguro. | Edredón revuelto |
+| **6** | **SOLUCIÓN** | **Hoy mismo, y gratis:**<br>· Ni despedida larga ni fiesta al volver<br>· Comida escondida en tres sitios **antes** de salir<br>· Un sitio alto junto a la ventana<br>· La radio baja de fondo | Comida escondida en un juguete |
+| **7** | **SOLUCIÓN** | **Y lo que más cambia de todo:**<br>diez minutos de caza **antes de irte**, no al volver.<br>Un gato que caza y después come, **se duerme**. Es su ciclo entero, y lo estás usando a tu favor. | Caña y, al lado, el comedero |
+| **8** | **SIN CULPA** | Que lo pase mal cuando te vas **no significa que lo tengas malcriado.**<br>Significa que te quiere cerca.<br>Y eso nunca ha sido un defecto. | Gato apoyado en su pierna |
+| **9** | **CTA** | **Guárdalo** y prueba mañana: diez minutos de caña antes de salir.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
+
+**Pie de foto:** «Los gatos son independientes.» Media verdad. Un gato no llora en la puerta: deja pistas, y la que peor leemos es el pis en tu cama. No te lo hace a ti — mezcla su olor con el tuyo porque está inseguro 🤍
+
+---
+
+## CARRUSEL 12 — «Maúlla a las tres de la mañana»
+**Especie:** Gato · **Pack:** Edad Dorada · **10 diapositivas** · **Tema:** El gato mayor que maúlla de noche
+
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **MAÚLLA A LAS TRES**<br>**DE LA MAÑANA.**<br><sub>Y casi nunca es por hambre.</sub> | Pasillo a oscuras |
+| **2** | **PROBLEMA** | Empieza a maullar de noche, fuerte y seguido, plantado en mitad del pasillo.<br>Le das de comer, calla un rato — y vuelve. | Gato maullando en el pasillo |
+| **3** | **EL GIRO** | Si tu gato es mayor y esto es **nuevo**, no es un vicio ni una manía.<br>**Es una señal. Y casi siempre tiene causa.** | Solo texto, fondo plano |
+| **4** | **SEÑALES** | **Lo primero, descartar lo que se trata:**<br>· **Tiroides** — come muchísimo y aun así adelgaza<br>· **Tensión alta** — a veces con la vista tocada<br>· **Dolor**<br>· **Sordera** — maúlla fuerte porque no se oye a sí mismo | Gato en la consulta |
+| **5** | **⚠️ AVISO** | **Las cuatro se tratan o se alivian.**<br>Por eso esto empieza con una **analítica**, no con un truco de internet.<br>Un gato mayor que cambia de conducta de golpe **se mira**. | Solo texto, fondo plano |
+| **6** | **EL GIRO** | Y si no es nada de eso, queda lo que casi nadie nombra:<br>**los gatos también tienen demencia.**<br>Se desorientan, se pierden en su propia casa — y de noche es peor. | Gato mirando a una pared |
+| **7** | **SOLUCIÓN** | **Lo que ayuda, y es casi todo barato:**<br>· Una luz tenue en el pasillo — de noche ven peor que antes<br>· Que **nada cambie de sitio**<br>· Cena más tarde, y un rato de caza antes<br>· Un arenero en cada planta | Lucecita de enchufe |
+| **8** | **SOLUCIÓN** | **Y lo que no funciona:**<br>gritarle, encerrarlo, o darle de comer cada vez que maúlla.<br>Lo último le enseña que **maullar trae comida** — y entonces sí se convierte en un hábito. | Comedero lleno de noche |
+| **9** | **SIN CULPA** | No te está dando la noche a propósito.<br>**Está desorientado y te está llamando.**<br>Y que estés agotada no te hace mala dueña: llevas semanas sin dormir. | Ella en la cama, despierta |
+| **10** | **CTA** | **Guárdalo**, y si esto es nuevo, pide analítica antes que nada.<br><br>🤍 En **Edad dorada** tienes el resto. | Portada del pack |
+
+**Pie de foto:** Maúlla de madrugada y le damos de comer para que calle. Casi nunca es hambre: en un gato mayor son cuatro cosas que se tratan, y si no es ninguna, queda la que casi nadie nombra — los gatos también tienen demencia 🤍
+
+---
+
+## CARRUSEL 13 — «No te preocupes porque beba poco»
+**Especie:** Gato · **Pack:** Edad Dorada · **9 diapositivas** · **Tema:** Hidratación y las señales del gato mayor
+
+| # | Bloque | Texto de la diapositiva | Imagen |
+|---|---|---|---|
+| **1** | **HOOK** | **NO TE PREOCUPES**<br>**PORQUE BEBA POCO.**<br><sub>Preocúpate el día que beba mucho.</sub> | Gato junto al bebedero |
+| **2** | **PROBLEMA** | Nos pasamos la vida diciendo que los gatos beben poquísimo.<br>Y es verdad: vienen del desierto y sacan casi toda el agua **de lo que comen**. | Cuenco de agua casi lleno |
+| **3** | **EL GIRO** | Por eso el aviso no es que beba poco.<br>**Es el día que empiece a beber muchísimo** — y a llenar el arenero muchísimo.<br>Eso sí es nuevo. Y eso sí se mira. | Solo texto, fondo plano |
+| **4** | **SEÑALES** | **Las señales, juntas:**<br>· Bebe mucho más que antes, y se queda al lado del agua<br>· Llena el arenero más que nunca<br>· Adelgaza aunque coma igual<br>· El pelo se le queda apagado y feo<br>· Vomita más a menudo | Arenero muy usado |
+| **5** | **⚠️ AVISO** | Eso es **un análisis de sangre y de orina**, no una búsqueda en internet.<br>Detrás suele haber **riñón, tiroides o azúcar** — tres cosas distintas que **se distinguen con una analítica** y que, cogidas pronto, se manejan durante años. | Solo texto, fondo plano |
+| **6** | **SOLUCIÓN** | **Y mientras tanto, agua.** A un gato le cuesta beber de un cuenco:<br>· **Comida húmeda** — la forma más fácil de que entre agua<br>· Cuencos **anchos**, que no le rocen los bigotes<br>· Varios puntos, lejos de la comida y del arenero<br>· Fuente, si prefiere el agua en movimiento | Cuenco ancho y bajo |
+| **7** | **SOLUCIÓN** | **La prueba de dos días:**<br>pon un cuenco ancho **en el sitio donde más tiempo pasa**, lejos de su comida.<br>Muchos gatos empiezan a beber solo por eso. | Cuenco nuevo junto a su cama |
+| **8** | **SIN CULPA** | Si no lo habías mirado, es normal:<br>**a un gato se le nota tarde porque lo disimula muy bien.**<br>Lo que importa no es cuánto llevas sin verlo. Es que desde hoy ya sabes dónde mirar. | Gato tranquilo, de frente |
+| **9** | **CTA** | **Guárdalo** y fíjate esta semana en dos cosas: cuánto bebe y cuánto llena el arenero.<br><br>🤍 En **Edad dorada** tienes el resto. | Portada del pack |
+
+**Pie de foto:** Llevamos toda la vida diciendo que los gatos beben poco, y es verdad. Por eso la señal no es esa: es el día que empiece a beber muchísimo y a llenar el arenero. Cinco señales, y la prueba de dos días que puedes hacer hoy 🤍
+
+---
+
+## De dónde sale lo que se afirma en los de gato
 
 Son los datos que van **escritos en una diapositiva**, así que conviene que sepas de dónde
 vienen por si alguien pregunta en comentarios:
@@ -285,24 +361,31 @@ vienen por si alguien pregunta en comentarios:
 | Los cinco pilares | Directrices de necesidades ambientales **AAFP / ISFM**, 2013 |
 | La escala de muecas felina (orejas, ojos, hocico, bigotes, cabeza) | Evangelista *et al.*, 2019 — validada frente a otra escala de dolor, y de uso libre |
 | El paracetamol es letal para el gato | Toxicología veterinaria básica: el gato no metaboliza el paracetamol como nosotros |
+| Tiroides, tensión, dolor y sordera detrás del maullido nocturno, y la disfunción cognitiva felina | Medicina felina del gato geriátrico — es el orden en que se descarta en consulta |
+| Beber y orinar mucho más en un gato mayor apunta a riñón, tiroides o azúcar | Las tres causas habituales de ese cuadro, y se separan con analítica de sangre y orina |
 
 **Un matiz honesto sobre la escala de muecas:** se validó en clínica y para **dolor agudo**.
 En casa no sirve para diagnosticar nada — sirve para **decidir que vas al veterinario**. La
-diapositiva 6 lo dice, y esa diapositiva no se quita.
+diapositiva 7 lo dice, y esa diapositiva no se quita.
+
+**Y la regla de los ocho:** ninguno nombra una enfermedad como diagnóstico. Dicen qué
+mirar, qué se trata y qué pedir en la consulta. En los carruseles 12 y 13, donde sí
+aparecen nombres —tiroides, riñón, azúcar, demencia—, van siempre con la frase que los
+convierte en una pregunta para el veterinario y no en una conclusión para el dueño.
 ---
 ---
 
 ## CÓMO USARLOS
 
-**Los diez siguen el mismo arco:** reconocimiento → el giro → **la solución** → quitar la culpa → CTA. **Los diez tienen solución**: ninguno se queda en enumerar señales.
+**Los trece siguen el mismo arco:** reconocimiento → el giro → **la solución** → quitar la culpa → CTA. **Los trece tienen solución**: ninguno se queda en enumerar señales.
 
 **La diapositiva que quita la culpa es siempre la penúltima**, y es la que se guarda y se comparte. No la toques, y no la mezcles con el CTA: una frase que emociona pierde la mitad de su fuerza si lleva un producto al lado.
 
-**Los avisos marcados con ⚠️ no se quitan por hacerlo más corto.** Son los que evitan que alguien se confíe: el coche y el perro sordo, el cambio súbito, la desensibilización hecha deprisa, el pánico que necesita profesional, la urgencia urinaria en gatos y **el paracetamol**, que mata a un gato.
+**Los avisos marcados con ⚠️ no se quitan por hacerlo más corto.** Son los que evitan que alguien se confíe: el coche y el perro sordo, el cambio súbito, la desensibilización hecha deprisa, el pánico que necesita profesional, la urgencia urinaria en gatos, **el paracetamol** —que mata a un gato— y la analítica antes que el truco de internet en el gato mayor.
 
 **El CTA es doble a propósito:** primero «guárdalo», que es lo que empuja el alcance, y solo después el producto. Nunca al revés.
 
-**La portada tiene que funcionar también en la cuadrícula**, pequeña y sin contexto. Por eso en los diez es una frase de dos o tres palabras, no una explicación.
+**La portada tiene que funcionar también en la cuadrícula**, pequeña y sin contexto. Por eso en los trece es una frase de dos o tres palabras, no una explicación.
 
 **Reutilización:** de cada carrusel salen **un reel** (misma estructura, contada a cámara) y **entre cinco y ocho stories** — una por diapositiva, con una encuesta en la del giro.
 
@@ -313,14 +396,24 @@ diapositiva 6 lo dice, y esa diapositiva no se quita.
 La tienda es de perros **y** gatos, así que la cuenta tiene que parecerlo desde la
 cuadrícula. Quedan cinco y cinco:
 
-| | Perro | Gato |
+| | 🐕 Perro | 🐈 Gato |
 |---|---|---|
-| **Edad Dorada** | 1 · No está viejo, le duele<br>2 · No te está ignorando<br>3 · Tu casa se le ha hecho difícil | 7 · No está más tranquilo<br>10 · Mírale la cara |
-| **Hogar en Calma** | 4 · Los primeros 30 minutos<br>5 · Diciembre es tarde | 6 · Tu gato no es raro<br>8 · No te está castigando<br>9 · Tu casa es aburridísima |
+| **Edad Dorada** | 1 · No está viejo, le duele<br>2 · No te está ignorando<br>3 · Tu casa se le ha hecho difícil | 7 · No está más tranquilo<br>10 · Mírale la cara<br>12 · Maúlla a las tres<br>13 · Porque beba poco |
+| **Hogar en Calma** | 4 · Los primeros 30 minutos<br>5 · Diciembre es tarde | 6 · Tu gato no es raro<br>8 · No te está castigando<br>9 · Tu casa es aburridísima<br>11 · También echa de menos |
 
-**Altérnalos.** Dos de perro seguidos y luego uno de gato, o al revés: lo que no puede
-pasar es que alguien entre al perfil, vea seis perros en fila y se vaya pensando que esto
-no es para su gato. En una cuadrícula de nueve, **que se vean tres gatos**.
+**Hay pares a propósito.** Son los mismos temas contados para cada especie, y funcionan muy
+bien como pareja de publicaciones seguidas:
+
+| Tema | 🐕 | 🐈 |
+|---|---|---|
+| Dolor que confundimos con la edad | 1 | 7 · 10 |
+| Quedarse solo en casa | 4 | 11 |
+| La casa y el entorno | 3 | 9 |
+| Lo que no es desobediencia | 2 | 8 |
+
+**Altérnalos.** Dos de gato y uno de perro, o al revés: lo que no puede pasar es que
+alguien entre al perfil, vea seis perros en fila y se vaya pensando que esto no es para su
+gato. **En una cuadrícula de nueve, que se vean por lo menos cuatro gatos.**
 
 **Y el gato no es «la versión pequeña del perro».** Es el motivo de que estos cuatro no
 sean los de perro con la palabra cambiada: un gato no esconde el dolor igual (lo esconde

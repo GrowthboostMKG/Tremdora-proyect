@@ -45,9 +45,9 @@ publicaciones en una serie.
 ---
 ---
 
-# LOS DIEZ CARRUSELES
+# LOS TRECE CARRUSELES
 
-**Del 1 al 5, perro. Del 6 al 10, gato.** El reparto y por qué importa está en el documento 13.
+**Del 1 al 5, perro. Del 6 al 13, gato.** El reparto y por qué importa está en el documento 13.
 
 ## C1 · «No está viejo. Le duele.»
 
@@ -205,6 +205,54 @@ tocar» · «dolor en gatos» · «mi gato es muy suyo»
 > **Pie sugerido:** «Un gato con dolor no cojea ni se queja: lo esconde, porque esconderlo
 > es lo que les mantuvo vivos. Pero hay cinco cosas que sí se le ven en la cara, y están
 > validadas: orejas, ojos, hocico, bigotes y cabeza. Mírale esta noche, con calma 🤍»
+
+---
+
+## C11 · «Un gato también echa de menos» · quedarse solo
+
+```
+#ansiedadfelina #comportamientofelino #bienestarfelino #gatos #tremdora
+```
+
+**En el pie:** «mi gato se hace pis en mi cama» · «maúlla cuando me voy» · «dejar al gato
+solo» · «mi gato me echa de menos» · «ansiedad en gatos»
+
+> **Pie sugerido:** «“Los gatos son independientes.” Media verdad. Un gato no llora en la
+> puerta como un perro: deja pistas, y la que peor leemos es el pis en tu cama. No te lo
+> hace a ti — está mezclando su olor con el tuyo porque se siente inseguro. Cuatro señales,
+> y lo que más cambia: diez minutos de caza antes de salir 🤍»
+
+---
+
+## C12 · «Maúlla a las tres de la mañana» · el gato mayor de noche
+
+```
+#gatosenior #saludfelina #comportamientofelino #gatos #tremdora
+```
+
+**En el pie:** «mi gato maúlla por la noche» · «maúlla de madrugada» · «gato mayor
+desorientado» · «no me deja dormir» · «demencia en gatos»
+
+> **Pie sugerido:** «Maúlla a las tres de la mañana y le damos de comer para que calle.
+> Casi nunca es hambre: en un gato mayor son cuatro cosas que se tratan —tiroides,
+> tensión, dolor o sordera— y si no es ninguna, queda la que casi nadie nombra: los gatos
+> también tienen demencia. Empieza por la analítica 🤍»
+
+---
+
+## C13 · «No te preocupes porque beba poco» · hidratación y riñón
+
+```
+#gatosenior #saludfelina #bienestarfelino #gatos #tremdora
+```
+
+**En el pie:** «mi gato bebe mucha agua» · «mi gato no bebe» · «orina mucho» · «está
+adelgazando» · «riñón en gatos» · «gato mayor»
+
+> **Pie sugerido:** «Llevamos toda la vida diciendo que los gatos beben poco, y es verdad:
+> vienen del desierto. Por eso la señal no es esa — es el día que empiece a beber
+> muchísimo y a llenar el arenero. Cinco señales que van juntas, y la prueba de dos días
+> que puedes hacer esta tarde 🤍»
 
 ---
 ---
