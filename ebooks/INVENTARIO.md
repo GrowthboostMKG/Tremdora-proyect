@@ -81,27 +81,29 @@ Lo que faltaba:
 
 ---
 
-## Una decisión que te queda a ti: el tamaño de página
+## El formato, unificado
 
-Hay **dos formatos** en el catálogo:
+**Los dieciocho PDF comparten ya la misma hoja: 468 × 679,92 pt (165 × 240 mm).** Es el
+formato de libro que ya usaba *Sigue Contigo*, y ahora lo usan los tres packs.
 
-| | Tamaño |
-|---|---|
-| Hogar en Calma y Edad Dorada (y sus muestras) | **A4** · 210 × 297 mm |
-| Los cinco de Sigue Contigo | **165 × 240 mm** (formato libro) |
+Se eligió ese y no A4 por tres motivos: se lee mucho mejor en móvil y en tablet, que es
+donde se van a leer; tiene menos margen muerto en proporción al texto; y es el formato
+en el que se imprime un libro de verdad, por si algún día sale en papel.
 
-Los dos están bien, pero **no son el mismo**. Quien compre dos packs se encontrará
-unos PDF con forma de libro y otros con forma de documento.
+**Cómo se hizo, por si algún día hay que tocarlo.** La maqueta estaba diseñada en A4 y
+rehacer los saltos de página a mano habría obligado a repartir de nuevo 180 páginas, con
+el riesgo de romper lo que ya estaba verificado. En vez de eso, la hoja pasa a
+165 × 240 mm y **el contenido entero se escala al mismo factor que el ancho** (0,7857),
+con lo que la composición se conserva exactamente y solo cambia el tamaño del papel. Está
+en `fuentes/book.css`: `@page { size: 165mm 240mm }` y `body { zoom: 0.7857 }`, con las
+cajas de página declaradas en 210 × 305,4 mm, que es lo que da 165 × 240 al escalar.
 
-**Yo unificaría al formato de la serie (165 × 240 mm)**, por tres motivos: ya lo usan
-cinco de los nueve archivos, se lee mucho mejor en móvil y en tablet, y es el formato
-en el que se imprime un libro de verdad si algún día lo sacas en papel.
+Verificado tras el cambio: **las secciones del origen siguen coincidiendo con las páginas
+del PDF en los trece archivos**, así que no se perdió nada por el camino.
 
-**Pero no lo he hecho por mi cuenta**, porque pasar 59 y 55 páginas de A4 a un papel
-más pequeño rompe todos los saltos de página y obliga a rehacer entero el repaso de
-desbordes de los dos libros y sus dos muestras. Es trabajo de una tarde y lo hago
-cuando me lo digas — pero prefería no dejarte a medias algo que ahora mismo está
-verificado página a página.
+> **Si imprimes los diarios y los planes**, en el cuadro de impresión elige *ajustar a
+> página* sobre A4: el papel se amplía un 27 % y las líneas de escritura quedan en unos
+> 9 mm, que es el alto de un cuaderno normal.
 
 ---
 

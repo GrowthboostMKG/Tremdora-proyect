@@ -3,7 +3,7 @@
    Cada libro define --accent y --accent-soft.
    ============================================================ */
 
-@page { size: A4; margin: 0; }
+@page { size: 165mm 240mm; margin: 0; }
 
 * { box-sizing: border-box; }
 
@@ -22,6 +22,9 @@
 
 html, body { margin: 0; padding: 0; }
 
+/* la maqueta se diseñó en A4 y se reduce a la hoja de la serie */
+body { zoom: 0.7857; }
+
 body {
   background: var(--paper);
   color: var(--ink);
@@ -37,7 +40,7 @@ body {
 .page {
   position: relative;
   width: 210mm;
-  min-height: 297mm;
+  min-height: 305.4mm;
   padding: 24mm 22mm 22mm;
   overflow: visible;
   page-break-after: always;
@@ -46,7 +49,7 @@ body {
 .page:last-child { page-break-after: auto; }
 
 /* las páginas de bloque conservan altura exacta para poder centrar */
-.cover, .ded, .part, .back { height: 297mm; min-height: 297mm; }
+.cover, .ded, .part, .back { height: 305.4mm; min-height: 305.4mm; }
 
 /* ---------- tipografía base ---------- */
 
