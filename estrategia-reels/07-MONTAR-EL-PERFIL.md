@@ -58,6 +58,40 @@ Tu nombre va en la bio, no aquí. Aquí van las palabras por las que quieres que
 - **Nada de** gafas de sol, fotos de grupo, ni una foto con la mascota en la que tu cara quede pequeña.
 - **La misma foto en todas las redes.**
 
+### ¿Tú sola, tú con Paris, o solo Paris?
+
+**Tú con Paris. Y nunca solo Paris.**
+
+**Solo Paris, no.** La foto de perfil se lee en presente: no lleva pie, ni fecha, ni
+«en memoria de». Quien llega asume que esa perrita es la perrita de la cuenta, y a
+partir de ahí te preguntan por ella en comentarios y mensajes durante años — cada
+persona nueva, una vez. Tendrías que contar que murió, a desconocidos, un martes
+cualquiera. Además el avatar prometería un contenido que no existe: si la cara de la
+cuenta es Paris, la gente espera verla, y no la vas a poder grabar nunca más. Y lo
+más importante: **la cuenta se quedaría sin cara humana**, que es justo en lo que se
+sostiene toda la estrategia. La gente no sigue tiendas; sigue a quien le enseña algo.
+
+**Paris sí tiene su sitio**, y es importante: el reel de presentación (guion 103), la
+línea de la bio, la dedicatoria de los dos ebooks y la portada de una destacada. Ahí
+el pasado está dicho y se respeta. En el avatar no se puede decir.
+
+**Tú con Paris, sí**, porque es literalmente la marca: la persona y el motivo en una
+sola imagen. Quien lea la bio entiende lo de «en memoria»; quien no la lea solo ve a
+una mujer que quiere a su perra. Las dos lecturas funcionan.
+
+**Cómo tiene que estar hecha:**
+- Tu cara en torno a **la mitad del círculo**, no menos.
+- **Las dos caras pegadas**, mejilla con mejilla — si Paris va en el regazo, el
+  recorte circular la corta.
+- Plano corto, de los hombros para arriba. Luz buena, fondo sencillo, sin gafas de sol.
+- **La prueba:** hazla del tamaño de una uña en la pantalla. Si se distingue que hay
+  una persona y un perro, sirve.
+
+**Si no tienes ninguna que aguante el recorte** con tu cara grande (y el archivo es
+finito), entonces foto tuya sola, y Paris a la portada de la destacada de marca.
+
+---
+
 **El logo de Tremdora no va aquí.** Va en las portadas de las destacadas y en la tienda. En una cuenta que se sostiene en ti hablando a cámara, la cara reconocible en el feed vale más que el logo.
 
 ---
