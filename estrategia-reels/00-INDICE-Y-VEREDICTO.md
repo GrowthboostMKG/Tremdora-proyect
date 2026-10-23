@@ -24,12 +24,13 @@
 | `14-REVISION-EBOOKS.md` | La auditoría completa de los eBook: qué se corrigió y por qué | Antes de tocar un eBook |
 | `15-HASHTAGS-Y-PALABRAS.md` | Los cinco hashtags de cada carrusel y las palabras que sí mueven el descubrimiento | Al escribir cada pie de foto |
 | `16-CARRUSEL-PRESENTACION.md` | El carrusel de presentación: nueve imágenes listas, el pie y la versión en dos textos | La primera publicación |
+| `17-BANCO-GUIONES-GATO.md` | 24 guiones de gato, guiones 104–127, en las mismas 7 categorías del banco | Cada vez que toque publicar de gato |
 
 ---
 
 ## DÓNDE ESTÁ CADA GUION
 
-**103 guiones en total**, numerados sin repeticiones. Este es el mapa:
+**127 guiones en total**, numerados sin repeticiones. **32 son de gato.** Este es el mapa:
 
 | Números | Qué son | Archivo |
 |---|---|---|
@@ -39,8 +40,11 @@
 | **78–89** | «Hogar en calma» — ansiedad | `11-TERRITORIOS-DE-PRODUCTO.md` |
 | **90–101** | «Edad dorada» — mascota mayor | `11-TERRITORIOS-DE-PRODUCTO.md` |
 | **102–103** | El manifiesto · el vídeo de marca | `06-LA-CAPA-PERSONAL.md` |
+| **104–127** | El banco de gato: las mismas 7 categorías, en felino | `17-BANCO-GUIONES-GATO.md` |
 
 **No hay otro documento aparte ni ningún PDF suelto: todo está aquí y en la página del playbook.**
+
+> **El reparto por especie.** De los 127, **32 son de gato** (los 24 del documento 17, seis del banco grande y dos de territorios) y el resto de perro. Eso es **una de cada cuatro**, que es el mínimo para que la cuenta se lea como lo que es: una tienda de perros **y** gatos. La regla de publicación está al final del documento 17 y en el 13.
 
 ---
 

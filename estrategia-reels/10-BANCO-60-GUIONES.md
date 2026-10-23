@@ -21,6 +21,11 @@
 
 **Temas transversales:** consejos · tutorial · errores · tendencias · resultados.
 
+> **De estos sesenta, solo seis son de gato** (el 24, el 25, el 32, el 42, el 45 y el 51).
+> Los otros **24 guiones de gato**, en estas mismas siete categorías, están en
+> `17-BANCO-GUIONES-GATO.md` — guiones 104 a 127. Mézclalos: de cada cuatro
+> publicaciones, una de gato como mínimo.
+
 ---
 ---
 
