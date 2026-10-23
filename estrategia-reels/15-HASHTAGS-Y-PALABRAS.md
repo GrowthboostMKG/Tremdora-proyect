@@ -45,7 +45,9 @@ publicaciones en una serie.
 ---
 ---
 
-# LOS SEIS CARRUSELES
+# LOS DIEZ CARRUSELES
+
+**Del 1 al 5, perro. Del 6 al 10, gato.** El reparto y por qué importa está en el documento 13.
 
 ## C1 · «No está viejo. Le duele.»
 
@@ -143,6 +145,68 @@ del arenero» · «estrés en gatos» · «ansiedad felina»
 > en algo que cambió en casa este mes 🤍»
 
 ---
+
+## C7 · «No está más tranquilo» · gato mayor
+
+```
+#gatosenior #artrosisfelina #saludfelina #gatos #tremdora
+```
+
+**En el pie:** «mi gato ya no salta» · «duerme todo el día» · «tiene el pelo apelmazado» ·
+«se ha vuelto más casero» · «gato mayor» · «artrosis en gatos»
+
+> **Pie sugerido:** «De cien gatos de más de 12 años radiografiados, noventa tenían
+> artrosis — y en la ficha de solo cuatro estaba apuntada. Un gato con dolor no cojea:
+> deja de saltar, duerme abajo y se le apelmaza el pelo de la espalda porque girarse le
+> duele. Seis señales, y cinco cosas que puedes cambiar esta semana 🤍»
+
+---
+
+## C8 · «No te está castigando» · arenero, sofá y mordiscos
+
+```
+#comportamientofelino #etologiafelina #bienestarfelino #gatos #tremdora
+```
+
+**En el pie:** «mi gato me hace pis en la cama» · «se hace pis fuera del arenero» · «araña
+el sofá» · «me muerde cuando le acaricio» · «mi gato me tiene manía»
+
+> **Pie sugerido:** «Te hace pis en la cama justo el día que llegas tarde, y parece
+> personal. No lo es: un gato no tiene con qué sostener un rencor. Lo que hay detrás del
+> pis, del sofá arañado y del mordisco — y qué sí funciona. Empieza por el arenero 🤍»
+
+---
+
+## C9 · «Tu casa es aburridísima para él» · los cinco pilares
+
+```
+#enriquecimientoambiental #bienestarfelino #comportamientofelino #gatos #tremdora
+```
+
+**En el pie:** «mi gato se aburre» · «mi gato no juega» · «gato de piso» · «juguetes para
+gatos» · «enriquecimiento ambiental»
+
+> **Pie sugerido:** «Duerme dieciséis horas y mira por la ventana, y pensamos que los
+> gatos son así. No son así: están así. Un gato de piso tiene el mismo cerebro de cazador
+> que uno que sale, solo que no tiene dónde usarlo. Las cinco cosas que necesita en casa, y
+> la que puedes probar esta misma noche 🤍»
+
+---
+
+## C10 · «Mírale la cara» · cómo saber si le duele
+
+```
+#saludfelina #gatosenior #bienestarfelino #gatos #tremdora
+```
+
+**En el pie:** «cómo saber si a mi gato le duele» · «mi gato está raro» · «no se deja
+tocar» · «dolor en gatos» · «mi gato es muy suyo»
+
+> **Pie sugerido:** «Un gato con dolor no cojea ni se queja: lo esconde, porque esconderlo
+> es lo que les mantuvo vivos. Pero hay cinco cosas que sí se le ven en la cara, y están
+> validadas: orejas, ojos, hocico, bigotes y cabeza. Mírale esta noche, con calma 🤍»
+
+---
 ---
 
 # LA SERIE DE CINCO · Hogar en Calma
@@ -187,6 +251,19 @@ Que el problema aparezca ahí, no en la línea siete.
 
 **6 · El texto de la portada también se indexa.** Por eso los hooks de los carruseles
 están escritos con las palabras de quien tiene el problema, no con las tuyas.
+
+---
+
+## Una nota sobre las etiquetas de gato
+
+**`#gatos` es enorme y no te va a posicionar.** Está ahí a propósito, como la cuarta de
+cada grupo: es la etiqueta de comunidad, la que dice «esta cuenta también es de gatos».
+Donde de verdad te puedes posicionar es en `#artrosisfelina`, `#etologiafelina` y
+`#bienestarfelino`, que son pequeñas — y eso, en una cuenta que empieza, es una ventaja,
+no un problema.
+
+**Y la palabra que más gente escribe en el buscador no es ninguna de las cinco: es
+«gato».** Por eso tiene que aparecer en el pie, escrita, en las dos primeras líneas.
 
 ---
 

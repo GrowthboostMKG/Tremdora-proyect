@@ -1,5 +1,5 @@
 # 13 — Carruseles
-### Seis sueltos y una serie de cinco publicaciones
+### Diez sueltos —cinco de perro y cinco de gato— y una serie de cinco publicaciones
 
 > **Por qué el carrusel vende mejor que el reel:** permite dar el valor **entero**, así que el producto llega como continuación natural y no como corte publicitario. Es el formato del ebook.
 >
@@ -126,6 +126,12 @@
 
 **Pie de foto:** No hay nada que puedas decirle esa noche. Pero hay muchísimo que puedes hacer tres meses antes — y si lo haces deprisa, empeora. Ponte el recordatorio 🤍
 
+> **Si tienes gato, esto también va contigo.** El gato no tiembla debajo de la cama: se
+> mete en el sitio más alto o más escondido de la casa y no sale en horas, a veces sin
+> comer ni usar el arenero. **No le saques de ahí.** Déjale el escondite que haya elegido,
+> y pon el arenero y el agua cerca de él esa noche. Y **ventanas cerradas**: en Nochevieja
+> y en las fiestas de agosto se pierden gatos por una ventana abierta.
+
 ---
 
 ## CARRUSEL 6 — «Tu gato no es raro»
@@ -149,21 +155,142 @@
 ---
 ---
 
+# GATOS
+
+> Hasta aquí había **un solo carrusel felino** de seis, y la tienda es de perros **y**
+> gatos. Estos cuatro lo equilibran: cinco y cinco. Y no son los de perro con la palabra
+> cambiada — un gato no esconde el dolor igual, no se aburre igual y no pide ayuda igual.
+
+## CARRUSEL 7 — «No está más tranquilo»
+**10 diapositivas · Artrosis en el gato mayor**
+
+| # | Texto de la diapositiva | Imagen |
+|---|---|---|
+| **1** | **NO ESTÁ MÁS TRANQUILO.**<br>**LE CUESTA.**<br><sub>6 señales en un gato mayor</sub> | Gato mayor tumbado en el suelo |
+| **2** | Un día deja de subir a la ventana.<br>Duerme abajo, en sitios nuevos.<br>Y pensamos: «se ha vuelto más casero». | Alféizar vacío |
+| **3** | De **100 gatos de más de 12 años** radiografiados, **90 tenían artrosis.**<br>En la ficha de **solo 4** estaba apuntada. | Solo texto, fondo plano |
+| **4** | O sea: **la tienen casi todos y casi nunca se ve.**<br>Porque un gato con dolor no cojea.<br>Deja de hacer cosas. | Gato quieto, mirando arriba |
+| **5** | Las seis señales:<br>· Ya no salta donde saltaba, o calcula y se baja<br>· Duerme bajo, no en sus sitios altos<br>· **Pelo apelmazado** en la espalda y la grupa<br>· Hace sus cosas fuera del arenero<br>· Uñas largas, no las gasta<br>· No deja que le toques el lomo | Gato bajando de un mueble |
+| **6** | **Lo del pelo es la señal más clara y la que menos se mira.**<br>Un gato que no se acicala la espalda no es un gato dejado: es un gato al que **girarse le duele**. | Zona apelmazada, de cerca |
+| **7** | **Esta semana, sin esperar a nadie:**<br>· Un escalón o una caja firme hasta su sitio alto<br>· Arenero de **entrada baja** — o recorta un lado<br>· Comedero y bebedero a su altura<br>· Cama caliente, lejos de corrientes<br>· Córtale las uñas | Caja como escalón |
+| **8** | ⚠️ **Al veterinario, y nada de analgésicos de casa.**<br>El **paracetamol** y el ibuprofeno **matan a un gato**: no tiene cómo procesarlos. Una sola pastilla puede bastar. | Solo texto, fondo plano |
+| **9** | **No se ha vuelto arisco ni vago.**<br>Lleva tiempo con dolor y lo ha llevado solo — porque esconderlo es justo lo que les mantuvo vivos durante miles de años. | Gato mayor mirándote |
+| **10** | **Guárdalo** y mira esta noche dónde duerme.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack |
+
+**Pie de foto:** De cien gatos mayores de 12 años, noventa tenían artrosis — y solo cuatro la tenían apuntada en su ficha. Un gato con dolor no cojea: deja de saltar. Seis señales, y cinco cosas que puedes cambiar esta semana 🤍
+
+---
+
+## CARRUSEL 8 — «No te está castigando»
+**9 diapositivas · Pis fuera del arenero, el sofá y los mordiscos**
+
+| # | Texto de la diapositiva | Imagen |
+|---|---|---|
+| **1** | **NO TE ESTÁ CASTIGANDO.**<br><sub>No sabe hacer eso.</sub> | Gato sentado en la cama, de frente |
+| **2** | Te hace pis en la cama justo el día que llegas tarde.<br>Araña el sofá nuevo.<br>Te muerde cuando le estabas acariciando.<br>Parece personal. | Mancha en el edredón |
+| **3** | **No lo es.**<br>Un gato no planea una venganza: no tiene con qué sostener un rencor.<br>Lo que estás viendo es otra cosa. | Primer plano de su cara |
+| **4** | **El pis fuera del arenero** casi nunca es el gato: es **el arenero**. O es dolor.<br><br>⚠️ Si hace fuerza para orinar y no sale nada, **es urgencia veterinaria** — sobre todo si es macho. | Arenero |
+| **5** | **El sofá** no es rebeldía: necesita arañar y el rascador que le pusiste no le sirve.<br>Tiene que ser **alto, firme y estar donde él vive** — no donde no molesta. | Rascador alto junto al sofá |
+| **6** | **El mordisco al acariciarle es un aviso, no un ataque.**<br>Casi siempre llevaba rato pidiéndote que pararas: la cola, la piel del lomo, las orejas hacia atrás. | Cola de gato moviéndose |
+| **7** | **Lo que sí funciona:**<br>· Un arenero por gato **más uno**, destapados y lejos de la comida<br>· Rascador alto y firme, en su zona<br>· Caricias **cortas**, y parar antes de que te lo pida<br>· **Nunca castigo**: con un gato solo consigues que te tenga miedo a ti | Los tres areneros |
+| **8** | Si llevas tiempo pensando que te la tiene jurada, **no eres mala persona**: es exactamente lo que parece desde fuera.<br>Pero desde dentro de él no hay nada de eso. Solo algo que no está bien y no sabe contarte. | Ella y el gato, tranquilos |
+| **9** | **Guárdalo** y empieza por el arenero: es lo que más rápido cambia las cosas.<br><br>🤍 En **Hogar en calma** tienes el resto. | Portada del ebook |
+
+**Pie de foto:** Te hace pis en la cama el día que llegas tarde y parece personal. No lo es: un gato no sabe planear una venganza. Lo que hay detrás del pis, del sofá y del mordisco — y qué sí funciona 🤍
+
+---
+
+## CARRUSEL 9 — «Tu casa es aburridísima para él»
+**10 diapositivas · Los cinco pilares**
+
+| # | Texto de la diapositiva | Imagen |
+|---|---|---|
+| **1** | **TU CASA ES ABURRIDÍSIMA**<br>**PARA ÉL.**<br><sub>Y tiene arreglo esta noche.</sub> | Gato mirando por la ventana |
+| **2** | Duerme dieciséis horas, mira por el cristal, y vuelta a dormir.<br>Y pensamos que los gatos son así. | Gato dormido en el sofá |
+| **3** | **No son así: están así.**<br>Un gato de piso tiene el mismo cerebro de cazador que uno que sale. Lo que no tiene es dónde usarlo. | Sus ojos, atentos |
+| **4** | Lo que necesita en casa **está escrito**: los veterinarios felinos lo publicaron en 2013 y se llaman **los cinco pilares**. | Solo texto, fondo plano |
+| **5** | **1 · Un sitio seguro.**<br>Donde esconderse y, mejor todavía, mirar desde arriba.<br>Si no puede ver venir el peligro, no descansa de verdad. | Gato en lo alto de un armario |
+| **6** | **2 · Los recursos, separados.**<br>Comer, beber, el arenero, el rascador y dormir, cada cosa en un sitio.<br>Y uno por gato **más uno**. También si solo tienes uno. | Bebedero lejos del comedero |
+| **7** | **3 · Cazar todos los días.**<br>Diez minutos de caña — y que la «presa» **se deje coger al final**.<br>Un juego que nunca termina en captura frustra más que relaja. | Caña con plumas |
+| **8** | **4 · Que el contacto lo empiece él.**<br>Ratos cortos y muchos, mejor que uno largo.<br><br>**5 · Respeta su olfato.** Nada de arena perfumada, ambientadores ni aceites esenciales cerca de sus cosas. | Gato acercándose a una mano quieta |
+| **9** | Si tu gato «no juega», casi nunca es que no quiera.<br>**Es que llevamos años ofreciéndole el juguete equivocado, y a la hora equivocada.** | Juguetes sin tocar en un rincón |
+| **10** | **Guárdalo** y prueba esta noche: diez minutos de caña **antes de la cena**.<br><br>🤍 Más, en **Hogar en calma**. | Portada del ebook |
+
+**Pie de foto:** Duerme dieciséis horas y mira por la ventana, y pensamos que los gatos son así. No son así: están así. Las cinco cosas que un gato necesita en casa — y la que puedes probar esta misma noche 🤍
+
+---
+
+## CARRUSEL 10 — «Mírale la cara»
+**8 diapositivas · Cómo saber si a tu gato le duele**
+
+| # | Texto de la diapositiva | Imagen |
+|---|---|---|
+| **1** | **A UN GATO CON DOLOR**<br>**SE LE VE EN LA CARA.**<br><sub>Cinco cosas, y solo hay que mirar.</sub> | Cara de gato, de frente |
+| **2** | Un perro con dolor cojea, se queja, te lo cuenta.<br>Un gato no.<br>Por eso con ellos llegamos tarde casi siempre. | Gato quieto en un rincón |
+| **3** | Pero hay algo que **sí** se le nota, y está estudiado y validado: **la cara**.<br>Se llama la **escala de muecas felina**. | Solo texto, fondo plano |
+| **4** | **Las cinco:**<br>· **Orejas** — se aplanan y giran hacia fuera<br>· **Ojos** — se entrecierran<br>· **Hocico** — de redondo a ovalado y tenso<br>· **Bigotes** — se estiran hacia delante<br>· **Cabeza** — cae por debajo de los hombros | Las cinco zonas señaladas |
+| **5** | **Truco:** compárala con una foto suya de cuando estaba bien.<br>Es mucho más fácil ver **el cambio** que ver la señal. | Dos fotos del mismo gato |
+| **6** | ⚠️ Esto **no diagnostica nada**: te dice que vayas, no qué tiene.<br>Y nunca, nunca le des un analgésico de los tuyos: **el paracetamol mata a un gato**. | Solo texto, fondo plano |
+| **7** | Si llevas años pensando que tu gato es «muy suyo» cuando le tocas cierta zona:<br>**a lo mejor no es su carácter.**<br>A lo mejor lleva tiempo doliéndole y es la única forma que tiene de decirlo. | Mano cerca, sin tocar |
+| **8** | **Guárdalo** y mírale la cara esta noche, con calma.<br><br>🤍 En **Edad dorada**, qué duele y qué se puede hacer. | Portada del pack |
+
+**Pie de foto:** Un gato con dolor no cojea ni se queja: lo esconde. Pero hay cinco cosas que sí se le ven en la cara, y están validadas. Mírale esta noche 🤍
+
+---
+
+## De dónde sale lo que se afirma en estos cuatro
+
+Son los datos que van **escritos en una diapositiva**, así que conviene que sepas de dónde
+vienen por si alguien pregunta en comentarios:
+
+| Dato | Fuente |
+|---|---|
+| 90 de 100 gatos de más de 12 años con artrosis, y solo 4 apuntada en la ficha | Hardie *et al.*, 2002 — 100 gatos geriátricos radiografiados por motivos **no** relacionados con cojera |
+| Los cinco pilares | Directrices de necesidades ambientales **AAFP / ISFM**, 2013 |
+| La escala de muecas felina (orejas, ojos, hocico, bigotes, cabeza) | Evangelista *et al.*, 2019 — validada frente a otra escala de dolor, y de uso libre |
+| El paracetamol es letal para el gato | Toxicología veterinaria básica: el gato no metaboliza el paracetamol como nosotros |
+
+**Un matiz honesto sobre la escala de muecas:** se validó en clínica y para **dolor agudo**.
+En casa no sirve para diagnosticar nada — sirve para **decidir que vas al veterinario**. La
+diapositiva 6 lo dice, y esa diapositiva no se quita.
+---
+---
+
 ## CÓMO USARLOS
 
-**Los seis siguen el mismo arco:** reconocimiento → el giro → **la solución** → quitar la culpa → CTA. Después de la revisión, **los seis tienen solución**: ninguno se queda en enumerar señales.
+**Los diez siguen el mismo arco:** reconocimiento → el giro → **la solución** → quitar la culpa → CTA. **Los diez tienen solución**: ninguno se queda en enumerar señales.
 
 **La diapositiva que quita la culpa es siempre la penúltima**, y es la que se guarda y se comparte. No la toques, y no la mezcles con el CTA: una frase que emociona pierde la mitad de su fuerza si lleva un producto al lado.
 
-**Los avisos marcados con ⚠️ no se quitan por hacerlo más corto.** Son los que evitan que alguien se confíe: el coche y el perro sordo, el cambio súbito, la desensibilización hecha deprisa, el pánico que necesita profesional y la urgencia urinaria en gatos.
+**Los avisos marcados con ⚠️ no se quitan por hacerlo más corto.** Son los que evitan que alguien se confíe: el coche y el perro sordo, el cambio súbito, la desensibilización hecha deprisa, el pánico que necesita profesional, la urgencia urinaria en gatos y **el paracetamol**, que mata a un gato.
 
 **El CTA es doble a propósito:** primero «guárdalo», que es lo que empuja el alcance, y solo después el producto. Nunca al revés.
 
-**La portada tiene que funcionar también en la cuadrícula**, pequeña y sin contexto. Por eso en los seis es una frase de dos o tres palabras, no una explicación.
+**La portada tiene que funcionar también en la cuadrícula**, pequeña y sin contexto. Por eso en los diez es una frase de dos o tres palabras, no una explicación.
 
 **Reutilización:** de cada carrusel salen **un reel** (misma estructura, contada a cámara) y **entre cinco y ocho stories** — una por diapositiva, con una encuesta en la del giro.
 
 **Y la regla de siempre: cero mención al ebook del duelo** en los tres de Edad dorada.
+
+### El reparto perro / gato
+
+La tienda es de perros **y** gatos, así que la cuenta tiene que parecerlo desde la
+cuadrícula. Quedan cinco y cinco:
+
+| | Perro | Gato |
+|---|---|---|
+| **Edad Dorada** | 1 · No está viejo, le duele<br>2 · No te está ignorando<br>3 · Tu casa se le ha hecho difícil | 7 · No está más tranquilo<br>10 · Mírale la cara |
+| **Hogar en Calma** | 4 · Los primeros 30 minutos<br>5 · Diciembre es tarde | 6 · Tu gato no es raro<br>8 · No te está castigando<br>9 · Tu casa es aburridísima |
+
+**Altérnalos.** Dos de perro seguidos y luego uno de gato, o al revés: lo que no puede
+pasar es que alguien entre al perfil, vea seis perros en fila y se vaya pensando que esto
+no es para su gato. En una cuadrícula de nueve, **que se vean tres gatos**.
+
+**Y el gato no es «la versión pequeña del perro».** Es el motivo de que estos cuatro no
+sean los de perro con la palabra cambiada: un gato no esconde el dolor igual (lo esconde
+del todo), no se aburre igual (necesita cazar, no pasear) y no pide ayuda igual (dejando
+de hacer cosas, no haciendo ruido). Si alguna vez adaptas un carrusel de perro a gato,
+esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 
 ---
 ---
