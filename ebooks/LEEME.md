@@ -126,6 +126,11 @@ resbaladizos*.
 
 Están rehechos de cero, no parcheados:
 
+- **Alineados a `tremdora.css`**, la hoja de estilos real de la serie, que está en la
+  rama `claude/sigue-contigo-ebooks-pptgr6`: mismos tokens de color, misma receta de
+  degradados radiales en la cubierta, y **el mismo emblema** (el corazón con la huella,
+  reutilizado tal cual en SVG). Las cubiertas de los cuatro libros son ya un solo
+  sistema.
 - **La paleta es la de tus originales**, sacada del PDF que me pasaste, no
   aproximada: papel crema `#FBF3E6`, texto marrón `#3B2A20`, terracota `#C1613A` y
   `#A8502E`, y verde salvia `#748156`. Nada de portadas oscuras.

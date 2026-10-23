@@ -58,18 +58,24 @@ def construir(libro: str, cfg: dict):
 
 
 def cubierta(titulo_html, subtitulo):
-    return f'''<section class="page cover">
-  <div class="cv-top">
-    <div class="brand">TREMDORA</div>
-    <div class="serie">Libro 1 de 3 · El método</div>
-    <div class="muestra">Muestra gratuita</div>
-  </div>
-  <div class="cv-mid">
-    <h1>{titulo_html}</h1>
-    <div class="rule"></div>
-    <p class="cv-sub">{subtitulo}</p>
-  </div>
-  <div class="cv-bot">
+    emblema = """<div class="emblem"><svg viewBox="0 0 150 150">
+      <circle cx="75" cy="75" r="62" fill="none" stroke="#748156" stroke-width="1.1"/>
+      <path d="M75 108 C52 90 44 76 44 64 c0-11 9-19 19-19 6 0 10 3 12 7
+               2-4 6-7 12-7 10 0 19 8 19 19 0 12-8 26-31 44z"
+            fill="#f6e9d6" stroke="#a8502e" stroke-width="1.6" stroke-linejoin="round"/>
+      <ellipse cx="75" cy="76" rx="7.5" ry="6" fill="#e2cfb4"/>
+      <ellipse cx="67" cy="65" rx="2.8" ry="4" fill="#e2cfb4" transform="rotate(-18 67 65)"/>
+      <ellipse cx="75" cy="61" rx="2.8" ry="4.2" fill="#e2cfb4"/>
+      <ellipse cx="83" cy="65" rx="2.8" ry="4" fill="#e2cfb4" transform="rotate(18 83 65)"/>
+    </svg></div>"""
+    return f'''<section class="page cover serie">
+  <div class="pill">Libro 1 de 3 · El método</div>
+  <div class="brandmark">TREMDORA</div>
+  {emblema}
+  <h1>{titulo_html}</h1>
+  <div class="sub">{subtitulo}</div>
+  <div class="muestra">Muestra gratuita</div>
+  <div class="cv-foot">
     <div class="lbl">Fundamentado en la obra y los hallazgos de</div>
     <div class="names">
       Ivan Pavlov · B. F. Skinner · Konrad Lorenz · Jaak Panksepp<br>
@@ -104,9 +110,9 @@ def cierre(titulo, frase, que_falta):
 
 
 HOGAR = {
-    "head": {"titulo": "Hogar en Calma", "acento": "#748156", "acento_claro": "#EDEFE0"},
+    "head": {"titulo": "Hogar en Calma", "acento": "#748156", "acento_claro": "#E6EADA"},
     "cubierta": cubierta(
-        "Hogar<br>en <em>Calma</em>",
+        "Hogar en <em>Calma</em>",
         "La guía científica y práctica para liberar a tu mascota de la ansiedad — cuando está contigo y cuando se queda sola."),
     "que_es": '''<section class="page toc">
   <h1>Qué tienes en tus manos</h1>
@@ -186,7 +192,7 @@ HOGAR = {
 EDAD = {
     "head": {"titulo": "Edad Dorada", "acento": "#A8502E", "acento_claro": "#F6E9D6"},
     "cubierta": cubierta(
-        "Edad<br><em>Dorada</em>",
+        "Edad <em>Dorada</em>",
         "Guía científica y práctica para cuidar a tu mascota mayor: entender su vejez, cuidar su cuerpo y acompañar su ritmo con amor."),
     "que_es": '''<section class="page toc">
   <h1>Qué tienes en tus manos</h1>
