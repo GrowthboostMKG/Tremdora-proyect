@@ -1240,3 +1240,39 @@ table.fill tr:nth-child(even) td { background: rgba(253,248,240,.6); }
   display: block; margin-bottom: 2mm;
 }
 .tarea p { font-size: 9.6pt; margin-bottom: .5em; }
+
+/* --- pasos numerados de una rutina --- */
+ol.pasos { margin: 5mm 0; padding-left: 7mm; }
+ol.pasos li {
+  font-size: 10pt; line-height: 1.55;
+  margin-bottom: 3.4mm; padding-left: 2mm;
+}
+ol.pasos li::marker { color: var(--terra-2); font-weight: 700; }
+
+/* --- tarjetas de momento --- */
+.momento {
+  border: 1px solid var(--rule); border-left: 2.5px solid var(--accent);
+  border-radius: 2px; background: var(--card);
+  padding: 4mm 5mm; margin-bottom: 4mm;
+  page-break-inside: avoid; break-inside: avoid;
+}
+.momento .mh {
+  display: flex; align-items: baseline; gap: 3mm;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2mm; margin-bottom: 2.5mm;
+}
+.momento .mn {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 12pt; font-weight: 700; color: var(--terra-2);
+}
+.momento .mt {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 11.6pt; font-weight: 600; flex: 1 1 auto;
+}
+.momento .md {
+  font-family: Inter, sans-serif; font-size: 7.6pt; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3);
+}
+.momento .mq { font-size: 9.4pt; margin-bottom: 2mm; }
+.momento .mp { font-size: 8.8pt; color: var(--ink-2); margin: 0; }
+.momento .mp b { color: var(--accent); }

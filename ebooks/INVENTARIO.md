@@ -1,26 +1,35 @@
 # Inventario de PDF · todo lo listo para Shopify
 
-Actualizado tras la revisión completa. **Trece PDF listos para vender.**
+Actualizado tras la revisión completa. **Dieciocho PDF listos para vender.** Los tres packs, completos.
 
 ---
 
-## 1 · Hogar en Calma
+## 1 · Hogar en Calma · cinco piezas
 
-| Archivo | Páginas | Peso | Portada |
-|---|---|---|---|
-| `Hogar-en-Calma-Tremdora.pdf` | 59 | 1,2 MB | `portadas/portada-Hogar-en-Calma.jpg` |
-| `complementos/Hogar-en-Calma-2-Diario-de-la-Calma.pdf` | 19 | 0,6 MB | en `complementos/portadas/` |
-| `complementos/Hogar-en-Calma-3-Plan-8-Semanas.pdf` | 14 | 0,5 MB | en `complementos/portadas/` |
-| `muestras/Hogar-en-Calma-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB | `muestras/portada-muestra-Hogar-en-Calma.jpg` |
+| Archivo | Págs | Peso |
+|---|---|---|
+| `Hogar-en-Calma-Tremdora.pdf` — el método | 59 | 1,2 MB |
+| `complementos/Hogar-en-Calma-2-Diario-de-la-Calma.pdf` | 19 | 0,6 MB |
+| `complementos/Hogar-en-Calma-3-Plan-8-Semanas.pdf` | 14 | 0,5 MB |
+| `complementos/Hogar-en-Calma-4-Rutinas-de-Calma.pdf` | 10 | 0,4 MB |
+| `muestras/Hogar-en-Calma-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB |
 
-## 2 · Edad Dorada
+*Falta solo la Frecuencia, de la que se encarga la autora.*
 
-| Archivo | Páginas | Peso | Portada |
-|---|---|---|---|
-| `Edad-Dorada-Tremdora.pdf` | 55 | 1,1 MB | `portadas/portada-Edad-Dorada.jpg` |
-| `complementos/Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf` | 12 | 0,5 MB | en `complementos/portadas/` |
-| `complementos/Edad-Dorada-3-Plan-8-Semanas.pdf` | 13 | 0,4 MB | en `complementos/portadas/` |
-| `muestras/Edad-Dorada-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB | `muestras/portada-muestra-Edad-Dorada.jpg` |
+## 2 · Edad Dorada · ocho piezas
+
+| Archivo | Págs | Peso |
+|---|---|---|
+| `Edad-Dorada-Tremdora.pdf` — el método | 55 | 1,1 MB |
+| `complementos/Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf` | 12 | 0,5 MB |
+| `complementos/Edad-Dorada-3-Plan-8-Semanas.pdf` | 13 | 0,4 MB |
+| `complementos/Edad-Dorada-4-Nutricion-Dorada.pdf` | 8 | 0,4 MB |
+| `complementos/Edad-Dorada-5-20-Momentos.pdf` | 10 | 0,4 MB |
+| `complementos/Edad-Dorada-6-Cartas-de-Conexion.pdf` | 10 | 0,3 MB |
+| `complementos/Edad-Dorada-7-Ritual-de-10-Minutos.pdf` | 7 | 0,4 MB |
+| `muestras/Edad-Dorada-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB |
+
+**Pack completo.** Las portadas de los complementos están en `complementos/portadas/`.
 
 ## 3 · Sigue Contigo — la serie del duelo, cinco piezas
 
@@ -96,13 +105,9 @@ verificado página a página.
 
 ---
 
-## Lo que sigue sin existir
+## Los nombres de los complementos
 
-**Hogar en Calma** — Rutinas de Calma · Frecuencia
-**Edad Dorada** — Nutrición Dorada · 20 Momentos · Cartas de Conexión · Ritual de 10 Minutos
-
-El Diario y el Plan de los dos packs **ya están hechos**, y con nombre propio para que
-no choquen entre packs:
+Los tres packs llevaban un «Diario» y un «Plan» casi homónimos. Resuelto:
 
 | Pack | Diario | Plan |
 |---|---|---|
@@ -110,24 +115,37 @@ no choquen entre packs:
 | Edad Dorada | **Diario de los Días Buenos** | Plan de 8 Semanas |
 | Sigue Contigo | Diario del Oleaje | Plan Práctico de 8 Semanas |
 
-Las **25 menciones** que los dos libros principales hacían a «Diario de Bienestar» y
-«Diario de Bienestar Senior» están actualizadas a los nombres nuevos.
+Las **25 menciones** de los dos libros principales están actualizadas.
 
-> **Sobre la pieza «Frecuencia»:** antes de crearla conviene hablarlo. Hay una rama
-> (`claude/qr-432hz-frequency-qah9fw`) que la plantea como una frecuencia de 432 Hz, y
-> eso no tiene respaldo científico. En una marca cuyo valor entero es «desde la
-> neurociencia y los estudios científicos», es la única pieza del catálogo que puede
-> costarte la credibilidad que construye todo lo demás. Se puede vender lo mismo
-> —enriquecimiento auditivo, sonido ambiente que amortigua ruidos— de forma
-> defendible, pero hay que escribirlo con cuidado.
+---
+
+## Una nota sobre «Nutrición Dorada»
+
+Está escrita **a propósito como guía y no como recetario**, y conviene que sepas por qué.
+
+Una dieta casera que sustituya al alimento completo es, salvo que la formule un
+veterinario nutricionista, una dieta desequilibrada — y en un animal mayor con el riñón
+o el hígado trabajando peor, eso hace daño de verdad. Un recetario habría sido la pieza
+más vendible del pack y la única capaz de causarle un problema serio a un animal.
+
+Así que la guía deja clarísimo desde la primera página que **la base es un alimento
+completo**, y se centra en lo que sí aporta valor sin riesgo: los alimentos tóxicos (la
+página que puede salvar una vida), las cuatro causas tratables de la pérdida de apetito,
+la prueba de las costillas para el peso, la hidratación en gatos y la regla del 10 % para
+premios y añadidos.
+
+Si en algún momento quieres un recetario de verdad, hay una forma de hacerlo bien:
+encargar las recetas a un **veterinario nutricionista** que las firme. Cuesta dinero y
+es la única versión defendible.
 
 ## Cómo regenerar
 
 ```
 # Hogar en Calma, Edad Dorada, muestras y complementos
-python3 fuentes/complementos.py  # regenera los cuatro diarios y planes
+python3 fuentes/complementos.py  # los cuatro diarios y planes
+python3 fuentes/extras.py        # las cinco piezas extra
 python3 fuentes/muestra.py       # regenera las muestras desde los libros completos
-python3 fuentes/build.py         # genera los ocho PDF
+python3 fuentes/build.py         # genera los trece PDF
 
 # Sigue Contigo
 cd sigue-contigo && CHROME=/opt/pw-browsers/chromium ./build.sh
