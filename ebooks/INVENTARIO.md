@@ -9,9 +9,9 @@ Actualizado tras la revisión completa. **Dieciocho PDF listos para vender.** Lo
 | Archivo | Págs | Peso |
 |---|---|---|
 | `Hogar-en-Calma-Tremdora.pdf` — el método | 59 | 1,2 MB |
-| `complementos/Hogar-en-Calma-2-Diario-de-la-Calma.pdf` | 19 | 0,6 MB |
-| `complementos/Hogar-en-Calma-3-Plan-8-Semanas.pdf` | 14 | 0,5 MB |
-| `complementos/Hogar-en-Calma-4-Rutinas-de-Calma.pdf` | 10 | 0,4 MB |
+| `complementos/Hogar-en-Calma-2-Diario-de-la-Calma.pdf` | 18 | 0,6 MB |
+| `complementos/Hogar-en-Calma-3-Plan-8-Semanas.pdf` | 13 | 0,5 MB |
+| `complementos/Hogar-en-Calma-4-Rutinas-de-Calma.pdf` | 9 | 0,4 MB |
 | `muestras/Hogar-en-Calma-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB |
 
 *Falta solo la Frecuencia, de la que se encarga la autora.*
@@ -21,12 +21,12 @@ Actualizado tras la revisión completa. **Dieciocho PDF listos para vender.** Lo
 | Archivo | Págs | Peso |
 |---|---|---|
 | `Edad-Dorada-Tremdora.pdf` — el método | 55 | 1,1 MB |
-| `complementos/Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf` | 12 | 0,5 MB |
-| `complementos/Edad-Dorada-3-Plan-8-Semanas.pdf` | 13 | 0,4 MB |
-| `complementos/Edad-Dorada-4-Nutricion-Dorada.pdf` | 8 | 0,4 MB |
-| `complementos/Edad-Dorada-5-20-Momentos.pdf` | 10 | 0,4 MB |
+| `complementos/Edad-Dorada-2-Diario-de-los-Dias-Buenos.pdf` | 11 | 0,5 MB |
+| `complementos/Edad-Dorada-3-Plan-8-Semanas.pdf` | 12 | 0,4 MB |
+| `complementos/Edad-Dorada-4-Nutricion-Dorada.pdf` | 7 | 0,4 MB |
+| `complementos/Edad-Dorada-5-20-Momentos.pdf` | 9 | 0,4 MB |
 | `complementos/Edad-Dorada-6-Cartas-de-Conexion.pdf` | 10 | 0,3 MB |
-| `complementos/Edad-Dorada-7-Ritual-de-10-Minutos.pdf` | 7 | 0,4 MB |
+| `complementos/Edad-Dorada-7-Ritual-de-10-Minutos.pdf` | 6 | 0,4 MB |
 | `muestras/Edad-Dorada-MUESTRA-GRATIS.pdf` | 13 | 0,6 MB |
 
 **Pack completo.** Las portadas de los complementos están en `complementos/portadas/`.
@@ -104,6 +104,27 @@ del PDF en los trece archivos**, así que no se perdió nada por el camino.
 > **Si imprimes los diarios y los planes**, en el cuadro de impresión elige *ajustar a
 > página* sobre A4: el papel se amplía un 27 % y las líneas de escritura quedan en unos
 > 9 mm, que es el alto de un cuaderno normal.
+
+---
+
+## Dónde va la página de autora, y dónde no
+
+Al principio la llevaban **catorce de los dieciocho**. Eso significaba que quien compra
+el pack de Edad Dorada se leía la misma historia **ocho veces seguidas** — y una página
+que emociona la primera vez, a la quinta es relleno.
+
+**Página entera, solo donde se gana el sitio:**
+
+| | Por qué |
+|---|---|
+| Los dos libros principales | Es el que todo el mundo abre, y donde la historia explica el método |
+| Las dos muestras gratis | Es **la página de conversión**: quien la lee no tiene ninguna otra pieza |
+| *Cartas de Conexión* | Ahí la página no es biografía, **es contenido**: «lo que más me duele no es haberla perdido, es lo que no recuerdo» es el argumento para hacer el ejercicio |
+| *Sigue Contigo · eBook* | Igual que los otros principales |
+
+**Firma breve en las ocho piezas restantes:** la foto en redondo, su nombre, «Fundadora
+de Tremdora · por Paris», y una línea que remite al libro principal. Mantiene la
+presencia humana sin repetir la historia, y le quita una página a cada complemento.
 
 ---
 

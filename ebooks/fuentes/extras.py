@@ -153,8 +153,6 @@ RUT = [
         clave="Una vez que la alarma está al máximo, la capacidad de aprender se desploma. Pedirle cosas en ese estado no enseña nada y desgasta la confianza.",
         aviso="Si hay <b>autolesión</b>, pánico que no cede, o se hace daño intentando escapar: eso no es un mal momento, es una consulta. Y no esperes a la semana que viene."),
 
-    autora(AUT_CORTA),
-
     cierre("Seis hojas, y el libro detrás", [
         "<b>La salida aburrida</b> y <b>la noche de ruido</b>, que son las dos que más veces se usan.",
         "<b>Las visitas</b> y <b>el veterinario</b>, que son las dos que más se improvisan y peor salen.",
@@ -301,8 +299,6 @@ NUT = [
     <p>Un aumento marcado de sed y de orina <b>no es una curiosidad</b>: es uno de los primeros signos de enfermedad renal, diabetes e hipertiroidismo. Pide cita y dilo con esas palabras.</p>
   </div>'''),
 
-    autora(AUT_CORTA),
-
     cierre("Lo que te llevas de esta guía", [
         "<b>La página de los alimentos tóxicos</b>, para la cocina. Es la que puede salvarle la vida.",
         "<b>Las cuatro causas tratables</b> de que no coma — empezando por el dolor dental, que es la más frecuente y la más ignorada.",
@@ -429,8 +425,6 @@ MOM = [
         for i in range(1, 11)
     ) + '''</tbody>
   </table>'''),
-
-    autora(AUT_CORTA),
 
     cierre("Veinte, y la regla de todas", [
         "<b>Los sentidos:</b> olfato, paseo propio, sol y ventana — lo que mejor se conserva.",
@@ -609,8 +603,6 @@ RIT = [
 
   <h3 class="sub">Lo que he notado</h3>
   ''' + lineas(3)),
-
-    autora(AUT_CORTA),
 
     cierre("Diez minutos, cuatro tramos", [
         "<b>El aviso</b>, siempre el mismo, que acaba bajando la activación él solo.",

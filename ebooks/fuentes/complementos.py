@@ -64,6 +64,15 @@ def cierre(titulo, lineas):
 {items}
   </ul>
 
+  <div class="firma-breve">
+    <img src="victoria-paris.jpg" alt="Victoria y Paris">
+    <div class="tx">
+      <span class="nm">Victoria</span>
+      <span class="rl">Fundadora de Tremdora · por Paris</span>
+      <span class="qn">Mi historia, y por qué existe Tremdora, están en el libro principal del pack.</span>
+    </div>
+  </div>
+
   <div class="cta">
     <span class="big">Tremdora</span>
     Entender · Cuidar · Acompañar · Celebrar
@@ -343,8 +352,6 @@ CALMA += [
     <p>Si hay mejora, <b>no lo dejes</b>: sigue con lo que funciona y sube un escalón. Si en ocho semanas de trabajo constante no has visto nada, eso también es un dato — y es el momento de sumar a un profesional, no de insistir más fuerte.</p>
   </div>'''),
 
-    autora(AUT_CALMA),
-
     cierre("Lo que te queda escrito", [
         "<b>Tu mapa de disparadores</b>, que no sabías al empezar y ahora cabe en tres líneas.",
         "<b>Ocho semanas comparables</b>: la prueba en tu propia letra de lo que ha cambiado.",
@@ -494,8 +501,6 @@ PLAN_C += [
 
   <h3 class="sub">Qué pasó, y qué hice</h3>
   ''' + lineas(4)),
-
-    autora(AUT_PLAN_C),
 
     cierre("Lo que has construido", [
         "<b>Una habilidad ancla</b> —«sitio»— que vas a usar el resto de su vida.",
@@ -697,8 +702,6 @@ DIAS = [
     <p>Cuando llegue una época difícil, la memoria se va a quedar solo con lo malo — es así, no se puede evitar. <b>Esta página es la prueba de lo demás.</b></p>
   </div>'''),
 
-    autora(AUT_DIAS),
-
     cierre("Lo que te queda escrito", [
         "<b>Una línea base real</b>, con las tres actividades que son tu prueba del nueve ante el veterinario.",
         "<b>Tres meses de escala de calidad de vida</b>, uno al lado de otro, que es donde se ve la tendencia.",
@@ -830,8 +833,6 @@ PLAN_D += [
     <span class="lbl">Y lo otro</span>
     <p>Si la escala de calidad de vida baja de forma sostenida, y sobre todo si «dolor y comodidad» o «más días buenos que malos» se quedan en 1 o 2, <b>es el momento de una conversación honesta con tu veterinario</b>. No de hacer más cosas. Priorizar su bienestar por encima del deseo de tenerla más tiempo es, en sí mismo, un acto de amor.</p>
   </div>'''),
-
-    autora(AUT_PLAN_D),
 
     cierre("Lo que has puesto en marcha", [
         "<b>Una revisión semestral con análisis</b>, que es lo que detecta las enfermedades comunes de la vejez antes de que den síntomas.",
