@@ -21,6 +21,9 @@
 | `11-TERRITORIOS-DE-PRODUCTO.md` | «Hogar en calma» y «Edad dorada» + guiones 78–101 | Al promocionar esos dos |
 | `12-HISTORIAS.md` | Qué publicar en stories cada día, y cómo se vende ahí | Cada mañana, 5 minutos |
 | `13-CARRUSELES.md` | Seis carruseles sueltos y la serie de 5 publicaciones, diapositiva a diapositiva | Al promocionar un ebook |
+| `14-REVISION-EBOOKS.md` | La auditoría completa de los eBook: qué se corrigió y por qué | Antes de tocar un eBook |
+| `15-HASHTAGS-Y-PALABRAS.md` | Los cinco hashtags de cada carrusel y las palabras que sí mueven el descubrimiento | Al escribir cada pie de foto |
+| `16-CARRUSEL-PRESENTACION.md` | El carrusel de presentación: nueve imágenes listas, el pie y la versión en dos textos | La primera publicación |
 
 ---
 
