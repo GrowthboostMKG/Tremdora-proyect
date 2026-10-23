@@ -1,0 +1,2979 @@
+[
+ {
+  "pagina": 1,
+  "tipo": "subtitulo",
+  "sangria": 7,
+  "lineas": [
+   "TREMDORA"
+  ],
+  "texto": "TREMDORA"
+ },
+ {
+  "pagina": 1,
+  "tipo": "subtitulo",
+  "sangria": 2,
+  "lineas": [
+   "Sigue",
+   "contigo"
+  ],
+  "texto": "Sigue contigo"
+ },
+ {
+  "pagina": 1,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Una guía para acompañarte",
+   "en la pérdida de tu mascota"
+  ],
+  "texto": "Una guía para acompañarte en la pérdida de tu mascota"
+ },
+ {
+  "pagina": 2,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Desde la psicología y la neurociencia",
+   "del vínculo y el duelo"
+  ],
+  "texto": "Desde la psicología y la neurociencia del vínculo y el duelo"
+ },
+ {
+  "pagina": 3,
+  "tipo": "parrafo",
+  "sangria": 3,
+  "lineas": [
+   "Para ti,",
+   "que estás leyendo esto",
+   "con el pecho roto."
+  ],
+  "texto": "Para ti, que estás leyendo esto con el pecho roto."
+ },
+ {
+  "pagina": 3,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Y para ellos,",
+   "que nos enseñaron a querer",
+   "sin condiciones."
+  ],
+  "texto": "Y para ellos, que nos enseñaron a querer sin condiciones."
+ },
+ {
+  "pagina": 4,
+  "tipo": "cita",
+  "sangria": 35,
+  "lineas": [
+   "Índice"
+  ],
+  "texto": "Índice"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Antes de empezar  ·  una carta para ti"
+  ],
+  "texto": "Antes de empezar  ·  una carta para ti"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo I  ·  Lo que está pasando dentro de ti"
+  ],
+  "texto": "Capítulo I  ·  Lo que está pasando dentro de ti"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo II  ·  Por qué duele tanto: el vínculo y el cerebro"
+  ],
+  "texto": "Capítulo II  ·  Por qué duele tanto: el vínculo y el cerebro"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo III  ·  Las fases que vas a atravesar"
+  ],
+  "texto": "Capítulo III  ·  Las fases que vas a atravesar"
+ },
+ {
+  "pagina": 4,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo IV  ·  Cuando todo el mundo dice 'era solo un animal'"
+  ],
+  "texto": "Capítulo IV  ·  Cuando todo el mundo dice 'era solo un animal'"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo V  ·  Si tuviste que tomar la decisión"
+  ],
+  "texto": "Capítulo V  ·  Si tuviste que tomar la decisión"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo VI  ·  Ejercicios para acompañarte"
+  ],
+  "texto": "Capítulo VI  ·  Ejercicios para acompañarte"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo VII  ·  Construir un lugar para su recuerdo"
+  ],
+  "texto": "Capítulo VII  ·  Construir un lugar para su recuerdo"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo VIII  ·  Volver a querer (sin traicionarlo)"
+  ],
+  "texto": "Capítulo VIII  ·  Volver a querer (sin traicionarlo)"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo IX  ·  Cuando hay niños en casa"
+  ],
+  "texto": "Capítulo IX  ·  Cuando hay niños en casa"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Capítulo X  ·  Las otras mascotas también lo sienten"
+  ],
+  "texto": "Capítulo X  ·  Las otras mascotas también lo sienten"
+ },
+ {
+  "pagina": 4,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Carta final  ·  lo que quiero que recuerdes"
+  ],
+  "texto": "Carta final  ·  lo que quiero que recuerdes"
+ },
+ {
+  "pagina": 5,
+  "tipo": "capitulo",
+  "sangria": 17,
+  "lineas": [
+   "ANTES DE EMPEZAR",
+   "Una carta para ti"
+  ],
+  "texto": "ANTES DE EMPEZAR Una carta para ti"
+ },
+ {
+  "pagina": 5,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si has llegado hasta aquí, probablemente sea porque alguien que",
+   "querías mucho ya no está. Y no quiero empezar este libro",
+   "hablándote como si fuera un manual."
+  ],
+  "texto": "Si has llegado hasta aquí, probablemente sea porque alguien que querías mucho ya no está. Y no quiero empezar este libro hablándote como si fuera un manual."
+ },
+ {
+  "pagina": 5,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Quiero empezar diciéndote esto: lo que sientes tiene sentido. No",
+   "estás exagerando. No estás siendo dramática ni dramático. Lo que",
+   "pasó es enorme."
+  ],
+  "texto": "Quiero empezar diciéndote esto: lo que sientes tiene sentido. No estás exagerando. No estás siendo dramática ni dramático. Lo que pasó es enorme."
+ },
+ {
+  "pagina": 5,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Durante años he trabajado con personas que atraviesan duelos, y",
+   "los duelos por animales son, muchas veces, los más solitarios.",
+   "Porque el mundo no siempre los reconoce. Te dicen «era solo un",
+   "perro», «coge otro», «ya estaba mayor». Y tú sabes que no."
+  ],
+  "texto": "Durante años he trabajado con personas que atraviesan duelos, y los duelos por animales son, muchas veces, los más solitarios. Porque el mundo no siempre los reconoce. Te dicen «era solo un perro», «coge otro», «ya estaba mayor». Y tú sabes que no."
+ },
+ {
+  "pagina": 5,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Tú sabes que era familia. Que era compañía. Que era esa presencia",
+   "que te esperaba en la puerta, que se subía a tu cama, que te miraba",
+   "cuando llorabas. Que era, sencillamente, amor."
+  ],
+  "texto": "Tú sabes que era familia. Que era compañía. Que era esa presencia que te esperaba en la puerta, que se subía a tu cama, que te miraba cuando llorabas. Que era, sencillamente, amor."
+ },
+ {
+  "pagina": 5,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Este libro no va a hacer que dejes de doler. Eso no se puede.",
+   "Pero sí va a explicarte qué te está pasando, por qué te pasa, y va a",
+   "darte herramientas reales —desde la psicología y la",
+   "neurociencia— para atravesarlo sin sentir que te rompes."
+  ],
+  "texto": "Este libro no va a hacer que dejes de doler. Eso no se puede. Pero sí va a explicarte qué te está pasando, por qué te pasa, y va a darte herramientas reales —desde la psicología y la neurociencia— para atravesarlo sin sentir que te rompes."
+ },
+ {
+  "pagina": 6,
+  "tipo": "parrafo",
+  "sangria": 2,
+  "lineas": [
+   "Léelo despacio. Sin prisa. Salta capítulos si quieres. Llora cuando lo",
+   "necesites."
+  ],
+  "texto": "Léelo despacio. Sin prisa. Salta capítulos si quieres. Llora cuando lo necesites."
+ },
+ {
+  "pagina": 6,
+  "tipo": "cita",
+  "sangria": 27,
+  "lineas": [
+   "No estás sola. No estás solo."
+  ],
+  "texto": "No estás sola. No estás solo."
+ },
+ {
+  "pagina": 6,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Con todo el cariño,",
+   "el equipo de Tremdora"
+  ],
+  "texto": "Con todo el cariño, el equipo de Tremdora"
+ },
+ {
+  "pagina": 7,
+  "tipo": "capitulo",
+  "sangria": 0,
+  "lineas": [
+   "CAPÍTULO I",
+   "Lo que está pasando dentro de",
+   "ti"
+  ],
+  "texto": "CAPÍTULO I Lo que está pasando dentro de ti"
+ },
+ {
+  "pagina": 7,
+  "tipo": "parrafo",
+  "sangria": 3,
+  "lineas": [
+   "«No me reconozco, no puedo dormir, no puedo comer»"
+  ],
+  "texto": "«No me reconozco, no puedo dormir, no puedo comer»"
+ },
+ {
+  "pagina": 7,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si en estos días te has sentido físicamente enferma o enfermo, no",
+   "estás imaginándolo. El duelo no es solo emocional. Es un proceso",
+   "neurobiológico que afecta a tu cuerpo entero."
+  ],
+  "texto": "Si en estos días te has sentido físicamente enferma o enfermo, no estás imaginándolo. El duelo no es solo emocional. Es un proceso neurobiológico que afecta a tu cuerpo entero."
+ },
+ {
+  "pagina": 7,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que pasa en tu cerebro"
+  ],
+  "texto": "Lo que pasa en tu cerebro"
+ },
+ {
+  "pagina": 7,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando perdemos a alguien que amamos —humano o animal— el",
+   "cerebro entra en lo que los neurocientíficos llaman respuesta de",
+   "protesta y búsqueda. Tu sistema nervioso ha estado entrenado",
+   "durante años para esperar la presencia de tu mascota: su olor, su",
+   "sonido al andar, el peso de su cuerpo en el sofá. Cuando esa",
+   "presencia desaparece de pronto, el cerebro no procesa la ausencia",
+   "como un hecho, sino como un error."
+  ],
+  "texto": "Cuando perdemos a alguien que amamos —humano o animal— el cerebro entra en lo que los neurocientíficos llaman respuesta de protesta y búsqueda. Tu sistema nervioso ha estado entrenado durante años para esperar la presencia de tu mascota: su olor, su sonido al andar, el peso de su cuerpo en el sofá. Cuando esa presencia desaparece de pronto, el cerebro no procesa la ausencia como un hecho, sino como un error."
+ },
+ {
+  "pagina": 7,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Por eso te giras pensando que la escuchas. Por eso crees verla por",
+   "el rabillo del ojo. Por eso te despiertas esperando sentirla a los pies",
+   "de la cama. No te estás volviendo loca. Tu cerebro está",
+   "aprendiendo, neurona a neurona, que ya no está."
+  ],
+  "texto": "Por eso te giras pensando que la escuchas. Por eso crees verla por el rabillo del ojo. Por eso te despiertas esperando sentirla a los pies de la cama. No te estás volviendo loca. Tu cerebro está aprendiendo, neurona a neurona, que ya no está."
+ },
+ {
+  "pagina": 8,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que pasa en tu cuerpo"
+  ],
+  "texto": "Lo que pasa en tu cuerpo"
+ },
+ {
+  "pagina": 8,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "El duelo eleva el cortisol —la hormona del estrés— durante",
+   "semanas. Eso explica el insomnio, la falta de hambre o el hambre",
+   "voraz, los dolores de cabeza, la opresión en el pecho, la sensación",
+   "de agotamiento que no se quita con dormir. También se reduce",
+   "temporalmente la actividad del sistema inmunitario: por eso",
+   "muchas personas pillan resfriados o se sienten enfermas en las",
+   "semanas siguientes a una pérdida."
+  ],
+  "texto": "El duelo eleva el cortisol —la hormona del estrés— durante semanas. Eso explica el insomnio, la falta de hambre o el hambre voraz, los dolores de cabeza, la opresión en el pecho, la sensación de agotamiento que no se quita con dormir. También se reduce temporalmente la actividad del sistema inmunitario: por eso muchas personas pillan resfriados o se sienten enfermas en las semanas siguientes a una pérdida."
+ },
+ {
+  "pagina": 8,
+  "tipo": "parrafo",
+  "sangria": 7,
+  "lineas": [
+   "Tu cuerpo no está fallando.",
+   "Tu cuerpo está reaccionando a algo enorme."
+  ],
+  "texto": "Tu cuerpo no está fallando. Tu cuerpo está reaccionando a algo enorme."
+ },
+ {
+  "pagina": 9,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Síntomas habituales (y normales) del duelo animal"
+  ],
+  "texto": "Síntomas habituales (y normales) del duelo animal"
+ },
+ {
+  "pagina": 9,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· Llorar de golpe, en cualquier momento, sin previo aviso.",
+   "· Buscar señales de tu mascota por la casa: su pelo en el sofá, sus",
+   "juguetes.",
+   "· Escuchar sonidos fantasma: su collar, sus pasos, su respiración.",
+   "· Culpa: «¿podría haber hecho más?», «¿esperé demasiado?».",
+   "· Rabia hacia el veterinario, hacia la vida, hacia ti.",
+   "· Vacío físico en el pecho o el estómago.",
+   "· Insomnio o sueño excesivo.",
+   "· Sensación de irrealidad, como si vivieras detrás de un cristal.",
+   "· Evitar lugares que asocias a ella (el parque, una habitación).",
+   "· Hablar con ella en voz alta. (Esto, además, es terapéutico)."
+  ],
+  "texto": "· Llorar de golpe, en cualquier momento, sin previo aviso. · Buscar señales de tu mascota por la casa: su pelo en el sofá, sus juguetes. · Escuchar sonidos fantasma: su collar, sus pasos, su respiración. · Culpa: «¿podría haber hecho más?», «¿esperé demasiado?». · Rabia hacia el veterinario, hacia la vida, hacia ti. · Vacío físico en el pecho o el estómago. · Insomnio o sueño excesivo. · Sensación de irrealidad, como si vivieras detrás de un cristal. · Evitar lugares que asocias a ella (el parque, una habitación). · Hablar con ella en voz alta. (Esto, además, es terapéutico)."
+ },
+ {
+  "pagina": 9,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si te identificas con varios de estos síntomas, respira. Estás atravesando",
+   "un proceso humano, antiguo, profundamente humano. Tu sistema",
+   "nervioso sabe lo que hace, aunque parezca caos."
+  ],
+  "texto": "Si te identificas con varios de estos síntomas, respira. Estás atravesando un proceso humano, antiguo, profundamente humano. Tu sistema nervioso sabe lo que hace, aunque parezca caos."
+ },
+ {
+  "pagina": 10,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 1 —",
+   "Anclaje corporal: cuando el dolor es demasiado"
+  ],
+  "texto": "— EJERCICIO 1 — Anclaje corporal: cuando el dolor es demasiado"
+ },
+ {
+  "pagina": 10,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando una ola de tristeza te sobrepase, prueba esto. No la elimina, pero",
+   "te ayuda a no ahogarte en ella:"
+  ],
+  "texto": "Cuando una ola de tristeza te sobrepase, prueba esto. No la elimina, pero te ayuda a no ahogarte en ella:"
+ },
+ {
+  "pagina": 10,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "1. Siéntate o túmbate. Pon una mano en el pecho y otra en el vientre."
+  ],
+  "texto": "1. Siéntate o túmbate. Pon una mano en el pecho y otra en el vientre."
+ },
+ {
+  "pagina": 10,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "2. Respira contando 4 segundos al inspirar, 6 al espirar. Repite 10 veces."
+  ],
+  "texto": "2. Respira contando 4 segundos al inspirar, 6 al espirar. Repite 10 veces."
+ },
+ {
+  "pagina": 10,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "3. Mientras respiras, di mentalmente: «esto duele, y voy a sobrevivirlo»."
+  ],
+  "texto": "3. Mientras respiras, di mentalmente: «esto duele, y voy a sobrevivirlo»."
+ },
+ {
+  "pagina": 10,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "4. Cuando termines, mira a tu alrededor y nombra 5 cosas que veas en",
+   "voz alta."
+  ],
+  "texto": "4. Cuando termines, mira a tu alrededor y nombra 5 cosas que veas en voz alta."
+ },
+ {
+  "pagina": 10,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: la respiración alargada activa el nervio vago y reduce",
+   "el cortisol en minutos. Nombrar objetos saca a tu cerebro del bucle",
+   "emocional y lo trae al presente."
+  ],
+  "texto": "Por qué funciona: la respiración alargada activa el nervio vago y reduce el cortisol en minutos. Nombrar objetos saca a tu cerebro del bucle emocional y lo trae al presente."
+ },
+ {
+  "pagina": 11,
+  "tipo": "capitulo",
+  "sangria": 14,
+  "lineas": [
+   "CAPÍTULO II",
+   "Por qué duele tanto"
+  ],
+  "texto": "CAPÍTULO II Por qué duele tanto"
+ },
+ {
+  "pagina": 11,
+  "tipo": "cita",
+  "sangria": 15,
+  "lineas": [
+   "El vínculo entre tu cerebro y el suyo"
+  ],
+  "texto": "El vínculo entre tu cerebro y el suyo"
+ },
+ {
+  "pagina": 11,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Hay una pregunta que muchas personas se hacen en silencio, con",
+   "vergüenza: «¿por qué me afecta esto tanto como cuando murió mi",
+   "abuelo?»"
+  ],
+  "texto": "Hay una pregunta que muchas personas se hacen en silencio, con vergüenza: «¿por qué me afecta esto tanto como cuando murió mi abuelo?»"
+ },
+ {
+  "pagina": 11,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "La neurociencia tiene una respuesta clara, y es importante que la",
+   "escuches: no estás exagerando. El vínculo con tu mascota activa,",
+   "literalmente, los mismos circuitos cerebrales que el vínculo con tus",
+   "hijos, con tu pareja, con tu familia."
+  ],
+  "texto": "La neurociencia tiene una respuesta clara, y es importante que la escuches: no estás exagerando. El vínculo con tu mascota activa, literalmente, los mismos circuitos cerebrales que el vínculo con tus hijos, con tu pareja, con tu familia."
+ },
+ {
+  "pagina": 11,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "La oxitocina compartida"
+  ],
+  "texto": "La oxitocina compartida"
+ },
+ {
+  "pagina": 11,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "En 2015, un estudio en la Universidad de Azabu (Japón) demostró",
+   "algo asombroso: cuando un perro y su persona se miran a los ojos,",
+   "ambos cerebros liberan oxitocina —la misma hormona que",
+   "segregan las madres con sus bebés cuando los amamantan—. El",
+   "mismo lazo bioquímico."
+  ],
+  "texto": "En 2015, un estudio en la Universidad de Azabu (Japón) demostró algo asombroso: cuando un perro y su persona se miran a los ojos, ambos cerebros liberan oxitocina —la misma hormona que segregan las madres con sus bebés cuando los amamantan—. El mismo lazo bioquímico."
+ },
+ {
+  "pagina": 11,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Con gatos pasa algo similar, aunque más sutil. El ronroneo de un",
+   "gato emite frecuencias entre 25 y 150 Hz, que en humanos reducen",
+   "la presión arterial y liberan serotonina. Por eso te calmaba."
+  ],
+  "texto": "Con gatos pasa algo similar, aunque más sutil. El ronroneo de un gato emite frecuencias entre 25 y 150 Hz, que en humanos reducen la presión arterial y liberan serotonina. Por eso te calmaba."
+ },
+ {
+  "pagina": 12,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Durante años, tu cerebro y el suyo se sincronizaron químicamente.",
+   "Vuestros sistemas nerviosos se regulaban el uno al otro. Cuando",
+   "llegabas a casa después de un mal día y os abrazabais, vuestras",
+   "frecuencias cardíacas se acompasaban. Literalmente."
+  ],
+  "texto": "Durante años, tu cerebro y el suyo se sincronizaron químicamente. Vuestros sistemas nerviosos se regulaban el uno al otro. Cuando llegabas a casa después de un mal día y os abrazabais, vuestras frecuencias cardíacas se acompasaban. Literalmente."
+ },
+ {
+  "pagina": 12,
+  "tipo": "parrafo",
+  "sangria": 9,
+  "lineas": [
+   "No has perdido a una mascota.",
+   "Has perdido una parte de tu propio sistema",
+   "nervioso."
+  ],
+  "texto": "No has perdido a una mascota. Has perdido una parte de tu propio sistema nervioso."
+ },
+ {
+  "pagina": 13,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "El duelo desautorizado"
+  ],
+  "texto": "El duelo desautorizado"
+ },
+ {
+  "pagina": 13,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "En psicología existe un concepto acuñado por el doctor Kenneth",
+   "Doka: el duelo desautorizado. Es el dolor que la sociedad no",
+   "reconoce como válido. El duelo por una mascota encaja",
+   "exactamente ahí."
+  ],
+  "texto": "En psicología existe un concepto acuñado por el doctor Kenneth Doka: el duelo desautorizado. Es el dolor que la sociedad no reconoce como válido. El duelo por una mascota encaja exactamente ahí."
+ },
+ {
+  "pagina": 13,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando muere un familiar humano, hay rituales: el funeral, la",
+   "condolencia, los días libres en el trabajo, la familia que se reúne.",
+   "Hay permiso social para llorar."
+  ],
+  "texto": "Cuando muere un familiar humano, hay rituales: el funeral, la condolencia, los días libres en el trabajo, la familia que se reúne. Hay permiso social para llorar."
+ },
+ {
+  "pagina": 13,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando muere tu mascota, vas a trabajar al día siguiente. La gente",
+   "te dice «lo siento» con incomodidad y cambia de tema. Algunos",
+   "sugieren, con buena intención y crueldad sin saberlo, que «adoptes",
+   "otra». Como si fueran intercambiables."
+  ],
+  "texto": "Cuando muere tu mascota, vas a trabajar al día siguiente. La gente te dice «lo siento» con incomodidad y cambia de tema. Algunos sugieren, con buena intención y crueldad sin saberlo, que «adoptes otra». Como si fueran intercambiables."
+ },
+ {
+  "pagina": 13,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Esa falta de reconocimiento social duplica el dolor. Porque no",
+   "solo lloras la pérdida: lloras también el aislamiento, la sensación",
+   "de que estás llorando demasiado, la culpa por sentir «demasiado»."
+  ],
+  "texto": "Esa falta de reconocimiento social duplica el dolor. Porque no solo lloras la pérdida: lloras también el aislamiento, la sensación de que estás llorando demasiado, la culpa por sentir «demasiado»."
+ },
+ {
+  "pagina": 13,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Por eso es importante que entiendas esto: tu dolor es legítimo. Tu",
+   "dolor merece espacio. Y si tu entorno no te lo da, vas a tener que",
+   "dártelo tú."
+  ],
+  "texto": "Por eso es importante que entiendas esto: tu dolor es legítimo. Tu dolor merece espacio. Y si tu entorno no te lo da, vas a tener que dártelo tú."
+ },
+ {
+  "pagina": 14,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 2 —",
+   "La carta que nunca le enviaste"
+  ],
+  "texto": "— EJERCICIO 2 — La carta que nunca le enviaste"
+ },
+ {
+  "pagina": 14,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Coge papel y bolígrafo. No vale el móvil, esto pide tinta y mano."
+  ],
+  "texto": "Coge papel y bolígrafo. No vale el móvil, esto pide tinta y mano."
+ },
+ {
+  "pagina": 14,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Escribe una carta a tu mascota. Empieza con «Querido / Querida [su",
+   "nombre]» y déjate ir. No corrijas, no tachas, no relees."
+  ],
+  "texto": "Escribe una carta a tu mascota. Empieza con «Querido / Querida [su nombre]» y déjate ir. No corrijas, no tachas, no relees."
+ },
+ {
+  "pagina": 14,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuéntale lo que no le dijiste. Lo que te dio. Lo que aprendiste con ella.",
+   "Lo que te duele ahora. Lo que te arrepientes. Lo que le agradeces."
+  ],
+  "texto": "Cuéntale lo que no le dijiste. Lo que te dio. Lo que aprendiste con ella. Lo que te duele ahora. Lo que te arrepientes. Lo que le agradeces."
+ },
+ {
+  "pagina": 14,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando termines, decide tú: puedes guardarla, puedes quemarla, puedes",
+   "enterrarla, puedes dejarla en su urna. Lo que sientas."
+  ],
+  "texto": "Cuando termines, decide tú: puedes guardarla, puedes quemarla, puedes enterrarla, puedes dejarla en su urna. Lo que sientas."
+ },
+ {
+  "pagina": 14,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: la escritura expresiva, estudiada por el psicólogo",
+   "James Pennebaker durante décadas, ha demostrado reducir el estrés,",
+   "mejorar el sistema inmunitario y acelerar el procesamiento del duelo.",
+   "Una sola sesión de 20 minutos tiene efectos medibles."
+  ],
+  "texto": "Por qué funciona: la escritura expresiva, estudiada por el psicólogo James Pennebaker durante décadas, ha demostrado reducir el estrés, mejorar el sistema inmunitario y acelerar el procesamiento del duelo. Una sola sesión de 20 minutos tiene efectos medibles."
+ },
+ {
+  "pagina": 15,
+  "tipo": "capitulo",
+  "sangria": 2,
+  "lineas": [
+   "CAPÍTULO III",
+   "Las fases que vas a atravesar"
+  ],
+  "texto": "CAPÍTULO III Las fases que vas a atravesar"
+ },
+ {
+  "pagina": 15,
+  "tipo": "cita",
+  "sangria": 13,
+  "lineas": [
+   "Un mapa para no perderte en el camino"
+  ],
+  "texto": "Un mapa para no perderte en el camino"
+ },
+ {
+  "pagina": 15,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "El duelo no es una línea recta. No vas de la tristeza a la aceptación",
+   "en cinco pasos ordenados. Es más bien un oleaje: vas y vienes, hay",
+   "días en que crees que estás mejor y al día siguiente vuelves al",
+   "principio sin avisar."
+  ],
+  "texto": "El duelo no es una línea recta. No vas de la tristeza a la aceptación en cinco pasos ordenados. Es más bien un oleaje: vas y vienes, hay días en que crees que estás mejor y al día siguiente vuelves al principio sin avisar."
+ },
+ {
+  "pagina": 15,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Aun así, conocer las fases ayuda. No porque te indiquen dónde",
+   "deberías estar, sino porque te permiten reconocer dónde estás sin",
+   "asustarte."
+  ],
+  "texto": "Aun así, conocer las fases ayuda. No porque te indiquen dónde deberías estar, sino porque te permiten reconocer dónde estás sin asustarte."
+ },
+ {
+  "pagina": 15,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "1 · Shock e incredulidad"
+  ],
+  "texto": "1 · Shock e incredulidad"
+ },
+ {
+  "pagina": 15,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Los primeros días, a veces las primeras semanas. Te cuesta creer",
+   "que ha pasado. Funcionas en automático. Puede que no llores.",
+   "Puede que llores sin parar. Las dos cosas son normales."
+  ],
+  "texto": "Los primeros días, a veces las primeras semanas. Te cuesta creer que ha pasado. Funcionas en automático. Puede que no llores. Puede que llores sin parar. Las dos cosas son normales."
+ },
+ {
+  "pagina": 15,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que necesitas aquí: descanso, comida sencilla, gente cercana.",
+   "No tomes decisiones importantes. No vacíes su cama todavía. No",
+   "regales sus juguetes. Espera."
+  ],
+  "texto": "Lo que necesitas aquí: descanso, comida sencilla, gente cercana. No tomes decisiones importantes. No vacíes su cama todavía. No regales sus juguetes. Espera."
+ },
+ {
+  "pagina": 16,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "2 · Dolor agudo"
+  ],
+  "texto": "2 · Dolor agudo"
+ },
+ {
+  "pagina": 16,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Pasadas las dos primeras semanas, el shock se rompe y entra el",
+   "dolor de verdad. Es la fase más dura. Llanto frecuente, anhelo",
+   "intenso, ganas de retroceder el tiempo. Aquí aparece la culpa con",
+   "fuerza: «debería haber visto las señales antes», «esperé",
+   "demasiado», «no estuve cuando murió»."
+  ],
+  "texto": "Pasadas las dos primeras semanas, el shock se rompe y entra el dolor de verdad. Es la fase más dura. Llanto frecuente, anhelo intenso, ganas de retroceder el tiempo. Aquí aparece la culpa con fuerza: «debería haber visto las señales antes», «esperé demasiado», «no estuve cuando murió»."
+ },
+ {
+  "pagina": 16,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que necesitas aquí: permitirte sentir. No huir. Hablar de él o",
+   "ella. Mirar sus fotos. Sentirlo todo, aunque duela. Lo que no se",
+   "siente, no se cura."
+  ],
+  "texto": "Lo que necesitas aquí: permitirte sentir. No huir. Hablar de él o ella. Mirar sus fotos. Sentirlo todo, aunque duela. Lo que no se siente, no se cura."
+ },
+ {
+  "pagina": 17,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "3 · Reorganización"
+  ],
+  "texto": "3 · Reorganización"
+ },
+ {
+  "pagina": 17,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Generalmente entre el mes y los tres meses, aunque varía mucho.",
+   "Empiezas a tener días buenos. Te sientes culpable de tenerlos.",
+   "Vuelves a reír y al instante piensas «¿cómo puedo estar",
+   "riéndome?»."
+  ],
+  "texto": "Generalmente entre el mes y los tres meses, aunque varía mucho. Empiezas a tener días buenos. Te sientes culpable de tenerlos. Vuelves a reír y al instante piensas «¿cómo puedo estar riéndome?»."
+ },
+ {
+  "pagina": 17,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Aquí es importante saber esto: reír no es traicionarlo. Tu mascota",
+   "no querría que dejaras de vivir. Lo que aprendiste a su lado",
+   "—querer sin medida, estar presente, alegrarte de las cosas",
+   "pequeñas— es exactamente lo que ahora tienes que aplicar a tu",
+   "propia vida."
+  ],
+  "texto": "Aquí es importante saber esto: reír no es traicionarlo. Tu mascota no querría que dejaras de vivir. Lo que aprendiste a su lado —querer sin medida, estar presente, alegrarte de las cosas pequeñas— es exactamente lo que ahora tienes que aplicar a tu propia vida."
+ },
+ {
+  "pagina": 17,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "4 · Integración"
+  ],
+  "texto": "4 · Integración"
+ },
+ {
+  "pagina": 17,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No es «superar». No vas a superarlo, porque no es algo que se",
+   "supere. Es algo que se integra. Llega un momento —tarda lo que",
+   "tarda, no hay calendario— en que su recuerdo deja de doler como",
+   "una herida y empieza a sentirse como un lugar cálido. Sigues",
+   "echándolo de menos, pero el recuerdo te abriga en lugar de",
+   "partirte."
+  ],
+  "texto": "No es «superar». No vas a superarlo, porque no es algo que se supere. Es algo que se integra. Llega un momento —tarda lo que tarda, no hay calendario— en que su recuerdo deja de doler como una herida y empieza a sentirse como un lugar cálido. Sigues echándolo de menos, pero el recuerdo te abriga en lugar de partirte."
+ },
+ {
+  "pagina": 17,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Aquí es cuando muchas personas deciden adoptar de nuevo. O no.",
+   "Las dos decisiones son válidas. Hablaremos de esto en el último",
+   "capítulo."
+  ],
+  "texto": "Aquí es cuando muchas personas deciden adoptar de nuevo. O no. Las dos decisiones son válidas. Hablaremos de esto en el último capítulo."
+ },
+ {
+  "pagina": 17,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No todas las personas atraviesan estas fases en orden. Algunas se saltan",
+   "una, otras vuelven atrás varias veces. Si después de seis meses sigues",
+   "sintiendo que no puedes funcionar —no sales, no comes, no duermes, no",
+   "encuentras sentido a nada— por favor, pide ayuda profesional. No es",
+   "debilidad. Es cuidarte como cuidarías de él o de ella."
+  ],
+  "texto": "No todas las personas atraviesan estas fases en orden. Algunas se saltan una, otras vuelven atrás varias veces. Si después de seis meses sigues sintiendo que no puedes funcionar —no sales, no comes, no duermes, no encuentras sentido a nada— por favor, pide ayuda profesional. No es debilidad. Es cuidarte como cuidarías de él o de ella."
+ },
+ {
+  "pagina": 18,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 3 —",
+   "El diario del oleaje"
+  ],
+  "texto": "— EJERCICIO 3 — El diario del oleaje"
+ },
+ {
+  "pagina": 18,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Durante los próximos 30 días, escribe cada noche, antes de dormir, una",
+   "sola frase:"
+  ],
+  "texto": "Durante los próximos 30 días, escribe cada noche, antes de dormir, una sola frase:"
+ },
+ {
+  "pagina": 18,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "«Hoy he sentido _________ y mi cuerpo ha estado _________»."
+  ],
+  "texto": "«Hoy he sentido _________ y mi cuerpo ha estado _________»."
+ },
+ {
+  "pagina": 18,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Solo eso. No más. No tienes que explicarte ni justificarte."
+  ],
+  "texto": "Solo eso. No más. No tienes que explicarte ni justificarte."
+ },
+ {
+  "pagina": 18,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Al final de los 30 días, relee. Vas a ver el oleaje en blanco y negro. Vas",
+   "a ver que los días no son todos iguales. Vas a ver cómo, sin que lo notes,",
+   "algo se mueve."
+  ],
+  "texto": "Al final de los 30 días, relee. Vas a ver el oleaje en blanco y negro. Vas a ver que los días no son todos iguales. Vas a ver cómo, sin que lo notes, algo se mueve."
+ },
+ {
+  "pagina": 18,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: nombrar las emociones reduce su intensidad en el",
+   "sistema límbico. Es lo que el neurocientífico Matthew Lieberman llama",
+   "«affect labeling»: poner palabras al sentir literalmente desactiva el",
+   "cerebro emocional y activa el racional."
+  ],
+  "texto": "Por qué funciona: nombrar las emociones reduce su intensidad en el sistema límbico. Es lo que el neurocientífico Matthew Lieberman llama «affect labeling»: poner palabras al sentir literalmente desactiva el cerebro emocional y activa el racional."
+ },
+ {
+  "pagina": 19,
+  "tipo": "capitulo",
+  "sangria": 11,
+  "lineas": [
+   "CAPÍTULO IV",
+   "«Era solo un animal»"
+  ],
+  "texto": "CAPÍTULO IV «Era solo un animal»"
+ },
+ {
+  "pagina": 19,
+  "tipo": "subtitulo",
+  "sangria": 9,
+  "lineas": [
+   "Cuando los demás no entienden lo que te pasa"
+  ],
+  "texto": "Cuando los demás no entienden lo que te pasa"
+ },
+ {
+  "pagina": 19,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Vas a oír frases que te van a doler. Te las dirán personas que te",
+   "quieren, con buena intención, sin saber el daño que hacen. Estas",
+   "son las más comunes:"
+  ],
+  "texto": "Vas a oír frases que te van a doler. Te las dirán personas que te quieren, con buena intención, sin saber el daño que hacen. Estas son las más comunes:"
+ },
+ {
+  "pagina": 19,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· «Era solo un perro / un gato»",
+   "· «Adopta otro y verás cómo se te pasa»",
+   "· «Por lo menos no era una persona»",
+   "· «Ya estaba mayor, era su hora»",
+   "· «Hay gente con problemas peores»",
+   "· «Tienes que ser fuerte»",
+   "· «Llevas mucho tiempo así, ¿no?»"
+  ],
+  "texto": "· «Era solo un perro / un gato» · «Adopta otro y verás cómo se te pasa» · «Por lo menos no era una persona» · «Ya estaba mayor, era su hora» · «Hay gente con problemas peores» · «Tienes que ser fuerte» · «Llevas mucho tiempo así, ¿no?»"
+ },
+ {
+  "pagina": 19,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No tienes que justificar tu dolor ante nadie. No tienes que medirlo,",
+   "compararlo, ni explicar por qué te afecta tanto. Tu dolor no",
+   "necesita aprobación externa para existir."
+  ],
+  "texto": "No tienes que justificar tu dolor ante nadie. No tienes que medirlo, compararlo, ni explicar por qué te afecta tanto. Tu dolor no necesita aprobación externa para existir."
+ },
+ {
+  "pagina": 19,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Qué responder (o no responder)"
+  ],
+  "texto": "Qué responder (o no responder)"
+ },
+ {
+  "pagina": 20,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Tienes derecho a no entrar en debates sobre tu duelo. Algunas",
+   "respuestas que te pueden servir:"
+  ],
+  "texto": "Tienes derecho a no entrar en debates sobre tu duelo. Algunas respuestas que te pueden servir:"
+ },
+ {
+  "pagina": 20,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· «Para mí no era 'solo'. Era familia. Gracias por preguntar».",
+   "· «Cada uno vive el duelo a su ritmo. Yo estoy en el mío».",
+   "· «No necesito que lo entiendas, solo que me acompañes».",
+   "· Silencio. Cambiar de tema. Alejarte. También es válido."
+  ],
+  "texto": "· «Para mí no era 'solo'. Era familia. Gracias por preguntar». · «Cada uno vive el duelo a su ritmo. Yo estoy en el mío». · «No necesito que lo entiendas, solo que me acompañes». · Silencio. Cambiar de tema. Alejarte. También es válido."
+ },
+ {
+  "pagina": 21,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Busca tu gente"
+  ],
+  "texto": "Busca tu gente"
+ },
+ {
+  "pagina": 21,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "En el duelo animal, encontrar a otras personas que también lo han",
+   "atravesado es uno de los gestos más sanadores que puedes hacer.",
+   "No porque te vayan a quitar el dolor, sino porque te van a decir",
+   "—con sus palabras o con su silencio— que no estás sola, ni loca,",
+   "ni exagerando."
+  ],
+  "texto": "En el duelo animal, encontrar a otras personas que también lo han atravesado es uno de los gestos más sanadores que puedes hacer. No porque te vayan a quitar el dolor, sino porque te van a decir —con sus palabras o con su silencio— que no estás sola, ni loca, ni exagerando."
+ },
+ {
+  "pagina": 21,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Hay grupos online de duelo animal, hay foros, hay perfiles en",
+   "redes. Hay también psicólogos especializados en duelo de",
+   "mascotas; cada vez más, porque cada vez se reconoce más este",
+   "dolor. Si puedes permitirte una sesión, búscalo. No tiene por qué",
+   "ser un proceso largo; a veces con tres o cuatro sesiones se",
+   "acompaña el momento más duro."
+  ],
+  "texto": "Hay grupos online de duelo animal, hay foros, hay perfiles en redes. Hay también psicólogos especializados en duelo de mascotas; cada vez más, porque cada vez se reconoce más este dolor. Si puedes permitirte una sesión, búscalo. No tiene por qué ser un proceso largo; a veces con tres o cuatro sesiones se acompaña el momento más duro."
+ },
+ {
+  "pagina": 22,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 4 —",
+   "Tu círculo seguro"
+  ],
+  "texto": "— EJERCICIO 4 — Tu círculo seguro"
+ },
+ {
+  "pagina": 22,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Coge una hoja. Dibuja un círculo pequeño en el centro y escribe tu",
+   "nombre dentro."
+  ],
+  "texto": "Coge una hoja. Dibuja un círculo pequeño en el centro y escribe tu nombre dentro."
+ },
+ {
+  "pagina": 22,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Alrededor, dibuja otro círculo más grande. Dentro escribe los nombres",
+   "de las personas con las que sí puedes hablar de tu mascota sin que",
+   "minimicen tu dolor. Pueden ser tres. Pueden ser una sola. Pueden ser de",
+   "tu familia, amigos, o de internet."
+  ],
+  "texto": "Alrededor, dibuja otro círculo más grande. Dentro escribe los nombres de las personas con las que sí puedes hablar de tu mascota sin que minimicen tu dolor. Pueden ser tres. Pueden ser una sola. Pueden ser de tu familia, amigos, o de internet."
+ },
+ {
+  "pagina": 22,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Más afuera, dibuja un tercer círculo. Ahí escribe los nombres de las",
+   "personas con las que no vas a hablar de esto. No porque les odies.",
+   "Porque protegerte es legítimo."
+  ],
+  "texto": "Más afuera, dibuja un tercer círculo. Ahí escribe los nombres de las personas con las que no vas a hablar de esto. No porque les odies. Porque protegerte es legítimo."
+ },
+ {
+  "pagina": 22,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando aparezca el dolor, recurre primero al círculo del medio. No",
+   "malgastes tu tristeza con quien no la sabe sostener."
+  ],
+  "texto": "Cuando aparezca el dolor, recurre primero al círculo del medio. No malgastes tu tristeza con quien no la sabe sostener."
+ },
+ {
+  "pagina": 22,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: en los duelos, el apoyo social es uno de los factores",
+   "que más predicen una buena integración. Pero el apoyo malo —el que",
+   "minimiza o juzga— hace más daño que la soledad. Filtrar es cuidarte."
+  ],
+  "texto": "Por qué funciona: en los duelos, el apoyo social es uno de los factores que más predicen una buena integración. Pero el apoyo malo —el que minimiza o juzga— hace más daño que la soledad. Filtrar es cuidarte."
+ },
+ {
+  "pagina": 23,
+  "tipo": "capitulo",
+  "sangria": 10,
+  "lineas": [
+   "CAPÍTULO V",
+   "Si tuviste que tomar la",
+   "decisión"
+  ],
+  "texto": "CAPÍTULO V Si tuviste que tomar la decisión"
+ },
+ {
+  "pagina": 23,
+  "tipo": "subtitulo",
+  "sangria": 8,
+  "lineas": [
+   "Sobre la eutanasia y la culpa que viene después"
+  ],
+  "texto": "Sobre la eutanasia y la culpa que viene después"
+ },
+ {
+  "pagina": 23,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Este capítulo es para ti si tuviste que decidir. Si estuviste en esa",
+   "sala. Si firmaste ese papel. Si lo sostuviste en tus brazos mientras",
+   "se iba."
+  ],
+  "texto": "Este capítulo es para ti si tuviste que decidir. Si estuviste en esa sala. Si firmaste ese papel. Si lo sostuviste en tus brazos mientras se iba."
+ },
+ {
+  "pagina": 23,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Quiero decírtelo claro, porque sé que probablemente lleves días o",
+   "semanas dándole vueltas: tomar la decisión de acabar con su",
+   "sufrimiento fue el último acto de amor que pudiste darle. No",
+   "fue matarlo. Fue dejarlo ir."
+  ],
+  "texto": "Quiero decírtelo claro, porque sé que probablemente lleves días o semanas dándole vueltas: tomar la decisión de acabar con su sufrimiento fue el último acto de amor que pudiste darle. No fue matarlo. Fue dejarlo ir."
+ },
+ {
+  "pagina": 23,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "La culpa es una mentira de tu cerebro"
+  ],
+  "texto": "La culpa es una mentira de tu cerebro"
+ },
+ {
+  "pagina": 23,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando perdemos a alguien, el cerebro humano hace algo cruel:",
+   "busca compulsivamente qué podríamos haber hecho distinto. Es un",
+   "mecanismo evolutivo —antes nos servía para aprender de los",
+   "peligros— pero en el duelo se convierte en una tortura inútil."
+  ],
+  "texto": "Cuando perdemos a alguien, el cerebro humano hace algo cruel: busca compulsivamente qué podríamos haber hecho distinto. Es un mecanismo evolutivo —antes nos servía para aprender de los peligros— pero en el duelo se convierte en una tortura inútil."
+ },
+ {
+  "pagina": 24,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Vas a repasar mentalmente los últimos meses, los últimos días, los",
+   "últimos minutos. «¿Esperé demasiado?», «¿Me adelanté?»,",
+   "«¿Sufrió?», «¿Lo entendió?». Esta culpa es un síntoma del duelo,",
+   "no una verdad sobre lo que hiciste."
+  ],
+  "texto": "Vas a repasar mentalmente los últimos meses, los últimos días, los últimos minutos. «¿Esperé demasiado?», «¿Me adelanté?», «¿Sufrió?», «¿Lo entendió?». Esta culpa es un síntoma del duelo, no una verdad sobre lo que hiciste."
+ },
+ {
+  "pagina": 24,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Tú no podías saber el día exacto. Nadie puede. Hiciste lo que",
+   "pudiste con la información que tenías. Y le ahorraste un",
+   "sufrimiento que él o ella no podía contarte pero sí estaba teniendo."
+  ],
+  "texto": "Tú no podías saber el día exacto. Nadie puede. Hiciste lo que pudiste con la información que tenías. Y le ahorraste un sufrimiento que él o ella no podía contarte pero sí estaba teniendo."
+ },
+ {
+  "pagina": 24,
+  "tipo": "cita",
+  "sangria": 13,
+  "lineas": [
+   "El último regalo que le hiciste",
+   "fue no obligarle a quedarse contigo."
+  ],
+  "texto": "El último regalo que le hiciste fue no obligarle a quedarse contigo."
+ },
+ {
+  "pagina": 25,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que la neurociencia sabe del sufrimiento animal"
+  ],
+  "texto": "Lo que la neurociencia sabe del sufrimiento animal"
+ },
+ {
+  "pagina": 25,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si te tortura preguntarte si entendió lo que pasaba, te voy a contar",
+   "lo que sabemos: los mamíferos —perros, gatos— sienten dolor",
+   "físico y angustia, sí, pero no tienen la conciencia anticipatoria de la",
+   "muerte que tenemos los humanos. No piensan «voy a morir». No",
+   "tienen ese sufrimiento añadido."
+  ],
+  "texto": "Si te tortura preguntarte si entendió lo que pasaba, te voy a contar lo que sabemos: los mamíferos —perros, gatos— sienten dolor físico y angustia, sí, pero no tienen la conciencia anticipatoria de la muerte que tenemos los humanos. No piensan «voy a morir». No tienen ese sufrimiento añadido."
+ },
+ {
+  "pagina": 25,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que sí sienten, hasta el último momento, es tu presencia. Tu",
+   "voz. Tu olor. Tus manos."
+  ],
+  "texto": "Lo que sí sienten, hasta el último momento, es tu presencia. Tu voz. Tu olor. Tus manos."
+ },
+ {
+  "pagina": 25,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si estuviste ahí, fue lo único que necesitaba.",
+   "Si no pudiste estar —porque no llegaste, porque no te dejaron,",
+   "porque no pudiste soportarlo—, eso tampoco es una falta. A veces",
+   "la vida no nos deja estar como queremos. No te castigues por una",
+   "circunstancia."
+  ],
+  "texto": "Si estuviste ahí, fue lo único que necesitaba. Si no pudiste estar —porque no llegaste, porque no te dejaron, porque no pudiste soportarlo—, eso tampoco es una falta. A veces la vida no nos deja estar como queremos. No te castigues por una circunstancia."
+ },
+ {
+  "pagina": 26,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 5 —",
+   "Devolverle la decisión a quien le correspondía"
+  ],
+  "texto": "— EJERCICIO 5 — Devolverle la decisión a quien le correspondía"
+ },
+ {
+  "pagina": 26,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si la culpa por la eutanasia te visita en bucle, prueba esto:"
+  ],
+  "texto": "Si la culpa por la eutanasia te visita en bucle, prueba esto:"
+ },
+ {
+  "pagina": 26,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Imagina que tu mascota pudiera hablarte ahora. Que pudieras",
+   "preguntarle, mirándole a los ojos, una sola cosa: «¿Tomé la decisión",
+   "correcta?»."
+  ],
+  "texto": "Imagina que tu mascota pudiera hablarte ahora. Que pudieras preguntarle, mirándole a los ojos, una sola cosa: «¿Tomé la decisión correcta?»."
+ },
+ {
+  "pagina": 26,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cierra los ojos. Espera. Escucha lo que te respondería. No lo que tú",
+   "quieres oír. Lo que él o ella te diría."
+  ],
+  "texto": "Cierra los ojos. Espera. Escucha lo que te respondería. No lo que tú quieres oír. Lo que él o ella te diría."
+ },
+ {
+  "pagina": 26,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Las personas que hacen este ejercicio coinciden, casi sin excepción, en",
+   "la misma respuesta: «Gracias. Hiciste lo que tenías que hacer. Estoy",
+   "bien»."
+  ],
+  "texto": "Las personas que hacen este ejercicio coinciden, casi sin excepción, en la misma respuesta: «Gracias. Hiciste lo que tenías que hacer. Estoy bien»."
+ },
+ {
+  "pagina": 26,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Quédate con esa respuesta. Es real. Es la suya."
+  ],
+  "texto": "Quédate con esa respuesta. Es real. Es la suya."
+ },
+ {
+  "pagina": 26,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: esta técnica, llamada «silla vacía» en terapia Gestalt,",
+   "permite externalizar diálogos internos atascados. El cerebro, al darle voz",
+   "al otro, libera parte del peso emocional que la culpa carga sin destino."
+  ],
+  "texto": "Por qué funciona: esta técnica, llamada «silla vacía» en terapia Gestalt, permite externalizar diálogos internos atascados. El cerebro, al darle voz al otro, libera parte del peso emocional que la culpa carga sin destino."
+ },
+ {
+  "pagina": 27,
+  "tipo": "capitulo",
+  "sangria": 2,
+  "lineas": [
+   "CAPÍTULO VI",
+   "Ejercicios para acompañarte"
+  ],
+  "texto": "CAPÍTULO VI Ejercicios para acompañarte"
+ },
+ {
+  "pagina": 27,
+  "tipo": "cita",
+  "sangria": 14,
+  "lineas": [
+   "Herramientas para los días difíciles"
+  ],
+  "texto": "Herramientas para los días difíciles"
+ },
+ {
+  "pagina": 27,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Aquí tienes una serie de ejercicios diseñados desde la psicología",
+   "basada en evidencia. Úsalos cuando los necesites. No tienes que",
+   "hacerlos todos, ni en orden. Algunos te van a resonar más que",
+   "otros. Confía en lo que tu cuerpo te pida."
+  ],
+  "texto": "Aquí tienes una serie de ejercicios diseñados desde la psicología basada en evidencia. Úsalos cuando los necesites. No tienes que hacerlos todos, ni en orden. Algunos te van a resonar más que otros. Confía en lo que tu cuerpo te pida."
+ },
+ {
+  "pagina": 28,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 6 —",
+   "Las tres cosas que me enseñó"
+  ],
+  "texto": "— EJERCICIO 6 — Las tres cosas que me enseñó"
+ },
+ {
+  "pagina": 28,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Coge un cuaderno. Escribe en la primera página, arriba: «Lo que [su",
+   "nombre] me enseñó»."
+  ],
+  "texto": "Coge un cuaderno. Escribe en la primera página, arriba: «Lo que [su nombre] me enseñó»."
+ },
+ {
+  "pagina": 28,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cada noche, durante una semana, escribe una sola cosa que aprendiste",
+   "de él o ella. Puede ser diminuta. Puede ser enorme."
+  ],
+  "texto": "Cada noche, durante una semana, escribe una sola cosa que aprendiste de él o ella. Puede ser diminuta. Puede ser enorme."
+ },
+ {
+  "pagina": 28,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Ejemplos: «Me enseñó a alegrarme cuando alguien vuelve a casa».",
+   "«Me enseñó que un rato al sol arregla muchas cosas». «Me enseñó a",
+   "estar presente»."
+  ],
+  "texto": "Ejemplos: «Me enseñó a alegrarme cuando alguien vuelve a casa». «Me enseñó que un rato al sol arregla muchas cosas». «Me enseñó a estar presente»."
+ },
+ {
+  "pagina": 28,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Al cabo de la semana tendrás siete frases. Léelas. Esas son tu herencia.",
+   "Eso no se va con él."
+  ],
+  "texto": "Al cabo de la semana tendrás siete frases. Léelas. Esas son tu herencia. Eso no se va con él."
+ },
+ {
+  "pagina": 28,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: los estudios sobre meaning-making en duelo",
+   "—liderados por la psicóloga Robert Neimeyer— muestran que las",
+   "personas que encuentran significado en la pérdida integran el duelo",
+   "mucho mejor que las que se quedan en el dolor puro."
+  ],
+  "texto": "Por qué funciona: los estudios sobre meaning-making en duelo —liderados por la psicóloga Robert Neimeyer— muestran que las personas que encuentran significado en la pérdida integran el duelo mucho mejor que las que se quedan en el dolor puro."
+ },
+ {
+  "pagina": 29,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 7 —",
+   "El paseo simbólico"
+  ],
+  "texto": "— EJERCICIO 7 — El paseo simbólico"
+ },
+ {
+  "pagina": 29,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si tu mascota era un perro y teníais paseos habituales, este ejercicio te",
+   "va a doler al principio y a sanarte después."
+  ],
+  "texto": "Si tu mascota era un perro y teníais paseos habituales, este ejercicio te va a doler al principio y a sanarte después."
+ },
+ {
+  "pagina": 29,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Elige un día. Vístete como te vestías para sacarlo. Coge su correa si la",
+   "conservas. Sal sola o solo —o con alguien de tu círculo seguro— y haz",
+   "el paseo que hacíais juntos."
+  ],
+  "texto": "Elige un día. Vístete como te vestías para sacarlo. Coge su correa si la conservas. Sal sola o solo —o con alguien de tu círculo seguro— y haz el paseo que hacíais juntos."
+ },
+ {
+  "pagina": 29,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Llora si necesitas. Habla con él o con ella. Mira los sitios donde olía,",
+   "donde se paraba, donde se sentaba a esperar."
+  ],
+  "texto": "Llora si necesitas. Habla con él o con ella. Mira los sitios donde olía, donde se paraba, donde se sentaba a esperar."
+ },
+ {
+  "pagina": 29,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Al final del paseo, di en voz alta: «Gracias por todos los paseos. Voy a",
+   "seguir caminando, y a veces te traeré conmigo»."
+  ],
+  "texto": "Al final del paseo, di en voz alta: «Gracias por todos los paseos. Voy a seguir caminando, y a veces te traeré conmigo»."
+ },
+ {
+  "pagina": 29,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: los rituales de transición son una de las herramientas",
+   "más antiguas y eficaces del duelo. Activan procesos cerebrales de cierre",
+   "que el simple pensamiento no consigue."
+  ],
+  "texto": "Por qué funciona: los rituales de transición son una de las herramientas más antiguas y eficaces del duelo. Activan procesos cerebrales de cierre que el simple pensamiento no consigue."
+ },
+ {
+  "pagina": 30,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 8 —",
+   "El objeto puente"
+  ],
+  "texto": "— EJERCICIO 8 — El objeto puente"
+ },
+ {
+  "pagina": 30,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Elige un objeto que fuera suyo. Su collar. Su juguete favorito. Su manta.",
+   "Su cepillo."
+  ],
+  "texto": "Elige un objeto que fuera suyo. Su collar. Su juguete favorito. Su manta. Su cepillo."
+ },
+ {
+  "pagina": 30,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Ese objeto va a ser tu «objeto puente»: el que tocas cuando necesitas",
+   "sentirla cerca."
+  ],
+  "texto": "Ese objeto va a ser tu «objeto puente»: el que tocas cuando necesitas sentirla cerca."
+ },
+ {
+  "pagina": 30,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Tenlo en un lugar visible pero protegido. No en el fondo de un cajón.",
+   "Tampoco en mitad del salón. Un sitio que sea tuyo, íntimo."
+  ],
+  "texto": "Tenlo en un lugar visible pero protegido. No en el fondo de un cajón. Tampoco en mitad del salón. Un sitio que sea tuyo, íntimo."
+ },
+ {
+  "pagina": 30,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando lo necesites, cógelo. Acaríciala a través de él. Llora si quieres.",
+   "Habla. Recuerda."
+  ],
+  "texto": "Cuando lo necesites, cógelo. Acaríciala a través de él. Llora si quieres. Habla. Recuerda."
+ },
+ {
+  "pagina": 30,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Con el tiempo, dejarás de necesitarlo tan a menudo. Eso no será",
+   "olvidarlo. Será integrarlo."
+  ],
+  "texto": "Con el tiempo, dejarás de necesitarlo tan a menudo. Eso no será olvidarlo. Será integrarlo."
+ },
+ {
+  "pagina": 30,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: los objetos transicionales —concepto del",
+   "psicoanalista Donald Winnicott— permiten al cerebro mantener el",
+   "vínculo emocional con quien no está, sin necesidad de su presencia",
+   "física. Son anclajes de amor."
+  ],
+  "texto": "Por qué funciona: los objetos transicionales —concepto del psicoanalista Donald Winnicott— permiten al cerebro mantener el vínculo emocional con quien no está, sin necesidad de su presencia física. Son anclajes de amor."
+ },
+ {
+  "pagina": 31,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 9 —",
+   "La caja de la memoria"
+  ],
+  "texto": "— EJERCICIO 9 — La caja de la memoria"
+ },
+ {
+  "pagina": 31,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Consigue una caja bonita. Una de madera, una de cartón forrado, una de",
+   "las que ya tienes en casa y te gusta."
+  ],
+  "texto": "Consigue una caja bonita. Una de madera, una de cartón forrado, una de las que ya tienes en casa y te gusta."
+ },
+ {
+  "pagina": 31,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Ve metiendo dentro, sin prisa, durante las próximas semanas, todo lo",
+   "que quieras conservar de tu mascota: una foto impresa, un mechón de",
+   "pelo, su placa, su correa, el dibujo de su huella, una hoja de su árbol",
+   "favorito, una nota tuya contando una anécdota."
+  ],
+  "texto": "Ve metiendo dentro, sin prisa, durante las próximas semanas, todo lo que quieras conservar de tu mascota: una foto impresa, un mechón de pelo, su placa, su correa, el dibujo de su huella, una hoja de su árbol favorito, una nota tuya contando una anécdota."
+ },
+ {
+  "pagina": 31,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Esta caja no es para abrirla todos los días. Es para tenerla, saber que",
+   "existe, y abrirla en aniversarios, en cumpleaños suyos, en días difíciles."
+  ],
+  "texto": "Esta caja no es para abrirla todos los días. Es para tenerla, saber que existe, y abrirla en aniversarios, en cumpleaños suyos, en días difíciles."
+ },
+ {
+  "pagina": 31,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Es su «archivo de amor». Y un día —puede que dentro de mucho— se",
+   "lo enseñarás a alguien y le contarás quién fue."
+  ],
+  "texto": "Es su «archivo de amor». Y un día —puede que dentro de mucho— se lo enseñarás a alguien y le contarás quién fue."
+ },
+ {
+  "pagina": 31,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: tener un espacio físico delimitado para el recuerdo",
+   "evita que el duelo invada todos los rincones de tu casa y,",
+   "paradójicamente, te permite acceder al recuerdo de forma más sana y",
+   "elegida."
+  ],
+  "texto": "Por qué funciona: tener un espacio físico delimitado para el recuerdo evita que el duelo invada todos los rincones de tu casa y, paradójicamente, te permite acceder al recuerdo de forma más sana y elegida."
+ },
+ {
+  "pagina": 32,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 10 —",
+   "Respiración del cariño"
+  ],
+  "texto": "— EJERCICIO 10 — Respiración del cariño"
+ },
+ {
+  "pagina": 32,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando una ola de tristeza muy fuerte llegue, prueba esta meditación",
+   "corta, de cinco minutos:"
+  ],
+  "texto": "Cuando una ola de tristeza muy fuerte llegue, prueba esta meditación corta, de cinco minutos:"
+ },
+ {
+  "pagina": 32,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "1. Siéntate cómoda. Cierra los ojos. Respira normal."
+  ],
+  "texto": "1. Siéntate cómoda. Cierra los ojos. Respira normal."
+ },
+ {
+  "pagina": 32,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "2. Imagínalo o imagínala. Su cara. Su pelaje. Su olor."
+  ],
+  "texto": "2. Imagínalo o imagínala. Su cara. Su pelaje. Su olor."
+ },
+ {
+  "pagina": 32,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "3. Inspira y di mentalmente: «Gracias por haber estado»."
+  ],
+  "texto": "3. Inspira y di mentalmente: «Gracias por haber estado»."
+ },
+ {
+  "pagina": 32,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "4. Espira y di: «Te llevo conmigo»."
+  ],
+  "texto": "4. Espira y di: «Te llevo conmigo»."
+ },
+ {
+  "pagina": 32,
+  "tipo": "numerada",
+  "sangria": 0,
+  "lineas": [
+   "5. Repite durante cinco minutos. Llora si llega."
+  ],
+  "texto": "5. Repite durante cinco minutos. Llora si llega."
+ },
+ {
+  "pagina": 32,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Al terminar, agradece a tu cuerpo. No te levantes corriendo. Quédate un",
+   "minuto en silencio."
+  ],
+  "texto": "Al terminar, agradece a tu cuerpo. No te levantes corriendo. Quédate un minuto en silencio."
+ },
+ {
+  "pagina": 32,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: combinar respiración consciente con visualización y",
+   "afirmaciones activa simultáneamente el sistema nervioso parasimpático",
+   "y refuerza vías neuronales asociadas al recuerdo positivo. Reduce la",
+   "angustia y refuerza el vínculo sano con la memoria."
+  ],
+  "texto": "Por qué funciona: combinar respiración consciente con visualización y afirmaciones activa simultáneamente el sistema nervioso parasimpático y refuerza vías neuronales asociadas al recuerdo positivo. Reduce la angustia y refuerza el vínculo sano con la memoria."
+ },
+ {
+  "pagina": 33,
+  "tipo": "capitulo",
+  "sangria": 5,
+  "lineas": [
+   "CAPÍTULO VII",
+   "Un lugar para su recuerdo"
+  ],
+  "texto": "CAPÍTULO VII Un lugar para su recuerdo"
+ },
+ {
+  "pagina": 33,
+  "tipo": "cita",
+  "sangria": 16,
+  "lineas": [
+   "Sobre rituales, urnas y memoriales"
+  ],
+  "texto": "Sobre rituales, urnas y memoriales"
+ },
+ {
+  "pagina": 33,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Durante milenios, todas las culturas humanas han creado rituales y",
+   "espacios para sus muertos. No es casualidad: el cerebro humano",
+   "necesita lugares físicos donde poder dirigir el amor que ya no",
+   "tiene destinatario vivo. Los altares, las tumbas, los memoriales no",
+   "son superstición ni capricho: son una necesidad neurológica."
+  ],
+  "texto": "Durante milenios, todas las culturas humanas han creado rituales y espacios para sus muertos. No es casualidad: el cerebro humano necesita lugares físicos donde poder dirigir el amor que ya no tiene destinatario vivo. Los altares, las tumbas, los memoriales no son superstición ni capricho: son una necesidad neurológica."
+ },
+ {
+  "pagina": 33,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cuando tu mascota muere, te quedas con un amor enorme y sin",
+   "lugar donde ponerlo. Crearle un espacio —pequeño, íntimo,",
+   "bonito— le da a tu sistema nervioso un lugar donde aterrizar."
+  ],
+  "texto": "Cuando tu mascota muere, te quedas con un amor enorme y sin lugar donde ponerlo. Crearle un espacio —pequeño, íntimo, bonito— le da a tu sistema nervioso un lugar donde aterrizar."
+ },
+ {
+  "pagina": 33,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Cómo crear su rincón"
+  ],
+  "texto": "Cómo crear su rincón"
+ },
+ {
+  "pagina": 33,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No hace falta que sea grande, ni elaborado. Una estantería. Una",
+   "mesilla. Una repisa de la chimenea. Un alféizar. Un rincón que sea",
+   "suyo."
+  ],
+  "texto": "No hace falta que sea grande, ni elaborado. Una estantería. Una mesilla. Una repisa de la chimenea. Un alféizar. Un rincón que sea suyo."
+ },
+ {
+  "pagina": 33,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Elementos que suelen acompañar:"
+  ],
+  "texto": "Elementos que suelen acompañar:"
+ },
+ {
+  "pagina": 33,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· Su urna o cofre, en el centro."
+  ],
+  "texto": "· Su urna o cofre, en el centro."
+ },
+ {
+  "pagina": 34,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· Una foto tuya con él o ella en un buen día.",
+   "· Una vela —encendida solo cuando quieres acompañarla—.",
+   "· Una planta viva: ayuda mucho que haya algo verde y vivo en ese",
+   "espacio.",
+   "· Un objeto suyo: el collar, su juguete favorito.",
+   "· Una piedra, una concha, algo que recogiste en un paseo con él o",
+   "ella."
+  ],
+  "texto": "· Una foto tuya con él o ella en un buen día. · Una vela —encendida solo cuando quieres acompañarla—. · Una planta viva: ayuda mucho que haya algo verde y vivo en ese espacio. · Un objeto suyo: el collar, su juguete favorito. · Una piedra, una concha, algo que recogiste en un paseo con él o ella."
+ },
+ {
+  "pagina": 35,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "La urna como acto de amor"
+  ],
+  "texto": "La urna como acto de amor"
+ },
+ {
+  "pagina": 35,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si has elegido guardar sus cenizas, la urna no es un recipiente",
+   "cualquiera. Es el lugar donde reposa quien te acompañó cada día",
+   "durante años. Mereces que sea bonita. Mereces que te guste",
+   "mirarla. Que no tengas que esconderla."
+  ],
+  "texto": "Si has elegido guardar sus cenizas, la urna no es un recipiente cualquiera. Es el lugar donde reposa quien te acompañó cada día durante años. Mereces que sea bonita. Mereces que te guste mirarla. Que no tengas que esconderla."
+ },
+ {
+  "pagina": 35,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "En Tremdora creemos que estas urnas no deberían parecer urnas.",
+   "Deberían parecer lo que son: pequeñas obras hechas a mano, una a",
+   "una, para sostener un amor enorme. Por eso cada pieza se trabaja",
+   "durante días, se firma y se entrega como lo que es: un objeto de",
+   "cuidado."
+  ],
+  "texto": "En Tremdora creemos que estas urnas no deberían parecer urnas. Deberían parecer lo que son: pequeñas obras hechas a mano, una a una, para sostener un amor enorme. Por eso cada pieza se trabaja durante días, se firma y se entrega como lo que es: un objeto de cuidado."
+ },
+ {
+  "pagina": 35,
+  "tipo": "parrafo",
+  "sangria": 8,
+  "lineas": [
+   "Lo que quieres en ese rincón",
+   "no es una caja: es un sitio bonito para ella."
+  ],
+  "texto": "Lo que quieres en ese rincón no es una caja: es un sitio bonito para ella."
+ },
+ {
+  "pagina": 36,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 11 —",
+   "El ritual del primer día"
+  ],
+  "texto": "— EJERCICIO 11 — El ritual del primer día"
+ },
+ {
+  "pagina": 36,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "El día que coloques su urna o crees su rincón, no lo hagas en silencio ni",
+   "en automático. Conviértelo en un pequeño ritual."
+  ],
+  "texto": "El día que coloques su urna o crees su rincón, no lo hagas en silencio ni en automático. Conviértelo en un pequeño ritual."
+ },
+ {
+  "pagina": 36,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Reúne las cosas que vas a poner. Pon música —algo suave, algo que",
+   "asociaras a momentos buenos con ella—. Si quieres, invita a alguien que",
+   "también la quería."
+  ],
+  "texto": "Reúne las cosas que vas a poner. Pon música —algo suave, algo que asociaras a momentos buenos con ella—. Si quieres, invita a alguien que también la quería."
+ },
+ {
+  "pagina": 36,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Coloca cada objeto despacio. Cuando termines, enciende la vela.",
+   "Quédate un rato delante. Habla con ella si quieres. O quédate en",
+   "silencio. Llora si llega."
+  ],
+  "texto": "Coloca cada objeto despacio. Cuando termines, enciende la vela. Quédate un rato delante. Habla con ella si quieres. O quédate en silencio. Llora si llega."
+ },
+ {
+  "pagina": 36,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Antes de irte de ese rincón por primera vez, di en voz alta: «Aquí te",
+   "quedas. Aquí estás conmigo»."
+  ],
+  "texto": "Antes de irte de ese rincón por primera vez, di en voz alta: «Aquí te quedas. Aquí estás conmigo»."
+ },
+ {
+  "pagina": 36,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: los rituales activan en el cerebro lo que los",
+   "neurocientíficos llaman consolidación emocional. Convierten una",
+   "experiencia abstracta —la muerte— en algo concreto y manejable.",
+   "Inician el camino de la integración."
+  ],
+  "texto": "Por qué funciona: los rituales activan en el cerebro lo que los neurocientíficos llaman consolidación emocional. Convierten una experiencia abstracta —la muerte— en algo concreto y manejable. Inician el camino de la integración."
+ },
+ {
+  "pagina": 37,
+  "tipo": "capitulo",
+  "sangria": 18,
+  "lineas": [
+   "CAPÍTULO VIII",
+   "Volver a querer"
+  ],
+  "texto": "CAPÍTULO VIII Volver a querer"
+ },
+ {
+  "pagina": 37,
+  "tipo": "cita",
+  "sangria": 14,
+  "lineas": [
+   "¿Adoptar de nuevo? ¿Es traicionarla?"
+  ],
+  "texto": "¿Adoptar de nuevo? ¿Es traicionarla?"
+ },
+ {
+  "pagina": 37,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Llega un momento —puede que pronto, puede que tarde mucho—",
+   "en el que la pregunta aparece: «¿debería adoptar otro?». Y casi",
+   "siempre, con esa pregunta, llega su sombra: «¿estaría",
+   "traicionándolo si lo hago?»."
+  ],
+  "texto": "Llega un momento —puede que pronto, puede que tarde mucho— en el que la pregunta aparece: «¿debería adoptar otro?». Y casi siempre, con esa pregunta, llega su sombra: «¿estaría traicionándolo si lo hago?»."
+ },
+ {
+  "pagina": 37,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Vamos por partes."
+  ],
+  "texto": "Vamos por partes."
+ },
+ {
+  "pagina": 37,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Adoptar no es reemplazar"
+  ],
+  "texto": "Adoptar no es reemplazar"
+ },
+ {
+  "pagina": 37,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Ningún animal sustituye a otro. Cada uno es único, irrepetible, con",
+   "su carácter, sus rarezas, sus miradas. Adoptar después de un duelo",
+   "no es «conseguir otro igual». No existe otro igual. Adoptar es",
+   "decir: «lo que aprendí queriéndote, quiero seguir dándoselo a otro",
+   "ser que lo necesita»."
+  ],
+  "texto": "Ningún animal sustituye a otro. Cada uno es único, irrepetible, con su carácter, sus rarezas, sus miradas. Adoptar después de un duelo no es «conseguir otro igual». No existe otro igual. Adoptar es decir: «lo que aprendí queriéndote, quiero seguir dándoselo a otro ser que lo necesita»."
+ },
+ {
+  "pagina": 37,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Tu mascota no va a sentirse traicionada. Tu mascota —si pudiera",
+   "hablar— probablemente te diría que tienes demasiado amor dentro",
+   "como para no dárselo a nadie."
+  ],
+  "texto": "Tu mascota no va a sentirse traicionada. Tu mascota —si pudiera hablar— probablemente te diría que tienes demasiado amor dentro como para no dárselo a nadie."
+ },
+ {
+  "pagina": 38,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "¿Cuándo es buen momento?"
+  ],
+  "texto": "¿Cuándo es buen momento?"
+ },
+ {
+  "pagina": 38,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No hay un tiempo correcto. Hay personas que adoptan a los pocos",
+   "meses y les va perfecto. Hay personas que esperan años. Hay",
+   "personas que deciden no volver a adoptar y eso también es válido."
+  ],
+  "texto": "No hay un tiempo correcto. Hay personas que adoptan a los pocos meses y les va perfecto. Hay personas que esperan años. Hay personas que deciden no volver a adoptar y eso también es válido."
+ },
+ {
+  "pagina": 38,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Las señales de que es buen momento:"
+  ],
+  "texto": "Las señales de que es buen momento:"
+ },
+ {
+  "pagina": 38,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· Cuando piensas en él o ella, sientes más cariño que dolor agudo.",
+   "· Cuando ves a otro animal en la calle, no te derrumbas: sonríes.",
+   "· Cuando imaginas adoptar, no sientes que sería «reemplazarlo»,",
+   "sino «continuar».",
+   "· Cuando tu casa, ahora mismo, se siente demasiado silenciosa de",
+   "una forma que duele.",
+   "· Cuando, sin culpa, te apetece volver a cuidar."
+  ],
+  "texto": "· Cuando piensas en él o ella, sientes más cariño que dolor agudo. · Cuando ves a otro animal en la calle, no te derrumbas: sonríes. · Cuando imaginas adoptar, no sientes que sería «reemplazarlo», sino «continuar». · Cuando tu casa, ahora mismo, se siente demasiado silenciosa de una forma que duele. · Cuando, sin culpa, te apetece volver a cuidar."
+ },
+ {
+  "pagina": 39,
+  "tipo": "parrafo",
+  "sangria": 2,
+  "lineas": [
+   "Si decides no adoptar nunca más, también está bien.",
+   "El amor no se mide por cuántos pasan por tu casa, sino por cómo los",
+   "quisiste cuando estuvieron."
+  ],
+  "texto": "Si decides no adoptar nunca más, también está bien. El amor no se mide por cuántos pasan por tu casa, sino por cómo los quisiste cuando estuvieron."
+ },
+ {
+  "pagina": 39,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Si decides adoptar"
+  ],
+  "texto": "Si decides adoptar"
+ },
+ {
+  "pagina": 39,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Plantéalo desde dos ideas importantes:"
+  ],
+  "texto": "Plantéalo desde dos ideas importantes:"
+ },
+ {
+  "pagina": 39,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Primero: considera la adopción en lugar de la compra. Hay miles",
+   "de animales esperando en refugios. Salvar una vida es, en sí",
+   "mismo, un acto que honra a quien ya no está."
+  ],
+  "texto": "Primero: considera la adopción en lugar de la compra. Hay miles de animales esperando en refugios. Salvar una vida es, en sí mismo, un acto que honra a quien ya no está."
+ },
+ {
+  "pagina": 39,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Segundo: elige a quien te elija a ti. No busques uno «parecido» al",
+   "que perdiste. Esa comparación, sin querer, lo va a perjudicar. Deja",
+   "que el nuevo sea él mismo, distinto, con su propia historia.",
+   "Tendrás que volver a empezar a conocer a alguien. Y ese alguien",
+   "te va a enseñar cosas nuevas."
+  ],
+  "texto": "Segundo: elige a quien te elija a ti. No busques uno «parecido» al que perdiste. Esa comparación, sin querer, lo va a perjudicar. Deja que el nuevo sea él mismo, distinto, con su propia historia. Tendrás que volver a empezar a conocer a alguien. Y ese alguien te va a enseñar cosas nuevas."
+ },
+ {
+  "pagina": 40,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 12 —",
+   "Pedirle permiso (aunque no lo necesites)"
+  ],
+  "texto": "— EJERCICIO 12 — Pedirle permiso (aunque no lo necesites)"
+ },
+ {
+  "pagina": 40,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si estás pensando en adoptar y la culpa te frena, prueba este ejercicio",
+   "sencillo:"
+  ],
+  "texto": "Si estás pensando en adoptar y la culpa te frena, prueba este ejercicio sencillo:"
+ },
+ {
+  "pagina": 40,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Siéntate frente a su urna o rincón. Háblale. Cuéntale lo que estás",
+   "pensando."
+  ],
+  "texto": "Siéntate frente a su urna o rincón. Háblale. Cuéntale lo que estás pensando."
+ },
+ {
+  "pagina": 40,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "«Estoy pensando en adoptar otro. No para reemplazarte. Porque tú me",
+   "enseñaste a querer y ahora tengo mucho amor que no sé dónde poner.",
+   "¿Qué te parece?»."
+  ],
+  "texto": "«Estoy pensando en adoptar otro. No para reemplazarte. Porque tú me enseñaste a querer y ahora tengo mucho amor que no sé dónde poner. ¿Qué te parece?»."
+ },
+ {
+  "pagina": 40,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Escucha lo que te respondería. Casi todas las personas que hacen este",
+   "ejercicio describen la misma sensación: que su mascota lo aprueba con",
+   "cariño."
+  ],
+  "texto": "Escucha lo que te respondería. Casi todas las personas que hacen este ejercicio describen la misma sensación: que su mascota lo aprueba con cariño."
+ },
+ {
+  "pagina": 40,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Eso es porque esa aprobación ya estaba dentro de ti. Solo necesitabas",
+   "darle voz."
+  ],
+  "texto": "Eso es porque esa aprobación ya estaba dentro de ti. Solo necesitabas darle voz."
+ },
+ {
+  "pagina": 40,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: dar permiso simbólico a uno mismo a través del",
+   "recuerdo del ser querido es una técnica usada en terapia de duelo.",
+   "Permite avanzar sin sentir que se rompe el vínculo."
+  ],
+  "texto": "Por qué funciona: dar permiso simbólico a uno mismo a través del recuerdo del ser querido es una técnica usada en terapia de duelo. Permite avanzar sin sentir que se rompe el vínculo."
+ },
+ {
+  "pagina": 41,
+  "tipo": "capitulo",
+  "sangria": 5,
+  "lineas": [
+   "CAPÍTULO IX",
+   "Cuando hay niños en casa"
+  ],
+  "texto": "CAPÍTULO IX Cuando hay niños en casa"
+ },
+ {
+  "pagina": 41,
+  "tipo": "cita",
+  "sangria": 12,
+  "lineas": [
+   "Cómo acompañarles en su primer duelo"
+  ],
+  "texto": "Cómo acompañarles en su primer duelo"
+ },
+ {
+  "pagina": 41,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si en tu casa hay niños o niñas, esta pérdida tiene una capa más:",
+   "muy probablemente sea su primer encuentro con la muerte.",
+   "Cómo lo atraviesen ahora va a influir en cómo entiendan todas las",
+   "pérdidas que vivan después. Es un momento delicado, sí, pero",
+   "también es una oportunidad enorme."
+  ],
+  "texto": "Si en tu casa hay niños o niñas, esta pérdida tiene una capa más: muy probablemente sea su primer encuentro con la muerte. Cómo lo atraviesen ahora va a influir en cómo entiendan todas las pérdidas que vivan después. Es un momento delicado, sí, pero también es una oportunidad enorme."
+ },
+ {
+  "pagina": 41,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Dile la verdad, con palabras pequeñas"
+  ],
+  "texto": "Dile la verdad, con palabras pequeñas"
+ },
+ {
+  "pagina": 41,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "El error más común —siempre con buena intención— es mentir",
+   "para protegerles: «se ha escapado», «se ha ido a una granja»,",
+   "«está dormida». Estas frases parecen suavizar, pero hacen daño a",
+   "largo plazo. El niño espera que vuelva. Empieza a desconfiar",
+   "cuando descubre la verdad. Y peor: si le dices que «está dormida»,",
+   "puede desarrollar miedo a dormirse."
+  ],
+  "texto": "El error más común —siempre con buena intención— es mentir para protegerles: «se ha escapado», «se ha ido a una granja», «está dormida». Estas frases parecen suavizar, pero hacen daño a largo plazo. El niño espera que vuelva. Empieza a desconfiar cuando descubre la verdad. Y peor: si le dices que «está dormida», puede desarrollar miedo a dormirse."
+ },
+ {
+  "pagina": 41,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "La neurociencia del desarrollo es clara: los niños pueden",
+   "entender la muerte, en sus términos, desde muy temprano. Lo",
+   "que no toleran bien es la ambigüedad y el secreto. Decírselo con",
+   "palabras claras, sencillas y verdaderas es lo que les permite",
+   "procesarlo."
+  ],
+  "texto": "La neurociencia del desarrollo es clara: los niños pueden entender la muerte, en sus términos, desde muy temprano. Lo que no toleran bien es la ambigüedad y el secreto. Decírselo con palabras claras, sencillas y verdaderas es lo que les permite procesarlo."
+ },
+ {
+  "pagina": 42,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Frases que sí funcionan: «[su nombre] ha muerto. Su cuerpo dejó",
+   "de funcionar y ya no va a volver. La vamos a echar mucho de",
+   "menos». Concreto, claro, sin metáforas. Y muy importante: dales",
+   "permiso explícito para sentir. «Está bien estar triste. Está bien",
+   "llorar. Yo también lo estoy»."
+  ],
+  "texto": "Frases que sí funcionan: «[su nombre] ha muerto. Su cuerpo dejó de funcionar y ya no va a volver. La vamos a echar mucho de menos». Concreto, claro, sin metáforas. Y muy importante: dales permiso explícito para sentir. «Está bien estar triste. Está bien llorar. Yo también lo estoy»."
+ },
+ {
+  "pagina": 42,
+  "tipo": "cita",
+  "sangria": 13,
+  "lineas": [
+   "Mentirles para protegerlos",
+   "les enseña que el dolor da miedo.",
+   "Acompañarles en la verdad",
+   "les enseña que el dolor se atraviesa."
+  ],
+  "texto": "Mentirles para protegerlos les enseña que el dolor da miedo. Acompañarles en la verdad les enseña que el dolor se atraviesa."
+ },
+ {
+  "pagina": 43,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Según la edad"
+  ],
+  "texto": "Según la edad"
+ },
+ {
+  "pagina": 43,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "De 2 a 4 años: entienden la ausencia, no la permanencia.",
+   "Preguntarán muchas veces dónde está, cuándo vuelve. Responde lo",
+   "mismo, con paciencia infinita. Tu calma les ancla."
+  ],
+  "texto": "De 2 a 4 años: entienden la ausencia, no la permanencia. Preguntarán muchas veces dónde está, cuándo vuelve. Responde lo mismo, con paciencia infinita. Tu calma les ancla."
+ },
+ {
+  "pagina": 43,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "De 5 a 8 años: empiezan a entender que la muerte es para siempre.",
+   "Pueden tener miedos nuevos —que mueran sus padres, que",
+   "mueran ellos—. Tranquilízales sin negar la realidad: «casi todos",
+   "los animales y personas vivimos mucho tiempo. Pero a veces pasa.",
+   "Lo importante es que mientras estamos vivos nos queremos",
+   "mucho»."
+  ],
+  "texto": "De 5 a 8 años: empiezan a entender que la muerte es para siempre. Pueden tener miedos nuevos —que mueran sus padres, que mueran ellos—. Tranquilízales sin negar la realidad: «casi todos los animales y personas vivimos mucho tiempo. Pero a veces pasa. Lo importante es que mientras estamos vivos nos queremos mucho»."
+ },
+ {
+  "pagina": 43,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "De 9 a 12 años: ya entienden la muerte como adultos, pero la",
+   "viven con la intensidad emocional de la infancia. Pueden mostrar",
+   "enfado, distancia o aparente indiferencia. No te alarmes: es su",
+   "forma de procesar."
+  ],
+  "texto": "De 9 a 12 años: ya entienden la muerte como adultos, pero la viven con la intensidad emocional de la infancia. Pueden mostrar enfado, distancia o aparente indiferencia. No te alarmes: es su forma de procesar."
+ },
+ {
+  "pagina": 43,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Adolescentes: pueden minimizar para protegerse. «No es para",
+   "tanto», dicen, mientras lloran a solas. Dales espacio sin",
+   "abandonarlos. Una frase tipo «si en algún momento quieres",
+   "hablar, aquí estoy, sin juicios», deja la puerta abierta."
+  ],
+  "texto": "Adolescentes: pueden minimizar para protegerse. «No es para tanto», dicen, mientras lloran a solas. Dales espacio sin abandonarlos. Una frase tipo «si en algún momento quieres hablar, aquí estoy, sin juicios», deja la puerta abierta."
+ },
+ {
+  "pagina": 44,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 13 —",
+   "Una despedida compartida"
+  ],
+  "texto": "— EJERCICIO 13 — Una despedida compartida"
+ },
+ {
+  "pagina": 44,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si los niños no pudieron despedirse —porque pasó de noche, en el",
+   "veterinario, o de forma inesperada— créales una despedida."
+  ],
+  "texto": "Si los niños no pudieron despedirse —porque pasó de noche, en el veterinario, o de forma inesperada— créales una despedida."
+ },
+ {
+  "pagina": 44,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Sentaos juntos. Encended una vela. Cada uno —incluidos los más",
+   "pequeños— dice algo que le gustaba de la mascota. Puede ser una sola",
+   "palabra. «Era blandita». «Movía la cola cuando llegaba». «Me lamía la",
+   "cara»."
+  ],
+  "texto": "Sentaos juntos. Encended una vela. Cada uno —incluidos los más pequeños— dice algo que le gustaba de la mascota. Puede ser una sola palabra. «Era blandita». «Movía la cola cuando llegaba». «Me lamía la cara»."
+ },
+ {
+  "pagina": 44,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Después, cada uno dice algo que querría haberle dicho: «Gracias por",
+   "jugar conmigo». «Te quería mucho»."
+  ],
+  "texto": "Después, cada uno dice algo que querría haberle dicho: «Gracias por jugar conmigo». «Te quería mucho»."
+ },
+ {
+  "pagina": 44,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Apagad la vela juntos. Abrazaos. Llorad si llega."
+  ],
+  "texto": "Apagad la vela juntos. Abrazaos. Llorad si llega."
+ },
+ {
+  "pagina": 44,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: los rituales colectivos ayudan a los niños a entender",
+   "que el duelo es algo natural, compartido y que no hay que esconder.",
+   "Crean un recuerdo de la pérdida cargado de amor, no de miedo."
+  ],
+  "texto": "Por qué funciona: los rituales colectivos ayudan a los niños a entender que el duelo es algo natural, compartido y que no hay que esconder. Crean un recuerdo de la pérdida cargado de amor, no de miedo."
+ },
+ {
+  "pagina": 45,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que los niños necesitan oír"
+  ],
+  "texto": "Lo que los niños necesitan oír"
+ },
+ {
+  "pagina": 45,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Hay algunas cosas que un niño en duelo necesita escuchar, con tu",
+   "voz, mirándole a los ojos. No las des por hechas. Aunque parezcan",
+   "obvias, hay que decirlas:"
+  ],
+  "texto": "Hay algunas cosas que un niño en duelo necesita escuchar, con tu voz, mirándole a los ojos. No las des por hechas. Aunque parezcan obvias, hay que decirlas:"
+ },
+ {
+  "pagina": 45,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· «No es culpa tuya». (Casi todos los niños se sienten culpables por",
+   "algo: por haberle regañado, por no haberle hecho caso, por no",
+   "haber estado).",
+   "· «No te va a pasar a ti. No nos va a pasar a nosotros pronto».",
+   "· «Está bien sentirse triste todo el tiempo que necesites».",
+   "· «Está bien también reír y jugar. Eso no significa que la quisieras",
+   "menos».",
+   "· «Vamos a hablar de ella siempre que quieras».",
+   "· «No vamos a olvidarla nunca»."
+  ],
+  "texto": "· «No es culpa tuya». (Casi todos los niños se sienten culpables por algo: por haberle regañado, por no haberle hecho caso, por no haber estado). · «No te va a pasar a ti. No nos va a pasar a nosotros pronto». · «Está bien sentirse triste todo el tiempo que necesites». · «Está bien también reír y jugar. Eso no significa que la quisieras menos». · «Vamos a hablar de ella siempre que quieras». · «No vamos a olvidarla nunca»."
+ },
+ {
+  "pagina": 45,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Y si tú también estás llorando, no lo escondas. Verte triste no les",
+   "hace daño. Lo que hace daño es ver a un adulto fingiendo estar",
+   "bien. Tu llanto les da permiso para el suyo."
+  ],
+  "texto": "Y si tú también estás llorando, no lo escondas. Verte triste no les hace daño. Lo que hace daño es ver a un adulto fingiendo estar bien. Tu llanto les da permiso para el suyo."
+ },
+ {
+  "pagina": 46,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 14 —",
+   "El dibujo del recuerdo"
+  ],
+  "texto": "— EJERCICIO 14 — El dibujo del recuerdo"
+ },
+ {
+  "pagina": 46,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Especialmente con niños pequeños, los dibujos son la mejor herramienta",
+   "de duelo. Mucho mejor que las palabras."
+  ],
+  "texto": "Especialmente con niños pequeños, los dibujos son la mejor herramienta de duelo. Mucho mejor que las palabras."
+ },
+ {
+  "pagina": 46,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Dales papel y colores. Propón: «Vamos a dibujar a [su nombre]». No",
+   "corrijas. No dirijas. Que dibujen lo que les salga."
+  ],
+  "texto": "Dales papel y colores. Propón: «Vamos a dibujar a [su nombre]». No corrijas. No dirijas. Que dibujen lo que les salga."
+ },
+ {
+  "pagina": 46,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Después, mientras dibujan o cuando terminen, pregunta con suavidad:",
+   "«¿Qué es lo que más recuerdas de ella?». Escucha. No interrumpas."
+  ],
+  "texto": "Después, mientras dibujan o cuando terminen, pregunta con suavidad: «¿Qué es lo que más recuerdas de ella?». Escucha. No interrumpas."
+ },
+ {
+  "pagina": 46,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Guardad los dibujos en la caja de la memoria de la mascota, o pegadlos",
+   "cerca de su rincón."
+  ],
+  "texto": "Guardad los dibujos en la caja de la memoria de la mascota, o pegadlos cerca de su rincón."
+ },
+ {
+  "pagina": 46,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: los niños procesan el duelo simbólicamente, no",
+   "verbalmente. El dibujo activa zonas del cerebro que las palabras no",
+   "alcanzan a esa edad, permitiéndoles expresar lo que aún no saben",
+   "nombrar."
+  ],
+  "texto": "Por qué funciona: los niños procesan el duelo simbólicamente, no verbalmente. El dibujo activa zonas del cerebro que las palabras no alcanzan a esa edad, permitiéndoles expresar lo que aún no saben nombrar."
+ },
+ {
+  "pagina": 47,
+  "tipo": "capitulo",
+  "sangria": 8,
+  "lineas": [
+   "CAPÍTULO X",
+   "Ellas también lo sienten"
+  ],
+  "texto": "CAPÍTULO X Ellas también lo sienten"
+ },
+ {
+  "pagina": 47,
+  "tipo": "subtitulo",
+  "sangria": 6,
+  "lineas": [
+   "El duelo de las otras mascotas que quedan en casa"
+  ],
+  "texto": "El duelo de las otras mascotas que quedan en casa"
+ },
+ {
+  "pagina": 47,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si tenías más animales en casa, vas a notar algo que muchas",
+   "personas no esperan: los compañeros que quedan también hacen",
+   "duelo. Y muchas veces lo hacen antes y más intensamente que",
+   "nosotros, aunque no puedan ponerlo en palabras."
+  ],
+  "texto": "Si tenías más animales en casa, vas a notar algo que muchas personas no esperan: los compañeros que quedan también hacen duelo. Y muchas veces lo hacen antes y más intensamente que nosotros, aunque no puedan ponerlo en palabras."
+ },
+ {
+  "pagina": 47,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que dice la ciencia"
+  ],
+  "texto": "Lo que dice la ciencia"
+ },
+ {
+  "pagina": 47,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Estudios en etología y neurociencia animal —especialmente los",
+   "del biólogo Marc Bekoff— han documentado durante décadas",
+   "comportamientos de duelo en perros, gatos, aves, caballos,",
+   "elefantes y muchas otras especies. Los animales sociales forman",
+   "vínculos reales con sus compañeros, humanos y no humanos.",
+   "Cuando esos vínculos se rompen, su cerebro reacciona con los",
+   "mismos mecanismos que el nuestro: bajada de serotonina,",
+   "elevación de cortisol, alteración del sueño y la alimentación."
+  ],
+  "texto": "Estudios en etología y neurociencia animal —especialmente los del biólogo Marc Bekoff— han documentado durante décadas comportamientos de duelo en perros, gatos, aves, caballos, elefantes y muchas otras especies. Los animales sociales forman vínculos reales con sus compañeros, humanos y no humanos. Cuando esos vínculos se rompen, su cerebro reacciona con los mismos mecanismos que el nuestro: bajada de serotonina, elevación de cortisol, alteración del sueño y la alimentación."
+ },
+ {
+  "pagina": 47,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que estás viendo en tu otra mascota no es imaginación tuya. Es",
+   "real. Y ella también necesita acompañamiento."
+  ],
+  "texto": "Lo que estás viendo en tu otra mascota no es imaginación tuya. Es real. Y ella también necesita acompañamiento."
+ },
+ {
+  "pagina": 48,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Señales de duelo en tu otra mascota"
+  ],
+  "texto": "Señales de duelo en tu otra mascota"
+ },
+ {
+  "pagina": 48,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· Buscar al compañero ausente por la casa, oler sus sitios.",
+   "· Esperar en la puerta, en su cama, en su sitio del sofá.",
+   "· Pérdida de apetito durante días o semanas.",
+   "· Dormir mucho más de lo habitual, o no dormir bien.",
+   "· Menos juego, menos interés en lo que antes le gustaba.",
+   "· Vocalización inusual: maullidos largos, aullidos, lloros.",
+   "· Apego excesivo hacia ti, no quererte perder de vista.",
+   "· Lo contrario: aislamiento, esconderse, querer estar solo.",
+   "· Conductas regresivas: hacerse pis en casa, no comer solo."
+  ],
+  "texto": "· Buscar al compañero ausente por la casa, oler sus sitios. · Esperar en la puerta, en su cama, en su sitio del sofá. · Pérdida de apetito durante días o semanas. · Dormir mucho más de lo habitual, o no dormir bien. · Menos juego, menos interés en lo que antes le gustaba. · Vocalización inusual: maullidos largos, aullidos, lloros. · Apego excesivo hacia ti, no quererte perder de vista. · Lo contrario: aislamiento, esconderse, querer estar solo. · Conductas regresivas: hacerse pis en casa, no comer solo."
+ },
+ {
+  "pagina": 49,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Cómo acompañarla"
+  ],
+  "texto": "Cómo acompañarla"
+ },
+ {
+  "pagina": 49,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Lo más importante: no intentes «distraerla» con cambios bruscos.",
+   "No es momento de introducir otro animal de inmediato, ni de hacer",
+   "reformas, ni de viajar si puedes evitarlo. Necesita estabilidad y tu",
+   "presencia."
+  ],
+  "texto": "Lo más importante: no intentes «distraerla» con cambios bruscos. No es momento de introducir otro animal de inmediato, ni de hacer reformas, ni de viajar si puedes evitarlo. Necesita estabilidad y tu presencia."
+ },
+ {
+  "pagina": 49,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Estas cosas sí ayudan:"
+  ],
+  "texto": "Estas cosas sí ayudan:"
+ },
+ {
+  "pagina": 49,
+  "tipo": "lista",
+  "sangria": 0,
+  "lineas": [
+   "· Mantén las rutinas: comida, paseo, sueño, mimos. La rutina baja",
+   "el cortisol.",
+   "· Pasa más tiempo con ella, sin forzar contacto. Solo estar cerca,",
+   "en la misma habitación.",
+   "· Háblale en voz baja, con su nombre, con suavidad. Tu tono le",
+   "regula.",
+   "· Permítele oler las cosas del compañero que se fue —su manta,",
+   "su collar—. Le ayuda a entender que ya no está.",
+   "· Si tenían un sitio común, no lo retires de inmediato. Déjala",
+   "despedirse a su ritmo.",
+   "· Aumenta la actividad física suave: paseos un poco más largos,",
+   "juego corto. El movimiento moviliza la pena también en ellos.",
+   "· Si después de 3-4 semanas no come, no juega, o se aísla por",
+   "completo, consulta al veterinario. Hay tratamientos suaves para",
+   "apoyar este proceso."
+  ],
+  "texto": "· Mantén las rutinas: comida, paseo, sueño, mimos. La rutina baja el cortisol. · Pasa más tiempo con ella, sin forzar contacto. Solo estar cerca, en la misma habitación. · Háblale en voz baja, con su nombre, con suavidad. Tu tono le regula. · Permítele oler las cosas del compañero que se fue —su manta, su collar—. Le ayuda a entender que ya no está. · Si tenían un sitio común, no lo retires de inmediato. Déjala despedirse a su ritmo. · Aumenta la actividad física suave: paseos un poco más largos, juego corto. El movimiento moviliza la pena también en ellos. · Si después de 3-4 semanas no come, no juega, o se aísla por completo, consulta al veterinario. Hay tratamientos suaves para apoyar este proceso."
+ },
+ {
+  "pagina": 50,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Vais a hacer el duelo juntas, juntos.",
+   "Tu calma es su calma. Tu cuidado es su cuidado."
+  ],
+  "texto": "Vais a hacer el duelo juntas, juntos. Tu calma es su calma. Tu cuidado es su cuidado."
+ },
+ {
+  "pagina": 51,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "¿Adoptar un nuevo compañero para ella?"
+  ],
+  "texto": "¿Adoptar un nuevo compañero para ella?"
+ },
+ {
+  "pagina": 51,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Una pregunta frecuente: «¿adopto otro para que ella no esté",
+   "sola?». La respuesta depende mucho de cada animal y cada",
+   "situación, pero hay algunas cosas claras:"
+  ],
+  "texto": "Una pregunta frecuente: «¿adopto otro para que ella no esté sola?». La respuesta depende mucho de cada animal y cada situación, pero hay algunas cosas claras:"
+ },
+ {
+  "pagina": 51,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No lo hagas en el primer mes. Tu mascota está procesando.",
+   "Introducir un compañero nuevo en pleno duelo le añade estrés en",
+   "vez de aliviarlo. Espera al menos seis u ocho semanas, idealmente",
+   "más."
+  ],
+  "texto": "No lo hagas en el primer mes. Tu mascota está procesando. Introducir un compañero nuevo en pleno duelo le añade estrés en vez de aliviarlo. Espera al menos seis u ocho semanas, idealmente más."
+ },
+ {
+  "pagina": 51,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No lo hagas para llenar tu vacío. Si lo haces por ti —porque no",
+   "soportas el silencio, porque te duele verla triste— probablemente",
+   "estarás añadiendo problemas. Hazlo cuando puedas tomar la",
+   "decisión con la cabeza serena."
+  ],
+  "texto": "No lo hagas para llenar tu vacío. Si lo haces por ti —porque no soportas el silencio, porque te duele verla triste— probablemente estarás añadiendo problemas. Hazlo cuando puedas tomar la decisión con la cabeza serena."
+ },
+ {
+  "pagina": 51,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Observa su carácter. Algunos animales son muy sociables y",
+   "agradecen un compañero nuevo. Otros son más solitarios y",
+   "prefieren ser, por fin, los únicos. Ambos perfiles existen y son",
+   "válidos."
+  ],
+  "texto": "Observa su carácter. Algunos animales son muy sociables y agradecen un compañero nuevo. Otros son más solitarios y prefieren ser, por fin, los únicos. Ambos perfiles existen y son válidos."
+ },
+ {
+  "pagina": 52,
+  "tipo": "ejercicio_titulo",
+  "sangria": 0,
+  "lineas": [
+   "— EJERCICIO 15 —",
+   "Rutina del cuidado mutuo"
+  ],
+  "texto": "— EJERCICIO 15 — Rutina del cuidado mutuo"
+ },
+ {
+  "pagina": 52,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Durante las próximas dos semanas, dedícale a tu otra mascota un ritual",
+   "diario de 15 minutos exclusivos: solo ella y tú, sin móvil, sin",
+   "distracciones."
+  ],
+  "texto": "Durante las próximas dos semanas, dedícale a tu otra mascota un ritual diario de 15 minutos exclusivos: solo ella y tú, sin móvil, sin distracciones."
+ },
+ {
+  "pagina": 52,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Pueden ser 15 minutos de cepillado, de paseo lento, de juego suave, de",
+   "simplemente estar sentada a su lado mientras le acaricias."
+  ],
+  "texto": "Pueden ser 15 minutos de cepillado, de paseo lento, de juego suave, de simplemente estar sentada a su lado mientras le acaricias."
+ },
+ {
+  "pagina": 52,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si quieres, durante esos 15 minutos, háblale del compañero que se fue.",
+   "Recuérdale en voz alta. «¿Te acuerdas cuando él te molestaba en la",
+   "siesta? La echamos de menos las dos, ¿verdad?»."
+  ],
+  "texto": "Si quieres, durante esos 15 minutos, háblale del compañero que se fue. Recuérdale en voz alta. «¿Te acuerdas cuando él te molestaba en la siesta? La echamos de menos las dos, ¿verdad?»."
+ },
+ {
+  "pagina": 52,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Tu mascota no entenderá las palabras concretas, pero entenderá",
+   "perfectamente la intención emocional. Y vosotras dos os váis a curar",
+   "juntas."
+  ],
+  "texto": "Tu mascota no entenderá las palabras concretas, pero entenderá perfectamente la intención emocional. Y vosotras dos os váis a curar juntas."
+ },
+ {
+  "pagina": 52,
+  "tipo": "porque",
+  "sangria": 0,
+  "lineas": [
+   "Por qué funciona: el contacto físico calmado entre humano y animal",
+   "libera oxitocina en ambos cerebros simultáneamente. Es el mismo",
+   "proceso bioquímico que ya os unía a ti y a quien se fue. Sigue",
+   "funcionando con quien queda."
+  ],
+  "texto": "Por qué funciona: el contacto físico calmado entre humano y animal libera oxitocina en ambos cerebros simultáneamente. Es el mismo proceso bioquímico que ya os unía a ti y a quien se fue. Sigue funcionando con quien queda."
+ },
+ {
+  "pagina": 53,
+  "tipo": "capitulo",
+  "sangria": 2,
+  "lineas": [
+   "CARTA FINAL",
+   "Lo que quiero que recuerdes"
+  ],
+  "texto": "CARTA FINAL Lo que quiero que recuerdes"
+ },
+ {
+  "pagina": 53,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si has llegado hasta aquí, gracias. Sé que leer sobre el duelo",
+   "cuando estás dentro del duelo es agotador. Sé que muchas páginas",
+   "las habrás leído entre lágrimas. Quiero que cierres este libro con",
+   "algunas cosas claras."
+  ],
+  "texto": "Si has llegado hasta aquí, gracias. Sé que leer sobre el duelo cuando estás dentro del duelo es agotador. Sé que muchas páginas las habrás leído entre lágrimas. Quiero que cierres este libro con algunas cosas claras."
+ },
+ {
+  "pagina": 53,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Lo que sientes tiene sentido.",
+   "No estás exagerando. No estás débil. Tu cerebro y tu cuerpo están",
+   "atravesando una pérdida real, con consecuencias reales. Date el",
+   "espacio que mereces."
+  ],
+  "texto": "Lo que sientes tiene sentido. No estás exagerando. No estás débil. Tu cerebro y tu cuerpo están atravesando una pérdida real, con consecuencias reales. Date el espacio que mereces."
+ },
+ {
+  "pagina": 53,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "El amor no se acaba cuando muere quien lo recibe.",
+   "Lo que sentías por él, por ella, sigue ahí. Es tuyo. Te pertenece. Y",
+   "vas a aprender a llevarlo de una forma nueva, que dolerá menos",
+   "con el tiempo pero que nunca dejará de ser amor."
+  ],
+  "texto": "El amor no se acaba cuando muere quien lo recibe. Lo que sentías por él, por ella, sigue ahí. Es tuyo. Te pertenece. Y vas a aprender a llevarlo de una forma nueva, que dolerá menos con el tiempo pero que nunca dejará de ser amor."
+ },
+ {
+  "pagina": 53,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No hay un tiempo correcto.",
+   "Tarda lo que tarde. Vuelve atrás cuantas veces necesite. El duelo",
+   "no es un examen que se aprueba."
+  ],
+  "texto": "No hay un tiempo correcto. Tarda lo que tarde. Vuelve atrás cuantas veces necesite. El duelo no es un examen que se aprueba."
+ },
+ {
+  "pagina": 54,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Pídete ayuda si la necesitas.",
+   "No es debilidad. Es cuidarte como cuidarías de él si volviera. Hay",
+   "psicólogos especializados en duelo animal. Búscalos si lo",
+   "necesitas."
+  ],
+  "texto": "Pídete ayuda si la necesitas. No es debilidad. Es cuidarte como cuidarías de él si volviera. Hay psicólogos especializados en duelo animal. Búscalos si lo necesitas."
+ },
+ {
+  "pagina": 54,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Te enseñó a querer.",
+   "Lo que aprendiste con tu mascota —la paciencia, la presencia, el",
+   "cariño incondicional, alegrarte por las cosas pequeñas— es lo más",
+   "valioso que te llevas. No se va con ella. Se queda en ti. Vívelo."
+  ],
+  "texto": "Te enseñó a querer. Lo que aprendiste con tu mascota —la paciencia, la presencia, el cariño incondicional, alegrarte por las cosas pequeñas— es lo más valioso que te llevas. No se va con ella. Se queda en ti. Vívelo."
+ },
+ {
+  "pagina": 55,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No la has perdido.",
+   "La llevas contigo.",
+   "Está en cómo miras, en cómo quieres,",
+   "en cómo cuidas."
+  ],
+  "texto": "No la has perdido. La llevas contigo. Está en cómo miras, en cómo quieres, en cómo cuidas."
+ },
+ {
+  "pagina": 55,
+  "tipo": "cita",
+  "sangria": 14,
+  "lineas": [
+   "Sigue contigo.",
+   "Siempre."
+  ],
+  "texto": "Sigue contigo. Siempre."
+ },
+ {
+  "pagina": 56,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Recursos que pueden ayudarte"
+  ],
+  "texto": "Recursos que pueden ayudarte"
+ },
+ {
+  "pagina": 56,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Si necesitas hablar con un profesional"
+  ],
+  "texto": "Si necesitas hablar con un profesional"
+ },
+ {
+  "pagina": 56,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Cada vez hay más psicólogos especializados en duelo animal en",
+   "España y Latinoamérica. Búscalos en directorios profesionales con",
+   "los términos «duelo animal» o «duelo por mascotas». Muchos",
+   "ofrecen sesiones online y procesos breves de tres a cinco sesiones,",
+   "específicamente diseñados para este tipo de pérdida."
+  ],
+  "texto": "Cada vez hay más psicólogos especializados en duelo animal en España y Latinoamérica. Búscalos en directorios profesionales con los términos «duelo animal» o «duelo por mascotas». Muchos ofrecen sesiones online y procesos breves de tres a cinco sesiones, específicamente diseñados para este tipo de pérdida."
+ },
+ {
+  "pagina": 56,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Si estás atravesando un momento muy difícil"
+  ],
+  "texto": "Si estás atravesando un momento muy difícil"
+ },
+ {
+  "pagina": 56,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Si en algún momento sientes que el dolor te supera de una forma",
+   "que te asusta, por favor, pide ayuda. Habla con alguien de",
+   "confianza, con tu médico, o con servicios de atención psicológica.",
+   "No tienes que pasar esto sola o solo."
+  ],
+  "texto": "Si en algún momento sientes que el dolor te supera de una forma que te asusta, por favor, pide ayuda. Habla con alguien de confianza, con tu médico, o con servicios de atención psicológica. No tienes que pasar esto sola o solo."
+ },
+ {
+  "pagina": 56,
+  "tipo": "subtitulo",
+  "sangria": 0,
+  "lineas": [
+   "Sobre este libro"
+  ],
+  "texto": "Sobre este libro"
+ },
+ {
+  "pagina": 56,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Sigue contigo es una guía de acompañamiento elaborada desde",
+   "principios de la psicología del duelo y la neurociencia del vínculo."
+  ],
+  "texto": "Sigue contigo es una guía de acompañamiento elaborada desde principios de la psicología del duelo y la neurociencia del vínculo."
+ },
+ {
+  "pagina": 57,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "No sustituye un proceso terapéutico profesional, pero quiere ser un",
+   "sostén en los momentos en los que necesitas leer algo que te diga",
+   "que lo que sientes es humano, que tiene sentido, y que vas a poder",
+   "con esto."
+  ],
+  "texto": "No sustituye un proceso terapéutico profesional, pero quiere ser un sostén en los momentos en los que necesitas leer algo que te diga que lo que sientes es humano, que tiene sentido, y que vas a poder con esto."
+ },
+ {
+  "pagina": 57,
+  "tipo": "parrafo",
+  "sangria": 0,
+  "lineas": [
+   "Con todo el cariño,",
+   "Tremdora",
+   "Ellos se merecen lo mejor."
+  ],
+  "texto": "Con todo el cariño, Tremdora Ellos se merecen lo mejor."
+ }
+]
