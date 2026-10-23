@@ -184,3 +184,45 @@ imagen del producto en Shopify:
 Son verticales (proporción A4). Shopify las acepta tal cual, pero si prefieres que la
 cuadrícula de la tienda se vea uniforme, súbelas sobre un fondo cuadrado del mismo
 color de cada libro.
+
+---
+
+## Las muestras gratuitas
+
+En `muestras/` están las dos versiones gratuitas, de **13 páginas** cada una, con su
+portada en JPG:
+
+- `Hogar-en-Calma-MUESTRA-GRATIS.pdf`
+- `Edad-Dorada-MUESTRA-GRATIS.pdf`
+
+### Qué llevan dentro
+
+Cubierta con el distintivo **«Muestra gratuita»** · la página «Qué tienes en tus
+manos» con el índice entero del libro y marcado lo que sí entra · la introducción ·
+los ocho pilares científicos · **dos capítulos completos** con su ejercicio y su
+ficha rápida · un anticipo de la parte práctica, cortado a propósito · la página de
+la autora · y la página de cierre con el enlace a la tienda.
+
+### Qué capítulos se regalan, y por qué
+
+| | Capítulos |
+|---|---|
+| **Hogar en Calma** | **5 ·** Leer antes de que grite (las ocho señales tempranas) y **8 ·** El dolor que se disfraza de ansiedad |
+| **Edad Dorada** | **8 ·** El enemigo silencioso (el dolor no tratado) y **5 ·** Leer el malestar silencioso |
+
+Son los dos que más sirven a quien no va a comprar nada, y a la vez los que mejor
+demuestran que el libro merece la pena. Lo que **no** se regala es el método: los
+protocolos, la escala de calidad de vida, la guía de enfermedades y la sección de
+sordera.
+
+### Se generan solas desde el libro completo
+
+Las muestras **no son un archivo aparte que haya que mantener a mano**: se extraen
+del HTML del libro completo con `fuentes/muestra.py`. Lo que se corrija en el
+completo aparece en la muestra la próxima vez que se genere. Así no se pueden
+desincronizar nunca.
+
+```
+python3 fuentes/muestra.py   # regenera los dos HTML de muestra
+python3 fuentes/build.py     # genera los cuatro PDF
+```

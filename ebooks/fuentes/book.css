@@ -988,3 +988,63 @@ h3.sub .pre {
   margin-top: 1.6mm;
   letter-spacing: .02em;
 }
+
+/* --- distintivo de muestra gratuita --- */
+.cover .muestra {
+  display: inline-block;
+  margin-top: 5mm;
+  padding: 2.2mm 5mm;
+  border: 1.2px solid var(--terra-2);
+  border-radius: 20mm;
+  font-family: Inter, sans-serif;
+  font-size: 7.2pt;
+  font-weight: 700;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--terra-2);
+}
+.incluido, .no-incluido {
+  font-family: Inter, sans-serif;
+  font-size: 6.2pt;
+  font-weight: 700;
+  letter-spacing: .12em;
+  padding: .7mm 2mm;
+  border-radius: 2px;
+  margin-left: 2.5mm;
+  vertical-align: 1px;
+  white-space: nowrap;
+}
+.incluido { color: #fff; background: var(--accent); }
+.no-incluido { color: var(--ink-3); background: transparent; border: 1px solid var(--rule); }
+.cta {
+  background: var(--card);
+  border: 1.5px solid var(--terra);
+  border-radius: 3px;
+  padding: 7mm 7mm;
+  margin-top: 7mm;
+  text-align: center;
+}
+.cta .big {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 17pt;
+  font-weight: 600;
+  color: var(--terra-2);
+  display: block;
+  margin-bottom: 3mm;
+  line-height: 1.2;
+}
+.cta .web {
+  font-family: "Inter Display", Inter, sans-serif;
+  font-size: 14pt;
+  font-weight: 700;
+  color: var(--ink);
+  display: block;
+  margin: 5mm 0 2mm;
+  letter-spacing: .01em;
+}
+.cta .ig {
+  font-family: Inter, sans-serif;
+  font-size: 9.4pt;
+  color: var(--ink-3);
+  display: block;
+}
