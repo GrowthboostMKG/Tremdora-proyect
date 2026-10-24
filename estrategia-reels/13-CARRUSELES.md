@@ -389,6 +389,47 @@ convierte en una pregunta para el veterinario y no en una conclusión para el du
 
 **Reutilización:** de cada carrusel salen **un reel** (misma estructura, contada a cámara) y **entre cinco y ocho stories** — una por diapositiva, con una encuesta en la del giro.
 
+---
+
+### Qué animal sale en cada imagen
+
+La columna *Imagen* dice **qué** se ve, no **quién**. Y ahí hay una regla que conviene
+tener clara desde el principio, porque equivocarse sale caro de arreglar.
+
+**El animal de las imágenes no tiene que ser Paris.** Las portadas de los eBook llevan un
+perro grande de pelo claro y las publicaciones van en esa misma línea: eso **está bien y es
+lo coherente**. Paris no es la mascota de la marca, es **la fundadora de la historia**. Son
+dos papeles distintos:
+
+| | Qué aparece |
+|---|---|
+| **Paris** | Solo donde hablas de ella en primera persona: la página de autora, el carrusel de presentación, los reels personales |
+| **El animal de marca** | Todo lo demás: portadas, carruseles de contenido, publicaciones de producto |
+
+**La única regla que no se salta:** en una diapositiva donde tú hablas de *tu* animal, no
+puede salir un animal que no es el tuyo. Si dices «mi perra Paris» y se ve un golden
+retriever, quien haya visto la foto real lo nota — y lo que se rompe ahí no es la estética,
+es la confianza. Fuera de esos sitios, el animal es un figurante y da igual la raza.
+
+**Lo que sí hay que vigilar, y no es la raza:**
+
+**1 · Que no salgan solo perros.** Ocho de los trece carruseles son de gato. Si todas las
+imágenes son de perro, la cuadrícula dice «esto es una cuenta de perros» aunque el texto
+diga otra cosa, y la imagen gana siempre. **De cada nueve imágenes del perfil, cuatro de
+gato.**
+
+**2 · Que no salgan solo animales jóvenes y sanos.** El territorio más fuerte de la marca
+es el animal mayor y el animal que lo pasa mal. Un perro joven en un salón soleado es la
+imagen que usa cualquier marca de mascotas: no te distingue de nadie. **Un perro con canas
+en el hocico sí.**
+
+**3 · Si las imágenes son generadas con IA, que no se note y que lo sepas tú.** No es un
+problema legal en Instagram, pero sí hay dos cosas prácticas: en la cuenta ya ha aparecido
+una vez la etiqueta de contenido generado con IA, y en **Amazon KDP hay que declarar las
+imágenes generadas con IA al publicar** un libro (la declaración no la ve el lector, es
+interna). Así que lleva la cuenta de cuáles lo son — y si algún día la marca crece, lo que
+de verdad es tuyo y defendible no es la foto: es el emblema, la paleta y la tipografía.
+
 **Y la regla de siempre: cero mención al ebook del duelo** en los tres de Edad dorada.
 
 ### El reparto perro / gato
