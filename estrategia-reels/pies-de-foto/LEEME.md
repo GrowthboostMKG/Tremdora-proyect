@@ -6,6 +6,10 @@ hashtags van **dentro del archivo**, al final.
 | Archivo | Para qué carrusel |
 |---|---|
 | `senales-de-salida.txt` | «Antes de que salgas, tu perro ya lo siente» · 8 diapositivas · 🐕 ansiedad por separación |
+| `gato-mayor-artrosis.txt` | «No está más tranquilo» · 9 diapositivas · 🐈 artrosis en el gato mayor |
+
+**El texto de las diapositivas**, bloque a bloque y listo para montar, está en
+`../montaje/`. Un archivo por carrusel.
 
 ## Las tres reglas de un pie de foto
 
