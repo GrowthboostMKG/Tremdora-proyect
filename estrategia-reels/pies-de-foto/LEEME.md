@@ -7,6 +7,7 @@ hashtags van **dentro del archivo**, al final.
 |---|---|
 | `senales-de-salida.txt` | «Antes de que salgas, tu perro ya lo siente» · 8 diapositivas · 🐕 ansiedad por separación |
 | `gato-mayor-artrosis.txt` | «No está más tranquilo» · 9 diapositivas · 🐈 artrosis en el gato mayor |
+| `gato-mayor-artrosis-REEL.txt` | Lo mismo en versión reel: 721 caracteres en vez de 1.056 |
 
 **El texto de las diapositivas**, bloque a bloque y listo para montar, está en
 `../montaje/`. Un archivo por carrusel.
@@ -70,3 +71,14 @@ cuando hay archivo que agrupar. **A partir de unas treinta publicaciones, cámbi
 
 La excepción es **la serie de cinco**: ahí `#hogarencalma` no se quita nunca, porque es lo
 que convierte cinco publicaciones en una serie.
+
+---
+
+## Carrusel o reel: el pie no es el mismo
+
+En un **carrusel**, el pie puede ser largo: quien ha deslizado nueve diapositivas ya está
+dentro, y baja a leer. En un **reel**, no — el vídeo se lleva toda la atención y el pie se
+lee de refilón, así que la versión de reel va **a un tercio menos** y sin desarrollos.
+
+Lo que **no** cambia entre los dos: la primera línea, el aviso ⚠️ si lo lleva, la pregunta
+final y los cinco hashtags.
