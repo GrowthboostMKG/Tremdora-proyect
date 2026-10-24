@@ -32,7 +32,27 @@ deslizado no tiene motivo para leerlo — pero si se va a otro tema, es peor tod
 ya se levanta, no sigas»), el error típico («ni abrazos largos ni fiesta al volver») y el
 permiso para ir despacio. Todo eso amplía sin cambiar de conversación.
 
-**3 · Termina en pregunta, no en punto.** Y en una que cueste poco contestar. «¿El tuyo qué
+**3 · No lleva título.** La primera línea **es** el título. Instagram corta el pie a las dos
+líneas (unas 125 caracteres, y varía según el móvil) y pone «... más» — así que ese hueco es
+lo único que vas a tener para que alguien decida leer. Gastarlo en una etiqueta tipo
+`LAS SEÑALES DE SALIDA 🔑` es tirar el mejor sitio del post: el lector ya sabe de qué va
+porque lo ha visto en la portada del carrusel.
+
+En *Señales de salida* la primera línea son **63 caracteres** —*«Te levantas a por las
+llaves y tu perro ya se ha puesto de pie»*— y hace las dos cosas a la vez: titula y
+engancha. Eso es lo que tiene que hacer siempre.
+
+**Lo que sí puede ir arriba** es nada, y **lo que puede ir abajo** es el marcador de serie
+(`· 3 de 5 ·`), justo antes de los hashtags. Eso sí sirve: le dice a quien llega tarde que
+hay más.
+
+**Y no uses el texto en «negrita»** de las páginas que lo generan. En Instagram no hay
+negrita de verdad: lo que hacen esas páginas es sustituir cada letra por un carácter
+parecido de otro alfabeto. Los lectores de pantalla lo leen fatal o no lo leen, y es texto
+que el buscador puede no indexar — justo lo contrario de lo que buscas. Para destacar algo,
+usa mayúsculas en dos o tres palabras, o un salto de línea.
+
+**4 · Termina en pregunta, no en punto.** Y en una que cueste poco contestar. «¿El tuyo qué
 hace cuando coges las llaves?» se responde en cuatro palabras; «¿qué opinas?» no se responde
 nunca.
 
