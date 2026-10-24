@@ -1,23 +1,20 @@
 CARRUSEL 7 · «No está más tranquilo»
-Gato mayor · artrosis · 9 diapositivas
+🐈 Gato mayor · artrosis · Edad Dorada · 9 diapositivas
 ================================================================
 
-----------------------------------------------------------------
-EL PROBLEMA  ·  diapositivas 1 y 2
-----------------------------------------------------------------
+---------------- HOOK · diapositiva 1 --------------------------
 
 [1]  NO ESTÁ MÁS TRANQUILO.
      LE CUESTA.
      (6 señales en un gato mayor)
 
+---------------- PROBLEMA · diapositiva 2 ----------------------
+
 [2]  Un día deja de subir a la ventana.
      Duerme abajo, en sitios nuevos.
      Y pensamos: «se ha vuelto más casero».
 
-
-----------------------------------------------------------------
-EL DESARROLLO  ·  diapositivas 3, 4 y 5
-----------------------------------------------------------------
+---------------- DESARROLLO · diapositivas 3, 4 y 5 ------------
 
 [3]  De 100 gatos de más de 12 años radiografiados,
      90 tenían artrosis.
@@ -35,10 +32,7 @@ EL DESARROLLO  ·  diapositivas 3, 4 y 5
      · Uñas largas, no las gasta
      · No deja que le toques el lomo
 
-
-----------------------------------------------------------------
-LA SOLUCIÓN  ·  diapositivas 6 y 7
-----------------------------------------------------------------
+---------------- SOLUCIÓN · diapositivas 6 y 7 -----------------
 
 [6]  LO DEL PELO ES LA SEÑAL MÁS CLARA
      Y LA QUE MENOS SE MIRA.
@@ -57,10 +51,7 @@ LA SOLUCIÓN  ·  diapositivas 6 y 7
      ⚠️ Y al veterinario. Nada de analgésicos de casa:
      el paracetamol mata a un gato. Una pastilla basta.
 
-
-----------------------------------------------------------------
-EL CALL TO ACTION  ·  diapositivas 8 y 9
-----------------------------------------------------------------
+---------------- CALL TO ACTION · diapositivas 8 y 9 -----------
 
 [8]  No se ha vuelto arisco ni vago.
      Lleva tiempo con dolor y lo ha llevado solo —
@@ -72,12 +63,3 @@ EL CALL TO ACTION  ·  diapositivas 8 y 9
 
      🤍 En Edad dorada tienes qué mirar cada mes
         y qué adaptar en una tarde.
-
-
-================================================================
-POR QUÉ LA 8 Y LA 9 VAN SEPARADAS
-================================================================
-La 8 es la que quita la culpa, y es la que la gente guarda y
-comparte. Si le pones el producto al lado pierde la mitad de su
-fuerza: se lee como anzuelo. Nunca juntes la frase que emociona
-con la que vende.
