@@ -14,6 +14,7 @@ imagen sin tener que volver a decidir nada.
 | `15-gato-la-ventana.txt` | Un gato no cae de pie desde un quinto | 8 | — |
 | `16-gato-el-hilo.txt` | Si ves un hilo, no tires | 8 | — |
 | `17-gato-el-difusor.txt` | El difusor que tienes encendido | 8 | — |
+| `s1-ansiedad-o-aburrimiento.txt` | Serie · 1 de 5 · ¿Es ansiedad o es aburrimiento? | 10 | Hogar en Calma |
 
 **Los cuatro últimos son nuevos.** Salen de los guiones de reel 109, 111, 112 y 110 del
 documento 17, convertidos a carrusel. Los demás son los carruseles 7, 11, 12 y 13 del

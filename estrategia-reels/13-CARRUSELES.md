@@ -20,7 +20,9 @@
 
 **Un carrusel de diagnóstico sin solución deja al lector a medias.** Si enumeras señales, tienes que decir **qué hacer con ellas esta semana** — aunque el tratamiento sea clínico y no puedas darlo tú. Siempre hay algo que el dueño puede empezar hoy: el peso, el entorno, cómo se mueve, qué pedir en la consulta.
 
-**La única excepción es una serie**: ahí el primer carrusel sí puede quedarse en el diagnóstico, porque la solución llega en los siguientes — y por eso vuelven.
+**Y esto no tiene excepción, tampoco en una serie.** Lo escribí mal la primera vez: puse que en una serie el primer carrusel sí podía quedarse en el diagnóstico, porque la solución llegaba al día siguiente. Pero eso choca de frente con la regla 2 de las series —**cada uno tiene que funcionar solo, porque nadie los va a ver en orden**—. Quien llegue al primero suelto se queda con un diagnóstico y un «mañana te cuento», y no vuelve.
+
+**Lo correcto:** el primero de una serie **también da su primera acción**, y el gancho a la siguiente va **además**, no en lugar de.
 
 ---
 
@@ -492,20 +494,31 @@ esa es la prueba: si sirve con cambiar la palabra, está mal escrito.
 ---
 
 ## 1 DE 5 — «¿Es ansiedad o es aburrimiento?»
-**8 diapositivas**
+**10 diapositivas** · *(eran 8: le faltaban las soluciones)*
 
 | # | Bloque | Texto |
 |---|---|---|
 | **1** | **HOOK** | **¿ES ANSIEDAD<br>O ES ABURRIMIENTO?**<br><sub>Hogar en calma · 1 de 5</sub> |
 | **2** | **PROBLEMA** | Vuelves a casa y hay algo roto.<br>Y no sabes si está enfadado, aburrido, o lo está pasando mal de verdad. |
-| **3** | **EL GIRO** | La respuesta está en **dónde** lo rompe. |
-| **4** | **SEÑALES** | **Aburrimiento:**<br>destrozos repartidos por la casa, cosas de morder, y te recibe como siempre. |
-| **5** | **SEÑALES** | **Ansiedad:**<br>concentrado **en las salidas** — puerta, marco, ventana, persiana.<br>Y suele venir con llanto continuo, babeo, o necesidades dentro habiendo salido antes. |
-| **6** | **SOLUCIÓN** | No son el mismo problema **y no se arreglan igual.**<br>Uno pide estimulación.<br>El otro pide trabajo de separación. |
-| **7** | **SIN CULPA** | Y si son las dos cosas a la vez, **también es normal.**<br>Saber cuál es cuál ya es la mitad del camino. |
-| **8** | **CTA + GANCHO** | **Guárdalo** y esta noche mira dónde están las marcas.<br><br>Mañana: **lo que de verdad pasa en los primeros 30 minutos.** · 2 de 5 |
+| **3** | **EL GIRO** | La respuesta no está en **qué** rompe.<br>Está en **dónde**. |
+| **4** | **SEÑALES** | **ABURRIMIENTO**<br>Destrozos repartidos por la casa, cosas de morder, y te recibe como siempre.<br>Y pasa **estés o no estés**. |
+| **5** | **SEÑALES** | **ANSIEDAD**<br>Concentrado **en las salidas**: puerta, marco, ventana, persiana.<br>Con llanto continuo, babeo, o necesidades dentro habiendo salido antes.<br>Y pasa **solo cuando te vas**. |
+| **6** | **SOLUCIÓN** | **SI ES ABURRIMIENTO, empieza por aquí:**<br>· La comida, en un juguete dispensador o repartida por la casa — nunca en el cuenco antes de salir<br>· Un paseo **de olfato** antes de irte: 20 minutos oliendo cansan más que una hora andando rápido<br>· Recoge lo que muerde y déjale **dos cosas que sí pueda morder** |
+| **7** | **SOLUCIÓN** | **SI ES ANSIEDAD, empieza por aquí:**<br>· Ni despedida larga ni fiesta al volver. Que irte sea **lo más aburrido del día**<br>· Coge las llaves… y siéntate. Veinte veces, **sin salir**<br>· **Nunca le riñas por lo que encuentras al volver**: no lo asocia, y le añade miedo a lo que ya tenía |
+| **8** | **SOLUCIÓN** | **¿Y si no lo tienes claro?**<br>Deja el móvil grabando media hora al salir.<br>Si se tumba y se duerme → aburrimiento, aunque después rompa algo.<br>Si llora, jadea o araña la puerta → separación. |
+| **9** | **SIN CULPA** | Y si son **las dos cosas a la vez**, también es normal — de hecho es lo más frecuente.<br>Saber cuál es cuál ya es la mitad del camino. |
+| **10** | **CTA + GANCHO** | **Guárdalo** y esta noche mira dónde están las marcas.<br>Empieza por el primer punto de tu columna.<br><br>Mañana: **lo que de verdad pasa en los primeros 30 minutos.** · 2 de 5 |
 
-**Pie de foto:** Antes de buscar soluciones, mira dónde rompe. Si es en la puerta y el marco, no es aburrimiento. Esta noche fíjate y mañana seguimos 🤍
+**Pie de foto:** Antes de buscar soluciones, mira dónde rompe. Si es en la puerta y el marco, no es aburrimiento — y no se arregla con más juguetes. Tres cosas que empezar hoy para cada caso 🤍
+
+> **Qué cambió y por qué.** La versión anterior tenía ocho diapositivas y **ninguna
+> solución**: diagnosticaba, y remataba con «mañana te cuento». Quien llegara suelto a esta
+> publicación —que son casi todos— se quedaba sin nada que hacer esa noche. Ahora cada rama
+> del diagnóstico lleva **sus tres primeras acciones**, y el gancho al día siguiente sigue
+> ahí, en la última.
+>
+> La 8 se solapa a propósito con el 2 de 5: ahí la grabación es el carrusel entero, aquí es
+> solo el desempate para quien no sepa en qué columna está.
 
 ---
 
