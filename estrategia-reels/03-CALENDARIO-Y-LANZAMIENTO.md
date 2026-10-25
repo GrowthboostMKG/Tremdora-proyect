@@ -60,6 +60,70 @@ Hay semanas en las que un tema manda sobre el calendario. Cuando llegue, ocupa e
 
 ---
 
+### A QUÉ HORA PUBLICAR
+
+**La respuesta corta: 21:30, de martes a jueves.** Y si solo puedes una franja al día, esa.
+
+**Por qué las nueve y media y no las once de la mañana.** Casi todas las tablas de «mejores
+horas» que circulan son de datos de Estados Unidos y ponen el pico a las 10 u 11 de la
+mañana. En España eso no encaja: aquí se come a las tres y se cena a las diez. El momento
+en que la gente está en el sofá con el móvil, sin prisa, es **después de cenar**. Y tu
+contenido es justo de los que necesitan ese rato: un carrusel de nueve diapositivas no se
+desliza en la cola del supermercado.
+
+| Franja | Para qué |
+|---|---|
+| **21:30 – 22:30** | La principal. Sofá después de cenar, con tiempo para deslizar y guardar |
+| **14:00 – 15:30** | La segunda. Sobremesa. Funciona mejor para reels cortos que para carruseles |
+| **8:00 – 9:00** | Solo para **stories**, no para publicaciones. Es el hueco del desayuno y del primer paseo |
+
+**Los días:** de **martes a jueves** es lo más constante. El viernes por la noche y el
+sábado por la tarde la gente está en otra cosa; el domingo por la noche funciona
+sorprendentemente bien para el contenido emocional.
+
+---
+
+#### Pero esto es una hipótesis, no un dato — y hay forma de saberlo de verdad
+
+**Tu cuenta te lo va a decir mejor que cualquier artículo.** En la app: *Perfil → Panel
+profesional → Audiencia total → **Horas más activas***. Ahí está cuándo se conectan **tus**
+seguidores, que es lo único que importa.
+
+**No lo mires todavía.** Con siete seguidores ese panel no tiene datos suficientes y lo que
+diga será ruido. **A partir de unos 100 seguidores empieza a significar algo** — y entonces
+ajusta.
+
+---
+
+#### Tres cosas que importan más que la hora
+
+**1 · Publica cuando puedas estar la primera hora.** Esto es lo más importante de toda la
+sección. Una publicación a las 21:30 que no puedes atender rinde **peor** que una a las
+18:00 en la que contestas todos los comentarios según entran. Con una cuenta que empieza,
+cada respuesta tuya vale más que cualquier franja horaria.
+
+**2 · Siempre la misma hora.** No porque el algoritmo lo premie —no lo hace—, sino porque
+**tus seguidores lo aprenden**. Y porque tú dejas de decidirlo cada día, que es lo que hace
+que un calendario se sostenga seis meses.
+
+**3 · La hora pesa poco, y cada vez menos.** Instagram ya no reparte por orden cronológico:
+reparte por interés, y un reel puede empezar a moverse **tres días después** de publicarlo.
+La hora decide la primera hora. El contenido decide el resto.
+
+---
+
+#### Sobre publicar todos los días
+
+Si la idea es **una publicación de feed al día**, piénsalo dos veces. Publicar a diario no
+es lo que hace crecer una cuenta: **lo que la hace crecer es no parar**. Y siete
+publicaciones a la semana se sostienen tres semanas y se abandonan en la cuarta.
+
+**Lo que sí recomiendo:** 4 o 5 publicaciones de feed por semana —el calendario de arriba—
+y **stories todos los días**. Las stories sí son diarias: son donde se construye la
+confianza, cuestan cinco minutos y no las penaliza nadie si un día son dos en vez de seis.
+
+---
+
 ## PARTE 2 — PLAN DE LANZAMIENTO (4 SEMANAS)
 
 ### SEMANA 0 — Antes de publicar nada
