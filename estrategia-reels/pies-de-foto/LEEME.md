@@ -33,9 +33,25 @@ deslizado no tiene motivo para leerlo — pero si se va a otro tema, es peor tod
 > escrito. Y repasa que **ninguna diapositiva se quede sin recoger** en el pie: si una
 > propone algo y el pie no la menciona, la has perdido.
 
+> **La comprobación, que es de diez segundos y se la salta todo el mundo —yo el primero.**
+> Cuando tengas el pie escrito, ponlo al lado de las diapositivas y **tacha cada frase que
+> ya esté en una de ellas**. Si queda tachada más de la mitad, el pie no aporta nada:
+> reescríbelo.
+>
+> Me pasó dos veces con el mismo archivo. La primera versión del pie del gato con artrosis
+> era el carrusel entero retecleado: el «se ha vuelto más casero» era la diapositiva 2, el
+> dato de los 100 gatos la 3, el «no cojea, deja de hacer cosas» la 4, el pelo apelmazado
+> la 6 y el paracetamol la 7. Bien escrito y completamente inútil.
+
 **2 bis · Lo que sí añade bien un pie:** la dosis («cincuenta veces al día»), el ritmo («si
 ya se levanta, no sigas»), el error típico («ni abrazos largos ni fiesta al volver») y el
 permiso para ir despacio. Todo eso amplía sin cambiar de conversación.
+
+**Y el filón que mejor funciona: el paso siguiente.** El carrusel dice «ve al veterinario»;
+el pie dice **qué llevar y qué pedir con esas palabras**. El carrusel dice «cámbiale el
+arenero»; el pie dice **cómo hacer el cambio sin que deje de usarlo**. Eso nunca está en las
+diapositivas, porque no cabe — y es justo lo que convierte un «qué interesante» en un «esto
+lo guardo».
 
 **3 · No lleva título.** La primera línea **es** el título. Instagram corta el pie a las dos
 líneas (unas 125 caracteres, y varía según el móvil) y pone «... más» — así que ese hueco es
