@@ -3,6 +3,8 @@
 **Duración:** 8 semanas · **Dedicación:** 15–20 minutos al día + 1 práctica real a la semana
 **Base:** neurociencia del estrés, psicología cognitivo-conductual y técnicas de comunicación profesional
 
+> 📌 **Guía adaptada a tu caso** (inmobiliaria, agencia de marketing, llamadas, visitas y audios de WhatsApp, y el nervio que crece a mitad de la conversación): [guia-inmobiliaria-y-marketing.md](guia-inmobiliaria-y-marketing.md)
+
 ---
 
 ## Índice
