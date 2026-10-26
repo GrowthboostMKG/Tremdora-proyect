@@ -54,6 +54,7 @@ con criterio.
 | 23 | [La nota de encargo](23-nota-de-encargo.md) | Tipos, cláusula por cláusula, cómo cerrarla y objeciones al firmar |
 | 24 | [Preguntas y objeciones maestras](24-preguntas-y-objeciones-maestras.md) | Las preguntas que debes hacer siempre y todas las objeciones en un solo lugar |
 | 25 | [Suelo y terrenos para fondos (Andalucía)](25-suelo-terrenos-fondos-andalucia.md) | Urbanismo, búsqueda, ficha técnica, método residual y presentación a inversores |
+| 26 | [Inversores: vender, negociar y ser referente](26-inversores-vender-negociar-ser-referente.md) | Vender producto a inversores paso a paso, negociar con ellos, protocolo profesional y cómo ser tenida en cuenta para proyectos |
 | 🧮 | [Calculadora de valoración](plantillas/valoracion-comparables.xlsx) | Excel: comparables, homogeneización, valor, rango, precio de salida y neto del propietario |
 | 🌐 | [Plantilla de landing de la villa](plantillas/landing-villa/index.html) | Página de presentación lista para rellenar con tus fotos y datos |
 | 🏡 | [Caso: villa en Cerro Alarcón](casos/villa-cerro-alarcon/ficha-de-trabajo.md) | Ficha de trabajo con los datos del anuncio, verificaciones, diagnóstico, nuevo anuncio, visita y objeciones ([PDF](casos/villa-cerro-alarcon/Ficha-Villa-Cerro-Alarcon.pdf) · [landing](casos/villa-cerro-alarcon/landing.html) · [guion de visita](casos/villa-cerro-alarcon/guion-de-visita.md) · [guion en PDF](casos/villa-cerro-alarcon/Guion-Visita-Villa-Cerro-Alarcon.pdf)) |

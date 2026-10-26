@@ -11,6 +11,9 @@
 > problemas (deuda, ocupación, cargas, carteras de bancos). En la conversación profesional
 > usa "fondo oportunista", "fondo *value-add*" o "inversor institucional".
 
+
+> **Continúa en el [módulo 26](26-inversores-vender-negociar-ser-referente.md)**: cómo vender producto a inversores paso a paso (con caso de inversión numérico), negociar con ellos, el trato profesional que esperan y cómo convertirte en su proveedora de referencia para proyectos.
+
 ---
 
 ## 1. Mapa de compradores profesionales
