@@ -4,21 +4,24 @@ Complemento del [programa de 8 semanas](README.md). Aquí está todo adaptado a 
 
 - **Sectores:** inmobiliaria y agencia de marketing.
 - **Canales:** llamadas, reuniones presenciales y audios de WhatsApp.
-- **Tu patrón:** empiezas bien, pero **después de hablar un rato el nervio va subiendo**, dejas de entender lo que dices, no sabes qué decir y te trabas.
+- **Tu patrón tiene dos caras:**
+  - **En llamadas, el nervio llega al principio**, incluso antes de que contesten. A veces cuelgas antes de que te cojan el teléfono.
+  - **En conversaciones largas**, empiezas bien, pero **después de hablar un rato el nervio va subiendo**, dejas de entender lo que dices, no sabes qué decir y te trabas.
 
 ---
 
 ## Índice
 
 1. [Tu patrón: el nervio que crece a mitad de la conversación](#1-tu-patrón-el-nervio-que-crece-a-mitad-de-la-conversación)
-2. [Las 5 reglas anti-bloqueo](#2-las-5-reglas-anti-bloqueo)
-3. [Inmobiliaria: guiones](#3-inmobiliaria-guiones)
-4. [Agencia de marketing: guiones](#4-agencia-de-marketing-guiones)
-5. [Objeciones y respuestas](#5-objeciones-y-respuestas)
-6. [Audios de WhatsApp: tu mejor gimnasio](#6-audios-de-whatsapp-tu-mejor-gimnasio)
-7. [Preguntas que no sabes responder](#7-preguntas-que-no-sabes-responder)
-8. [Plan de práctica semanal adaptado](#8-plan-de-práctica-semanal-adaptado)
-9. [Tarjeta de bolsillo](#9-tarjeta-de-bolsillo)
+2. [El miedo a llamar: cuando cuelgas antes de que contesten](#2-el-miedo-a-llamar-cuando-cuelgas-antes-de-que-contesten)
+3. [Las 5 reglas anti-bloqueo](#3-las-5-reglas-anti-bloqueo)
+4. [Inmobiliaria: guiones](#4-inmobiliaria-guiones)
+5. [Agencia de marketing: guiones](#5-agencia-de-marketing-guiones)
+6. [Objeciones y respuestas](#6-objeciones-y-respuestas)
+7. [Audios de WhatsApp: tu mejor gimnasio](#7-audios-de-whatsapp-tu-mejor-gimnasio)
+8. [Preguntas que no sabes responder](#8-preguntas-que-no-sabes-responder)
+9. [Plan de práctica semanal adaptado](#9-plan-de-práctica-semanal-adaptado)
+10. [Tarjeta de bolsillo](#10-tarjeta-de-bolsillo)
 
 ---
 
@@ -50,7 +53,128 @@ Tres cosas se suman a la vez:
 
 ---
 
-## 2. Las 5 reglas anti-bloqueo
+## 2. El miedo a llamar: cuando cuelgas antes de que contesten
+
+### Por qué el nervio es más fuerte justo antes de la llamada
+
+En las llamadas, el momento más difícil **no es hablar: es esperar**. Mientras suena el tono, tu cerebro no sabe qué va a pasar: quién contestará, de qué humor estará, qué te dirá. **La incertidumbre es uno de los mayores disparadores de ansiedad**: el cerebro prefiere una mala noticia segura a no saber. Por eso el nervio llega a su punto máximo **antes** de que contesten, y no durante la conversación.
+
+A eso se suma que el teléfono te quita las señales de la cara (sonrisas, gestos) que, en persona, le dicen a tu cerebro "todo va bien".
+
+### Por qué colgar hace que cada llamada sea más difícil
+
+Cuando cuelgas antes de que contesten, ocurre esto:
+
+```
+Marcas → suena → el nervio sube al máximo
+   ↓
+Cuelgas → ALIVIO inmediato
+   ↓
+Tu cerebro aprende: "llamar es peligroso, y colgar me salva"
+   ↓
+La próxima llamada da MÁS miedo, y las ganas de colgar son MÁS fuertes
+```
+
+Ese alivio es la trampa. Se llama **refuerzo negativo**: lo que te quita el malestar en el momento se repite y se hace más fuerte. Evitar es lo que **mantiene** el miedo; no es un fallo tuyo, es cómo aprende el cerebro. Por eso no basta con "intentar no colgar": hay que darle al cerebro la experiencia contraria, muchas veces.
+
+> **La buena noticia:** el nervio de anticipación **siempre** es mayor que el nervio real de la llamada. Cuando el cliente contesta y dices tu primera frase, la incertidumbre desaparece y el nervio empieza a bajar. Si no cuelgas, tu cerebro lo comprueba, y cada llamada lo aprende un poco mejor.
+
+### Técnica 1 — La regla de oro: "Si marco, no cuelgo"
+
+Comprométete con esto: **una vez que marcas, dejas que suene hasta que contesten o salte el buzón**.
+
+Para que sea más fácil, ten pensado **qué hacer en cada caso** (más abajo tienes los guiones). Si sabes qué hacer pase lo que pase, la incertidumbre baja mucho.
+
+**Si cuelgas antes de que contesten** (pasará alguna vez, es normal):
+- No te castigues. Respira.
+- **Vuelve a marcar en menos de 2 minutos.** Si te preguntan, "se cortó". Así conviertes la huida en práctica, y tu cerebro no se queda con el aprendizaje de "colgar me salva".
+
+### Técnica 2 — Qué hacer mientras suena el tono
+
+Esos segundos son tu momento de mayor nervio. Dale una tarea a tu cuerpo:
+
+1. **Ponte de pie.** Respiras mejor y la voz sale más firme.
+2. **Con cada tono, una exhalación larga** por la boca, como soplando una vela despacio. Tono → exhalo. Tono → exhalo.
+3. **Mira tu primera frase escrita** (Técnica 3).
+4. **Sonríe un poco** antes de que contesten. La sonrisa cambia la forma de la boca y se oye en la voz: suena más cálida y relajada.
+
+### Técnica 3 — Tu primera frase, escrita palabra por palabra
+
+En el resto de la llamada te he dicho que uses solo palabras clave. **La primera frase es la excepción**: escríbela entera y léela si hace falta. Los primeros 10 segundos son los de más nervio, y tener las palabras exactas delante deja a tu cerebro libre para respirar.
+
+```
+"Hola, [nombre], ¿qué tal? Soy [tu nombre], de [empresa].
+ Te llamo por [motivo en 5 palabras]. ¿Tienes un minuto?"
+```
+
+La pregunta final ("¿tienes un minuto?") es tu aliada: **pasa el turno enseguida** y el cliente habla mientras tú respiras.
+
+### Técnica 4 — Un plan para cada respuesta (adiós a la incertidumbre)
+
+Tenlo junto al teléfono. Si pase lo que pase sabes qué decir, la llamada deja de ser una amenaza desconocida.
+
+| Si pasa esto… | Tú dices… |
+|---|---|
+| **Contesta y puede hablar** | Sigues con el guion (apartados 4 y 5). |
+| **"Ahora no puedo"** | "Sin problema. ¿Te va mejor esta tarde o mañana por la mañana?" → Anotas y cuelgas. **Llamada conseguida.** |
+| **"No me interesa"** | "Perfecto, gracias por decírmelo. Que tengas buen día." → Cuelgas. **Llamada conseguida.** Un "no" educado no es un fracaso, es información. |
+| **No contesta / buzón** | Mensaje corto (abajo) + WhatsApp. |
+| **Te devuelve la llamada y te pilla sin preparar** | "¡Hola! Sí, te llamaba yo, soy [nombre] de [empresa]. Dame un segundo que tengo tus datos delante…" → Respira, abre tus notas y sigues. |
+
+**Mensaje para el buzón de voz:**
+> "Hola, [nombre], soy [tu nombre], de [empresa]. Te llamaba por [motivo]. Te escribo ahora por WhatsApp. ¡Que tengas buen día!"
+
+**WhatsApp después:**
+> "Hola, [nombre], soy [tu nombre], de [empresa]. Te acabo de llamar por [motivo]. ¿Cuándo te viene bien que hablemos?"
+
+### Técnica 5 — Decide cuándo vas a llamar (y no lo pienses más)
+
+Cuanto más tiempo pasa entre "tengo que llamar" y llamar de verdad, más crece el miedo anticipatorio. Pensar en la llamada durante horas la hace enorme.
+
+- **Pon las llamadas en tu agenda** como una cita: "A las 10:00 llamo a Laura y a Pedro". Los estudios sobre *intenciones de implementación* (Gollwitzer) muestran que decidir de antemano **cuándo y dónde** vas a hacer algo aumenta mucho la probabilidad de hacerlo.
+- **Prepara, y marca.** Prepara las 3 palabras clave y la primera frase (2–3 minutos). En cuanto lo tengas, marca. No te des tiempo para que el miedo crezca.
+- **Agrupa las llamadas.** Haz 3–5 seguidas. La primera es la más difícil; con cada una el nervio baja, porque el cuerpo se va acostumbrando (se llama *habituación*). Si las repartes a lo largo del día, empiezas de cero cada vez.
+
+### Técnica 6 — La llamada de calentamiento
+
+Empieza cada bloque de llamadas con **una llamada fácil**: un cliente que ya conoces y con quien te llevas bien, un compañero, o una llamada sencilla (confirmar una visita). Es como calentar antes de hacer deporte: tu voz y tu cuerpo entran en "modo teléfono" sin presión. Después, haz la llamada difícil.
+
+### Técnica 7 — ¿Avisar por WhatsApp antes de llamar?
+
+Escribir antes "Hola, Marta, te llamo en 5 minutos por el piso, ¿te va bien?" es una práctica profesional muy habitual. Además, baja tu incertidumbre: ya sabes que te van a contestar.
+
+**Úsalo al principio**, como un escalón intermedio. Pero no lo conviertas en obligatorio para todas las llamadas: si solo puedes llamar cuando has avisado, el cerebro sigue pensando que llamar "sin red" es peligroso. Poco a poco, haz algunas llamadas sin aviso.
+
+### Escalera de exposición para el teléfono
+
+Sube un escalón cuando el actual te genere bastante menos nervio que al principio. **Regla en todos los escalones: si marco, no cuelgo.**
+
+| Escalón | Llamada | Nervios previstos (0–10) | Nervios reales | ¿Pasó lo que temía? |
+|---|---|---|---|---|
+| 1 | Llamar a una amiga o familiar para algo práctico | | | |
+| 2 | Llamar a un comercio o restaurante para preguntar el horario | | | |
+| 3 | Llamar a un cliente conocido para confirmar una cita | | | |
+| 4 | Llamar a un cliente conocido avisando antes por WhatsApp | | | |
+| 5 | Llamar a un comprador que te escribió por un portal (avisando antes) | | | |
+| 6 | Llamar a ese tipo de comprador **sin avisar** | | | |
+| 7 | Llamada de captación a un propietario que no te conoce | | | |
+| 8 | Llamada a un negocio para ofrecer servicios de marketing | | | |
+
+> **Apunta siempre la última columna.** Cuando veas que pones "No" una y otra vez, tu cerebro tiene pruebas de que la llamada no es peligrosa. Esas pruebas valen más que cualquier razonamiento.
+
+### Tu rutina antes de cada bloque de llamadas (3 minutos)
+
+1. **Agenda:** "Ahora llamo a ___, ___ y ___."
+2. **Primera frase escrita** + 3 palabras clave de cada llamada.
+3. **Tabla de respuestas** a la vista (Técnica 4).
+4. **De pie.** 2 suspiros fisiológicos.
+5. "Esto que siento es energía." **Y marca.**
+6. Mientras suena: **tono → exhalo**. Sonríe.
+7. **Si marco, no cuelgo.**
+
+---
+
+## 3. Las 5 reglas anti-bloqueo
 
 ### Regla 1 — Bloques de 30–40 segundos y pasas el turno
 
@@ -101,11 +225,11 @@ En reuniones sentada: apoya bien los pies en el suelo, toma un sorbo de agua cua
 
 ---
 
-## 3. Inmobiliaria: guiones
+## 4. Inmobiliaria: guiones
 
 > Los guiones **no son para leerlos palabra por palabra**. Léelos varias veces en voz alta hasta que te sepas la *estructura*, y luego dilo con tus palabras. Lleva solo las palabras clave en un papel.
 
-### 3.1 Llamada a un comprador interesado (lead de un portal)
+### 4.1 Llamada a un comprador interesado (lead de un portal)
 
 **Palabras clave: SALUDO · QUÉ BUSCA · VISITA**
 
@@ -130,7 +254,7 @@ RESUMEN + VISITA
 
 Fíjate: tú hablas muy poco. Las preguntas hacen el trabajo.
 
-### 3.2 Llamada de captación a un propietario
+### 4.2 Llamada de captación a un propietario
 
 **Palabras clave: MOTIVO · SITUACIÓN · CITA**
 
@@ -152,7 +276,7 @@ CITA
  ¿Te viene bien esta semana?"
 ```
 
-### 3.3 Visita presencial a un inmueble
+### 4.3 Visita presencial a un inmueble
 
 **Estructura de la visita:**
 
@@ -166,7 +290,7 @@ CITA
 
 > **Truco para tu patrón:** como entre habitaciones caminas, usa ese paso para **exhalar largo**. Cada cambio de habitación es un mini-reset.
 
-### 3.4 Presentar una valoración al propietario
+### 4.4 Presentar una valoración al propietario
 
 Este es un momento delicado (hablas de precio y de dinero). Usa la regla de tres:
 
@@ -180,9 +304,9 @@ Este es un momento delicado (hablas de precio y de dinero). Usa la regla de tres
 
 ---
 
-## 4. Agencia de marketing: guiones
+## 5. Agencia de marketing: guiones
 
-### 4.1 Llamada de descubrimiento con un cliente potencial
+### 5.1 Llamada de descubrimiento con un cliente potencial
 
 **Palabras clave: NEGOCIO · PROBLEMA · OBJETIVO · SIGUIENTE**
 
@@ -208,7 +332,7 @@ SIGUIENTE
 
 En esta llamada **no vendes nada**. Solo preguntas y anotas. Es la llamada perfecta para practicar sin presión.
 
-### 4.2 Presentar una propuesta
+### 5.2 Presentar una propuesta
 
 Estructura PREP, ligada a lo que dijo el cliente (por eso son tan importantes tus notas):
 
@@ -225,7 +349,7 @@ Estructura PREP, ligada a lo que dijo el cliente (por eso son tan importantes tu
 "¿Empezamos el día [fecha]?"
 ```
 
-### 4.3 Reunión de resultados mensual con un cliente
+### 5.3 Reunión de resultados mensual con un cliente
 
 ```
 1. Lo que funcionó:     "Este mes, [dato positivo]."
@@ -238,7 +362,7 @@ Lleva siempre el informe **impreso o en pantalla** y ve señalando los datos. Ha
 
 ---
 
-## 5. Objeciones y respuestas
+## 6. Objeciones y respuestas
 
 **Método para todas las objeciones (VPR):**
 
@@ -274,7 +398,7 @@ Nunca respondas una objeción de inmediato. Primero **pregunta**: te da tiempo p
 
 ---
 
-## 6. Audios de WhatsApp: tu mejor gimnasio
+## 7. Audios de WhatsApp: tu mejor gimnasio
 
 Los audios son **la herramienta perfecta para entrenar**: puedes prepararlos, escucharlos y regrabarlos. Lo que practiques aquí se transfiere a las llamadas y a las reuniones.
 
@@ -299,7 +423,7 @@ Los audios son **la herramienta perfecta para entrenar**: puedes prepararlos, es
 
 ---
 
-## 7. Preguntas que no sabes responder
+## 8. Preguntas que no sabes responder
 
 En inmobiliaria y marketing te preguntarán cosas técnicas (hipotecas, impuestos, trámites, algoritmos, métricas…). **No tienes por qué saberlo todo**, y decir que lo consultas te hace más fiable, no menos.
 
@@ -313,20 +437,20 @@ Después, **cumple**: escríbele ese mismo día. Ese seguimiento genera más con
 
 ---
 
-## 8. Plan de práctica semanal adaptado
+## 9. Plan de práctica semanal adaptado
 
 Integra esto en el programa de 8 semanas:
 
 | Semana | Programa general | Práctica en tu trabajo |
 |---|---|---|
-| 1 | Entender y medir | Grábate explicando **una propiedad** y **tu servicio de marketing** (2 min cada uno). Anota en qué minuto empiezas a acelerar. |
-| 2 | Respiración | Suspiro fisiológico antes de **cada** llamada y cada audio. Exhala en los cambios de habitación en las visitas. |
-| 3 | Voz | Reto de los audios de WhatsApp: graba, escucha y regrábalo más despacio. |
-| 4 | Mente | Antes de cada cita: "Mi objetivo es entender qué necesita [nombre]." |
-| 5 | Estructura | Aprende los guiones 3.1 (comprador) y 4.1 (descubrimiento). Lleva solo las palabras clave. |
-| 6 | Bloqueos | Practica el **reset** (Regla 4) en cada conversación larga, aunque no lo necesites. |
+| 1 | Entender y medir | Grábate explicando **una propiedad** y **tu servicio de marketing** (2 min cada uno). Anota en qué minuto empiezas a acelerar. Empieza la **regla "si marco, no cuelgo"** y apunta cada vez que cuelgues antes de que contesten (sin juzgarte: es tu punto de partida). |
+| 2 | Respiración | Suspiro fisiológico antes de **cada** llamada y cada audio. Mientras suena el tono: **tono → exhalo**. Exhala en los cambios de habitación en las visitas. Escalones 1–2 de la escalera del teléfono. |
+| 3 | Voz | Reto de los audios de WhatsApp: graba, escucha y regrábalo más despacio. Escribe tu **primera frase** para cada tipo de llamada. Escalones 3–4. |
+| 4 | Mente | Antes de cada cita: "Mi objetivo es entender qué necesita [nombre]." **Bloques de llamadas** en la agenda, empezando por una llamada de calentamiento. Escalón 5. |
+| 5 | Estructura | Aprende los guiones 4.1 (comprador) y 5.1 (descubrimiento). Lleva solo las palabras clave. Escalón 6: llamadas sin avisar antes por WhatsApp. |
+| 6 | Bloqueos | Practica el **reset** (Regla 4 del apartado 3) en cada conversación larga, aunque no lo necesites. |
 | 7 | Escucha | **Regla de los 40 segundos** en todas las conversaciones. Al terminar, calcula: ¿quién habló más? |
-| 8 | Exposición | Ensaya las objeciones con alguien de confianza que haga de cliente difícil. Después, úsalas en llamadas reales. |
+| 8 | Exposición | Ensaya las objeciones con alguien de confianza que haga de cliente difícil. Después, úsalas en llamadas reales. Escalones 7–8 del teléfono. |
 
 ### Ejercicio estrella para tu patrón: "la conversación larga"
 
@@ -341,13 +465,19 @@ Así entrenas el hábito de **cortar la acumulación** antes de que llegue el bl
 
 ---
 
-## 9. Tarjeta de bolsillo
+## 10. Tarjeta de bolsillo
 
 > Guárdala en la funda del móvil o como fondo de pantalla de bloqueo.
 
 ```
 ┌───────────────────────────────────────────────┐
-│  MI PATRÓN: el nervio CRECE si no paro        │
+│  LLAMADAS                                     │
+│  📞 SI MARCO, NO CUELGO                        │
+│  De pie · tono → exhalo · sonrío              │
+│  Primera frase escrita delante                │
+│  Si cuelgo → vuelvo a marcar en 2 minutos     │
+│                                               │
+│  CONVERSACIÓN: el nervio CRECE si no paro     │
 │                                               │
 │  ⏱  40 segundos máximo → PREGUNTA             │
 │  🌬  Cliente habla → EXHALO y ANOTO            │
