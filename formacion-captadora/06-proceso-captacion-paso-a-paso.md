@@ -7,7 +7,7 @@
 
 ```
 1. Contacto con permiso → 2. Cualificación → 3. Preparación → 4. Visita de valoración
-→ 5. Presentación del plan → 6. Firma del encargo → 7. Puesta en marcha
+→ 5. Presentación del informe y del plan → 6. Firma del encargo → 7. Puesta en marcha
 → 8. Seguimiento al propietario → 9. Venta / alquiler → 10. Postventa y referidos
 ```
 
@@ -40,24 +40,28 @@ Usa las 7 preguntas (módulo 04 §4). Clasifica:
 - [ ] Confirmación por mensaje el día anterior: hora, que estén todos los decisores, que
       tenga a mano escritura, IBI, recibos de comunidad y certificado energético si lo tiene.
 
-## Paso 4 · Visita de valoración (60–75 min)
+## Paso 4 · Visita de captación o de valoración (45–60 min): escuchar y ver, **sin dar precio**
 
 | Tiempo | Qué haces |
 |---|---|
 | 0–5 min | Llegas puntual, saludo, agradecimiento. Pides que te enseñe la casa **él/ella** |
 | 5–25 min | Recorrido: preguntas qué le gusta de la casa, qué reformas hizo, qué dejaría. Mides, fotografías (con permiso), anotas estado |
-| 25–40 min | Sentados: profundizas en motivación, plazos, plan posterior, preocupaciones |
-| 40–60 min | Presentación del plan (paso 5) |
-| 60–75 min | Dudas, objeciones y cierre con opciones |
+| 25–40 min | Sentados: profundizas en motivación, plazos, plan posterior, preocupaciones (preguntas del módulo 24 §1.2) |
+| 40–50 min | Explicas **cómo trabajas** (tu método, sin precio) y por qué necesitas 24–48 h para preparar un estudio serio |
+| 50–60 min | Fijas la **cita de presentación del informe** (24–48 h, con todos los decisores) y te despides |
+
+> **Nunca des precio en esta visita**, aunque te lo pidan: *"Le daría una cifra poco seria. En 48
+> horas le traigo un estudio con las ventas reales de su calle y lo vemos juntos."* Volver con un
+> informe preparado transmite rigor (módulo 21).
 
 Consejos:
 - **Halaga con verdad** ("se nota que está cuidada"), nunca con exageración.
 - No critiques decoración: di "para las fotos, quitaremos algunos objetos personales para que
   el comprador se imagine viviendo aquí".
-- Si no hay todos los decisores: haz la visita, pero **no presentes el precio final**. Agenda
-  la presentación con todos.
+- Si no están todos los decisores: haz la visita igualmente y asegúrate de que **todos** estén en la
+  presentación del informe.
 
-## Paso 5 · Presentación del plan (la parte que gana la exclusiva)
+## Paso 5 · Presentación del informe y del plan (segunda reunión, 24–48 h después)
 
 > Cómo montar y presentar el informe de valoración: [módulo 21](21-informe-valoracion-comparables.md).
 

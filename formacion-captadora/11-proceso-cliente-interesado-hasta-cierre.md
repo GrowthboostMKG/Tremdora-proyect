@@ -53,10 +53,11 @@ A1 Interés → A2 Conversación de descubrimiento → A3 Visita de valoración
 ### A3 · Visita de valoración
 Ver módulo 06, pasos 3 y 4. Al salir, **en las 2 horas siguientes**:
 - Mensaje de agradecimiento con un detalle personal de la visita.
-- Confirmación de **cuándo presentarás el plan** (idealmente en la misma visita o en 48–72 h).
+- Confirmación por escrito de la **cita de presentación del informe** (24–48 h después, en persona y
+  con todos los decisores). Nunca des el precio en la misma visita (módulo 21).
 
-### A4 · Presentación del plan
-Ver módulo 06, paso 5. Usa la **plantilla de propuesta** (módulo 14 §3).
+### A4 · Presentación del informe y del plan
+Ver módulo 06, paso 5, y el guion de presentación del módulo 21 §6. Usa la **plantilla de propuesta** (módulo 14 §3).
 - **Criterio de salida**: el propietario elige una de las tres opciones (firmar, pensarlo con fecha
   concreta, decir no).
 

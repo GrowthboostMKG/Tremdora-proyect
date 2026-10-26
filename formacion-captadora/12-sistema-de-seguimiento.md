@@ -55,7 +55,8 @@ Revisa la temperatura de cada contacto **cada semana** (en la revisión del vier
 | 💛 **Cliente pasado** | Ya ha vendido/comprado contigo | Ver cadencia postventa (§6) | Relación y referidos |
 | ⛔ **No contactar** | Lo ha pedido | Nunca | Respetarlo y registrarlo |
 
-**Límite general**: con quien no está "en proceso", **máximo 2 contactos al mes por tu iniciativa**.
+**Límite general**: con contactos templados, fríos o que no te han respondido, **máximo 2 contactos al
+mes por tu iniciativa**. Con quien está caliente o en proceso, sigue la cadencia de su fase (§4).
 
 ---
 

@@ -31,13 +31,15 @@
 
 ## 2. Secuencia de seguimiento (si no responde o dice "ahora no")
 
+Respeta el límite del módulo 12 §3: con quien no te ha respondido, **máximo 2 mensajes al mes**.
+
 | Día | Mensaje (siempre con valor, nunca "¿qué tal la venta?") |
 |---|---|
 | 0 | Primer mensaje (arriba) |
-| 7 | "Ha salido a la venta un piso muy parecido al tuyo en [calle] a [precio]. Te lo comento por si te sirve de referencia." |
-| 21 | "Te dejo la guía de gastos e impuestos al vender en 2026, por si te ayuda a calcular lo que te quedará limpio." |
-| 45 | "¿Cómo va la venta? Si estás recibiendo visitas pero no ofertas, suele ser señal de [precio/fotos/documentación]. Si quieres, te hago un diagnóstico de 15 minutos, gratis." |
-| 75+ | Solo informe trimestral. Si te respondió "no me escribas": **nunca más**. |
+| 10 | "Ha salido a la venta un piso muy parecido al tuyo en [calle] a [precio]. Te lo comento por si te sirve de referencia." |
+| 30 | "Te dejo la guía de gastos e impuestos al vender en 2026, por si te ayuda a calcular lo que te quedará limpio." |
+| 60 | "¿Cómo va la venta? Si estás recibiendo visitas pero no ofertas, suele ser señal de [precio/fotos/documentación]. Si quieres, te hago un diagnóstico de 15 minutos, gratis." |
+| 90+ | Solo informe trimestral. Si te respondió "no me escribas": **nunca más**. |
 
 ## 3. Presentación en comercios y a prescriptores
 
@@ -107,7 +109,10 @@ Estructura **A-P-E-C** (Agradecer, Preguntar, Escuchar, Concretar):
 > esté pensando en vender o alquilar? No le llamaré: si quieres, pásale mi contacto y que
 > me escriba cuando quiera."
 
-## 7. Cierre de la visita de valoración (pedir el encargo sin presionar)
+## 7. Cierre de la presentación del informe (pedir el encargo sin presionar)
+
+> Se usa en la **segunda reunión**, cuando presentas el informe de valoración (módulo 21), nunca en la
+> primera visita. Cómo cerrar la nota de encargo paso a paso: módulo 23.
 
 > "Con todo lo que hemos visto, mi recomendación es salir a [precio] con este plan
 > [resumen 3 puntos]. Tienes tres opciones: firmarlo hoy y empezamos el lunes con las

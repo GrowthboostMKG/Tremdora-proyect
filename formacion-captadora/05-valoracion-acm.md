@@ -21,7 +21,7 @@ si pides mucho más de lo que tasa, **el comprador no consigue la hipoteca**.
 1. **Datos del inmueble**: Catastro (m² construidos, año), nota simple (m² registrales),
    visita (m² útiles, estado, orientación, planta, ascensor, exterior/interior, terraza,
    garaje, trastero, eficiencia energética, gastos de comunidad, IBI).
-2. **Selección de testigos** (mínimo 6, ideal 10):
+2. **Selección de testigos** (mínimo 5–6; hasta 10 si hay datos suficientes):
    - Misma zona (radio 300–500 m o mismo barrio), tipología y tamaño similar (±25 %).
    - **Prioridad**: ventas cerradas recientes (< 12 meses) > anuncios que se han retirado
      (probablemente vendidos) > anuncios activos (competencia).
@@ -40,6 +40,7 @@ si pides mucho más de lo que tasa, **el comprador no consigue la hipoteca**.
 | Antigüedad del dato (por cada trimestre) | según evolución del barrio |
 
 4. **Cálculo**: €/m² medio homogeneizado × m² del inmueble = **valor de mercado**.
+   (Método completo con pesos por tipo de comparable, ejemplo resuelto y calculadora en Excel: módulo 21.)
 5. **Rango y estrategia**: define **precio de salida** (ligeramente por encima del valor, con
    margen de negociación del 3–5 %), **precio objetivo** y **precio mínimo** aceptable para el
    propietario.

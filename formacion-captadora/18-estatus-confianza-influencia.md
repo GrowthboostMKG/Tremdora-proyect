@@ -161,7 +161,7 @@ Lo que el propietario o el comprador **compara** entre agentes, y cómo ganar en
 | ¿Me trata como un número? | Detalles personales, trato de concierge, nada de mensajes genéricos |
 | ¿Cumple lo que dice? | Puntualidad, confirmaciones escritas, informes en la fecha prometida |
 | ¿Me presiona? | Opciones, tiempo para decidir, "no" como respuesta válida |
-| ¿Tiene un plan? | Plan de comercialización por escrito con fechas (módulo 06 §5) |
+| ¿Tiene un plan? | Plan de comercialización por escrito con fechas (módulo 06, paso 5) |
 | ¿Me da seguridad? | Conocimiento legal y fiscal, acompañamiento hasta notaría |
 | ¿Es diferente? | Tu propuesta de valor personal (módulo 02 §3), tu especialización, tu presentación |
 

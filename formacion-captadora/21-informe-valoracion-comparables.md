@@ -149,7 +149,7 @@ Con un precio de venta de 271.000 € (estimación orientativa, a confirmar con 
 7. **Homogeneización y cálculo**: tabla de ajustes y resultado (sin tecnicismos innecesarios).
 8. **Estrategia de precio**: tabla de escenarios (precio / tiempo / riesgo).
 9. **Neto estimado**.
-10. **Plan de comercialización** con fechas (módulo 06 §5).
+10. **Plan de comercialización** con fechas (módulo 06, paso 5).
 11. **Próximos pasos** y propuesta de encargo.
 12. **Aviso**: "Estudio de mercado orientativo elaborado con datos de [fuentes] a [fecha]. No constituye
     una tasación oficial."

@@ -19,7 +19,7 @@
 
 ### 0.1 Comprobaciones imprescindibles
 - [ ] **Encargo firmado** (ideal: exclusiva de 6 meses, habitual en producto premium) con plan de
-      marketing por escrito (módulo 06 §5).
+      marketing por escrito (módulo 06, paso 5).
 - [ ] **¿Ya está anunciada por otra agencia o por el propietario?** El anuncio que te han reenviado
       está publicado en idealista: averigua **quién lo anuncia**. Si es otra agencia con encargo
       vigente, aclara con el propietario cómo termina ese encargo antes de publicar nada. Dos anuncios
@@ -175,7 +175,7 @@
 
 ---
 
-## 5.3 Si vendes en Madrid desde fuera (o el comprador está lejos)
+### 5.3 Si vendes en Madrid desde fuera (o el comprador está lejos)
 - [ ] Ten una **persona de confianza en Madrid** para llaves, mantenimiento y visitas presenciales.
 - [ ] Haz las **primeras visitas por videollamada** y la presencial solo con compradores cualificados.
 - [ ] Usa el **tour virtual 3D** y el vídeo como primera visita.

@@ -25,7 +25,7 @@ no agresivo:
 ## Fase 1 · Días 1–30: Cimientos
 
 ### Semana 1 — Preparación
-- [ ] Leer módulos 01 y 02 completos.
+- [ ] Leer los módulos **18** (estatus, la base de todo), **02** y **01** completos.
 - [ ] Rellenar el **inventario de herramientas** (módulo 10) con tu responsable.
 - [ ] Elegir **tu zona de farming**: 1.500–3.000 viviendas (unos 8–15 portales/calles,
       o una urbanización/barrio). Criterios en el módulo 03.
@@ -46,6 +46,8 @@ no agresivo:
 - [ ] Revisar **todos los anuncios activos** de la zona en portales; registrar en el CRM
       los de particulares (sin contactar aún).
 - [ ] Saber de memoria: 5 ventas recientes, precio medio, tiempo medio de venta.
+- [ ] Pedir una **nota simple de prueba** y consultar el **catastro** de 3 viviendas de tu zona;
+      aprender a leerlos (módulo 20).
 
 ### Semana 3 — Primeros contactos de valor
 - [ ] Presentarte a **10 comercios** de la zona (guion en módulo 04 §3).
@@ -57,7 +59,9 @@ no agresivo:
 - [ ] Instalar la **rutina diaria** del módulo 08 y cumplirla 5 días seguidos.
 - [ ] Primer **cuadro de mando** del viernes.
 - [ ] Practicar los guiones en voz alta (role-play con un compañero o grabándote) 20 min/día.
-- [ ] Practicar **una valoración completa** de un piso real de la zona (aunque no sea cliente).
+- [ ] Practicar **una valoración completa** de un piso real de la zona (aunque no sea cliente) con
+      la calculadora y la estructura de informe del módulo 21.
+- [ ] Preparar tu **dossier de presentación personal** (módulo 18 §5).
 
 ---
 
@@ -65,18 +69,21 @@ no agresivo:
 
 - [ ] Segundo y tercer buzoneo con contenido distinto (ej.: "¿Cuánto cuesta realmente
       vender tu piso? Gastos e impuestos 2026").
-- [ ] Publicar **2 contenidos/semana** en redes (módulo 03 §7).
+- [ ] Publicar **2 contenidos/semana** en redes (módulo 03, fuente 7).
 - [ ] Organizar o coorganizar **un pequeño evento o punto informativo** (café-charla sobre
       herencias, plusvalía o alquiler seguro) con una gestoría o abogado.
 - [ ] Seguimiento sistemático a todos los particulares que contactaste (secuencia del módulo 04).
-- [ ] Empezar la **base de inversores** (módulo 07): 8 inversores cualificados.
+- [ ] Montar tu **base de compradores** y el filtro de visitas (módulo 22).
+- [ ] Ensayar con Claude la **nota de encargo** (módulo 23) y la **negociación** (módulo 19).
+- [ ] Empezar la **base de inversores** (módulos 07 y 26): 8 inversores cualificados y una
+      reunión de criterios con cada uno.
 - [ ] Revisar con tu responsable cada valoración y cada encargo firmado: ¿qué se pudo hacer mejor?
 
 ## Fase 3 · Días 61–90: Escalar y especializarte
 
 - [ ] Pedir **referidos** a todo propietario que te haya conocido, firme o no (módulo 04 §6).
 - [ ] Formalizar acuerdos con **prescriptores** (módulo 03 §4).
-- [ ] Primera **operación con inversor** o envío de producto off-market a tu lista.
+- [ ] Primera **operación con inversor** o envío de producto off-market a tu lista (proceso del módulo 26 §4).
 - [ ] Ampliar la zona solo si la actual ya te reconoce (señal: te saludan por la calle,
       te llaman sin que hayas contactado antes).
 - [ ] Auditoría de los 90 días: ¿qué fuente te ha dado más encargos? Duplicar esfuerzo allí.
@@ -87,10 +94,10 @@ no agresivo:
 
 | Frecuencia | Práctica |
 |------------|----------|
-| Diario | 20 min de role-play de guiones y objeciones |
+| Diario | 20 min de role-play de guiones y objeciones (con Claude, módulo 15 §5.4; biblioteca en el módulo 24) |
 | Diario | Revisar novedades de anuncios en tu zona (nuevos, bajadas de precio, retirados) |
 | Semanal | Analizar 3 operaciones cerradas de la zona (precio de salida vs. cierre) |
 | Semanal | Leer una noticia de normativa/fiscalidad inmobiliaria y explicarla en un post |
 | Mensual | Acompañar a un compañero senior a una valoración o negociación |
-| Mensual | Grabarte en una presentación de valoración y autoevaluarte (módulo 06 §5) |
+| Mensual | Grabarte en una presentación de valoración y autoevaluarte (módulo 06, paso 5) |
 | Trimestral | Formación externa: fiscalidad inmobiliaria, negociación, home staging, PBC |

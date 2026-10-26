@@ -145,7 +145,7 @@ confianza.
 > pisos de vuestro edificio se están vendiendo ahora a unos [X] €/m². Si algún amigo o familiar
 > necesita ayuda para vender o comprar, aquí me tenéis."
 
-### 5.6 Seguimiento tras la visita de valoración (propuesta pendiente)
+### 5.6 Seguimiento tras la presentación del informe (propuesta pendiente)
 > "Hola, [nombre], soy [tu nombre]. Te llamo como quedamos el martes. ¿Habéis podido mirar la propuesta
 > con calma? […] ¿Hay algo que os haya generado dudas o que queráis que os aclare? […] Sin prisa: lo
 > importante es que lo decidáis tranquilos."

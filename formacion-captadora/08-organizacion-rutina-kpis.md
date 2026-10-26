@@ -7,6 +7,10 @@
 
 ## 1. Tu rutina diaria (jornada tipo)
 
+> Esta es la jornada tipo para empezar. La estructura permanente completa (ciclos diario, semanal,
+> mensual, trimestral y anual, con revisiones) está en el **módulo 13**: cuando la tengas instalada,
+> trabaja con ella.
+
 | Hora | Bloque | Qué haces |
 |---|---|---|
 | 9:00–9:30 | **Mercado** | Revisa portales de tu zona: nuevos anuncios, bajadas, retirados. Anota en el CRM |
@@ -89,7 +93,7 @@ Ejemplo:
 
 Rellena tus propios números con los ratios reales a partir del mes 2.
 
-## 6. Autoevaluación tras cada visita de valoración (5 min)
+## 6. Autoevaluación tras cada visita de captación y presentación del informe (5 min)
 
 - ¿Hablé menos del 40 % del tiempo?
 - ¿Descubrí la motivación real y el plazo?

@@ -167,7 +167,7 @@ viviendas similares.
 3. **Tamaño parecido**: ±25 % de superficie.
 4. **Características clave similares**: ascensor, planta, exterior/interior, estado, garaje, terraza.
 5. **Recientes**: vendidos en los últimos 12 meses (máx. 18).
-6. **Entre 5 y 6** (ideal: 3 vendidos/retirados + 2–3 publicados).
+6. **Al menos 5–6** (ideal: 3 vendidos/retirados + 2–3 publicados); hasta 10 si hay datos suficientes.
 7. Anota de cada uno: dirección aproximada, superficie, precio, €/m², características, fecha, fuente y
    foto o enlace.
 
