@@ -1,5 +1,7 @@
 # Módulo 14 · Plantillas de organización y seguimiento
 
+> **Estatus en este módulo**: documentos impecables, claros y entregados a tiempo transmiten profesionalidad. Un calendario de cierre compartido y una actualización semanal hacen que comprador y vendedor confíen en ti incluso cuando hay problemas.
+
 > Complementan las plantillas del módulo 09. También tienes casi todas en formato Excel,
 > listas para rellenar: [`plantillas/organizacion-captadora.xlsx`](plantillas/organizacion-captadora.xlsx).
 > Los documentos con valor legal (hoja de visita, oferta, arras, encargo) deben ajustarse al

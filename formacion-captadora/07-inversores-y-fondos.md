@@ -1,5 +1,7 @@
 # Módulo 07 · Estructura para trabajar con inversores y fondos (incluidos los "fondos buitre")
 
+> **Estatus en este módulo**: habla el idioma del inversor (rentabilidad, repercusión, plazos, riesgo), responde en 24 horas y nunca improvises una cifra. Lleva solo lo que encaja con su tesis: un filtro exigente hace que confíen en todo lo que envías.
+
 > Con inversores y fondos **las reglas cambian**: no compran emociones, compran **números,
 > rapidez y seguridad jurídica**. Si les traes producto bien presentado y les ahorras tiempo,
 > te convertirás en una proveedora a la que llaman primero.

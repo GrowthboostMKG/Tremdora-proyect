@@ -1,5 +1,7 @@
 # Módulo 09 · Plantillas listas para usar
 
+> **Estatus en este módulo**: cada plantilla es tu carta de presentación: personalizada, sin faltas, breve y con valor. Un mensaje genérico te convierte en "otra agencia"; uno que menciona su calle y su situación te convierte en su asesora.
+
 > Adapta los textos a tu agencia y pide a tu responsable que valide las cláusulas legales
 > (protección de datos, encargo, desistimiento) con el modelo oficial de la agencia.
 

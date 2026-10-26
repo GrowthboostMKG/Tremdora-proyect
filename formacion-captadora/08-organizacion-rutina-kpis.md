@@ -1,5 +1,7 @@
 # Módulo 08 · Organización, rutina y cuadro de mando
 
+> **Estatus en este módulo**: la fiabilidad es estatus: puntualidad absoluta, confirmación escrita de cada cita, informes en la fecha prometida y un CRM al día que te permite recordar cada detalle de cada cliente.
+
 > Sin estructura, el método no funciona. La captación por confianza se basa en
 > **constancia**: hacer cada día un poco, sin fallar.
 

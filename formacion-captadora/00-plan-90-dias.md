@@ -1,5 +1,7 @@
 # Módulo 00 · Plan de 90 días
 
+> **Estatus en este módulo**: tu primera señal de estatus es la **preparación**. Estos 90 días construyen tu autoridad: conocer tu zona mejor que nadie, dominar los documentos y los números, y ser selectiva desde el primer día. Base completa en el [módulo 18](18-estatus-confianza-influencia.md).
+
 > Este plan es el **arranque**. La estructura con la que trabajarás siempre, a partir del día 1
 > y para siempre, es el [sistema de trabajo permanente](13-sistema-de-trabajo-permanente.md).
 

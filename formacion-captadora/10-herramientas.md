@@ -1,5 +1,7 @@
 # Módulo 10 · Herramientas
 
+> **Estatus en este módulo**: tus herramientas sirven para que llegues **mejor preparada** que nadie: datos propios de tu zona, un dossier personal cuidado y respuestas rápidas. La herramienta no sustituye a la relación; te da tiempo para ella.
+
 > Todo el método se adapta a las herramientas que te proporciona tu agencia. Rellena la
 > tabla del apartado 1 con tu responsable el primer día y vuelve a este módulo cuando
 > tengas dudas.

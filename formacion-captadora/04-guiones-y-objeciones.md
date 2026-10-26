@@ -1,5 +1,7 @@
 # Módulo 04 · Guiones y manejo de objeciones
 
+> **Estatus en este módulo**: en cada guion: habla despacio, pregunta más de lo que hablas, aguanta el silencio y no te justifiques de más. Propón con opciones ("¿el jueves o el viernes?") en lugar de pedir por favor. Frases que suben y bajan tu estatus: [módulo 18 §4.3](18-estatus-confianza-influencia.md).
+
 > Los guiones no son para recitarlos: son para **interiorizarlos** y decirlos con tus
 > palabras. Practica 20 minutos al día. Sustituye [corchetes] por datos reales.
 

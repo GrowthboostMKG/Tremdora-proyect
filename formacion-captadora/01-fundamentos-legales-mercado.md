@@ -1,5 +1,7 @@
 # Módulo 01 · Fundamentos legales y de mercado en España (2026)
 
+> **Estatus en este módulo**: el conocimiento legal y fiscal es autoridad. Cuando resuelves en dos minutos una duda sobre plusvalía, herencias o impuestos, dejas de ser "otra agente". Y si no sabes algo, nunca improvises: *"Lo compruebo y se lo confirmo mañana."*
+
 > Saber esto te diferencia del 80 % de captadoras. Al propietario no le impresiona que
 > le digas que "vendes rápido"; le impresiona que le resuelvas en dos minutos una duda
 > sobre la plusvalía o sobre qué documentos necesita.

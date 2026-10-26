@@ -1,5 +1,7 @@
 # Módulo 05 · Valoración y estudio de mercado (ACM)
 
+> **Estatus en este módulo**: nunca des un precio "a ojo" ni en la primera visita. Enseña primero el mercado y después tu precio (contraste). Y **captar caro no es captar**: decir que no a un precio irreal sube tu valor. Informe completo en el [módulo 21](21-informe-valoracion-comparables.md).
+
 > El precio es el **80 % del éxito** de una venta. Una buena captación con mal precio es
 > un anuncio caducado y un propietario enfadado.
 

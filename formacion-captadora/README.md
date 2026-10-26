@@ -12,13 +12,16 @@ con criterio.
 
 ## Cómo usar esta formación
 
-1. Lee los módulos **en orden** la primera vez (no te saltes el 01: es tu escudo legal).
-2. Arranca con el **plan de 90 días** (módulo 00) y, a la vez, instala tu **sistema de trabajo
+1. Empieza por el **módulo 18 (estatus, confianza e influencia)**: es la base de todo. Cada módulo
+   tiene al principio un recuadro **"Estatus en este módulo"** que lo aplica a esa fase.
+2. Después lee los módulos **en orden** (no te saltes el 01: es tu escudo legal). Ruta recomendada
+   para una captación completa: **20 → 06 → 21 → 23 → 22 → 11 → 19**.
+3. Arranca con el **plan de 90 días** (módulo 00) y, a la vez, instala tu **sistema de trabajo
    permanente** (módulo 13): es la estructura con la que trabajarás siempre.
-3. Imprime o ten a mano las **plantillas** (módulo 09) y los **guiones** (módulo 04).
-4. Organízalo todo en el **Excel de organización** (`plantillas/organizacion-captadora.xlsx`)
+4. Imprime o ten a mano las **plantillas** (módulo 09) y los **guiones** (módulo 04).
+5. Organízalo todo en el **Excel de organización** (`plantillas/organizacion-captadora.xlsx`)
    y haz cada viernes la **revisión semanal** (módulo 13 §3).
-5. Rellena el **inventario de herramientas** (módulo 10) con las herramientas que te da
+6. Rellena el **inventario de herramientas** (módulo 10) con las herramientas que te da
    tu agencia: todo el método se adapta a ellas.
 
 ## Índice
@@ -43,6 +46,15 @@ con criterio.
 | 15 | [Claude (IA) como tu asistente](15-claude-ia-asistente.md) | Anuncios que venden, respuesta inmediata, informes de zona, papeleo y contenido, con prompts listos |
 | 16 | [Llamadas telefónicas sin invadir](16-llamadas-telefonicas-sin-invadir.md) | Cuándo puedes llamar (semáforo legal), cómo llevar la llamada para que no te cuelguen y cómo desactivar el rechazo |
 | 17 | [Vender una vivienda premium (caso villa)](17-venta-vivienda-premium-villa.md) | Perfiles de comprador, presentación, tour, landing, portales, plan de lanzamiento, visita y guion para una villa |
+| 18 | [Estatus, confianza e influencia](18-estatus-confianza-influencia.md) | **La base de todo**: transmitir estatus sin arrogancia, generar confianza e influir con honestidad |
+| 19 | [Negociación paso a paso](19-negociacion-paso-a-paso.md) | Los 9 pasos, conceptos clave, ejemplos de diálogos, tácticas y cómo responder |
+| 20 | [Preparación: nota simple, catastro y comparables](20-preparacion-nota-simple-catastro-comparables.md) | Qué es cada cosa, cómo se pide, cómo se lee y cómo presentarla |
+| 21 | [Informe de valoración por comparables](21-informe-valoracion-comparables.md) | Cómo montarlo paso a paso, ejemplo resuelto y guion de presentación |
+| 22 | [Base de compradores, filtro de visitas y acompañamiento](22-base-compradores-filtro-visitas.md) | Cómo conseguir y gestionar compradores, herramientas, puntuación y filtro |
+| 23 | [La nota de encargo](23-nota-de-encargo.md) | Tipos, cláusula por cláusula, cómo cerrarla y objeciones al firmar |
+| 24 | [Preguntas y objeciones maestras](24-preguntas-y-objeciones-maestras.md) | Las preguntas que debes hacer siempre y todas las objeciones en un solo lugar |
+| 25 | [Suelo y terrenos para fondos (Andalucía)](25-suelo-terrenos-fondos-andalucia.md) | Urbanismo, búsqueda, ficha técnica, método residual y presentación a inversores |
+| 🧮 | [Calculadora de valoración](plantillas/valoracion-comparables.xlsx) | Excel: comparables, homogeneización, valor, rango, precio de salida y neto del propietario |
 | 🌐 | [Plantilla de landing de la villa](plantillas/landing-villa/index.html) | Página de presentación lista para rellenar con tus fotos y datos |
 | 🏡 | [Caso: villa en Cerro Alarcón](casos/villa-cerro-alarcon/ficha-de-trabajo.md) | Ficha de trabajo con los datos del anuncio, verificaciones, diagnóstico, nuevo anuncio, visita y objeciones ([PDF](casos/villa-cerro-alarcon/Ficha-Villa-Cerro-Alarcon.pdf) · [landing](casos/villa-cerro-alarcon/landing.html) · [guion de visita](casos/villa-cerro-alarcon/guion-de-visita.md) · [guion en PDF](casos/villa-cerro-alarcon/Guion-Visita-Villa-Cerro-Alarcon.pdf)) |
 | 📕 | [Guía completa en PDF](Formacion-Captadora-Inmobiliaria-2026.pdf) | Todos los módulos en un único PDF para estudiar e imprimir |

@@ -1,5 +1,7 @@
 # Módulo 11 · Del "me interesa" a la firma en notaría: el proceso completo
 
+> **Estatus en este módulo**: en todo el proceso eres la **directora del proyecto**: informas antes de que te pregunten, anticipas los problemas y controlas el calendario. Y recuerda que **tú también eliges al comprador**: cualificar antes de enseñar te posiciona como asesora.
+
 > El interés es el **principio**, no el final. La mayoría de operaciones no se pierden por
 > falta de interesados, sino porque **nadie lleva de la mano** al cliente desde el "me
 > interesa" hasta la notaría. Ese es tu trabajo a partir de ahora.

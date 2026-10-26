@@ -1,5 +1,7 @@
 # Módulo 16 · Llamadas telefónicas sin invadir: que no te cuelguen y que no se sientan acosados
 
+> **Estatus en este módulo**: en una llamada no vendes: **pides permiso para aportar valor**. Ritmo pausado, identificación clara, una pregunta abierta y un acuerdo pequeño. Si te dicen que no, respetarlo con elegancia también es estatus.
+
 > El teléfono sigue siendo una herramienta potentísima **si la llamada es bienvenida**. Este módulo
 > te enseña dos cosas: **cuándo puedes llamar** (para no tener problemas legales ni de reputación)
 > y **cómo llevar la llamada** para que la persona no se sienta invadida y quiera seguir hablando

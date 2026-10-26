@@ -1,5 +1,7 @@
 # Módulo 12 · Sistema de seguimiento: acompañar sin agobiar y sin perder la venta
 
+> **Estatus en este módulo**: nunca persigas. Cada seguimiento aporta algo nuevo (un dato, un informe, una venta en su zona) y nunca preguntas "¿lo ha pensado?". El cliente que recibe valor sin presión es el que vuelve.
+
 > **La regla que lo resume todo: cada contacto debe dejar al cliente mejor de lo que estaba.**
 > Si tu mensaje solo sirve para recordarle que existes ("¿Qué tal? ¿Has pensado algo?"),
 > es invasivo. Si le trae información, una solución o una respuesta, es acompañamiento.

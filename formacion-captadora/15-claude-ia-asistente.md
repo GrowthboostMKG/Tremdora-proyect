@@ -1,5 +1,7 @@
 # Módulo 15 · Claude (IA) como tu asistente: publica rápido, responde primero, cierra mejor
 
+> **Estatus en este módulo**: la IA te devuelve horas para dedicarlas a las relaciones, que es donde se gana el estatus. Úsala para estar mejor preparada, nunca para enviar más mensajes genéricos ni para afirmar datos que no has comprobado.
+
 > La IA no capta por ti ni sustituye la confianza que construyes en persona. Lo que hace es
 > **quitarte horas de escritorio** (redactar, resumir, ordenar, preparar) para que las
 > dediques a lo que sí genera encargos: estar con propietarios, prescriptores y compradores.
@@ -307,6 +309,21 @@ párrafo para el informe de zona + post de LinkedIn (versión inversores). Píde
 "Adapta este guion a [formato] manteniendo el mensaje."
 
 ---
+
+## 5.4 Claude como entrenador (role-play)
+La forma más rápida de mejorar es **ensayar en voz alta** antes de la situación real. Pide a Claude
+que haga de cliente difícil y que te corrija al final:
+
+| Situación a ensayar | Prompt |
+|---|---|
+| Propietario difícil | *"Haz de propietario desconfiado que ha tenido malas experiencias con agencias. Yo soy la asesora. Al final, dime si transmití estatus o necesidad."* |
+| Comprador indeciso | *"Haz de comprador que duda entre esta casa y otra. Ponme objeciones realistas y corrígeme con el método E-P-R-C."* |
+| Negociación | *"Haz de comprador que regatea un 15 % y dice 'es mi última oferta'. Yo represento al propietario. Al final, dime dónde cedí gratis."* |
+| Nota de encargo | *"Haz de propietario que no quiere exclusiva. Yo intento cerrar sin presionar."* |
+| Analista de fondo | *"Haz de analista de un fondo que pregunta por los riesgos de este terreno."* |
+| Examen semanal | *"Hazme un examen de 10 preguntas sobre documentación, impuestos y nota simple; corrígemelo y explícame los fallos."* |
+
+**Regla de oro**: cada cosa que aprendas, pruébala **esa misma semana** con un propietario o comprador real.
 
 ## 6. Cómo encaja en tu sistema permanente (módulo 13)
 

@@ -1,5 +1,7 @@
 # Módulo 03 · Método de captación no agresiva: "Captación por confianza"
 
+> **Estatus en este módulo**: atraer, no perseguir. Das valor antes de pedir nada (reciprocidad) y es el propietario quien da el primer paso. Así **tú eliges con quién trabajas**, y el propietario llega a ti viéndote ya como la experta.
+
 ## El principio
 
 **Dar → Conectar → Acompañar → Proponer.**

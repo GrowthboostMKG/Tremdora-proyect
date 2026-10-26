@@ -1,5 +1,7 @@
 # Módulo 17 · Vender una vivienda premium: caso práctico villa en Cerro Alarcón (Valdemorillo)
 
+> **Estatus en este módulo**: para el comprador de nivel alto, **la discreción es lujo**. Visitas privadas con cita, dossier personalizado, trato de concierge y hospitalidad de cinco estrellas. Atrae, no persigas: un anuncio que habla a su perfil hace que sea él quien te escriba.
+
 > Caso real de trabajo: **chalet independiente de 332 m² en Cerro Alarcón, Valdemorillo (Madrid)**,
 > de arquitectura contemporánea, con **piscina desbordante**, zona **chill-out con pérgola**, grandes
 > ventanales, terrazas y jardín entre pinos.
@@ -53,6 +55,7 @@
 | **Comprador internacional / expatriado** destinado en Madrid | Casa de diseño, seguridad, colegio internacional, entorno verde | Trámites, financiación, distancia al aeropuerto y a la oficina | Portales internacionales, *relocation*, tour virtual, inglés |
 | **Segunda residencia** de madrileño con alto patrimonio | Fines de semana en la sierra, piscina, desconexión | Mantenimiento, seguridad cuando no está | Banca privada, asesores patrimoniales, red de contactos |
 | **Comprador que debe vender antes** su piso o chalet | Cambio de vida | Coordinar compra y venta | **Oportunidad de captación**: ofrécele vender lo suyo (módulo 11, B2) |
+| **Comprador latinoamericano** que se instala en Madrid | Seguridad, barrio de calidad, colegios, estilo de vida | Proceso a distancia, residencia y visado, financiación siendo no residente | Redes y anuncios en sus países, abogados y gestorías de extranjería, tour virtual y videollamada, comunicación en su variante del español |
 
 > **Haz una ficha de comprador ideal** con 2–3 perfiles y escribe el anuncio, la landing y las
 > campañas **para ellos**, no "para todo el mundo".
@@ -171,6 +174,15 @@
 | **Cartel "Se vende"** | **Pregunta al propietario**: en urbanizaciones atrae vecinos y conocidos, pero algunos propietarios prefieren discreción |
 
 ---
+
+## 5.3 Si vendes en Madrid desde fuera (o el comprador está lejos)
+- [ ] Ten una **persona de confianza en Madrid** para llaves, mantenimiento y visitas presenciales.
+- [ ] Haz las **primeras visitas por videollamada** y la presencial solo con compradores cualificados.
+- [ ] Usa el **tour virtual 3D** y el vídeo como primera visita.
+- [ ] **Informa al propietario cada semana**: contactos, visitas y comentarios.
+- [ ] Para compradores extranjeros: dossier en su idioma, explicación del proceso de compra en España
+      (NIE, cuenta bancaria, notaría, impuestos) y contactos de abogado y broker hipotecario que
+      trabajen con no residentes.
 
 ## 6. Plan de lanzamiento (6 semanas)
 

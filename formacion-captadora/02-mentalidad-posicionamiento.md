@@ -1,5 +1,7 @@
 # Módulo 02 · Mentalidad y posicionamiento
 
+> **Estatus en este módulo**: este módulo es la mentalidad; el [módulo 18](18-estatus-confianza-influencia.md) desarrolla cómo se **demuestra** el estatus: selectividad, preparación visible, calma, nunca perseguir y hospitalidad de cinco estrellas.
+
 ## 1. Cambia de papel: de "captadora" a "asesora inmobiliaria del barrio"
 
 | La captadora típica (lo que el propietario odia) | Tú (lo que el propietario agradece) |

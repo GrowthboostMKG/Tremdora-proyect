@@ -1,5 +1,7 @@
 # Módulo 13 · Tu sistema de trabajo permanente
 
+> **Estatus en este módulo**: la constancia es lo que construye una reputación. Tu contenido enseña, no suplica: publica datos, análisis y operaciones cerradas, nunca "¡urge vender!". Así el propietario llega a ti porque ya te ve como la experta.
+
 > El plan de 90 días (módulo 00) es solo el **arranque**. Esto es lo que vas a hacer **siempre**:
 > un sistema que se repite en ciclos (día, semana, mes, trimestre, año) y que mejora solo
 > porque cada ciclo revisa el anterior.

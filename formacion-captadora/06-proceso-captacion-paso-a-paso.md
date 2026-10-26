@@ -1,5 +1,7 @@
 # Módulo 06 · Proceso de captación de principio a fin
 
+> **Estatus en este módulo**: llega con la nota simple, el catastro y los comparables (módulo 20); en la visita escucha el 70 % del tiempo; vuelve en 24–48 h con un informe; presenta un plan por escrito con fechas. Si el propietario no acepta un precio realista, te retiras con elegancia: *"Cuando quiera revisarlo, aquí estaré."*
+
 > Versión detallada de cada fase, con criterios de salida, el lado comprador y el control de
 > arras a notaría: [módulo 11](11-proceso-cliente-interesado-hasta-cierre.md).
 
@@ -26,6 +28,8 @@ Usa las 7 preguntas (módulo 04 §4). Clasifica:
 | ❄️ **Frío** | "Algún día", solo curiosidad por el precio | Informe trimestral |
 
 ## Paso 3 · Preparación (la víspera, 45–60 min)
+
+> Qué es cada documento, cómo se pide y cómo presentarlo: [módulo 20](20-preparacion-nota-simple-catastro-comparables.md).
 - [ ] Nota simple solicitada (titulares y cargas).
 - [ ] Consulta catastral.
 - [ ] ACM con testigos (módulo 05) impreso o en tablet.
@@ -55,6 +59,8 @@ Consejos:
 
 ## Paso 5 · Presentación del plan (la parte que gana la exclusiva)
 
+> Cómo montar y presentar el informe de valoración: [módulo 21](21-informe-valoracion-comparables.md).
+
 1. **Lo que he entendido** (motivo, plazo, preocupación principal) → el propietario se siente escuchado.
 2. **El mercado** (testigos, competencia actual, tiempo medio de venta).
 3. **El precio recomendado** y el **neto** que le quedará.
@@ -70,6 +76,8 @@ Consejos:
 6. **Cierre con opciones** (módulo 04 §7).
 
 ## Paso 6 · Firma del encargo
+
+> Cláusula por cláusula y cómo cerrarla paso a paso: [módulo 23](23-nota-de-encargo.md).
 - [ ] Hoja de encargo completa (módulo 01 §7), firmada por **todos los titulares**.
 - [ ] Si se firma fuera de la oficina y es consumidor: **información del derecho de
       desistimiento + formulario**.
