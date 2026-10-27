@@ -26,6 +26,7 @@
 | `16-CARRUSEL-PRESENTACION.md` | El carrusel de presentación: nueve imágenes listas, el pie y la versión en dos textos | La primera publicación |
 | `17-BANCO-GUIONES-GATO.md` | 24 guiones de gato, guiones 104–127, en las mismas 7 categorías del banco | Cada vez que toque publicar de gato |
 | `18-TIPS-ANSIEDAD.md` | Banco de tips de ansiedad por separación: lo que funciona, lo que no, y cuándo derivar | Al escribir cualquier pieza de ansiedad |
+| `19-MUSICA.md` | Las tres familias de música de la cuenta y qué pista le va a cada pieza | Al montar cada carrusel o reel |
 
 ---
 
