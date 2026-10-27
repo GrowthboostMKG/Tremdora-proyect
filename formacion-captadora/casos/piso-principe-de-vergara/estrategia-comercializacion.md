@@ -3,17 +3,23 @@
 > Caso práctico que aplica la formación a un inmueble real. Sigue los pasos **en orden**: cada paso
 > remite al módulo donde está explicado en detalle.
 >
-> **Lo que sé del piso (por las fotos)**: vivienda señorial reformada con diseño de alto nivel en un
-> edificio clásico de ladrillo en esquina, con balcones de forja a una calle arbolada y una boca de
-> metro enfrente; suelo de roble en espiga, pilares de madera originales vistos, molduras,
-> contraventanas interiores, climatización por conductos, iluminación empotrada, cocina con frentes de
-> roble y horno integrado, comedor independiente, salón amplio con dos balcones, varios dormitorios
-> (al menos 3 en las fotos) con armarios empotrados y un vestidor de madera. Algunas estancias dan a
-> patio (ventanas de vidrio translúcido). En los bajos del edificio hay locales comerciales (un bar).
+> **Datos facilitados por la inmobiliaria**: **175 m²** (confirmar si son construidos o útiles), en un
+> **edificio clásico de 1920**, **planta 1.ª con ascensor**, reforma integral. Distribución: hall de
+> entrada, **cocina independiente**, **salón-comedor con dos balcones** a Príncipe de Vergara, **aseo de
+> cortesía** y **dos dormitorios en suite**, uno de ellos con vestidor. **Aerotermia** para calefacción
+> y aire acondicionado y armarios empotrados. Situado cerca del Retiro y de la calle Jorge Juan.
+> Precio: 1.900.000 € → **≈ 10.857 €/m²** sobre 175 m².
 >
-> **Lo que NO sé y hay que confirmar** (todo lo que va entre **[corchetes]**): superficie, número de
-> dormitorios y baños, planta, ascensor, orientación, garaje o trastero, gastos de comunidad e IBI,
-> certificado energético, año de la reforma, barrio exacto y estación de metro. **No afirmes nada que
+> **Lo que se ve en las fotos**: edificio de ladrillo en esquina con balcones de forja, calle arbolada
+> con una boca de metro enfrente, suelo de roble en espiga, pilares de madera originales vistos,
+> molduras, contraventanas interiores, iluminación empotrada, cocina con frentes de roble y puertas
+> correderas de cristal, comedor diferenciado, dos dormitorios (fotografiados desde varios ángulos) y
+> vestidor de madera. Algunas estancias dan a patio (vidrio translúcido). En los bajos del edificio
+> hay locales comerciales (un bar).
+>
+> **Lo que falta confirmar** (todo lo que va entre **[corchetes]**): si los 175 m² son construidos o
+> útiles, orientación, garaje o trastero, gastos de comunidad e IBI, certificado energético, año de la
+> reforma, estación de metro y si existen planos que permitan un tercer dormitorio. **No afirmes nada que
 > no hayas comprobado** (módulo 15 §0, módulo 18 §4.4).
 
 ---
@@ -71,6 +77,30 @@
 Motivo de la venta, plazo, mínimo aceptable, si acepta compradores con hipoteca o solo contado, si
 puede dejar muebles o decoración, y qué discreción quiere.
 
+### 0.4 bis · Qué mirar en el Catastro (módulo 20 §2)
+1. Entra en **sede.catastro.gob.es** → consulta de datos catastrales (no necesitas certificado para los
+   datos básicos).
+2. Busca por **dirección**: Madrid → Madrid → Calle → PRINCIPE DE VERGARA → **número del portal** (pídeselo
+   al dueño de la inmobiliaria; también puedes localizar el edificio en el **mapa**).
+3. Aparecerá la lista de inmuebles del edificio (locales y viviendas, por escalera, planta y puerta).
+   Elige el de **planta 01** que corresponda.
+4. Apunta y compara:
+
+| Dato del Catastro | Compáralo con | Qué puede significar |
+|---|---|---|
+| **Referencia catastral** | — | La necesitas para la nota simple y para el anuncio |
+| **Uso**: residencial | — | Si pone otro uso (oficina, comercial), hay que aclararlo antes de anunciar |
+| **Año de construcción** | 1920 (anuncio) | Debe coincidir con el edificio |
+| **Superficie construida** (incluye la parte proporcional de zonas comunes) | 175 m² | Si el Catastro da bastante más, los 175 m² pueden ser construidos sin zonas comunes o útiles. Si da bastante menos, hay que aclararlo: afecta al precio por m² y a la tasación del banco |
+| **Coeficiente de participación** | Gastos de comunidad | Cuánto paga la vivienda de los gastos del edificio |
+
+5. Lo que **no** verás en el Catastro: el titular, el valor catastral y las cargas. Eso está en la
+   **nota simple** (Registro de la Propiedad): pregunta al dueño de la inmobiliaria si ya la tiene.
+
+> Con ambos datos (Catastro y nota simple), di siempre en el anuncio **qué superficie es**:
+> "175 m² construidos" o "175 m² útiles". Si no coincide con lo que verá el banco, el comprador
+> desconfía y la tasación puede salir por debajo.
+
 ### 0.5 Tu papel y tu remuneración en esta operación
 La captación la hizo el dueño de la inmobiliaria, que también comercializa el piso. **Tu papel es
 encontrar al comprador.** Tu acuerdo (según lo que te han explicado): 350 € por captación y, una vez
@@ -113,12 +143,14 @@ y de si es con o sin IVA):
 | Puntos fuertes (los que venden) | Puntos débiles (los que hay que preparar) |
 |---|---|
 | Ubicación en una de las calles más reconocidas de Madrid, arbolada, con metro enfrente [confirmar estación] | **Avenida con tráfico**: posible ruido |
-| Edificio clásico de ladrillo con balcones de forja | **Planta baja o primera** [confirmar]: menos luz y más ruido que plantas altas |
+| Edificio clásico de 1920 con balcones de forja y ascensor | **Planta 1.ª**: menos luz y más ruido que plantas altas |
 | Reforma integral de alto nivel: roble en espiga, molduras, pilares originales de madera vistos | **Bar y locales en los bajos**: posible ruido nocturno u olores [comprobar a distintas horas] |
 | Salón amplio con dos balcones y vistas a los árboles y a edificios señoriales | Algunos dormitorios dan a **patio** (vidrio translúcido, sin vistas) |
-| Climatización por conductos, iluminación empotrada, armarios empotrados, vestidor | ¿Garaje? En la zona es muy valorado [confirmar] |
-| Comedor independiente y cocina de diseño separable con puertas correderas de cristal | Sin terraza (solo balcones) |
-| Llave en mano: entrar a vivir sin obras | Precio alto: hay que justificarlo con datos |
+| Aerotermia (calefacción y aire, eficiente), iluminación empotrada, armarios empotrados, vestidor | ¿Garaje? En la zona es muy valorado [confirmar] |
+| **Dos dormitorios en suite** (cada uno con su baño) + aseo de cortesía | **Solo 2 dormitorios en 175 m²**: limita a familias con hijos pequeños |
+| Salón-comedor amplio y cocina independiente de diseño con puertas correderas de cristal | Sin terraza (solo balcones) |
+| Cerca del Retiro y de Jorge Juan | Precio alto (≈ 10.857 €/m²): hay que justificarlo con testigos |
+| Llave en mano: entrar a vivir sin obras | |
 | Decoración y home staging cuidados (se puede negociar dejar mobiliario) | |
 
 > Los puntos débiles **no se esconden**: se preparan con datos y soluciones (ver "Objeciones").
@@ -131,8 +163,11 @@ y de si es con o sin IVA):
 |---|---|---|---|---|
 | 1 | **Comprador latinoamericano** de alto patrimonio (México, Venezuela, Colombia, Perú, Argentina…) que se instala en Madrid o compra segunda residencia | Barrio señorial, seguridad, reforma lista para entrar, estilo europeo | Proceso a distancia, financiación como no residente, fiscalidad, residencia | Meta e Instagram en sus países y en Madrid, abogados y gestorías de extranjería, family offices, colaboradores en origen, portales internacionales |
 | 2 | **Directivo o expatriado** destinado en Madrid (EE. UU., Europa) | Ubicación, transporte, colegios, llave en mano | Rapidez, distancia a la oficina, colegios internacionales | Empresas de *relocation*, LinkedIn, portales internacionales, RR. HH. de multinacionales |
-| 3 | **Familia madrileña** de alto nivel que quiere vivir en el barrio | Metros, distribución, colegios, garaje | Ruido, planta, garaje | Idealista, Fotocasa, base de la agencia, referidos, redes |
-| 4 | **Inversor patrimonial** / family office | Activo prime para conservar o alquilar a ejecutivos | Rentabilidad, liquidez | Banca privada, asesores, LinkedIn (módulo 26) |
+| 3 | **Pareja madrileña o "nido vacío"** (hijos ya mayores) que cambia una casa grande por un piso de lujo en el centro | Calidad de vida, Retiro y Jorge Juan cerca, dos suites, ascensor | Ruido, planta, garaje | Idealista, Fotocasa, base de la agencia, referidos, banca privada |
+| 4 | **Inversor patrimonial** / family office | Activo prime para conservar o alquilar a ejecutivos (dos suites encajan muy bien) | Rentabilidad, liquidez | Banca privada, asesores, LinkedIn (módulo 26) |
+
+> Con **dos dormitorios**, las familias con varios hijos pequeños son un perfil secundario (salvo que los
+> planos permitan un tercer dormitorio: [confirmar con un técnico]).
 
 > La Golden Visa por inversión inmobiliaria **ya no existe** (eliminada en 2025): no la uses como
 > argumento.
@@ -194,7 +229,7 @@ de la villa §5):
 2. Mensaje personal a cada uno (sin dirección exacta):
    > "Hola, [nombre]. Me comentaste que buscabas un piso señorial reformado en el barrio de Salamanca.
    > Va a salir al mercado uno en Príncipe de Vergara que encaja muy bien: reforma integral de alto
-   > nivel, balcones a una calle arbolada, [m²] y [dormitorios]. Antes de publicarlo, te lo enseño a ti.
+   > nivel, balcones a una calle arbolada, 175 m² y dos suites. Antes de publicarlo, te lo enseño a ti.
    > ¿Te envío el dossier y el tour virtual?"
 3. Envío a agencias colaboradoras, *relocation*, abogados y banca privada.
 4. Visitas privadas con compradores cualificados.
@@ -212,19 +247,19 @@ de la villa §5):
   Madrid: pilares originales, roble en espiga…").
 
 **Anuncio (borrador, completar con datos verificados)**
-> **Título**: Piso señorial reformado en Príncipe de Vergara · balcones a calle arbolada · [m²]
+> **Título**: Piso señorial reformado de 175 m² en Príncipe de Vergara · dos suites · balcones a calle arbolada
 >
-> En uno de los ejes más reconocidos de Madrid, en un edificio clásico de ladrillo, este piso de
-> [m²] m² ha sido reformado con un nivel de detalle poco habitual. El suelo de roble en espiga recorre
+> A pocos pasos del Retiro y de la calle Jorge Juan, en un edificio clásico de 1920, este piso de
+> 175 m² [construidos/útiles] ha sido reformado con un nivel de detalle poco habitual. El suelo de roble en espiga recorre
 > toda la vivienda y convive con los pilares de madera originales, recuperados como elemento de diseño.
 >
-> El salón, amplio y luminoso, se abre a dos balcones de forja sobre una calle arbolada. Comedor
-> independiente, cocina de diseño con frentes de roble que se integra o se separa con puertas
-> correderas de cristal, [número] dormitorios con armarios empotrados, vestidor y [número] baños.
-> Climatización por conductos, iluminación empotrada, molduras y contraventanas interiores.
+> El salón-comedor, amplio y luminoso, se abre a dos balcones de forja sobre una calle arbolada. La
+> cocina, independiente y con frentes de roble, se separa con puertas correderas de cristal. Dos
+> dormitorios en suite, uno de ellos con vestidor, y aseo de cortesía. Aerotermia para calefacción y
+> aire acondicionado, armarios empotrados, iluminación empotrada, molduras y contraventanas interiores.
 >
 > Llave en mano, con metro en la puerta [confirmar estación] y todos los servicios del barrio.
-> [Planta, ascensor, garaje, certificado energético.]
+> Planta 1.ª con ascensor. [Garaje, certificado energético.]
 >
 > Te envío el tour virtual, los planos y el dossier, o reservamos una visita privada.
 
@@ -336,8 +371,9 @@ postventa (reseña, referidos y, con un comprador extranjero, contactos útiles 
 | **"1.900.000 € es mucho."** | "Entiendo. ¿Con qué pisos lo estás comparando? Te enseño las ventas cerradas de pisos reformados de este nivel en la zona y el coste real de hacer una reforma así hoy: tiempo, licencias y obra." |
 | **"La avenida tiene mucho tráfico; habrá ruido."** | "Es lógico preguntarlo. Cierra los balcones un momento y escucha. [La carpintería es nueva / de doble acristalamiento: confirmar.] Además, los dormitorios [que dan a patio] son muy silenciosos." |
 | **"Hay un bar en los bajos."** | "Sí, está en la esquina del edificio. He venido a distintas horas, también de noche, y esto es lo que he comprobado: [respuesta honesta]. Te propongo que lo compruebes tú también." |
-| **"Es una planta baja / primera."** [si aplica] | "Es verdad. A cambio, tienes los árboles a la altura del salón, que en verano dan sombra y vistas verdes, y no dependes del ascensor. ¿Qué es lo que te preocupa de la planta: la luz, el ruido o la seguridad?" |
-| **"Los dormitorios dan a patio, sin vistas."** | "Dos de ellos dan a patio, y es justo lo que buscan muchos compradores en esta calle: dormir en silencio. La vida de día está en el salón con balcones." |
+| **"Es una planta primera."** | "Es verdad. A cambio, tienes los árboles a la altura del salón, que en verano dan sombra y vistas verdes, y no dependes del ascensor. ¿Qué es lo que te preocupa de la planta: la luz, el ruido o la seguridad?" |
+| **"Solo tiene 2 dormitorios para 175 m²."** | "Es una decisión de la reforma: dos suites amplias, cada una con su baño, y un salón-comedor muy generoso. Es un piso para vivir con espacio, no para contar habitaciones. ¿Cuántos dormitorios necesitas en tu día a día? [Si los planos lo permiten: se podría estudiar un tercer dormitorio con un técnico.]" |
+| **"Los dormitorios dan a patio, sin vistas."** | "[Confirmar cuáles dan a patio.] Es justo lo que buscan muchos compradores en esta calle: dormir en silencio. La vida de día está en el salón con balcones." |
 | **"No tiene garaje."** [si aplica] | "Hay aparcamientos en [ubicación verificada] a [distancia], con plazas en alquiler o venta desde [importe]. Te paso los datos." |
 | **"No tiene terraza."** | "Tiene dos balcones al salón. Para exteriores, [parques cercanos verificados] están a pocos minutos." |
 | **"El edificio es antiguo: ¿habrá derramas?"** | "La ITE está [favorable] y en las actas de la comunidad [no hay / hay] derramas previstas. Te enseño la documentación." |
