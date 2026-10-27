@@ -71,6 +71,41 @@
 Motivo de la venta, plazo, mínimo aceptable, si acepta compradores con hipoteca o solo contado, si
 puede dejar muebles o decoración, y qué discreción quiere.
 
+### 0.5 Tu papel y tu remuneración en esta operación
+La captación la hizo el dueño de la inmobiliaria, que también comercializa el piso. **Tu papel es
+encontrar al comprador.** Tu acuerdo (según lo que te han explicado): 350 € por captación y, una vez
+firmadas las arras, el **50 % de lo que la comisión de la inmobiliaria supere los 10.000 €**
+(ejemplo: comisión de 12.000 € → 2.000 € por encima → tú cobras 1.000 €).
+
+**Lo que podrías cobrar en este piso** (orientativo: depende de la comisión pactada con el propietario
+y de si es con o sin IVA):
+
+| Precio de venta | Comisión de la agencia | Tu parte | Si se comparte al 50 % con otra agencia |
+|---|---|---|---|
+| 1.900.000 € | 3 % = 57.000 € | **23.500 €** | 28.500 € para la agencia → 9.250 € |
+| 1.900.000 € | 2 % = 38.000 € | **14.000 €** | 19.000 € → 4.500 € |
+| 1.800.000 € | 3 % = 54.000 € | **22.000 €** | 27.000 € → 8.500 € |
+| 1.700.000 € | 3 % = 51.000 € | **20.500 €** | 25.500 € → 7.750 € |
+
+**Antes de empezar, aclara por escrito con el dueño de la inmobiliaria:**
+- [ ] Que el 50 % por encima de 10.000 € **se aplica también cuando tú traes al comprador** de un piso
+      que no has captado (y si hay o no 350 € en este caso).
+- [ ] Sobre qué se calcula: **comisión sin IVA** y comisión **realmente cobrada** (si el propietario
+      negocia una rebaja de honorarios, tu parte baja).
+- [ ] **Cuándo cobras**: a la firma de arras o en la escritura. ¿Y si las arras se rompen? (Si el
+      comprador pierde las arras, ¿hay algo para ti?)
+- [ ] **Cómo se demuestra que el comprador es tuyo**: registro en el CRM con fecha y hoja de visita
+      firmada a tu nombre. ¿Qué pasa si un comprador tuyo contacta después directamente con la agencia
+      o con el dueño?
+- [ ] Cómo repartís el trabajo para no pisaros: quién atiende los contactos de cada canal, quién
+      publica, quién enseña el piso y quién negocia.
+- [ ] Qué canales puedes usar tú (landing, campañas en redes, portales extranjeros, colaboraciones) y
+      **quién paga** cada uno.
+- [ ] Si la venta se comparte con otra agencia, cómo afecta a tu parte (ver tabla).
+
+> Fiscalidad: si cobras como autónoma, emitirás factura a la inmobiliaria. Consulta con una gestoría
+> si tu factura lleva IVA y retención de IRPF y cómo encaja tu acuerdo con tu situación laboral.
+
 ---
 
 ## Paso 1 · Analizar el producto: puntos fuertes y débiles
