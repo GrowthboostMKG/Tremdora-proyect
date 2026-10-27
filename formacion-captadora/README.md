@@ -83,6 +83,7 @@ con criterio.
 | 📊 | [Excel de organización](plantillas/organizacion-captadora.xlsx) | Propietarios, compradores, inversores, prescriptores, seguimientos, cierres, cuadro semanal y plan anual |
 | 🧮 | [Calculadora de valoración](plantillas/valoracion-comparables.xlsx) | Comparables, homogeneización, valor, rango, precio de salida y neto del propietario |
 | 🌐 | [Plantilla de landing](plantillas/landing-villa/index.html) | Página de presentación de un inmueble, lista para rellenar |
+| 🏙️ | [Caso práctico: piso en Príncipe de Vergara](casos/piso-principe-de-vergara/estrategia-comercializacion.md) | Estrategia completa para buscar compradores de un piso de lujo en Madrid ([PDF](casos/piso-principe-de-vergara/Estrategia-Principe-de-Vergara.pdf)) y [landing con fotos](casos/piso-principe-de-vergara/landing.html) |
 | 🏡 | [Caso práctico: villa en Cerro Alarcón](casos/villa-cerro-alarcon/ficha-de-trabajo.md) | Ficha de trabajo ([PDF](casos/villa-cerro-alarcon/Ficha-Villa-Cerro-Alarcon.pdf)), [guion de visita](casos/villa-cerro-alarcon/guion-de-visita.md) ([PDF](casos/villa-cerro-alarcon/Guion-Visita-Villa-Cerro-Alarcon.pdf)) y [landing rellenada](casos/villa-cerro-alarcon/landing.html) |
 
 ---
