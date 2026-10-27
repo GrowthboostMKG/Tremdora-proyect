@@ -133,6 +133,42 @@ y de si es con o sin IVA):
       **quién paga** cada uno.
 - [ ] Si la venta se comparte con otra agencia, cómo afecta a tu parte (ver tabla).
 
+### 0.6 Los gastos de comercialización los pagas tú: cómo invertir sin arriesgar de más
+
+Tú adelantas el dinero (vídeo, tour 3D, campañas, portales) y **solo cobras si se vende** y la comisión
+supera los 10.000 €. Además, el dueño de la inmobiliaria también mueve el piso: si lo vende él con un
+comprador suyo, **podrías haber gastado sin cobrar nada**. Por eso:
+
+**1. Antes de gastar un euro, deja por escrito con el dueño de la inmobiliaria:**
+- [ ] Qué gastos asumes tú y cuáles la agencia (fotos, tour 3D, vídeo, portales, destacados, campañas).
+- [ ] Si alguno se te devuelve al vender (por ejemplo, el tour 3D o el vídeo, que se quedan para la agencia).
+- [ ] Que **los contactos que lleguen por tus canales** (tu landing, tus campañas, tus portales) son
+      tuyos y cuentan para tu comisión, aunque la venta la cierre él.
+- [ ] Qué pasa con lo que has invertido si se retira el piso o lo vende otra agencia.
+
+**2. Invierte por niveles: empieza por lo gratuito y solo sube si funciona**
+
+| Nivel | Qué incluye | Coste orientativo | Cuándo |
+|---|---|---|---|
+| **0 · Gratis** | Base de compradores de la agencia; agencias colaboradoras; *relocation*, abogados de extranjería y banca privada; tu LinkedIn, Instagram y WhatsApp; portales que ya paga la agencia (pregunta si incluyen exportación a portales extranjeros) | 0 € | Siempre, desde el primer día |
+| **1 · Básico** | Landing publicada (gratis en la web de la agencia, o dominio propio por unos 10–15 €/año) + campaña de Instagram/Facebook de prueba: 10–15 €/día durante 14 días | ≈ 150–250 € | Desde el lanzamiento |
+| **2 · Presentación** | Tour virtual 3D y vídeo vertical para redes (pide 2–3 presupuestos; a veces la agencia ya tiene proveedor o cámara) | Desde un par de cientos de euros, según proveedor | Si la agencia no los paga y los contactos lo justifican |
+| **3 · Internacional** | Un portal internacional de lujo durante 4–6 semanas (JamesEdition o LuxuryEstate: pide tarifa) o campaña en Instagram dirigida a Latinoamérica | Variable: pide tarifa | Solo si el nivel 1 trae contactos extranjeros cualificados |
+
+> Las cifras son orientativas: pide presupuesto antes de contratar nada.
+
+**3. Mide cada euro**
+- Apunta lo que gastas en cada canal y cuántos **contactos cualificados** (clase A/B, módulo 22 §1.5)
+  te trae: coste por contacto cualificado = gasto ÷ contactos A/B.
+- A las 2 semanas, **para lo que no trae contactos cualificados** y refuerza lo que sí.
+- Guarda todas las facturas: si eres autónoma, estos gastos pueden ser **deducibles** (confírmalo con tu
+  gestoría).
+
+**4. Compensa, pero con prudencia**
+Si se vende al 3 % (comisión de 57.000 €), tu parte sería de unos 23.500 €: una inversión de pocos cientos
+de euros está muy justificada. Pero si se comparte con otra agencia, la vende el dueño con su comprador o
+no se vende, tu parte puede ser mucho menor o cero. **Invierte en escalones**, no todo de golpe.
+
 > Fiscalidad: si cobras como autónoma, emitirás factura a la inmobiliaria. Consulta con una gestoría
 > si tu factura lleva IVA y retención de IRPF y cómo encaja tu acuerdo con tu situación laboral.
 
