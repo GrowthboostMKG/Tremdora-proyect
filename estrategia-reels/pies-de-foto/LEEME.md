@@ -10,6 +10,7 @@ hashtags van **dentro del archivo**, al final.
 | `gato-mayor-artrosis-REEL.txt` | Lo mismo en versión reel: 721 caracteres en vez de 1.056 |
 | `perro-sordo.txt` | «No te está ignorando» · 9 diapositivas · 🐕 sordera |
 | `gato-maulla-de-noche.txt` | «Maúlla a las tres de la mañana» · 10 diapositivas · 🐈 gato mayor |
+| `s1-ansiedad-o-aburrimiento.txt` | Serie · 1 de 5 · 10 diapositivas · 🐕 ansiedad o aburrimiento |
 
 **El texto de las diapositivas**, bloque a bloque y listo para montar, está en
 `../montaje/`. Un archivo por carrusel.
