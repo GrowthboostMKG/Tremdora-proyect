@@ -50,6 +50,18 @@ deslizado no tiene motivo para leerlo — pero si se va a otro tema, es peor tod
 ya se levanta, no sigas»), el error típico («ni abrazos largos ni fiesta al volver») y el
 permiso para ir despacio. Todo eso amplía sin cambiar de conversación.
 
+> **Dos límites que el «paso siguiente» tiene, y que me costó una reescritura.**
+>
+> **1 · El pie no puede adelantar una fase que el carrusel no ha abierto.** En un carrusel
+> de **diagnóstico** —«¿es ansiedad o es aburrimiento?»— el pie no puede irse al
+> tratamiento: deja sin nada a la mitad de los lectores (los que concluyen «aburrimiento»)
+> y convierte el pie en un post distinto. El paso siguiente de un diagnóstico es **observar
+> mejor**, no curar.
+>
+> **2 · En una serie, el pie no destripa los que vienen después.** Si el 2 de 5 va de la
+> media hora y el 3 de 5 de las señales de salida, el pie del 1 de 5 no puede contarlos. El
+> gancho vive de que falte algo.
+
 **Y el filón que mejor funciona: el paso siguiente.** El carrusel dice «ve al veterinario»;
 el pie dice **qué llevar y qué pedir con esas palabras**. El carrusel dice «cámbiale el
 arenero»; el pie dice **cómo hacer el cambio sin que deje de usarlo**. Eso nunca está en las
@@ -79,6 +91,22 @@ usa mayúsculas en dos o tres palabras, o un salto de línea.
 **4 · Termina en pregunta, no en punto.** Y en una que cueste poco contestar. «¿El tuyo qué
 hace cuando coges las llaves?» se responde en cuatro palabras; «¿qué opinas?» no se responde
 nunca.
+
+## Repetir tema no es repetirse
+
+**Una cuenta de nicho tiene que machacar su territorio.** Así es como acaba siendo «la de
+la ansiedad por separación». Dos publicaciones del mismo tema con tres días de diferencia
+no son un problema: lo que no puede repetirse es **el mismo contenido**.
+
+La prueba, si dudas: **¿qué se lleva alguien que ya vio el anterior?** Si la respuesta es
+«nada nuevo», cambia el ángulo, no el tema.
+
+**Donde sí hay que vigilar es en la cuadrícula.** La serie de cinco son cinco
+publicaciones seguidas del mismo asunto, y eso, encadenado a otro carrusel de ansiedad,
+deja seis posts de perro ansioso en fila. La serie **no se parte** (perdería el sentido),
+así que la compensación va **después**: al terminar los cinco, una tanda de gato.
+
+---
 
 ## Sobre el quinto hashtag
 
