@@ -86,7 +86,7 @@ Todo el territorio sale de ahí. El dueño quiere saber *qué hacer cuando ya es
 
 ### 87. Ruidos: se trabaja meses antes
 **HOOK:** «Para el miedo a los ruidos, diciembre es tarde. Se empieza en septiembre.»
-**CUERPO:** 1) El día del ruido solo se puede gestionar, no tratar. 2) El trabajo real es progresivo: grabaciones a volumen **muy bajo**, mientras pasa algo bueno, subiendo a lo largo de semanas. 3) Si en algún momento reacciona, has subido demasiado: baja. 4) Más refugio preparado, ruido de fondo constante e identificación al día. 5) En casos graves hay opciones con tu veterinario: pide cita con margen.
+**CUERPO:** 1) El día del ruido solo se puede gestionar, no tratar. 2) El trabajo real es progresivo: grabaciones a volumen **muy bajo**, mientras pasa algo bueno, subiendo a lo largo de semanas. 3) Si en algún momento reacciona, has subido demasiado: baja. 4) Más refugio preparado, ruido de fondo constante e identificación al día. 5) En casos graves hay opciones con tu veterinario, pero **pide cita semanas antes**: lo que te paute hay que probarlo en un día normal, porque esa noche no es momento de estrenar nada.
 **CTA:** «Guárdalo y pon el recordatorio para septiembre.»
 
 ### 88. La casa también le habla

@@ -184,7 +184,7 @@ publicación, que está más abajo.
 | **6** | **SOLUCIÓN** | **Lo que sí lo cambia**, desde meses antes:<br>grabaciones de esos ruidos a volumen **muy bajo**, mientras pasa algo bueno, subiendo poco a poco durante semanas. | Altavoz y premio |
 | **7** | **⚠️ AVISO** | ⚠️ **Pero con freno:** si en algún momento **reacciona**, has subido demasiado. Baja el volumen.<br>Hecho deprisa, esto **empeora** el miedo en vez de quitarlo. | Mando del volumen |
 | **8** | **SIN CULPA** | **No le estás fallando.**<br>Esa noche no hay nada que puedas decirle — pero hay muchísimo que puedes preparar antes. | Los dos en el sofá |
-| **9** | **CTA** | **Guárdalo y ponte el recordatorio para septiembre.** Microchip y datos al día: son las noches con más animales perdidos del año.<br>Si lo pasa muy mal, pide cita **con margen**.<br><br>🤍 El plan completo, en **Hogar en calma**. | Portada del ebook |
+| **9** | **CTA** | **Guárdalo y ponte el recordatorio para septiembre.** Microchip y datos al día: son las noches con más animales perdidos del año.<br>Y si lo pasa muy mal, **pide cita semanas antes, no el día de antes**: si hay que probar algo, tiene que probarse en un día normal — no esa noche.<br><br>🤍 El plan completo, en **Hogar en calma**. | Portada del ebook |
 
 **Pie de foto:** No hay nada que puedas decirle esa noche. Pero hay muchísimo que puedes hacer tres meses antes — y si lo haces deprisa, empeora. Ponte el recordatorio 🤍
 
