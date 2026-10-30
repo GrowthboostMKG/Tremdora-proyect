@@ -34,8 +34,8 @@
 | **4** | **BUCLE** | Y los que más riesgo corren son, justamente, los que parecen tener más margen. |
 | **5** | **CUERPO 2** | **Los gatos con sobrepeso.**<br>Cuanta más grasa hay que mover de golpe, peor sale. Un gato gordito que deja de comer es **más urgente, no menos**. |
 | **6** | **BUCLE** | Entonces, ¿cuánto es demasiado? Esto es lo que conviene tener claro antes de que pase. |
-| **7** | **CUERPO 3** | ⚠️ **Un día sin comer: llama.**<br>**Dos días: es urgencia.**<br>Y comer **la mitad de lo normal** varios días seguidos cuenta igual. |
-| **8** | **CUERPO 3 bis** | Mientras llamas, puedes probar: **comida húmeda templada** (huele mucho más), plato ancho y limpio, lejos del arenero, y silencio alrededor.<br>Si aun así no come, **no insistas en casa**. Ve. |
+| **7** | **CUERPO 3** | ⚠️ **Un día sin comer: llama a tu veterinario.**<br>**Dos días sin comer: es una urgencia veterinaria.**<br>Y comer **la mitad de lo normal** varios días seguidos cuenta igual. |
+| **8** | **CUERPO 3 bis** | **Mientras esperas a que te den cita**, puedes probar: comida húmeda **templada** (huele mucho más), plato ancho y limpio, lejos del arenero, y silencio alrededor.<br>Si aun así no come, no sigas probando cosas en casa: **llévale**. |
 | **9** | **CTA** | **Guárdalo.** Esto es de lo que quieres saber **antes**, no un domingo por la noche. 🤍 |
 
 ---
@@ -85,7 +85,7 @@
 | **5** | **CUERPO 2** | **Que un gato con la boca destrozada sigue comiendo.**<br>Traga sin masticar, come de un solo lado, o come un poco menos — y lo achacamos a que es tiquismiquis.<br>No deja de comer hasta que ya no puede. |
 | **6** | **BUCLE** | Entonces, ¿cómo lo ves tú en casa, sin ser veterinaria? |
 | **7** | **CUERPO 3** | Levántale el labio con cuidado y mira **la línea de la encía**.<br>Roja o hinchada · sarro marrón · un diente con un agujerito o un bultito rojo encima.<br>Y fíjate si babea, si tira la comida o si come de lado. |
-| **8** | **CTA** | **Guárdalo y míraselo esta noche.** Treinta segundos.<br>Y si ves algo, es consulta — esto no se arregla con pienso 🤍 |
+| **8** | **CTA** | **Guárdalo y míraselo esta noche.** Treinta segundos.<br>Y si ves algo de eso, **pide cita con tu veterinario**: una boca así no se arregla cambiando de pienso 🤍 |
 
 ---
 
@@ -117,7 +117,7 @@
 | **4** | **BUCLE** | Por eso casi siempre se descubre por accidente. |
 | **5** | **CUERPO 2** | **Las señales:** calcula mal un salto o no salta · tantea con la pata antes de bajar · choca con algo que has movido de sitio · no sigue un juguete que no haga ruido · pupilas muy grandes incluso con luz. |
 | **6** | **BUCLE** | Y hay un motivo por el que esto no puede esperar a la semana que viene. |
-| **7** | **CUERPO 3** | ⚠️ Una de las causas más frecuentes de **ceguera repentina** en un gato mayor es **la tensión alta**.<br>Cogida pronto, se trata — y a veces se recupera parte de la vista.<br>Esperando, no. |
+| **7** | **CUERPO 3** | ⚠️ Una de las causas más frecuentes de **ceguera repentina** en un gato mayor es **la tensión alta**.<br>Si se coge pronto, **tiene tratamiento** — y a veces se recupera parte de la vista.<br>Si se espera, no. |
 | **8** | **CUERPO 3 bis** | Y en casa, mientras tanto: **no muevas los muebles ni el arenero**, deja una luz tenue de noche, y **háblale al entrar** en la habitación para no asustarle. |
 | **9** | **CTA** | **Guárdalo.** Y si tu gato pasa de 10, **pide que le midan la tensión** en la próxima cita: son cinco minutos y casi nadie la pide 🤍 |
 
@@ -130,7 +130,7 @@
 |---|---|---|
 | **1** | **GANCHO** | **SE LAME HASTA**<br>**HACERSE CALVAS.**<br><sub>Y casi nunca son «los nervios».</sub> |
 | **2** | **INTRODUCCIÓN** | Las tres cosas que hay detrás, y **en qué orden** hay que mirarlas. El orden es lo importante. |
-| **3** | **CUERPO 1** | Lo primero que decimos todos es «es ansiedad».<br>Y a veces lo es.<br>Pero en consulta, eso **no es lo primero que se mira**. |
+| **3** | **CUERPO 1** | Lo primero que decimos todos es «es ansiedad».<br>Y a veces lo es.<br>Pero **no es lo primero que mira un veterinario**. Y hay un motivo. |
 | **4** | **BUCLE** | Porque hay algo que da exactamente el mismo cuadro. |
 | **5** | **CUERPO 2** | **El dolor.**<br>Un gato se lame **la zona que le duele**: la barriga si hay molestia urinaria, las patas de atrás o la cadera si hay artrosis.<br>Lo que ves como un tic puede ser un mapa. |
 | **6** | **BUCLE** | Y luego está lo tercero, que es lo más fácil de resolver de los tres. |

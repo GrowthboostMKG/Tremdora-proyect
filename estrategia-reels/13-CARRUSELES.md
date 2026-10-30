@@ -51,7 +51,24 @@ planteas tres cosas (el pis, el sofá y el mordisco), no vale una sola diapositi
 soluciones al final: cada una lleva la suya al lado. Si no, el lector se queda con tres
 problemas y una respuesta genérica.
 
-**2 · SIN CULPA y CTA nunca van juntos.** Son dos bloques y dos diapositivas. Una frase
+**2 · Ningún verbo de acción sin su destinatario.** Una diapositiva se lee **sola**, sin la
+anterior y sin el pie. Así que «llama» tiene que decir **a quién**, «ve» **a dónde**, y
+«pide» **qué**.
+
+| Mal, aunque yo lo entienda | Bien |
+|---|---|
+| «Un día sin comer: llama.» | «Un día sin comer: **llama a tu veterinario**.» |
+| «Si aun así no come, ve.» | «Si aun así no come, **llévale**.» |
+| «Y si ves algo, es consulta.» | «Y si ves algo, **pide cita con tu veterinario**.» |
+| «Eso se mira.» | «**Eso hay que mirarlo**, en el veterinario.» |
+| «Eso se trata.» | «Eso **tiene tratamiento**.» |
+
+**Los impersonales son la trampa más fácil de caer.** *Se mira, se trata, se lleva, es
+consulta* — suenan a lenguaje de clínica y quien escribe los entiende perfectamente. Quien
+lee una diapositiva en el autobús, no. **Si una frase no dice quién hace qué, reescríbela
+hasta que lo diga.**
+
+**3 · SIN CULPA y CTA nunca van juntos.** Son dos bloques y dos diapositivas. Una frase
 que emociona pierde la mitad de su fuerza si lleva un producto al lado.
 
 **Y para pasar un carrusel a reel** —que es lo que vas a hacer con casi todos— los bloques
@@ -104,7 +121,7 @@ publicación, que está más abajo.
 | **5** | **SEÑALES** | Si reconoces **dos o más**, eso no es su carácter.<br>Y tampoco es la edad.<br>**Es dolor.** | Sus patas |
 | **6** | **SOLUCIÓN** | **Esto puedes empezarlo esta semana, sin esperar a nadie:**<br><br>**1 · El peso.** Si no le palpas las costillas con la mano plana, le sobra. Y cada kilo de más es carga sobre articulaciones que ya duelen. | Báscula |
 | **7** | **SOLUCIÓN** | **2 ·** Alfombras **antideslizantes** en sus rutas: cama, comedero, puerta.<br>**3 ·** Que deje de saltar: rampa o escalón al sofá y al coche.<br>**4 ·** Tres paseos cortos mejor que uno largo. | Alfombra y rampa |
-| **8** | **SOLUCIÓN · ⚠️** | **En la consulta, pide algo concreto:** que le **valoren el dolor**, con estos ejemplos.<br><br>⚠️ Y si el cambio ha sido **de golpe**, no esperes a la semana que viene: eso se mira ya. | Ella hablando con el veterinario |
+| **8** | **SOLUCIÓN · ⚠️** | **En la consulta, pide algo concreto:** que le **valoren el dolor**, con estos ejemplos.<br><br>⚠️ Y si el cambio ha sido **de golpe**, no esperes a la semana que viene: **eso hay que mirarlo ya**, en el veterinario. | Ella hablando con el veterinario |
 | **9** | **SIN CULPA** | **No lo has hecho mal.**<br>Nadie nos enseña a leer esto.<br>Pero ahora ya sabes dónde mirar. | Tu mano sobre su lomo |
 | **10** | **CTA** | **Guárdalo** y empieza esta semana por el peso y las alfombras.<br><br>🤍 En **Edad dorada** tienes qué mirar cada mes y qué adaptar en una tarde. | Portada del pack, pequeña |
 
@@ -121,7 +138,7 @@ publicación, que está más abajo.
 | **2** | **PROBLEMA** | Le llamas y no viene.<br>Le llamas otra vez, más alto.<br>Y piensas que se ha vuelto cabezota con los años. | Ella llamándole desde lejos |
 | **3** | **EL GIRO** | La audición se va **poco a poco**.<br>Tan despacio que no lo notas como pérdida: lo notas como desobediencia. | Su oreja, en macro |
 | **4** | **SOLUCIÓN** | La prueba, en casa: haz sonar unas llaves **a su espalda**, con él despierto y tranquilo.<br>*(Nada de palmadas: el aire que mueven lo nota y te da un falso negativo.)* | Llaves sonando detrás |
-| **5** | **SOLUCIÓN** | Si no reacciona, **al veterinario** — y no lo des por perdido:<br>a veces es **cera o una infección de oído**, y eso se trata. | Revisión del oído |
+| **5** | **SOLUCIÓN** | Si no reacciona, **al veterinario** — y no lo des por perdido:<br>a veces es **cera o una infección de oído**, y eso **tiene tratamiento**. | Revisión del oído |
 | **6** | **⚠️ AVISO** | ⚠️ **Y lo primero de todo, por seguridad:**<br>un perro sordo **no oye un coche**.<br>A partir de ahora, correa en la calle y suelto solo en sitios cerrados. | Correa puesta, calle |
 | **7** | **SOLUCIÓN** | **Enséñale señales con las manos ahora**, mientras todavía oye algo. Después cuesta mucho más.<br>Y nunca le despiertes tocándole de golpe: acércate por donde te vea, o pisa fuerte — la vibración sí la nota. | Una señal de mano clara |
 | **8** | **SIN CULPA** | Un perro sordo vive estupendamente.<br>**Solo necesita que cambies el idioma.**<br>Y eso lo puedes hacer tú. | Los dos mirándose |
@@ -226,7 +243,7 @@ publicación, que está más abajo.
 | **3** | **EL GIRO** | De **100 gatos de más de 12 años** radiografiados, **90 tenían artrosis.**<br>En la ficha de **solo 4** estaba apuntada. | Solo texto, fondo plano |
 | **4** | **EL GIRO** | O sea: **la tienen casi todos y casi nunca se ve.**<br>Porque un gato con dolor no cojea.<br>Deja de hacer cosas. | Gato quieto, mirando arriba |
 | **5** | **SEÑALES** | Las seis señales:<br>· Ya no salta donde saltaba, o calcula y se baja<br>· Duerme bajo, no en sus sitios altos<br>· **Pelo apelmazado** en la espalda y la grupa<br>· Hace sus cosas fuera del arenero<br>· Uñas largas, no las gasta<br>· No deja que le toques el lomo | Gato bajando de un mueble |
-| **6** | **SEÑALES** | **Lo del pelo es la señal más clara y la que menos se mira.**<br>Un gato que no se acicala la espalda no es un gato dejado: es un gato al que **girarse le duele**. | Zona apelmazada, de cerca |
+| **6** | **SEÑALES** | **Lo del pelo es la señal más clara, y la que menos miramos.**<br>Un gato que no se acicala la espalda no es un gato dejado: es un gato al que **girarse le duele**. | Zona apelmazada, de cerca |
 | **7** | **SOLUCIÓN** | **Esta semana, sin esperar a nadie:**<br>· Un escalón o una caja firme hasta su sitio alto<br>· Arenero de **entrada baja** — o recorta un lado<br>· Comedero y bebedero a su altura<br>· Cama caliente, lejos de corrientes<br>· Córtale las uñas | Caja como escalón |
 | **8** | **⚠️ AVISO** | ⚠️ **Al veterinario, y nada de analgésicos de casa.**<br>El **paracetamol** y el ibuprofeno **matan a un gato**: no tiene cómo procesarlos. Una sola pastilla puede bastar. | Solo texto, fondo plano |
 | **9** | **SIN CULPA** | **No se ha vuelto arisco ni vago.**<br>Lleva tiempo con dolor y lo ha llevado solo — porque esconderlo es justo lo que les mantuvo vivos durante miles de años. | Gato mayor mirándote |
@@ -322,7 +339,7 @@ publicación, que está más abajo.
 | **2** | **PROBLEMA** | Empieza a maullar de noche, fuerte y seguido, plantado en mitad del pasillo.<br>Le das de comer, calla un rato — y vuelve. | Gato maullando en el pasillo |
 | **3** | **EL GIRO** | Si tu gato es mayor y esto es **nuevo**, no es un vicio ni una manía.<br>**Es una señal. Y casi siempre tiene causa.** | Solo texto, fondo plano |
 | **4** | **SEÑALES** | **Lo primero, descartar lo que se trata:**<br>· **Tiroides** — come muchísimo y aun así adelgaza<br>· **Tensión alta** — a veces con la vista tocada<br>· **Dolor**<br>· **Sordera** — maúlla fuerte porque no se oye a sí mismo | Gato en la consulta |
-| **5** | **⚠️ AVISO** | **Las cuatro se tratan o se alivian.**<br>Por eso esto empieza con una **analítica**, no con un truco de internet.<br>Un gato mayor que cambia de conducta de golpe **se mira**. | Solo texto, fondo plano |
+| **5** | **⚠️ AVISO** | **Las cuatro se tratan o se alivian.**<br>Por eso esto empieza con una **analítica**, no con un truco de internet.<br>Un gato mayor que cambia de conducta de golpe **hay que llevarlo**. | Solo texto, fondo plano |
 | **6** | **EL GIRO** | Y si no es nada de eso, queda lo que casi nadie nombra:<br>**los gatos también tienen demencia.**<br>Se desorientan, se pierden en su propia casa — y de noche es peor. | Gato mirando a una pared |
 | **7** | **SOLUCIÓN** | **Lo que ayuda, y es casi todo barato:**<br>· Una luz tenue en el pasillo — de noche ven peor que antes<br>· Que **nada cambie de sitio**<br>· Cena más tarde, y un rato de caza antes<br>· Un arenero en cada planta | Lucecita de enchufe |
 | **8** | **SOLUCIÓN** | **Y lo que no funciona:**<br>gritarle, encerrarlo, o darle de comer cada vez que maúlla.<br>Lo último le enseña que **maullar trae comida** — y entonces sí se convierte en un hábito. | Comedero lleno de noche |
@@ -340,7 +357,7 @@ publicación, que está más abajo.
 |---|---|---|---|
 | **1** | **HOOK** | **NO TE PREOCUPES**<br>**PORQUE BEBA POCO.**<br><sub>Preocúpate el día que beba mucho.</sub> | Gato junto al bebedero |
 | **2** | **PROBLEMA** | Nos pasamos la vida diciendo que los gatos beben poquísimo.<br>Y es verdad: vienen del desierto y sacan casi toda el agua **de lo que comen**. | Cuenco de agua casi lleno |
-| **3** | **EL GIRO** | Por eso el aviso no es que beba poco.<br>**Es el día que empiece a beber muchísimo** — y a llenar el arenero muchísimo.<br>Eso sí es nuevo. Y eso sí se mira. | Solo texto, fondo plano |
+| **3** | **EL GIRO** | Por eso el aviso no es que beba poco.<br>**Es el día que empiece a beber muchísimo** — y a llenar el arenero muchísimo.<br>Eso sí es nuevo. Y eso sí **hay que mirarlo**. | Solo texto, fondo plano |
 | **4** | **SEÑALES** | **Las señales, juntas:**<br>· Bebe mucho más que antes, y se queda al lado del agua<br>· Llena el arenero más que nunca<br>· Adelgaza aunque coma igual<br>· El pelo se le queda apagado y feo<br>· Vomita más a menudo | Arenero muy usado |
 | **5** | **⚠️ AVISO** | Eso es **un análisis de sangre y de orina**, no una búsqueda en internet.<br>Detrás suele haber **riñón, tiroides o azúcar** — tres cosas distintas que **se distinguen con una analítica** y que, cogidas pronto, se manejan durante años. | Solo texto, fondo plano |
 | **6** | **SOLUCIÓN** | **Y mientras tanto, agua.** A un gato le cuesta beber de un cuenco:<br>· **Comida húmeda** — la forma más fácil de que entre agua<br>· Cuencos **anchos**, que no le rocen los bigotes<br>· Varios puntos, lejos de la comida y del arenero<br>· Fuente, si prefiere el agua en movimiento | Cuenco ancho y bajo |
