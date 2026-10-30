@@ -27,6 +27,7 @@
 | `17-BANCO-GUIONES-GATO.md` | 24 guiones de gato, guiones 104–127, en las mismas 7 categorías del banco | Cada vez que toque publicar de gato |
 | `18-TIPS-ANSIEDAD.md` | Banco de tips de ansiedad por separación: lo que funciona, lo que no, y cuándo derivar | Al escribir cualquier pieza de ansiedad |
 | `19-MUSICA.md` | Las tres familias de música de la cuenta y qué pista le va a cada pieza | Al montar cada carrusel o reel |
+| `20-CARRUSELES-BUCLE.md` | Diez carruseles de crecimiento (18–27) con estructura de bucle abierto | Cuando toque crecer, no vender |
 
 ---
 
