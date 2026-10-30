@@ -12,6 +12,7 @@ hashtags van **dentro del archivo**, al final.
 | `gato-maulla-de-noche.txt` | «Maúlla a las tres de la mañana» · 10 diapositivas · 🐈 gato mayor |
 | `s1-ansiedad-o-aburrimiento.txt` | Serie · 1 de 5 · 10 diapositivas · 🐕 ansiedad o aburrimiento |
 | `miedo-a-los-petardos.txt` | «Diciembre es tarde» · 8 diapositivas · 🐕 fobia a los ruidos · **estacional** |
+| `gato-no-come.txt` | «Un gato que no come no está desganado» · 9 diapositivas · 🐈 alimentación |
 
 **El texto de las diapositivas**, bloque a bloque y listo para montar, está en
 `../montaje/`. Un archivo por carrusel.
