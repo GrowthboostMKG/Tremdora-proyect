@@ -211,6 +211,47 @@ influencer.
 ---
 ---
 
+# EXTRA · CARRUSEL 38
+
+> **Los dos guiones del paseo, fundidos en uno.** El de «llevas años midiendo mal los
+> paseos» y el de «si tu perro tira de la correa». Encajan porque **la correa es la cuarta
+> pieza del paseo**: si va tensa no hay ritmo, y sin ritmo las otras tres no sirven de nada.
+> Esa es la costura, y es lo que le da coherencia.
+
+## CARRUSEL 38 — «Llevas años midiendo mal los paseos»
+🐕 Perro · el paseo y la correa · **9 diapositivas**
+
+| # | Pieza | Texto |
+|---|---|---|
+| **1** | **GANCHO** | **LLEVAS AÑOS MIDIENDO MAL**<br>**LOS PASEOS DE TU PERRO.**<br><sub>Solo cuentas lo que duran.</sub> |
+| **2** | **INTRODUCCIÓN** | Un paseo son **cuatro cosas**, no una.<br>Te las cuento — y la cuarta explica por qué vuelves a casa con el brazo dolorido. |
+| **3** | **CUERPO 1** | **DURACIÓN · TERRENO · RITMO · FRECUENCIA**<br><br>De las cuatro, casi todos medimos solo la primera. |
+| **4** | **BUCLE** | Empiezo por las dos que menos se miran. La segunda cambia bastante las cuentas. |
+| **5** | **CUERPO 2** | **EL TERRENO.** Si ya tiene artrosis o displasia, el suelo duro le castiga la articulación en cada paso. Busca tierra, hierba o arena siempre que puedas.<br><br>**LA FRECUENCIA.** Tres paseos cortos le sientan mejor que uno largo — y mucho más si ya le duele algo. |
+| **6** | **BUCLE** | Y queda el **ritmo**, que es donde está el problema de verdad. El que convierte el paseo en un tira y afloja. |
+| **7** | **CUERPO 3** | **El ritmo lo marca la nariz, no las piernas.**<br>Pero si la correa va tensa, no hay ritmo: hay arrastre.<br>Y **cuanto más tiras tú, más tira él** — ante una presión constante, el cuerpo empuja en contra. No es cabezonería: **es un reflejo**. |
+| **8** | **CUERPO 3 bis** | **TRES COSAS, DIEZ MINUTOS AL DÍA**<br>**1 ·** En cuanto la correa se tensa, **te paras**. No tiras: te paras y no te mueves.<br>**2 ·** Cuando se afloje, **un paso adelante y premio**. Ahí es donde aprende.<br>**3 ·** Cambia de dirección sin avisar cada pocos metros, para que su trabajo sea estar pendiente de ti. |
+| **9** | **CTA** | **Guárdalo** y hazlo diez minutos al día durante una semana.<br>Y **no empieces el día que lleguéis tarde**: ahí es justo cuando se tira de la correa 🤍 |
+
+**Pie de foto sugerido (primera línea):** «Cuentas los minutos del paseo. ¿Y lo demás?»
+
+---
+
+### Dos decisiones que verás al leerlo
+
+**He dejado fuera la pieza de AUTORIDAD** del guion original —*«es, de largo, lo que más
+me preguntan»*—. En un reel tuyo dentro de seis meses quedará perfecta. **Hoy no puedes
+decirla**: con la cuenta recién abierta, nadie te ha preguntado todavía nada, y una
+autoridad que no se sostiene se nota. Recupérala cuando sea verdad.
+
+**Y he rebajado lo de la ciencia del olfato.** El guion decía *«la literatura no deja de
+comprobarlo»*, y eso es más de lo que conviene afirmar en una diapositiva. Aquí se dice lo
+que se sostiene solo: **el ritmo lo marca la nariz**. Quien quiera la ciencia, la tiene en
+el carrusel 18.
+
+---
+---
+
 ## De dónde sale lo que se afirma
 
 | Dato | Fuente |
