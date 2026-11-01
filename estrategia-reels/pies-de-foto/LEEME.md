@@ -13,6 +13,7 @@ hashtags van **dentro del archivo**, al final.
 | `s1-ansiedad-o-aburrimiento.txt` | Serie · 1 de 5 · 10 diapositivas · 🐕 ansiedad o aburrimiento |
 | `miedo-a-los-petardos.txt` | «Diciembre es tarde» · 8 diapositivas · 🐕 fobia a los ruidos · **estacional** |
 | `gato-no-come.txt` | «Un gato que no come no está desganado» · 9 diapositivas · 🐈 alimentación |
+| `paseo-y-correa.txt` | «Llevas años midiendo mal los paseos» · 9 diapositivas · 🐕 paseo y correa |
 
 **El texto de las diapositivas**, bloque a bloque y listo para montar, está en
 `../montaje/`. Un archivo por carrusel.
