@@ -302,6 +302,70 @@ están escritos con las palabras de quien tiene el problema, no con las tuyas.
 
 ---
 
+## Banco de etiquetas · PESO Y ALIMENTACIÓN FELINA
+
+**Quince, para ir rotando. Pero en cada publicación van cinco.** El límite de Instagram
+sigue siendo cinco, y los del primer comentario cuentan dentro de esos cinco. Un banco no
+sirve para poner más: sirve para **no repetir las mismas cinco veinte veces** y para que
+cada post lleve las que de verdad lo describen.
+
+### 1 · Categoría — siempre una de estas, en el primer hueco
+
+`#saludfelina` · `#bienestarfelino` · `#alimentacionfelina` · `#nutricionfelina`
+
+### 2 · El problema — dos de estas, y aquí es donde te puedes posicionar
+
+`#sobrepesofelino` · `#obesidadfelina` · `#gatoobeso` · `#gatoesterilizado` ·
+`#gatosenior` · `#diabetesfelina`
+
+> **Son pequeñas, y eso es bueno.** En una etiqueta de dos millones no te ve nadie; en una
+> de cinco mil, apareces. `#sobrepesofelino` y `#gatoesterilizado` son de las mejores que
+> tienes en todo el catálogo por eso mismo.
+>
+> **`#diabetesfelina` solo en el post que la desarrolle.** Si la pones en uno que solo la
+> menciona de pasada, Instagram clasifica mal tu cuenta y te manda gente buscando otra cosa.
+
+### 3 · Comunidad — una, en el cuarto hueco
+
+`#gatos` · `#mundogatuno` · `#gatoscaseros`
+
+### 4 · La tuya — el quinto hueco, a partir de unas 30 publicaciones
+
+`#tremdora`
+
+---
+
+### Tres combinaciones listas, para ir alternando
+
+| | Para qué |
+|---|---|
+| `#saludfelina #alimentacionfelina #sobrepesofelino #bienestarfelino #gatos` | **El carrusel del peso.** La principal |
+| `#nutricionfelina #obesidadfelina #gatoesterilizado #saludfelina #gatos` | Para el reel del mismo tema, o si lo republicas en unos meses |
+| `#gatosenior #saludfelina #diabetesfelina #bienestarfelino #gatos` | Solo cuando el post enlace de verdad peso con diabetes o con gato mayor |
+
+### Dos que no te recomiendo, aunque son enormes
+
+`#gatosdeinstagram` y `#amantesdelosgatos`. Tienen millones de publicaciones y **cero
+intención**: quien las mira quiere ver gatos monos, no resolver un problema. Te traen
+«me gusta» y no te traen seguidores. Si alguna vez usas una, que sea la de comunidad y
+nunca en el hueco del problema.
+
+---
+
+### Y lo que de verdad te va a traer gente en este tema
+
+No son las etiquetas: son **estas frases, escritas en el pie**, porque son las que la
+gente teclea en el buscador.
+
+«mi gato está gordo» · «cuánta comida le doy a mi gato» · «mi gato esterilizado ha
+engordado» · «cómo saber si mi gato tiene sobrepeso» · «mi gato siempre tiene hambre» ·
+«ración diaria gato»
+
+**Que al menos dos aparezcan en las dos primeras líneas**, que es lo único que se ve antes
+del «... más».
+
+---
+
 ## Una nota sobre las etiquetas de gato
 
 **`#gatos` es enorme y no te va a posicionar.** Está ahí a propósito, como la cuarta de
