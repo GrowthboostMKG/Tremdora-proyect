@@ -64,10 +64,22 @@ Mañana, el último: lo que no se arregla solo. · 5 de 5
 
 ## Texto para el pie del post
 
-> Un truco para que lo acepte antes: durante los primeros días, deja de vez en cuando un premio o su juguete favorito dentro del refugio sin decirle nada. Que lo descubra solo. Así lo asociará con algo bueno sin sentirse empujado a entrar.
+> Montar el refugio es fácil. Lo difícil es que lo sienta suyo. Unas claves que marcan la diferencia:
 >
-> Y si en casa sois varios, poneos de acuerdo en las reglas antes de empezar. Basta con que una persona se las salte para que todo el esfuerzo se pierda.
+> 🦴 Durante los primeros días, deja de vez en cuando un premio o su juguete favorito dentro del refugio sin decirle nada. Que lo descubra solo. Así lo asociará con algo bueno sin sentirse empujado a entrar.
+>
+> 👅 Dale ahí dentro algo para masticar o lamer (un mordedor, una alfombrilla de lamer, un juguete relleno de comida). Lamer y masticar ayudan a muchos animales a relajarse, y si lo hacen en su refugio, el sitio queda unido a esa sensación de calma.
+>
+> 🏠 Una vez elegido el sitio, no lo cambies. Si tienes que moverlo, hazlo poco a poco y llévate sus cosas tal cual, con su olor incluido.
+>
+> 🎆 Tenlo listo antes de los días difíciles: visitas, obras, tormentas, petardos o mudanzas. El refugio funciona mejor cuando ya lo conoce, no cuando lo improvisas en mitad del susto.
+>
+> 👀 Si se va a su refugio, te está diciendo algo: «necesito un momento». No le llames ni te quedes mirándole para que salga. Respetar ese aviso es lo que hace que confíe en ti.
+>
+> 👨‍👩‍👧 Y si en casa sois varios, poneos de acuerdo en las reglas antes de empezar. Basta con que una persona se las salte para que todo el esfuerzo se pierda.
+>
+> Una última cosa: un refugio sirve para recargar, no para vivir escondido. Si pasa casi todo el día ahí, deja de comer o ya no quiere jugar, no es timidez. Es una señal para consultar con tu veterinario o un especialista en comportamiento. De eso hablamos mañana, en el último post de la serie.
 >
 > ¿Tu animal ya tiene un sitio que considera suyo? Cuéntame dónde está 👇
 >
-> #ansiedadenperros #ansiedadengatos #bienestaranimal #educacioncanina #hogarencalma
+> #ansiedadenperros #ansiedadengatos #bienestaranimal #educacioncanina #comportamientofelino #perrosmiedosos #hogarencalma
