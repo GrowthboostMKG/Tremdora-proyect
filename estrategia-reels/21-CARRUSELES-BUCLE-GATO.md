@@ -10,7 +10,7 @@
 | # | Carrusel | Área | Diap. |
 |---|---|---|---|
 | 28 | Un gato que no come no está desganado | Alimentación · urgencia | 9 |
-| 29 | El cuenco de leche de las películas | Alimentación | 8 |
+| 29 | El cuenco de leche de las películas | Alimentación | 10 |
 | 30 | No es que sea grande | Alimentación · peso | 9 |
 | 31 | Si le huele el aliento | Cuidados · boca | 9 |
 | 32 | ¿Desde cuándo es mayor tu gato? | Gato mayor | 9 |
@@ -41,18 +41,20 @@
 ---
 
 ## CARRUSEL 29 — «El cuenco de leche de las películas»
-🐈 Alimentación · **8 diapositivas**
+🐈 Alimentación · **10 diapositivas**
 
 | # | Pieza | Texto |
 |---|---|---|
 | **1** | **GANCHO** | **EL CUENCO DE LECHE**<br>**DE LAS PELÍCULAS**<br>**le sienta fatal.** |
-| **2** | **INTRODUCCIÓN** | Qué le pasa por dentro, por qué se la bebe encantado igual, y qué darle si lo que quieres es darle un capricho. |
+| **2** | **INTRODUCCIÓN** | Qué le pasa por dentro, por qué se la bebe encantado igual, **lo que nunca debe probar** y qué sí vale como capricho. |
 | **3** | **CUERPO 1** | Un gato bebé digiere la leche de su madre gracias a una enzima, la **lactasa**.<br>Al destetarse, deja de producirla.<br>La mayoría de gatos adultos **no pueden digerir la lactosa**. |
 | **4** | **BUCLE** | Y lo que confunde a todo el mundo es que se la beben felices. |
 | **5** | **CUERPO 2** | **Que le guste no significa que le siente bien.**<br>La lactosa sin digerir se queda en el intestino: gases, molestia y diarrea.<br>A veces al día siguiente — y entonces ya no lo relacionas con la leche. |
 | **6** | **BUCLE** | ¿Y la «leche para gatos» que venden en el súper? |
-| **7** | **CUERPO 3** | Esa es sin lactosa, así que no le hace daño. Pero son **calorías que no necesita** y nada más.<br>Si quieres darle un capricho líquido: **agua de cocer pollo, sin sal, enfriada**. Con eso sí se vuelve loco. |
-| **8** | **CTA** | **Mándaselo** a quien todavía le pone un platito de leche.<br>Lo hacemos con toda la buena intención 🤍 |
+| **7** | **CUERPO 3** | Esa es sin lactosa, así que no le hace daño. Pero son **calorías que no necesita** y nada más.<br>Si quieres un capricho líquido: **agua de cocer pollo tú, solo con agua**. Sin sal, **sin cebolla y sin ajo**, y nada de pastilla de caldo. Enfriada. |
+| **8** | **CUERPO 3 bis** | **LO QUE NUNCA DEBE PROBAR**<br>· **Cebolla y ajo** — y todo lo que los lleve: sofritos, caldos de brik, pastillas de caldo. Le destruyen los glóbulos rojos, y en polvo son aún más concentrados<br>· Chocolate · uvas y pasas · alcohol<br>· Huesos cocinados<br>· **Atún en lata como comida habitual**: ni es alimento completo ni está pensado para él |
+| **9** | **CUERPO 3 bis** | **LO QUE SÍ VALE COMO CAPRICHO**<br>· Un trocito de **pollo o pavo cocido**, sin sal ni condimento<br>· Un poco de **su propia comida húmeda**, templada: huele más y le encanta igual<br>· Premios **específicos de gato**<br>· **Hierba gatera**<br><br>Y la regla de oro: entre premios y extras, **como mucho un 10 % del día** — y ese 10 % se descuenta de su ración. |
+| **10** | **CTA** | **Mándaselo** a quien todavía le pone un platito de leche.<br>Lo hacemos todos con la mejor intención 🤍 |
 
 ---
 
@@ -200,6 +202,8 @@
 | En gatos hay lesiones dentales que solo se ven en radiografía | Por eso el pie dice «pide radiografías dentales» y no «que le miren la boca» |
 | Un gato que deja de comer uno o dos días es urgencia | Medicina felina básica: el riesgo es la **lipidosis hepática**. Las fuentes dan entre 24 y 72 horas; **el carrusel usa la versión conservadora** —un día llamas, dos días es urgencia— porque es la que no se queda corta |
 | Los gatos con sobrepeso tienen más riesgo | Es un factor de riesgo reconocido de lipidosis |
+| La cebolla y el ajo dañan los glóbulos rojos del gato, y en polvo más | Toxicología veterinaria básica. **Por eso el caldo de brik y la pastilla quedan fuera**: casi todos llevan cebolla |
+| Nunca ayunar a un gato con diarrea | Por el riesgo de lipidosis hepática — el mismo del carrusel 28. En perro se hace; **en gato no** |
 | La mayoría de gatos adultos no digieren la lactosa | La lactasa cae tras el destete. Bien establecido |
 | El sobrepeso es el principal factor de riesgo de diabetes felina | Bien establecido |
 | Adelgazar rápido es peligroso en un gato | Por el mismo motivo: moviliza grasa de golpe. Por eso la dieta la lleva el veterinario |

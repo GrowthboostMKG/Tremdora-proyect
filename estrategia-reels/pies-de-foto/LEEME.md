@@ -16,6 +16,7 @@ hashtags van **dentro del archivo**, al final.
 | `paseo-y-correa.txt` | «Llevas años midiendo mal los paseos» · 9 diapositivas · 🐕 paseo y correa |
 | `gato-sobrepeso.txt` | «No es que sea grande» · 9 diapositivas · 🐈 peso |
 | `gato-aliento.txt` | «Si le huele el aliento» · 9 diapositivas · 🐈 la boca |
+| `gato-leche.txt` | «El cuenco de leche de las películas» · 10 diapositivas · 🐈 alimentación |
 
 **El texto de las diapositivas**, bloque a bloque y listo para montar, está en
 `../montaje/`. Un archivo por carrusel.
