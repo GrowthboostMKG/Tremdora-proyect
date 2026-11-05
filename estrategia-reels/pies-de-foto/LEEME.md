@@ -104,6 +104,27 @@ usa mayúsculas en dos o tres palabras, o un salto de línea.
 hace cuando coges las llaves?» se responde en cuatro palabras; «¿qué opinas?» no se responde
 nunca.
 
+## La otra comprobación: ¿se entiende sin que yo esté al lado?
+
+El pie se lee **de una vez y sin preguntar a nadie**. Así que, antes de publicarlo, vuelve
+a leerlo buscando las frases que **tú entiendes porque sabes lo que quisiste decir**.
+
+| Mal | Bien |
+|---|---|
+| «Entre dos premios que parecen iguales puede haber el doble» | «Dos bolsas del mismo tamaño pueden llevar una **el doble de calorías** que la otra» |
+| «Eso es lo primero que hay que preguntar» | «**Llama al veterinario** y pregunta **qué leche darle**» |
+| «Que todos sepan la regla» | «**Poned un número**: cuántos premios al día» |
+| «Bebían algo que apenas la tenía» | «Bebían algo que casi no tenía **lactosa**» |
+
+**Las tres preguntas que las cazan todas:** ¿el doble **de qué**? ¿preguntar **a quién**?
+¿**qué** regla? Si una frase no contesta sola, está mal escrita — aunque suene bien.
+
+**Es la misma regla que la de las diapositivas** («ningún verbo de acción sin su
+destinatario», documento 13), y en el pie hace falta igual: aquí tampoco hay nadie al lado
+para aclararlo.
+
+---
+
 ## Repetir tema no es repetirse
 
 **Una cuenta de nicho tiene que machacar su territorio.** Así es como acaba siendo «la de
