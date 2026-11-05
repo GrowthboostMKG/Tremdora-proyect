@@ -12,7 +12,7 @@
 | 28 | Un gato que no come no está desganado | Alimentación · urgencia | 9 |
 | 29 | El cuenco de leche de las películas | Alimentación | 8 |
 | 30 | No es que sea grande | Alimentación · peso | 9 |
-| 31 | Si le huele el aliento | Cuidados · boca | 8 |
+| 31 | Si le huele el aliento | Cuidados · boca | 9 |
 | 32 | ¿Desde cuándo es mayor tu gato? | Gato mayor | 9 |
 | 33 | Está perdiendo la vista | Gato mayor · enfermedad | 9 |
 | 34 | Se lame hasta hacerse calvas | Comportamiento · salud | 9 |
@@ -74,18 +74,19 @@
 ---
 
 ## CARRUSEL 31 — «Si le huele el aliento»
-🐈 Cuidados · la boca · **8 diapositivas**
+🐈 Cuidados · la boca · **9 diapositivas**
 
 | # | Pieza | Texto |
 |---|---|---|
 | **1** | **GANCHO** | **SI LE HUELE EL ALIENTO,**<br>**no es «cosa de gatos».** |
-| **2** | **INTRODUCCIÓN** | Lo que suele haber detrás, por qué no se queja nunca, y qué mirarle esta noche en treinta segundos. |
+| **2** | **INTRODUCCIÓN** | Lo que suele haber detrás, por qué no se queja nunca, qué mirarle esta noche — y lo que puedes hacer tú en casa. |
 | **3** | **CUERPO 1** | El mal aliento en un gato casi siempre es **boca**: sarro, encías inflamadas o lesiones en los dientes.<br>Y eso no es estético. **Duele.** |
 | **4** | **BUCLE** | Aquí está lo que hace que lleguemos tarde casi siempre. |
 | **5** | **CUERPO 2** | **Que un gato con la boca destrozada sigue comiendo.**<br>Traga sin masticar, come de un solo lado, o come un poco menos — y lo achacamos a que es tiquismiquis.<br>No deja de comer hasta que ya no puede. |
 | **6** | **BUCLE** | Entonces, ¿cómo lo ves tú en casa, sin ser veterinaria? |
 | **7** | **CUERPO 3** | Levántale el labio con cuidado y mira **la línea de la encía**.<br>Roja o hinchada · sarro marrón · un diente con un agujerito o un bultito rojo encima.<br>Y fíjate si babea, si tira la comida o si come de lado. |
-| **8** | **CTA** | **Guárdalo y míraselo esta noche.** Treinta segundos.<br>Y si ves algo de eso, **pide cita con tu veterinario**: una boca así no se arregla cambiando de pienso 🤍 |
+| **8** | **CUERPO 3 bis** | **LO QUE PUEDES HACER TÚ**<br><br>**Para prevenirlo** — es lo único que frena el sarro de verdad:<br>· **Cepillado**, y se empieza **sin cepillo**<br>· Pasta **de gato**. La tuya nunca<br>· Mírale la boca una vez por semana. Cinco segundos<br><br>**Mientras esperas la cita**, para que coma sin dolor:<br>· Comida **húmeda**, o el pienso humedecido y templado<br>· Plato **ancho**, que no le roce los bigotes<br>· Nada duro: fuera huesos y juguetes rígidos |
+| **9** | **CTA** | ⚠️ Nada de esto **cura** una encía ya inflamada. Previene y alivia.<br><br>**Guárdalo, míraselo esta noche** — treinta segundos — y si ves algo, **pide cita con tu veterinario** 🤍 |
 
 ---
 
@@ -195,6 +196,8 @@
 
 | Dato | Fuente y matiz |
 |---|---|
+| Las limpiezas dentales sin anestesia no sustituyen a una de verdad | Posición del American Veterinary Dental College: solo retiran el sarro visible, no llegan por debajo de la encía y no permiten radiografiar |
+| En gatos hay lesiones dentales que solo se ven en radiografía | Por eso el pie dice «pide radiografías dentales» y no «que le miren la boca» |
 | Un gato que deja de comer uno o dos días es urgencia | Medicina felina básica: el riesgo es la **lipidosis hepática**. Las fuentes dan entre 24 y 72 horas; **el carrusel usa la versión conservadora** —un día llamas, dos días es urgencia— porque es la que no se queda corta |
 | Los gatos con sobrepeso tienen más riesgo | Es un factor de riesgo reconocido de lipidosis |
 | La mayoría de gatos adultos no digieren la lactosa | La lactasa cae tras el destete. Bien establecido |
