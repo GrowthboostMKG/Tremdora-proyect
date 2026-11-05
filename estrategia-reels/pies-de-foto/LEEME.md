@@ -104,6 +104,23 @@ usa mayúsculas en dos o tres palabras, o un salto de línea.
 hace cuando coges las llaves?» se responde en cuatro palabras; «¿qué opinas?» no se responde
 nunca.
 
+## La prueba del titular
+
+**Lee el titular del carrusel y después el pie entero. ¿El pie sigue hablando de eso?**
+
+Es la comprobación que más veces se me ha escapado, y siempre por el mismo motivo: por
+huir de la repetición acabo en otro tema. Me ha pasado dos veces.
+
+| Carrusel | Dónde me fui | Dónde estaba la profundidad de verdad |
+|---|---|---|
+| «¿Es ansiedad o es aburrimiento?» *(diagnóstico)* | Al tratamiento de la ansiedad | En **observar mejor**: las señales que no son destrozos, preguntar al vecino |
+| «El cuenco de leche» *(los lácteos)* | A leer etiquetas y a quién le da de comer en casa | En **los lácteos**: de dónde viene el mito, el queso y el yogur, el gato que sí la tolera, el gatito huérfano |
+
+**No hay que irse del tema para no repetirse. Hay que bajar más dentro de él.** Un carrusel
+cuenta lo general en diez frases; un pie puede coger **una de esas frases** y abrirla.
+
+---
+
 ## La otra comprobación: ¿se entiende sin que yo esté al lado?
 
 El pie se lee **de una vez y sin preguntar a nadie**. Así que, antes de publicarlo, vuelve
