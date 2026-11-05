@@ -42,6 +42,12 @@ deslizado no tiene motivo para leerlo — pero si se va a otro tema, es peor tod
 > escrito. Y repasa que **ninguna diapositiva se quede sin recoger** en el pie: si una
 > propone algo y el pie no la menciona, la has perdido.
 
+> **Y el sitio donde más duele repetirse es el primer bloque.** El pie del carrusel de la
+> leche abría contando los síntomas —gases, diarrea, a veces al día siguiente— que ya
+> estaban en la diapositiva 5. Los otros tres bloques eran nuevos, pero daba igual: lo
+> primero que se lee marca el resto, y quien reconoce el primer párrafo deja de leer. **Si
+> un solo bloque repite, que no sea el de arriba.**
+
 > **La comprobación, que es de diez segundos y se la salta todo el mundo —yo el primero.**
 > Cuando tengas el pie escrito, ponlo al lado de las diapositivas y **tacha cada frase que
 > ya esté en una de ellas**. Si queda tachada más de la mitad, el pie no aporta nada:
