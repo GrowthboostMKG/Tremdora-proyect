@@ -194,10 +194,43 @@
 ---
 ---
 
+# EXTRA · CARRUSEL 39
+
+> **Sale del pie del carrusel 31.** Aquel pie llevaba dentro dos ideas: el protocolo del
+> cepillado y lo que pasa en la consulta. Eran demasiadas para un pie y daban para un
+> carrusel entero, así que **el cepillado se separa aquí** — y lo de la consulta
+> (radiografías, anestesia) pasa a ser el pie nuevo del 31.
+>
+> **Lo que le faltaba al texto original para ser carrusel:** la introducción y los dos
+> bucles. Sin bucles era una lista, y una lista se abandona en la cuarta diapositiva.
+
+## CARRUSEL 39 — «Le cepillo los dientes»
+🐈 Cuidados · el cepillado · **9 diapositivas**
+
+| # | Pieza | Texto |
+|---|---|---|
+| **1** | **GANCHO** | **«LE CEPILLO**<br>**LOS DIENTES»**<br><sub>es la frase que más risa da en una casa con gato.</sub> |
+| **2** | **INTRODUCCIÓN** | Y es lo único que de verdad frena el sarro.<br>Cómo se hace, por qué casi todos fallamos, y lo que **no** sirve aunque te lo vendan. |
+| **3** | **CUERPO 1** | El fallo no es tu gato. **Es el orden.**<br>Casi todo el mundo empieza con el cepillo el primer día, sale mal, y no se vuelve a intentar.<br>**El cepillo es lo último que entra.** |
+| **4** | **BUCLE** | Los tres primeros días no le vas a tocar la boca. Te explico por qué. |
+| **5** | **CUERPO 2** | **DÍAS 1 A 3:** solo le dejas **lamer** la pasta del dedo. Nada más.<br><br>**DÍA 4:** con el dedo, le tocas un colmillo. Dos segundos. Premio. Y se acabó por hoy.<br><br>Cuando eso le dé igual, **ahí** entra el cepillo. |
+| **6** | **BUCLE** | Y cuando por fin entra, hay dos detalles que casi nadie hace bien. |
+| **7** | **CUERPO 3** | **Solo por fuera.** Por dentro casi no hace falta.<br>**Movimientos pequeños en la línea de la encía**, que es donde se acumula.<br><br>Diez segundos el primer día. No busques dos minutos.<br>Si se aparta, has ido deprisa: **vuelve al paso anterior**. |
+| **8** | **⚠️ CUERPO 3 bis** | **Y lo que NO sirve, aunque te lo vendan:**<br>las «limpiezas dentales sin anestesia».<br>Solo quitan el sarro **que se ve**, y la enfermedad está **debajo de la encía**, donde no llegan.<br>Sale la boca más blanca y el problema sigue entero — ahora escondido. |
+| **9** | **CTA** | **Empieza esta noche por el paso uno:** pasta en el dedo y que la lama. Nada más.<br><br>**Guárdalo** — esto son semanas, y funciona 🤍 |
+
+**Y ojo con el orden de publicación:** el **31** (detectar) va **antes** que el **39**
+(cepillar). Primero se mira la boca, después se aprende a cuidarla.
+
+---
+---
+
 ## De dónde sale lo que se afirma
 
 | Dato | Fuente y matiz |
 |---|---|
+| Un gato al que le extraen piezas come perfectamente después | Es lo que se ve en consulta: muchos comen mejor, porque deja de dolerles. Por eso el pie del 31 lo dice — el miedo a las extracciones es lo que hace posponer años |
+| El sello VOHC certifica productos dentales de eficacia probada | Veterinary Oral Health Council. Sirve para distinguir un premio dental de verdad de uno que solo lo pone en la caja |
 | Las limpiezas dentales sin anestesia no sustituyen a una de verdad | Posición del American Veterinary Dental College: solo retiran el sarro visible, no llegan por debajo de la encía y no permiten radiografiar |
 | En gatos hay lesiones dentales que solo se ven en radiografía | Por eso el pie dice «pide radiografías dentales» y no «que le miren la boca» |
 | Un gato que deja de comer uno o dos días es urgencia | Medicina felina básica: el riesgo es la **lipidosis hepática**. Las fuentes dan entre 24 y 72 horas; **el carrusel usa la versión conservadora** —un día llamas, dos días es urgencia— porque es la que no se queda corta |
