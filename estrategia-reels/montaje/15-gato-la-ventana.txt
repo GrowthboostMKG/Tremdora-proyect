@@ -1,52 +1,82 @@
 CARRUSEL 15 · «Un gato no cae de pie desde un quinto»
-🐈 Precaución · ventanas y balcones · transversal · 8 diapositivas
+🐈 Precaución · ventanas y balcones · 10 diapositivas
 ================================================================
 
----------------- HOOK · diapositiva 1 --------------------------
+---------------- GANCHO · diapositiva 1 ------------------------
 
 [1]  UN GATO NO CAE DE PIE
      DESDE UN QUINTO.
 
----------------- PROBLEMA · diapositiva 2 ----------------------
+---------------- INTRODUCCIÓN · diapositiva 2 ------------------
 
-[2]  Tenemos metido que un gato siempre cae bien.
-     Y por eso dejamos ventanas abiertas con una
-     tranquilidad que no toca.
+[2]  Por qué pasa, la trampa que tienes en casa y no
+     sabes, y qué hacer en los primeros minutos
+     si algún día ocurre.
 
----------------- DESARROLLO · diapositivas 3, 4 y 5 ------------
+---------------- CUERPO 1 · diapositiva 3 ----------------------
 
 [3]  Pasa tanto que tiene nombre en veterinaria:
      síndrome del gato paracaidista.
-     Se distraen con un pájaro o un insecto
-     y calculan mal.
 
-[4]  Y EL DETALLE QUE CASI NADIE SABE:
-     una ventana oscilobatiente abierta en «V» es
-     una trampa. Intentan pasar, resbalan hacia la
-     parte estrecha y se quedan atrapados por la
-     mitad del cuerpo. Es gravísimo.
+     Se distraen con un pájaro o un insecto y calculan
+     mal. No es torpeza: su cuerpo está hecho para
+     calcular SALTOS, no caídas.
 
-[5]  Las mosquiteras normales tampoco valen.
-     No están hechas para aguantar peso: ceden.
+---------------- BUCLE · diapositiva 4 -------------------------
 
----------------- SOLUCIÓN · diapositivas 6 y 7 -----------------
+[4]  Y lo que más sorprende es desde qué alturas pasa.
 
-[6]  LO QUE SÍ FUNCIONA
-     · Red de seguridad bien puesta, tensa y por fuera
-     · Oscilobatientes: bloqueadas, o con protector
+---------------- CUERPO 2 · diapositiva 5 ----------------------
+
+[5]  NO TE FÍES DE VIVIR EN UN SEGUNDO.
+
+     Desde poca altura no les da tiempo a colocarse en
+     el aire: caen de lado, mal, y se rompe lo que toca
+     primero.
+     Un segundo piso no es un sitio seguro.
+
+---------------- BUCLE · diapositiva 6 -------------------------
+
+[6]  Pero hay algo que no tiene que ver con la altura.
+     Y lo tienes dentro de casa ahora mismo.
+
+---------------- CUERPO 3 · diapositiva 7 ----------------------
+
+[7]  LA OSCILOBATIENTE ABIERTA EN «V»
+
+     Intentan pasar por arriba, resbalan hacia la parte
+     estrecha y se quedan atrapados por la mitad del
+     cuerpo. Cuanto más forcejean, más se hunden.
+
+     Es de las urgencias más graves que existen.
+
+---------------- CUERPO 3 bis · diapositiva 8 ------------------
+
+[8]  LO QUE SÍ FUNCIONA
+     · Red de seguridad tensa y puesta POR FUERA
+     · Oscilobatientes bloqueadas, o con protector
        en la cuña
-     · Sin red, la ventana se abre cuando él no está
-       en la habitación
-     · Terrazas: cerradas del todo, o nada
+     · La mosquitera normal NO vale: no aguanta peso
+     · Barandillas: si le cabe la cabeza, pasa entero
+     · Terraza: cerrada del todo, o nada
 
-[7]  Y UNA COSA MÁS:
-     esto no depende de lo listo que sea tu gato,
-     ni de que lleve ocho años sin asomarse.
-     Basta un pájaro.
+---------------- ⚠️ CUERPO 3 bis · diapositiva 9 ----------------
 
----------------- CALL TO ACTION · diapositiva 8 ----------------
+[9]  ⚠️ Y SI UN DÍA SE CAE
 
-[8]  MÍRALO HOY.
+     · Al veterinario SIEMPRE, aunque se levante y ande.
+       Lo que más daño hace no se ve: tórax, paladar,
+       dientes.
+     · No le des comida ni agua: puede que haya que
+       anestesiarle.
+     · Muévelo sobre algo rígido —una tabla, una caja
+       abierta—, no en brazos.
+     · Nunca un analgésico tuyo.
+
+---------------- CALL TO ACTION · diapositiva 10 ---------------
+
+[10] MIRA TUS VENTANAS HOY. Tardas dos minutos.
+
      Y mándaselo a quien tenga gato y terraza.
 
      🤍 @tremdora_pets

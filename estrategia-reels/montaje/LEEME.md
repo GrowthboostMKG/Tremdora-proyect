@@ -11,7 +11,7 @@ imagen sin tener que volver a decidir nada.
 | `12-gato-maulla-de-noche.txt` | Maúlla a las tres de la mañana | 10 | Edad Dorada |
 | `13-gato-beber-mucho.txt` | No te preocupes porque beba poco | 9 | Edad Dorada |
 | `14-gato-los-lirios.txt` | Esta flor no puede entrar en tu casa | 8 | — |
-| `15-gato-la-ventana.txt` | Un gato no cae de pie desde un quinto | 8 | — |
+| `15-gato-la-ventana.txt` | Un gato no cae de pie desde un quinto | 10 | — |
 | `16-gato-el-hilo.txt` | Si ves un hilo, no tires | 8 | — |
 | `17-gato-el-difusor.txt` | El difusor que tienes encendido | 8 | — |
 | `s1-ansiedad-o-aburrimiento.txt` | Serie · 1 de 5 · ¿Es ansiedad o es aburrimiento? | 10 | Hogar en Calma |
