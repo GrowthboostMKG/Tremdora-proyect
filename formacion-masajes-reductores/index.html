@@ -1,0 +1,691 @@
+<title>Método Modelador Reductor</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: manual de cabina — columna de lectura con índice lateral fijo en escritorio; fichas técnicas foto + datos por movimiento */
+:root{
+  --bg:#f2f5f3; --surface:#ffffff; --ink:#18221f; --muted:#56635e; --line:#d5ddd9;
+  --accent:#2c5c4f; --accent-soft:#dde9e4; --alert:#8c3f5c; --alert-soft:#f5e4eb; --ok:#3d7a3a;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111816; --surface:#18211e; --ink:#e4ebe8; --muted:#9eaca6; --line:#2c3833;
+  --accent:#7fc1ac; --accent-soft:#1f332c; --alert:#e59ab6; --alert-soft:#36222b; --ok:#8fcf8a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111816; --surface:#18211e; --ink:#e4ebe8; --muted:#9eaca6; --line:#2c3833;
+  --accent:#7fc1ac; --accent-soft:#1f332c; --alert:#e59ab6; --alert-soft:#36222b; --ok:#8fcf8a; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:1160px;margin:0 auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px}
+@media (max-width:900px){.wrap{grid-template-columns:minmax(0,1fr)} nav.toc{display:none}}
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;padding-top:32px;font-size:14px}
+nav.toc ol{list-style:none;padding:0;margin:0;display:grid;gap:6px;counter-reset:t}
+nav.toc li{counter-increment:t}
+nav.toc a{color:var(--muted);text-decoration:none;display:flex;gap:8px}
+nav.toc a::before{content:counter(t,decimal-leading-zero);font-family:var(--f-mono);font-size:12px;color:var(--accent);padding-top:2px}
+nav.toc a:hover{color:var(--ink)}
+main{min-width:0}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(34px,5.5vw,58px);font-weight:700;letter-spacing:-.02em}
+h2{font-size:clamp(26px,3.4vw,36px);font-weight:700;letter-spacing:-.01em}
+h3{font-size:21px;font-weight:700}
+p{margin:0;max-width:68ch}
+a{color:var(--accent)}
+a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+section{padding-top:64px;display:grid;gap:20px}
+.hero{padding-top:40px;display:grid;gap:22px}
+.hero img{border-radius:6px;width:100%;aspect-ratio:16/8;object-fit:cover}
+.lede{font-size:20px;color:var(--muted);max-width:60ch}
+ul,ol{margin:0;padding-left:1.2em;display:grid;gap:6px;max-width:68ch}
+figure{margin:0}
+figure img{display:block;width:100%;border-radius:6px;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+figcaption{font-size:14px;color:var(--muted);padding-top:6px}
+.note{background:var(--accent-soft);padding:18px 20px;border-radius:6px;display:grid;gap:8px}
+.warn{background:var(--alert-soft);padding:18px 20px;border-radius:6px;display:grid;gap:8px}
+.warn h3{color:var(--alert)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.two>*{min-width:0}
+
+/* Ficha de movimiento */
+.moves{display:grid;gap:40px}
+.move{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:24px;align-items:start;padding-top:28px;border-top:1px solid var(--line)}
+@media (max-width:700px){.move{grid-template-columns:minmax(0,1fr)}}
+.move .body{display:grid;gap:12px;min-width:0}
+.move .num{font-family:var(--f-mono);font-size:13px;color:var(--accent)}
+.specs{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:15px;margin:0}
+.specs dt{font-family:var(--f-mono);font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding-top:3px}
+.specs dd{margin:0}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:99px;border:1px solid var(--accent);color:var(--accent)}
+
+/* Tablas */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:560px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+tr:last-child td{border-bottom:0}
+td.t{font-family:var(--f-mono);font-size:13px;white-space:nowrap;color:var(--accent);font-variant-numeric:tabular-nums}
+
+/* Mapa de direcciones */
+.map{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;overflow-x:auto}
+.map svg{display:block;width:100%;min-width:520px;height:auto}
+.map .sil{fill:var(--accent-soft);stroke:var(--line);stroke-width:2}
+.map .arr{stroke:var(--accent);stroke-width:3;fill:none;marker-end:url(#ah)}
+.map .node{fill:var(--alert)}
+.map text{fill:var(--muted);font-family:var(--f-mono);font-size:12px}
+.map .ttl{fill:var(--ink);font-family:var(--f-display);font-size:16px;font-weight:700}
+.map marker path{fill:var(--accent)}
+
+/* Zonas */
+.zone{display:grid;gap:10px;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.zone h3{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
+.zone h3 span{font-family:var(--f-mono);font-size:13px;font-weight:500;color:var(--accent)}
+.zone ol{font-size:16px}
+
+/* Casa */
+.home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.home-grid>div{display:grid;gap:10px;align-content:start;min-width:0}
+.check{display:grid;gap:8px;max-width:68ch}
+.check label{display:flex;gap:12px;align-items:flex-start;padding:10px 14px;background:var(--surface);border:1px solid var(--line);border-radius:6px;cursor:pointer}
+.check input{width:20px;height:20px;margin-top:3px;accent-color:var(--accent);flex:none}
+.check input:checked + span{color:var(--muted);text-decoration:line-through}
+.progress{font-family:var(--f-mono);font-size:13px;color:var(--accent)}
+footer{padding-top:64px;font-size:14px;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+
+<div class="wrap">
+<nav class="toc" aria-label="Índice">
+  <ol>
+    <li><a href="#fundamentos">Cómo funciona</a></li>
+    <li><a href="#contraindicaciones">Contraindicaciones</a></li>
+    <li><a href="#materiales">Cabina y materiales</a></li>
+    <li><a href="#evaluacion">Evaluación inicial</a></li>
+    <li><a href="#reglas">Reglas de oro</a></li>
+    <li><a href="#movimientos">Los 12 movimientos</a></li>
+    <li><a href="#zonas">Protocolo por zonas</a></li>
+    <li><a href="#sesion">Sesión minuto a minuto</a></li>
+    <li><a href="#plan">Plan de tratamiento</a></li>
+    <li><a href="#casa">Cuidados en casa</a></li>
+    <li><a href="#resultados">Resultados reales</a></li>
+  </ol>
+</nav>
+
+<main>
+<header class="hero">
+  <span class="eyebrow">Formación profesional · Masaje reductor y modelador</span>
+  <h1>Método Modelador Reductor</h1>
+  <p class="lede">Formación completa paso a paso: los movimientos que más resultado dan, el protocolo de cabina por zonas, la sesión cronometrada, el plan de 10 sesiones y la rutina que la clienta sigue en su casa.</p>
+  <img src="img/00.jpg" alt="Cabina de estética preparada con camilla, toallas, aceites, rodillos de madera y ventosas de silicona">
+</header>
+
+<section id="fundamentos">
+  <span class="eyebrow">01 · Fundamentos</span>
+  <h2>Qué hace realmente un masaje reductor</h2>
+  <p>El masaje reductor modelador combina maniobras profundas y rápidas, que trabajan el tejido adiposo y la piel, con maniobras de drenaje, que movilizan el líquido retenido. Bien hecho y en serie, produce cambios medibles en centímetros y en el aspecto de la piel.</p>
+  <div class="two">
+    <div class="note">
+      <h3>Lo que sí consigue</h3>
+      <ul>
+        <li>Reduce la retención de líquidos y la hinchazón, que es la mayor parte de los centímetros que se pierden en las primeras sesiones.</li>
+        <li>Activa la circulación sanguínea y linfática de la zona.</li>
+        <li>Mejora la textura de la piel con celulitis (aspecto de piel de naranja) y la firmeza.</li>
+        <li>Moldea el contorno: cintura, flancos, cara externa del muslo, glúteo.</li>
+      </ul>
+    </div>
+    <div class="warn">
+      <h3>Lo que hay que explicar con honestidad</h3>
+      <ul>
+        <li>El masaje no "derrite" grasa por sí solo. Los resultados duraderos aparecen cuando se combina con alimentación ordenada, movimiento y agua.</li>
+        <li>Los moretones no son señal de que funciona. Son daño en el tejido y hay que evitarlos.</li>
+        <li>Cada cuerpo responde distinto. Se promete un proceso medido, no una cifra.</li>
+      </ul>
+    </div>
+  </div>
+  <p>Explicar esto en la primera sesión hace que la clienta cumpla la parte de su casa, y esa parte es la que separa un resultado normal de un resultado increíble.</p>
+</section>
+
+<section id="contraindicaciones">
+  <span class="eyebrow">02 · Seguridad</span>
+  <h2>Contraindicaciones</h2>
+  <div class="two">
+    <div class="warn">
+      <h3>No realizar</h3>
+      <ul>
+        <li>Embarazo y lactancia (zona abdominal y técnicas intensas).</li>
+        <li>Trombosis venosa, flebitis o antecedentes recientes.</li>
+        <li>Várices gruesas o dolorosas: no trabajar encima.</li>
+        <li>Fiebre, infecciones, heridas, quemaduras, dermatitis en la zona.</li>
+        <li>Cáncer activo o en tratamiento, salvo autorización médica escrita.</li>
+        <li>Insuficiencia cardíaca o renal, hipertensión no controlada.</li>
+        <li>Cirugía reciente en la zona (lipo, abdominoplastia): solo con indicación del cirujano y con técnica de drenaje.</li>
+      </ul>
+    </div>
+    <div class="note">
+      <h3>Precaución: bajar intensidad</h3>
+      <ul>
+        <li>Anticoagulantes o facilidad para los moretones: solo drenaje y presión media.</li>
+        <li>DIU o menstruación: abdomen suave o se omite ese día.</li>
+        <li>Hernias abdominales o umbilicales: no trabajar sobre ellas.</li>
+        <li>Diabetes: revisar sensibilidad de la piel y presión.</li>
+        <li>Piel muy fina, capilares visibles o arañitas: evitar percusión y pellizco.</li>
+      </ul>
+    </div>
+  </div>
+  <p>Todo esto se pregunta por escrito en la ficha y se firma un consentimiento antes de la primera sesión.</p>
+</section>
+
+<section id="materiales">
+  <span class="eyebrow">03 · Preparación</span>
+  <h2>Cabina y materiales</h2>
+  <div class="two">
+    <figure><img src="img/01.jpg" alt="Kit de trabajo: aceite, crema reductora, cinta métrica, exfoliante, cepillo, rodillo de madera, ventosas, film y toallas" loading="lazy"><figcaption>Kit básico de trabajo.</figcaption></figure>
+    <ul>
+      <li><strong>Camilla</strong> firme con altura a la mitad del muslo de la terapeuta, para poder cargar peso con el cuerpo y no con las muñecas.</li>
+      <li><strong>Medio de deslizamiento</strong>: aceite neutro (almendras, pepita de uva) o crema reductora con activos como cafeína, centella asiática o algas. Poco producto: las maniobras de amasado necesitan agarre.</li>
+      <li><strong>Exfoliante corporal</strong> de grano medio, una vez por semana.</li>
+      <li><strong>Cinta métrica</strong>, ficha de medidas y celular para fotos con fondo liso.</li>
+      <li><strong>Complementos opcionales</strong>: rodillo de madera, ventosas de silicona, film osmótico.</li>
+      <li><strong>Toallas</strong> para cubrir todo lo que no se trabaja. La clienta siempre en ropa interior descartable y tapada.</li>
+      <li>Cabina a 24–26 °C. El frío contrae los vasos y la clienta se tensa.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="evaluacion">
+  <span class="eyebrow">04 · Primera visita</span>
+  <h2>Evaluación inicial</h2>
+  <div class="two">
+    <figure><img src="img/02.jpg" alt="Terapeuta midiendo la cintura de una clienta con cinta métrica y anotando en la ficha" loading="lazy"><figcaption>Siempre medir en los mismos puntos y a la misma hora del día.</figcaption></figure>
+    <div style="display:grid;gap:12px">
+      <p><strong>Medidas</strong> (de pie, cinta horizontal, sin apretar):</p>
+      <ul>
+        <li>Abdomen alto: 5 cm sobre el ombligo.</li>
+        <li>Cintura / ombligo.</li>
+        <li>Abdomen bajo: 5 cm bajo el ombligo.</li>
+        <li>Cadera: parte más ancha del glúteo.</li>
+        <li>Muslo: 15 cm sobre la rodilla, cada pierna.</li>
+        <li>Brazo: punto medio entre hombro y codo.</li>
+      </ul>
+      <p><strong>Fotos</strong>: frente, perfil y espalda, misma luz, misma distancia, misma ropa.</p>
+      <p><strong>Grado de celulitis</strong> (prueba del pellizco): grado 1 se ve solo al pellizcar; grado 2 se ve de pie; grado 3 se ve también acostada y puede doler.</p>
+    </div>
+  </div>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Zona</th><th>Sesión 1</th><th>Sesión 5</th><th>Sesión 10</th><th>Diferencia</th></tr></thead>
+      <tbody>
+        <tr><td>Abdomen alto</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Cintura / ombligo</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Abdomen bajo</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Cadera</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Muslo derecho / izquierdo</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Brazo derecho / izquierdo</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>Peso (opcional)</td><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="reglas">
+  <span class="eyebrow">05 · Principios</span>
+  <h2>Reglas de oro del masaje reductor</h2>
+  <ol>
+    <li><strong>Abrir antes de mover.</strong> Primero se estimulan los ganglios (clavícula, axila, ingle, detrás de la rodilla) para que el líquido tenga a dónde ir.</li>
+    <li><strong>Siempre hacia el ganglio más cercano.</strong> Piernas hacia la ingle, brazos hacia la axila, abdomen bajo hacia la ingle, espalda y flancos hacia axila o ingle según la mitad.</li>
+    <li><strong>De lo superficial a lo profundo y de vuelta.</strong> Rozamiento, amasado, maniobras intensas, y al final drenaje suave.</li>
+    <li><strong>Ritmo rápido en lo reductor, lento en el drenaje.</strong> El calor y el enrojecimiento leve son buscados. El dolor fuerte no.</li>
+    <li><strong>El peso viene del cuerpo.</strong> Piernas separadas, rodillas flexionadas, brazos casi rectos. Así se aguanta una agenda llena sin lesionarse.</li>
+    <li><strong>Cerrar siempre con drenaje.</strong> Es lo que se lleva el líquido movilizado y deja la zona desinflamada.</li>
+  </ol>
+  <div class="map" role="img" aria-label="Mapa corporal con la dirección de las maniobras hacia los ganglios: piernas hacia la ingle, brazos hacia la axila, abdomen en sentido horario y hacia la ingle">
+    <svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z"/></marker></defs>
+      <text class="ttl" x="20" y="28">Hacia dónde va cada maniobra</text>
+      <!-- Silueta frontal -->
+      <circle class="sil" cx="200" cy="72" r="26"/>
+      <rect class="sil" x="150" y="104" width="100" height="150" rx="30"/>
+      <rect class="sil" x="112" y="110" width="30" height="130" rx="15"/>
+      <rect class="sil" x="258" y="110" width="30" height="130" rx="15"/>
+      <rect class="sil" x="156" y="256" width="40" height="150" rx="18"/>
+      <rect class="sil" x="204" y="256" width="40" height="150" rx="18"/>
+      <!-- Ganglios -->
+      <circle class="node" cx="180" cy="104" r="5"/><circle class="node" cx="220" cy="104" r="5"/>
+      <circle class="node" cx="150" cy="122" r="5"/><circle class="node" cx="250" cy="122" r="5"/>
+      <circle class="node" cx="176" cy="250" r="5"/><circle class="node" cx="224" cy="250" r="5"/>
+      <circle class="node" cx="176" cy="330" r="4"/><circle class="node" cx="224" cy="330" r="4"/>
+      <!-- Flechas piernas -->
+      <path class="arr" d="M176 395 L176 342"/><path class="arr" d="M224 395 L224 342"/>
+      <path class="arr" d="M176 318 L176 262"/><path class="arr" d="M224 318 L224 262"/>
+      <!-- Brazos -->
+      <path class="arr" d="M127 232 L127 140 L142 128"/><path class="arr" d="M273 232 L273 140 L258 128"/>
+      <!-- Abdomen horario -->
+      <path class="arr" d="M200 168 A26 26 0 1 1 174 194"/>
+      <path class="arr" d="M168 222 L178 240"/><path class="arr" d="M232 222 L222 240"/>
+      <!-- Leyenda -->
+      <circle class="node" cx="360" cy="80" r="6"/><text x="374" y="84">Ganglio: abrir con bombeo suave</text>
+      <path class="arr" d="M350 116 L388 116"/><text x="400" y="120">Dirección de la maniobra</text>
+      <text x="350" y="166">Piernas: tobillo → rodilla → ingle</text>
+      <text x="350" y="192">Brazos: codo → axila</text>
+      <text x="350" y="218">Abdomen: círculo horario</text>
+      <text x="350" y="236">alrededor del ombligo, luego</text>
+      <text x="350" y="254">abdomen bajo → ingle</text>
+      <text x="350" y="280">Flancos: hacia la ingle</text>
+      <text x="350" y="306">Glúteo: de abajo hacia arriba</text>
+      <text x="350" y="324">y hacia afuera (efecto lifting)</text>
+      <text x="350" y="350">Espalda alta: hacia la axila</text>
+    </svg>
+  </div>
+</section>
+
+<section id="movimientos">
+  <span class="eyebrow">06 · Técnica</span>
+  <h2>Los 12 movimientos que más resultado dan</h2>
+  <p>Las fotos de práctica muestran la posición de manos sobre pantorrilla, antebrazo o maniquí. En cabina se aplican igual sobre muslo, glúteo, flancos y abdomen, con la clienta cubierta con toalla.</p>
+
+  <div class="moves">
+    <article class="move">
+      <figure><img src="img/03.jpg" alt="Manos aplicando exfoliante con movimientos circulares sobre la pierna" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Preparación</span>
+        <h3>1. Exfoliación activadora</h3>
+        <p>Prepara la piel, quita células muertas y genera el primer calor. Mejora la absorción de la crema reductora.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Círculos pequeños y rápidos con la palma, siempre ascendentes. Retirar con toalla húmeda tibia.</dd>
+          <dt>Tiempo</dt><dd>1–2 min por zona. Una vez por semana.</dd>
+          <dt>Presión</dt><dd>Media.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/04.jpg" alt="Terapeuta deslizando las palmas abiertas desde el tobillo hacia la rodilla" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Apertura y cierre</span>
+        <h3>2. Rozamiento o deslizamiento (effleurage)</h3>
+        <p>Abre y cierra cada zona. Distribuye el producto, calienta y relaja para que la clienta acepte después las maniobras profundas.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Palmas completas y dedos juntos, deslizar largo hacia el ganglio. Volver por los costados casi sin presión.</dd>
+          <dt>Repeticiones</dt><dd>6–8 pasadas al inicio y al final de cada zona.</dd>
+          <dt>Presión</dt><dd>Suave al principio, media después.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/05.jpg" alt="Amasamiento con las dos manos tomando y apretando el músculo de la pantorrilla" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Reductor · núcleo</span>
+        <h3>3. Amasamiento profundo (pétrissage)</h3>
+        <p>Es la maniobra central. Toma el tejido, lo levanta y lo exprime para movilizar la grasa localizada y activar la circulación profunda.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Las dos manos en "C" toman el tejido, lo elevan y lo aprietan alternando, como amasar pan. Avanzar en franjas hacia el ganglio.</dd>
+          <dt>Ritmo</dt><dd>Rápido y constante, 3–4 franjas por zona.</dd>
+          <dt>Ideal para</dt><dd>Muslo externo e interno, glúteo, flancos, brazo.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/06.jpg" alt="Técnica de palpar-rodar: pliegue de piel tomado con los dedos y empujado con los pulgares" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Celulitis · clave</span>
+        <h3>4. Palpar-rodar (palper-rouler)</h3>
+        <p>La maniobra más efectiva sobre la celulitis. Despega la piel del plano profundo, suelta las fibras que forman los hoyuelos y mejora la textura.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Tomar un pliegue de piel con los dedos, empujarlo con los pulgares y hacerlo "rodar" hacia adelante sin soltarlo, como una ola.</dd>
+          <dt>Repeticiones</dt><dd>3–5 recorridos por franja, en varias direcciones.</dd>
+          <dt>Cuidado</dt><dd>Es la que más molesta. Empezar con pliegue fino e ir aumentando entre sesiones.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/21.jpg" alt="Dedos pellizcando y levantando un pliegue pequeño de piel" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Celulitis · activador</span>
+        <h3>5. Pinzado o pellizco rápido</h3>
+        <p>Estimula la microcirculación y la tonicidad de la piel. Deja la zona roja y caliente.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Pulgar e índice toman un pliegue pequeño, lo elevan y lo sueltan rápido, alternando manos, recorriendo toda la zona.</dd>
+          <dt>Tiempo</dt><dd>30–60 s por zona.</dd>
+          <dt>Ideal para</dt><dd>Flancos ("rollitos"), glúteo, cara externa del muslo.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/07.jpg" alt="Fricción con los nudillos del puño cerrado sobre la pierna" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Reductor · profundo</span>
+        <h3>6. Fricción con nudillos</h3>
+        <p>Trabaja zonas con grasa más dura o fibrosa. Da mucha presión con poco esfuerzo para la terapeuta.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Puño suelto, nudillos planos. Deslizar ascendente o hacer pequeños círculos, cargando el peso del cuerpo.</dd>
+          <dt>Repeticiones</dt><dd>4–6 pasadas por franja.</dd>
+          <dt>Evitar</dt><dd>Zona interna de la rodilla, venas visibles, abdomen.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/08.jpg" alt="Dos manos rodeando la pierna y moviéndose en direcciones opuestas como escurriendo una toalla" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Modelador</span>
+        <h3>7. Torsión o escurrido</h3>
+        <p>Moldea la forma del muslo y del brazo. Empuja el tejido de un lado y lo arrastra del otro.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Las dos manos rodean el segmento y se mueven en sentidos opuestos, como escurriendo una toalla, avanzando hacia arriba.</dd>
+          <dt>Repeticiones</dt><dd>3–4 recorridos completos.</dd>
+          <dt>Ideal para</dt><dd>Muslo completo, brazo, pantorrilla.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/09.jpg" alt="Percusión con el borde de las manos sobre la pierna" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Tonificante</span>
+        <h3>8. Percusión o hacheo (tapotement)</h3>
+        <p>Tonifica, estimula el músculo y la piel y da sensación de firmeza inmediata. Va después del trabajo profundo.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Muñecas sueltas. Golpes rápidos y alternados con el borde de la mano (hacheo) o con la mano ahuecada (palmoteo).</dd>
+          <dt>Tiempo</dt><dd>30–60 s por zona.</dd>
+          <dt>Evitar</dt><dd>Abdomen, riñones, várices, capilares visibles.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/13.jpg" alt="Rodillo de madera con estrías pasado sobre la pierna" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Complemento · maderoterapia</span>
+        <h3>9. Rodillo de madera</h3>
+        <p>Multiplica el efecto del amasado en menos tiempo y descansa las manos. Muy bueno para muslo y glúteo.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Rodar con presión firme hacia el ganglio. Pasadas rectas, luego en zigzag. Siempre con aceite.</dd>
+          <dt>Tiempo</dt><dd>3–4 min por zona.</dd>
+          <dt>Requisito</dt><dd>Formación específica en maderoterapia. Sin golpes sobre hueso.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/14.jpg" alt="Ventosa de silicona transparente colocada sobre la piel, que se eleva dentro de la copa" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Complemento · ventosas</span>
+        <h3>10. Ventosa deslizante</h3>
+        <p>La succión levanta la piel y libera adherencias. Muy útil en celulitis de grado 2 y 3.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Apretar la copa, apoyarla, soltar para que succione y deslizarla hacia el ganglio. No dejarla quieta.</dd>
+          <dt>Tiempo</dt><dd>2–3 min por zona.</dd>
+          <dt>Cuidado</dt><dd>Succión moderada. Si aparece una marca violeta, bajar la succión.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/11.jpg" alt="Instructora mostrando sobre un maniquí la posición de manos superpuestas para el masaje abdominal circular" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Abdomen</span>
+        <h3>11. Círculo abdominal en sentido horario</h3>
+        <p>Sigue el recorrido del intestino grueso. Ayuda a desinflamar y a mejorar el tránsito, dos factores clave en la cintura.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Manos planas superpuestas. Círculos amplios alrededor del ombligo en sentido del reloj visto desde arriba: subir por el lado derecho de la clienta, cruzar bajo las costillas y bajar por su lado izquierdo.</dd>
+          <dt>Repeticiones</dt><dd>10–15 círculos lentos al inicio, rápidos tras el amasado.</dd>
+          <dt>Cuidado</dt><dd>Clienta con rodillas flexionadas para relajar el abdomen. Nunca después de comer.</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="move">
+      <figure><img src="img/10.jpg" alt="Terapeuta apoyando los dedos planos sobre el cuello, sobre la clavícula, con presión muy suave" loading="lazy"></figure>
+      <div class="body">
+        <span class="num">Drenaje</span>
+        <h3>12. Bombeo ganglionar y drenaje final</h3>
+        <p>Abre la sesión y la cierra. Sin este paso, el líquido movilizado se queda en la zona.</p>
+        <dl class="specs">
+          <dt>Cómo</dt><dd>Dedos planos, presión muy suave (como mover la piel, no el músculo). Bombear 8–10 veces en cada ganglio: hueco sobre la clavícula, axila, ingle, detrás de la rodilla.</dd>
+          <dt>Ritmo</dt><dd>Lento: 1 bombeo cada 2 segundos.</dd>
+          <dt>Cierre</dt><dd>Deslizamientos suaves y lentos de toda la zona hacia el ganglio.</dd>
+        </dl>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="zonas">
+  <span class="eyebrow">07 · Protocolo</span>
+  <h2>Protocolo por zonas</h2>
+  <p>Cada zona sigue la misma secuencia: abrir ganglio, rozamiento, amasado, maniobras específicas, tonificación y drenaje de cierre.</p>
+  <div class="two">
+    <div class="zone">
+      <h3>Piernas, cara posterior <span>12 min</span></h3>
+      <ol>
+        <li>Bombeo detrás de la rodilla e ingle.</li>
+        <li>Rozamiento tobillo → glúteo, 6 pasadas.</li>
+        <li>Amasado de pantorrilla y luego de muslo, en franjas.</li>
+        <li>Fricción con nudillos en muslo posterior.</li>
+        <li>Palpar-rodar en zonas con celulitis.</li>
+        <li>Torsión del muslo completo.</li>
+        <li>Hacheo 1 min.</li>
+        <li>Drenaje suave hacia la ingle.</li>
+      </ol>
+    </div>
+    <div class="zone">
+      <h3>Glúteos <span>5 min</span></h3>
+      <ol>
+        <li>Rozamiento en "corazón": desde el pliegue inferior hacia arriba y afuera.</li>
+        <li>Amasado profundo de todo el glúteo.</li>
+        <li>Pinzado en la zona de la "cartuchera" (lateral de cadera).</li>
+        <li>Palpar-rodar en la parte baja.</li>
+        <li>Palmoteo ascendente para efecto lifting.</li>
+        <li>Deslizamiento hacia la ingle por el lateral.</li>
+      </ol>
+    </div>
+    <div class="zone">
+      <h3>Espalda baja y flancos <span>6 min</span></h3>
+      <ol>
+        <li>Rozamiento desde la columna hacia los costados.</li>
+        <li>Amasado de flancos, levantando el "rollito".</li>
+        <li>Pinzado rápido y palpar-rodar en la cintura.</li>
+        <li>Deslizamiento firme de los flancos hacia la ingle.</li>
+      </ol>
+    </div>
+    <div class="zone">
+      <h3>Piernas, cara anterior <span>10 min</span></h3>
+      <ol>
+        <li>Bombeo en ingle.</li>
+        <li>Rozamiento rodilla → ingle.</li>
+        <li>Amasado de muslo externo y de cara interna (más suave).</li>
+        <li>Torsión del muslo.</li>
+        <li>Ventosa o rodillo en cara externa (opcional).</li>
+        <li>Drenaje hacia la ingle. Sobre la rodilla, solo deslizamiento.</li>
+      </ol>
+    </div>
+    <div class="zone">
+      <h3>Abdomen y cintura <span>10 min</span></h3>
+      <ol>
+        <li>Bombeo en ingles, 10 veces.</li>
+        <li>Círculos horarios lentos alrededor del ombligo.</li>
+        <li>Amasado de abdomen y flancos, tomando el tejido desde los costados hacia el centro.</li>
+        <li>Palpar-rodar en abdomen bajo y flancos.</li>
+        <li>"Modelado de cintura": las dos manos tiran desde la espalda hacia el ombligo, alternando, 20 veces por lado.</li>
+        <li>Círculos horarios rápidos.</li>
+        <li>Drenaje del abdomen bajo hacia las ingles.</li>
+      </ol>
+    </div>
+    <div class="zone">
+      <h3>Brazos <span>6 min</span></h3>
+      <figure><img src="img/12.jpg" alt="Amasado ascendente del brazo desde el codo hacia la axila" loading="lazy"></figure>
+      <ol>
+        <li>Bombeo en axila.</li>
+        <li>Rozamiento codo → axila.</li>
+        <li>Amasado y torsión de la cara posterior del brazo.</li>
+        <li>Pinzado suave.</li>
+        <li>Drenaje hacia la axila.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="sesion">
+  <span class="eyebrow">08 · Sesión de 60 minutos</span>
+  <h2>Sesión minuto a minuto</h2>
+  <p>Orden pensado para que la clienta cambie de posición una sola vez: boca abajo primero, boca arriba después.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Minuto</th><th>Paso</th><th>Detalle</th></tr></thead>
+      <tbody>
+        <tr><td class="t">00–05</td><td>Recepción</td><td>Preguntar cómo estuvo la semana, agua y actividad. Medir en las sesiones 1, 5 y 10.</td></tr>
+        <tr><td class="t">05–08</td><td>Apertura ganglionar</td><td>Clienta boca arriba: bombeo en clavículas, axilas e ingles.</td></tr>
+        <tr><td class="t">08–10</td><td>Exfoliación</td><td>Solo una vez por semana. Las otras sesiones, rozamiento con calor.</td></tr>
+        <tr><td class="t">10–22</td><td>Piernas posteriores</td><td>Clienta boca abajo. Protocolo completo.</td></tr>
+        <tr><td class="t">22–27</td><td>Glúteos</td><td>Amasado, pinzado, palmoteo lifting.</td></tr>
+        <tr><td class="t">27–33</td><td>Espalda baja y flancos</td><td>Modelado de cintura desde atrás.</td></tr>
+        <tr><td class="t">33–43</td><td>Piernas anteriores</td><td>Clienta boca arriba, almohada bajo las rodillas.</td></tr>
+        <tr><td class="t">43–53</td><td>Abdomen y cintura</td><td>Rodillas flexionadas.</td></tr>
+        <tr><td class="t">53–57</td><td>Drenaje final</td><td>Deslizamientos lentos de todo el cuerpo hacia los ganglios.</td></tr>
+        <tr><td class="t">57–60</td><td>Cierre</td><td>Vaso de agua, explicar tarea de la semana, agendar siguiente sesión.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Brazos se agregan en una sesión de 75 minutos o se alternan con glúteos.</p>
+</section>
+
+<section id="plan">
+  <span class="eyebrow">09 · Tratamiento</span>
+  <h2>Plan de tratamiento</h2>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Etapa</th><th>Sesiones</th><th>Frecuencia</th><th>Enfoque</th></tr></thead>
+      <tbody>
+        <tr><td>Ataque</td><td class="t">1–4</td><td>3 por semana</td><td>Más drenaje, intensidad media. El cuerpo se adapta y se desinflama.</td></tr>
+        <tr><td>Intensivo</td><td class="t">5–8</td><td>2–3 por semana</td><td>Máxima intensidad: palpar-rodar, nudillos, rodillo, ventosa.</td></tr>
+        <tr><td>Modelado</td><td class="t">9–10</td><td>2 por semana</td><td>Torsión, tonificación y drenaje. Medición final y fotos.</td></tr>
+        <tr><td>Mantenimiento</td><td class="t">—</td><td>1 cada 15 días</td><td>Sostener el resultado mientras la clienta mantiene sus hábitos.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li>Dejar al menos 48 horas entre sesiones de la misma zona.</li>
+    <li>Un paquete típico es de 10 sesiones. Con celulitis grado 3 o mucha grasa localizada, 12–15.</li>
+    <li>Combinaciones que potencian: presoterapia el mismo día al final, o radiofrecuencia en días alternos para firmeza.</li>
+  </ul>
+</section>
+
+<section id="casa">
+  <span class="eyebrow">10 · Para entregar a la clienta</span>
+  <h2>Cuidados en casa después de la sesión</h2>
+  <p>Esta parte se entrega por escrito o por WhatsApp después de la primera sesión. Lo que la clienta hace en su casa decide si el resultado es bueno o increíble.</p>
+
+  <h3>Las primeras 24 horas</h3>
+  <ul>
+    <li>Tomar 2 vasos de agua apenas sale de la sesión.</li>
+    <li>Caminar 20–30 minutos ese mismo día. El movimiento empuja el líquido que se movilizó.</li>
+    <li>Evitar sal, embutidos, ultraprocesados, gaseosas y alcohol por 24 horas: retienen líquido y anulan el drenaje.</li>
+    <li>Cena liviana: proteína y verduras.</li>
+    <li>Es normal orinar más de lo habitual y sentir la zona caliente o sensible.</li>
+  </ul>
+
+  <h3>Rutina diaria durante el tratamiento</h3>
+  <div class="home-grid">
+    <div>
+      <figure><img src="img/15.jpg" alt="Mujer cepillando en seco su pierna desde el tobillo hacia la rodilla" loading="lazy"></figure>
+      <h3>Cepillado en seco · mañana</h3>
+      <p>5 minutos antes de bañarse, con cepillo de cerdas naturales. Siempre desde los pies hacia arriba y desde las manos hacia la axila. Abdomen en círculos horarios.</p>
+    </div>
+    <div>
+      <figure><img src="img/19.jpg" alt="Mujer aplicándose crema en el muslo con movimientos ascendentes" loading="lazy"></figure>
+      <h3>Automasaje con crema · noche</h3>
+      <p>10 minutos con crema reductora: amasar muslos y cintura con movimientos hacia arriba y pellizcos suaves en flancos. Terminar con deslizamientos hacia la ingle.</p>
+    </div>
+    <div>
+      <figure><img src="img/16.jpg" alt="Mujer caminando a paso rápido en un parque con una botella de agua" loading="lazy"></figure>
+      <h3>Agua y caminata</h3>
+      <p>Unos 30–35 ml de agua por kilo de peso al día (una mujer de 65 kg, unos 2 litros). Caminata rápida de 30 minutos al menos 5 días por semana.</p>
+    </div>
+    <div>
+      <figure><img src="img/17.jpg" alt="Mujer acostada en una colchoneta con las piernas apoyadas en la pared" loading="lazy"></figure>
+      <h3>Piernas en alto</h3>
+      <p>10 minutos al día con las piernas apoyadas en la pared. Moviendo los tobillos en círculos ayuda todavía más. Ideal al llegar del trabajo.</p>
+    </div>
+    <div>
+      <figure><img src="img/18.jpg" alt="Mujer haciendo puente de glúteos en una colchoneta" loading="lazy"></figure>
+      <h3>Ejercicio de fuerza</h3>
+      <p>3 veces por semana, 15 minutos: puente de glúteos, sentadillas, zancadas y plancha, 3 series de 12–15. El músculo da la forma que el masaje modela.</p>
+    </div>
+    <div class="note">
+      <h3>Más hábitos que suman</h3>
+      <ul>
+        <li>Al final de la ducha, 30–60 segundos de agua fría en las piernas, de abajo hacia arriba.</li>
+        <li>Proteína en cada comida y verduras en la mitad del plato.</li>
+        <li>Reducir azúcar y harinas blancas.</li>
+        <li>Dormir 7–8 horas.</li>
+        <li>Evitar ropa muy ajustada en ingle y rodilla, que corta el retorno.</li>
+        <li>Faja solo si la terapeuta lo indica y nunca para dormir.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Checklist diario de la clienta</h3>
+  <div class="check" id="checklist">
+    <span class="progress" id="progress">0 de 7 hechos hoy</span>
+    <label><input type="checkbox" id="c1"><span>Cepillado en seco (5 min)</span></label>
+    <label><input type="checkbox" id="c2"><span>Agua: mi meta de litros del día</span></label>
+    <label><input type="checkbox" id="c3"><span>Caminata de 30 min</span></label>
+    <label><input type="checkbox" id="c4"><span>Comidas sin ultraprocesados ni exceso de sal</span></label>
+    <label><input type="checkbox" id="c5"><span>Piernas en alto (10 min)</span></label>
+    <label><input type="checkbox" id="c6"><span>Automasaje con crema (10 min)</span></label>
+    <label><input type="checkbox" id="c7"><span>Dormir 7–8 horas</span></label>
+  </div>
+</section>
+
+<section id="resultados">
+  <span class="eyebrow">11 · Expectativas</span>
+  <h2>Resultados reales y cómo mostrarlos</h2>
+  <ul>
+    <li><strong>Sesiones 1–3:</strong> la clienta se siente menos hinchada y más liviana. Primeros centímetros, sobre todo por líquido.</li>
+    <li><strong>Sesiones 4–7:</strong> la piel se ve más lisa y el contorno de cintura y muslo empieza a cambiar en las fotos.</li>
+    <li><strong>Sesiones 8–10:</strong> cambio visible en fotos comparativas y en cómo le queda la ropa, cuando cumplió con la rutina de casa.</li>
+  </ul>
+  <div class="note">
+    <h3>Para mostrar el resultado</h3>
+    <p>Comparar fotos de la sesión 1 y la 10 con la misma luz, distancia y ropa, y la tabla de medidas. Pedir autorización por escrito antes de publicar cualquier foto.</p>
+  </div>
+</section>
+
+<footer>
+  <p>Material de formación para profesionales de la estética corporal. No reemplaza una consulta médica: ante dudas sobre la salud de la clienta, derivar al médico antes de comenzar.</p>
+</footer>
+</main>
+</div>
+
+<script>
+(function(){
+  var KEY='mmr-checklist-'+new Date().toISOString().slice(0,10);
+  var boxes=[].slice.call(document.querySelectorAll('#checklist input'));
+  var out=document.getElementById('progress');
+  var saved={};
+  try{saved=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+  function update(){
+    var n=boxes.filter(function(b){return b.checked}).length;
+    out.textContent=n+' de '+boxes.length+' hechos hoy';
+  }
+  boxes.forEach(function(b){
+    if(saved[b.id]) b.checked=true;
+    b.addEventListener('change',function(){
+      saved[b.id]=b.checked;
+      try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}
+      update();
+    });
+  });
+  update();
+})();
+</script>
