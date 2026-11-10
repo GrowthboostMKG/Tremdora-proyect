@@ -177,13 +177,13 @@ def word_img(text, color, size):
     im = Image.new('RGBA', (tw + 2 * pad, th + 2 * pad), (0, 0, 0, 0))
     sh = Image.new('L', im.size, 0)
     ImageDraw.Draw(sh).text((pad - bb[0], pad - bb[1] + 4), text, font=f, fill=255)
-    soft = sh.filter(ImageFilter.GaussianBlur(11)).point(lambda v: int(v * 0.75))
-    tight = sh.filter(ImageFilter.GaussianBlur(2.5)).point(lambda v: int(v * 0.55))
+    soft = sh.filter(ImageFilter.GaussianBlur(12)).point(lambda v: min(255, int(v * 0.9)))
+    tight = sh.filter(ImageFilter.GaussianBlur(3)).point(lambda v: min(255, int(v * 0.8)))
     shadow = Image.new('RGBA', im.size, (0, 0, 0, 0))
     a = np.maximum(np.asarray(soft), np.asarray(tight))
     shadow.putalpha(Image.fromarray(a))
     im = Image.alpha_composite(im, shadow)
-    ImageDraw.Draw(im).text((pad - bb[0], pad - bb[1]), text, font=f, fill=color + (255,))
+    ImageDraw.Draw(im).text((pad - bb[0], pad - bb[1]), text, font=f, fill=color + (255,), stroke_width=3, stroke_fill=(20, 14, 10, 150))
     word_cache[key] = (im, pad, tw, th, f.getlength(' '))
     return word_cache[key]
 
@@ -195,14 +195,14 @@ def layout_chunk(c, size):
         col = LIME if clean(w['w']).lower() in {h.lower() for h in HL} else WHITE
         im, pad, tw, th, _ = word_img(txt, col, size)
         add = tw + (sp if line else 0)
-        if line and lw + add > 900:
+        if line and lw + add > 820:
             lines.append((line, lw)); line, lw = [], 0; add = tw
         line.append((txt, w, col, tw)); lw += add
     if line: lines.append((line, lw))
     return lines, sp
 
 SUB_Y = {}
-DEFAULT_Y = 1270
+DEFAULT_Y = 1365
 def sub_y(t):
     for i, s in enumerate(SEGS):
         if s[0] <= t < s[1]: return SUB_Y.get(i, DEFAULT_Y)
