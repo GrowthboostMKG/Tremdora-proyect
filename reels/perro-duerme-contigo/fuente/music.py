@@ -84,18 +84,17 @@ for b, ch in enumerate(prog):
     root = notes[0]
     sec = t0
     # intensity curve: soft intro, lift at ~28s (Japón), fuller from 46s, peak 57-65s, resolve
-    inten = np.interp(sec, [0, 12, 28, 46, 57, 64, 68, 72], [0.45, 0.55, 0.7, 0.85, 1.0, 1.0, 0.7, 0.5])
+    inten = np.interp(sec, [0, 12, 28, 46, 57, 64, 68, 72], [0.75, 0.75, 0.8, 0.88, 1.0, 1.0, 0.75, 0.5])
     # pad
-    add(pad([n - 12 for n in notes] + notes, BAR + 1.6, gain=0.10 * inten, bright=0.6 + 0.4 * inten), t0, 0)
+    add(pad([n - 12 for n in notes] + notes, BAR + 1.6, gain=0.10 * inten, a=(0.05 if b == 0 else 1.6), bright=0.6 + 0.4 * inten), t0, 0)
     # piano: broken chord, sparse at first then flowing eighths
-    pattern = [0, 2, 1, 2] if sec < 12 else [0, 2, 1, 3, 2, 1, 3, 2]
+    pattern = [0, 2, 1, 3, 2, 1, 3, 2]
     step = BAR / len(pattern)
     arp = [root - 12, notes[1], notes[2], notes[-1] + 12 if len(notes) > 3 else notes[0] + 12]
     for k, idx in enumerate(pattern):
-        if sec < 3 and k > 0: continue
         m = arp[idx]
         jitter = rng.normal(0, 0.008)
-        vel = (0.55 if k == 0 else 0.32) * (0.8 + 0.4 * inten) * rng.uniform(0.9, 1.05)
+        vel = (0.65 if (k == 0 and b == 0) else 0.55 if k == 0 else 0.32) * (0.8 + 0.4 * inten) * rng.uniform(0.9, 1.05)
         add(piano(m, step * 1.6, vel), t0 + k * step + jitter, pan=(-0.25 if m < 60 else 0.25))
     # simple top melody note on beat 1 & 3 from ~28s
     if sec >= 27:
@@ -140,7 +139,7 @@ outL = L * 0.75 + wetL * 0.45
 outR = R * 0.75 + wetR * 0.45
 # fade in/out
 fade = np.ones(N)
-fi = int(1.2 * SR); fade[:fi] = np.linspace(0, 1, fi) ** 2
+fi = int(0.03 * SR); fade[:fi] = np.linspace(0, 1, fi) ** 2
 fo_start = int(69.8 * SR); fade[fo_start:] = np.linspace(1, 0, N - fo_start) ** 1.5
 outL *= fade; outR *= fade
 peak = max(np.abs(outL).max(), np.abs(outR).max())
