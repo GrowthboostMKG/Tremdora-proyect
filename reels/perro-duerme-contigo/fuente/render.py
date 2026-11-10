@@ -5,7 +5,8 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 UP = '/root/.claude/uploads/89643bfb-0721-519a-968f-c88117646256/'
 W, H, FPS = 1080, 1920, 30
 PREVIEW = len(sys.argv) > 1 and sys.argv[1] == 'preview'   # renders stills only
-TOTAL = 71.2
+from tmap import tmap
+TOTAL = None  # set after SEGS
 
 CLIPS = {  # file, crop (w,h,x,y) to remove bars/edges, extra filters
     'A': (UP + '363bf58c-ScreenRecording_11-10-2026_17-52-55_1.mov', (1194, 1490, 6, 0), 'hqdn3d=2:2:3:3,'),
@@ -42,7 +43,9 @@ SEGS = [
 TRANS = [('zoom', .35), ('dissolve', .45), ('cut', 0), ('cut', 0), ('dissolve', .4), ('whip', .3),
          ('cut', 0), ('focus', .4), ('whip', .3), ('cut', 0), ('cut', 0), ('zoom', .35), ('dissolve', .5),
          ('endcard', .7)]
+SEGS = [(round(tmap(a), 3), round(tmap(b), 3)) + tuple(r) for (a, b, *r) in SEGS]
 END_START = SEGS[-1][1]
+TOTAL = END_START + 1.9
 
 def ease(x):
     x = min(max(x, 0.0), 1.0)
@@ -63,6 +66,8 @@ class Source:
         f, (cw, ch, cx, cy), extra = CLIPS[clip]
         src0, src1 = SEGS[i][3], SEGS[i][4]
         dur = self.re - self.rs
+        if (src1 - src0) / dur > 1.0:      # compacted timeline: never fast-forward, trim the source instead
+            src1 = src0 + dur
         self.speed = (src1 - src0) / dur
         self.w, self.h = cw, ch
         vf = (f"crop={cw}:{ch}:{cx}:{cy},{extra}"
@@ -134,12 +139,12 @@ WHITE = (255, 255, 255)
 HL = {'calor', 'cerebro', 'igual', 'Emory', 'escáner', 'dueño', 'recompensa', 'premio', 'loco', 'Japón', 'oxitocina',
       'apego', 'bebé', 'profundo', 'ancestros', 'manada', 'vulnerable', 'comodidad', 'hogar', 'comentarios', 'espalda', 'olor'}
 
-words = json.load(open('words.json'))
+words = json.load(open('words_short.json'))
 fixed = []
 k = 0
 while k < len(words):
     w = dict(words[k]); w['w'] = w['w'].strip()
-    if w['w'] == 'universidad' and words[k + 1]['w'].strip() == 'de' and words[k + 2]['w'].strip().startswith('Mori'):
+    if w['w'] == 'universidad' and words[k + 1]['w'].strip() == 'de' and words[k + 2]['w'].strip().rstrip(',').endswith(('Mori', 'Emory')):
         fixed.append(dict(w='Universidad', s=w['s'], e=w['e']))
         fixed.append(dict(w='Emory,', s=words[k + 1]['s'], e=words[k + 2]['e'])); k += 3; continue
     if w['w'] == 'le' and words[k + 1]['w'].strip() == 'sube':
@@ -241,8 +246,8 @@ def draw_subs(frame, t):
     return frame
 
 # study chips (brand colours)
-CHIPS = [(12.95, 17.15, 'ESTUDIO', 'Universidad Emory · EE. UU.'),
-         (29.05, 36.6, 'ESTUDIO', 'Japón · revista Science, 2015')]
+CHIPS = [(tmap(12.95), tmap(17.15), 'ESTUDIO', 'Universidad Emory · EE. UU.'),
+         (tmap(29.05), tmap(36.6), 'ESTUDIO', 'Japón · revista Science, 2015')]
 def chip_img(tag, text):
     f1 = ImageFont.truetype(FB, 30); f2 = ImageFont.truetype(FSB, 34)
     w1 = f1.getlength(tag); w2 = f2.getlength(text)
