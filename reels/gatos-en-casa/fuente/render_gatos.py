@@ -34,11 +34,11 @@ SEGS = [
     (32.60, 36.20, 'T', 3.00, 5.70, 1.22, 1.30, (0.48, 0.30), (0.46, 0.30)),# lealtad (punch-in)
     (36.20, 41.75, 'R', 3.00, 8.50, 1.00, 1.06, (0.50, 0.36), (0.50, 0.34)),# ¿quién dice que son fríos?
     (41.75, 46.85, 'Y', 0.0, 1.70, 1.02, 1.12, (0.52, 0.40), (0.56, 0.34)), # privilegio / afortunado
-    (46.85, 52.54, 'U', 0.0, 2.10, 1.16, 1.00, (0.50, 0.36), (0.50, 0.44)), # CTA: bookend, slow pull-out
 ]
 TRANS = [('zoom', .40), ('dissolve', .50), ('slide', .45), ('dissolve', .40), ('focus', .45), ('dissolve', .35),
-         ('slide', .40), ('cut', 0), ('zoom', .35), ('dissolve', .55), ('dissolve', .50), ('end', 0)]
-FADE_OUT = 0.6
+         ('slide', .40), ('cut', 0), ('zoom', .35), ('dissolve', .55), ('endcard', .60)]
+FADE_OUT = 0.3
+END_START = 46.85   # Tremdora logo card carries the CTA
 
 def ease(x):
     x = min(max(x, 0.0), 1.0); return x * x * (3 - 2 * x)
@@ -148,8 +148,9 @@ def wrap(text, maxw=840):
     return lines
 
 sub_cache = {}
-def sub_img(text):
-    if text in sub_cache: return sub_cache[text]
+BROWN = (92, 56, 38)
+def sub_img(text, brand=False):
+    if (text, brand) in sub_cache: return sub_cache[(text, brand)]
     lines = wrap(text); lh = 80; pad = 40
     widths = [FONT.getlength(l) for l in lines]
     im = Image.new('RGBA', (int(max(widths)) + 2 * pad, lh * len(lines) + 2 * pad), (0, 0, 0, 0))
@@ -159,12 +160,12 @@ def sub_img(text):
     soft = mask.filter(ImageFilter.GaussianBlur(11)).point(lambda v: min(255, int(v * 0.75)))
     near = mask.filter(ImageFilter.GaussianBlur(2.2)).point(lambda v: min(255, int(v * 0.62)))
     sh = Image.new('RGBA', im.size, (10, 8, 6, 0)); sh.putalpha(Image.fromarray(np.maximum(np.asarray(soft), np.asarray(near))))
-    im = Image.alpha_composite(im, sh)
+    if not brand: im = Image.alpha_composite(im, sh)
     d2 = ImageDraw.Draw(im)
     for i, l in enumerate(lines):
-        d2.text((im.width / 2, pad + i * lh + lh / 2), l, font=FONT, fill=IVORY + (255,), anchor='mm',
-                stroke_width=1, stroke_fill=(30, 24, 18, 110))
-    sub_cache[text] = im
+        d2.text((im.width / 2, pad + i * lh + lh / 2), l, font=FONT, fill=(BROWN if brand else IVORY) + (255,), anchor='mm',
+                stroke_width=0 if brand else 1, stroke_fill=(30, 24, 18, 110))
+    sub_cache[(text, brand)] = im
     return im
 
 SUB_Y = {}
@@ -178,7 +179,7 @@ def draw_subs(frame, t):
     for b in blocks:
         if b['s'] <= t < b['e']:
             a = min(1, (t - b['s']) / 0.18, (b['e'] - t) / 0.15)
-            im = sub_img(b['text'])
+            im = sub_img(b['text'], brand=b['words'][0]['s'] >= END_START)
             if a < 1:
                 im = im.copy(); im.putalpha(im.getchannel('A').point(lambda v: int(v * a)))
             y = SUB_Y.get(seg_index(b['words'][0]['s']), DEFAULT_Y)
@@ -190,7 +191,36 @@ for s in sources: print(f"seg {s.i} {SEGS[s.i][2]} speed {s.speed:.2f}", file=sy
 
 def grade(img): return np.asarray(img).astype(np.float32) * VIGNETTE
 
+LOGO = Image.open(UP + 'd63984a0-image.jpg').convert('RGB')
+PAPER = (241, 232, 224)
+def _endcard():
+    bw, bh = int(W * 1.06), int(H * 1.06)
+    bg = Image.new('RGB', (bw, bh), PAPER)
+    lw = int(900 * 1.06); lh = int(LOGO.height * lw / LOGO.width)
+    lg = LOGO.resize((lw, lh), Image.LANCZOS)
+    m = Image.new('L', (lw, lh), 0)
+    ImageDraw.Draw(m).rounded_rectangle((50, 50, lw - 50, lh - 50), 70, fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(40))
+    bg.paste(lg, ((bw - lw) // 2, int(760 * 1.06) - lh // 2), m)
+    a = np.asarray(bg).astype(np.float32)
+    a += np.random.default_rng(3).normal(0, 2.0, a.shape[:2])[..., None]
+    return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+ENDCARD = _endcard()
+def endcard(t):
+    u = ease_io((t - END_START) / (TOTAL - END_START))
+    z = 1.0 + 0.05 * u                       # very slow push-in
+    sc = z / 1.06; hw, hh = W / 2 / sc, H / 2 / sc
+    cx, cy = ENDCARD.width / 2, ENDCARD.height / 2
+    return np.asarray(ENDCARD.transform((W, H), Image.AFFINE, (1 / sc, 0, cx - hw, 0, 1 / sc, cy - hh),
+                                        resample=Image.BICUBIC)).astype(np.float32)
+
 def frame_at(t):
+    d = TRANS[-1][1]
+    if t >= END_START - d / 2:
+        if t < END_START + d / 2:
+            e = ease((t - (END_START - d / 2)) / d)
+            return grade(sources[-1].render(t)) * (1 - e) + endcard(t) * e
+        return endcard(t)
     for k in range(len(SEGS) - 1):
         typ, d = TRANS[k]; b = SEGS[k][1]
         if d and b - d / 2 <= t < b + d / 2:
@@ -217,7 +247,6 @@ def frame_at(t):
                 return mix * VIGNETTE
     i = next((j for j, s in enumerate(sources) if s.rs <= t < s.re), len(sources) - 1)
     out = grade(sources[i].render(t))
-    if t > TOTAL - FADE_OUT: out *= max(0.0, (TOTAL - t) / FADE_OUT)
     return out
 
 def compose(t):
