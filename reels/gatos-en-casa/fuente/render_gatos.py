@@ -137,7 +137,7 @@ for k, b in enumerate(blocks):
     b_end = min(nxt - 0.12, b[-1]['e'] + 0.6, TOTAL - FADE_OUT)
     blocks[k] = dict(words=b, s=b_start, e=b_end, text=BLOCK_TEXT[k])
 
-def wrap(text, maxw=900):
+def wrap(text, maxw=840):
     ws = text.split(); lines = ['']
     for w_ in ws:
         t = (lines[-1] + ' ' + w_).strip()
@@ -167,8 +167,8 @@ def sub_img(text):
     sub_cache[text] = im
     return im
 
-SUB_Y = {0: 360, 1: 290, 4: 470, 5: 400, 6: 1150, 9: 1180, 10: 290, 11: 360}
-DEFAULT_Y = 590       # ~30 % of the height
+SUB_Y = {}
+DEFAULT_Y = 1360      # lower third, above Instagram caption/buttons
 def seg_index(t):
     for i, s in enumerate(SEGS):
         if s[0] <= t < s[1]: return i
