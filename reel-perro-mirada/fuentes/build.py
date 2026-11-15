@@ -23,7 +23,7 @@ shots = [
     # 2 INTRIGA — mirada tierna
     dict(id='8790d5c2', t0=4.90, ss=0.0, z=(1.02, 1.08), cy=0.45, xf=0.25),
     # 3 VÍNCULO SOCIAL — familia comiendo con su perro
-    dict(id='e0eb5caa', t0=9.42, ss=0.0, z=(1.00, 1.06), cy=0.70, cx=0.47, crop='1182:1784:12:0'),
+    dict(id='01930e66', t0=9.42, ss=0.0, z=(1.00, 1.06), cy=0.70, cx=0.47, crop='1182:1530:12:0'),
     # 4 CONTACTO VISUAL
     dict(id='7af4583f', t0=16.08, ss=0.0, z=(1.00, 1.05), cy=0.45, xf=0.2),
     # 5 OXITOCINA — caricia / beso
