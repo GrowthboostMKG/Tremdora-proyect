@@ -7,60 +7,60 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Poppins Medium,74,&H00EFF5F8,&H00EFF5F8,&HA0000000,&H96000000,0,0,0,0,100,100,0.5,0,1,2.2,2.5,2,80,80,430,1
+Style: Sub,Montserrat SemiBold,72,&H00EFF5F8,&H00EFF5F8,&H8C1A120C,&H78000000,0,0,0,0,100,100,1.2,0,1,2.6,3,2,80,80,430,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.94,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}¿Sabías que cuando
-Dialogue: 0,0:00:00.94,0:00:01.77,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}tu perro te {\1c&H0096BED8&}mira{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:01.77,0:00:02.82,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}mientras comes,
-Dialogue: 0,0:00:02.82,0:00:03.86,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}no siempre te está
-Dialogue: 0,0:00:03.86,0:00:04.99,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}pidiendo {\1c&H0096BED8&}comida{\1c&H00EFF5F8&}?
-Dialogue: 0,0:00:04.99,0:00:06.05,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}A veces,
-Dialogue: 0,0:00:06.05,0:00:07.44,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}detrás de esa {\1c&H0096BED8&}mirada{\1c&H00EFF5F8&},
-Dialogue: 0,0:00:07.44,0:00:08.46,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}hay algo mucho
-Dialogue: 0,0:00:08.46,0:00:09.48,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}más {\1c&H0096BED8&}bonito{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:09.48,0:00:10.35,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Los perros son
-Dialogue: 0,0:00:10.35,0:00:11.33,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}animales sociales
-Dialogue: 0,0:00:11.33,0:00:12.34,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}y comer cerca
-Dialogue: 0,0:00:12.34,0:00:13.30,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}de quienes consideran
-Dialogue: 0,0:00:13.30,0:00:13.97,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}su {\1c&H0096BED8&}familia{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:13.97,0:00:15.03,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}puede ser parte
-Dialogue: 0,0:00:15.03,0:00:16.15,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}de su {\1c&H0096BED8&}vínculo{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:16.15,0:00:17.10,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Además,
-Dialogue: 0,0:00:17.18,0:00:18.03,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}estudios han relacionado
-Dialogue: 0,0:00:18.03,0:00:18.94,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}el {\1c&H0096BED8&}contacto visual{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:18.94,0:00:19.79,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}afectuoso
-Dialogue: 0,0:00:19.79,0:00:21.36,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}entre perros y humanos
-Dialogue: 0,0:00:21.36,0:00:22.49,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}con la {\1c&H0096BED8&}oxitocina{\1c&H00EFF5F8&},
-Dialogue: 0,0:00:22.49,0:00:23.32,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}conocida como
-Dialogue: 0,0:00:23.32,0:00:24.91,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}la hormona del vínculo.
-Dialogue: 0,0:00:24.91,0:00:25.92,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Pero {\1c&H0096BED8&}¡ojo!{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:25.92,0:00:26.98,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}también puede estar
-Dialogue: 0,0:00:26.98,0:00:28.12,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}pidiendo {\1c&H0096BED8&}comida{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:28.12,0:00:28.83,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Si alguna vez
-Dialogue: 0,0:00:28.83,0:00:29.85,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}le diste un {\1c&H0096BED8&}trocito{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:29.85,0:00:30.82,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}desde la mesa,
-Dialogue: 0,0:00:30.82,0:00:31.33,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}pudo aprender
-Dialogue: 0,0:00:31.33,0:00:32.82,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}que mirarte {\1c&H0096BED8&}funciona{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:32.82,0:00:34.09,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}¿Y cómo evitarlo?
-Dialogue: 0,0:00:34.09,0:00:34.79,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Especialmente
-Dialogue: 0,0:00:34.79,0:00:36.52,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}cuando tienes {\1c&H0096BED8&}visitas{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:36.52,0:00:37.48,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Enséñale a quedarse
-Dialogue: 0,0:00:37.48,0:00:38.54,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}en su {\1c&H0096BED8&}camita{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:38.54,0:00:39.17,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}{\1c&H0096BED8&}Premia{\1c&H00EFF5F8&} cuando
-Dialogue: 0,0:00:39.17,0:00:40.04,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}esté {\1c&H0096BED8&}tranquilo{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:40.04,0:00:41.51,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}y evita darle comida
-Dialogue: 0,0:00:41.51,0:00:42.56,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}desde la mesa.
-Dialogue: 0,0:00:42.56,0:00:43.61,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Practícalo antes
-Dialogue: 0,0:00:43.61,0:00:45.18,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}de recibir {\1c&H0096BED8&}invitados{\1c&H00EFF5F8&},
-Dialogue: 0,0:00:45.18,0:00:45.86,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}porque comprender
-Dialogue: 0,0:00:45.86,0:00:46.38,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}su {\1c&H0096BED8&}mirada{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:46.38,0:00:47.53,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}es importante.
-Dialogue: 0,0:00:47.53,0:00:48.16,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}Pero enseñarle
-Dialogue: 0,0:00:48.16,0:00:48.92,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}con {\1c&H0096BED8&}cariño{\1c&H00EFF5F8&}
-Dialogue: 0,0:00:48.92,0:00:50.19,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}también es una forma
-Dialogue: 0,0:00:50.19,0:00:50.90,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}de {\1c&H0096BED8&}amarlo{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:50.90,0:00:51.88,Sub,,0,0,0,,{\an2\pos(540,1268)\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}¿El tuyo también
-Dialogue: 0,0:00:51.88,0:00:52.94,Sub,,0,0,0,,{\an2\pos(540,1268)\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}te {\1c&H0096BED8&}mira así{\1c&H00EFF5F8&}?
-Dialogue: 0,0:00:52.94,0:00:53.99,Sub,,0,0,0,,{\an2\pos(540,1268)\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}{\1c&H0096BED8&}¡Te leo!{\1c&H00EFF5F8&}
+Dialogue: 0,0:00:00.00,0:00:00.94,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}¿Sabías {\1c&H00EFF5F8&\alpha&HFF&\t(653,773,\alpha&H00&)}que {\1c&H00EFF5F8&\alpha&HFF&\t(800,920,\alpha&H00&)}cuando
+Dialogue: 0,0:00:00.94,0:00:01.77,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}tu {\1c&H00EFF5F8&\alpha&HFF&\t(318,438,\alpha&H00&)}perro {\1c&H00EFF5F8&\alpha&HFF&\t(541,661,\alpha&H00&)}te {\1c&H0096BED8&\alpha&HFF&\t(745,865,\alpha&H00&)}mira
+Dialogue: 0,0:00:01.77,0:00:02.82,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}mientras {\1c&H00EFF5F8&\alpha&HFF&\t(505,625,\alpha&H00&)}comes,
+Dialogue: 0,0:00:02.82,0:00:03.86,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}no {\1c&H00EFF5F8&\alpha&HFF&\t(263,383,\alpha&H00&)}siempre {\1c&H00EFF5F8&\alpha&HFF&\t(633,753,\alpha&H00&)}te {\1c&H00EFF5F8&\alpha&HFF&\t(929,1049,\alpha&H00&)}está
+Dialogue: 0,0:00:03.86,0:00:04.99,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}pidiendo {\1c&H0096BED8&\alpha&HFF&\t(541,661,\alpha&H00&)}comida?
+Dialogue: 0,0:00:04.99,0:00:06.05,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}A {\1c&H00EFF5F8&\alpha&HFF&\t(301,421,\alpha&H00&)}veces,
+Dialogue: 0,0:00:06.05,0:00:07.44,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}detrás {\1c&H00EFF5F8&\alpha&HFF&\t(336,456,\alpha&H00&)}de {\1c&H00EFF5F8&\alpha&HFF&\t(522,642,\alpha&H00&)}esa {\1c&H0096BED8&\alpha&HFF&\t(689,809,\alpha&H00&)}mirada,
+Dialogue: 0,0:00:07.44,0:00:08.46,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}hay {\1c&H00EFF5F8&\alpha&HFF&\t(282,402,\alpha&H00&)}algo {\1c&H00EFF5F8&\alpha&HFF&\t(689,809,\alpha&H00&)}mucho
+Dialogue: 0,0:00:08.46,0:00:09.48,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}más {\1c&H0096BED8&\alpha&HFF&\t(431,551,\alpha&H00&)}bonito.
+Dialogue: 0,0:00:09.48,0:00:10.35,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}Los {\1c&H00EFF5F8&\alpha&HFF&\t(393,513,\alpha&H00&)}perros {\1c&H00EFF5F8&\alpha&HFF&\t(671,791,\alpha&H00&)}son
+Dialogue: 0,0:00:10.35,0:00:11.33,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}animales {\1c&H00EFF5F8&\alpha&HFF&\t(503,623,\alpha&H00&)}sociales
+Dialogue: 0,0:00:11.33,0:00:12.34,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}y {\1c&H00EFF5F8&\alpha&HFF&\t(345,465,\alpha&H00&)}comer {\1c&H00EFF5F8&\alpha&HFF&\t(660,780,\alpha&H00&)}cerca
+Dialogue: 0,0:00:12.34,0:00:13.30,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}de {\1c&H00EFF5F8&\alpha&HFF&\t(282,402,\alpha&H00&)}quienes {\1c&H00EFF5F8&\alpha&HFF&\t(486,606,\alpha&H00&)}consideran
+Dialogue: 0,0:00:13.30,0:00:13.97,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}su {\1c&H0096BED8&\alpha&HFF&\t(189,309,\alpha&H00&)}familia
+Dialogue: 0,0:00:13.97,0:00:15.03,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}puede {\1c&H00EFF5F8&\alpha&HFF&\t(432,552,\alpha&H00&)}ser {\1c&H00EFF5F8&\alpha&HFF&\t(766,886,\alpha&H00&)}parte
+Dialogue: 0,0:00:15.03,0:00:16.15,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}de {\1c&H00EFF5F8&\alpha&HFF&\t(226,346,\alpha&H00&)}su {\1c&H0096BED8&\alpha&HFF&\t(355,475,\alpha&H00&)}vínculo.
+Dialogue: 0,0:00:16.15,0:00:17.10,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}Además,
+Dialogue: 0,0:00:17.18,0:00:18.03,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}estudios {\1c&H00EFF5F8&\alpha&HFF&\t(245,365,\alpha&H00&)}han {\1c&H00EFF5F8&\alpha&HFF&\t(522,642,\alpha&H00&)}relacionado
+Dialogue: 0,0:00:18.03,0:00:18.94,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}el {\1c&H0096BED8&\alpha&HFF&\t(337,457,\alpha&H00&)}contacto {\1c&H0096BED8&\alpha&HFF&\t(727,847,\alpha&H00&)}visual
+Dialogue: 0,0:00:18.94,0:00:19.79,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}afectuoso
+Dialogue: 0,0:00:19.79,0:00:21.36,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}entre {\1c&H00EFF5F8&\alpha&HFF&\t(577,697,\alpha&H00&)}perros {\1c&H00EFF5F8&\alpha&HFF&\t(1077,1197,\alpha&H00&)}y {\1c&H00EFF5F8&\alpha&HFF&\t(1281,1401,\alpha&H00&)}humanos
+Dialogue: 0,0:00:21.36,0:00:22.49,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}con {\1c&H00EFF5F8&\alpha&HFF&\t(365,485,\alpha&H00&)}la {\1c&H0096BED8&\alpha&HFF&\t(550,670,\alpha&H00&)}oxitocina,
+Dialogue: 0,0:00:22.49,0:00:23.32,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}conocida {\1c&H00EFF5F8&\alpha&HFF&\t(661,781,\alpha&H00&)}como
+Dialogue: 0,0:00:23.32,0:00:24.91,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}la {\1c&H00EFF5F8&\alpha&HFF&\t(244,364,\alpha&H00&)}hormona {\1c&H00EFF5F8&\alpha&HFF&\t(670,790,\alpha&H00&)}del {\1c&H00EFF5F8&\alpha&HFF&\t(855,975,\alpha&H00&)}vínculo.
+Dialogue: 0,0:00:24.91,0:00:25.92,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}Pero {\1c&H0096BED8&\alpha&HFF&\t(504,624,\alpha&H00&)}¡ojo!
+Dialogue: 0,0:00:25.92,0:00:26.98,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}también {\1c&H00EFF5F8&\alpha&HFF&\t(522,642,\alpha&H00&)}puede {\1c&H00EFF5F8&\alpha&HFF&\t(800,920,\alpha&H00&)}estar
+Dialogue: 0,0:00:26.98,0:00:28.12,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}pidiendo {\1c&H0096BED8&\alpha&HFF&\t(541,661,\alpha&H00&)}comida.
+Dialogue: 0,0:00:28.12,0:00:28.83,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}Si {\1c&H00EFF5F8&\alpha&HFF&\t(318,438,\alpha&H00&)}alguna {\1c&H00EFF5F8&\alpha&HFF&\t(559,679,\alpha&H00&)}vez
+Dialogue: 0,0:00:28.83,0:00:29.85,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}le {\1c&H00EFF5F8&\alpha&HFF&\t(225,345,\alpha&H00&)}diste {\1c&H00EFF5F8&\alpha&HFF&\t(486,606,\alpha&H00&)}un {\1c&H0096BED8&\alpha&HFF&\t(689,809,\alpha&H00&)}trocito
+Dialogue: 0,0:00:29.85,0:00:30.82,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}desde {\1c&H00EFF5F8&\alpha&HFF&\t(282,402,\alpha&H00&)}la {\1c&H00EFF5F8&\alpha&HFF&\t(448,568,\alpha&H00&)}mesa,
+Dialogue: 0,0:00:30.82,0:00:31.33,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}pudo {\1c&H00EFF5F8&\alpha&HFF&\t(225,345,\alpha&H00&)}aprender
+Dialogue: 0,0:00:31.33,0:00:32.82,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(59,179,\alpha&H00&)}que {\1c&H00EFF5F8&\alpha&HFF&\t(318,438,\alpha&H00&)}mirarte {\1c&H0096BED8&\alpha&HFF&\t(690,810,\alpha&H00&)}funciona.
+Dialogue: 0,0:00:32.82,0:00:34.09,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}¿Y {\1c&H00EFF5F8&\alpha&HFF&\t(190,310,\alpha&H00&)}cómo {\1c&H00EFF5F8&\alpha&HFF&\t(486,606,\alpha&H00&)}evitarlo?
+Dialogue: 0,0:00:34.09,0:00:34.79,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}Especialmente
+Dialogue: 0,0:00:34.79,0:00:36.52,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}cuando {\1c&H00EFF5F8&\alpha&HFF&\t(338,458,\alpha&H00&)}tienes {\1c&H0096BED8&\alpha&HFF&\t(764,884,\alpha&H00&)}visitas.
+Dialogue: 0,0:00:36.52,0:00:37.48,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}Enséñale {\1c&H00EFF5F8&\alpha&HFF&\t(485,605,\alpha&H00&)}a {\1c&H00EFF5F8&\alpha&HFF&\t(670,790,\alpha&H00&)}quedarse
+Dialogue: 0,0:00:37.48,0:00:38.54,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}en {\1c&H00EFF5F8&\alpha&HFF&\t(227,347,\alpha&H00&)}su {\1c&H0096BED8&\alpha&HFF&\t(412,532,\alpha&H00&)}camita.
+Dialogue: 0,0:00:38.54,0:00:39.17,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H0096BED8&\alpha&HFF&\t(60,180,\alpha&H00&)}Premia {\1c&H00EFF5F8&\alpha&HFF&\t(411,531,\alpha&H00&)}cuando
+Dialogue: 0,0:00:39.17,0:00:40.04,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}esté {\1c&H0096BED8&\alpha&HFF&\t(301,421,\alpha&H00&)}tranquilo
+Dialogue: 0,0:00:40.04,0:00:41.51,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}y {\1c&H00EFF5F8&\alpha&HFF&\t(412,532,\alpha&H00&)}evita {\1c&H00EFF5F8&\alpha&HFF&\t(746,866,\alpha&H00&)}darle {\1c&H00EFF5F8&\alpha&HFF&\t(1115,1235,\alpha&H00&)}comida
+Dialogue: 0,0:00:41.51,0:00:42.56,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}desde {\1c&H00EFF5F8&\alpha&HFF&\t(283,403,\alpha&H00&)}la {\1c&H00EFF5F8&\alpha&HFF&\t(468,588,\alpha&H00&)}mesa.
+Dialogue: 0,0:00:42.56,0:00:43.61,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}Practícalo {\1c&H00EFF5F8&\alpha&HFF&\t(708,828,\alpha&H00&)}antes
+Dialogue: 0,0:00:43.61,0:00:45.18,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}de {\1c&H00EFF5F8&\alpha&HFF&\t(338,458,\alpha&H00&)}recibir {\1c&H0096BED8&\alpha&HFF&\t(653,773,\alpha&H00&)}invitados,
+Dialogue: 0,0:00:45.18,0:00:45.86,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}porque {\1c&H00EFF5F8&\alpha&HFF&\t(246,366,\alpha&H00&)}comprender
+Dialogue: 0,0:00:45.86,0:00:46.38,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}su {\1c&H0096BED8&\alpha&HFF&\t(244,364,\alpha&H00&)}mirada
+Dialogue: 0,0:00:46.38,0:00:47.53,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}es {\1c&H00EFF5F8&\alpha&HFF&\t(281,401,\alpha&H00&)}importante.
+Dialogue: 0,0:00:47.53,0:00:48.16,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}Pero {\1c&H00EFF5F8&\alpha&HFF&\t(227,347,\alpha&H00&)}enseñarle
+Dialogue: 0,0:00:48.16,0:00:48.92,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}con {\1c&H0096BED8&\alpha&HFF&\t(338,458,\alpha&H00&)}cariño
+Dialogue: 0,0:00:48.92,0:00:50.19,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}también {\1c&H00EFF5F8&\alpha&HFF&\t(623,743,\alpha&H00&)}es {\1c&H00EFF5F8&\alpha&HFF&\t(827,947,\alpha&H00&)}una {\1c&H00EFF5F8&\alpha&HFF&\t(1012,1132,\alpha&H00&)}forma
+Dialogue: 0,0:00:50.19,0:00:50.90,Sub,,0,0,0,,{\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}de {\1c&H0096BED8&\alpha&HFF&\t(264,384,\alpha&H00&)}amarlo.
+Dialogue: 0,0:00:50.90,0:00:51.88,Sub,,0,0,0,,{\an2\pos(540,1268)\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}¿El {\1c&H00EFF5F8&\alpha&HFF&\t(356,476,\alpha&H00&)}tuyo {\1c&H00EFF5F8&\alpha&HFF&\t(634,754,\alpha&H00&)}también
+Dialogue: 0,0:00:51.88,0:00:52.94,Sub,,0,0,0,,{\an2\pos(540,1268)\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H00EFF5F8&\alpha&HFF&\t(60,180,\alpha&H00&)}te {\1c&H0096BED8&\alpha&HFF&\t(300,420,\alpha&H00&)}mira {\1c&H0096BED8&\alpha&HFF&\t(466,586,\alpha&H00&)}así?
+Dialogue: 0,0:00:52.94,0:00:53.99,Sub,,0,0,0,,{\an2\pos(540,1268)\blur0.8\fad(0,80)\fscx96\fscy96\t(0,160,\fscx100\fscy100)}{\1c&H0096BED8&\alpha&HFF&\t(60,180,\alpha&H00&)}¡Te {\1c&H0096BED8&\alpha&HFF&\t(264,384,\alpha&H00&)}leo!

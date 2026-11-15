@@ -159,7 +159,7 @@ assert sum(n for _, n in groups) == len(words), (sum(n for _, n in groups), len(
 ev, k = [], 0
 for txt, n in groups:
     ws = words[k:k + n]; k += n
-    ev.append([ws[0]['s'] - 0.06, ws[-1]['e'], txt])
+    ev.append([ws[0]['s'] - 0.06, ws[-1]['e'], txt, [w['s'] for w in ws]])
 for j, e in enumerate(ev):
     nxt = ev[j + 1][0] if j + 1 < len(ev) else END - 0.05
     e[1] = min(nxt, e[1] + 0.45) if nxt - e[1] > 0.45 else nxt
@@ -179,19 +179,30 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Poppins Medium,74,{IVORY},{IVORY},&HA0000000,&H96000000,0,0,0,0,100,100,0.5,0,1,2.2,2.5,2,80,80,430,1
+Style: Sub,Montserrat SemiBold,72,{IVORY},{IVORY},&H8C1A120C,&H78000000,0,0,0,0,100,100,1.2,0,1,2.6,3,2,80,80,430,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
-for a, b, txt in ev:
-    # build with explicit override tags
-    out, hl = '', False
+for a, b, txt, wst in ev:
+    # palabra a palabra: cada palabra aparece cuando se pronuncia
+    toks, tb, inhl = [], '', False
     for ch in txt:
-        if ch == '{': out += '{\\1c' + GOLD + '&}'
-        elif ch == '}': out += '{\\1c' + IVORY + '&}'
-        else: out += ch
-    anim = '{\\blur1.2\\fad(110,60)\\fscx94\\fscy94\\t(0,140,\\fscx100\\fscy100)}'
+        if ch == '{': inhl = True; continue
+        if ch == '}': inhl = False; continue
+        if ch == ' ':
+            toks.append((tb, hlw)); tb = ''; continue
+        if tb == '': hlw = inhl
+        tb += ch
+        if inhl: hlw = True
+    toks.append((tb, hlw))
+    assert len(toks) == len(wst), (txt, toks)
+    out = ''
+    for j, ((w, h), t) in enumerate(zip(toks, wst)):
+        d = max(0, int((t - a) * 1000))
+        col = GOLD if h else IVORY
+        out += ('' if j == 0 else ' ') + '{\\1c' + col + '&\\alpha&HFF&\\t(' + f'{d},{d+120}' + ',\\alpha&H00&)}' + w
+    anim = '{\\blur0.8\\fad(0,80)\\fscx96\\fscy96\\t(0,160,\\fscx100\\fscy100)}'
     if a >= shots[-1]['t0'] - 0.1:
         anim = anim.replace('{', '{\\an2\\pos(540,1268)', 1)
     ass += f"Dialogue: 0,{ts(a)},{ts(b)},Sub,,0,0,0,,{anim}{out}\n"
@@ -202,14 +213,14 @@ LOGO_T0 = shots[-1]['t0'] + 0.35
 fc += (f"{cur}settb=AVTB[cur2];[{len(shots)}:v]scale=315:-1,format=rgba,colorchannelmixer=aa=0.95,"
        f"fade=t=in:st={LOGO_T0}:d=0.6:alpha=1[lg];"
        f"[cur2][lg]overlay=x=(W-w)/2:y=1305:enable='gte(t,{LOGO_T0})'[vl];"
-       f"[vl]ass={S}/subs.ass:fontsdir={S}/fonts/package,format=yuv420p[vout];")
+       f"[vl]ass={S}/subs.ass:fontsdir={S}/fonts/mont/package,format=yuv420p[vout];")
 inputs += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END}', '-i', f'{S}/logo_tremdora_marfil_sombra.png']
 
 # ---------- Audio: voz protagonista + música con ducking ----------
 vi, mi = len(shots) + 1, len(shots) + 2
 inputs += ['-i', f'{S}/audio/voz_edit.wav', '-i', f'{S}/audio/music1.mp3']
 fc += (f"[{vi}:a]aresample=48000,apad=whole_dur={END},asplit=2[voz][sc];"
-       f"[{mi}:a]aresample=48000,atrim=0:{END},asetpts=PTS-STARTPTS,volume=-10dB,"
+       f"[{mi}:a]aresample=48000,atrim=0:{END},asetpts=PTS-STARTPTS,volume=-7dB,"
        f"afade=t=in:d=0.4,afade=t=out:st={END-1.1}:d=1.1[mus];"
        f"[mus][sc]sidechaincompress=threshold=0.05:ratio=2.5:attack=80:release=500:makeup=1[mduck];"
        f"[voz][mduck]amix=inputs=2:duration=first:normalize=0,"
