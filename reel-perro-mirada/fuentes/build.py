@@ -44,7 +44,7 @@ shots = [
     dict(id='cbccdfbe', t0=45.14, ss=0.4, z=(1.00, 1.04), cy=0.55),
     # 12 CIERRE EMOCIONAL
     dict(id='dd70bdd1', t0=47.48, ss=0.0, z=(1.00, 1.05), cy=0.4, crop='1206:2130:0:2', xf=0.25),
-    dict(img='3d0ae87f-image.png', t0=50.88, z=(1.00, 1.035), box=None, fy=0.264, fw=900, ad=True, xf=0.3),
+    dict(img='3d0ae87f-image.png', t0=50.88, z=(1.00, 1.035), box=None, fy=0.168, fw=820, ad=True, xf=0.3),
 ]
 for i, s in enumerate(shots):
     s['t1'] = shots[i + 1]['t0'] if i + 1 < len(shots) else END
@@ -192,16 +192,18 @@ for a, b, txt in ev:
         elif ch == '}': out += '{\\1c' + IVORY + '&}'
         else: out += ch
     anim = '{\\blur1.2\\fad(110,60)\\fscx94\\fscy94\\t(0,140,\\fscx100\\fscy100)}'
+    if a >= shots[-1]['t0'] - 0.1:
+        anim = anim.replace('{', '{\\an2\\pos(540,1268)', 1)
     ass += f"Dialogue: 0,{ts(a)},{ts(b)},Sub,,0,0,0,,{anim}{out}\n"
 open(f'{S}/subs.ass', 'w').write(ass)
 
 # ---------- Logo al cierre ----------
 LOGO_T0 = shots[-1]['t0'] + 0.35
-fc += (f"{cur}settb=AVTB[cur2];[{len(shots)}:v]scale=230:-1,format=rgba,colorchannelmixer=aa=0.92,"
+fc += (f"{cur}settb=AVTB[cur2];[{len(shots)}:v]scale=315:-1,format=rgba,colorchannelmixer=aa=0.95,"
        f"fade=t=in:st={LOGO_T0}:d=0.6:alpha=1[lg];"
-       f"[cur2][lg]overlay=x=(W-w)/2:y=1585:enable='gte(t,{LOGO_T0})'[vl];"
+       f"[cur2][lg]overlay=x=(W-w)/2:y=1305:enable='gte(t,{LOGO_T0})'[vl];"
        f"[vl]ass={S}/subs.ass:fontsdir={S}/fonts/package,format=yuv420p[vout];")
-inputs += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END}', '-i', f'{S}/logo_ivory.png']
+inputs += ['-loop', '1', '-framerate', str(FPS), '-t', f'{END}', '-i', f'{S}/logo_tremdora_marfil_sombra.png']
 
 # ---------- Audio: voz protagonista + música con ducking ----------
 vi, mi = len(shots) + 1, len(shots) + 2

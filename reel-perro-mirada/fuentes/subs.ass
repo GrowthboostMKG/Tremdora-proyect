@@ -61,6 +61,6 @@ Dialogue: 0,0:00:47.53,0:00:48.16,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy9
 Dialogue: 0,0:00:48.16,0:00:48.92,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}con {\1c&H0096BED8&}cariño{\1c&H00EFF5F8&}
 Dialogue: 0,0:00:48.92,0:00:50.19,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}también es una forma
 Dialogue: 0,0:00:50.19,0:00:50.90,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}de {\1c&H0096BED8&}amarlo{\1c&H00EFF5F8&}.
-Dialogue: 0,0:00:50.90,0:00:51.88,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}¿El tuyo también
-Dialogue: 0,0:00:51.88,0:00:52.94,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}te {\1c&H0096BED8&}mira así{\1c&H00EFF5F8&}?
-Dialogue: 0,0:00:52.94,0:00:53.99,Sub,,0,0,0,,{\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}{\1c&H0096BED8&}¡Te leo!{\1c&H00EFF5F8&}
+Dialogue: 0,0:00:50.90,0:00:51.88,Sub,,0,0,0,,{\an2\pos(540,1268)\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}¿El tuyo también
+Dialogue: 0,0:00:51.88,0:00:52.94,Sub,,0,0,0,,{\an2\pos(540,1268)\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}te {\1c&H0096BED8&}mira así{\1c&H00EFF5F8&}?
+Dialogue: 0,0:00:52.94,0:00:53.99,Sub,,0,0,0,,{\an2\pos(540,1268)\blur1.2\fad(110,60)\fscx94\fscy94\t(0,140,\fscx100\fscy100)}{\1c&H0096BED8&}¡Te leo!{\1c&H00EFF5F8&}
