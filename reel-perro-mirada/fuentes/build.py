@@ -31,7 +31,7 @@ shots = [
     # 6 GIRO «Pero ¡ojo!» — mirando el plato
     dict(id='ba4ad2dd', t0=24.88, ss=0.6, z=(1.12, 1.02), ease=0.5, cy=0.45),
     # 7 CONDUCTA APRENDIDA — pidiendo junto a la mesa
-    dict(id='db70d6b1', t0=28.08, ss=0.3, z=(1.00, 1.05), cy=0.35, cx=0.4, crop='1182:1644:12:0'),
+    dict(id='8ecd7dc8', t0=28.08, ss=0.6, z=(1.00, 1.04), cy=0.5, cx=0.5),
     dict(id='e8093ab0', t0=30.80, ss=0.0, z=(1.00, 1.04), cy=0.4),
     # 8 PROBLEMA COTIDIANO — cena con visitas
     dict(id='b71e58c3', t0=32.80, ss=0.0, z=(1.00, 1.05), cy=0.55, cx=0.5),
