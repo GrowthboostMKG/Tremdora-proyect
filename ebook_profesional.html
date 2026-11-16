@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforma tu Vida en 8 Semanas - Ebook Muestra Gratis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @page {
+            size: A4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* ============ PORTADA ============ */
+        .portada {
+            page-break-after: always;
+            background: linear-gradient(135deg, #2E5090 0%, #1a3a5a 50%, #4A7BA7 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            min-height: 297mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .portada::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transform: translate(100px, -100px);
+        }
+        
+        .portada::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 400px;
+            height: 400px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+            transform: translate(-150px, 150px);
+        }
+        
+        .portada-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .portada .badge {
+            display: inline-block;
+            background: rgba(230, 126, 34, 0.9);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        
+        .portada h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .portada .subtitle {
+            font-size: 28px;
+            color: #FFD700;
+            font-weight: 600;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        
+        .portada .description {
+            font-size: 16px;
+            line-height: 1.8;
+            max-width: 500px;
+            margin: 0 auto 50px;
+            opacity: 0.95;
+        }
+        
+        .portada .footer-text {
+            font-size: 14px;
+            margin-top: 60px;
+            opacity: 0.9;
+            border-top: 2px solid rgba(255,255,255,0.3);
+            padding-top: 20px;
+        }
+        
+        /* ============ PÁGINAS DE CONTENIDO ============ */
+        .page {
+            page-break-after: always;
+            padding: 50px 45px;
+            min-height: 297mm;
+            background: white;
+        }
+        
+        .page-header {
+            border-bottom: 3px solid #2E5090;
+            padding-bottom: 20px;
+            margin-bottom: 35px;
+        }
+        
+        .page-number {
+            font-size: 11px;
+            color: #999;
+            text-align: right;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #2E5090;
+            font-weight: 700;
+            margin-bottom: 25px;
+            line-height: 1.3;
+        }
+        
+        h2 {
+            font-size: 28px;
+            color: #2E5090;
+            font-weight: 700;
+            margin: 30px 0 20px 0;
+            line-height: 1.3;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: #4A7BA7;
+            font-weight: 600;
+            margin: 20px 0 12px 0;
+        }
+        
+        p {
+            font-size: 13px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #444;
+            text-align: justify;
+        }
+        
+        /* ============ SECCIONES VISUALES ============ */
+        .section-block {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e8eef5 100%);
+            border-left: 4px solid #E67E22;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 5px;
+        }
+        
+        .section-block h3 {
+            color: #2E5090;
+            margin-top: 0;
+        }
+        
+        .highlight-box {
+            background: #2E5090;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .benefit-item {
+            background: #f0f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 3px solid #E67E22;
+        }
+        
+        .benefit-item strong {
+            color: #2E5090;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .pillar {
+            background: white;
+            border: 2px solid #2E5090;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        .pillar-number {
+            background: #E67E22;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .pillar-title {
+            color: #2E5090;
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .pillar-text {
+            font-size: 12px;
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* ============ TIMELINE ============ */
+        .timeline {
+            margin: 20px 0;
+        }
+        
+        .timeline-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 12px 0;
+            border-left: 4px solid #4A7BA7;
+            border-radius: 3px;
+            page-break-inside: avoid;
+        }
+        
+        .timeline-item strong {
+            color: #2E5090;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+        
+        .timeline-item p {
+            font-size: 12px;
+            margin: 0;
+            color: #666;
+        }
+        
+        /* ============ TESTIMONIOS ============ */
+        .testimonial {
+            background: linear-gradient(135deg, #e8eef5 0%, #d4dce8 100%);
+            border-left: 4px solid #E67E22;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            page-break-inside: avoid;
+            font-size: 12px;
+            font-style: italic;
+            color: #555;
+        }
+        
+        .testimonial::before {
+            content: '★ ';
+            color: #E67E22;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .testimonial-author {
+            font-weight: 700;
+            color: #2E5090;
+            display: block;
+            margin-top: 8px;
+            font-style: normal;
+        }
+        
+        /* ============ ELEMENTOS DECORATIVOS ============ */
+        .separator {
+            border: none;
+            border-top: 2px dashed #ddd;
+            margin: 30px 0;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2E5090 0%, #4A7BA7 100%);
+            color: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            text-align: center;
+            page-break-inside: avoid;
+            margin: 30px 0;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .cta-section p {
+            color: white;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        
+        .check-list {
+            list-style: none;
+            margin: 15px 0;
+            padding-left: 0;
+        }
+        
+        .check-list li {
+            padding-left: 25px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            color: #444;
+            position: relative;
+        }
+        
+        .check-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #E67E22;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        /* ============ ÚLTIMA PÁGINA ============ */
+        .contraportada {
+            page-break-after: avoid;
+            background: linear-gradient(135deg, #2E5090 0%, #1a3a5a 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            min-height: 297mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contraportada h2 {
+            color: #FFD700;
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+        
+        .contraportada p {
+            color: white;
+            font-size: 15px;
+            max-width: 450px;
+            line-height: 1.8;
+            margin: 15px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- PORTADA -->
+    <div class="portada">
+        <div class="portada-content">
+            <div class="badge">🌟 MUESTRA GRATUITA</div>
+            <h1>TRANSFORMA TU VIDA EN 8 SEMANAS</h1>
+            <div class="subtitle">El Método Comprobado que Cambia Vidas</div>
+            <div class="description">
+                Descubre cómo integrar mentalidad, nutrición y movimiento para lograr resultados reales y duraderos. Este ebook contiene adelantos exclusivos del programa completo.
+            </div>
+            <div class="footer-text">
+                Este documento es tu primer paso hacia la transformación<br>
+                Lee con atención y prepárate para cambiar tu vida
+            </div>
+        </div>
+    </div>
+
+    <!-- PÁGINA 1: ÍNDICE -->
+    <div class="page">
+        <div class="page-header">
+            <h1>CONTENIDO</h1>
+        </div>
+        <div class="section-block">
+            <h3>📚 Lo que encontrarás en este ebook:</h3>
+        </div>
+        
+        <div style="margin: 30px 0; font-size: 14px; line-height: 2.2;">
+            <p><strong>1.</strong> Bienvenida y por qué es diferente</p>
+            <p><strong>2.</strong> Los 3 Pilares del Método Revolucionario</p>
+            <p><strong>3.</strong> Nutrición Dorada: Tu Herramienta Clave</p>
+            <p><strong>4.</strong> El Plan de 8 Semanas Detallado</p>
+            <p><strong>5.</strong> Las Actividades Transformadoras</p>
+            <p><strong>6.</strong> Testimonios de Éxito Real</p>
+            <p><strong>7.</strong> Tu Siguiente Paso</p>
+        </div>
+        
+        <div class="highlight-box" style="margin-top: 40px;">
+            📌 Tip: Este ebook es un adelanto. El programa completo incluye menús, recetas, videos y coaching personalizado.
+        </div>
+    </div>
+
+    <!-- PÁGINA 2: BIENVENIDA -->
+    <div class="page">
+        <div class="page-header">
+            <h1>Bienvenida</h1>
+        </div>
+        
+        <p style="font-size: 14px; font-weight: 600; color: #2E5090; margin-bottom: 20px;">
+            Has llegado al lugar correcto. Esto que estás a punto de leer puede cambiar todo.
+        </p>
+        
+        <p>
+            Durante años, como millones de personas, busqué la fórmula mágica. Probé dietas restrictivas, entrenamientos agotadores, y seminarios motivacionales que prometían transformación instantánea. Nada funcionaba a largo plazo.
+        </p>
+        
+        <p>
+            Hasta que descubrí algo que cambió mi vida: <strong>la transformación real ocurre cuando integras todas las dimensiones de tu ser</strong>.
+        </p>
+        
+        <div class="section-block">
+            <h3>¿Por qué es diferente este método?</h3>
+            <p>Porque no se enfoca solo en tu cuerpo, solo en tu mente, o solo en tus hábitos. <strong>Integra todo</strong>.</p>
+            <p>Porque está basado en ciencia, no en modas.</p>
+            <p>Porque los resultados son visibles en <strong>8 semanas</strong>.</p>
+            <p>Porque es <strong>sostenible para toda la vida</strong>.</p>
+        </div>
+        
+        <p style="font-size: 12px; font-style: italic; color: #666; margin-top: 30px;">
+            Sigue leyendo. Esto es solo el comienzo.
+        </p>
+    </div>
+
+    <!-- PÁGINA 3: LOS 3 PILARES -->
+    <div class="page">
+        <div class="page-header">
+            <h1>Los 3 Pilares</h1>
+        </div>
+        
+        <p style="margin-bottom: 30px;">
+            Todo cambio real se construye sobre tres pilares fundamentales. Ignorar cualquiera de ellos garantiza que fracasarás.
+        </p>
+        
+        <div class="pillar">
+            <div class="pillar-number">1</div>
+            <div class="pillar-title">MENTALIDAD TRANSFORMADORA</div>
+            <div class="pillar-text">
+                Sin una mente preparada para el cambio, tu cuerpo nunca te seguirá. Aquí trabajamos creencias limitantes, desarrollamos resiliencia mental y construimos la mentalidad de ganador que necesitas.
+            </div>
+        </div>
+        
+        <div class="pillar">
+            <div class="pillar-number">2</div>
+            <div class="pillar-title">NUTRICIÓN DORADA</div>
+            <div class="pillar-text">
+                No es una dieta. Es un sistema elegante basado en ciencia que te permite comer bien, sentirte energizado y lograr tus objetivos sin sacrificios absurdos.
+            </div>
+        </div>
+        
+        <div class="pillar">
+            <div class="pillar-number">3</div>
+            <div class="pillar-title">MOVIMIENTO INTELIGENTE</div>
+            <div class="pillar-text">
+                Olvida los entrenamientos aburridos. Son movimientos estratégicos diseñados para transformar tu cuerpo, elevar tu metabolismo y celebrar lo que eres capaz de hacer.
+            </div>
+        </div>
+    </div>
+
+    <!-- PÁGINA 4: NUTRICIÓN DORADA -->
+    <div class="page">
+        <div class="page-header">
+            <h1>Nutrición Dorada</h1>
+        </div>
+        
+        <p style="font-size: 14px; font-weight: 600; color: #E67E22; margin-bottom: 20px;">
+            La herramienta más poderosa de tu transformación
+        </p>
+        
+        <div class="section-block">
+            <p style="margin: 0;">
+                Nutrición Dorada no es una dieta restrictiva. Es un enfoque revolucionario basado en cómo tu cuerpo realmente funciona, combinado con alimentos que disfrutas.
+            </p>
+        </div>
+        
+        <h3>4 Principios Fundamentales</h3>
+        
+        <div class="benefit-grid">
+            <div class="benefit-item">
+                <strong>1. Balance Inteligente</strong>
+                Los nutrientes correctos en las proporciones exactas para TU objetivo específico.
+            </div>
+            <div class="benefit-item">
+                <strong>2. Timing Estratégico</strong>
+                No es solo QUÉ comes. Es CUÁNDO lo comes sincronizado con tu metabolismo.
+            </div>
+            <div class="benefit-item">
+                <strong>3. Alimentos Reales</strong>
+                Solo alimentos verdaderos, deliciosos y accesibles que encuentras en tu mercado local.
+            </div>
+            <div class="benefit-item">
+                <strong>4. Sostenibilidad</strong>
+                Diseñado para mantener de por vida, no un detox de 30 días.
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            ⚡ En el programa completo: Menús personalizados, listas de compra y recetas deliciosas.
+        </div>
+    </div>
+
+    <!-- PÁGINA 5: PLAN 8 SEMANAS -->
+    <div class="page">
+        <div class="page-header">
+            <h1>Tu Cronograma de 8 Semanas</h1>
+        </div>
+        
+        <p style="margin-bottom: 25px;">
+            8 semanas es el tiempo exacto que tu cuerpo necesita para crear cambios reales. No es mágica, es ciencia.
+        </p>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <strong>SEMANAS 1-2: FUNDACIÓN</strong>
+                <p>Estableces hábitos base, reprogramas tu mentalidad y aprendes los principios de Nutrición Dorada. Tu cuerpo comienza a recalibrarse.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <strong>SEMANAS 3-4: ACTIVACIÓN</strong>
+                <p>Los cambios comienzan a notarse. Tu energía sube, tu cuerpo cambia y te sientes diferente. Los resultados se aceleran.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <strong>SEMANAS 5-6: ACELERACIÓN</strong>
+                <p>Cambios visibles y evidentes. La confianza sube, los hábitos se solidifican y eres consciente de tu progreso.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <strong>SEMANAS 7-8: CONSOLIDACIÓN</strong>
+                <p>Los cambios se hacen permanentes. Logras tus objetivos y aprendes cómo mantenerlos de por vida.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PÁGINA 6: ACTIVIDADES -->
+    <div class="page">
+        <div class="page-header">
+            <h1>Las Actividades Transformadoras</h1>
+        </div>
+        
+        <p style="margin-bottom: 25px;">
+            No son rutinas aburridas. Son movimientos estratégicos diseñados para trabajar CON tu cuerpo, no en contra.
+        </p>
+        
+        <div class="section-block">
+            <h3>💪 Movimiento Inteligente</h3>
+            <p style="margin: 0;">Ejercicios eficientes diseñados para transformar composición corporal y elevar metabolismo. Solo 30-45 minutos, 4 veces por semana.</p>
+        </div>
+        
+        <div class="section-block">
+            <h3>🧘 Prácticas Mindfulness</h3>
+            <p style="margin: 0;">Meditación y presencia mental que reducen estrés, mejoran claridad mental y aceleran resultados. El estrés es tu mayor enemigo.</p>
+        </div>
+        
+        <div class="section-block">
+            <h3>⚡ Energía Diaria</h3>
+            <p style="margin: 0;">Rutinas cortas de activación matutina que preparan tu cuerpo y mente. Muchos reportan más energía de la que han tenido en años.</p>
+        </div>
+        
+        <div class="section-block">
+            <h3>🌙 Recuperación Estratégica</h3>
+            <p style="margin: 0;">El descanso es donde ocurre la magia. Optimiza tu sueño y recuperación para maximizar resultados.</p>
+        </div>
+    </div>
+
+    <!-- PÁGINA 7: TESTIMONIOS -->
+    <div class="page">
+        <div class="page-header">
+            <h1>Testimonios de Éxito</h1>
+        </div>
+        
+        <p style="margin-bottom: 30px;">
+            No tomes mi palabra. Escucha a personas como tú que ya transformaron sus vidas.
+        </p>
+        
+        <div class="testimonial">
+            "En 8 semanas cambié completamente. No solo el cuerpo, cambié mi mentalidad, mis hábitos, mi confianza. Ahora sé que soy capaz de lograr cualquier cosa."
+            <span class="testimonial-author">— María González</span>
+        </div>
+        
+        <div class="testimonial">
+            "Perdí 12 kilos de grasa pura, gané músculo y ahora sé exactamente cómo mantenerlo. Este es el único programa que realmente tiene sentido."
+            <span class="testimonial-author">— Carlos Rodríguez</span>
+        </div>
+        
+        <div class="testimonial">
+            "Mi mentalidad cambió completamente. Ahora tengo confianza, claridad y energía. Los resultados físicos fueron solo la cereza del pastel."
+            <span class="testimonial-author">— Ana Martínez</span>
+        </div>
+        
+        <div class="testimonial">
+            "Probé muchos programas antes. Este es diferente. Es simple, científico y FUNCIONA. Recomendado 100%."
+            <span class="testimonial-author">— Diego López</span>
+        </div>
+    </div>
+
+    <!-- PÁGINA 8: LLAMADA A LA ACCIÓN -->
+    <div class="page">
+        <div class="cta-section">
+            <h2>¿ESTÁS LISTO PARA TU TRANSFORMACIÓN?</h2>
+            <p>Este ebook es solo un adelanto. El programa completo te ofrece:</p>
+        </div>
+        
+        <ul class="check-list">
+            <li>Plan nutricional personalizado completo</li>
+            <li>Rutinas de ejercicio detalladas con videos</li>
+            <li>Seguimiento semanal de progreso</li>
+            <li>Comunidad de apoyo exclusiva</li>
+            <li>Coaching personalizado</li>
+            <li>Garantía de resultados o devolución</li>
+            <li>Acceso de por vida a todo el contenido</li>
+        </ul>
+        
+        <div class="highlight-box" style="text-align: center; margin-top: 40px;">
+            👉 ACCEDE AL PROGRAMA COMPLETO AHORA 👈<br>
+            <span style="font-size: 12px; margin-top: 10px; display: block;">
+                Las puertas se cierran pronto. Solo quedan lugares limitados.
+            </span>
+        </div>
+    </div>
+
+    <!-- CONTRAPORTADA -->
+    <div class="contraportada">
+        <h2>TU TRANSFORMACIÓN EMPIEZA AHORA</h2>
+        <p>
+            No es sobre la edad, no es sobre tu pasado, no es sobre qué tan difícil creas que sea.
+        </p>
+        <p>
+            Es sobre tu decisión de cambiar. Y si estás leyendo esto, ya tomaste esa decisión.
+        </p>
+        <p style="margin-top: 40px; font-size: 13px;">
+            <strong>El siguiente paso es tuyo.</strong>
+        </p>
+        <p style="margin-top: 50px; font-size: 12px; opacity: 0.8;">
+            ¿Preguntas? Contáctanos a: soporte@programa.com
+        </p>
+    </div>
+</body>
+</html>
