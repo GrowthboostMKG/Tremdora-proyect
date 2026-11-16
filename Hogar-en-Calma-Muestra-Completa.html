@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar en Calma - Muestra Completa de Valor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2d8f5f;
+            --secondary: #1a5a3f;
+            --accent: #e8f5f0;
+            --text: #1a1a1a;
+            --light: #f5f5f5;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 40px;
+        }
+        .portada-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1rem;
+            margin-bottom: 60px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 30px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 25px; color: var(--secondary); }
+        h3 { font-size: 1.4rem; margin-bottom: 15px; color: var(--primary); font-weight: 600; }
+        h4 { font-size: 1.15rem; margin-bottom: 12px; color: var(--secondary); font-weight: 600; }
+        p { margin-bottom: 18px; font-size: 1.05rem; }
+
+        .case-study {
+            background: white;
+            border: 2px solid var(--accent);
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .case-data { color: var(--primary); font-weight: 600; margin: 10px 0; }
+
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(45,143,95,0.08) 0%, rgba(26,90,63,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .step-box {
+            background: var(--light);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+        .instruction { margin: 12px 0; padding-left: 25px; position: relative; }
+        .instruction::before { content: "→ "; color: var(--primary); font-weight: bold; }
+
+        .routine-box {
+            background: var(--accent);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .time-slot { margin: 15px 0; padding-left: 20px; position: relative; }
+        .time-slot::before { content: "• "; color: var(--gold); font-weight: bold; }
+
+        .cta-box {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta-box h2 { color: white; margin-top: 0; }
+        .price { font-size: 2rem; font-weight: 700; margin: 20px 0; }
+        .btn {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 15px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            margin: 10px 5px;
+            font-size: 1.05rem;
+        }
+        .btn:hover { transform: scale(1.05); }
+
+        .quote {
+            font-style: italic;
+            color: var(--secondary);
+            padding: 20px;
+            border-left: 4px solid var(--gold);
+            margin: 20px 0;
+            background: var(--accent);
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--light);
+        }
+        th {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        .toc {
+            background: var(--accent);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .toc ul { margin-left: 20px; }
+        .toc li { margin: 10px 0; }
+
+        .behavior-chart {
+            background: white;
+            border: 2px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- PORTADA -->
+<div class="page portada">
+    <div>
+        <h1>Hogar en Calma</h1>
+        <p class="portada-subtitle">Transforma el Comportamiento de tu Perro<br>sin Gritos ni Castigos</p>
+        <div class="portada-badge">MUESTRA GRATIS DE VALOR</div>
+        <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem;">Contiene extractos reales del pack<br>Hogar en Calma (120+ págs) + Rutinas de Calma (50+ págs)</p>
+    </div>
+</div>
+
+<!-- ÍNDICE -->
+<div class="page">
+    <h1>📋 Contenido de esta Muestra</h1>
+    <div class="toc">
+        <ul style="list-style: none;">
+            <li><strong>1.</strong> Introducción: Por Qué tu Perro se Comporta Así</li>
+            <li><strong>2.</strong> CASO REAL: Luna - De "Incontrolable" a "Perfectamente Tranquila" en 6 Semanas</li>
+            <li><strong>3.</strong> La Tabla de Traducción del Comportamiento (Entiende lo que tu perro dice)</li>
+            <li><strong>4.</strong> Los 3 Pilares de la Conducta (Comunicación + Estructura + Movimiento)</li>
+            <li><strong>5.</strong> SECCIÓN RUTINAS: El Protocolo Diario Que Funciona (Del eBook Regalo)</li>
+            <li><strong>6.</strong> Técnicas de Desensibilización Paso-a-Paso</li>
+            <li><strong>7.</strong> Otros Casos Exitosos: Bruno, Max, Loba</li>
+            <li><strong>8.</strong> Garantía + Acceso al Pack Completo</li>
+        </ul>
+    </div>
+</div>
+
+<!-- INTRODUCCIÓN -->
+<div class="page">
+    <h1>¿Por Qué tu Perro Tiene Problemas de Comportamiento?</h1>
+    <p>Tu perro ladra constantemente, tira de la correa, salta sobre personas, tiene miedos, es destructivo, o simplemente no obedece.</p>
+
+    <h3>La Verdad Incómoda:</h3>
+    <p><strong>No es un problema de tu perro. Es un problema de comunicación entre ustedes.</strong></p>
+
+    <div class="benefit-box">
+        <p>Tu perro no quiere ser malo. Tu perro quiere ser comprendido.</p>
+        <p style="margin-top: 15px;">Cuando un perro ladra, salta o tira, está intentando decirti algo. El problema es que nadie le enseñó a comunicarse de otra manera.</p>
+    </div>
+
+    <h3 style="margin-top: 40px;">Los Problemas Más Comunes (Y Cómo Este Pack Los Soluciona)</h3>
+
+    <table>
+        <tr>
+            <th>Problema</th>
+            <th>Raíz Real</th>
+            <th>Solución en el Pack</th>
+        </tr>
+        <tr>
+            <td><strong>Ladridos excesivos</strong></td>
+            <td>Miedo, ansiedad, busca atención</td>
+            <td>Desensibilización + Rutina de Seguridad</td>
+        </tr>
+        <tr>
+            <td><strong>Tirar de la correa</strong></td>
+            <td>Falta de estructura + energía sin liberar</td>
+            <td>Movimiento organizado + Protocolos</td>
+        </tr>
+        <tr>
+            <td><strong>Destrucción en casa</strong></td>
+            <td>Energía sin liberar + ansiedad</td>
+            <td>Rutina diaria + Enriquecimiento</td>
+        </tr>
+        <tr>
+            <td><strong>Miedo a ruidos</strong></td>
+            <td>Falta de seguridad emocional</td>
+            <td>Protocolo de "Espacio Seguro"</td>
+        </tr>
+    </table>
+</div>
+
+<!-- CASO REAL: LUNA -->
+<div class="page">
+    <h1>📖 CASO REAL: Luna - Labrador Mix, 3 años</h1>
+    <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 30px;"><strong>De "Perro Incontrolable" a "Mi Mejor Compañera" en 6 Semanas</strong></p>
+
+    <div class="case-study">
+        <h3 style="margin-top: 0;">Situación Inicial (Mes 1)</h3>
+        <p><strong>Luna:</strong> Labrador Mix de 3 años, 28kg, de una familia en Barcelona</p>
+        <p><strong>Comportamientos problemáticos:</strong></p>
+        <div class="instruction">Ladridos constantes (hasta 50+ ladridos por hora)</div>
+        <div class="instruction">Tira de la correa, casi dislocá el brazo del dueño en 3 ocasiones</div>
+        <div class="instruction">Miedo severo a truenos y fuegos artificiales</div>
+        <div class="instruction">Destructiva con muebles cuando se queda sola</div>
+        <div class="instruction">Salta sobre visitantes (peligro)</div>
+        <p style="margin-top: 20px;"><strong>El diagnóstico del veterinario comportamental:</strong> "Ansiedad severa, posible necesidad de medicación"</p>
+        <p style="color: var(--secondary);"><strong>La familia consideraba:</strong> Dejarla en un refugio o medicación crónica</p>
+    </div>
+</div>
+
+<!-- LUNA TABLA DE TRADUCCIÓN -->
+<div class="page">
+    <h2>La Tabla de Traducción: Qué Intentaba Decir Luna</h2>
+    <p>Este es el concepto revolucionario de este pack: <strong>Entender qué tu perro está comunicando.</strong></p>
+
+    <div class="behavior-chart">
+        <h3 style="margin-top: 0; text-align: center;">COMPORTAMIENTO → EMOCIÓN REAL</h3>
+
+        <table style="margin-top: 25px;">
+            <tr>
+                <th style="background: rgba(45,143,95,0.3); color: var(--primary);">Lo que hace Luna</th>
+                <th style="background: rgba(45,143,95,0.3); color: var(--primary);">Lo que intentaba decir</th>
+                <th style="background: rgba(45,143,95,0.3); color: var(--primary);">Nuestra Respuesta Anterior</th>
+                <th style="background: rgba(45,143,95,0.3); color: var(--primary);">Nueva Respuesta (Pack)</th>
+            </tr>
+            <tr>
+                <td><strong>Ladridos constantes</strong></td>
+                <td>"Tengo miedo, necesito sentir segura"</td>
+                <td>Le gritábamos, reforzaba el miedo</td>
+                <td>Crear "Espacio Seguro", desensibilización</td>
+            </tr>
+            <tr>
+                <td><strong>Tira de la correa</strong></td>
+                <td>"Tengo energía, quiero explorar"</td>
+                <td>Le jalábamos, aumentaba ansiedad</td>
+                <td>Canales para liberar energía, protocolos</td>
+            </tr>
+            <tr>
+                <td><strong>Destrucción en casa</strong></td>
+                <td>"Me aburro, necesito hacer algo"</td>
+                <td>Le castigábamos, aumentaba ansiedad</td>
+                <td>Enriquecimiento, rutina estructurada</td>
+            </tr>
+            <tr>
+                <td><strong>Salta sobre personas</strong></td>
+                <td>"¡Hola! ¡Te extrañé! ¡Quiero jugar!"</td>
+                <td>Reforzábamos sin saberlo (riendo, tocándola)</td>
+                <td>Enseñar "Siéntate" antes de saludar</td>
+            </tr>
+            <tr>
+                <td><strong>Miedo a truenos</strong></td>
+                <td>"No sé qué es esto, tengo pánico"</td>
+                <td>Le consolábamos (reforzaba el miedo)</td>
+                <td>Desensibilización gradual + protocolo seguro</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="quote">
+        "Cuando entendí que Luna no era 'mala', sino asustada, todo cambió. Cambié mi energía, y ella cambió su comportamiento." - Familia de Luna
+    </div>
+</div>
+
+<!-- LUNA IMPLEMENTACIÓN -->
+<div class="page">
+    <h2>Las 3 Pilares Para Luna (Semana 1-2)</h2>
+
+    <h3>Pilar 1: Comunicación Compasiva (No Castigo)</h3>
+    <p>Reemplazamos gritos por palabras claras:</p>
+
+    <div class="step-box">
+        <h4 style="margin-top: 0;">Cambios de Lenguaje (Implementado con Luna)</h4>
+        <div class="instruction"><strong>ANTES:</strong> "¡NO! ¡CALLA! ¡ESTÚPIDA!"</div>
+        <div class="instruction"><strong>AHORA:</strong> "Luna, aquí" (le llamamos, le damos seguridad)</div>
+        <p style="color: var(--secondary); margin-top: 15px;">Los castigos aumentan el miedo. La comunicación clara lo disminuye.</p>
+    </div>
+
+    <h3>Pilar 2: Estructura y Rutina Diaria</h3>
+    <p>Los perros necesitan saber qué va a pasar. Esto reduce la ansiedad de forma dramática.</p>
+
+    <div class="routine-box">
+        <h4 style="margin-top: 0;">Rutina Diaria de Luna (Semana 2 en adelante)</h4>
+        <div class="time-slot"><strong>7:00am:</strong> Despierta, baño rápido, desayuno (proteína + vegetales)</div>
+        <div class="time-slot"><strong>7:30am:</strong> Paseo de 20 min (cancha, parque)</div>
+        <div class="time-slot"><strong>8:00am:</strong> Desayuno formal, familia se va</div>
+        <div class="time-slot"><strong>8:30am-12:30pm:</strong> Tiempo solo con enriquecimiento (juguete congelado, puzzle)</div>
+        <div class="time-slot"><strong>12:30pm:</strong> Paseo al mediodía, socialización con otros perros</div>
+        <div class="time-slot"><strong>1:00pm:</strong> Almuerzo, descanso</div>
+        <div class="time-slot"><strong>3:00pm:</strong> Juego interactivo, entrenamiento (10 min)</div>
+        <div class="time-slot"><strong>5:00pm:</strong> Paseo de tarde + exploración</div>
+        <div class="time-slot"><strong>6:00pm:</strong> Cena, tiempo tranquilo</div>
+        <div class="time-slot"><strong>7:00pm:</strong> Tiempo de familia (calmado), entrenamiento light</div>
+        <div class="time-slot"><strong>8:30pm:</strong> Preparación para dormir, descanso</div>
+        <p style="margin-top: 20px; color: var(--primary); font-weight: 600;">Resultado: Luna sabía qué esperar. El miedo disminuyó 80% en 2 semanas solo con rutina.</p>
+    </div>
+</div>
+
+<!-- LUNA TÉCNICAS -->
+<div class="page">
+    <h2>Semanas 3-6: Técnicas de Desensibilización</h2>
+
+    <h3>Técnica 1: Desensibilización a Ruidos (Para Miedo a Truenos)</h3>
+    <div class="step-box">
+        <h4 style="margin-top: 0;">Protocolo de 6 Semanas</h4>
+
+        <h4>Semana 1-2: "Exposición Suave"</h4>
+        <div class="instruction">Reproducir sonidos de truenos a volumen MUY BAJO (apenas audible)</div>
+        <div class="instruction">Mientras suena: Dar premios, acariciar, hacer ambiente positivo</div>
+        <div class="instruction">Duración: 2-3 minutos, 2-3 veces al día</div>
+        <div class="instruction">Objetivo: Luna asocie truenos = cosas buenas pasan</div>
+
+        <h4 style="margin-top: 20px;">Semana 3-4: "Aumento Gradual"</h4>
+        <div class="instruction">Subir volumen 10% cada 2-3 días</div>
+        <div class="instruction">Continuar con premios y refuerzo positivo</div>
+        <div class="instruction">Crear "Espacio Seguro" (cojín, manta, juguete)</div>
+
+        <h4 style="margin-top: 20px;">Semana 5-6: "Generalización"</h4>
+        <div class="instruction">Volumen normal, repetir exposición</div>
+        <div class="instruction">Luna debe poder entrar al "Espacio Seguro" voluntariamente</div>
+    </div>
+
+    <h3>Técnica 2: Entrenar "Siéntate" Antes de Saltar</h3>
+    <p><strong>El principio:</strong> No puedes saltar si estás sentada. Enséñale una alternativa a su comportamiento problemático.</p>
+
+    <div class="step-box">
+        <h4 style="margin-top: 0;">Protocolo de Entrenamiento (3 minutos, 2x al día)</h4>
+        <div class="instruction">Llama a Luna hacia ti con un juguete o premio</div>
+        <div class="instruction">Cuando avanza, levanta la mano como si dijeras "alto"</div>
+        <div class="instruction">Luna se detiene y se sienta naturalmente (postura de equilibrio)</div>
+        <div class="instruction">EN ESE MOMENTO: Recompensa máxima (premio + cariño + entusiasmo)</div>
+        <div class="instruction">Repetir 5-6 veces por sesión</div>
+        <p style="margin-top: 15px; color: var(--primary);"><strong>Resultado:</strong> En 2 semanas, Luna se sienta antes de saludar. Es automático.</p>
+    </div>
+</div>
+
+<!-- LUNA RESULTADOS -->
+<div class="page">
+    <h2>Resultados Reales: Luna en Semana 6</h2>
+
+    <table>
+        <tr>
+            <th>Métrica</th>
+            <th>Semana 1</th>
+            <th>Semana 6</th>
+            <th>Cambio</th>
+        </tr>
+        <tr>
+            <td><strong>Ladridos por hora</strong></td>
+            <td>50+ ladridos</td>
+            <td>5-8 ladridos (normales)</td>
+            <td>-85% disminución</td>
+        </tr>
+        <tr>
+            <td><strong>Capacidad de paseo</strong></td>
+            <td>Tira, casi dislocá brazos</td>
+            <td>Camina al lado, correa suelta</td>
+            <td>Completamente controlada</td>
+        </tr>
+        <tr>
+            <td><strong>Miedo a truenos</strong></td>
+            <td>Pánico severo, esconderse</td>
+            <td>Va al Espacio Seguro calmadamente</td>
+            <td>+90% más tranquila</td>
+        </tr>
+        <tr>
+            <td><strong>Destrucción en casa</strong></td>
+            <td>Destruye 3+ objetos/día</td>
+            <td>Ninguna destrucción</td>
+            <td>Conducta erradicada</td>
+        </tr>
+        <tr>
+            <td><strong>Saltos sobre personas</strong></td>
+            <td>Salta constantemente</td>
+            <td>Se sienta para saludar</td>
+            <td>Cambio de comportamiento total</td>
+        </tr>
+        <tr>
+            <td><strong>Calidad de vida familia</strong></td>
+            <td>Consideraban entregarla</td>
+            <td>Dice "Es nuestra mejor compañera"</td>
+            <td>Relación transformada</td>
+        </tr>
+    </table>
+
+    <div class="benefit-box" style="margin-top: 30px;">
+        <h3 style="margin-top: 0; color: var(--primary);">✅ La Transformación de Luna</h3>
+        <p>No tomamos medicinas. No la entrenamos como un "perro de trabajo". Simplemente le enseñamos a comunicarse de otra manera y le dimos estructura. Eso fue todo lo que necesitaba.</p>
+    </div>
+</div>
+
+<!-- RUTINAS SECCIÓN -->
+<div class="page">
+    <h1>🕐 SECCIÓN: Rutinas de Calma (Del eBook Regalo)</h1>
+    <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 30px;">Las Rutinas Diarias Que Transforman Comportamientos</p>
+
+    <h3>El Secreto de las Rutinas</h3>
+    <p>Un perro con una rutina clara:</p>
+    <div class="benefit-box">
+        <p>✓ Sabe qué esperar (reduce ansiedad)<br>
+        ✓ Tiene canales para liberar energía (menos destructivo)<br>
+        ✓ Duerme mejor (menos comportamientos nocturnos)<br>
+        ✓ Es más predecible (menos sorpresas negativas)<br>
+        ✓ Responde mejor al entrenamiento (mente enfocada)</p>
+    </div>
+</div>
+
+<!-- OTROS CASOS -->
+<div class="page">
+    <h1>📊 Otros Casos Exitosos</h1>
+
+    <div class="case-study">
+        <h3 style="margin-top: 0;">Bruno - Pastor Alemán, 4 años</h3>
+        <p><strong>Problema:</strong> Agresión hacia otros perros, miedo a personas desconocidas</p>
+        <p><strong>Protocolo:</strong> Desensibilización + Rutina + Comunicación clara</p>
+        <p><strong>Resultado (Semana 8):</strong> Interactúa pacíficamente con otros perros, acepta a desconocidos sin miedo</p>
+        <div class="quote">"No puedo creer que sea el mismo perro. Nunca pensé que podría ir al parque sin pelear." - Dueño de Bruno</div>
+    </div>
+
+    <div class="case-study">
+        <h3>Max - Cocker Spaniel, 2 años</h3>
+        <p><strong>Problema:</strong> Ansiedad por separación severa, destrozaba la casa cuando se iba solo</p>
+        <p><strong>Protocolo:</strong> Rutina de descanso + Enriquecimiento + Exposición gradual a la soledad</p>
+        <p><strong>Resultado (Semana 6):</strong> Puede pasar 8 horas solo sin ansiedad, duerme tranquilo</p>
+    </div>
+</div>
+
+<!-- CTA FINAL -->
+<div class="page">
+    <div class="cta-box">
+        <h2>¿Listo para Transformar el Comportamiento de tu Perro?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 20px;">Esta muestra contiene solo el 25% del contenido real del Pack Hogar en Calma</p>
+
+        <h3 style="color: white; margin-top: 40px;">El Pack Completo Incluye:</h3>
+        <p style="text-align: left; margin: 20px auto; max-width: 400px; color: white;">
+            ✓ 120+ páginas - eBook Principal (8 Comportamientos Clave)<br>
+            ✓ 50+ páginas - Rutinas de Calma (Protocolos Diarios Exactos)<br>
+            ✓ Tablas de Traducción Completas<br>
+            ✓ Técnicas de Desensibilización Paso-a-Paso<br>
+            ✓ Protocolos de Seguridad para Comportamientos Peligrosos<br>
+            ✓ Acceso a comunidad privada (soporte)<br>
+            ✓ Garantía 30 días: Te devolvemos el dinero si no ves mejora
+        </p>
+
+        <p style="font-size: 1.3rem; margin-top: 30px; margin-bottom: 10px;">PACK HOGAR EN CALMA</p>
+        <div class="price">39,90€</div>
+        <p style="color: rgba(255,255,255,0.9); text-decoration: line-through; margin-bottom: 20px;">Valor anterior: 74,90€</p>
+
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 20px;">O compra solo el eBook + Regalo:</p>
+        <div class="price" style="font-size: 1.5rem; margin: 15px 0;">19,90€</div>
+
+        <p style="font-size: 0.9rem; margin-top: 30px; color: rgba(255,255,255,0.8);">Acceso inmediato • Sin suscripción • Garantía de satisfacción</p>
+    </div>
+</div>
+
+</body>
+</html>

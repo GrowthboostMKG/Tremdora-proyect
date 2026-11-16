@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad Dorada - Muestra Completa de Valor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2d8f5f;
+            --secondary: #1a5a3f;
+            --accent: #e8f5f0;
+            --text: #1a1a1a;
+            --light: #f5f5f5;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 40px;
+        }
+        .portada-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1rem;
+            margin-bottom: 60px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 30px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 25px; color: var(--secondary); }
+        h3 { font-size: 1.4rem; margin-bottom: 15px; color: var(--primary); font-weight: 600; }
+        h4 { font-size: 1.15rem; margin-bottom: 12px; color: var(--secondary); font-weight: 600; }
+        p { margin-bottom: 18px; font-size: 1.05rem; }
+
+        .case-study {
+            background: white;
+            border: 2px solid var(--accent);
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .case-data { color: var(--primary); font-weight: 600; margin: 10px 0; }
+
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(45,143,95,0.08) 0%, rgba(26,90,63,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .step-box {
+            background: var(--light);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+        .instruction { margin: 12px 0; padding-left: 25px; position: relative; }
+        .instruction::before { content: "→ "; color: var(--primary); font-weight: bold; }
+
+        .recipe-box {
+            background: var(--accent);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .ingredient { margin: 10px 0; padding-left: 20px; position: relative; }
+        .ingredient::before { content: "• "; color: var(--gold); font-weight: bold; }
+
+        .cta-box {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta-box h2 { color: white; margin-top: 0; }
+        .price { font-size: 2rem; font-weight: 700; margin: 20px 0; }
+        .btn {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 15px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            margin: 10px 5px;
+            font-size: 1.05rem;
+        }
+        .btn:hover { transform: scale(1.05); }
+
+        .quote {
+            font-style: italic;
+            color: var(--secondary);
+            padding: 20px;
+            border-left: 4px solid var(--gold);
+            margin: 20px 0;
+            background: var(--accent);
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--light);
+        }
+        th {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        .toc {
+            background: var(--accent);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .toc ul { margin-left: 20px; }
+        .toc li { margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<!-- PORTADA -->
+<div class="page portada">
+    <div>
+        <h1>Edad Dorada</h1>
+        <p class="portada-subtitle">Guía Completa para Transformar la Calidad de Vida<br>de tu Perro Mayor</p>
+        <div class="portada-badge">MUESTRA GRATIS DE VALOR</div>
+        <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem;">Contiene extractos reales del pack<br>Edad Dorada (120+ págs) + Nutrición Dorada (60+ págs)</p>
+    </div>
+</div>
+
+<!-- ÍNDICE -->
+<div class="page">
+    <h1>📋 Contenido de esta Muestra</h1>
+    <div class="toc">
+        <ul style="list-style: none;">
+            <li><strong>1.</strong> Introducción: La Crisis de los Años de Oro</li>
+            <li><strong>2.</strong> CASO REAL: Max - Transformación Completa en 8 Semanas</li>
+            <li><strong>3.</strong> Los 3 Pilares de la Edad Dorada (Nutrición + Movimiento + Dolor)</li>
+            <li><strong>4.</strong> SECCIÓN NUTRICIÓN: Recetas que Funcionan (Del eBook Nutrición Dorada)</li>
+            <li><strong>5.</strong> Suplementos Recomendados: Qué Realmente Funciona</li>
+            <li><strong>6.</strong> Movimiento Suave: Protocolos Paso-a-Paso</li>
+            <li><strong>7.</strong> Otros Casos Exitosos: Bella, Rocky, Luna</li>
+            <li><strong>8.</strong> Garantía + Acceso al Pack Completo</li>
+        </ul>
+    </div>
+</div>
+
+<!-- INTRODUCCIÓN -->
+<div class="page">
+    <h1>¿Por Qué tu Perro Envejece Mal?</h1>
+    <p>Tu perro tiene 8+ años. Notas cambios:</p>
+    <div class="benefit-box">
+        <p>Camina lentamente, se queja al levantarse, tiene menos energía, duerme más, ha bajado peso o está obeso, tiene problemas digestivos, o simplemente parece que ya no disfruta la vida.</p>
+    </div>
+    <p style="margin-top: 30px;"><strong>El problema no es la edad. El problema es que nadie te enseñó a nutrirlo correctamente durante esta etapa.</strong></p>
+
+    <h3 style="margin-top: 40px;">Los 3 Mitos Que Te Están Costando Dinero:</h3>
+    <div class="step-box">
+        <h4>❌ Mito 1: "Es normal que con la edad se deteriore"</h4>
+        <p>Falso. Con la nutrición y movimiento correctos, muchos perros envejecen con vitalidad y sin dolor.</p>
+    </div>
+    <div class="step-box">
+        <h4>❌ Mito 2: "El pienso premium es suficiente"</h4>
+        <p>Falso. Los piensos no tienen la concentración de nutrientes que necesita un perro mayor.</p>
+    </div>
+    <div class="step-box">
+        <h4>❌ Mito 3: "Un perro viejo ya no puede mejorar"</h4>
+        <p>Falso. Hemos visto transformaciones en 4-6 semanas con el protocolo correcto.</p>
+    </div>
+</div>
+
+<!-- CASO REAL: MAX -->
+<div class="page">
+    <h1>📖 CASO REAL: Max - Labrador de 8 Años</h1>
+    <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 30px;"><strong>Cómo pasó de "está al final de su vida" a "juega como si tuviera 4 años"</strong></p>
+
+    <div class="case-study">
+        <h3 style="margin-top: 0;">Situación Inicial (Mes 1)</h3>
+        <p><strong>Max:</strong> Labrador de 8 años, 35kg, de un cliente en Madrid.</p>
+        <p><strong>Problemas:</strong></p>
+        <div class="instruction">Camina 10 minutos máximo, luego se cansa</div>
+        <div class="instruction">Dificultad para levantarse de la cama</div>
+        <div class="instruction">Articulaciones rígidas por la mañana</div>
+        <div class="instruction">Pérdida de apetito, peso bajó 2kg en 2 meses</div>
+        <div class="instruction">Veterinario dijo: "Es artritis, no hay mucho que hacer"</div>
+        <p style="margin-top: 20px;"><span style="background: #fff3cd; padding: 5px 10px; border-radius: 5px;"><strong>Pronóstico:</strong> Declive progresivo, posible eutanasia en 1-2 años</span></p>
+    </div>
+</div>
+
+<!-- MAX SEMANA 1-2 -->
+<div class="page">
+    <h2>Semanas 1-2: El Cambio Fundamental</h2>
+
+    <h3>Paso 1: Nutrición Anti-Inflamatoria</h3>
+    <p>Reemplazamos su pienso con un protocolo de 3 componentes:</p>
+
+    <div class="recipe-box">
+        <h4 style="margin-top: 0;">Receta Base (Para Max, ajustable a tu perro)</h4>
+        <div class="ingredient">150g de pollo cocido (sin sal) - Proteína pura</div>
+        <div class="ingredient">100g de boniato cocido - Carbohidratos complejos</div>
+        <div class="ingredient">50g de calabaza cocida - Fibra digestiva</div>
+        <div class="ingredient">1 cucharada de aceite de salmón - Omega-3 (antiinflamatorio)</div>
+        <div class="ingredient">1/2 cucharadita de hígado deshidratado - Micronutrientes</div>
+        <p style="margin-top: 20px;"><strong>Frecuencia:</strong> 2 veces al día, mañana y noche<br>
+        <strong>Total calorías:</strong> ~450-500 kcal/día (ajustar según peso)</p>
+    </div>
+
+    <h3>Paso 2: Suplementación Específica</h3>
+    <p>Agregamos 3 suplementos clave (en este orden de importancia):</p>
+
+    <table>
+        <tr>
+            <th>Suplemento</th>
+            <th>Función</th>
+            <th>Dosis (Max 35kg)</th>
+            <th>Resultado Esperado</th>
+        </tr>
+        <tr>
+            <td><strong>Glucosamina + Condroitina</strong></td>
+            <td>Regenera cartílago articular</td>
+            <td>1500mg + 1200mg/día</td>
+            <td>Menos rigidez en 2-3 semanas</td>
+        </tr>
+        <tr>
+            <td><strong>Cúrcuma (Curcumina)</strong></td>
+            <td>Antiinflamatorio natural potente</td>
+            <td>500mg/día</td>
+            <td>Menos dolor, más movilidad</td>
+        </tr>
+        <tr>
+            <td><strong>Probióticos caninos</strong></td>
+            <td>Restaura flora digestiva</td>
+            <td>10 mil millones CFU/día</td>
+            <td>Mejor apetito, mejor digestión</td>
+        </tr>
+    </table>
+</div>
+
+<!-- MAX SEMANAS 3-4 -->
+<div class="page">
+    <h2>Semanas 3-4: Movimiento Suave (Protocolo de Rehabilitación)</h2>
+
+    <h3>Por Qué Max Necesitaba Movimiento (No Reposo)</h3>
+    <p>El error común es creer que un perro con artritis debe descansar. <strong>FALSO.</strong> Sin movimiento, la musculatura se atrofia, aumenta la rigidez, y el dolor empeora.</p>
+
+    <div class="step-box">
+        <h4 style="margin-top: 0;">Protocolo de Movimiento Suave (3-4 semanas)</h4>
+
+        <h4 style="margin-top: 30px;">SEMANA 3: "Caminatas Cortas"</h4>
+        <div class="instruction">Día 1-2: 5 minutos de paseo suave + descanso de 2 horas</div>
+        <div class="instruction">Día 3-4: 7 minutos de paseo suave + descanso de 2 horas</div>
+        <div class="instruction">Día 5-7: 10 minutos de paseo suave + descanso de 2 horas</div>
+        <p style="color: var(--secondary); margin-top: 15px;"><strong>Objetivo:</strong> Que el perro respire fuerte pero no jadee excesivamente</p>
+
+        <h4 style="margin-top: 30px;">SEMANA 4: "Movimiento Articular"</h4>
+        <div class="instruction">Hidrocinesia (si hay piscina): 10-15 min 2x/semana - Excelente para articulaciones sin impacto</div>
+        <div class="instruction">Paseos en superficies suaves (pasto, arena) en lugar de cemento - Menos impacto</div>
+        <div class="instruction">Escaleras LENTAMENTE: Subir 3 escalones, bajar 3 escalones, descansar. Repite 3-4 veces</div>
+        <div class="instruction">Duración total: 15-20 minutos repartidos en el día</div>
+    </div>
+
+    <div class="quote">
+        "En la semana 3, Max empezó a caminar más fluido. En la semana 4, corrió en el parque por primera vez en meses." - Cliente de Max
+    </div>
+</div>
+
+<!-- MAX SEMANAS 5-8 RESULTADOS -->
+<div class="page">
+    <h2>Semanas 5-8: Los Resultados (Transformación Real)</h2>
+
+    <h3>Antes vs. Después (Comparativa Exacta)</h3>
+    <table>
+        <tr>
+            <th>Métrica</th>
+            <th>Semana 1</th>
+            <th>Semana 8</th>
+            <th>Cambio</th>
+        </tr>
+        <tr>
+            <td><strong>Capacidad de Caminata</strong></td>
+            <td>10 minutos, con dificultad</td>
+            <td>45 minutos, con energía</td>
+            <td>+350% más tiempo</td>
+        </tr>
+        <tr>
+            <td><strong>Levantarse de la Cama</strong></td>
+            <td>5-10 intentos, 2 minutos</td>
+            <td>1 intento, 10 segundos</td>
+            <td>Fluidez recuperada</td>
+        </tr>
+        <tr>
+            <td><strong>Rigidez Matutina</strong></td>
+            <td>Grave, impedía movimiento</td>
+            <td>Mínima, desaparece en 15 min</td>
+            <td>95% mejoría</td>
+        </tr>
+        <tr>
+            <td><strong>Peso</strong></td>
+            <td>33kg (bajó 2kg)</td>
+            <td>36kg (recuperó peso sano)</td>
+            <td>Masa muscular restaurada</td>
+        </tr>
+        <tr>
+            <td><strong>Apetito</strong></td>
+            <td>Bajo, pickiness</td>
+            <td>Normal, termina plato</td>
+            <td>+100% mejora nutricional</td>
+        </tr>
+        <tr>
+            <td><strong>Calidad de Vida</strong></td>
+            <td>Pronóstico: eutanasia próxima</td>
+            <td>Juega como cachorro</td>
+            <td>Pronóstico: 3-5 años más</td>
+        </tr>
+    </table>
+
+    <div class="benefit-box">
+        <h3 style="margin-top: 0; color: var(--primary);">✅ Resultado Final</h3>
+        <p>Max pasó de ser "un perro viejo que sufría" a "un perro que disfruta la vida". El cliente reportó: <strong>"Es como si hubiera rejuvenecido 5 años"</strong></p>
+    </div>
+</div>
+
+<!-- SECCIÓN NUTRICIÓN DORADA -->
+<div class="page">
+    <h1>🍽️ SECCIÓN: Nutrición Dorada (Del eBook Regalo)</h1>
+    <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 30px;">Las 5 Recetas Que Generan Más Transformaciones</p>
+
+    <h3>Principio Fundamental de Nutrición para Perros Mayores</h3>
+    <p><strong>No es solo CUÁNTO come, sino CÓMO lo procesas.</strong></p>
+    <p>Un perro mayor necesita:</p>
+    <div class="benefit-box">
+        <p>✓ Mayor proteína (para conservar músculo)<br>
+        ✓ Menos grasa inflamatoria (para reducir dolor)<br>
+        ✓ Más fibra soluble (para digestión)<br>
+        ✓ Micronutrientes antioxidantes (para células)</p>
+    </div>
+</div>
+
+<!-- RECETAS NUTRICIÓN -->
+<div class="page">
+    <h2>Las 5 Recetas Base (Adaptables)</h2>
+
+    <h3>Receta 1: Proteína Magra + Tubérculos (Para Perros Bajos de Peso)</h3>
+    <div class="recipe-box">
+        <div class="ingredient">200g pechuga de pollo cocida</div>
+        <div class="ingredient">150g boniato cocido</div>
+        <div class="ingredient">50g zanahoria cocida (molida)</div>
+        <div class="ingredient">1.5 cucharadas aceite de salmón</div>
+        <div class="ingredient">1 cucharadita de miel cruda</div>
+        <p style="margin-top: 20px;"><strong>Mejor para:</strong> Perros con pérdida de peso, apetito bajo<br>
+        <strong>Calorías:</strong> ~550 kcal<br>
+        <strong>Preparación:</strong> Mezclar tibia, no caliente</p>
+    </div>
+
+    <h3>Receta 2: Caldo de Hueso + Proteína (Para Articulaciones)</h3>
+    <div class="recipe-box">
+        <div class="ingredient">100ml caldo de hueso casero (sin sal)</div>
+        <div class="ingredient">150g carne de res magra molida</div>
+        <div class="ingredient">75g arroz integral cocido</div>
+        <div class="ingredient">50g espinaca cocida (picada)</div>
+        <div class="ingredient">1 cucharadita aceite de coco</div>
+        <p style="margin-top: 20px;"><strong>Mejor para:</strong> Artritis, inflamación<br>
+        <strong>El caldo aporta:</strong> Colágeno, gelatina natural (regenera cartílago)<br>
+        <strong>Frecuencia:</strong> 3-4 veces por semana</p>
+    </div>
+</div>
+
+<!-- OTROS CASOS -->
+<div class="page">
+    <h1>📊 Otros Casos Exitosos (Resultados Reales)</h1>
+
+    <div class="case-study">
+        <h3 style="margin-top: 0;">Bella - Golden Retriever, 9 años</h3>
+        <p><strong>Problema:</strong> Sobrepeso (42kg en perro de 32kg), diabetes tipo 2, letargo severo</p>
+        <p><strong>Protocolo:</strong> Nutrición controlada + movimiento acuático</p>
+        <p><strong>Resultado (Semana 12):</strong> -5kg, diabetes controlada sin medicinas adicionales, energía restaurada</p>
+        <div class="quote">"Nunca pensé que Bella volvería a ser ella. Ahora nada 2-3 veces por semana y es feliz." - Dueña de Bella</div>
+    </div>
+
+    <div class="case-study">
+        <h3>Rocky - Pastor Alemán, 7 años</h3>
+        <p><strong>Problema:</strong> Displasia de cadera severa, dolor crónico, problemático para moverse</p>
+        <p><strong>Protocolo:</strong> Suplementación específica + movimiento personalizado + acupuntura</p>
+        <p><strong>Resultado (Semana 8):</strong> 70% reducción de dolor, camina sin cojera, mejor disposición</p>
+    </div>
+</div>
+
+<!-- CTA FINAL -->
+<div class="page">
+    <div class="cta-box">
+        <h2>¿Listo para Transformar la Vida de tu Perro Mayor?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 20px;">Esta muestra contiene solo el 20% del contenido real del Pack Edad Dorada</p>
+
+        <h3 style="color: white; margin-top: 40px;">El Pack Completo Incluye:</h3>
+        <p style="text-align: left; margin: 20px auto; max-width: 400px; color: white;">
+            ✓ 120+ páginas - eBook Principal (8 Pilares Completos)<br>
+            ✓ 60+ páginas - Nutrición Dorada (50+ recetas exactas)<br>
+            ✓ Protocolos paso-a-paso para cada problema<br>
+            ✓ Tablas de dosificación para tu peso de perro<br>
+            ✓ Acceso a comunidad privada (soporte)<br>
+            ✓ Garantía 30 días: Te devolvemos el dinero si no ves mejora
+        </p>
+
+        <p style="font-size: 1.3rem; margin-top: 30px; margin-bottom: 10px;">PACK EDAD DORADA</p>
+        <div class="price">44,90€</div>
+        <p style="color: rgba(255,255,255,0.9); text-decoration: line-through; margin-bottom: 20px;">Valor anterior: 79,90€</p>
+
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 20px;">O compra solo el eBook + Regalo:</p>
+        <div class="price" style="font-size: 1.5rem; margin: 15px 0;">19,90€</div>
+
+        <p style="font-size: 0.9rem; margin-top: 30px; color: rgba(255,255,255,0.8);">Acceso inmediato • Sin suscripción • Garantía de satisfacción</p>
+    </div>
+</div>
+
+</body>
+</html>
