@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrición Dorada - Recetas y Planes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2d8f5f;
+            --secondary: #1a5a3f;
+            --accent: #e8f5f0;
+            --text: #1a1a1a;
+            --light: #f5f5f5;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+            justify-content: space-around;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 60px;
+        }
+        .portada-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 12px 28px;
+            border-radius: 30px;
+            margin-bottom: 60px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 25px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 20px; color: var(--secondary); margin-top: 35px; }
+        h3 { font-size: 1.3rem; margin-bottom: 15px; color: var(--primary); margin-top: 20px; }
+        p { margin-bottom: 16px; font-size: 1.05rem; }
+        .intro-text { font-size: 1.1rem; line-height: 1.9; color: var(--secondary); margin-bottom: 25px; }
+        .recipe-box {
+            background: var(--accent);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .recipe-title {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.15rem;
+            margin-bottom: 15px;
+        }
+        .ingredient-list {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        .ingredient {
+            margin: 8px 0;
+            font-size: 0.95rem;
+        }
+        .ingredient::before {
+            content: "• ";
+            color: var(--gold);
+            font-weight: bold;
+        }
+        .instruction { margin: 10px 0; padding-left: 20px; }
+        .instruction::before { content: "→ "; color: var(--primary); font-weight: bold; }
+        .meal-plan {
+            background: linear-gradient(135deg, rgba(45,143,95,0.08) 0%, rgba(26,90,63,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .meal-day { margin-bottom: 20px; }
+        .meal-day strong { color: var(--primary); display: block; margin-bottom: 8px; }
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(45,143,95,0.08) 0%, rgba(26,90,63,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+        .benefit-box::before {
+            content: "✓ ";
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        .checklist-item {
+            padding: 10px 0;
+            padding-left: 25px;
+            position: relative;
+            font-size: 1rem;
+        }
+        .checklist-item::before {
+            content: "☑";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page portada">
+    <div>
+        <div class="portada-badge">🥗 Recetas Probadas y Nutritivas</div>
+        <h1>Nutrición Dorada</h1>
+        <p class="portada-subtitle">Recetas y Planes de Alimentación para tu Perro Senior</p>
+        <p class="portada-subtitle" style="font-size: 1rem; margin-top: 40px; opacity: 0.9;">La Nutrición Correcta es la Clave de la Longevidad</p>
+    </div>
+</div>
+
+<div class="page">
+    <h1>Bienvenido a Nutrición Dorada</h1>
+    <p class="intro-text">Este es el complemento perfecto para Edad Dorada. Aquí encontrarás recetas prácticas, planes de alimentación y toda la información que necesitas para mantener a tu perro viejo fuerte y saludable.</p>
+
+    <h3>¿Por qué un ebook entero sobre nutrición?</h3>
+    <p>Porque la nutrición es el <span style="background: rgba(212,165,116,0.3); padding: 2px 6px; border-radius: 4px;">50% del éxito</span> en el bienestar de un perro senior.</p>
+
+    <p>En estas páginas encontrarás:</p>
+    <div class="checklist-item">Recetas prácticas (caseras y fáciles de preparar)</div>
+    <div class="checklist-item">Planes de alimentación para diferentes edades</div>
+    <div class="checklist-item">Suplementos y cuándo usarlos</div>
+    <div class="checklist-item">Qué alimentos evitar a toda costa</div>
+    <div class="checklist-item">Tablas de porciones exactas</div>
+    <div class="checklist-item">Soluciones para problemas digestivos comunes</div>
+</div>
+
+<div class="page">
+    <h2>Las 4 Reglas de Oro de la Nutrición Senior</h2>
+
+    <div class="benefit-box">
+        <strong>Regla 1: Proteína de Alta Calidad</strong>
+        <p style="margin-top: 10px;">30-35% de proteína mínimo. Es lo que sostiene la masa muscular. Sin excepción.</p>
+    </div>
+
+    <div class="benefit-box">
+        <strong>Regla 2: Grasas Saludables Abundantes</strong>
+        <p style="margin-top: 10px;">Omega-3 y Omega-6 en la proporción correcta. Esto reduce inflamación y mejora cognición.</p>
+    </div>
+
+    <div class="benefit-box">
+        <strong>Regla 3: Fibra Moderada</strong>
+        <p style="margin-top: 10px;">No mucha (causa problemas digestivos), no poca (causa estreñimiento). El equilibrio es clave.</p>
+    </div>
+
+    <div class="benefit-box">
+        <strong>Regla 4: Sin Aditivos Dañinos</strong>
+        <p style="margin-top: 10px;">Cero colorantes, conservantes artificiales ni harinas baratas. Tu perro merece mejor.</p>
+    </div>
+</div>
+
+<div class="page">
+    <h2>Receta 1: Base de Pollo y Arroz Integral</h2>
+
+    <div class="recipe-box">
+        <p class="recipe-title">🍗 Comida Nutritiva para Diario</p>
+
+        <h3 style="margin-top: 0;">Ingredientes (1 ración diaria):</h3>
+        <div class="ingredient-list">
+            <div class="ingredient">150g de pollo cocido y desmenuzado</div>
+            <div class="ingredient">1/2 taza de arroz integral cocido</div>
+            <div class="ingredient">1/4 taza de calabaza cocida</div>
+            <div class="ingredient">1 cucharadita de aceite de pescado (omega-3)</div>
+            <div class="ingredient">1 puñado de verduras mixtas (zanahoria, guisantes)</div>
+        </div>
+
+        <h3>Instrucciones:</h3>
+        <div class="instruction">Cocina el pollo sin sal ni especias (hierve o al horno)</div>
+        <div class="instruction">Prepara el arroz integral según indicaciones (25-30 minutos)</div>
+        <div class="instruction">Cocina la calabaza al vapor hasta estar blanda</div>
+        <div class="instruction">Mezcla todos los ingredientes en un recipiente</div>
+        <div class="instruction">Deja enfriar a temperatura ambiente</div>
+        <div class="instruction">Sirve una vez al día (dividir si son dos comidas)</div>
+
+        <p style="margin-top: 20px; color: var(--secondary); font-weight: 600;">✓ Calorías aprox: 380 | Proteína: 35g | Grasas: 12g</p>
+    </div>
+</div>
+
+<div class="page">
+    <h2>Receta 2: Mix de Pescado y Boniato</h2>
+
+    <div class="recipe-box">
+        <p class="recipe-title">🐟 Receta Premium (2 veces por semana)</p>
+
+        <h3 style="margin-top: 0;">Ingredientes (1 ración):</h3>
+        <div class="ingredient-list">
+            <div class="ingredient">120g de salmón o sardina cocida</div>
+            <div class="ingredient">1/2 boniato cocido y machacado</div>
+            <div class="ingredient">2 cucharadas de brócoli cocido picado</div>
+            <div class="ingredient">1/2 cucharadita de aceite de oliva virgen</div>
+            <div class="ingredient">1 cucharada de huevo cocido picado</div>
+        </div>
+
+        <h3>Instrucciones:</h3>
+        <div class="instruction">Cocina el pescado al horno sin sal (12-15 min a 180°C)</div>
+        <div class="instruction">Desmenúzalo asegurándote de quitar todas las espinas</div>
+        <div class="instruction">Cocina el boniato al vapor 15-20 minutos</div>
+        <div class="instruction">Mezcla todos los ingredientes suavemente</div>
+        <div class="instruction">Sirve a temperatura ambiente</div>
+
+        <p style="margin-top: 20px; color: var(--secondary); font-weight: 600;">✓ Calorías aprox: 320 | Proteína: 32g | Omega-3: Alto</p>
+    </div>
+</div>
+
+<div class="page">
+    <h2>Receta 3: Cordero y Verduras (Para Problemas Digestivos)</h2>
+
+    <div class="recipe-box">
+        <p class="recipe-title">🥔 Receta Suave (Cuando hay sensibilidad)</p>
+
+        <h3 style="margin-top: 0;">Ingredientes (1 ración):</h3>
+        <div class="ingredient-list">
+            <div class="ingredient">120g de cordero magro cocido</div>
+            <div class="ingredient">1/3 taza de arroz blanco (más fácil de digerir que integral)</div>
+            <div class="ingredient">1/4 taza de zanahoria cocida</div>
+            <div class="ingredient">1 cucharada de calabaza cocida</div>
+            <div class="ingredient">1 cucharadita de caldo de hueso casero (sin sal)</div>
+        </div>
+
+        <h3>Instrucciones:</h3>
+        <div class="instruction">Hierve el cordero hasta estar muy tierno</div>
+        <div class="instruction">Desmenúzalo en trozos pequeños</div>
+        <div class="instruction">Cocina arroz blanco separadamente</div>
+        <div class="instruction">Mezcla suavemente, añadiendo caldo de hueso</div>
+        <div class="instruction">Ofrece tibia durante 7-10 días</div>
+
+        <p style="margin-top: 20px; color: var(--secondary); font-weight: 600;">✓ Calorías aprox: 310 | Fácil de digerir | Proteína: 30g</p>
+    </div>
+</div>
+
+<div class="page">
+    <h2>Plan de Alimentación de 7 Días</h2>
+
+    <div class="meal-plan">
+        <div class="meal-day">
+            <strong>🌙 Lunes</strong>
+            Desayuno: Base Pollo y Arroz | Cena: Base Pollo y Arroz
+        </div>
+        <div class="meal-day">
+            <strong>🌙 Martes</strong>
+            Desayuno: Base Pollo y Arroz | Cena: Mix Pescado y Boniato (Premium)
+        </div>
+        <div class="meal-day">
+            <strong>🌙 Miércoles</strong>
+            Desayuno: Base Pollo y Arroz | Cena: Base Pollo y Arroz
+        </div>
+        <div class="meal-day">
+            <strong>🌙 Jueves</strong>
+            Desayuno: Cordero y Verduras (Si está bien) | Cena: Base Pollo y Arroz
+        </div>
+        <div class="meal-day">
+            <strong>🌙 Viernes</strong>
+            Desayuno: Base Pollo y Arroz | Cena: Mix Pescado y Boniato (Premium)
+        </div>
+        <div class="meal-day">
+            <strong>🌙 Sábado</strong>
+            Desayuno: Base Pollo y Arroz | Cena: Cordero y Verduras (Variedad)
+        </div>
+        <div class="meal-day">
+            <strong>🌙 Domingo</strong>
+            Desayuno: Base Pollo y Arroz | Cena: Base Pollo y Arroz
+        </div>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">💡 Consejo: Repite este plan y alterna cada 2-3 semanas para evitar aburrimiento y proporcionar variedad nutricional.</p>
+</div>
+
+<div class="page">
+    <h2>Alimentos PERMITIDOS</h2>
+
+    <h3>Proteínas (30-35% diarias)</h3>
+    <div class="checklist-item">Pollo (sin huesos, sin piel)</div>
+    <div class="checklist-item">Pavo (magro)</div>
+    <div class="checklist-item">Salmón y sardinas (omega-3)</div>
+    <div class="checklist-item">Cordero (magro)</div>
+    <div class="checklist-item">Huevos cocidos</div>
+    <div class="checklist-item">Caldo de hueso casero (sin sal)</div>
+
+    <h3 style="margin-top: 30px;">Carbohidratos Saludables</h3>
+    <div class="checklist-item">Arroz integral y blanco</div>
+    <div class="checklist-item">Boniato (excelente para inflamación)</div>
+    <div class="checklist-item">Calabaza</div>
+    <div class="checklist-item">Avena sin azúcar</div>
+    <div class="checklist-item">Guisantes frescos</div>
+
+    <h3 style="margin-top: 30px;">Verduras (máx 10% de la comida)</h3>
+    <div class="checklist-item">Zanahoria cocida</div>
+    <div class="checklist-item">Brócoli (pequeñas cantidades)</div>
+    <div class="checklist-item">Espinaca cocida</div>
+    <div class="checklist-item">Manzana (sin semillas)</div>
+    <div class="checklist-item">Plátano (ocasional)</div>
+</div>
+
+<div class="page">
+    <h2>Alimentos PROHIBIDOS</h2>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Chocolate, Uvas, Pasas</strong>
+        <p style="margin-top: 10px;">Tóxicos. Pueden causar insuficiencia renal.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Cebolla y Ajo</strong>
+        <p style="margin-top: 10px;">Dañan los glóbulos rojos. Especialmente peligrosos.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Alimentos con Xilitol</strong>
+        <p style="margin-top: 10px;">Causa hipoglucemia severa y fallo hepático.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Huesos Cocinados</strong>
+        <p style="margin-top: 10px;">Se astillan y pueden perforar el intestino.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Alimentos Grasos Excesivos</strong>
+        <p style="margin-top: 10px;">Pueden causar pancreatitis (muy dolorosa).</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Comida Comercial Barata</strong>
+        <p style="margin-top: 10px;">Llena de rellenos, harinas y aditivos. No es comida de verdad.</p>
+    </div>
+</div>
+
+<div class="page">
+    <h2>Suplementos Recomendados</h2>
+
+    <h3>✓ Glucosamina + Condroitina</h3>
+    <p><strong>Para:</strong> Articulaciones, movilidad, dolor articular</p>
+    <p><strong>Dosis:</strong> 500-1500mg diarios (según peso)</p>
+    <p><strong>Efecto:</strong> Visible en 4-6 semanas</p>
+
+    <h3 style="margin-top: 25px;">✓ Omega-3 (Aceite de Pescado)</h3>
+    <p><strong>Para:</strong> Inflamación, salud cognitiva, pelaje</p>
+    <p><strong>Dosis:</strong> 1000-2000mg EPA+DHA diarios</p>
+    <p><strong>Efecto:</strong> Inmediato (mejora en energía)</p>
+
+    <h3 style="margin-top: 25px;">✓ Probióticos</h3>
+    <p><strong>Para:</strong> Digestión, salud intestinal, inmunidad</p>
+    <p><strong>Dosis:</strong> CFU específicas según marca (10-20 mil millones)</p>
+    <p><strong>Efecto:</strong> Mejora digestiva en 1-2 semanas</p>
+
+    <h3 style="margin-top: 25px;">✓ Antioxidantes (Vitaminas E, C)</h3>
+    <p><strong>Para:</strong> Envejecimiento cerebral, visión</p>
+    <p><strong>Dosis:</strong> Seguir indicaciones del veterinario</p>
+    <p><strong>Efecto:</strong> Largo plazo (prevención)</p>
+</div>
+
+<div class="page">
+    <h2>Tabla de Porciones Según Peso</h2>
+
+    <div class="meal-plan">
+        <div class="meal-day">
+            <strong>Perro < 10 kg:</strong>
+            300-350 calorías diarias (dividir en 2 comidas)
+        </div>
+        <div class="meal-day">
+            <strong>Perro 10-20 kg:</strong>
+            400-450 calorías diarias (dividir en 2 comidas)
+        </div>
+        <div class="meal-day">
+            <strong>Perro 20-30 kg:</strong>
+            500-600 calorías diarias (dividir en 2 comidas)
+        </div>
+        <div class="meal-day">
+            <strong>Perro > 30 kg:</strong>
+            650-750 calorías diarias (dividir en 2 comidas)
+        </div>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">💡 Ajusta según: Nivel de actividad, metabolismo individual y peso actual.</p>
+
+    <p style="color: #666; font-size: 0.95rem; margin-top: 20px;">Si tu perro está sobrepeso: Reduce 10-15%. Si está bajo peso: Aumenta 10-15%. Cambios graduales, nunca bruscos.</p>
+</div>
+
+<div class="page">
+    <h2>Soluciones para Problemas Digestivos Comunes</h2>
+
+    <h3>Problema: Estreñimiento</h3>
+    <p><strong>Causa:</strong> Falta de agua, fibra insuficiente o poca actividad</p>
+    <p><strong>Solución:</strong> Aumenta agua (ofrece frecuentemente), añade calabaza cocida, aumenta movimiento, aumenta fibra gradualmente</p>
+
+    <h3 style="margin-top: 25px;">Problema: Diarrea</h3>
+    <p><strong>Causa:</strong> Cambio brusco de comida, alergia, o infección</p>
+    <p><strong>Solución:</strong> Vuelve a comida anterior, usa arroz blanco + caldo de hueso, espera 2-3 días, consulta vet si persiste</p>
+
+    <h3 style="margin-top: 25px;">Problema: Gases/Hinchazón</h3>
+    <p><strong>Causa:</strong> Comida de baja calidad, cambios bruscos, o sensibilidades</p>
+    <p><strong>Solución:</strong> Mejora calidad de comida, añade probióticos, reduce raciones (dos comidas pequeñas mejor que una grande)</p>
+
+    <h3 style="margin-top: 25px;">Problema: Poco Apetito</h3>
+    <p><strong>Causa:</strong> Edad, dolor, enfermedad o estrés</p>
+    <p><strong>Solución:</strong> Calienta la comida (mejora aroma), añade caldo de hueso, consulta vet para descartar problemas</p>
+</div>
+
+<div class="page">
+    <h1>Tu Checklist Nutricional</h1>
+
+    <h3>Implementación Semana 1</h3>
+    <div class="checklist-item">Revisa etiquetas de comida actual</div>
+    <div class="checklist-item">Compra ingredientes para Receta 1 (Base Pollo y Arroz)</div>
+    <div class="checklist-item">Prepara primeras 3 raciones</div>
+
+    <h3 style="margin-top: 25px;">Semana 2-3</h3>
+    <div class="checklist-item">Implementa 2 comidas diarias en horarios fijos</div>
+    <div class="checklist-item">Observa respuesta digestiva</div>
+    <div class="checklist-item">Añade omega-3</div>
+
+    <h3 style="margin-top: 25px;">Semana 4+</h3>
+    <div class="checklist-item">Alterna recetas según plan de 7 días</div>
+    <div class="checklist-item">Monitorea peso y energía</div>
+    <div class="checklist-item">Añade otros suplementos si es necesario</div>
+</div>
+
+<div class="page" style="text-align: center; justify-content: space-around;">
+    <div>
+        <h2 style="color: var(--primary);">Nutrición Dorada Completa</h2>
+        <p style="color: var(--secondary); font-size: 1.1rem; margin-bottom: 30px;">La comida es medicina. Ahora tienes las herramientas.</p>
+        <p style="color: #666; margin-bottom: 40px;">Implementa una receta esta semana. Verás la diferencia en 2-3 semanas.</p>
+        <p style="color: var(--secondary); font-weight: 600;">Que aproveche 🐾</p>
+        <p style="color: #999; font-size: 0.95rem; margin-top: 40px;">© 2025 Tremdora. Nutrición para Vidas Largas y Felices.</p>
+    </div>
+</div>
+
+</body>
+</html>

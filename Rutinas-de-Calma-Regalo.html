@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutinas de Calma - Guía Práctica</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #b8764a;
+            --secondary: #8b5a2b;
+            --accent: #fff4e6;
+            --text: #1a1a1a;
+            --light: #f9f5f0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.7;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 50px 40px;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.3rem; margin-bottom: 25px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 20px; color: var(--secondary); margin-top: 30px; }
+        h3 { font-size: 1.2rem; margin-bottom: 12px; color: var(--primary); font-weight: 600; }
+        p { margin-bottom: 15px; font-size: 1rem; }
+        .routine-box {
+            background: var(--accent);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+        .time-slot {
+            background: white;
+            border: 1px solid var(--light);
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 8px;
+        }
+        .time-slot strong {
+            color: var(--primary);
+            font-size: 0.95rem;
+        }
+        .checklist-day {
+            margin: 20px 0;
+        }
+        .check-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--light);
+        }
+        .check-box {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--primary);
+            border-radius: 4px;
+            margin-right: 12px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .check-item:last-child { border-bottom: none; }
+        .tip-box {
+            background: linear-gradient(135deg, rgba(184,118,74,0.08) 0%, rgba(139,90,43,0.08) 100%);
+            border-left: 4px solid var(--primary);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+        .tip-box strong { color: var(--primary); }
+        .alert-box {
+            background: #fff3cd;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+        }
+        .day-header {
+            background: var(--primary);
+            color: white;
+            padding: 12px 15px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page portada">
+    <div style="max-width: 600px;">
+        <h1>Rutinas de Calma</h1>
+        <p style="font-size: 1.2rem; opacity: 0.95;">Guía Práctica de Checklists y Rutinas Diarias</p>
+        <p style="font-size: 1rem; margin-top: 40px; opacity: 0.9;">La clave para un hogar en armonía</p>
+    </div>
+</div>
+
+<div class="page">
+    <h1>Cómo Usar Esta Guía</h1>
+
+    <p>Este ebook es diferente. No es para leer de una sentada. Es para USAR.</p>
+
+    <p>Cada página tiene checklists que puedes:</p>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div>Imprimir y colgar en tu nevera</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div>Fotocopiar y llenar semana a semana</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div>Usar como referencia rápida</div>
+    </div>
+
+    <p style="margin-top: 30px;"><strong>Objetivo:</strong> Que tu rutina se vuelva un hábito automático. Una vez automatizado, es fácil mantenerlo.</p>
+
+    <div class="tip-box">
+        <strong>Consejo Profesional:</strong> La primera 2 semanas son las más difíciles. Después, se vuelve rutina natural y fácil. Aguanta esas 2 semanas.
+    </div>
+</div>
+
+<div class="page">
+    <div class="section-title">Rutina Diaria - Lunes a Viernes (Días Laborales)</div>
+
+    <div class="routine-box">
+        <h3>7:00 AM - DESPERTAR Y PASEO MATUTINO</h3>
+        <div class="time-slot">
+            <strong>Acción:</strong> Abre la puerta de la habitación, deja que se despierte naturalmente
+        </div>
+        <div class="time-slot">
+            <strong>Paseo:</strong> 20-30 minutos a ritmo normal (permite olfatear)
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Activación mental + liberación de energía + necesidades fisiológicas
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>8:00 AM - DESAYUNO + ENTRENAMIENTO MICRO</h3>
+        <div class="time-slot">
+            <strong>Comida:</strong> Porción consistente a la misma hora
+        </div>
+        <div class="time-slot">
+            <strong>Entrenamiento:</strong> 5 minutos de órdenes simples (siéntate, ven, échate)
+        </div>
+        <div class="time-slot">
+            <strong>Refuerzo:</strong> Premios pequeños por comportamientos correctos
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>9:00 AM - JUEGO ACTIVO (Opcional si está en casa)</h3>
+        <div class="time-slot">
+            <strong>Si trabajas en casa:</strong> 10 minutos de juego intenso
+        </div>
+        <div class="time-slot">
+            <strong>Si trabajas fuera:</strong> Deja juguete enriquecedor, parte a trabajar
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Cansarlo físicamente antes de descanso largo
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>13:00 PM - DESCANSO OBLIGATORIO</h3>
+        <div class="time-slot">
+            <strong>Lugar:</strong> En su espacio seguro
+        </div>
+        <div class="time-slot">
+            <strong>Duración:</strong> Mínimo 3-4 horas SIN interrupciones
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Descanso profundo = cuerpo y mente recargados
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>16:00 PM - PASEO TARDE + SOCIALIZACIÓN</h3>
+        <div class="time-slot">
+            <strong>Paseo:</strong> 20-30 minutos en parque o zona segura
+        </div>
+        <div class="time-slot">
+            <strong>Socialización:</strong> Interacción con otros perros (si es amigable)
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Ejercicio + estimulación mental
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>19:00 PM - CENA + JUEGO MENTAL</h3>
+        <div class="time-slot">
+            <strong>Comida:</strong> Segunda ración (ligeramente menor que desayuno)
+        </div>
+        <div class="time-slot">
+            <strong>Estimulación:</strong> Puzzle toy o juego de búsqueda
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Alimentación + ocupar mente antes de descanso nocturno
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>21:00 PM - PASEO FINAL + DESCANSO</h3>
+        <div class="time-slot">
+            <strong>Paseo:</strong> 10-15 minutos suave (últimas necesidades)
+        </div>
+        <div class="time-slot">
+            <strong>Descanso:</strong> Area cómoda para dormir toda la noche
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Cierre tranquilo del día
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="section-title">Rutina Semanal - Checklist de Ejecución</div>
+
+    <div class="day-header">Lunes</div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div><strong>7:00 AM:</strong> Paseo 20-30 min</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div><strong>8:00 AM:</strong> Desayuno + entrenamiento (5 min)</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div><strong>13:00 PM:</strong> Descanso 3-4 horas</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div><strong>16:00 PM:</strong> Paseo + socialización 30 min</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div><strong>19:00 PM:</strong> Cena + puzzle toy (10 min)</div>
+    </div>
+    <div class="check-item">
+        <div class="check-box"></div>
+        <div><strong>21:00 PM:</strong> Paseo final 10-15 min</div>
+    </div>
+
+    <div class="day-header">Martes a Viernes</div>
+    <p><em>(Misma rutina que lunes)</em></p>
+</div>
+
+<div class="page">
+    <div class="section-title">Rutina Semanal - Sábado y Domingo</div>
+
+    <div class="routine-box">
+        <h3>8:00 AM - DESPERTAR RELAJADO</h3>
+        <div class="time-slot">Sin prisa. Deja que se despierte naturalmente.</div>
+    </div>
+
+    <div class="routine-box">
+        <h3>9:00 AM - PASEO LARGO + ACTIVIDAD ESPECIAL</h3>
+        <div class="time-slot">
+            <strong>Duración:</strong> 45-60 minutos
+        </div>
+        <div class="time-slot">
+            <strong>Lugar:</strong> Parque, playa, montaña (lugar enriquecedor)
+        </div>
+        <div class="time-slot">
+            <strong>Actividad:</strong> Juego más intenso, natación (si le gusta), exploración
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>11:00 AM - DESAYUNO + ENTRENAMIENTO</h3>
+        <div class="time-slot">
+            <strong>Entrenamiento:</strong> 10-15 minutos (más largo que entre semana)
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Aprovechar que tienes más tiempo
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>13:00 PM - DESCANSO LARGO</h3>
+        <div class="time-slot">
+            <strong>Duración:</strong> 4-5 horas
+        </div>
+        <div class="time-slot">
+            <strong>Lugar:</strong> Espacio seguro, tranquilo
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>17:00 PM - PASEO TARDE Y TIEMPO DE CALIDAD</h3>
+        <div class="time-slot">
+            <strong>Paseo:</strong> 30 minutos a ritmo suave
+        </div>
+        <div class="time-slot">
+            <strong>Tiempo de calidad:</strong> 20-30 minutos de interacción (caricias, juego suave)
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>19:00 PM - CENA + RELAJACIÓN</h3>
+        <div class="time-slot">
+            <strong>Comida:</strong> Segunda ración
+        </div>
+        <div class="time-slot">
+            <strong>Ambiente:</strong> Casa tranquila, sin ruidos estresantes
+        </div>
+    </div>
+
+    <div class="routine-box">
+        <h3>21:00 PM - DESCANSO NOCTURNO</h3>
+        <div class="time-slot">
+            <strong>Paseo final:</strong> 10 minutos
+        </div>
+        <div class="time-slot">
+            <strong>Objetivo:</strong> Cierre tranquilo del fin de semana
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="section-title">Rutina de Entrenamiento (5 Minutos Diarios)</div>
+
+    <div class="routine-box">
+        <h3>Ejercicio 1: SIÉNTATE (Minuto 1)</h3>
+        <div class="time-slot">
+            <strong>Cómo:</strong> Lleva la comida lentamente hacia atrás sobre su cabeza
+        </div>
+        <div class="time-slot">
+            <strong>Cuando se siente:</strong> Premia inmediatamente con entusiasmo
+        </div>
+        <div class="time-slot">
+            <strong>Repeticiones:</strong> 5-10 veces</div>
+        <div class="time-slot">
+            <strong>Meta:</strong> Hacer siéntate sin orden verbal</div>
+    </div>
+
+    <div class="routine-box">
+        <h3>Ejercicio 2: VEN AQUÍ (Minuto 2)</h3>
+        <div class="time-slot">
+            <strong>Cómo:</strong> Abre la puerta de otra habitación, muestra comida, llámalo feliz
+        </div>
+        <div class="time-slot">
+            <strong>Cuando viene:</strong> Premia enormemente
+        </div>
+        <div class="time-slot">
+            <strong>Repeticiones:</strong> 3-5 veces desde distancias diferentes</div>
+        <div class="time-slot">
+            <strong>Meta:</strong> Que venga SIEMPRE que lo llames</div>
+    </div>
+
+    <div class="routine-box">
+        <h3>Ejercicio 3: ÉCHATE (Minutos 3-4)</h3>
+        <div class="time-slot">
+            <strong>Cómo:</strong> Desde la posición de sienta, lleva comida hacia el piso
+        </div>
+        <div class="time-slot">
+            <strong>Cuando se echa:</strong> Premia y felicita
+        </div>
+        <div class="time-slot">
+            <strong>Repeticiones:</strong> 5-10 veces</div>
+        <div class="time-slot">
+            <strong>Meta:</strong> Hacer echarse con orden "échate"</div>
+    </div>
+
+    <div class="routine-box">
+        <h3>Ejercicio 4: QUÉDATE (Minuto 5)</h3>
+        <div class="time-slot">
+            <strong>Cómo:</strong> Desde echado, aléjate 1 metro, espera 5 segundos, vuelve y premia
+        </div>
+        <div class="time-slot">
+            <strong>Aumento gradual:</strong> Aumenta distancia y tiempo cada semana</div>
+        <div class="time-slot">
+            <strong>Meta:</strong> Que se quede quieto 30 segundos en cualquier lugar</div>
+    </div>
+</div>
+
+<div class="page">
+    <div class="section-title">Checklist Diario (Imprime y Usa)</div>
+
+    <h3 style="margin-top: 0;">Día: _____ Semana: _____</h3>
+
+    <div class="checklist-day">
+        <h3>Mañana</h3>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>7:00 AM - Paseo matutino (20-30 min)</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>8:00 AM - Desayuno a hora fija</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>8:15 AM - Entrenamiento (5 min)</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>Agua fresca disponible todo el día</div>
+        </div>
+    </div>
+
+    <div class="checklist-day">
+        <h3>Tarde</h3>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>13:00 PM - Descanso en espacio seguro</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>16:00 PM - Paseo tarde (20-30 min)</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>16:30 PM - Juego o socialización</div>
+        </div>
+    </div>
+
+    <div class="checklist-day">
+        <h3>Noche</h3>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>19:00 PM - Cena a hora fija</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>19:15 PM - Estimulación mental (puzzle toy)</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>21:00 PM - Paseo final (10-15 min)</div>
+        </div>
+        <div class="check-item">
+            <div class="check-box"></div>
+            <div>22:00 PM - Descanso nocturno</div>
+        </div>
+    </div>
+
+    <p style="margin-top: 30px;"><strong>Notas sobre el día:</strong></p>
+    <p style="border: 1px solid var(--light); padding: 15px; min-height: 80px; background: var(--light);"></p>
+</div>
+
+<div class="page">
+    <div class="section-title">Señales de Alerta (¿Cuándo Consultar al Veterinario?)</div>
+
+    <div class="alert-box">
+        <strong>⚠ Cambio drástico de comportamiento</strong>
+        <p>Si de repente está apático o muy hiperactivo (fuera de su norma)</p>
+    </div>
+
+    <div class="alert-box">
+        <strong>⚠ Cambio en hábitos de comer/beber</strong>
+        <p>Come mucho menos o mucho más de lo normal</p>
+    </div>
+
+    <div class="alert-box">
+        <strong>⚠ Cambio en patrones de sueño</strong>
+        <p>Duerme mucho más o muy poco (anormal para su edad)</p>
+    </div>
+
+    <div class="alert-box">
+        <strong>⚠ Problemas digestivos nuevos</strong>
+        <p>Diarrea persistente, vómitos, o estreñimiento por más de 2 días</p>
+    </div>
+
+    <div class="alert-box">
+        <strong>⚠ Comportamiento agresivo nuevo</strong>
+        <p>Si de repente muestra agresión (puede ser dolor)</p>
+    </div>
+
+    <div class="alert-box">
+        <strong>⚠ Ansiedad extrema nuevas</strong>
+        <p>Temblores, respiración rápida, pánico sin causa aparente</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>💡 Recuerda:</strong> Cambios de comportamiento usualmente indican que algo no está bien. Física o mentalmente. Siempre consulta al vet si notas cambios.
+    </div>
+</div>
+
+<div class="page">
+    <div class="section-title">Tips para Mantener la Consistencia</div>
+
+    <div class="tip-box">
+        <strong>1. Imprime este checklist</strong>
+        <p>Cuelga una copia en tu nevera. Marca cada tarea. Verás el progreso físicamente.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>2. Configura alarmas en tu teléfono</strong>
+        <p>Notificaciones para paseos y comidas. La consistencia es 50% del éxito.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>3. Comparte la responsabilidad</strong>
+        <p>Si hay más de una persona en casa, que todos conozcan la rutina. Consistencia = todos hacemos lo mismo.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>4. Ajusta según respuesta de tu perro</strong>
+        <p>Si necesita más o menos ejercicio, ajusta. La rutina es flexible, pero predecible.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>5. Celebra pequeños éxitos</strong>
+        <p>Una semana consistente es un éxito. Dos semanas, otro. Acumula wins.</p>
+    </div>
+
+    <div class="tip-box">
+        <strong>6. Recuerda por qué lo haces</strong>
+        <p>Está creando un perro calmado, feliz y confiado. Vale la pena la disciplina ahora.</p>
+    </div>
+</div>
+
+<div class="page" style="text-align: center; display: flex; align-items: center; justify-content: center;">
+    <div>
+        <h1 style="color: var(--primary);">Rutinas = Hábitos = Transformación</h1>
+        <p style="font-size: 1.1rem; color: var(--secondary); margin: 30px 0;">La consistencia es el superpoder del entrenamiento canino.</p>
+
+        <p style="color: #666; font-size: 1rem; line-height: 1.8; max-width: 500px; margin: 30px auto;">
+            Tres semanas de consistencia total. Eso es todo lo que necesitas para que las nuevas rutinas se conviertan en hábitos automáticos para ti y tu perro.
+        </p>
+
+        <p style="color: var(--primary); font-weight: 600; margin-top: 40px; font-size: 1.1rem;">Hoy es el primer día. Haz una cosa.</p>
+
+        <p style="color: #999; font-size: 0.95rem; margin-top: 40px;">© 2025 Tremdora. Rutinas para Vidas Tranquilas 🐾</p>
+    </div>
+</div>
+
+</body>
+</html>
