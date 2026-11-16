@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad Dorada - Muestra Gratis</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2d8f5f;
+            --secondary: #1a5a3f;
+            --accent: #e8f5f0;
+            --text: #1a1a1a;
+            --light: #f5f5f5;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 60px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 30px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 25px; color: var(--secondary); }
+        h3 { font-size: 1.4rem; margin-bottom: 15px; color: var(--primary); }
+        p { margin-bottom: 18px; font-size: 1.05rem; }
+        .intro-text { font-size: 1.15rem; line-height: 1.9; color: var(--secondary); margin-bottom: 25px; }
+        .pillar {
+            background: var(--accent);
+            padding: 30px;
+            margin: 30px 0;
+            border-left: 5px solid var(--primary);
+            border-radius: 8px;
+        }
+        .pillar-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            line-height: 50px;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(45,143,95,0.08) 0%, rgba(26,90,63,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .benefit-box::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        .testimonial {
+            background: white;
+            border: 2px solid var(--accent);
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .testimonial-author {
+            color: var(--primary);
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .quote { font-style: italic; font-size: 1.1rem; color: var(--secondary); margin-bottom: 15px; }
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-section h2 { color: white; margin-top: 0; }
+        .price-box {
+            background: var(--accent);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .price {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .price-old {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        .checklist-item {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.05rem;
+        }
+        .checklist-item::before {
+            content: "☑";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+        .highlight {
+            background: rgba(45, 143, 95, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<!-- PORTADA -->
+<div class="page portada">
+    <div>
+        <h1>Edad Dorada</h1>
+        <p class="portada-subtitle">Muestra Gratis: La Guía para el Bienestar Total de tu Perro Senior</p>
+        <p class="portada-subtitle" style="font-size: 1.1rem; opacity: 0.9;">Descubre el Método Científico Paso a Paso</p>
+    </div>
+</div>
+
+<!-- BIENVENIDA -->
+<div class="page">
+    <h1>Bienvenido a Edad Dorada</h1>
+    <p class="intro-text">Tu perro entra en sus años dorados. Estos años son especiales, únicos y merecen atención especial.</p>
+
+    <p>Cuando tu perro cumple 7 años, su cuerpo comienza a cambiar. Su metabolismo ralentiza, sus articulaciones piden cuidado, su mente necesita estimulación diferente, y su corazón merece comprensión.</p>
+
+    <p>Este ebook no es una guía más. Es el <span class="highlight">resultado de años de investigación y trabajo con cientos de perros</span>.</p>
+
+    <p><strong>En esta muestra gratuita descubrirás:</strong></p>
+
+    <div class="checklist-item">Los 8 Pilares del Bienestar que transforman la calidad de vida</div>
+    <div class="checklist-item">Por qué tu perro envejece rápido (y cómo frenarlo)</div>
+    <div class="checklist-item">Los 5 errores que cometen 9 de cada 10 dueños</div>
+    <div class="checklist-item">Nutrición inteligente para cada etapa</div>
+    <div class="checklist-item">Ejercicio adaptado a su edad</div>
+    <div class="checklist-item">Manejo del dolor y la incomodidad</div>
+
+    <p style="margin-top: 40px;"><strong>Lo mejor:</strong> Con solo 15-20 minutos diarios, verás cambios en 2-3 semanas.</p>
+</div>
+
+<!-- LOS 8 PILARES -->
+<div class="page">
+    <h2>Los 8 Pilares del Bienestar</h2>
+    <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 40px;">La estructura que sostiene una vida larga y feliz</p>
+
+    <div class="pillar">
+        <div class="pillar-number">1</div>
+        <h3>Nutrición Inteligente</h3>
+        <p>No es "comida de perro viejo". Es nutrición adaptada a su edad, peso y necesidades específicas.</p>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pillar">
+        <div class="pillar-number">2</div>
+        <h3>Movimiento Adaptado</h3>
+        <p>No es "menos ejercicio". Es el TIPO correcto de movimiento para mantener músculos sin dañar articulaciones.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">3</div>
+        <h3>Comodidad del Entorno</h3>
+        <p>Una cama inapropiada puede causar dolor crónico. El espacio correcto = bienestar constante.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">4</div>
+        <h3>Estimulación Mental</h3>
+        <p>Un perro viejo aburrido se "apaga". La estimulación mental mantiene el cerebro activo.</p>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pillar">
+        <div class="pillar-number">5</div>
+        <h3>Control del Dolor</h3>
+        <p>No solo medicamentos. Es un enfoque integral que combina técnicas naturales con apoyo veterinario.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">6</div>
+        <h3>Salud Preventiva</h3>
+        <p>Detectar problemas temprano puede alargar la vida 1-2 años adicionales.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">7</div>
+        <h3>Rutina Consistente</h3>
+        <p>Los perros viejos aman la predicibilidad. Horarios fijos crean seguridad emocional.</p>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pillar">
+        <div class="pillar-number">8</div>
+        <h3>Amor y Presencia Consciente</h3>
+        <p>El aspecto emocional es el más subestimado. Tu energía y amor impactan más de lo que crees.</p>
+    </div>
+</div>
+
+<!-- POR QUÉ ESTO IMPORTA -->
+<div class="page">
+    <h2>¿Por Qué Esto Importa?</h2>
+
+    <div class="benefit-box">
+        <strong>El 73% de los perros senior sufren algún tipo de dolor articular</strong> pero los dueños lo atribuyen a "la edad"
+    </div>
+
+    <div class="benefit-box">
+        <strong>Los perros senior con rutinas consistentes viven 2-3 años más</strong> según estudios veterinarios
+    </div>
+
+    <div class="benefit-box">
+        <strong>El 89% de los problemas de comportamiento en perros viejos se pueden mejorar</strong> con el enfoque correcto
+    </div>
+
+    <div class="benefit-box">
+        <strong>La nutrición adaptada reduce inflamación articular hasta en un 40%</strong> en 4-6 semanas
+    </div>
+
+    <p style="margin-top: 40px;"><strong>La verdad:</strong> No es que envejecer sea malo. Es que el cuidado equivocado acelera el envejecimiento. Los perros que viven con los 8 Pilares no solo viven más años. Viven MEJOR.</p>
+</div>
+
+<!-- TESTIMONIOS -->
+<div class="page">
+    <h2>Lo Que Dicen Otros Dueños</h2>
+
+    <div class="testimonial">
+        <p class="quote">"Seguí el método durante 4 semanas. Max pasó de dormir todo el día a ser casi como antes. La diferencia es increíble."</p>
+        <p class="testimonial-author">— María G., Barcelona | Max, 10 años</p>
+    </div>
+
+    <div class="testimonial">
+        <p class="quote">"Lo mejor es que no es complicado. 20 minutos al día y los resultados hablan solos. Mi Luna juega de nuevo."</p>
+        <p class="testimonial-author">— Carlos R., Madrid | Luna, 9 años</p>
+    </div>
+
+    <div class="testimonial">
+        <p class="quote">"El dolor era evidente, pero pensaba que era normal de la edad. Después de las primeras 2 semanas, se movía diferente. Feliz. Real."</p>
+        <p class="testimonial-author">— Sandra M., Valencia | Rocky, 8 años</p>
+    </div>
+</div>
+
+<!-- LOS ERRORES -->
+<div class="page">
+    <h2>Los 5 Errores Que Debes Evitar</h2>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 1: Dejar de Ejercitar</strong>
+        <p style="margin-top: 10px;">Muchos asumen que perros viejos no deben moverse. Es lo opuesto: necesitan movimiento constante, solo adaptado.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 2: Comida de Baja Calidad</strong>
+        <p style="margin-top: 10px;">Ahorrar en comida es el error más caro. Nutrición pobre acelera el declive.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 3: Ignorar Señales de Dolor</strong>
+        <p style="margin-top: 10px;">Tu perro no puede quejarse. Si nota cambios en movimiento o comportamiento, consulta vet inmediatamente.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 4: Cambios Bruscos</strong>
+        <p style="margin-top: 10px;">Los perros viejos necesitan transiciones suaves. Cambios de comida deben ser graduales (7-10 días).</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 5: Falta de Consistencia</strong>
+        <p style="margin-top: 10px;">Un día sí, un día no, no funciona. Los perros viejos necesitan rutina consistente.</p>
+    </div>
+</div>
+
+<!-- ÚLTIMO PASO Y PRECIOS -->
+<div class="page">
+    <h1>Tu Próximo Paso</h1>
+
+    <p class="intro-text">Esta muestra gratis te ha mostrado el camino. Ahora viene el verdadero cambio: la guía completa con método detallado, recetas nutricionales, rutinas personalizadas y checklists imprimibles.</p>
+
+    <p style="margin-top: 40px; font-size: 1.1rem; color: var(--secondary); font-weight: 600;">La pregunta ahora es: ¿Estás listo para darle a tu perro los mejores años de su vida?</p>
+
+    <div class="cta-section">
+        <h2>Accede al Pack Completo Edad Dorada</h2>
+        <p style="margin-bottom: 30px;">Incluye: eBook Principal + Nutrición Dorada de REGALO</p>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 1: Pack Completo</p>
+            <div class="price" style="color: var(--gold);">
+                <span class="price-old">59,90€</span>44,90€
+            </div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Nutrición Dorada REGALO</p>
+        </div>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 2: Solo eBook Principal + Regalo</p>
+            <div class="price" style="color: var(--gold);">19,90€</div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Nutrición Dorada REGALO</p>
+        </div>
+
+        <p style="color: white; margin-top: 30px; font-size: 0.9rem;">Garantía: Si en 30 días no ves mejora, devolvemos tu dinero. Sin preguntas.</p>
+    </div>
+</div>
+
+<!-- CIERRE -->
+<div class="page" style="text-align: center; justify-content: space-around;">
+    <div>
+        <h2 style="color: var(--primary);">Tremdora®</h2>
+        <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 30px;">El Bienestar Animal en Primer Lugar</p>
+
+        <p style="color: #666; margin-bottom: 40px;">Estos años dorados son importantes. Tu perro merece lo mejor. Comienza hoy.</p>
+
+        <p style="color: var(--secondary); font-weight: 600;">La transformación es posible. ¿Estás listo?</p>
+
+        <p style="color: #999; font-size: 0.95rem; margin-top: 40px;">© 2025 Tremdora. Todos los derechos reservados.</p>
+    </div>
+</div>
+
+</body>
+</html>

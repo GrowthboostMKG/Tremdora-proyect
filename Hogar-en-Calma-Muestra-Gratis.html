@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar en Calma - Muestra Gratis</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #b8764a;
+            --secondary: #8b5a2b;
+            --accent: #fff4e6;
+            --text: #1a1a1a;
+            --light: #f9f5f0;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 60px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 30px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 25px; color: var(--secondary); }
+        h3 { font-size: 1.4rem; margin-bottom: 15px; color: var(--primary); }
+        p { margin-bottom: 18px; font-size: 1.05rem; }
+        .intro-text { font-size: 1.15rem; line-height: 1.9; color: var(--secondary); margin-bottom: 25px; }
+        .pillar {
+            background: var(--accent);
+            padding: 30px;
+            margin: 30px 0;
+            border-left: 5px solid var(--primary);
+            border-radius: 8px;
+        }
+        .pillar-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            line-height: 50px;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(184,118,74,0.08) 0%, rgba(139,90,43,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .benefit-box::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        .testimonial {
+            background: white;
+            border: 2px solid var(--accent);
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .testimonial-author {
+            color: var(--primary);
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .quote { font-style: italic; font-size: 1.1rem; color: var(--secondary); margin-bottom: 15px; }
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-section h2 { color: white; margin-top: 0; }
+        .price-box {
+            background: var(--accent);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .price {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .price-old {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+        .checklist-item {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.05rem;
+        }
+        .checklist-item::before {
+            content: "☑";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+        .highlight {
+            background: rgba(212, 165, 116, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<!-- PORTADA -->
+<div class="page portada">
+    <div>
+        <h1>Hogar en Calma</h1>
+        <p class="portada-subtitle">Muestra Gratis: La Guía para Transformar el Comportamiento de tu Perro</p>
+        <p class="portada-subtitle" style="font-size: 1.1rem; opacity: 0.9;">Descubre el Método Científico Paso a Paso</p>
+    </div>
+</div>
+
+<!-- BIENVENIDA -->
+<div class="page">
+    <h1>Bienvenido a Hogar en Calma</h1>
+    <p class="intro-text">Tu perro tiene comportamiento difícil en casa. Ladridos excesivos, destructividad, agresión o ansiedad. Y no sabes por dónde empezar.</p>
+
+    <p>La verdad incómoda: <span class="highlight">No es culpa de tu perro. Es falta de comprensión del por qué hace lo que hace.</span></p>
+
+    <p>En esta guía gratuita descubrirás:</p>
+
+    <div class="checklist-item">Los 8 Pilares del Comportamiento Equilibrado</div>
+    <div class="checklist-item">Por qué tu perro realmente tiene problemas</div>
+    <div class="checklist-item">El método científico que funciona (sin castigo)</div>
+    <div class="checklist-item">Cómo crear un hogar donde tu perro se sienta seguro</div>
+    <div class="checklist-item">Rutinas que generan calma y confianza</div>
+
+    <p style="margin-top: 40px;"><strong>Lo mejor:</strong> Verás cambios en 2-4 semanas. Algunos comportamientos mejoran en días.</p>
+</div>
+
+<!-- LOS 8 PILARES -->
+<div class="page">
+    <h2>Los 8 Pilares del Comportamiento Equilibrado</h2>
+    <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 40px;">La estructura que sostiene una vida sin ansiedad</p>
+
+    <div class="pillar">
+        <div class="pillar-number">1</div>
+        <h3>Seguridad Emocional</h3>
+        <p>Tu perro necesita sentirse seguro. Sin seguridad, todo es ansiedad.</p>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pillar">
+        <div class="pillar-number">2</div>
+        <h3>Rutina Consistente</h3>
+        <p>La predictibilidad es la base del equilibrio. Horarios fijos crean seguridad.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">3</div>
+        <h3>Espacio Propio (Refugio Seguro)</h3>
+        <p>Un lugar donde se sienta completamente seguro para descansar y recargarse.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">4</div>
+        <h3>Ejercicio Físico Adecuado</h3>
+        <p>Un perro con energía sin liberar es ansioso. Ejercicio correcto = equilibrio mental.</p>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pillar">
+        <div class="pillar-number">5</div>
+        <h3>Estimulación Mental Enriquecedora</h3>
+        <p>El aburrimiento genera destructividad. Mente ocupada = mente tranquila.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">6</div>
+        <h3>Liderazgo Tranquilo y Consistente</h3>
+        <p>Ser la persona en la que confía y de la que aprende.</p>
+    </div>
+
+    <div class="pillar">
+        <div class="pillar-number">7</div>
+        <h3>Límites Claros y Compasivos</h3>
+        <p>Los perros necesitan límites. Los límites crean seguridad, no represión.</p>
+    </div>
+</div>
+
+<div class="page">
+    <div class="pillar">
+        <div class="pillar-number">8</div>
+        <h3>Conexión Emocional Profunda</h3>
+        <p>Tu vínculo es la base de todo cambio. Sin conexión, no hay confianza.</p>
+    </div>
+</div>
+
+<!-- POR QUÉ ESTO IMPORTA -->
+<div class="page">
+    <h2>¿Por Qué Esto Importa?</h2>
+
+    <div class="benefit-box">
+        <strong>El 68% de los comportamientos "malos" son en realidad expresiones de MIEDO o ANSIEDAD</strong>
+    </div>
+
+    <div class="benefit-box">
+        <strong>El castigo empeora el comportamiento en el 89% de los casos</strong> según estudios científicos
+    </div>
+
+    <div class="benefit-box">
+        <strong>La mayoría de problemas se resuelven en 3-8 semanas</strong> con el enfoque correcto
+    </div>
+
+    <div class="benefit-box">
+        <strong>Los perros con comportamiento equilibrado son 10 veces más felices</strong> (observable en energía, salud, vitalidad)
+    </div>
+
+    <p style="margin-top: 40px;"><strong>La verdad:</strong> Si tu perro tiene comportamiento "malo", es porque algo en su entorno está en desequilibrio. Y puedes cambiarlo. Hoy.</p>
+</div>
+
+<!-- TESTIMONI -->
+<div class="page">
+    <h2>Lo Que Dicen Otros Dueños</h2>
+
+    <div class="testimonial">
+        <p class="quote">"Estábamos en el punto de devolverlo. Seguimos el método y en 3 semanas es otro perro. Tranquilo, feliz, obediente."</p>
+        <p class="testimonial-author">— Ana M., Barcelona | Luna, 3 años</p>
+    </div>
+
+    <div class="testimonial">
+        <p class="quote">"Sin castigo, sin gritería. Solo paciencia y consistencia. Es increíble cómo aprenden cuando se sienten seguros."</p>
+        <p class="testimonial-author">— David G., Sevilla | Bella, 5 años</p>
+    </div>
+
+    <div class="testimonial">
+        <p class="quote">"Creía que era un caso perdido. Cambié mi enfoque y todo cambió. Es como si hubiera encontrado a mi perro de nuevo."</p>
+        <p class="testimonial-author">— Patricia V., Valencia | Rocky, 4 años</p>
+    </div>
+</div>
+
+<!-- MÉTODO PRÁCTICO -->
+<div class="page">
+    <h2>El Método Práctico: Primeros Pasos</h2>
+
+    <h3>Semana 1: Diagnóstico</h3>
+    <p>Observa sin intervenir. Documenta cuándo ocurren los comportamientos problemáticos. Identifica patrones.</p>
+
+    <h3 style="margin-top: 30px;">Semana 2: Crear Espacio Seguro</h3>
+    <p>Designa un área cómoda donde tu perro pueda descansar sin interrupciones. Este es su refugio, no un castigo.</p>
+
+    <h3 style="margin-top: 30px;">Semana 3: Establecer Rutina</h3>
+    <p>Horarios fijos para: Paseos (20-30 min mañana y tarde), Comidas (misma hora), Descanso (3-4 horas), Juego (10-15 min).</p>
+
+    <h3 style="margin-top: 30px;">Semana 4+: Consistencia</h3>
+    <p>Mantén la rutina. Usa refuerzo positivo (premia lo que quieres). Ignora o redirecciona lo que no quieres.</p>
+</div>
+
+<!-- ERRORES A EVITAR -->
+<div class="page">
+    <h2>Los 3 Errores Que Debes Evitar</h2>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Castigo Físico o Gritos Agresivos</strong>
+        <p style="margin-top: 10px;">Aumentan ansiedad, no resuelven. Generan miedo, no respeto.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Falta de Consistencia</strong>
+        <p style="margin-top: 10px;">Si permites algo un día y lo castigas otro, tu perro no aprende. Solo se confunde.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ No Dar Suficiente Ejercicio</strong>
+        <p style="margin-top: 10px;">Un perro sin liberar energía es ansioso. Mínimo 30-40 minutos diarios.</p>
+    </div>
+</div>
+
+<!-- ÚLTIMO PASO Y PRECIOS -->
+<div class="page">
+    <h1>Tu Próximo Paso</h1>
+
+    <p class="intro-text">Esta muestra gratis te ha mostrado el camino. Ahora viene el verdadero cambio: la guía completa con método detallado, rutinas personalizadas, soluciones para cada problema específico, y checklists imprimibles.</p>
+
+    <p style="margin-top: 40px; font-size: 1.1rem; color: var(--secondary); font-weight: 600;">La pregunta ahora es: ¿Estás listo para transformar completamente el comportamiento de tu perro?</p>
+
+    <div class="cta-section">
+        <h2>Accede al Pack Completo Hogar en Calma</h2>
+        <p style="margin-bottom: 30px;">Incluye: eBook Principal + Rutinas de Calma de REGALO</p>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 1: Pack Completo</p>
+            <div class="price" style="color: var(--gold);">
+                <span class="price-old">49,90€</span>39,90€
+            </div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Rutinas de Calma REGALO</p>
+        </div>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 2: Solo eBook Principal + Regalo</p>
+            <div class="price" style="color: var(--gold);">19,90€</div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Rutinas de Calma REGALO</p>
+        </div>
+
+        <p style="color: white; margin-top: 30px; font-size: 0.9rem;">Garantía: Si en 30 días no ves mejora, devolvemos tu dinero. Sin preguntas.</p>
+    </div>
+</div>
+
+<!-- CIERRE -->
+<div class="page" style="text-align: center; justify-content: space-around;">
+    <div>
+        <h2 style="color: var(--primary);">Tremdora®</h2>
+        <p style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 30px;">Calma y Paz en Casa</p>
+
+        <p style="color: #666; margin-bottom: 40px;">Tu hogar puede ser tranquilo. Tu perro puede estar equilibrado. Comienza hoy.</p>
+
+        <p style="color: var(--secondary); font-weight: 600;">El cambio es posible. ¿Estás listo?</p>
+
+        <p style="color: #999; font-size: 0.95rem; margin-top: 40px;">© 2025 Tremdora. Todos los derechos reservados.</p>
+    </div>
+</div>
+
+</body>
+</html>
