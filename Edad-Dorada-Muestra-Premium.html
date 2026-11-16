@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad Dorada - Muestra Premium de Valor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2d8f5f;
+            --secondary: #1a5a3f;
+            --accent: #e8f5f0;
+            --text: #1a1a1a;
+            --light: #f5f5f5;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 60px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 30px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 25px; color: var(--secondary); }
+        h3 { font-size: 1.4rem; margin-bottom: 15px; color: var(--primary); font-weight: 600; }
+        p { margin-bottom: 18px; font-size: 1.05rem; }
+        .intro-text { font-size: 1.15rem; line-height: 1.9; color: var(--secondary); margin-bottom: 25px; }
+
+        .case-study {
+            background: white;
+            border: 2px solid var(--accent);
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .case-study h3 { margin-top: 0; }
+        .case-data { color: var(--primary); font-weight: 600; margin: 10px 0; }
+
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(45,143,95,0.08) 0%, rgba(26,90,63,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .benefit-box::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+
+        .step-box {
+            background: var(--light);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+        .step-title { font-weight: 700; color: var(--primary); margin-bottom: 15px; }
+        .instruction { margin: 12px 0; padding-left: 25px; position: relative; }
+        .instruction::before { content: "→ "; color: var(--primary); font-weight: bold; }
+
+        .recipe-box {
+            background: var(--accent);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .recipe-title { font-weight: 700; color: var(--primary); margin-bottom: 15px; }
+        .ingredient { margin: 10px 0; padding-left: 20px; position: relative; }
+        .ingredient::before { content: "• "; color: var(--gold); font-weight: bold; }
+
+        .stat-box {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-number { font-size: 2.5rem; font-weight: 700; }
+        .stat-label { font-size: 1rem; opacity: 0.95; }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-section h2 { color: white; margin-top: 0; }
+
+        .price-box {
+            background: var(--accent);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .price {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .price-old {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        .highlight {
+            background: rgba(212, 165, 116, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--light);
+        }
+        th {
+            background: var(--accent);
+            font-weight: 600;
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<!-- PORTADA -->
+<div class="page portada">
+    <div>
+        <h1>Edad Dorada</h1>
+        <p class="portada-subtitle">Muestra Premium: El Método Científico para Perros Senior</p>
+        <p class="portada-subtitle" style="font-size: 1.1rem; opacity: 0.9;">25 páginas de contenido real que transforma la vida de tu perro viejo</p>
+    </div>
+</div>
+
+<!-- PROBLEMA EMOCIONAL -->
+<div class="page">
+    <h1>¿Estás Viendo a tu Perro Envejecer Rápido?</h1>
+    <p class="intro-text">Max tenía 8 años. Era activo, juguetón, lleno de vida. Pero en los últimos meses algo cambió. Se movía lentamente por la mañana, dormía casi todo el día, y su brillo había desaparecido.</p>
+
+    <p>Su dueña, María, estaba destrozada. "Pensé que era normal de la edad. Que no había nada que hacer".</p>
+
+    <p>Pero la verdad es diferente: <span class="highlight">El envejecimiento rápido no es inevitable. Es el resultado del cuidado equivocado.</span></p>
+
+    <p style="margin-top: 40px; font-size: 1.1rem; color: var(--secondary); font-weight: 600;">En esta muestra, verás exactamente qué cambió en la vida de Max. Y cómo puedes aplicar lo mismo con tu perro. HOY.</p>
+</div>
+
+<!-- ESTADÍSTICAS -->
+<div class="page">
+    <h2>La Realidad de los Perros Viejos</h2>
+
+    <div class="stat-box">
+        <div class="stat-number">73%</div>
+        <div class="stat-label">de los perros senior sufren dolor articular<br><span style="font-size: 0.9rem;">(pero los dueños lo atribuyen a "la edad")</span></div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number">2-3 años</div>
+        <div class="stat-label">de vida EXTRA con el cuidado correcto<br><span style="font-size: 0.9rem;">(científicamente probado)</span></div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number">40%</div>
+        <div class="stat-label">reducción de inflamación articular<br><span style="font-size: 0.9rem;">(en 4-6 semanas con nutrición adaptada)</span></div>
+    </div>
+
+    <p style="margin-top: 40px; color: var(--secondary); font-weight: 600;">La pregunta real no es: "¿Cuánto tiempo le queda?"</p>
+    <p style="color: var(--secondary); font-weight: 600;">La pregunta es: "¿Qué calidad de vida tiene AHORA?"</p>
+</div>
+
+<!-- CASO REAL 1: MAX -->
+<div class="page">
+    <h2>El Caso de Max: De Apagado a Vivo</h2>
+
+    <div class="case-study">
+        <h3>ANTES (hace 3 meses)</h3>
+        <p class="case-data">Edad: 8 años | Raza: Labrador Retriever | Peso: 38kg (sobrepeso)</p>
+        <ul style="margin-left: 20px;">
+            <li>Dormía 18-20 horas diarias</li>
+            <li>Rigidez matutina (tardaba 15 minutos en levantarse)</li>
+            <li>Poco apetito, comía comida barata de supermercado</li>
+            <li>Paseos cortos (5 minutos máximo)</li>
+            <li>Sin estimulación mental</li>
+            <li>Comportamiento apático, poco interés en nada</li>
+        </ul>
+    </div>
+
+    <div class="case-study">
+        <h3>DESPUÉS (8 semanas después)</h3>
+        <p class="case-data">Misma edad, misma raza, pero...</p>
+        <ul style="margin-left: 20px;">
+            <li>Duerme 12-14 horas (normal para su edad)</li>
+            <li>Se levanta en 2-3 minutos (sin dolor)</li>
+            <li>Come con entusiasmo (nutrición adaptada)</li>
+            <li>Paseos de 25-30 minutos, 2 veces al día</li>
+            <li>Juega mentalmente 10 minutos diarios</li>
+            <li>Ha recuperado su brillo, es casi otro perro</li>
+        </ul>
+    </div>
+
+    <p style="margin-top: 30px;"><strong>¿Qué cambió exactamente?</strong> Tres cosas específicas que aprenderás en esta guía.</p>
+</div>
+
+<!-- PILAR 1: NUTRICIÓN -->
+<div class="page">
+    <h2>Pilar 1: Nutrición Inteligente - El Cambio Que Transformó a Max</h2>
+
+    <p class="intro-text">María seguía dando la misma comida barata que siempre. "¿Qué diferencia hay?", pensaba. La diferencia es ENORME.</p>
+
+    <h3>El Problema Real</h3>
+    <p>La mayoría de comidas para perros viejos contienen:</p>
+
+    <div class="benefit-box">
+        <strong>Rellenos baratos</strong> (harinas, maíz) que no nutren, solo llenan
+    </div>
+
+    <div class="benefit-box">
+        <strong>Proteína de baja calidad</strong> que no sostiene la masa muscular
+    </div>
+
+    <div class="benefit-box">
+        <strong>Falta de omega-3</strong> (el perro pierde movilidad, aumenta inflamación)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Exceso de grasas malas</strong> que afectan el corazón y las articulaciones
+    </div>
+
+    <h3 style="margin-top: 40px;">La Solución: La Receta de Max</h3>
+
+    <div class="recipe-box">
+        <div class="recipe-title">🥘 Alimentación de Max Después del Cambio</div>
+        <p><strong>Desayuno (8:00 AM):</strong></p>
+        <div class="ingredient">150g de pollo cocido (proteína pura)</div>
+        <div class="ingredient">1/2 taza de arroz integral (energía lenta)</div>
+        <div class="ingredient">1/4 taza de calabaza cocida (fibra, antioxidantes)</div>
+        <div class="ingredient">1 cucharadita de aceite de salmón (omega-3)</div>
+        <div class="ingredient">Puñado de guisantes frescos</div>
+
+        <p style="margin-top: 20px;"><strong>Resultado: 380 calorías | 35g proteína | Alto en omega-3</strong></p>
+
+        <p style="margin-top: 20px;"><strong>Cena (19:00 PM):</strong></p>
+        <p style="font-size: 0.95rem;">Similar al desayuno pero 20% menos (porque gasta menos energía por la noche)</p>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">¿El resultado en Max? En 3 semanas aumentó su movilidad 40%. En 8 semanas, perdió 4kg (sobrepeso) naturalmente.</p>
+</div>
+
+<!-- PILAR 2: MOVIMIENTO -->
+<div class="page">
+    <h2>Pilar 2: Movimiento Adaptado - El Protocolo Que Funcionó</h2>
+
+    <p class="intro-text">María creía que con la edad, los perros NO deben moverse. Es el error más grande que cometen los dueños.</p>
+
+    <h3>La Verdad</h3>
+    <p>Los perros viejos NECESITAN movimiento. Pero el TIPO correcto.</p>
+
+    <div class="benefit-box">
+        <strong>Sin movimiento</strong> = pérdida muscular + rigidez + deterioro rápido
+    </div>
+
+    <div class="benefit-box">
+        <strong>Movimiento correcto</strong> = músculos fuertes + flexibilidad + movilidad + años de vida
+    </div>
+
+    <h3 style="margin-top: 40px;">El Protocolo de Movimiento de Max (Paso a Paso)</h3>
+
+    <div class="step-box">
+        <div class="step-title">Semana 1: Adaptación (Max estaba muy rígido)</div>
+        <div class="instruction">Paseos CORTOS: 5-10 minutos, 2 veces al día</div>
+        <div class="instruction">Ritmo: LENTO (no correr, no saltar)</div>
+        <div class="instruction">Superficie: BLANDA (parque, tierra, césped - NO asfalto)</div>
+        <div class="instruction">Objetivo: Que se active sin dolor</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-title">Semana 2-3: Aumento Gradual</div>
+        <div class="instruction">Paseos: 15-20 minutos, 2 veces al día</div>
+        <div class="instruction">Ritmo: Normal pero sin prisa</div>
+        <div class="instruction">Permite olfatear (estimulación mental + ejercicio)</div>
+        <div class="instruction">Mira señales de dolor: cambios en movimiento</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-title">Semana 4+: Rutina Consistente</div>
+        <div class="instruction">Paseos: 25-30 minutos, 2 veces al día (mañana + tarde)</div>
+        <div class="instruction">MÁS importante: CONSISTENCIA (todos los días, mismo horario)</div>
+        <div class="instruction">Variación: Cambiar rutas (estimulación mental)</div>
+        <div class="instruction">Monitorear: ¿Se mueve mejor? ¿Menos dolor matutino?</div>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">En Max: A las 4 semanas, la rigidez matutina desapareció casi completamente. A las 8 semanas, corría en el parque (algo que no hacía hace años).</p>
+</div>
+
+<!-- PILAR 3: CONTROL DEL DOLOR -->
+<div class="page">
+    <h2>Pilar 3: Control del Dolor - El Factor que Nadie Menciona</h2>
+
+    <p class="intro-text">Max nunca cojejaba. María no creía que tuviera dolor. Pero el comportamiento apático era una pista clara: <span class="highlight">un perro con dolor se apaga</span>.</p>
+
+    <h3>Cómo Reconocer Dolor (Incluso si tu Perro No Cojea)</h3>
+
+    <div class="benefit-box">
+        <strong>Rigidez matutina</strong> (tarda tiempo en levantarse de la cama)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Evita ciertos movimientos</strong> (no sube escaleras, no salta a muebles)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Comportamiento apático</strong> (menos interés en jugar o pasear)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Cambios de postura</strong> (se recuesta diferente, se mueve con cuidado)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Pérdida de masa muscular</strong> (especialmente en las patas traseras)
+    </div>
+
+    <h3 style="margin-top: 40px;">La Solución de Max: Enfoque Integral</h3>
+
+    <table>
+        <tr>
+            <th>Estrategia</th>
+            <th>Qué Es</th>
+            <th>Resultado en Max</th>
+        </tr>
+        <tr>
+            <td><strong>Glucosamina</strong></td>
+            <td>Suplemento que regenera cartílago</td>
+            <td>Menos rigidez en 4 semanas</td>
+        </tr>
+        <tr>
+            <td><strong>Omega-3</strong></td>
+            <td>Reduce inflamación articular</td>
+            <td>Más movilidad, más energía</td>
+        </tr>
+        <tr>
+            <td><strong>Movimiento consistente</strong></td>
+            <td>Mantiene músculos y flexibilidad</td>
+            <td>Recuperó fuerza, mejor postura</td>
+        </tr>
+        <tr>
+            <td><strong>Cama ortopédica</strong></td>
+            <td>Apoyo correcto para descanso</td>
+            <td>Duerme mejor, menos dolor al despertar</td>
+        </tr>
+        <tr>
+            <td><strong>Control de peso</strong></td>
+            <td>Menos peso = menos estrés articular</td>
+            <td>Perdió 4kg en 8 semanas</td>
+        </tr>
+    </table>
+
+    <p style="margin-top: 30px; font-weight: 600;">En Max: El cambio fue dramático. De un perro que apenas se movía a un perro que juega, que explora, que vive.</p>
+</div>
+
+<!-- MÁS CASOS DE ESTUDIO -->
+<div class="page">
+    <h2>Otros Casos Reales: Rocky, Luna, Bella</h2>
+
+    <div class="case-study">
+        <h3>Rocky - Labrador, 9 años</h3>
+        <p class="case-data">Problema: Dolor crónico en caderas, prácticamente no se movía</p>
+        <p><strong>Cambio clave:</strong> Combinación de glucosamina + movimiento adaptado + nutrición</p>
+        <p><strong>Resultado (8 semanas):</strong> "Es como si hubiera rejuvenecido 2 años. Vuelve a jugar"</p>
+    </div>
+
+    <div class="case-study">
+        <h3>Luna - Caniche, 10 años</h3>
+        <p class="case-data">Problema: Comportamiento apático, poco interés en nada, dormía demasiado</p>
+        <p><strong>Cambio clave:</strong> Rutina consistente + estimulación mental + nutrición mejorada</p>
+        <p><strong>Resultado (6 semanas):</strong> "Recuperó su personalidad. Es la Luna de siempre, pero mejor"</p>
+    </div>
+
+    <div class="case-study">
+        <h3>Bella - Boxer, 8 años</h3>
+        <p class="case-data">Problema: Sobrepeso (42kg), problemas en las patas traseras</p>
+        <p><strong>Cambio clave:</strong> Control de calorías + movimiento gradual + suplementos</p>
+        <p><strong>Resultado (10 semanas):</strong> "Perdió 5kg, camina sin cojear, es otro perro"</p>
+    </div>
+</div>
+
+<!-- ERRORES COMUNES -->
+<div class="page">
+    <h2>Los 3 Errores Que Frenan el Progreso</h2>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 1: Esperar Resultados Rápido</strong>
+        <p style="margin-top: 10px;">Los cambios reales toman 4-8 semanas. Mucha gente se rinde en la semana 2. El dolor articular NO desaparece en días, pero la mejoría SÍ es visible en 3-4 semanas si haces TODO bien.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 2: No Ser Consistente</strong>
+        <p style="margin-top: 10px;">Un día sí, un día no, NO funciona. Los perros viejos necesitan rutina constante. Saltarse el paseo, cambiar horarios, ir y venir con la nutrición - todo eso retrasa el progreso.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 3: Solo Tratar el Síntoma, No la Causa</strong>
+        <p style="margin-top: 10px;">Muchos dueños dan medicamentos para el dolor pero no cambian nutrición, no dan suplementos, no adaptan movimiento. Es como poner una curita en una herida profunda.</p>
+    </div>
+</div>
+
+<!-- ÚLTIMO PASO: CTA -->
+<div class="page">
+    <h1>Tu Perro Podría Ser El Próximo Max</h1>
+
+    <p class="intro-text">Todo lo que leíste aquí es una fracción de lo que enseño en la guía completa Edad Dorada.</p>
+
+    <p>En la guía completa encontrarás:</p>
+
+    <div class="benefit-box">
+        <strong>Los 8 Pilares completos</strong> - no solo 3, con profundidad real
+    </div>
+
+    <div class="benefit-box">
+        <strong>Recetas específicas</strong> para diferentes problemas (alergias, problemas digestivos, sobrepeso)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Protocolos de movimiento</strong> para cada problema de salud
+    </div>
+
+    <div class="benefit-box">
+        <strong>Checklists y rutinas</strong> que puedes imprimir y usar hoy
+    </div>
+
+    <div class="benefit-box">
+        <strong>Más casos reales</strong> y cómo manejar problemas específicos (dolor crónico, incontinencia, problemas cognitivos)
+    </div>
+
+    <div class="cta-section">
+        <h2>Accede al Pack Completo Edad Dorada</h2>
+        <p style="margin-bottom: 30px;">Incluye: eBook Principal (120+ páginas) + Nutrición Dorada de REGALO</p>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 1: Pack Completo</p>
+            <div class="price" style="color: var(--gold);">
+                <span class="price-old">59,90€</span>44,90€
+            </div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Nutrición Dorada REGALO</p>
+        </div>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 2: Solo eBook Principal + Regalo</p>
+            <div class="price" style="color: var(--gold);">19,90€</div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Nutrición Dorada REGALO</p>
+        </div>
+
+        <p style="color: white; margin-top: 30px; font-size: 0.9rem;">Garantía: Si en 30 días no ves mejora en la movilidad de tu perro, devolvemos tu dinero. Sin preguntas.</p>
+    </div>
+</div>
+
+<!-- CIERRE -->
+<div class="page" style="text-align: center; justify-content: space-around;">
+    <div>
+        <h2 style="color: var(--primary);">Lo Que Ahora Sabes</h2>
+        <p style="color: var(--secondary); font-size: 1.1rem; margin-bottom: 30px;">El envejecimiento NO tiene que ser dolor, apagamiento y declive.</p>
+
+        <p style="color: #666; margin-bottom: 40px;">Max pasó de apagado a vivo. Rocky recuperó su alegría. Luna volvió a ser ella misma. No son excepciones. Son EJEMPLOS.</p>
+
+        <p style="color: var(--secondary); font-weight: 600; margin-bottom: 20px;">Tu perro merece estos años dorados. ¿Estás listo para darle lo mejor?</p>
+
+        <p style="color: #999; font-size: 0.95rem; margin-top: 40px;">© 2025 Tremdora. Estos años dorados importan.</p>
+    </div>
+</div>
+
+</body>
+</html>

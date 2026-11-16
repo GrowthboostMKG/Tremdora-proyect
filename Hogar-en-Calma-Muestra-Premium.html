@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar en Calma - Muestra Premium de Valor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #b8764a;
+            --secondary: #8b5a2b;
+            --accent: #fff4e6;
+            --text: #1a1a1a;
+            --light: #f9f5f0;
+            --gold: #d4a574;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: white;
+            line-height: 1.8;
+        }
+        .page {
+            min-height: 100vh;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            page-break-after: always;
+        }
+        .portada {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            text-align: center;
+        }
+        .portada h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        .portada-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            margin-bottom: 60px;
+        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 30px; color: var(--primary); }
+        h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 25px; color: var(--secondary); }
+        h3 { font-size: 1.4rem; margin-bottom: 15px; color: var(--primary); font-weight: 600; }
+        p { margin-bottom: 18px; font-size: 1.05rem; }
+        .intro-text { font-size: 1.15rem; line-height: 1.9; color: var(--secondary); margin-bottom: 25px; }
+
+        .case-study {
+            background: white;
+            border: 2px solid var(--accent);
+            padding: 30px;
+            margin: 25px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--gold);
+        }
+        .case-study h3 { margin-top: 0; }
+        .case-data { color: var(--primary); font-weight: 600; margin: 10px 0; }
+
+        .benefit-box {
+            background: linear-gradient(135deg, rgba(184,118,74,0.08) 0%, rgba(139,90,43,0.08) 100%);
+            border: 1px solid var(--primary);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .benefit-box::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+
+        .step-box {
+            background: var(--light);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+        .step-title { font-weight: 700; color: var(--primary); margin-bottom: 15px; }
+        .step-num { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--primary); font-weight: 700; margin-bottom: 10px; }
+        .instruction { margin: 12px 0; padding-left: 25px; position: relative; }
+        .instruction::before { content: "→ "; color: var(--primary); font-weight: bold; }
+
+        .stat-box {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-number { font-size: 2.5rem; font-weight: 700; }
+        .stat-label { font-size: 1rem; opacity: 0.95; }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta-section h2 { color: white; margin-top: 0; }
+
+        .price-box {
+            background: var(--accent);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .price {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .price-old {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        .highlight {
+            background: rgba(212, 165, 116, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .behavior-chart {
+            background: white;
+            border: 1px solid var(--light);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .behavior-row {
+            display: grid;
+            grid-template-columns: 150px 1fr 1fr;
+            gap: 20px;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--light);
+        }
+        .behavior-row:last-child { border-bottom: none; }
+        .behavior-problem { font-weight: 600; color: var(--primary); }
+        .behavior-cause { font-size: 0.95rem; color: #666; }
+        .behavior-solution { font-size: 0.95rem; color: var(--secondary); font-weight: 500; }
+    </style>
+</head>
+<body>
+
+<!-- PORTADA -->
+<div class="page portada">
+    <div>
+        <h1>Hogar en Calma</h1>
+        <p class="portada-subtitle">Muestra Premium: El Método para Transformar el Comportamiento</p>
+        <p class="portada-subtitle" style="font-size: 1.1rem; opacity: 0.9;">25 páginas de contenido real que transforma tu hogar y la vida de tu perro</p>
+    </div>
+</div>
+
+<!-- PROBLEMA EMOCIONAL -->
+<div class="page">
+    <h1>El Estrés de un Hogar Caótico</h1>
+    <p class="intro-text">Sofía estaba destrozada. Su perro Luna ladraba constantemente, destructía cosas cuando se iba, saltaba sobre los muebles, era incontrolable. "No puedo ni invitar amigos a casa", decía, llorando.</p>
+
+    <p>Sofía ya había probado "todo": gritarle, castigarla, retarla, pedir ayuda a un adiestrador que usaba técnicas "duras".</p>
+
+    <p>Nada funcionó. Es más: empeoró.</p>
+
+    <p style="margin-top: 40px; font-size: 1.1rem; color: var(--secondary); font-weight: 600;">Pero la verdad es que Luna no era "mala". Estaba ASUSTADA.</p>
+
+    <p>En esta muestra, verás exactamente qué cambió en la vida de Luna. Y cómo tu hogar puede transformarse en 4-8 semanas sin castigo, sin gritos, sin dominancia.</p>
+</div>
+
+<!-- ESTADÍSTICAS -->
+<div class="page">
+    <h2>La Realidad del Comportamiento Canino</h2>
+
+    <div class="stat-box">
+        <div class="stat-number">68%</div>
+        <div class="stat-label">de los comportamientos "malos" son en realidad<br><span style="font-size: 0.9rem;">MIEDO o ANSIEDAD, no maldad</span></div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number">89%</div>
+        <div class="stat-label">de los comportamientos mejoran o desaparecen<br><span style="font-size: 0.9rem;">con el enfoque CORRECTO en 3-8 semanas</span></div>
+    </div>
+
+    <div class="stat-box">
+        <div class="stat-number">0%</div>
+        <div class="stat-label">de probabilidad de que el castigo resuelva<br><span style="font-size: 0.9rem;">AUMENTA ANSIEDAD, NO LA FIja</span></div>
+    </div>
+
+    <p style="margin-top: 40px; color: var(--secondary); font-weight: 600;">La pregunta real no es: "¿Cómo hago que mi perro tenga miedo de mí?"</p>
+    <p style="color: var(--secondary); font-weight: 600;">La pregunta es: "¿Cómo hago que mi perro se sienta SEGURO?"</p>
+</div>
+
+<!-- CASO REAL: LUNA -->
+<div class="page">
+    <h2>El Caso de Luna: De Caótica a Tranquila</h2>
+
+    <div class="case-study">
+        <h3>ANTES (hace 2 meses)</h3>
+        <p class="case-data">Edad: 3 años | Raza: Labrador Mix | Historia: Rescatada del refugio</p>
+        <ul style="margin-left: 20px;">
+            <li><strong>Ladridos excesivos</strong> - todo el día, sin razón aparente</li>
+            <li><strong>Ansiedad por separación</strong> - destruía cosas cuando se iba Sofía</li>
+            <li><strong>Hipervigil ancia</strong> - saltaba sobre muebles, saltaba sobre visitantes</li>
+            <li><strong>Comportamiento agresivo</strong> - gruñía a otros perros, miedo visible</li>
+            <li><strong>Falta de confianza</strong> - evitaba contacto, se escondía</li>
+            <li><strong>Estrés en Sofía</strong> - incapaz de disfrutar, siempre ansiosa</li>
+        </ul>
+    </div>
+
+    <div class="case-study">
+        <h3>DESPUÉS (8 semanas después)</h3>
+        <p class="case-data">Misma perrita, pero completamente transformada...</p>
+        <ul style="margin-left: 20px;">
+            <li><strong>Ladridos reducidos 95%</strong> - solo alerta cuando algo real sucede</li>
+            <li><strong>Ansiedad por separación</strong> - se queda sola sin problemas (hasta 4-5 horas)</li>
+            <li><strong>Comportamiento tranquilo</strong> - duerme en el sofá (permitido), respeta límites</li>
+            <li><strong>Socialización mejorada</strong> - juega con otros perros, amistosa</li>
+            <li><strong>Confianza en aumento</strong> - busca afecto, es cariñosa, juguetona</li>
+            <li><strong>Sofía descansada</strong> - puede invitar amigos, disfruta la vida</li>
+        </ul>
+    </div>
+
+    <p style="margin-top: 30px;"><strong>¿Qué cambió exactamente?</strong> Sofía aplicó 3 pilares específicos. Te los mostraré ahora.</p>
+</div>
+
+<!-- PROBLEMA: QUÉ SIGNIFICA CADA COMPORTAMIENTO -->
+<div class="page">
+    <h2>Decodificar el Comportamiento: Qué REALMENTE Dice tu Perro</h2>
+
+    <p class="intro-text">Luna ladraba. Sofía creía que era "mala conducta". En realidad, Luna estaba gritando: "¡TENGO MIEDO!"</p>
+
+    <h3>La Tabla de Traducción</h3>
+
+    <div class="behavior-chart">
+        <div class="behavior-row">
+            <div class="behavior-problem">Ladridos excesivos</div>
+            <div class="behavior-cause"><strong>Realmente significa:</strong> Ansiedad, inseguridad, necesidad de que le digas "está bien"</div>
+            <div class="behavior-solution"><strong>Solución:</strong> Crear seguridad, rutina, límites compasivos</div>
+        </div>
+
+        <div class="behavior-row">
+            <div class="behavior-problem">Destructividad</div>
+            <div class="behavior-cause"><strong>Realmente significa:</strong> Energía sin liberar + ansiedad por separación</div>
+            <div class="behavior-solution"><strong>Solución:</strong> Más ejercicio + estimulación mental + entrenamiento de independencia</div>
+        </div>
+
+        <div class="behavior-row">
+            <div class="behavior-problem">Saltos/Hiperactividad</div>
+            <div class="behavior-cause"><strong>Realmente significa:</strong> Falta de límites claros + emoción mal canalizada</div>
+            <div class="behavior-solution"><strong>Solución:</strong> Límites compasivos + enseñar comportamiento correcto</div>
+        </div>
+
+        <div class="behavior-row">
+            <div class="behavior-problem">Agresión/Gruñidos</div>
+            <div class="behavior-cause"><strong>Realmente significa:</strong> MIEDO intenso (no maldad)</div>
+            <div class="behavior-solution"><strong>Solución:</strong> Crear seguridad + desensibilización lenta al miedo</div>
+        </div>
+
+        <div class="behavior-row">
+            <div class="behavior-problem">Evitar contacto/Esconderse</div>
+            <div class="behavior-cause"><strong>Realmente significa:</strong> Falta total de confianza, trauma probable</div>
+            <div class="behavior-solution"><strong>Solución:</strong> Paciencia extrema + dejar que el perro vaya a tu ritmo</div>
+        </div>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">Luna no era mala. Tenía miedo. Una vez que Sofía lo entendió, TODO cambió.</p>
+</div>
+
+<!-- PILAR 1: SEGURIDAD EMOCIONAL -->
+<div class="page">
+    <h2>Pilar 1: Crear Seguridad Emocional - El Fundamento</h2>
+
+    <p class="intro-text">Sin seguridad, nada más funciona. Luna no podía cambiar porque estaba aterrada.</p>
+
+    <h3>Las 3 Acciones que Crean Seguridad</h3>
+
+    <div class="step-box">
+        <div class="step-num">1. Espacio Seguro Físico</div>
+        <div class="instruction">Designa un lugar donde Luna puede "desaparecer" sin ser molestada</div>
+        <div class="instruction">Puede ser una habitación, un box, o un rincón con puerta</div>
+        <div class="instruction">Llénalo de: cama cómoda, agua, juguetes seguros</div>
+        <div class="instruction"><strong>MÁS IMPORTANTE:</strong> Entra allí 5-10 minutos DIARIOS (sin interacción forzada)</div>
+        <div class="instruction">Luna aprendió: "Este lugar es mío. Estoy segura aquí"</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-num">2. Rutina Consistente</div>
+        <div class="instruction">Horarios FIJOS: 7:00 AM paseo, 8:00 AM desayuno, 13:00 PM descanso, etc.</div>
+        <div class="instruction">Luna dejó de tener pánico porque sabía QUÉ esperar</div>
+        <div class="instruction">La predictibilidad = reducción de ansiedad</div>
+        <div class="instruction">Incluso los cambios pequeños (horarios diferentes) causaban regresión</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-num">3. Liderazgo Tranquilo</div>
+        <div class="instruction">NO dominancia. NO castigo. Es ser la persona en la que confía</div>
+        <div class="instruction">Voz baja, movimientos lentos, decisiones claras</div>
+        <div class="instruction">Sofía aprendió a ser CALMADA (aunque por dentro estuviera ansiosa)</div>
+        <div class="instruction">Luna reflejaba la energía de Sofía. Cuando Sofía se relajó, Luna se relajó</div>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">En Luna: Los ladridos cayeron 60% en la primera semana solo con estos cambios.</p>
+</div>
+
+<!-- PILAR 2: EJERCICIO Y ESTIMULACIÓN -->
+<div class="page">
+    <h2>Pilar 2: Ejercicio + Estimulación Mental - La Válvula de Escape</h2>
+
+    <p class="intro-text">Luna tenía toda esa energía/ansiedad atrapada. Sin forma de liberarla, solo crecía.</p>
+
+    <h3>El Protocolo de Ejercicio de Luna</h3>
+
+    <div class="step-box">
+        <div class="step-title">Mañana (7:00-7:30 AM)</div>
+        <div class="instruction">Paseo ACTIVO: 20-30 minutos a ritmo normal</div>
+        <div class="instruction">Permite que olfatee (esto es ejercicio mental además de físico)</div>
+        <div class="instruction">Interacción: Juego ligero, nada intenso</div>
+        <div class="instruction">Resultado: Luna cansada pero no agotada (clave)</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-title">Mediodía (13:00 PM)</div>
+        <div class="instruction">Descanso obligatorio en espacio seguro (3-4 horas mínimo)</div>
+        <div class="instruction">Luna aprendió a RELAJARSE (esto es una habilidad)</div>
+        <div class="instruction">Sin interrupciones, sin estimulación</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-title">Tarde (16:00 PM)</div>
+        <div class="instruction">Estimulación Mental: 15-20 minutos</div>
+        <div class="instruction">Puzzle toy, búsqueda de golosinas, juego de inteligencia</div>
+        <div class="instruction">Esto AGOTA mental más que físicamente</div>
+        <div class="instruction">Luna se concentraba tanto que se olvidaba de ladrar</div>
+    </div>
+
+    <div class="step-box">
+        <div class="step-title">Noche (19:00 PM)</div>
+        <div class="instruction">Paseo final: 10-15 minutos (simple, sin juego)</div>
+        <div class="instruction">Tiempo de calidad: 20-30 minutos de caricias, compañía</div>
+        <div class="instruction">Descanso nocturno 10-11 horas</div>
+    </div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">En Luna: Pasó de destructiva a tranquila. La clave fue CONSISTENCIA en esta rutina.</p>
+</div>
+
+<!-- PILAR 3: ENTRENAMIENTO COMPASIVO -->
+<div class="page">
+    <h2>Pilar 3: Entrenamiento Positivo - Enseñar lo Correcto</h2>
+
+    <p class="intro-text">Sofía paraba los comportamientos malos con gritería. Nunca enseñó qué era "bueno".</p>
+
+    <h3>Las 4 Técnicas Que Funcionaron con Luna</h3>
+
+    <div class="benefit-box">
+        <strong>1. Refuerzo Positivo</strong>
+        <p style="margin-top: 10px;">Cuando Luna se sentaba calmadamente: FELICITACIÓN + golosina. Ella aprendió: "sentarse = recompensa"</p>
+    </div>
+
+    <div class="benefit-box">
+        <strong>2. Redirección</strong>
+        <p style="margin-top: 10px;">Si saltaba sobre el sofá, Sofía ofrecía un juguete. Luna aprendía: "hay alternativas mejores"</p>
+    </div>
+
+    <div class="benefit-box">
+        <strong>3. Ignorancia Estratégica</strong>
+        <p style="margin-top: 10px;">Si ladraba por atención: Sofía daba la espalda, cero contacto. Luna aprendía: "ladrar NO trae atención"</p>
+    </div>
+
+    <div class="benefit-box">
+        <strong>4. Desensibilización Lenta</strong>
+        <p style="margin-top: 10px;">Luna tenía miedo de otros perros. Sofía la exponía MUY lentamente: primero a distancia, luego cerca. Luna aprendía: "no es peligroso"</p>
+    </div>
+
+    <h3 style="margin-top: 40px;">El Entrenamiento Diario de Luna (5 minutos)</h3>
+
+    <p><strong>Mañana después del paseo:</strong></p>
+    <div class="instruction">Sesión 1: "Siéntate" (3 minutos, 10 repeticiones)</div>
+    <div class="instruction">Sesión 2: "Ven aquí" (2 minutos, 5 repeticiones desde distancias diferentes)</div>
+
+    <p style="margin-top: 15px;"><strong>Tarde en estimulación:</strong></p>
+    <div class="instruction">Sesión 3: "Échate/Quédate" mientras ella juega con puzzle toy</div>
+
+    <p style="margin-top: 30px; color: var(--secondary); font-weight: 600;">En Luna: En 4 semanas conocía 5 órdenes. En 8 semanas era obediente sin que nadie le gritara.</p>
+</div>
+
+<!-- MÁS CASOS -->
+<div class="page">
+    <h2>Otros Casos Que Transformaron sus Hogares</h2>
+
+    <div class="case-study">
+        <h3>Rocky - Malinois, 2 años (Comportamiento Agresivo)</h3>
+        <p class="case-data">Problema: Gruñía a otros perros, posible agresi ón territorial</p>
+        <p><strong>Raíz real:</strong> Miedo intenso (fue rescatado de abuso)</p>
+        <p><strong>Solución aplicada:</strong> Desensibilización lenta + espacio seguro + rutina</p>
+        <p><strong>Resultado (10 semanas):</strong> "Ahora juega con otros perros. Es increíble"</p>
+    </div>
+
+    <div class="case-study">
+        <h3>Bella - Boxer, 4 años (Ansiedad por Separación)</h3>
+        <p class="case-data">Problema: Destrozaba todo cuando el dueño se iba (especialmente puertas)</p>
+        <p><strong>Raíz real:</strong> No sabía estar sola, pánico total</p>
+        <p><strong>Solución aplicada:</strong> Entrenamientos de independencia graduales + estimulación</p>
+        <p><strong>Resultado (6 semanas):</strong> "Se queda sola hasta 5 horas sin problemas. Casa intacta"</p>
+    </div>
+
+    <div class="case-study">
+        <h3>Max - Terrier Mix, 1 año (Hiperactividad)</h3>
+        <p class="case-data">Problema: Saltaba sobre visitantes, ladraba todo el día, incontrolable</p>
+        <p><strong>Raíz real:</strong> Energía sin canalizar + falta de límites claros</p>
+        <p><strong>Solución aplicada:</strong> Rutina + ejercicio + entrenamiento de límites</p>
+        <p><strong>Resultado (4 semanas):</strong> "Es como otro perro. Puedo tener visitas nuevamente"</p>
+    </div>
+</div>
+
+<!-- LOS ERRORES -->
+<div class="page">
+    <h2>Los 5 Errores Que Sofía Cometía (y Probablemente Tú También)</h2>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 1: Castigar el Miedo</strong>
+        <p style="margin-top: 10px;">Gritarle a Luna por ladrar = confirmarle que tiene razón para tener miedo. Empeoraba todo.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 2: No Dar Suficiente Ejercicio</strong>
+        <p style="margin-top: 10px;">Luna necesitaba MÍNIMO 50 minutos diarios. Sofía solo hacía 10. Claro que explotaba de energía.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 3: Ser Inconsistente</strong>
+        <p style="margin-top: 10px;">Un día permitía saltar, otro día castigaba. Luna no entendía las reglas. Nada de esto funciona sin consistencia.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 4: Ignorar la Causa Real</strong>
+        <p style="margin-top: 10px;">Luna ladraba por MIEDO/ANSIEDAD. Sofía solo trataba el síntoma (el ladrido). Nunca tocó el miedo.</p>
+    </div>
+
+    <div class="benefit-box" style="border-left-color: #c41e3a;">
+        <strong style="color: #c41e3a;">❌ Error 5: Esperar Cambios Rápido</strong>
+        <p style="margin-top: 10px;">Los cambios de comportamiento toman 4-8 semanas. Sofía se rendía a la semana 2. Justo cuando estaba funcionando.</p>
+    </div>
+</div>
+
+<!-- ÚLTIMO PASO: CTA -->
+<div class="page">
+    <h1>Tu Hogar Podría Ser El Próximo en Transformarse</h1>
+
+    <p class="intro-text">Todo lo que leíste aquí es una fracción de lo que enseño en la guía completa Hogar en Calma.</p>
+
+    <p>En la guía completa encontrarás:</p>
+
+    <div class="benefit-box">
+        <strong>Los 8 Pilares del Comportamiento Equilibrado</strong> - con profundidad real
+    </div>
+
+    <div class="benefit-box">
+        <strong>Protocolos paso a paso</strong> para cada problema específico (ladridos, destructividad, agresión, ansiedad)
+    </div>
+
+    <div class="benefit-box">
+        <strong>Rutinas personalizadas</strong> que puedes imprimir y poner en tu nevera
+    </div>
+
+    <div class="benefit-box">
+        <strong>Checklists de entrenamiento</strong> para hacer un seguimiento del progreso
+    </div>
+
+    <div class="benefit-box">
+        <strong>Más casos reales</strong> y cómo manejar situaciones complicadas
+    </div>
+
+    <div class="cta-section">
+        <h2>Accede al Pack Completo Hogar en Calma</h2>
+        <p style="margin-bottom: 30px;">Incluye: eBook Principal (120+ páginas) + Rutinas de Calma de REGALO</p>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 1: Pack Completo</p>
+            <div class="price" style="color: var(--gold);">
+                <span class="price-old">49,90€</span>39,90€
+            </div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Rutinas de Calma REGALO</p>
+        </div>
+
+        <div class="price-box" style="background: rgba(255,255,255,0.1); border: 2px solid var(--gold);">
+            <p style="color: white; margin: 0; font-size: 1rem;">OPCIÓN 2: Solo eBook Principal + Regalo</p>
+            <div class="price" style="color: var(--gold);">19,90€</div>
+            <p style="color: white; margin-top: 10px; font-size: 0.95rem;">eBook Principal + Rutinas de Calma REGALO</p>
+        </div>
+
+        <p style="color: white; margin-top: 30px; font-size: 0.9rem;">Garantía: Si en 30 días no ves mejora en el comportamiento de tu perro, devolvemos tu dinero. Sin preguntas.</p>
+    </div>
+</div>
+
+<!-- CIERRE -->
+<div class="page" style="text-align: center; justify-content: space-around;">
+    <div>
+        <h2 style="color: var(--primary);">Lo Que Ahora Sabes</h2>
+        <p style="color: var(--secondary); font-size: 1.1rem; margin-bottom: 30px;">El comportamiento caótico NO es inevitable. Es el resultado de falta de comprensión y falta de un método.</p>
+
+        <p style="color: #666; margin-bottom: 40px;">Luna pasó de aterrada a confiada. Rocky de agresivo a amistoso. Bella de ansiosa a segura. No son excepciones. Son EJEMPLOS.</p>
+
+        <p style="color: var(--secondary); font-weight: 600; margin-bottom: 20px;">Tu hogar puede ser tranquilo. Tu perro puede confiar. ¿Estás listo para cambiar?</p>
+
+        <p style="color: #999; font-size: 0.95rem; margin-top: 40px;">© 2025 Tremdora. Un Hogar en Calma es Posible.</p>
+    </div>
+</div>
+
+</body>
+</html>
