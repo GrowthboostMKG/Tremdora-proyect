@@ -165,3 +165,36 @@ Según la duración, se suman nuevas experiencias al ritual. Consultar.
 📞 Reservas y consultas: 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Esencia de Mujer
+
+RITUAL ESENCIA DE MUJER 🌸
+Vuelve a elegirte.
+⭐⭐⭐⭐⭐
+
+Un ritual para escuchar tus necesidades y disfrutar de tu feminidad a tu manera.
+
+Creado especialmente para ti, enfocado a tu energía femenina, para recuperar tu espacio, guiado por la tierra, el agua, el fuego y el aire. En un espacio cálido y de desconexión total.
+
+El cuarzo rosa (aire), la cornalina (fuego) y el jaspe rojo (tierra) son símbolo de ternura y amor propio. Acompañan un masaje delicado con esencias de rosa búlgara y geranio de ALQVIMIA, que estimulan tu feminidad, relajan tu sistema nervioso y son reparadoras emocionales. Su fusión, junto con la frecuencia de 639 Hz y las piedras energéticas, ayuda a elevar la energía y la vibración de los chakras, en especial el chakra del corazón, aportando estabilidad y fortaleza y eliminando tensiones. Su carácter floral aporta una sensación de intimidad y cuidado, elegida para convertir este momento en un gesto de cariño hacia ti.
+
+Un ritual que te devuelve a tu ritmo natural, ese que se pierde con las prisas. Un tiempo para recibir atención, reconocer tu sensibilidad y cultivar una sensación de equilibrio interior.
+
+Tu bienestar también merece ser una prioridad.
+
+🌍 Enraízate.
+💧 Fluye.
+🧘‍♀️ Conecta contigo.
+🌬️ Respira.
+
+Duraciones:
+• 60 min · Raíz · 70 €. Una pausa para reconectar con tu cuerpo y soltar la tensión.
+• 90 min · Ciclo · 120 €. Más tiempo para equilibrar tus emociones y despertar tu energía.
+• 120 min · Plenitud · 150 – 180 €. La experiencia completa para sentirte entera, en calma y en tu centro.
+
+Según la duración, se suman nuevas experiencias al ritual. Consultar.
+📞 Reservas y consultas: 667 435 149
+
+VS Estética
