@@ -85,9 +85,12 @@ El lujo de parar y dejarte cuidar.
 💫 Vuelve a tu centro.
 
 Duraciones:
-• 60 min · Pausa · [precio]. Una desconexión profunda para liberar el estrés del día a día.
-• 90 min · Equilibrio · [precio]. Más tiempo para que cuerpo y mente se suelten del todo y recuperes tu energía.
-• 120 min · Renacer · [precio]. La experiencia completa. Un viaje de calma absoluta para salir renovada por dentro y por fuera.
+• 60 min · Pausa · 70 €. Una desconexión profunda para liberar el estrés del día a día.
+• 90 min · Equilibrio · 120 €. Más tiempo para que cuerpo y mente se suelten del todo y recuperes tu energía.
+• 120 min · Renacer · 150 – 180 €. La experiencia completa. Un viaje de calma absoluta para salir renovada por dentro y por fuera.
+
+Según la duración, se suman nuevas experiencias al ritual. Consultar.
+📞 Reservas y consultas: 667 435 149
 
 📩 Escríbeme «ÁUREA» y te reservo tu momento.
 
@@ -118,9 +121,12 @@ Cierra los ojos. Lo demás puede esperar.
 💤 Descansa de verdad.
 
 Duraciones:
-• 60 min · Calma · [precio]. Para desconectar la mente y liberar la tensión del día.
-• 90 min · Refugio · [precio]. Una relajación más profunda para recuperar tu descanso.
-• 120 min · Sueño profundo · [precio]. La experiencia completa para que tu cuerpo y tu mente se rindan por completo al descanso.
+• 60 min · Calma · 70 €. Para desconectar la mente y liberar la tensión del día.
+• 90 min · Refugio · 120 €. Una relajación más profunda para recuperar tu descanso.
+• 120 min · Sueño profundo · 150 – 180 €. La experiencia completa para que tu cuerpo y tu mente se rindan por completo al descanso.
+
+Según la duración, se suman nuevas experiencias al ritual. Consultar.
+📞 Reservas y consultas: 667 435 149
 
 📩 Escríbeme «NOCTURNA» y te reservo tu momento.
 
