@@ -35,9 +35,9 @@ B = [0.0, at("no"), at("tu", after=6), at("cuando"), at("aunque"), at("tu", afte
      at("si", after=45), at("nadie"), TOTAL]
 SHOTS = [
  dict(V("953e0d36", 0.0, .85, (.55, .5, 1.05), (.6, .47, 1.22)), tr=None),                      # the eye
- dict(I("9eacdc71", (.38, .34, 1.45), (.38, .335, 1.62)), tr=("blink", .7)),                    # held on the table
+ dict(I("9eacdc71", (.38, .34, 1.45), (.38, .335, 1.62)), tr=("softblink", 1.0)),                # held on the table
  dict(I("50130dc3", (.53, .48, 1.0), (.55, .47, 1.07)), tr=("cut", 0)),                         # presence
- dict(I("90085c87", (.48, .55, 1.0), (.40, .44, 1.17)), tr=("blink", .8)),                      # waiting at the door
+ dict(I("90085c87", (.48, .55, 1.0), (.40, .44, 1.17)), tr=("softblink", 1.1)),                 # waiting at the door
  dict(I("e2e26db4", (.44, .56, 1.25), (.43, .55, 1.42)), tr=("zoom", .7)),                      # 'casi no vea'
  dict(I("53d6fb3d", (.58, .60, 1.04), (.65, .66, 1.24)), tr=("cut", 0)),                        # your voice, your hand
  dict(V("437098cd", 0.0, .24, (.5, .55, 1.0), (.5, .58, 1.10)), tr=("dip", .9)),                # the empty bed — guilt
@@ -205,6 +205,20 @@ def transition(i, t, typ, d, extra):
         curve_ = 0.035 * (1 - ((XN - 0.5) * 2) ** 2)  # lid is slightly curved
         m = np.clip((e - dist + curve_ * c) / 0.05, 0, 1)
         return base * (1 - m) + DARK * m
+    if typ == "softblink":                   # a gentle half-closing of the eye: warm, never black
+        A = render_shot(i - 1, t); Bf = render_shot(i, t)
+        x = A * (1 - s) + Bf * s
+        pk = math.sin(math.pi * min(max(u, 0), 1))
+        r = 5.0 * pk
+        if r > 0.3:
+            pil = Image.fromarray((np.clip(x, 0, 1) * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(r))
+            x = np.asarray(pil, np.float32) / 255.0
+        c = pk
+        dist = np.minimum(YN, 1 - YN)
+        curve_ = 0.04 * (1 - ((XN - 0.5) * 2) ** 2)
+        m = np.clip((0.26 * c - dist + curve_ * c) / 0.16, 0, 1) * 0.42 * c
+        x = x * (1 - 0.05 * c)
+        return x * (1 - m) + np.array([0.12, 0.09, 0.065], np.float32) * m
     if typ == "zoom":
         A = render_shot(i - 1, t, zmul=1 + 0.10 * s); Bf = render_shot(i, t, zmul=1 + 0.07 * (1 - s))
         return A * (1 - s) + Bf * s
