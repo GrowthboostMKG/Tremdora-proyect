@@ -236,3 +236,22 @@ Según la duración, se suman nuevas experiencias al ritual. Consultar.
 📞 Reservas y consultas: 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Masaje relajante
+
+MASAJE RELAJANTE
+
+¿Hace cuánto no te dedicas un rato sin mirar el reloj?
+
+Entre el trabajo, la casa y todo lo que tienes pendiente, es fácil dejarte para después.
+
+Este masaje combina movimientos suaves y una presión adaptada a tus preferencias, con atención a espalda, hombros y piernas. Ideal si buscas descansar, aflojar la tensión cotidiana y disfrutar de un masaje sin prisas, centrado en tu comodidad.
+
+Hazte un hueco en tu propia agenda.
+
+50 € · Reserva tu cita
+📞 667 435 149
+
+VS Estética
