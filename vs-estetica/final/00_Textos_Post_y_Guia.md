@@ -92,3 +92,36 @@ Duraciones:
 📩 Escríbeme «ÁUREA» y te reservo tu momento.
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Nocturna
+
+RITUAL NOCTURNA 🌙
+El día termina. Tu descanso comienza.
+⭐⭐⭐⭐⭐
+
+Para esos momentos en los que el cuerpo pide descanso y la mente sigue repasando el día.
+
+Un ritual pensado para ti, que hace tiempo que no duermes de verdad. Un ambiente pensado para transmitir calidez, relajación y desconexión.
+
+Te acompañan la amatista, la lepidolita y la turmalina negra, elegidas para calmar la ansiedad, el insomnio y las tensiones: piedras símbolo de quietud. Las esencias de este ritual son Sweet Dreams, el aceite corporal relajante de lavanda y el aceite esencial de lavanda, que ayudan a liberar el estrés y a recuperar la calidad del sueño. La frecuencia que escogí para tu ritual es de 3 Hz, que ayuda a un sueño tranquilo y reparador.
+
+Sentirás cómo la mente deja de dar vueltas, la respiración se vuelve lenta y el cuerpo ya no pesa. Saldrás en un estado de calma profunda, lista para un descanso físico y mental que notarás durante días.
+
+Una pausa pensada para recuperar tu equilibrio.
+
+Cierra los ojos. Lo demás puede esperar.
+
+🌙 Suelta.
+🤍 Siéntete en calma.
+💤 Descansa de verdad.
+
+Duraciones:
+• 60 min · Calma · [precio]. Para desconectar la mente y liberar la tensión del día.
+• 90 min · Refugio · [precio]. Una relajación más profunda para recuperar tu descanso.
+• 120 min · Sueño profundo · [precio]. La experiencia completa para que tu cuerpo y tu mente se rindan por completo al descanso.
+
+📩 Escríbeme «NOCTURNA» y te reservo tu momento.
+
+VS Estética
