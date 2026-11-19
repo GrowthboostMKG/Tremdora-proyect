@@ -1,0 +1,93 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+@page{size:148mm 210mm;margin:0}
+body{background:#d9d2c8}
+.page{width:148mm;height:210mm;position:relative;overflow:hidden;background:var(--cream);page-break-after:always;margin:0 auto}
+/* ---------- FRONT ---------- */
+.f .photo{position:absolute;left:0;right:0;top:0;height:136mm;background:url(../img/hero.jpg) center 70%/cover}
+.f .photo{-webkit-mask-image:linear-gradient(0deg,transparent 0%,transparent 14%,rgba(0,0,0,.3) 24%,#000 46%);mask-image:linear-gradient(0deg,transparent 0%,transparent 14%,rgba(0,0,0,.3) 24%,#000 46%)}
+.f .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(246,240,231,.85) 0%,rgba(246,240,231,0) 22%)}
+.f .brand{position:absolute;top:9mm;left:0;right:0;text-align:center;z-index:2}
+.f .brand .mono{font-size:22px;color:var(--espresso)}
+.f .brand .eyebrow{font-size:6.5px;color:var(--cocoa);margin-top:2px}
+.f .content{position:absolute;left:13mm;right:13mm;top:117mm;text-align:center;z-index:2}
+.f .eyebrow.k{font-size:7.5px;color:var(--gold)}
+.f h1{font-family:"Cormorant";font-weight:400;font-size:36px;line-height:1.06;margin:4mm 0 4.5mm;color:var(--espresso)}
+.f h1 i{color:var(--gold)}
+.f p.lead{font-size:10.4px;line-height:1.65;font-weight:300;color:var(--cocoa);max-width:116mm;margin:0 auto}
+.f .trio{display:flex;justify-content:center;gap:5mm;margin:6mm 0 7mm;font-family:"Cormorant";font-style:italic;font-size:17px;color:var(--espresso)}
+.f .trio span+span::before{content:"·";color:var(--gold);margin-right:5mm;font-style:normal}
+.f .cta{display:inline-block;border:1px solid var(--gold);padding:3.8mm 11mm;font-size:8.6px;letter-spacing:.38em;text-transform:uppercase;color:var(--espresso)}
+.f .contact{margin-top:3.5mm;font-size:8.5px;letter-spacing:.12em;color:var(--taupe)}
+.f .stars{font-size:9px;margin-top:5mm}
+/* ---------- BACK ---------- */
+.b{background:var(--cream);padding:14mm 13mm}
+.b .head{text-align:center}
+.b .head .eyebrow{font-size:7px;color:var(--gold)}
+.b h2{font-family:"Cormorant";font-weight:400;font-size:38px;letter-spacing:.16em;padding-left:.16em;margin:2mm 0 0}
+.b .tag{font-family:"Cormorant";font-style:italic;font-size:15px;color:var(--cocoa);margin-top:1mm}
+.b .stars{font-size:8px;margin-top:2.5mm}
+.b .intro{font-size:9.8px;line-height:1.7;font-weight:300;color:var(--cocoa);text-align:center;margin:5mm auto 0;max-width:112mm}
+.b .rule{font-size:7px;letter-spacing:.4em;text-transform:uppercase;margin:8mm 0 5.5mm}
+.b .senses{display:grid;grid-template-columns:1fr 1fr;gap:5.5mm 7mm}
+.b .senses div{font-size:9px;line-height:1.55;font-weight:300;color:var(--cocoa)}
+.b .senses b{display:block;font-family:"Cormorant";font-weight:600;font-size:14px;color:var(--espresso);margin-bottom:1mm;letter-spacing:.02em}
+.b .durs{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.b .d{border:1px solid var(--sand);padding:6mm 3mm;text-align:center;position:relative;background:#fbf8f3}
+.b .d.star{border-color:var(--gold);background:#fff}
+.b .d .badge{position:absolute;top:-2.2mm;left:50%;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:5.6px;letter-spacing:.3em;text-transform:uppercase;padding:1mm 2.4mm;white-space:nowrap}
+.b .d .min{font-size:6.8px;letter-spacing:.35em;text-transform:uppercase;color:var(--gold)}
+.b .d .n{font-family:"Cormorant";font-style:italic;font-size:21px;margin:1.5mm 0 2mm}
+.b .d p{font-size:8px;line-height:1.5;font-weight:300;color:var(--cocoa)}
+.b .future{font-family:"Cormorant";font-style:italic;font-size:16px;line-height:1.35;text-align:center;color:var(--espresso);margin:9mm auto 0;max-width:110mm}
+.b .foot{position:absolute;left:13mm;right:13mm;bottom:10mm;border-top:1px solid var(--sand);padding-top:4mm;display:flex;justify-content:space-between;align-items:center}
+.b .foot .mono{font-size:17px}
+.b .foot .c{text-align:right;font-size:7.6px;line-height:1.6;letter-spacing:.08em;color:var(--taupe)}
+.b .foot .c b{color:var(--espresso);font-weight:500;letter-spacing:.3em;text-transform:uppercase;font-size:7px}
+</style></head><body>
+
+<section class="page f">
+  <div class="photo"></div>
+  <div class="brand"><div class="mono">VS <b>Estética</b></div><div class="eyebrow">Masaje · Bienestar · Ritual</div></div>
+  <div class="content">
+    <div class="eyebrow k">Ritual Áurea</div>
+    <h1>¿Cuándo fue la última vez<br>que <i>paraste de verdad?</i></h1>
+    <p class="lead">Un masaje envolvente, continuo y pausado. Aromas de incienso y palo de rosa, luz tenue y unas manos que te sostienen. La tensión se deshace, la respiración se calma y tú vuelves a ti.</p>
+    <div class="trio"><span>Suelta</span><span>Recárgate</span><span>Vuelve a tu centro</span></div>
+    <div class="cta">Reserva tu momento</div>
+    <div class="contact">[ WhatsApp · Instagram · Dirección ]</div>
+  </div>
+</section>
+
+<section class="page b">
+  <div class="head">
+    <div class="eyebrow">VS Estética presenta</div>
+    <h2>ÁUREA</h2>
+    <div class="tag">Detén el tiempo. Respira. Vuelve a ti.</div>
+    <div class="stars">★★★★★</div>
+  </div>
+  <p class="intro">Un ritual creado para quien necesita parar de verdad. Una experiencia envolvente para descansar tu cuerpo, aquietar tu mente y reencontrarte con tu bienestar.</p>
+
+  <div class="rule">Lo que vas a sentir</div>
+  <div class="senses">
+    <div><b>Una bienvenida sin prisa</b>Diez minutos para llegar: infusión caliente, luz tenue y una conversación para conocer qué necesitas hoy.</div>
+    <div><b>Incienso y palo de rosa</b>Esencias de ALQVIMIA de notas resinosas y amaderadas que envuelven la cabina de calma y recogimiento.</div>
+    <div><b>Cuarzo y 432 Hz</b>El cuarzo transparente, símbolo de claridad, y una frecuencia de 432 Hz pensada para este ritual.</div>
+    <div><b>Manos que envuelven</b>Movimientos amplios, continuos y lentos. Toallas tibias y una presión siempre a tu medida.</div>
+  </div>
+
+  <div class="rule">Elige tu tiempo</div>
+  <div class="durs">
+    <div class="d"><div class="min">60 min</div><div class="n">Pausa</div><p>Espalda, hombros, piernas y nuca. Una desconexión profunda del estrés diario.</p></div>
+    <div class="d star"><span class="badge">El más elegido</span><div class="min">90 min</div><div class="n">Equilibrio</div><p>Todo lo anterior, más brazos, manos y cuero cabelludo. Cuerpo y mente se sueltan del todo.</p></div>
+    <div class="d"><div class="min">120 min</div><div class="n">Renacer</div><p>Se abre con un ritual de pies y completa el recorrido entero. La experiencia absoluta.</p></div>
+  </div>
+
+  <p class="future">Saldrás más ligera, con la piel nutrida y luminosa<br>y una calma que te acompañará durante días.</p>
+
+  <div class="foot">
+    <div class="mono">VS <b>Estética</b></div>
+    <div class="c"><b>Reservas</b><br>[ WhatsApp ] · [ Instagram ]<br>[ Dirección ]</div>
+  </div>
+</section>
+</body></html>

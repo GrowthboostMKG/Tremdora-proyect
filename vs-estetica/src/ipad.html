@@ -1,0 +1,120 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+@page{size:1366px 1024px;margin:0}
+.screen{width:1366px;height:1024px;position:relative;overflow:hidden;background:var(--cream);display:grid;grid-template-columns:500px 1fr;page-break-after:always}
+.pic{position:relative;background-size:cover;background-position:center}
+.pic::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(246,240,231,0) 70%,var(--cream) 100%)}
+.pic .mono{position:absolute;left:44px;top:40px;font-size:26px;color:var(--cream);text-shadow:0 1px 14px rgba(44,34,26,.45);z-index:2}
+.body{padding:58px 64px 46px 40px;display:flex;flex-direction:column}
+.eyebrow.k{font-size:13px;color:var(--gold)}
+h1{font-family:"Cormorant";font-weight:400;font-size:74px;line-height:1;letter-spacing:.12em;margin:12px 0 6px;color:var(--espresso)}
+h1.s{letter-spacing:0;font-size:62px}
+h1 i{color:var(--gold)}
+.tag{font-family:"Cormorant";font-style:italic;font-size:26px;color:var(--cocoa)}
+.intro{font-size:16px;line-height:1.65;font-weight:300;color:var(--cocoa);margin-top:16px;max-width:720px}
+.stars{font-size:15px;margin-left:14px;vertical-align:middle}
+/* welcome */
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:44px 48px;margin-top:52px}
+.step{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:start}
+.step .num{font-family:"Cormorant";font-style:italic;font-size:46px;line-height:.9;color:var(--gold)}
+.step b{display:block;font-family:"Cormorant";font-weight:600;font-size:27px;color:var(--espresso);margin-bottom:8px}
+.step p{font-size:16.5px;line-height:1.55;font-weight:300;color:var(--cocoa)}
+.note{margin-top:auto;border-top:1px solid var(--sand);padding-top:20px;display:flex;justify-content:space-between;align-items:center}
+.note .q{font-family:"Cormorant";font-style:italic;font-size:22px;color:var(--espresso)}
+.note .eyebrow{font-size:11px;color:var(--taupe)}
+/* ritual */
+.chips{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.chip{border:1px solid var(--sand);background:#fbf8f3;border-radius:40px;padding:8px 16px;font-size:12.5px;letter-spacing:.06em;color:var(--cocoa)}
+.chip i{font-style:normal;color:var(--gold);margin-right:6px}
+.cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:30px;flex:1}
+.col{border:1px solid var(--sand);background:#fbf8f3;padding:24px 20px 20px;position:relative;display:flex;flex-direction:column}
+.col.star{background:#fff;border-color:var(--gold);box-shadow:0 18px 40px -24px rgba(90,70,54,.45)}
+.badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:#fff;font-size:10px;letter-spacing:.3em;text-transform:uppercase;padding:5px 12px;white-space:nowrap}
+.col .min{font-size:12px;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)}
+.col .n{font-family:"Cormorant";font-style:italic;font-size:38px;line-height:1;margin:6px 0 8px}
+.col .d{font-size:13.5px;line-height:1.5;font-weight:300;color:var(--cocoa);min-height:60px}
+.col ul{list-style:none;margin-top:14px;border-top:1px solid var(--sand);padding-top:12px}
+.col li{font-size:14px;line-height:1.35;color:var(--espresso);padding:8px 0;display:flex;justify-content:space-between;gap:8px}
+.col li span{color:var(--taupe);white-space:nowrap;font-size:11.5px}
+.col li.plus{color:var(--gold)}
+.col .price{margin-top:auto;padding-top:14px;font-family:"Cormorant";font-size:30px;text-align:center;color:var(--espresso)}
+.foot{margin-top:22px;display:flex;justify-content:space-between;align-items:center}
+.foot .q{font-family:"Cormorant";font-style:italic;font-size:22px}
+.foot .trio{font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--taupe)}
+.foot .trio b{color:var(--gold);font-weight:400}
+</style></head><body>
+
+<!-- 1 · BIENVENIDA -->
+<section class="screen">
+  <div class="pic" style="background-image:url(../img/welcome.jpg);background-position:40% center"><div class="mono">VS <b>Estética</b></div></div>
+  <div class="body">
+    <div class="eyebrow k">Incluida en todos nuestros rituales</div>
+    <h1 class="s">Tu bienvenida, <i>sin prisa</i></h1>
+    <div class="tag">Diez minutos para llegar, antes de que empiece tu tiempo.</div>
+    <div class="steps">
+      <div class="step"><div class="num">i</div><div><b>Tu cabina te espera</b><p>Preparada para ti, con luz tenue y música suave. Aquí fuera se quedan las prisas.</p></div></div>
+      <div class="step"><div class="num">ii</div><div><b>Una infusión para llegar</b><p>Caliente y sin cafeína, o agua si lo prefieres. Antes, confirmamos que sus ingredientes te sientan bien.</p></div></div>
+      <div class="step"><div class="num">iii</div><div><b>Te escuchamos</b><p>Cómo llegas hoy, qué zona necesita más atención y si prefieres conversar o disfrutar del silencio.</p></div></div>
+      <div class="step"><div class="num">iv</div><div><b>Tu bienestar, primero</b><p>Repasamos alergias, lesiones o sensibilidad al calor para adaptar cada gesto a tu cuerpo.</p></div></div>
+      <div class="step"><div class="num">v</div><div><b>El aroma de tu ritual</b><p>Te presentamos la esencia que te acompañará y solo la usamos si te encanta.</p></div></div>
+      <div class="step"><div class="num">vi</div><div><b>Empieza tu momento</b><p>Te contamos lo que vas a vivir y te dejamos intimidad para acomodarte. Tu tiempo empieza cuando tú estás lista.</p></div></div>
+    </div>
+    <div class="note"><div class="q">El lujo de parar y dejarte cuidar.</div><div class="eyebrow">Toallas tibias · Presión a tu medida</div></div>
+  </div>
+</section>
+
+<!-- 2 · RITUAL ÁUREA -->
+<section class="screen">
+  <div class="pic" style="background-image:url(../img/hero.jpg);background-position:38% center"><div class="mono">VS <b>Estética</b></div></div>
+  <div class="body">
+    <div class="eyebrow k">Ritual de autor · Masaje corporal envolvente</div>
+    <h1>ÁUREA<span class="stars">★★★★★</span></h1>
+    <div class="tag">Detén el tiempo. Respira. Vuelve a ti.</div>
+    <p class="intro">Para quien necesita parar de verdad. Un masaje continuo y pausado que deshace la tensión, ralentiza la respiración y te devuelve una calma profunda que dura días.</p>
+    <div class="chips">
+      <div class="chip"><i>✦</i>Incienso &amp; palo de rosa · ALQVIMIA</div>
+      <div class="chip"><i>✦</i>Cuarzo transparente · obsidiana · ágata azul</div>
+      <div class="chip"><i>✦</i>Frecuencia 432 Hz</div>
+    </div>
+    <div class="cols">
+      <div class="col">
+        <div class="min">60 min</div><div class="n">Pausa</div>
+        <div class="d">Una desconexión profunda para liberar el estrés del día a día.</div>
+        <ul>
+          <li>Espalda y hombros<span>25′</span></li>
+          <li>Piernas<span>15′</span></li>
+          <li>Hombros y nuca<span>10′</span></li>
+          <li>Acogida y quietud final<span>10′</span></li>
+        </ul>
+        <div class="price">— €</div>
+      </div>
+      <div class="col star"><span class="badge">El más elegido</span>
+        <div class="min">90 min</div><div class="n">Equilibrio</div>
+        <div class="d">Más tiempo para que cuerpo y mente se suelten del todo y recuperes tu energía.</div>
+        <ul>
+          <li>Espalda y hombros<span>30′</span></li>
+          <li>Piernas<span>20′</span></li>
+          <li class="plus">+ Brazos y manos<span>15′</span></li>
+          <li class="plus">+ Nuca y cuero cabelludo<span>10′</span></li>
+          <li>Acogida, giro y quietud<span>15′</span></li>
+        </ul>
+        <div class="price">— €</div>
+      </div>
+      <div class="col">
+        <div class="min">120 min</div><div class="n">Renacer</div>
+        <div class="d">La experiencia completa. Un viaje de calma absoluta para salir renovada.</div>
+        <ul>
+          <li class="plus">+ Ritual de pies<span>25′</span></li>
+          <li>Espalda y hombros<span>30′</span></li>
+          <li>Piernas<span>20′</span></li>
+          <li>Brazos y manos<span>20′</span></li>
+          <li>Nuca y cuero cabelludo<span>10′</span></li>
+          <li>Transiciones y quietud<span>15′</span></li>
+        </ul>
+        <div class="price">— €</div>
+      </div>
+    </div>
+    <div class="foot"><div class="q">Saldrás más ligera, con la piel luminosa.</div><div class="trio">Suelta <b>·</b> Recárgate <b>·</b> Vuelve a tu centro</div></div>
+  </div>
+</section>
+</body></html>
