@@ -198,3 +198,41 @@ Según la duración, se suman nuevas experiencias al ritual. Consultar.
 📞 Reservas y consultas: 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Pasos ligeros
+
+RITUAL PASOS LIGEROS 🍃
+⭐⭐⭐⭐⭐
+
+Tus pies te sostienen cada día. Hoy déjalos descansar. Regálate una pausa.
+
+Un ritual sensorial que empieza en los pies y llega a todo el cuerpo. Pensado para que te tomes un momento, dejes atrás las prisas y disfrutes del placer de sentirte cuidada.
+
+Un baño tibio con sales, frutas y pétalos abre este ritual, acompañado del aceite corporal Comfort Legs de ALQVIMIA, que ayuda a absorber el cansancio, descargar la tensión y aliviar la sensación de pesadez y de pies cansados.
+
+Elige tu baño:
+🍊 Cítrico y Luz: naranja, limón y sales doradas. Revitaliza y da alegría.
+🌹 Rosa y Calma: pétalos de rosa, flores y sal rosa. Suaviza y envuelve.
+🍵 Verde y Pureza: té verde, hierbas y sales minerales. Purifica y equilibra.
+
+Toallas calientes preparadas con especias y la frecuencia de 443 Hz, para darte relajación y desconexión absoluta. Todo está preparado para ti y tu bienestar.
+
+A través de los puntos reflejos de los pies se liberan las tensiones y la energía vuelve a fluir. La exfoliación suaviza la piel, mientras el masaje de reflexología podal y la hidratación se combinan con el calor reconfortante de las toallas calientes. Sentirás las piernas ligeras, la mente en calma y una sensación de bienestar.
+
+🍋 Despierta los sentidos.
+🧘‍♀️ Libera el peso del día.
+👣 Camina más ligera.
+
+El placer de detenerte. Toda una experiencia dedicada a tus pies.
+
+Duraciones:
+• 60 min · Ligereza · 70 €. Baño de pies, exfoliación, reflexología e hidratación.
+• 90 min · Equilibrio · 120 €. Una reflexología más profunda y un masaje de piernas para soltar el cansancio.
+• 120 min · Plenitud · 150 – 180 €. La experiencia completa, con masaje de piernas y espalda, para que el bienestar llegue a todo el cuerpo.
+
+Según la duración, se suman nuevas experiencias al ritual. Consultar.
+📞 Reservas y consultas: 667 435 149
+
+VS Estética

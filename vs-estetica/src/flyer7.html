@@ -1,0 +1,98 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+:root{--cream:#F3F2EA;--sand:#D9D9C5;--taupe:#46493A;--cocoa:#30342A;--espresso:#1A1C16;--gold:#5E7D3E;--gold-soft:#D8C27A}
+.band{background:#33452B!important}
+@page{size:210mm 297mm;margin:0}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--cream);margin:0 auto;display:flex;flex-direction:column}
+.top{display:grid;grid-template-columns:96mm 1fr;flex:none}
+.photo{height:149mm;background:url(../img/pasos.jpg) 72% center/cover;border-right:2px solid var(--gold)}
+.side{padding:8mm 11mm 0 8mm;display:flex;flex-direction:column}
+.side .title{text-align:left;padding-top:0}
+.side h1{font-size:48px;margin:2mm 0 1mm}
+.side .tag{font-size:18px;line-height:1.2}
+.side p{font-size:11.4px;line-height:1.48;color:var(--cocoa);margin-top:2.4mm}
+.side p b{color:var(--espresso);font-weight:500}
+.side .box{margin-top:auto;margin-bottom:5mm}
+.wrap{padding:0 15mm;flex:1;display:flex;flex-direction:column}
+.title{text-align:center;padding-top:4.5mm}
+.eyebrow{font-size:10px;font-weight:500;color:var(--gold);letter-spacing:.5em}
+h1{font-family:"Cormorant";font-weight:500;font-size:46px;line-height:1;margin:1mm 0 .5mm;color:var(--espresso)}
+h1 i{color:var(--gold)}
+.tag{font-family:"Cormorant";font-style:italic;font-weight:500;font-size:21px;color:var(--cocoa)}
+.cols{display:grid;grid-template-columns:1.15fr 1fr;gap:8mm;margin-top:4mm}
+.cols p{font-size:11.4px;line-height:1.58;color:var(--cocoa);font-weight:400}
+.cols p+p{margin-top:2.6mm}
+.cols p b{color:var(--espresso);font-weight:500}
+.box{border:1.2px solid #C9CDB2;background:#F8F8F1;padding:4.5mm 5mm}
+.box h3{font-size:9.5px;font-weight:600;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:2.5mm}
+.box li{list-style:none;padding:1.6mm 0;border-bottom:1px solid #E1E3D2;font-size:11.6px;color:var(--cocoa);line-height:1.4}
+.box li:last-child{border-bottom:0}
+.box li b{display:block;font-family:"Cormorant";font-size:14.6px;font-weight:700;color:var(--espresso)}
+.band{margin:0 -15mm 0;background:var(--espresso);color:var(--cream);text-align:center;padding:3.4mm 0}
+.band .q{font-family:"Cormorant";font-style:italic;font-weight:500;font-size:27px}
+.band .t{margin-top:1.2mm;font-size:10.5px;font-weight:500;letter-spacing:.38em;text-transform:uppercase;color:var(--gold-soft)}
+.menu{margin-top:4mm}
+.menu h3{text-align:center;font-size:10px;font-weight:600;letter-spacing:.45em;color:var(--gold);text-transform:uppercase;margin-bottom:2mm}
+.row{display:grid;grid-template-columns:24mm 1fr auto;align-items:baseline;gap:4mm;padding:1.1mm 0;border-bottom:1px solid #D5D8C2}
+.row .min{font-size:11px;font-weight:600;letter-spacing:.25em;color:var(--gold)}
+.row .n{font-family:"Cormorant";font-style:italic;font-weight:600;font-size:25px;color:var(--espresso)}
+.row .d{font-size:12px;color:var(--cocoa)}
+.row .p{font-family:"Cormorant";font-weight:700;font-size:28px;color:var(--espresso)}
+.row.star .n::after{content:"El más elegido";font-family:"Jost";font-style:normal;font-size:7.5px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;background:var(--gold);color:#fff;padding:.8mm 2mm;margin-left:2.5mm;vertical-align:middle}
+.welcome{text-align:center;font-family:"Cormorant";font-style:italic;font-weight:500;font-size:15px;color:var(--cocoa);margin:-.5mm 0 1.5mm}
+.inc{display:block;font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-top:.8mm}
+.extra{text-align:center;font-size:11.5px;color:var(--cocoa);margin-top:2mm}
+.extra b{color:var(--gold);font-weight:600}
+.tel{font-family:"Cormorant";font-size:21px;font-weight:700;color:var(--espresso);letter-spacing:.04em}
+.pausa{font-family:"Cormorant";font-style:italic;font-weight:600;font-size:17px!important;color:var(--espresso)!important}
+.baths{margin-bottom:3mm}
+.bg{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.bg div{border:1.2px solid #C9CDB2;background:#F8F8F1;padding:2.6mm 3mm;font-size:10.3px;line-height:1.4;color:var(--cocoa);text-align:center}
+.bg b{display:block;font-family:"Cormorant";font-style:italic;font-size:17px;font-weight:700;color:var(--espresso);margin-bottom:.6mm}
+.foot{margin-top:auto;padding:3mm 0 6mm;display:flex;justify-content:space-between;align-items:center}
+.foot .mono{font-size:24px;font-weight:500}
+.foot .c{text-align:right;font-size:11px;font-weight:500;line-height:1.5;color:var(--cocoa);letter-spacing:.06em}
+.foot .c b{font-size:9.5px;letter-spacing:.35em;color:var(--espresso);font-weight:600}
+</style></head><body>
+<section class="page">
+  <div class="top">
+    <div class="photo"></div>
+    <div class="side">
+      <div class="title">
+        <div class="eyebrow">★★★★★ &nbsp; VS Estética · Ritual</div>
+        <h1>Pasos <i>ligeros</i></h1>
+        <div class="tag">Tus pies te sostienen cada día. Hoy déjalos descansar.</div>
+      </div>
+      <p><b>Un ritual sensorial que empieza en los pies y llega a todo el cuerpo.</b> Pensado para que te tomes un momento, dejes atrás las prisas y disfrutes del placer de sentirte cuidada.</p>
+      <p>Un baño tibio con sales, frutas y pétalos abre este ritual. A través de los puntos reflejos de los pies se liberan las tensiones y la energía vuelve a fluir. La exfoliación suaviza la piel, mientras la reflexología podal y la hidratación se combinan con el calor reconfortante de las toallas calientes.</p>
+      <p>Sentirás las piernas ligeras, la mente en calma y una sensación de bienestar.</p>
+      <p class="pausa">Todo está preparado para ti y tu bienestar.</p>
+      <div class="box">
+        <h3>Te acompañan</h3>
+        <ul>
+          <li><b>Comfort Legs · ALQVIMIA</b>Aceite corporal que ayuda a absorber el cansancio, descargar la tensión y aliviar la sensación de pesadez y de pies cansados.</li>
+          <li><b>Toallas calientes con especias · 443 Hz</b>Para darte relajación y desconexión absoluta.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="band">
+      <div class="q">El placer de detenerte. Toda una experiencia dedicada a tus pies.</div>
+      <div class="t">Despierta los sentidos &nbsp;·&nbsp; Libera el peso del día &nbsp;·&nbsp; Camina más ligera</div>
+    </div>
+    <div class="menu">
+      <div class="baths"><h3>Elige tu baño</h3><div class="bg"><div><b>Cítrico y Luz</b>Naranja, limón y sales doradas. Revitaliza y da alegría.</div><div><b>Rosa y Calma</b>Pétalos de rosa, flores y sal rosa. Suaviza y envuelve.</div><div><b>Verde y Pureza</b>Té verde, hierbas y sales minerales. Purifica y equilibra.</div></div></div>
+      <h3>Elige tu tiempo</h3>
+      <div class="row"><div class="min">60 MIN</div><div><span class="n">Ligereza</span><br><span class="d" style="margin:0">Baño de pies, exfoliación, reflexología e hidratación.</span></div><div class="p">{P60}</div></div>
+      <div class="row star"><div class="min">90 MIN</div><div><span class="n">Equilibrio</span><br><span class="d" style="margin:0">Una reflexología más profunda y un masaje de piernas para soltar el cansancio.</span></div><div class="p">{P90}</div></div>
+      <div class="row"><div class="min">120 MIN</div><div><span class="n">Plenitud</span><br><span class="d" style="margin:0">La experiencia completa, con masaje de piernas y espalda, para que el bienestar llegue a todo el cuerpo.</span></div><div class="p">{P120}</div></div>
+      <div class="extra">Según la duración, se suman nuevas experiencias al ritual. <b>Consultar.</b></div>
+    </div>
+    <div class="foot">
+      <div class="mono">VS <b>Estética</b></div>
+      <div class="c"><b>RESERVAS Y CONSULTAS</b><br><span class="tel">Tel. 667 435 149</span></div>
+    </div>
+  </div>
+</section>
+</body></html>
