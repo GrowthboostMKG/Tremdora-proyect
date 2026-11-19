@@ -56,3 +56,39 @@ VS Estética
 4. Opcional, para captar clientes nuevos: añade al flyer una oferta de primera visita, por ejemplo «Primera visita: −15 %» o «Ritual de pies de regalo en tu primer Equilibrio».
 
 Para editar textos, modifica los archivos de `src/` y vuelve a generar los PNG y PDF.
+
+---
+
+## Texto para el post 2 · Ritual Áurea (nueva escena)
+
+RITUAL ÁUREA ✨
+⭐⭐⭐⭐⭐
+
+Detén el tiempo. Respira. Vuelve a ti.
+
+Un ritual creado para quien necesita parar de verdad. Una experiencia envolvente para descansar tu cuerpo, aquietar tu mente y reencontrarte con tu bienestar.
+
+El masaje se acompaña de:
+🔹 Cuarzo transparente
+🔹 Obsidiana
+🔹 Ágata azul
+Elementos elegidos como símbolo de claridad, junto con una frecuencia de 432 Hz pensada especialmente para este ritual.
+
+Acompaño la experiencia con esencias de incienso y palo de rosa de ALQVIMIA. Su mezcla está orientada a emociones de calma, es una gran conectora espiritual y, sobre todo, te ayuda a seguir adelante. Sus notas resinosas y amaderadas crean una atmósfera cálida y contemplativa, ideal para dedicarte un momento de quietud.
+
+Un espacio pensado para ti. Sentirás cómo la tensión se deshace, la respiración se vuelve más lenta y una calma profunda te llena. Saldrás más ligera, con la piel nutrida y luminosa y una energía renovada que te durará días. Cada detalle invita a dejar atrás las prisas y disfrutar de una sensación de calma y ligereza.
+
+El lujo de parar y dejarte cuidar.
+
+🌿 Suelta.
+🔥 Recárgate.
+💫 Vuelve a tu centro.
+
+Duraciones:
+• 60 min · Pausa · [precio]. Una desconexión profunda para liberar el estrés del día a día.
+• 90 min · Equilibrio · [precio]. Más tiempo para que cuerpo y mente se suelten del todo y recuperes tu energía.
+• 120 min · Renacer · [precio]. La experiencia completa. Un viaje de calma absoluta para salir renovada por dentro y por fuera.
+
+📩 Escríbeme «ÁUREA» y te reservo tu momento.
+
+VS Estética
