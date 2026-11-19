@@ -255,3 +255,22 @@ Hazte un hueco en tu propia agenda.
 📞 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Masaje descontracturante
+
+MASAJE DESCONTRACTURANTE
+
+¿Terminas el día con la espalda cargada y los hombros rígidos?
+
+Las horas frente al ordenador, las posturas mantenidas y el esfuerzo físico pueden pasar factura.
+
+Un masaje con trabajo muscular localizado y presión progresiva, adaptado a las zonas donde notas más tensión. Primero te escucho; después personalizo la sesión para atender lo que necesitas, buscando mayor comodidad y soltura, sin forzar tu tolerancia.
+
+Cuéntame dónde notas la sobrecarga. Empezamos por ahí.
+
+55 € · Reserva tu cita
+📞 667 435 149
+
+VS Estética
