@@ -131,3 +131,37 @@ Según la duración, se suman nuevas experiencias al ritual. Consultar.
 📩 Escríbeme «NOCTURNA» y te reservo tu momento.
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Origen · Para él
+
+RITUAL ORIGEN · PARA ÉL 🪵
+Deja las exigencias fuera.
+⭐⭐⭐⭐⭐
+
+Un ritual de cuidado masculino, creado para ti, que quieres cuidarte y sentirte en tu mejor momento, por dentro y por fuera. Para descargar el peso del día y disfrutar de un tiempo sin demandas ni interrupciones.
+
+Rostro, cuerpo y pies se envuelven en aromas cítricos y amaderados, fusionados con la energía de las piedras, en una cabina cálida y de desconexión absoluta.
+
+El masaje corporal y el cuidado del rostro se acompañan del ojo de tigre y el ónix negro, elegidos como símbolo de firmeza y confianza, y de las esencias de cedro e incienso de ALQVIMIA. Sus aromas amaderados y resinosos dan profundidad a la experiencia y evocan la serenidad de un bosque.
+
+El calor confortable y una música envolvente y suave de frecuencia 528 Hz invitan a abandonar las prisas y conectar con tu energía desde la calma. Un encuentro con el placer de sentirte cuidado, descansado y presente.
+
+Sentirás cómo la tensión se libera, el cuerpo recupera su energía y la mente se aclara. Saldrás renovado.
+
+Sin prisas. Sin tener que demostrar nada.
+
+🪵 Enraízate.
+💪 Despierta tu fuerza.
+🦁 Brilla con tu esencia.
+
+Duraciones:
+• 60 min · Fuerza · 70 €. Masaje corporal para liberar la tensión y recargar la energía.
+• 90 min · Presencia · 120 €. Masaje corporal y un ritual facial que devuelve la luz y la firmeza al rostro.
+• 120 min · Esencia · 150 – 180 €. La experiencia completa: baño de pies aromático, masaje corporal y ritual facial.
+
+Según la duración, se suman nuevas experiencias al ritual. Consultar.
+📞 Reservas y consultas: 667 435 149
+
+VS Estética
