@@ -3,8 +3,8 @@ const R=process.argv[2];const S=(f)=>'file://'+path.join(R,'src',f);const O=(f)=
 (async()=>{const b=await chromium.launch();
  const shot=async(file,sel,w,h,dsf,names)=>{const p=await b.newPage({viewport:{width:w,height:h},deviceScaleFactor:dsf});await p.goto(S(file));await p.evaluate(()=>document.fonts.ready);await p.waitForTimeout(400);const els=await p.$$(sel);for(let i=0;i<els.length;i++)await els[i].screenshot({path:O(names[i])});return p;};
  await shot('post.html','#page',1080,1350,1,['01_Post_Instagram_Ritual_Aurea_1080x1350.png']);
- const f=await shot('flyer.html','.page',560,800,3.13,['02_Flyer_A5_Frontal.png','03_Flyer_A5_Reverso.png']);
- await f.pdf({path:O('02_Flyer_A5_Imprenta.pdf'),width:'148mm',height:'210mm',printBackground:true,preferCSSPageSize:true});
+ const f=await shot('flyer.html','.page',800,1130,3.125,['02_Flyer_A4.png']);
+ await f.pdf({path:O('02_Flyer_A4_Imprenta.pdf'),printBackground:true,preferCSSPageSize:true});
  const i=await shot('ipad.html','.screen',1366,1024,2,['04_iPad_1_Bienvenida.png','05_iPad_2_Ritual_Aurea.png']);
  await i.pdf({path:O('04_iPad_Carta_Rituales.pdf'),printBackground:true,preferCSSPageSize:true});
  await b.close();})();

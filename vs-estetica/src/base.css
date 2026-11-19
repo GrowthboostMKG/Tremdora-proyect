@@ -2,8 +2,8 @@
 @font-face{font-family:"Cormorant";src:url(../fonts/Cormorant-Italic.ttf);font-weight:300 700;font-style:italic}
 @font-face{font-family:"Jost";src:url(../fonts/Jost.ttf);font-weight:100 900}
 :root{
-  --cream:#F6F0E7; --linen:#EFE5D8; --sand:#E2D3BF; --taupe:#8C7864;
-  --cocoa:#5A4636; --espresso:#2C221A; --gold:#B48A52; --gold-soft:#D2B587;
+  --cream:#F6F0E7; --linen:#EFE5D8; --sand:#E2D3BF; --taupe:#5E4D3E;
+  --cocoa:#3E3024; --espresso:#1F1712; --gold:#94692F; --gold-soft:#D2B587;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#d9d2c8;font-family:"Jost",sans-serif;color:var(--espresso);-webkit-font-smoothing:antialiased}
