@@ -43,9 +43,21 @@
  },
  {
   "t": 28.65,
-  "end": 34.95,
+  "end": 30.94,
   "src": "e6c7cab0",
-  "note": "Viena: perro escuchando, acercamiento apenas perceptible"
+  "note": "«En Viena demostraron que los perros» perro escuchando"
+ },
+ {
+  "t": 30.94,
+  "end": 32.66,
+  "src": "5787177e",
+  "note": "«distinguen una cara enfadada» (IMG_7848)"
+ },
+ {
+  "t": 32.66,
+  "end": 34.95,
+  "src": "1545372f",
+  "note": "«de una alegre»"
  },
  {
   "t": 34.95,
@@ -92,26 +104,26 @@
  {
   "t": 60.85,
   "end": 65.05,
-  "src": "85fe0fc7",
-  "note": "«Hay un experimento…»"
+  "src": "7a711a6b",
+  "note": "«Y hay un experimento…» laboratorio"
  },
  {
   "t": 65.05,
-  "end": 68.82,
-  "src": "ca1dfecf",
-  "note": "«…detrás de una puerta»"
+  "end": 68.78,
+  "src": "687bc058",
+  "note": "«En Estados Unidos… detrás de una puerta» (IMG_7854)"
  },
  {
-  "t": 68.82,
+  "t": 68.78,
   "end": 70.95,
-  "src": "22ec7ef2",
-  "note": "«fingiendo llorar»"
+  "src": "fd456ac2",
+  "note": "«fingiendo llorar» (IMG_7849)"
  },
  {
   "t": 70.95,
   "end": 76.05,
-  "src": "df5d231a",
-  "note": "«Sus perros corrían…»"
+  "src": "ca1dfecf",
+  "note": "«Sus perros corrían a abrirla…» perro que llega a la puerta"
  },
  {
   "t": 76.05,
@@ -127,9 +139,15 @@
  },
  {
   "t": 85.85,
-  "end": 89.05,
+  "end": 87.32,
   "src": "9b940630",
-  "note": "«Lánzale esa pelota» (IMG_7811)"
+  "note": "«Así que suelta el móvil…» (IMG_7811)"
+ },
+ {
+  "t": 87.32,
+  "end": 89.05,
+  "src": "df5d231a",
+  "note": "«…y lánzale esa pelota» jack russell con la pelota"
  },
  {
   "t": 89.05,

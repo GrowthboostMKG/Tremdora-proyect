@@ -5,8 +5,12 @@ from shots import SHOTS, END
 MAT, WORDS, OUT = sys.argv[1:4]
 W, H, FPS = 1080, 1920, 30
 words = [w for s in json.load(open(WORDS)) for w in s["words"]]
-def word_t(token):
-    return next(w["s"] for w in words if w["w"].strip().lower().startswith(token)) - 0.08
+def word_t(phrase):
+    toks = phrase.lower().split(); norm = lambda w: w["w"].strip().lower().strip(".,«»")
+    for i in range(len(words)):
+        if all(i+j < len(words) and norm(words[i+j]).startswith(tk) for j, tk in enumerate(toks)):
+            return words[i]["s"] - 0.12
+    raise ValueError(phrase)
 for s in SHOTS:
     if isinstance(s["t"], str): s["t"] = round(word_t(s["t"]), 2)
 for i, s in enumerate(SHOTS):

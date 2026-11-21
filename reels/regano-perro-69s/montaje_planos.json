@@ -62,8 +62,8 @@
  {
   "t": 31.85,
   "end": 34.0,
-  "src": "85fe0fc7",
-  "note": "«Tu cara ya se lo ha dicho»"
+  "src": "5787177e",
+  "note": "«Tu cara ya se lo ha dicho» cara enfadada (IMG_7848)"
  },
  {
   "t": 34.0,
@@ -121,15 +121,21 @@
  },
  {
   "t": 55.55,
-  "end": 58.85,
+  "end": 57.28,
   "src": "9b940630",
-  "note": "«Lánzale esa pelota»"
+  "note": "«Así que suelta el móvil…»"
+ },
+ {
+  "t": 57.28,
+  "end": 58.85,
+  "src": "df5d231a",
+  "note": "«…y lánzale esa pelota» jack russell con la pelota"
  },
  {
   "t": 58.85,
   "end": 62.9,
-  "src": "df5d231a",
-  "note": "«…comenta MUESTRA»"
+  "src": "1545372f",
+  "note": "«Y si quieres entenderle aún mejor, comenta MUESTRA»"
  },
  {
   "t": 62.9,
