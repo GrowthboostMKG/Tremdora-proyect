@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Dossier Privado · Residencia Clásica Madrid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: 297mm 210mm; margin: 0; }
+  :root{
+    --ivory:#F5F1EA; --paper:#FBF9F5; --ink:#1D1B19; --ink2:#2A2723;
+    --muted:#6F675D; --line:#D9D0C3; --bronze:#9A7A4E; --bronze-l:#C2A57A;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ background:#555; }
+  body{ font-family:"Inter",sans-serif; color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .page{ width:297mm; height:210mm; position:relative; overflow:hidden; background:var(--ivory); page-break-after:always; break-after:page; }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+  img{ display:block; width:100%; height:100%; object-fit:cover; }
+
+  .serif{ font-family:"Cormorant Garamond",Georgia,serif; }
+  .eyebrow{ font-size:7.2pt; letter-spacing:.32em; text-transform:uppercase; color:var(--bronze); font-weight:500; }
+  h2{ font-family:"Cormorant Garamond",serif; font-weight:300; font-size:34pt; line-height:1.02; letter-spacing:-.005em; color:var(--ink); }
+  h2 em{ font-style:italic; color:var(--bronze); }
+  .rule{ width:14mm; height:1px; background:var(--bronze); margin:6mm 0; }
+  p{ font-size:9pt; line-height:1.72; color:#3d3833; font-weight:300; }
+  p + p{ margin-top:3mm; }
+  .lead{ font-family:"Cormorant Garamond",serif; font-size:15pt; line-height:1.4; color:var(--ink2); font-weight:400; }
+
+  .folio{ position:absolute; bottom:8mm; left:16mm; right:16mm; display:flex; justify-content:space-between; font-size:6.5pt; letter-spacing:.28em; text-transform:uppercase; color:var(--muted); z-index:5; }
+  .folio.light{ color:rgba(245,241,234,.7); }
+  .cap{ position:absolute; left:5mm; bottom:5mm; font-size:6.3pt; letter-spacing:.26em; text-transform:uppercase; color:#fff; background:rgba(29,27,25,.55); padding:2mm 3mm; }
+  .fig{ position:relative; overflow:hidden; }
+
+  /* COVER */
+  .cover img{ position:absolute; inset:0; }
+  .cover .shade{ position:absolute; inset:0; background:linear-gradient(90deg, rgba(20,18,16,.88) 0%, rgba(20,18,16,.62) 38%, rgba(20,18,16,.05) 72%); }
+  .cover .inner{ position:absolute; left:20mm; top:20mm; bottom:20mm; width:130mm; display:flex; flex-direction:column; justify-content:space-between; color:var(--ivory); }
+  .cover .mark{ font-size:7pt; letter-spacing:.4em; text-transform:uppercase; color:var(--bronze-l); }
+  .cover h1{ font-family:"Cormorant Garamond",serif; font-weight:300; font-size:46pt; line-height:1; }
+  .cover h1 em{ font-style:italic; color:var(--bronze-l); }
+  .cover .sub{ margin-top:8mm; font-size:8pt; letter-spacing:.3em; text-transform:uppercase; color:rgba(245,241,234,.85); }
+  .cover .meta{ display:flex; gap:12mm; font-size:6.8pt; letter-spacing:.28em; text-transform:uppercase; color:rgba(245,241,234,.75); border-top:1px solid rgba(194,165,122,.5); padding-top:5mm; }
+
+  /* generic split */
+  .split{ display:grid; height:100%; }
+  .txt{ padding:20mm 16mm 22mm 18mm; display:flex; flex-direction:column; justify-content:center; }
+
+  /* summary */
+  .facts{ display:grid; grid-template-columns:1fr 1fr; margin-top:8mm; border-top:1px solid var(--line); }
+  .fact{ padding:4.2mm 0; border-bottom:1px solid var(--line); }
+  .fact:nth-child(odd){ padding-right:5mm; border-right:1px solid var(--line); }
+  .fact:nth-child(even){ padding-left:5mm; }
+  .fact .k{ font-size:6.3pt; letter-spacing:.26em; text-transform:uppercase; color:var(--muted); }
+  .fact .v{ font-family:"Cormorant Garamond",serif; font-size:16pt; margin-top:1mm; color:var(--ink); }
+  .fact .v.price{ font-size:22pt; color:var(--bronze); }
+
+  .points{ list-style:none; margin-top:6mm; }
+  .points li{ font-size:8.6pt; line-height:1.5; color:#3d3833; font-weight:300; padding:2.6mm 0 2.6mm 7mm; border-top:1px solid var(--line); position:relative; }
+  .points li:last-child{ border-bottom:1px solid var(--line); }
+  .points li::before{ content:""; position:absolute; left:0; top:4.6mm; width:3.2mm; height:1px; background:var(--bronze); }
+  .points b{ font-weight:500; color:var(--ink); }
+
+  /* two-up */
+  .twoup{ display:grid; grid-template-columns:1fr 1fr; gap:3mm; height:122mm; }
+  .band{ display:grid; grid-template-columns:1fr 1.25fr; gap:14mm; padding:10mm 18mm 0 18mm; }
+  .band h2{ font-size:30pt; }
+
+  /* dark */
+  .dark{ background:var(--ink); color:var(--ivory); }
+  .dark h2{ color:var(--ivory); }
+  .dark p{ color:rgba(245,241,234,.72); }
+  .qgrid{ display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin-top:9mm; border-top:1px solid rgba(194,165,122,.35); }
+  .q{ padding:5.5mm 5mm 5.5mm 0; border-bottom:1px solid rgba(194,165,122,.35); }
+  .q + .q{ }
+  .q .n{ font-family:"Cormorant Garamond",serif; font-style:italic; color:var(--bronze-l); font-size:13pt; }
+  .q h4{ font-size:6.8pt; letter-spacing:.26em; text-transform:uppercase; font-weight:500; margin:2mm 0 2.5mm; color:var(--ivory); }
+  .q p{ font-size:7.9pt; line-height:1.6; }
+
+  /* thesis */
+  .thesis{ display:grid; grid-template-columns:repeat(5,1fr); gap:6mm; margin-top:10mm; }
+  .th .num{ font-family:"Cormorant Garamond",serif; font-weight:300; font-size:40pt; color:var(--bronze); line-height:1; }
+  .th h4{ font-family:"Cormorant Garamond",serif; font-weight:500; font-size:14pt; line-height:1.15; margin:3mm 0 3mm; padding-top:3mm; border-top:1px solid var(--line); }
+  .th p{ font-size:8pt; line-height:1.62; }
+
+  /* closing */
+  .steps{ list-style:none; counter-reset:s; margin-top:6mm; }
+  .steps li{ counter-increment:s; display:grid; grid-template-columns:12mm 1fr; padding:4mm 0; border-top:1px solid var(--line); }
+  .steps li:last-child{ border-bottom:1px solid var(--line); }
+  .steps li::before{ content:"0" counter(s); font-family:"Cormorant Garamond",serif; font-size:16pt; color:var(--bronze); line-height:1; }
+  .steps h5{ font-size:7pt; letter-spacing:.24em; text-transform:uppercase; font-weight:500; color:var(--ink); margin-bottom:1.2mm; }
+  .steps p{ font-size:8.2pt; line-height:1.55; }
+</style>
+</head>
+<body>
+
+<!-- 01 · PORTADA -->
+<section class="page cover">
+  <img src="img/fachada.jpg" alt="">
+  <div class="shade"></div>
+  <div class="inner">
+    <div class="mark">Dossier privado de inversión</div>
+    <div>
+      <h1>Residencia señorial<br>en finca <em>clásica</em><br>de Madrid</h1>
+      <div class="sub">Una propiedad singular · Presentación reservada</div>
+    </div>
+    <div class="meta"><span>Madrid</span><span>Noviembre 2026</span><span>Confidencial</span></div>
+  </div>
+</section>
+
+<!-- 02 · RESUMEN -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1fr 1.08fr;">
+    <div class="txt">
+      <div class="eyebrow">Resumen ejecutivo</div>
+      <h2 style="margin-top:5mm;">Un activo <em>difícil</em><br>de replicar</h2>
+      <div class="rule"></div>
+      <p class="lead">Arquitectura histórica, diseño interior contemporáneo y una ubicación consolidada, reunidos en una sola propiedad lista para habitar desde el primer día.</p>
+      <div class="facts">
+        <div class="fact"><div class="k">Precio de venta</div><div class="v price">1.900.000 €</div></div>
+        <div class="fact"><div class="k">Segmento</div><div class="v">Residencial prime</div></div>
+        <div class="fact"><div class="k">Estado</div><div class="v">A estrenar tras reforma</div></div>
+        <div class="fact"><div class="k">Perfil de uso</div><div class="v">Residencia o patrimonio</div></div>
+      </div>
+    </div>
+    <div class="fig"><img src="img/salon-balcones.jpg" alt=""><div class="cap">Salón principal</div></div>
+  </div>
+  <div class="folio" style="right:auto; width:110mm;"><span>Dossier privado · Confidencial</span><span>02</span></div>
+</section>
+
+<!-- 03 · UBICACIÓN Y EDIFICIO -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1.25fr 1fr;">
+    <div class="fig"><img src="img/vistas.jpg" alt=""><div class="cap">Vistas desde la vivienda</div></div>
+    <div class="txt">
+      <div class="eyebrow">Ubicación &amp; edificio</div>
+      <h2 style="margin-top:5mm;">Vivir frente a<br>las <em>copas</em> de los árboles</h2>
+      <div class="rule"></div>
+      <p>La vivienda se asoma a un amplio bulevar flanqueado por plátanos de sombra y por algunas de las fachadas más representativas de la arquitectura señorial madrileña. Desde los balcones, la ciudad se percibe filtrada por el verde.</p>
+      <ul class="points">
+        <li><b>Finca clásica en esquina</b>, fachada de ladrillo visto, cornisas y balcones de forja.</li>
+        <li><b>Metro a escasos pasos</b> del portal, con conexión directa con todo Madrid.</li>
+        <li><b>Restauración, comercio y servicios</b> en la propia manzana.</li>
+        <li><b>Entorno consolidado</b> de alta demanda residencial y escasa oferta renovada.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="folio"><span>Dossier privado · Confidencial</span><span>03</span></div>
+</section>
+
+<!-- 04 · SALÓN -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1.55fr 1fr;">
+    <div class="fig"><img src="img/salon-a.jpg" alt=""></div>
+    <div style="display:grid; grid-template-rows:88mm 1fr;">
+      <div class="fig"><img src="img/salon-b.jpg" alt=""></div>
+      <div class="txt" style="padding:10mm 14mm 20mm 14mm; justify-content:flex-start;">
+        <div class="eyebrow">El salón</div>
+        <h2 style="margin-top:4mm; font-size:28pt;">Escala de <em>recepción</em></h2>
+        <div class="rule" style="margin:4.5mm 0;"></div>
+        <p>Un salón de gran formato pensado para recibir: varias zonas de estar conviven con holgura, bañadas por la luz que entra a través de los balcones a la calle. Las molduras perimetrales recuerdan el origen noble de la finca.</p>
+      </div>
+    </div>
+  </div>
+  <div class="folio" style="left:auto; width:95mm;"><span>Dossier privado</span><span>04</span></div>
+</section>
+
+<!-- 05 · ARQUITECTURA ABIERTA -->
+<section class="page">
+  <div class="twoup">
+    <div class="fig"><img src="img/salon-pilares.jpg" alt=""><div class="cap">Salón hacia comedor</div></div>
+    <div class="fig"><img src="img/comedor.jpg" alt=""><div class="cap">Comedor</div></div>
+  </div>
+  <div class="band">
+    <div>
+      <div class="eyebrow">Concepto abierto</div>
+      <h2 style="margin-top:4mm;">La memoria<br>de la <em>madera</em></h2>
+    </div>
+    <div style="padding-top:2mm;">
+      <p>Los pies derechos originales de la finca se han recuperado y dejado vistos. Lejos de ocultarlos, el proyecto los convierte en el hilo conductor de una planta fluida que enlaza salón y comedor sin perder la definición de cada ambiente.</p>
+      <p>El resultado es un espacio con alma: la autenticidad de una estructura centenaria dialogando con un interiorismo depurado y actual.</p>
+    </div>
+  </div>
+  <div class="folio"><span>Dossier privado · Confidencial</span><span>05</span></div>
+</section>
+
+<!-- 06 · COCINA -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1fr 1.55fr;">
+    <div style="display:grid; grid-template-rows:1fr 88mm;">
+      <div class="txt" style="padding:20mm 14mm 8mm 18mm; justify-content:flex-end;">
+        <div class="eyebrow">La cocina</div>
+        <h2 style="margin-top:4mm; font-size:28pt;">Abierta o <em>reservada</em>,<br>a elección</h2>
+        <div class="rule" style="margin:4.5mm 0;"></div>
+        <p>Un cerramiento de vidrio con puertas correderas permite integrar la cocina en la vida social de la casa o independizarla por completo. Mobiliario en roble natural de suelo a techo, con líneas limpias y sin tiradores superfluos.</p>
+      </div>
+      <div class="fig"><img src="img/cocina-acceso.jpg" alt=""></div>
+    </div>
+    <div class="fig"><img src="img/cocina.jpg" alt=""></div>
+  </div>
+  <div class="folio" style="color:#fff;"><span style="visibility:hidden">.</span><span>06</span></div>
+</section>
+
+<!-- 07 · RECIBIDOR Y CIRCULACIONES -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1fr 1fr 1fr;">
+    <div class="txt">
+      <div class="eyebrow">Recibidor &amp; circulaciones</div>
+      <h2 style="margin-top:5mm; font-size:30pt;">Una llegada<br><em>serena</em></h2>
+      <div class="rule"></div>
+      <p>El recibidor marca el tono desde el primer paso: proporciones generosas, luz cálida y una galería de arte que acompaña el recorrido.</p>
+      <p>Un distribuidor ordenado separa con naturalidad la zona de día de la de noche, garantizando privacidad a los dormitorios.</p>
+    </div>
+    <div class="fig"><img src="img/recibidor.jpg" alt="" style="object-position:62% 50%;"><div class="cap">Recibidor</div></div>
+    <div class="fig"><img src="img/distribuidor.jpg" alt=""><div class="cap">Distribuidor</div></div>
+  </div>
+  <div class="folio" style="right:auto; width:66mm;"><span>Dossier privado</span><span>07</span></div>
+</section>
+
+<!-- 08 · SUITE PRINCIPAL -->
+<section class="page">
+  <div class="twoup" style="grid-template-columns:1.2fr 1fr;">
+    <div class="fig"><img src="img/suite.jpg" alt=""></div>
+    <div class="fig"><img src="img/suite-vestidor.jpg" alt=""></div>
+  </div>
+  <div class="band">
+    <div>
+      <div class="eyebrow">Dormitorio principal</div>
+      <h2 style="margin-top:4mm;">Una <em>suite</em><br>con vestidor</h2>
+    </div>
+    <div style="padding-top:2mm;">
+      <p>El dormitorio principal se concibe como un refugio: cabecero arquitectónico con mesillas integradas, balcón propio y, tras unas puertas correderas enrasadas en la pared, un vestidor independiente revestido en madera cálida.</p>
+      <p>Una pieza que eleva la vivienda al estándar que exige el comprador de alto nivel.</p>
+    </div>
+  </div>
+  <div class="folio"><span>Dossier privado · Confidencial</span><span>08</span></div>
+</section>
+
+<!-- 09 · SEGUNDO DORMITORIO -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1fr 1.55fr;">
+    <div style="display:grid; grid-template-rows:88mm 1fr;">
+      <div class="fig"><img src="img/dorm2-bano.jpg" alt=""></div>
+      <div class="txt" style="padding:10mm 14mm 20mm 18mm; justify-content:flex-start;">
+        <div class="eyebrow">Dormitorios</div>
+        <h2 style="margin-top:4mm; font-size:28pt;">Privacidad<br><em>en suite</em></h2>
+        <div class="rule" style="margin:4.5mm 0;"></div>
+        <p>El segundo dormitorio mantiene la misma exigencia que la estancia principal: baño con acceso directo, luz natural a través de balcón y un diseño atemporal pensado tanto para la familia como para invitados.</p>
+      </div>
+    </div>
+    <div class="fig"><img src="img/dorm2.jpg" alt=""></div>
+  </div>
+  <div class="folio" style="right:auto; width:95mm;"><span>Dossier privado</span><span>09</span></div>
+</section>
+
+<!-- 10 · CALIDADES -->
+<section class="page dark">
+  <div style="padding:0 18mm; height:100%; display:flex; flex-direction:column; justify-content:center;">
+    <div class="eyebrow" style="color:var(--bronze-l);">Memoria de calidades</div>
+    <h2 style="margin-top:5mm;">Cada detalle, <em style="color:var(--bronze-l);">resuelto</em></h2>
+    <div class="qgrid">
+      <div class="q"><div class="n">i.</div><h4>Pavimentos</h4><p>Tarima de roble natural en espiga francesa (punta de Hungría) en toda la vivienda, con rodapié de madera a juego.</p></div>
+      <div class="q"><div class="n">ii.</div><h4>Paramentos</h4><p>Paredes con acabado de estuco de textura sedosa y techos rematados con molduras perimetrales.</p></div>
+      <div class="q"><div class="n">iii.</div><h4>Carpintería exterior</h4><p>Balconeras renovadas en blanco con contraventanas interiores de madera lacada, fieles al carácter de la finca.</p></div>
+      <div class="q"><div class="n">iv.</div><h4>Carpintería interior</h4><p>Puertas lacadas en blanco, correderas enrasadas y cerramiento de cocina en vidrio translúcido.</p></div>
+      <div class="q"><div class="n">v.</div><h4>Climatización</h4><p>Aire acondicionado y calefacción por conductos con difusores lineales ocultos y termostato independiente por estancia.</p></div>
+      <div class="q"><div class="n">vi.</div><h4>Iluminación</h4><p>Downlights LED empotrados, carriles orientables en zonas de día y lectores integrados en los cabeceros.</p></div>
+      <div class="q"><div class="n">vii.</div><h4>Equipamiento de cocina</h4><p>Horno y electrodomésticos integrados, placa de inducción, encimera técnica clara y luz bajo mueble.</p></div>
+      <div class="q"><div class="n">viii.</div><h4>Seguridad &amp; almacenaje</h4><p>Puerta de entrada de seguridad, videoportero, armarios empotrados lacados y espejados, y vestidor a medida.</p></div>
+    </div>
+  </div>
+  <div class="folio light"><span>Dossier privado · Confidencial</span><span>10</span></div>
+</section>
+
+<!-- 11 · TESIS DE INVERSIÓN -->
+<section class="page" style="background:var(--paper);">
+  <div style="padding:0 18mm; height:100%; display:flex; flex-direction:column; justify-content:center;">
+    <div class="eyebrow">Tesis de inversión</div>
+    <h2 style="margin-top:5mm;">Por qué su valor va <em>más allá</em> del precio</h2>
+    <div class="thesis">
+      <div class="th"><div class="num">01</div><h4>Riesgo de obra cero</h4><p>El comprador evita licencias, plazos de ejecución, desviaciones de presupuesto y gestión de gremios. El capital trabaja desde el día de la firma.</p></div>
+      <div class="th"><div class="num">02</div><h4>Trazabilidad total</h4><p>La comercialización la realiza la misma agencia que colaboró con el equipo autor de la reforma: conocimiento directo de materiales, instalaciones y ejecución.</p></div>
+      <div class="th"><div class="num">03</div><h4>Producto escaso</h4><p>Fincas clásicas con estructura original visible y rehabilitación de este nivel apenas salen al mercado. La escasez protege el valor y la liquidez futura.</p></div>
+      <div class="th"><div class="num">04</div><h4>Versatilidad de explotación</h4><p>Residencia principal, alquiler de larga duración a perfil directivo o internacional, o activo patrimonial a largo plazo.</p></div>
+      <div class="th"><div class="num">05</div><h4>Valor refugio</h4><p>El residencial prime madrileño se ha consolidado como reserva de valor frente a otros activos, con demanda nacional e internacional sostenida.</p></div>
+    </div>
+  </div>
+  <div class="folio"><span>Dossier privado · Confidencial</span><span>11</span></div>
+</section>
+
+<!-- 12 · CONDICIONES -->
+<section class="page">
+  <div class="split" style="grid-template-columns:1fr 1.2fr;">
+    <div class="txt dark" style="padding:20mm 16mm 22mm 18mm;">
+      <div class="eyebrow" style="color:var(--bronze-l);">Condiciones de la operación</div>
+      <div class="serif" style="font-size:48pt; font-weight:300; margin-top:8mm; line-height:1; color:var(--ivory);">1.900.000 €</div>
+      <div style="width:14mm; height:1px; background:var(--bronze-l); margin:8mm 0;"></div>
+      <ul class="points" style="margin-top:0;">
+        <li style="color:rgba(245,241,234,.8); border-color:rgba(194,165,122,.3);"><b style="color:var(--ivory);">Libre de cargas</b> y gravámenes.</li>
+        <li style="color:rgba(245,241,234,.8); border-color:rgba(194,165,122,.3);"><b style="color:var(--ivory);">Propiedad sin urgencia de venta:</b> precio fijado conforme al valor real del activo.</li>
+        <li style="color:rgba(245,241,234,.8); border-color:rgba(194,165,122,.3);"><b style="color:var(--ivory);">Documentación</b> a disposición del comprador en fase de due diligence.</li>
+      </ul>
+    </div>
+    <div class="txt" style="padding:20mm 18mm 22mm 16mm;">
+      <div class="eyebrow">Próximos pasos</div>
+      <h2 style="margin-top:5mm; font-size:30pt;">Le invitamos a<br><em>descubrirla</em></h2>
+      <ol class="steps">
+        <li><div><h5>Vídeo presentación</h5><p>Recorrido completo de la vivienda, adjunto a este dossier.</p></div></li>
+        <li><div><h5>Visita privada</h5><p>Concertada a su conveniencia y con total discreción.</p></div></li>
+        <li><div><h5>Análisis y propuesta</h5><p>Acompañamiento personalizado hasta la formalización.</p></div></li>
+      </ol>
+      <div style="margin-top:8mm; font-size:7pt; letter-spacing:.24em; text-transform:uppercase; color:var(--muted);">Contacto</div>
+      <div class="serif" style="font-size:15pt; margin-top:2mm;">[Nombre del asesor]</div>
+      <div style="font-size:8.5pt; color:#3d3833; margin-top:1mm; font-weight:300;">[Teléfono] &nbsp;·&nbsp; [Email]</div>
+    </div>
+  </div>
+  <div class="folio"><span style="color:rgba(245,241,234,.6);">Dossier privado · Confidencial</span><span>12</span></div>
+</section>
+
+</body>
+</html>
