@@ -1,180 +1,179 @@
 1
-00:00:00,000 --> 00:00:03,250
-Le has dicho, «ahora no»,
+00:00:00,000 --> 00:00:03,280
+Le has dicho «ahora no»,
 sin mirarle.
 
 2
-00:00:03,280 --> 00:00:05,590
+00:00:03,300 --> 00:00:05,620
 Tú ya lo has olvidado.
 
 3
-00:00:05,620 --> 00:00:06,730
+00:00:05,640 --> 00:00:06,760
 Él no.
 
 4
-00:00:06,760 --> 00:00:09,720
-Y lo que hace después te va
-a encoger el corazón.
+00:00:06,780 --> 00:00:09,720
+Y lo que hace después
+te va a encoger el corazón.
 
 5
-00:00:09,880 --> 00:00:13,440
-Estás en el sofá con el
-móvil y la cabeza a mil.
+00:00:09,900 --> 00:00:13,440
+Estás en el sofá con el móvil
+y la cabeza a mil.
 
 6
-00:00:13,520 --> 00:00:16,730
-Él llega con su pelota y te
-la deja en las rodillas.
+00:00:13,540 --> 00:00:16,760
+Él llega con su pelota
+y te la deja en las rodillas.
 
 7
-00:00:16,760 --> 00:00:19,920
-Y tú la apartas sin levantar
-la vista.
+00:00:16,780 --> 00:00:19,920
+Y tú la apartas
+sin levantar la vista.
 
 8
-00:00:20,300 --> 00:00:21,990
+00:00:20,320 --> 00:00:22,020
 Se queda quieto.
 
 9
-00:00:22,020 --> 00:00:23,170
+00:00:22,040 --> 00:00:23,200
 Te mira.
 
 10
-00:00:23,200 --> 00:00:26,810
-Y se tumba lejos con la
-cabeza entre las patas.
+00:00:23,220 --> 00:00:26,840
+Y se tumba lejos
+con la cabeza entre las patas.
 
 11
-00:00:26,840 --> 00:00:28,610
+00:00:26,860 --> 00:00:28,640
 Lo ha notado todo.
 
 12
-00:00:28,640 --> 00:00:30,910
-En Viena demostraron que los
-perros
+00:00:28,660 --> 00:00:30,940
+En Viena demostraron
+que los perros
 
 13
-00:00:30,940 --> 00:00:34,950
-distinguen una cara enfadada
-de una alegre.
+00:00:30,960 --> 00:00:34,980
+distinguen una cara
+enfadada de una alegre.
 
 14
-00:00:34,980 --> 00:00:37,520
-No hace falta que levantes
-la voz.
+00:00:35,000 --> 00:00:37,520
+No hace falta
+que levantes la voz.
 
 15
-00:00:37,560 --> 00:00:39,570
+00:00:37,580 --> 00:00:39,600
 Tu cara ya se lo ha dicho.
 
 16
-00:00:39,600 --> 00:00:41,800
-Pero aquí no acaba la cosa.
+00:00:39,620 --> 00:00:41,800
+Pero aquí no
+acaba la cosa.
 
 17
-00:00:42,140 --> 00:00:44,730
-Diez minutos después,
-vuelve.
+00:00:42,160 --> 00:00:44,760
+Diez minutos
+después, vuelve.
 
 18
-00:00:44,760 --> 00:00:46,290
+00:00:44,780 --> 00:00:46,320
 Sin pelota.
 
 19
-00:00:46,320 --> 00:00:49,020
-Solo apoya el hocico en tu
-pierna.
+00:00:46,340 --> 00:00:49,020
+Solo apoya el hocico
+en tu pierna.
 
 20
-00:00:49,220 --> 00:00:50,750
+00:00:49,240 --> 00:00:50,780
 No es casualidad.
 
 21
-00:00:50,780 --> 00:00:52,470
-En Suecia comprobaron que el
-estrés
+00:00:50,800 --> 00:00:52,500
+En Suecia comprobaron
+que el estrés
 
 22
-00:00:52,500 --> 00:00:55,700
-de un perro sube y baja con
-el de su dueño.
+00:00:52,520 --> 00:00:55,700
+de un perro sube y baja
+con el de su dueño.
 
 23
-00:00:55,760 --> 00:00:58,740
-Si tú estás mal, él también.
+00:00:55,780 --> 00:00:58,740
+Si tú estás mal,
+él también.
 
 24
-00:00:58,820 --> 00:01:00,770
+00:00:58,840 --> 00:01:00,800
 Y viene a arreglarlo.
 
 25
-00:01:00,800 --> 00:01:01,910
+00:01:00,820 --> 00:01:02,640
 Y hay un experimento
+que lo demuestra
 
 26
-00:01:01,940 --> 00:01:04,240
-que lo demuestra mejor que
-nada.
+00:01:02,660 --> 00:01:04,240
+mejor que nada.
 
 27
-00:01:05,000 --> 00:01:06,970
-En Estados Unidos pusieron a
-los dueños
+00:01:05,020 --> 00:01:07,000
+En Estados Unidos
+pusieron a los dueños
 
 28
-00:01:07,000 --> 00:01:10,660
+00:01:07,020 --> 00:01:10,660
 detrás de una puerta,
 fingiendo llorar.
 
 29
-00:01:10,900 --> 00:01:12,610
+00:01:10,920 --> 00:01:13,800
 Sus perros corrían a abrirla
+mucho más rápido
 
 30
-00:01:12,640 --> 00:01:15,940
-mucho más rápido que cuando
-solo tarareaban.
+00:01:13,820 --> 00:01:15,940
+que cuando solo tarareaban.
 
 31
-00:01:16,000 --> 00:01:17,630
+00:01:16,020 --> 00:01:17,660
 No te guarda rencor.
 
 32
-00:01:17,660 --> 00:01:18,730
+00:01:17,680 --> 00:01:18,760
 No sabe.
 
 33
-00:01:18,760 --> 00:01:20,540
+00:01:18,780 --> 00:01:20,540
 Solo sabe volver.
 
 34
-00:01:20,660 --> 00:01:22,870
-Tú tienes mil cosas en la
-cabeza.
+00:01:20,680 --> 00:01:22,900
+Tú tienes mil cosas
+en la cabeza.
 
 35
-00:01:22,900 --> 00:01:24,670
+00:01:22,920 --> 00:01:25,760
 Él solo tiene una.
-
-36
-00:01:24,700 --> 00:01:25,760
 Tú.
 
+36
+00:01:25,840 --> 00:01:29,000
+Así que suelta el móvil
+y lánzale esa pelota.
+
 37
-00:01:25,820 --> 00:01:28,970
-Así que suelta el móvil y
-lánzale esa pelota.
+00:01:29,020 --> 00:01:31,280
+Y si quieres
+entenderle aún mejor,
 
 38
-00:01:29,000 --> 00:01:31,250
-Y si quieres entenderle aún
-mejor,
-
-39
-00:01:31,280 --> 00:01:32,870
+00:01:31,300 --> 00:01:32,900
 comenta «MUESTRA».
 
-40
-00:01:32,900 --> 00:01:36,140
-Y te envío gratis la muestra
-de mis ebooks.
+39
+00:01:32,920 --> 00:01:36,040
+Y te envío gratis
+la muestra de mis ebooks.
