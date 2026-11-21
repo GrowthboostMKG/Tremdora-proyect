@@ -145,12 +145,18 @@
  },
  {
   "t": 87.32,
-  "end": 89.05,
-  "src": "df5d231a",
-  "note": "«…y lánzale esa pelota» jack russell con la pelota"
+  "end": 90.2,
+  "src": "318fc687",
+  "note": "«…y lánzale esa pelota» la mano lanza la pelota"
  },
  {
-  "t": 89.05,
+  "t": 90.2,
+  "end": 92.9,
+  "src": "df5d231a",
+  "note": "Corre a por la pelota («Y si quieres entenderle…»)"
+ },
+ {
+  "t": 92.9,
   "end": 99.6,
   "src": "370eb9ec",
   "note": "Cierre juntos + pregunta + logo"

@@ -28,6 +28,7 @@ SHOTS = [
  dict(t=76.05, src="d8764c68", kind="p", cx=.42, cy=.45, z0=1.00, z1=1.06, note="«No te guarda rencor… solo sabe volver»"),
  dict(t=80.65, src="9a289c41", kind="p", cx=.50, cy=.40, z0=1.00, z1=1.10, note="«Él solo tiene una. Tú.»"),
  dict(t=85.85, src="9b940630", kind="p", cx=.50, cy=.50, z0=1.00, z1=1.06, note="«Así que suelta el móvil…» (IMG_7811)"),
- dict(t="lánzale", src="df5d231a", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.00, inp=0.9, note="«…y lánzale esa pelota» jack russell con la pelota"),
- dict(t=89.05, src="370eb9ec", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.05, rect=(0,10,1196,2122), note="Cierre juntos + pregunta + logo"),
+ dict(t="lánzale", src="318fc687", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.04, inp=1.9, note="«…y lánzale esa pelota» la mano lanza la pelota"),
+ dict(t=90.20, src="df5d231a", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.00, inp=0.4, note="Corre a por la pelota («Y si quieres entenderle…»)"),
+ dict(t=92.90, src="370eb9ec", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.05, rect=(0,10,1196,2122), note="Cierre juntos + pregunta + logo"),
 ]

@@ -23,7 +23,8 @@ SHOTS = [
  dict(t=50.20, src="262db733", kind="v", cx=.45, cy=.50, z0=1.00, z1=1.04, x=.45, note="«Tú tienes mil cosas en la cabeza»"),
  dict(t=52.70, src="9a289c41", kind="p", cx=.50, cy=.40, z0=1.00, z1=1.10, x=.60, leak=True, note="«Él solo tiene una. Tú.»"),
  dict(t=55.55, src="9b940630", kind="p", cx=.50, cy=.50, z0=1.00, z1=1.08, x=.45, note="«Así que suelta el móvil…»"),
- dict(t=57.28, src="df5d231a", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.00, x=.35, inp=0.9, note="«…y lánzale esa pelota» jack russell con la pelota"),
- dict(t=58.85, src="1545372f", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.05, x=.40, note="«Y si quieres entenderle aún mejor, comenta MUESTRA»"),
+ dict(t=57.28, src="318fc687", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.03, x=.35, inp=2.4, note="«…y lánzale esa pelota» la mano lanza la pelota"),
+ dict(t=58.85, src="df5d231a", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.02, x=.40, inp=0.4, note="Corre a por la pelota («Y si quieres entenderle aún mejor,»)"),
+ dict(t=60.85, src="1545372f", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.05, x=.40, note="«comenta MUESTRA…»"),
  dict(t=62.90, src="370eb9ec", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.06, x=.70, leak=True, rect=(0,10,1196,2122), note="Cierre juntos + pregunta + logo"),
 ]

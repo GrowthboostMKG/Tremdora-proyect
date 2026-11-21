@@ -128,14 +128,20 @@
  {
   "t": 57.28,
   "end": 58.85,
-  "src": "df5d231a",
-  "note": "«…y lánzale esa pelota» jack russell con la pelota"
+  "src": "318fc687",
+  "note": "«…y lánzale esa pelota» la mano lanza la pelota"
  },
  {
   "t": 58.85,
+  "end": 60.85,
+  "src": "df5d231a",
+  "note": "Corre a por la pelota («Y si quieres entenderle aún mejor,»)"
+ },
+ {
+  "t": 60.85,
   "end": 62.9,
   "src": "1545372f",
-  "note": "«Y si quieres entenderle aún mejor, comenta MUESTRA»"
+  "note": "«comenta MUESTRA…»"
  },
  {
   "t": 62.9,
