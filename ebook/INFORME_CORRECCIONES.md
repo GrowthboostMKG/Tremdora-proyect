@@ -58,3 +58,18 @@ Un libro que se vende no debe prometer más de lo que dice la ciencia. Se mantie
 ## Pendiente de confirmar por tu parte
 1. **Capítulo VII:** «cada pieza se trabaja durante días, se firma y se entrega…». Comprueba que esto describe bien vuestras urnas, porque es una afirmación comercial.
 2. **Cubierta:** el PDF empieza con una portadilla tipográfica. Si vais a venderlo en Amazon KDP, Hotmart o Gumroad, conviene diseñar aparte una cubierta con imagen. Puedo prepararla si quieres.
+
+## Revisión final antes de publicar
+**Texto:**
+- «Otras formas de ayudar**les**» pasa a «ayudar**los**», y «Haz**les** partícipes. **Dejad** que ayuden» pasa a «Haz**los** partícipes. **Deja** que ayuden». La frase mezclaba el «tú» y el «vosotros».
+- «**preparadles** una despedida» pasa a «**prepárales**», porque se dirige a la persona adulta.
+- «por haber**le** regañado» pasa a «por haber**la** regañado», para que concuerde con «la mascota».
+- «Con los más mayores» pasa a «Con los niños de más edad».
+- «busca a uno» pasa a «busca a un profesional», porque antes se hablaba de «psicólogos y psicólogas».
+- «seis u ocho semanas» pasa a «entre seis y ocho semanas».
+- «Es porque esa aprobación…» pasa a «Eso es porque esa aprobación…».
+- La entrada «Final» del índice pasa a «Carta», igual que la carta del principio.
+
+**Maquetación:**
+- Las rayas de cierre (—) ya no pueden quedarse solas al principio de una línea.
+- La página 24 tenía una sola línea suelta. Se ha corregido moviendo tres apartados al principio de una página nueva: «Lo que sabemos del sufrimiento animal», «Si decides adoptar» y «Síntomas habituales…». El libro sigue teniendo 57 páginas.
