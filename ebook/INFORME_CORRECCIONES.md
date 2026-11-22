@@ -53,7 +53,7 @@ Un libro que se vende no debe prometer más de lo que dice la ciencia. Se mantie
 - **Fuentes incrustadas:** el PDF original no las tenía y podía verse distinto en cada dispositivo. Ahora usa EB Garamond y Cormorant Garamond.
 - **Fondo crema a sangre** y paleta terracota, como en el diseño original.
 - **Ningún ejercicio queda partido entre dos páginas**, la división de palabras sigue las reglas del español y el índice tiene números de página.
-- **44 páginas en formato A5**, con metadatos de título y autoría.
+- **57 páginas en formato A5**, las mismas que el original, con metadatos de título y autoría. Cada ejercicio empieza en una página nueva, como en el original.
 
 ## Pendiente de confirmar por tu parte
 1. **Capítulo VII:** «cada pieza se trabaja durante días, se firma y se entrega…». Comprueba que esto describe bien vuestras urnas, porque es una afirmación comercial.
