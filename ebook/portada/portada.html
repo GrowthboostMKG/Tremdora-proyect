@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Portada · Sigue contigo</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#2f2622; --soft:#6b5a52; --accent:#b0603f; --paper:#f7f1e8; }
+  html,body { margin:0; padding:0; background:var(--paper); }
+  .cover { position:relative; width:1600px; height:2560px; overflow:hidden; background:var(--paper); font-family:'EB Garamond',serif; color:var(--ink); }
+  .photo { position:absolute; left:0; right:0; bottom:0; height:1640px; background:url('foto.png') center 62%/cover no-repeat; }
+  .photo::before { content:''; position:absolute; inset:0 0 auto 0; height:620px;
+    background:linear-gradient(to bottom, var(--paper) 0%, rgba(247,241,232,.86) 30%, rgba(247,241,232,.35) 70%, rgba(247,241,232,0) 100%); }
+  .photo::after { content:''; position:absolute; inset:auto 0 0 0; height:520px;
+    background:linear-gradient(to top, rgba(40,30,26,.72), rgba(40,30,26,.35) 55%, rgba(40,30,26,0)); }
+  .frame { position:absolute; inset:46px; border:2px solid rgba(176,96,63,.55); pointer-events:none; }
+  .frame::after { content:''; position:absolute; inset:12px; border:1px solid rgba(176,96,63,.35); }
+  .top { position:absolute; top:170px; left:0; right:0; text-align:center; }
+  .brand { font-family:'Cormorant Garamond',serif; letter-spacing:.42em; font-size:40px; color:var(--accent); text-transform:uppercase; padding-left:.42em; }
+  .rule { color:var(--accent); font-size:30px; letter-spacing:.35em; margin:34px 0 10px; opacity:.8; }
+  h1 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:300px; line-height:.9; margin:10px 0 0; letter-spacing:-2px; }
+  h1 em { display:block; font-style:italic; font-weight:400; color:var(--accent); }
+  .sub { font-style:italic; font-size:62px; line-height:1.25; color:var(--soft); margin-top:46px; }
+  .ill { margin-top:38px; }
+  .bottom { position:absolute; left:0; right:0; bottom:130px; text-align:center; color:#fbf6ef; text-shadow:0 2px 16px rgba(0,0,0,.35); }
+  .bottom .t1 { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:58px; }
+  .bottom .t2 { font-size:34px; letter-spacing:.24em; text-transform:uppercase; margin-top:14px; opacity:.95; }
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+  <div class="photo"></div>
+  <div class="frame"></div>
+  <div class="top">
+    <div class="brand">Tremdora</div>
+    <div class="rule">——— · ———</div>
+    <h1>Sigue <em>contigo</em></h1>
+    <div class="sub">Una guía para acompañarte<br>en la pérdida de tu mascota</div>
+  </div>
+  <div class="bottom">
+    <div class="t1">Desde la psicología y la neurociencia del vínculo</div>
+    <div class="t2">15 ejercicios · niños · otras mascotas</div>
+  </div>
+</div>
+</body>
+</html>
