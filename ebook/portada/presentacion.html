@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Presentación de venta · Sigue contigo</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#2f2622; --soft:#6b5a52; --accent:#b0603f; --accent2:#9a4f31; --paper:#f7f1e8; }
+  html,body { margin:0; }
+  .stage { width:2000px; height:2000px; position:relative; overflow:hidden; font-family:'EB Garamond',serif; color:var(--ink); background:var(--paper); }
+  .bgphoto { position:absolute; inset:-60px; background:url('foto.png') center/cover; filter: blur(26px) saturate(.9); opacity:.42; }
+  .veil { position:absolute; inset:0; background:
+      radial-gradient(ellipse at 28% 55%, rgba(247,241,232,.15) 0%, rgba(247,241,232,.55) 45%, rgba(247,241,232,.9) 100%),
+      linear-gradient(90deg, rgba(247,241,232,0) 35%, rgba(247,241,232,.82) 56%, rgba(247,241,232,.94) 100%); }
+  .paws { position:absolute; inset:0; opacity:.10; }
+  .frame { position:absolute; inset:40px; border:2px solid rgba(176,96,63,.45); }
+  .book { position:absolute; left:120px; top:230px; width:850px; filter: drop-shadow(30px 40px 40px rgba(60,38,25,.35)); }
+  .floor { position:absolute; left:150px; top:1640px; width:860px; height:90px; border-radius:50%;
+           background: radial-gradient(ellipse, rgba(70,45,30,.35), rgba(70,45,30,0) 70%); filter: blur(14px); }
+
+  .col { position:absolute; left:1090px; top:150px; width:810px; }
+  .kicker { display:inline-block; font-size:27px; letter-spacing:.2em; white-space:nowrap; text-transform:uppercase; color:#fff; background:var(--accent); padding:12px 26px; border-radius:40px; }
+  h1 { font-family:'Cormorant Garamond',serif; font-weight:600; font-size:112px; line-height:.98; margin:44px 0 0; letter-spacing:-1px; }
+  h1 em { color:var(--accent); font-weight:500; }
+  .lead { font-size:43px; line-height:1.3; color:var(--soft); margin:32px 0 0; font-style:italic; }
+  ul { list-style:none; padding:0; margin:46px 0 0; }
+  li { display:flex; gap:22px; align-items:flex-start; font-size:42px; line-height:1.22; margin-bottom:26px; }
+  li svg { flex:0 0 46px; margin-top:4px; }
+  li b { font-weight:600; }
+  .badges { display:flex; gap:18px; margin-top:44px; }
+  .badge { flex:1; text-align:center; border:2px solid rgba(176,96,63,.5); border-radius:22px; padding:16px 8px 14px; background:rgba(255,255,255,.55); }
+  .badge .n { font-family:'Cormorant Garamond',serif; font-size:66px; font-weight:600; color:var(--accent); line-height:1; }
+  .badge .l { font-size:28px; letter-spacing:.08em; text-transform:uppercase; color:var(--soft); margin-top:6px; }
+  .cta { display:inline-flex; align-items:center; gap:20px; margin-top:48px; background:linear-gradient(180deg, var(--accent), var(--accent2)); color:#fff;
+         font-size:48px; font-weight:600; padding:26px 56px; border-radius:60px; box-shadow: 0 16px 30px rgba(154,79,49,.35); letter-spacing:.02em; }
+  .note { font-size:27px; color:var(--soft); margin-top:22px; letter-spacing:.03em; }
+
+  .quote { position:absolute; left:110px; bottom:100px; width:880px; text-align:center; font-family:'Cormorant Garamond',serif; font-style:italic; font-size:50px; line-height:1.25; color:var(--ink); }
+  .quote small { display:block; font-family:'EB Garamond',serif; font-style:normal; font-size:28px; letter-spacing:.3em; color:var(--accent); margin-top:14px; text-transform:uppercase; }
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+  <div class="bgphoto"></div>
+  <div class="veil"></div>
+  <svg class="paws" viewBox="0 0 2000 2000" aria-hidden="true">
+    <defs><g id="pw" fill="#b0603f"><path d="M-9,6 C-9,-1 -4,-4 0,-4 C4,-4 9,-1 9,6 C9,10 5,11 0,9 C-5,11 -9,10 -9,6 Z"/>
+      <ellipse cx="-11" cy="-6" rx="3" ry="4" transform="rotate(-20 -11 -6)"/><ellipse cx="-4" cy="-12" rx="3" ry="4.3"/>
+      <ellipse cx="4" cy="-12" rx="3" ry="4.3"/><ellipse cx="11" cy="-6" rx="3" ry="4" transform="rotate(20 11 -6)"/></g></defs>
+    <use href="#pw" transform="translate(1180 1880) rotate(-30) scale(2.2)"/><use href="#pw" transform="translate(1300 1800) rotate(-30) scale(2.2)"/>
+    <use href="#pw" transform="translate(1420 1890) rotate(-30) scale(2.2)"/><use href="#pw" transform="translate(1540 1810) rotate(-30) scale(2.2)"/>
+    <use href="#pw" transform="translate(1660 1900) rotate(-30) scale(2.2)"/><use href="#pw" transform="translate(1780 1820) rotate(-30) scale(2.2)"/>
+  </svg>
+  <div class="frame"></div>
+  <div class="floor"></div>
+  <img class="book" src="libro3d.png" alt="">
+
+  <div class="col">
+    <div class="kicker">Guía digital · Descarga inmediata</div>
+    <h1>Su ausencia duele.<br><em>Su amor se queda.</em></h1>
+    <p class="lead">La guía que pone palabras a lo que sientes y te acompaña, paso a paso, a convertir el dolor en recuerdo.</p>
+    <ul>
+      <li><svg viewBox="0 0 24 24" width="46" height="46"><circle cx="12" cy="12" r="11" fill="#b0603f"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><b>Por qué duele tanto</b> y por qué no estás exagerando</span></li>
+      <li><svg viewBox="0 0 24 24" width="46" height="46"><circle cx="12" cy="12" r="11" fill="#b0603f"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><b>Cómo soltar la culpa</b> si tuviste que tomar la decisión</span></li>
+      <li><svg viewBox="0 0 24 24" width="46" height="46"><circle cx="12" cy="12" r="11" fill="#b0603f"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><b>Cómo explicárselo a tus hijos</b> según su edad</span></li>
+      <li><svg viewBox="0 0 24 24" width="46" height="46"><circle cx="12" cy="12" r="11" fill="#b0603f"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span><b>Cómo ayudar a tus otras mascotas</b> a superar la pérdida</span></li>
+    </ul>
+    <div class="badges">
+      <div class="badge"><div class="n">57</div><div class="l">páginas</div></div>
+      <div class="badge"><div class="n">15</div><div class="l">ejercicios</div></div>
+      <div class="badge"><div class="n">PDF</div><div class="l">móvil y tablet</div></div>
+    </div>
+    <div class="cta">Descárgalo hoy
+      <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    <div class="note">Basada en la psicología del duelo y la neurociencia del vínculo</div>
+  </div>
+
+  <div class="quote">«No la has perdido. La llevas contigo.»<small>Tremdora</small></div>
+</div>
+</body>
+</html>

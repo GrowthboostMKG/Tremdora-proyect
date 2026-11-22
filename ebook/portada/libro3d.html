@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Mockup · Sigue contigo</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  html,body { margin:0; background:transparent; }
+  .stage { width:2000px; height:2000px; position:relative; overflow:hidden;
+    background: radial-gradient(ellipse at 50% 42%, #f6eadb 0%, #ecdcc8 55%, #dfcab2 100%); }
+  .shadow { position:absolute; left:470px; top:1760px; width:1250px; height:120px; border-radius:50%;
+    background: radial-gradient(ellipse at center, rgba(70,45,30,.42), rgba(70,45,30,0) 70%); filter: blur(18px); }
+  .scene { position:absolute; left:50%; top:50%; perspective: 5200px; transform: translate(-50%,-50%); width:1050px; height:1680px; }
+  .book { position:absolute; inset:0; transform-style: preserve-3d; transform: translateX(70px) rotateY(30deg) rotateX(4deg); }
+  .face { position:absolute; backface-visibility:hidden; }
+  /* Grosor del libro: 120px */
+  .front { width:1050px; height:1680px; transform: translateZ(95px); background:url('portada_final.png') center/cover; border-radius:0 8px 8px 0;
+    box-shadow: inset 6px 0 10px rgba(0,0,0,.18); }
+  .front::after { content:''; position:absolute; inset:0; border-radius:0 8px 8px 0;
+    background: linear-gradient(105deg, rgba(255,255,255,.18) 0%, rgba(255,255,255,0) 22%, rgba(0,0,0,0) 70%, rgba(0,0,0,.10) 100%); }
+  .hinge { position:absolute; left:0; top:0; width:30px; height:1680px; transform: translateZ(95.5px);
+    background: linear-gradient(90deg, rgba(0,0,0,.20), rgba(255,255,255,.10) 45%, rgba(0,0,0,.12)); }
+  .spine { width:190px; height:1680px; left:-95px; transform: rotateY(-90deg) translateZ(0px) ; transform-origin:center;
+    background: linear-gradient(90deg, #e9dccb 0%, #f7efe4 40%, #efe4d5 75%, #e2d3bf 100%);
+    display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:110px 0 110px; box-sizing:border-box; }
+  .spine .title { writing-mode: vertical-rl; font-family:'Cormorant Garamond',serif; font-size:118px; color:#2f2622; letter-spacing:2px; white-space:nowrap; }
+  .spine .title em { color:#b0603f; font-style:italic; }
+  .spine .brand { writing-mode: vertical-rl; font-family:'Cormorant Garamond',serif; font-size:34px; letter-spacing:.4em; color:#b0603f; }
+  .pages { width:190px; height:1660px; top:10px; left:945px; transform: rotateY(90deg);
+    background: repeating-linear-gradient(90deg, #fbf8f2 0 3px, #eae2d5 3px 4px); }
+  .topedge { width:1038px; height:190px; top:-95px; transform: rotateX(90deg);
+    background: repeating-linear-gradient(0deg, #fbf8f2 0 3px, #e8dfd1 3px 4px); }
+</style>
+</head>
+<body>
+<div class="stage" id="stage" style="background:transparent">
+  
+  <div class="scene">
+    <div class="book">
+      <div class="face topedge"></div>
+      <div class="face pages"></div>
+      <div class="face spine">
+                <div class="title">Sigue <em>contigo</em></div>
+        <div class="brand">TREMDORA</div>
+        <svg viewBox="-16 -18 32 30" width="86" fill="none" stroke="#b0603f" stroke-width="1.6">
+          <path d="M-9,6 C-9,-1 -4,-4 0,-4 C4,-4 9,-1 9,6 C9,10 5,11 0,9 C-5,11 -9,10 -9,6 Z" fill="#b0603f" fill-opacity=".25"/>
+          <ellipse cx="-11" cy="-6" rx="3" ry="4" transform="rotate(-20 -11 -6)"/><ellipse cx="-4" cy="-12" rx="3" ry="4.3"/>
+          <ellipse cx="4" cy="-12" rx="3" ry="4.3"/><ellipse cx="11" cy="-6" rx="3" ry="4" transform="rotate(20 11 -6)"/>
+        </svg>
+      </div>
+      <div class="face front"></div>
+      <div class="hinge"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
