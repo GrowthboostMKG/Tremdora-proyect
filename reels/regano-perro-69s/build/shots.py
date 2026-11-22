@@ -2,10 +2,9 @@
 # leak = destello cálido de luz en la transición de entrada (momentos de giro emocional).
 END = 69.0
 SHOTS = [
- dict(t=0.00,  src="c070233c", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.07, x=0,   note="Hook: primer plano mirando a su persona"),
- dict(t=3.30,  src="669e9476", kind="v", cx=.50, cy=.45, z0=1.04, z1=1.00, x=.40, note="«Tú ya lo has olvidado»"),
+ dict(t=0.00,  src="c070233c", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.07, x=0,   note="«Le has dicho ahora no, sin mirarle. Tú ya lo has olvidado.» perro mirando a su persona"),
  dict(t=5.62,  src="453521a3", kind="v", cx=.50, cy=.40, z0=1.22, z1=1.32, x=.45, note="«Él no.» / «Lo que hace después…»"),
- dict(t=9.80,  src="af0af5ef", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.04, x=.45, note="«…la cabeza a mil»"),
+ dict(t=9.80,  src="669e9476", kind="v", cx=.50, cy=.45, z0=1.04, z1=1.00, x=.45, note="«Estás en el sofá con el móvil y la cabeza a mil» chica con el móvil"),
  dict(t=13.25, src="7ffe9edc", kind="p", cx=.40, cy=.52, z0=1.00, z1=1.08, x=.45, note="«Él llega con su pelota»"),
  dict(t=16.80, src="3e4aaef5", kind="v", cx=.50, cy=.50, z0=1.03, z1=1.00, x=.40, note="«Y tú la apartas»"),
  dict(t=20.30, src="fccc432a", kind="p", cx=.50, cy=.47, z0=1.06, z1=1.06, x=.70, note="«Se queda quieto. Te mira.» plano quieto"),
@@ -16,11 +15,11 @@ SHOTS = [
  dict(t=34.00, src="1d2fea9b", kind="v", cx=.66, cy=.50, z0=1.00, z1=1.00, x=.60, leak=True, rect=(0,0,1206,1198), note="«Diez minutos después, vuelve» golden que vuelve"),
  dict(t=37.00, src="f2076f8d", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.00, x=.40, inp=1.8, note="«Sin pelota.»"),
  dict(t=38.60, src="5169b934", kind="p", cx=.58, cy=.50, z0=1.00, z1=1.08, x=.45, note="«Apoya el hocico en tu pierna»"),
- dict(t=41.25, src="22ec7ef2", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.04, x=.45, note="«Si tú estás mal, él también»"),
+ dict(t=41.25, src="af0af5ef", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.04, x=.45, note="«Si tú estás mal, él también» chica angustiada"),
  dict(t=44.12, src="33ece1c9", kind="v", cx=.58, cy=.50, z0=1.00, z1=1.03, x=.40, note="«Y viene a arreglarlo»"),
  dict(t=46.25, src="0852df01", kind="p", cx=.30, cy=.62, z0=1.03, z1=1.10, x=.55, leak=True, note="«No te guarda rencor»"),
  dict(t=48.30, src="d8764c68", kind="p", cx=.42, cy=.45, z0=1.00, z1=1.07, x=.45, note="«Solo sabe volver»"),
- dict(t=50.20, src="262db733", kind="v", cx=.45, cy=.50, z0=1.00, z1=1.04, x=.45, note="«Tú tienes mil cosas en la cabeza»"),
+ dict(t=50.20, src="85fe0fc7", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.04, x=.45, rect=(0,0,1176,2400), note="«Tú tienes mil cosas en la cabeza» mujer agobiada"),
  dict(t=52.70, src="9a289c41", kind="p", cx=.50, cy=.40, z0=1.00, z1=1.10, x=.60, leak=True, note="«Él solo tiene una. Tú.»"),
  dict(t=55.55, src="9b940630", kind="p", cx=.50, cy=.50, z0=1.00, z1=1.08, x=.45, note="«Así que suelta el móvil…»"),
  dict(t=57.28, src="318fc687", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.03, x=.35, inp=2.4, note="«…y lánzale esa pelota» la mano lanza la pelota"),
