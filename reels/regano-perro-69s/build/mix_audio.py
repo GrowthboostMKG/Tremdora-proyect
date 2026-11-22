@@ -31,7 +31,9 @@ g_all = 10**((-8*duck)/20); g_band = 10**((-5*duck)/20)
 m2 = (rest + band*g_band[:, None])*g_all[:, None]
 m2 = sosfilt(butter(1, 90, "high", fs=SR, output="sos"), m2, axis=0)
 MUSIC_LEVEL_DB = -8.6      # en pausas la música sube casi al nivel de la voz; al hablar la voz queda ≈ 8 dB por encima (altavoz de móvil)
-m_rms = np.sqrt(np.mean(m2[int(25*SR):int(64*SR)]**2)); m2 *= 10**((-18+MUSIC_LEVEL_DB)/20)/m_rms
+import os
+m_rms = np.sqrt(np.mean(m2[int(25*SR):int(64*SR)]**2)); MG = float(os.environ.get("MUSIC_GAIN", 10**((-18+MUSIC_LEVEL_DB)/20)/m_rms))
+m2 *= MG; print("ganancia música", MG)    # MUSIC_GAIN fija la ganancia aprobada (versión 1:09 aprobada: ver LEEME)
 mix = m2 + v[:, None]
 mix /= max(1.0, np.max(np.abs(mix))/0.95)
 with wave.open(OUT, "wb") as w:

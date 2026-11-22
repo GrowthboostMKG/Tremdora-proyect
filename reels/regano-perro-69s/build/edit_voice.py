@@ -3,6 +3,7 @@ uso: python3 edit_voice.py <voz.mp3> <words.json> <voz_editada.wav> <words_edita
 import sys, json, subprocess, numpy as np, wave
 VOICE, WORDS, OUT, OUTW = sys.argv[1:5]; SR = 44100
 REMOVE = {11, 14, 18, 19, 22, 23, 24, 26}   # Viena · «Pero aquí no acaba la cosa» · «No es casualidad» + Suecia · experimento EE. UU. · «No sabe.»
+MUTE = {16}                          # «Sin pelota.»: se quita la frase pero se conserva su espacio (misma duración y sincronía)
 GAP = 0.50                           # pausa estándar entre frases
 GAP_AFTER = {2: 0.70, 6: 0.95, 7: 0.45, 8: 0.65, 10: 0.55, 16: 0.45, 17: 0.60, 21: 0.65, 25: 0.55, 27: 0.75, 29: 0.40, 30: 0.65}
 raw = subprocess.run(["ffmpeg","-v","error","-i",VOICE,"-ar",str(SR),"-ac","1","-f","f32le","-"], capture_output=True).stdout
@@ -26,8 +27,8 @@ for n, i in enumerate(keep):
     if n: t += GAP_AFTER.get(keep[n-1], GAP)
     seg = x[int(a*SR):int(b*SR)].copy(); f = int(0.008*SR)
     seg[:f] *= np.linspace(0, 1, f); seg[-f:] *= np.linspace(1, 0, f)
-    out.append((t, seg))
-    for w in s: words.append({"w": w["w"], "s": t + w["s"] - a, "e": t + w["e"] - a, "sent": i})
+    if i not in MUTE: out.append((t, seg))
+    for w in (s if i not in MUTE else []): words.append({"w": w["w"], "s": t + w["s"] - a, "e": t + w["e"] - a, "sent": i})
     t += len(seg)/SR
 y = np.zeros(int((t+0.1)*SR))
 for (st, seg) in out: i0 = int(st*SR); y[i0:i0+len(seg)] += seg
