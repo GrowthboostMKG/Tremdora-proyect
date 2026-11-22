@@ -24,6 +24,5 @@ SHOTS = [
  dict(t=55.55, src="9b940630", kind="p", cx=.50, cy=.50, z0=1.00, z1=1.08, x=.45, note="«Así que suelta el móvil…»"),
  dict(t=57.28, src="318fc687", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.03, x=.35, inp=2.4, note="«…y lánzale esa pelota» la mano lanza la pelota"),
  dict(t=58.85, src="df5d231a", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.02, x=.40, inp=0.4, note="Corre a por la pelota («Y si quieres entenderle aún mejor,»)"),
- dict(t=60.85, src="1545372f", kind="v", cx=.50, cy=.45, z0=1.00, z1=1.05, x=.40, note="«comenta MUESTRA…»"),
- dict(t=62.90, src="370eb9ec", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.06, x=.70, leak=True, rect=(0,10,1196,2122), note="Cierre juntos + pregunta + logo"),
+ dict(t=60.85, src="370eb9ec", kind="v", cx=.50, cy=.50, z0=1.00, z1=1.06, x=.60, leak=True, rect=(0,10,1196,2122), note="«comenta MUESTRA…» + cierre juntos + pregunta + logo"),
 ]
