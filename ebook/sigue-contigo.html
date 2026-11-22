@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Sigue contigo · Tremdora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  @page { size: A5; margin: 18mm 17mm 20mm 17mm; }
+  :root { --ink:#2f2622; --soft:#6b5a52; --accent:#b0603f; --paper:#f7f1e8; --box:#efe4d4; }
+  html, body { background: var(--paper); }
+  body { font-family: 'EB Garamond', Georgia, serif; color: var(--ink); font-size: 11pt; line-height: 1.5; margin:0;
+         hyphens: auto; -webkit-hyphens: auto; text-align: justify; orphans: 3; widows: 3; }
+  p { margin: 0 0 0.7em; }
+  em { font-style: italic; }
+  strong { font-weight: 600; }
+  .page { break-after: page; }
+  .chapter { break-before: page; }
+  .center { text-align: center; }
+
+  /* Portadilla y dedicatoria */
+  .halftitle { height: 165mm; display:flex; flex-direction:column; justify-content:center; text-align:center; border:1px solid var(--accent); outline:1px solid var(--accent); outline-offset:3px; }
+  .brand { font-family:'Cormorant Garamond',serif; letter-spacing:.35em; font-size:9pt; color:var(--accent); text-transform:uppercase; }
+  .orn { color:var(--accent); text-align:center; margin: 1.1em 0; letter-spacing:.3em; font-size:10pt; }
+  .halftitle h1 { font-family:'Cormorant Garamond',serif; font-weight:400; font-size:34pt; line-height:1.1; margin:.2em 0; }
+  .halftitle .tag { font-style:italic; color:var(--soft); font-size:11.5pt; line-height:1.4; }
+  .halftitle .tag2 { font-size:9pt; color:var(--soft); margin-top:2.5em; letter-spacing:.04em; }
+
+  .dedic { height:165mm; display:flex; flex-direction:column; justify-content:center; text-align:center; font-style:italic; color:var(--accent); font-size:12.5pt; line-height:1.5; }
+
+  .legal { height:165mm; display:flex; flex-direction:column; justify-content:flex-end; font-size:8.5pt; color:var(--soft); text-align:left; line-height:1.45; }
+  .legal p { margin-bottom: .8em; }
+
+  /* Índice */
+  .toc h2 { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:22pt; text-align:center; margin: 0 0 .2em; }
+  .toc ol { list-style:none; padding:0; margin: 1.2em 0 0; }
+  .toc li { display:flex; align-items:baseline; gap:.4em; margin: 0 0 .62em; text-align:left; line-height:1.3; }
+  .toc .k { color:var(--accent); font-size:8.5pt; letter-spacing:.12em; text-transform:uppercase; min-width:5.6em; }
+  .toc .t { flex: 0 1 auto; }
+  .toc .dots { flex:1 1 auto; border-bottom:1px dotted #bfa999; transform: translateY(-.25em); min-width:1em; }
+  .toc .n { color:var(--soft); font-variant-numeric: oldstyle-nums; }
+
+  /* Capítulos */
+  .kicker { text-align:center; color:var(--accent); font-size:8.5pt; letter-spacing:.3em; text-transform:uppercase; margin-top: 6mm; }
+  h1.ch { font-family:'Cormorant Garamond',serif; font-weight:500; font-size:23pt; line-height:1.12; text-align:center; margin:.25em 0 .2em; }
+  .sub { text-align:center; font-style:italic; color:var(--soft); font-size:11pt; margin:0 0 .4em; line-height:1.35; }
+  h3 { font-family:'Cormorant Garamond',serif; color:var(--accent); font-weight:600; font-size:14pt; margin:1.2em 0 .35em; text-align:left; break-after: avoid; line-height:1.2; }
+  h3 + p { break-before: avoid; }
+  ul { padding-left: 1.1em; margin: 0 0 .8em; }
+  li { margin-bottom: .3em; text-align:left; }
+  li::marker { color: var(--accent); }
+
+  .quote { break-inside: avoid; text-align:center; font-family:'Cormorant Garamond',serif; font-style:italic; font-size:15pt; line-height:1.3; color:var(--ink); margin: 1.4em .5em; }
+  .quote::before, .quote::after { content:'— · —'; display:block; color:var(--accent); font-size:9pt; font-style:normal; letter-spacing:.3em; margin:.6em 0; }
+  .note { break-inside: avoid; font-style:italic; color:var(--soft); text-align:center; font-size:10.3pt; margin: 1.2em .4em; line-height:1.45; }
+
+  .ex { break-inside: avoid; background:var(--box); border-top:2px solid var(--accent); border-bottom:2px solid var(--accent); padding: 4mm 5mm 3mm; margin: 1.3em 0; }
+  .ex .lbl { color:var(--accent); font-size:8.5pt; letter-spacing:.25em; text-transform:uppercase; }
+  .ex h4 { font-family:'Cormorant Garamond',serif; font-size:14.5pt; font-weight:600; margin:.15em 0 .5em; line-height:1.2; text-align:left; }
+  .ex p, .ex li { font-size: 10.4pt; }
+  .ex ol { padding-left: 1.2em; margin: 0 0 .7em; }
+  .ex ol li { margin-bottom:.35em; }
+  .ex .why { font-style:italic; color:var(--soft); border-top:1px solid #d9c6b2; padding-top:.5em; margin-top:.7em; font-size:9.8pt; }
+  .ex .why b { font-style:normal; font-weight:600; color:var(--ink); }
+
+  .sign { text-align:left; margin-top:1.4em; font-style:italic; }
+  .tight p { font-size:10.6pt; margin-bottom:.55em; }
+  .tight h3 { margin-top:.75em; margin-bottom:.25em; font-size:13pt; }
+  .tight .kicker { margin-top:0; }
+  .tight .orn { margin:.7em 0; }
+  .closing { height:165mm; display:flex; flex-direction:column; justify-content:center; text-align:center; font-family:'Cormorant Garamond',serif; font-size:17pt; line-height:1.45; }
+  .closing .big { font-size:24pt; color:var(--accent); margin-top:.8em; }
+</style>
+</head>
+<body>
+
+<!-- 1 · Portadilla -->
+<section class="page">
+  <div class="halftitle">
+    <div class="brand">Tremdora</div>
+    <div class="orn">——— · ———</div>
+    <h1>Sigue<br>contigo</h1>
+    <div class="orn">——— · ———</div>
+    <div class="tag">Una guía para acompañarte<br>en la pérdida de tu mascota</div>
+    <div class="tag2">Desde la psicología y la neurociencia<br>del vínculo y del duelo</div>
+  </div>
+</section>
+
+<!-- 2 · Créditos -->
+<section class="page">
+  <div class="legal">
+    <p><strong>Sigue contigo</strong><br>Una guía para acompañarte en la pérdida de tu mascota</p>
+    <p>© 2026 Tremdora. Todos los derechos reservados.<br>
+    Queda prohibida la reproducción total o parcial de esta obra, su distribución o su comunicación pública por cualquier medio sin la autorización previa y por escrito de Tremdora. Esta copia es para uso personal de quien la ha adquirido.</p>
+    <p>Este libro es una guía de acompañamiento con fines divulgativos. No sustituye la atención de profesionales de la psicología, la medicina o la veterinaria. Si tu malestar es muy intenso o se prolonga en el tiempo, busca ayuda profesional.</p>
+    <p>Primera edición: 2026</p>
+  </div>
+</section>
+
+<!-- 3 · Dedicatoria -->
+<section class="page">
+  <div class="dedic">
+    <p>Para ti,<br>que estás leyendo esto<br>con el pecho roto.</p>
+    <div class="orn">——— · ———</div>
+    <p>Y para ellos,<br>que nos enseñaron a querer<br>sin condiciones.</p>
+  </div>
+</section>
+
+<!-- 4 · Índice -->
+<section class="page toc">
+  <div class="kicker" style="margin-top:2mm">Contenido</div>
+  <h2>Índice</h2>
+  <div class="orn">——— · ———</div>
+  <ol>
+    <li><span class="k">Carta</span><span class="t">Antes de empezar</span><span class="dots"></span><span class="n">{{p-carta}}</span></li>
+    <li><span class="k">Cap. I</span><span class="t">Lo que está pasando dentro de ti</span><span class="dots"></span><span class="n">{{p-1}}</span></li>
+    <li><span class="k">Cap. II</span><span class="t">Por qué duele tanto</span><span class="dots"></span><span class="n">{{p-2}}</span></li>
+    <li><span class="k">Cap. III</span><span class="t">Las fases que vas a atravesar</span><span class="dots"></span><span class="n">{{p-3}}</span></li>
+    <li><span class="k">Cap. IV</span><span class="t">«Era solo un animal»</span><span class="dots"></span><span class="n">{{p-4}}</span></li>
+    <li><span class="k">Cap. V</span><span class="t">Si tuviste que tomar la decisión</span><span class="dots"></span><span class="n">{{p-5}}</span></li>
+    <li><span class="k">Cap. VI</span><span class="t">Ejercicios para acompañarte</span><span class="dots"></span><span class="n">{{p-6}}</span></li>
+    <li><span class="k">Cap. VII</span><span class="t">Un lugar para su recuerdo</span><span class="dots"></span><span class="n">{{p-7}}</span></li>
+    <li><span class="k">Cap. VIII</span><span class="t">Volver a querer</span><span class="dots"></span><span class="n">{{p-8}}</span></li>
+    <li><span class="k">Cap. IX</span><span class="t">Cuando hay niños en casa</span><span class="dots"></span><span class="n">{{p-9}}</span></li>
+    <li><span class="k">Cap. X</span><span class="t">Las otras mascotas también lo sienten</span><span class="dots"></span><span class="n">{{p-10}}</span></li>
+    <li><span class="k">Final</span><span class="t">Lo que queremos que recuerdes</span><span class="dots"></span><span class="n">{{p-final}}</span></li>
+    <li><span class="k">Anexo</span><span class="t">Recursos que pueden ayudarte</span><span class="dots"></span><span class="n">{{p-rec}}</span></li>
+  </ol>
+</section>
+
+<!-- CARTA -->
+<section class="chapter tight" data-mark="p-carta">
+  <div class="kicker">Antes de empezar</div>
+  <h1 class="ch">Una carta para ti</h1>
+  <div class="orn">——— · ———</div>
+  <p>Si has llegado hasta aquí, probablemente sea porque alguien a quien querías mucho ya no está. Y no queremos empezar este libro hablándote como si fuera un manual.</p>
+  <p>Queremos empezar diciéndote esto: <em>lo que sientes tiene sentido</em>. No estás exagerando. No estás siendo dramática ni dramático. Lo que ha pasado es enorme.</p>
+  <p>En Tremdora acompañamos cada día a personas que acaban de despedirse de su animal, y lo hemos aprendido de ellas: los duelos por un animal son, muchas veces, los más solitarios. Porque el mundo no siempre los reconoce. Te dicen «era solo un perro», «coge otro», «ya estaba mayor». Y tú sabes que no.</p>
+  <p>Tú sabes que era familia. Que era compañía. Que era esa presencia que te esperaba en la puerta, que se subía a tu cama, que te miraba cuando llorabas. Que era, sencillamente, amor.</p>
+  <p>Este libro no va a hacer que deje de dolerte. Eso no se puede. Pero sí va a explicarte qué te está pasando y por qué, y va a darte herramientas reales —desde la psicología y la neurociencia— para atravesarlo sin sentir que te rompes.</p>
+  <p>Léelo despacio, sin prisa. Salta capítulos si quieres. Llora cuando lo necesites.</p>
+  <p class="center" style="margin-top:1em"><em>No estás sola. No estás solo.</em></p>
+  <p class="sign">Con todo el cariño,<br>el equipo de Tremdora</p>
+</section>
+
+<!-- CAPÍTULO I -->
+<section class="chapter" data-mark="p-1">
+  <div class="kicker">Capítulo I</div>
+  <h1 class="ch">Lo que está pasando dentro de ti</h1>
+  <p class="sub">«No me reconozco, no puedo dormir, no puedo comer»</p>
+  <div class="orn">——— · ———</div>
+  <p>Si en estos días te has sentido físicamente mal, no son imaginaciones tuyas. El duelo no es solo emocional: es un proceso neurobiológico que afecta a todo tu cuerpo.</p>
+
+  <h3>Lo que pasa en tu cerebro</h3>
+  <p>Cuando perdemos a alguien a quien amamos —humano o animal—, el cerebro entra en lo que se conoce como <em>respuesta de protesta y búsqueda</em>. Tu sistema nervioso ha pasado años aprendiendo a esperar la presencia de tu mascota: su olor, el sonido de sus pasos, el peso de su cuerpo en el sofá. Cuando esa presencia desaparece de golpe, el cerebro no procesa la ausencia como un hecho, sino como un error.</p>
+  <p>Por eso te giras creyendo que la oyes. Por eso te parece verla por el rabillo del ojo. Por eso te despiertas esperando sentirla a los pies de la cama. No estás perdiendo la cabeza. Tu cerebro está aprendiendo, poco a poco, que ya no está.</p>
+
+  <h3>Lo que pasa en tu cuerpo</h3>
+  <p>El duelo mantiene elevado el cortisol —la hormona del estrés— durante semanas. Eso ayuda a explicar el insomnio, la falta de apetito o el hambre voraz, los dolores de cabeza, la opresión en el pecho y ese cansancio que no se quita durmiendo. Además, el sistema inmunitario puede debilitarse temporalmente: por eso muchas personas se resfrían o se encuentran mal en las semanas siguientes a una pérdida.</p>
+
+  <p class="quote">Tu cuerpo no está fallando.<br>Está reaccionando a algo enorme.</p>
+
+  <h3>Síntomas habituales (y normales) del duelo por una mascota</h3>
+  <ul>
+    <li>Llorar de golpe, en cualquier momento, sin previo aviso.</li>
+    <li>Buscar rastros de tu mascota por la casa: su pelo en el sofá, sus juguetes.</li>
+    <li>Oír sonidos fantasma: su collar, sus pasos, su respiración.</li>
+    <li>Culpa: «¿podría haber hecho más?», «¿esperé demasiado?».</li>
+    <li>Rabia hacia el veterinario, hacia la vida, hacia ti.</li>
+    <li>Un vacío físico en el pecho o en el estómago.</li>
+    <li>Insomnio o, al contrario, dormir en exceso.</li>
+    <li>Sensación de irrealidad, como si vivieras detrás de un cristal.</li>
+    <li>Evitar los lugares que asocias a ella (el parque, una habitación).</li>
+    <li>Hablarle en voz alta. (Esto, además, es terapéutico).</li>
+  </ul>
+  <p class="note">Si te reconoces en varios de estos síntomas, respira. Estás atravesando un proceso antiguo y profundamente humano. Tu sistema nervioso sabe lo que hace, aunque parezca un caos.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 1</div>
+    <h4>Anclaje corporal: cuando el dolor es demasiado</h4>
+    <p>Cuando una ola de tristeza te desborde, prueba esto. No la hace desaparecer, pero te ayuda a no ahogarte en ella:</p>
+    <ol>
+      <li>Siéntate o túmbate. Pon una mano en el pecho y otra en el vientre.</li>
+      <li>Respira contando 4 segundos al inspirar y 6 al espirar. Repítelo 10 veces.</li>
+      <li>Mientras respiras, repite mentalmente: «Esto duele, y voy a sobrevivir a ello».</li>
+      <li>Al terminar, mira a tu alrededor y nombra en voz alta cinco cosas que veas.</li>
+    </ol>
+    <p class="why"><b>Por qué funciona:</b> la respiración lenta, con la espiración más larga que la inspiración, estimula el nervio vago y ayuda a calmar la respuesta de estrés en pocos minutos. Nombrar objetos saca a tu cerebro del bucle emocional y lo devuelve al presente.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO II -->
+<section class="chapter" data-mark="p-2">
+  <div class="kicker">Capítulo II</div>
+  <h1 class="ch">Por qué duele tanto</h1>
+  <p class="sub">El vínculo entre tu cerebro y el suyo</p>
+  <div class="orn">——— · ———</div>
+  <p>Hay una pregunta que muchas personas se hacen en silencio, con vergüenza: <em>«¿por qué me afecta esto tanto como cuando murió mi abuelo?»</em>.</p>
+  <p>La ciencia tiene una respuesta, y es importante que la escuches: <strong>no estás exagerando</strong>. El vínculo con tu mascota activa muchos de los mismos circuitos cerebrales que el vínculo con tus hijos, tu pareja o tu familia.</p>
+
+  <h3>La oxitocina compartida</h3>
+  <p>En 2015, un equipo de la Universidad de Azabu (Japón) demostró algo asombroso: cuando un perro y su persona se miran a los ojos, en ambos aumenta la oxitocina, la misma hormona que interviene en el vínculo entre una madre y su bebé. El mismo lazo bioquímico.</p>
+  <p>Con los gatos el vínculo es igual de real, aunque más sutil. Su ronroneo vibra en frecuencias de entre 25 y 150 Hz, y muchas personas lo describen como profundamente calmante; algunos estudios relacionan la convivencia con gatos con un menor estrés y una mejor salud cardiovascular. Quizá por eso te calmaba tanto.</p>
+  <p>Durante años, vuestros cuerpos aprendieron a regularse el uno al otro. Hay investigaciones que han observado que, en momentos de calma compartida, el ritmo cardíaco de un perro y el de su persona tienden a acompasarse. Cuando llegabas a casa después de un mal día y os acurrucabais juntos, algo de eso estaba pasando.</p>
+
+  <p class="quote">No has perdido «solo» a una mascota.<br>Has perdido una parte de tu propio equilibrio.</p>
+
+  <h3>El duelo no reconocido</h3>
+  <p>En psicología existe un concepto acuñado por el investigador Kenneth Doka: el <em>duelo desautorizado</em> o no reconocido. Es el dolor que la sociedad no considera legítimo. El duelo por una mascota encaja exactamente ahí.</p>
+  <p>Cuando muere un familiar, hay rituales: el funeral, las condolencias, los días libres en el trabajo, la familia que se reúne. Hay permiso social para llorar.</p>
+  <p>Cuando muere tu mascota, vas a trabajar al día siguiente. La gente te dice «lo siento» con incomodidad y cambia de tema. Algunos te sugieren, con buena intención y una crueldad involuntaria, que «adoptes otra». Como si fueran intercambiables.</p>
+  <p>Esa falta de reconocimiento multiplica el dolor. Porque no solo lloras la pérdida: lloras también el aislamiento, la sensación de estar llorando «demasiado» y la culpa por sentir tanto.</p>
+  <p>Por eso es importante que entiendas esto: tu dolor es legítimo. Tu dolor merece espacio. Y si tu entorno no te lo da, tendrás que dártelo tú.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 2</div>
+    <h4>La carta que nunca le enviaste</h4>
+    <p>Coge papel y bolígrafo. Nada de móvil: esto pide tinta y mano.</p>
+    <p>Escribe una carta a tu mascota. Empieza con «Querido / Querida [su nombre]» y déjate llevar. No corrijas, no taches, no releas.</p>
+    <p>Cuéntale lo que no le dijiste. Lo que te dio. Lo que aprendiste a su lado. Lo que te duele ahora. Aquello de lo que te arrepientes. Lo que le agradeces.</p>
+    <p>Cuando termines, decide tú qué hacer con ella: puedes guardarla, quemarla con cuidado, enterrarla o dejarla junto a su urna. Lo que sientas.</p>
+    <p class="why"><b>Por qué funciona:</b> la escritura expresiva, estudiada durante décadas por el psicólogo James Pennebaker, ha demostrado reducir el estrés y mejorar el bienestar emocional y físico. En sus estudios bastaba con escribir entre 15 y 20 minutos durante tres o cuatro días seguidos para notar efectos.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO III -->
+<section class="chapter" data-mark="p-3">
+  <div class="kicker">Capítulo III</div>
+  <h1 class="ch">Las fases que vas a atravesar</h1>
+  <p class="sub">Un mapa para no perderte en el camino</p>
+  <div class="orn">——— · ———</div>
+  <p>El duelo no es una línea recta. No se pasa de la tristeza a la aceptación en unos cuantos pasos ordenados. Es más bien un oleaje: vas y vienes; hay días en que crees que estás mejor y, al siguiente, vuelves al principio sin previo aviso.</p>
+  <p>Aun así, conocer las fases ayuda. No porque te digan dónde <em>deberías</em> estar, sino porque te permiten reconocer dónde estás sin asustarte.</p>
+
+  <h3>1 · Shock e incredulidad</h3>
+  <p>Los primeros días; a veces, las primeras semanas. Te cuesta creer que haya pasado. Funcionas en piloto automático. Puede que no llores. Puede que llores sin parar. Las dos cosas son normales.</p>
+  <p><strong>Lo que necesitas aquí:</strong> descanso, comida sencilla y gente cercana. No tomes decisiones importantes. No vacíes todavía su cama. No regales sus juguetes. Espera.</p>
+
+  <h3>2 · Dolor agudo</h3>
+  <p>Pasadas las primeras semanas, el shock se resquebraja y llega el dolor de verdad. Es la fase más dura: llanto frecuente, añoranza intensa, ganas de volver atrás en el tiempo. Aquí la culpa aparece con fuerza: «debería haber visto las señales antes», «esperé demasiado», «no estuve cuando murió».</p>
+  <p><strong>Lo que necesitas aquí:</strong> permitirte sentir. No huir. Hablar de ella. Mirar sus fotos. Sentirlo todo, aunque duela. Lo que no se siente no se cura.</p>
+
+  <h3>3 · Reorganización</h3>
+  <p>Suele llegar entre el primer y el tercer mes, aunque varía mucho. Empiezas a tener días buenos… y te sientes culpable por tenerlos. Vuelves a reír y, al instante, piensas: «¿cómo puedo estar riéndome?».</p>
+  <p>Aquí es importante que sepas esto: reír no es traicionarla. Tu mascota no querría que dejaras de vivir. Lo que aprendiste a su lado —querer sin medida, estar presente, alegrarte de las cosas pequeñas— es justo lo que ahora puedes aplicar a tu propia vida.</p>
+
+  <h3>4 · Integración</h3>
+  <p>No se trata de «superarlo». No vas a superarlo, porque no es algo que se supere: es algo que se integra. Llega un momento —tarda lo que tarda; no hay calendario— en que su recuerdo deja de doler como una herida y empieza a sentirse como un lugar cálido. Sigues echándola de menos, pero el recuerdo te abriga en lugar de partirte.</p>
+  <p>Es entonces cuando muchas personas deciden volver a adoptar. O no. Las dos decisiones son válidas. Hablaremos de ello en el capítulo VIII.</p>
+
+  <p class="note">No todo el mundo atraviesa estas fases en orden. Hay quien se salta alguna y quien vuelve atrás varias veces. Si al cabo de seis meses sigues sintiendo que no puedes funcionar —no sales, no comes, no duermes, no le encuentras sentido a nada—, por favor, pide ayuda profesional. No es debilidad. Es cuidarte como la cuidabas a ella.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 3</div>
+    <h4>El diario del oleaje</h4>
+    <p>Durante los próximos 30 días, escribe cada noche, antes de dormir, una sola frase:</p>
+    <p class="center"><em>«Hoy he sentido _________ y mi cuerpo ha estado _________».</em></p>
+    <p>Solo eso. Nada más. No tienes que explicarte ni justificarte.</p>
+    <p>Al cabo de los 30 días, reléelo. Verás el oleaje por escrito. Verás que no todos los días son iguales. Y verás cómo, sin que te dieras cuenta, algo se ha ido moviendo.</p>
+    <p class="why"><b>Por qué funciona:</b> poner nombre a las emociones reduce su intensidad. Es lo que el neurocientífico Matthew Lieberman llama <em>affect labeling</em> (etiquetado afectivo): al ponerle palabras a lo que sientes disminuye la actividad de la amígdala, la alarma emocional del cerebro, y se activan zonas de la corteza prefrontal que ayudan a regularla.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO IV -->
+<section class="chapter" data-mark="p-4">
+  <div class="kicker">Capítulo IV</div>
+  <h1 class="ch">«Era solo un animal»</h1>
+  <p class="sub">Cuando los demás no entienden lo que te pasa</p>
+  <div class="orn">——— · ———</div>
+  <p>Vas a oír frases que te dolerán. Te las dirán personas que te quieren, con buena intención y sin saber el daño que hacen. Estas son las más habituales:</p>
+  <ul>
+    <li>«Era solo un perro» / «Era solo un gato».</li>
+    <li>«Adopta otro y verás cómo se te pasa».</li>
+    <li>«Por lo menos no era una persona».</li>
+    <li>«Ya estaba mayor, le había llegado la hora».</li>
+    <li>«Hay gente con problemas peores».</li>
+    <li>«Tienes que ser fuerte».</li>
+    <li>«Llevas mucho tiempo así, ¿no?».</li>
+  </ul>
+  <p>No tienes que justificar tu dolor ante nadie. No tienes que medirlo, compararlo ni explicar por qué te afecta tanto. Tu dolor no necesita la aprobación de nadie para existir.</p>
+
+  <h3>Qué responder (o no responder)</h3>
+  <p>Tienes derecho a no entrar en debates sobre tu duelo. Estas respuestas pueden servirte:</p>
+  <ul>
+    <li>«Para mí no era “solo” un animal. Era familia».</li>
+    <li>«Cada persona vive el duelo a su ritmo. Yo estoy en el mío».</li>
+    <li>«No necesito que lo entiendas, solo que me acompañes».</li>
+    <li>El silencio. Cambiar de tema. Alejarte. También es válido.</li>
+  </ul>
+
+  <h3>Busca a tu gente</h3>
+  <p>En el duelo por una mascota, encontrar a otras personas que han pasado por lo mismo es uno de los gestos más sanadores que puedes tener. No porque vayan a quitarte el dolor, sino porque te dirán —con sus palabras o con su silencio— que no estás sola ni solo, y que no estás exagerando.</p>
+  <p>Hay grupos de apoyo en línea, foros y perfiles en redes sociales dedicados al duelo animal. También hay psicólogos y psicólogas especializados en duelo por mascotas, cada vez más, porque cada vez se reconoce más este dolor. Si puedes permitírtelo, busca a uno. No tiene por qué ser un proceso largo: a veces bastan unas pocas sesiones para acompañar el momento más duro.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 4</div>
+    <h4>Tu círculo seguro</h4>
+    <p>Coge una hoja. Dibuja un círculo pequeño en el centro y escribe tu nombre dentro.</p>
+    <p>Alrededor, dibuja otro círculo más grande. En él, escribe los nombres de las personas con las que <em>sí</em> puedes hablar de tu mascota sin que minimicen tu dolor. Pueden ser tres. Puede ser una sola. Pueden ser familiares, amistades o personas que hayas conocido en internet.</p>
+    <p>Más afuera, dibuja un tercer círculo. Ahí van los nombres de las personas con las que no vas a hablar de esto. No porque las odies, sino porque protegerte es legítimo.</p>
+    <p>Cuando llegue el dolor, recurre primero al círculo del medio. No malgastes tu tristeza con quien no sabe sostenerla.</p>
+    <p class="why"><b>Por qué funciona:</b> en el duelo, el apoyo social es uno de los factores que mejor predicen una buena integración de la pérdida. Pero el apoyo que minimiza o juzga puede hacer más daño que la soledad. Elegir con quién compartirlo es cuidarte.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO V -->
+<section class="chapter" data-mark="p-5">
+  <div class="kicker">Capítulo V</div>
+  <h1 class="ch">Si tuviste que tomar la decisión</h1>
+  <p class="sub">Sobre la eutanasia y la culpa que viene después</p>
+  <div class="orn">——— · ———</div>
+  <p>Este capítulo es para ti si tuviste que decidir. Si estuviste en esa consulta. Si firmaste ese papel. Si la sostuviste entre tus brazos mientras se iba.</p>
+  <p>Queremos decírtelo con claridad, porque sabemos que probablemente lleves días o semanas dándole vueltas: decidir poner fin a su sufrimiento fue el último acto de amor que pudiste darle. No le quitaste la vida: la dejaste irse en paz.</p>
+
+  <h3>La culpa te engaña</h3>
+  <p>Cuando perdemos a alguien, el cerebro humano hace algo cruel: busca compulsivamente qué podríamos haber hecho de otra manera. Es un mecanismo evolutivo —en su día nos servía para aprender de los peligros—, pero en el duelo se convierte en una tortura inútil.</p>
+  <p>Vas a repasar mentalmente los últimos meses, los últimos días, los últimos minutos. «¿Esperé demasiado?», «¿Me adelanté?», «¿Sufrió?», «¿Lo entendió?». Esta culpa es un síntoma del duelo, no una verdad sobre lo que hiciste.</p>
+  <p>Tú no podías saber cuál era el día exacto. Nadie puede. Hiciste lo que pudiste con la información que tenías. Y le ahorraste un sufrimiento que no podía contarte, pero que estaba viviendo.</p>
+
+  <p class="quote">El último regalo que le hiciste<br>fue no obligarla a quedarse por ti.</p>
+
+  <h3>Lo que sabemos del sufrimiento animal</h3>
+  <p>Si te atormenta pensar si entendió lo que estaba pasando, esto es lo que sabemos: los mamíferos —perros, gatos— sienten dolor físico y angustia, sí, pero, hasta donde la ciencia ha podido comprobar, no tienen la conciencia anticipada de la muerte que tenemos los humanos. No piensan «voy a morir». No cargan con ese sufrimiento añadido.</p>
+  <p>Lo que sí sienten, hasta el último momento, es tu presencia. Tu voz. Tu olor. Tus manos.</p>
+  <p>Si estuviste allí, le diste lo que más necesitaba.</p>
+  <p>Si no pudiste estar —porque no llegaste a tiempo, porque no te dejaron o porque no fuiste capaz de soportarlo—, eso tampoco es una falta. A veces la vida no nos deja estar como querríamos. No te castigues por una circunstancia.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 5</div>
+    <h4>Preguntarle a ella</h4>
+    <p>Si la culpa por la eutanasia vuelve una y otra vez, prueba esto:</p>
+    <p>Imagina que tu mascota pudiera hablarte ahora. Que pudieras mirarla a los ojos y hacerle una sola pregunta: «¿Hice lo correcto?».</p>
+    <p>Cierra los ojos. Espera. Escucha lo que te respondería. No lo que tú quieres oír, sino lo que ella te diría, conociéndola como la conocías.</p>
+    <p>Muchas personas que hacen este ejercicio escuchan algo muy parecido: «Gracias. Hiciste lo que tenías que hacer. Ya estoy bien».</p>
+    <p>Si es eso lo que oyes, quédate con esa respuesta. Nace de todo lo que viviste a su lado.</p>
+    <p class="why"><b>Por qué funciona:</b> esta técnica, inspirada en la «silla vacía» de la terapia Gestalt, permite sacar fuera diálogos internos que se han quedado atascados. Al darle voz al otro, el cerebro suelta parte del peso que la culpa venía cargando sin destino.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO VI -->
+<section class="chapter" data-mark="p-6">
+  <div class="kicker">Capítulo VI</div>
+  <h1 class="ch">Ejercicios para acompañarte</h1>
+  <p class="sub">Herramientas para los días difíciles</p>
+  <div class="orn">——— · ———</div>
+  <p>Aquí tienes una serie de ejercicios basados en la psicología del duelo. Úsalos cuando los necesites. No tienes que hacerlos todos, ni en orden. Algunos resonarán más contigo que otros. Confía en lo que te pida el cuerpo.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 6</div>
+    <h4>Siete cosas que me enseñó</h4>
+    <p>Coge un cuaderno. En la primera página, arriba, escribe: «Lo que [su nombre] me enseñó».</p>
+    <p>Cada noche, durante una semana, escribe una sola cosa que aprendiste de ella. Puede ser diminuta. Puede ser enorme.</p>
+    <p>Por ejemplo: «Me enseñó a alegrarme cuando alguien vuelve a casa». «Me enseñó que un rato al sol lo arregla casi todo». «Me enseñó a estar presente».</p>
+    <p>Al final de la semana tendrás siete frases. Léelas. Esa es su herencia. Y eso no se va con ella.</p>
+    <p class="why"><b>Por qué funciona:</b> las investigaciones sobre la construcción de significado en el duelo (<em>meaning-making</em>), lideradas por el psicólogo Robert Neimeyer, muestran que las personas que encuentran un sentido a la pérdida la integran mucho mejor que quienes se quedan solo en el dolor.</p>
+  </div>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 7</div>
+    <h4>El paseo simbólico</h4>
+    <p>Si tu mascota era un perro y teníais paseos habituales, este ejercicio te dolerá al principio y te reconfortará después.</p>
+    <p>Elige un día. Vístete como te vestías para sacarlo. Coge su correa, si la conservas. Sal sola o solo —o con alguien de tu círculo seguro— y haz el paseo que hacíais juntos.</p>
+    <p>Llora si lo necesitas. Háblale. Mira los sitios donde olfateaba, donde se paraba, donde se sentaba a esperar.</p>
+    <p>Al final del paseo, di en voz alta: «Gracias por todos los paseos. Voy a seguir caminando, y a veces te llevaré conmigo».</p>
+    <p class="why"><b>Por qué funciona:</b> los rituales de transición son una de las herramientas más antiguas y eficaces ante el duelo. Ayudan a dar por cerrada una etapa de una manera que el simple pensamiento no consigue.</p>
+  </div>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 8</div>
+    <h4>El objeto puente</h4>
+    <p>Elige un objeto que fuera suyo: su collar, su juguete favorito, su manta, su cepillo.</p>
+    <p>Ese será tu «objeto puente»: el que tocas cuando necesitas sentirla cerca.</p>
+    <p>Tenlo en un lugar visible pero protegido. Ni en el fondo de un cajón ni en mitad del salón: en un sitio tuyo, íntimo.</p>
+    <p>Cuando lo necesites, cógelo. Acaríciala a través de él. Llora si quieres. Háblale. Recuerda.</p>
+    <p>Con el tiempo, lo necesitarás cada vez menos. Eso no significará que la olvides, sino que la has integrado.</p>
+    <p class="why"><b>Por qué funciona:</b> los objetos transicionales —un concepto del psicoanalista Donald Winnicott— y los «objetos de vínculo» que se han descrito en el duelo permiten mantener la conexión emocional con quien ya no está, sin necesidad de su presencia física. Son anclas de amor.</p>
+  </div>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 9</div>
+    <h4>La caja de la memoria</h4>
+    <p>Consigue una caja bonita: de madera, de cartón forrado o una que ya tengas en casa y te guste.</p>
+    <p>Durante las próximas semanas, sin prisa, ve guardando en ella todo lo que quieras conservar de tu mascota: una foto impresa, un mechón de pelo, su placa, su correa, la huella de su pata, una hoja de su árbol favorito, una nota en la que cuentes alguna anécdota.</p>
+    <p>Esta caja no es para abrirla a diario. Es para tenerla, saber que está ahí y abrirla en aniversarios, en su cumpleaños o en los días difíciles.</p>
+    <p>Es su «archivo de amor». Y un día —puede que dentro de mucho— se lo enseñarás a alguien y le contarás quién fue.</p>
+    <p class="why"><b>Por qué funciona:</b> tener un espacio físico delimitado para el recuerdo evita que el duelo invada todos los rincones de tu casa y, paradójicamente, te permite volver al recuerdo de una forma más sana y elegida.</p>
+  </div>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 10</div>
+    <h4>Respiración del cariño</h4>
+    <p>Cuando llegue una ola de tristeza muy fuerte, prueba esta breve meditación de cinco minutos:</p>
+    <ol>
+      <li>Siéntate en una postura cómoda. Cierra los ojos. Respira con normalidad.</li>
+      <li>Imagínala: su cara, su pelaje, su olor.</li>
+      <li>Al inspirar, di mentalmente: «Gracias por haber estado».</li>
+      <li>Al espirar, di: «Te llevo conmigo».</li>
+      <li>Repítelo durante cinco minutos. Si llegan las lágrimas, déjalas salir.</li>
+    </ol>
+    <p>Al terminar, da las gracias a tu cuerpo. No te levantes de golpe: quédate un minuto en silencio.</p>
+    <p class="why"><b>Por qué funciona:</b> combinar la respiración consciente con la visualización y frases de afecto activa el sistema nervioso parasimpático, el que nos calma, y ayuda a asociar su recuerdo con el cariño y no solo con la pérdida. Reduce la angustia y fortalece un vínculo sano con su memoria.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO VII -->
+<section class="chapter" data-mark="p-7">
+  <div class="kicker">Capítulo VII</div>
+  <h1 class="ch">Un lugar para su recuerdo</h1>
+  <p class="sub">Sobre rituales, urnas y memoriales</p>
+  <div class="orn">——— · ———</div>
+  <p>Desde hace milenios, todas las culturas humanas han creado rituales y espacios para sus muertos. No es casualidad: necesitamos lugares físicos hacia los que dirigir el amor que ya no tiene un destinatario vivo. Los altares, las tumbas y los memoriales no son superstición ni capricho: responden a una necesidad profundamente humana.</p>
+  <p>Cuando tu mascota muere, te quedas con un amor enorme y sin un lugar donde ponerlo. Crearle un espacio —pequeño, íntimo, bonito— le da a ese amor un sitio donde posarse.</p>
+
+  <h3>Cómo crear su rincón</h3>
+  <p>No hace falta que sea grande ni elaborado. Una estantería. Una mesilla. La repisa de la chimenea. Un alféizar. Un rincón que sea suyo.</p>
+  <p>Elementos que suelen acompañar:</p>
+  <ul>
+    <li>Su urna o cofre, en el centro.</li>
+    <li>Una foto de las dos o de los dos juntos en un buen día.</li>
+    <li>Una vela, encendida solo cuando quieras acompañarla (y nunca sin vigilancia).</li>
+    <li>Una planta: ayuda mucho que haya algo verde y vivo en ese espacio.</li>
+    <li>Algo suyo: el collar, su juguete favorito.</li>
+    <li>Una piedra, una concha o cualquier cosa que recogieras en un paseo con ella.</li>
+  </ul>
+
+  <h3>La urna como acto de amor</h3>
+  <p>Si has decidido conservar sus cenizas, la urna no es un recipiente cualquiera. Es el lugar donde descansa quien te acompañó cada día durante años. Mereces que sea bonita. Mereces que te guste mirarla y no tener que esconderla.</p>
+  <p>En Tremdora creemos que estas urnas no deberían parecer urnas. Deberían parecer lo que son: pequeñas obras hechas a mano, una a una, para sostener un amor enorme. Por eso cada pieza se trabaja durante días, se firma y se entrega como lo que es: un objeto de cuidado.</p>
+
+  <p class="quote">Lo que quieres en ese rincón<br>no es una caja: es un sitio bonito para ella.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 11</div>
+    <h4>El ritual del primer día</h4>
+    <p>El día que coloques su urna o crees su rincón, no lo hagas en silencio ni con prisas. Conviértelo en un pequeño ritual.</p>
+    <p>Reúne todo lo que vas a poner. Pon música suave, algo que asocies a momentos buenos con ella. Si quieres, invita a alguien que también la quería.</p>
+    <p>Coloca cada objeto despacio. Cuando termines, enciende la vela. Quédate un rato delante. Háblale, si quieres, o quédate en silencio. Si llegan las lágrimas, déjalas salir.</p>
+    <p>Antes de apartarte de ese rincón por primera vez, di en voz alta: «Aquí te quedas. Aquí estás conmigo».</p>
+    <p class="why"><b>Por qué funciona:</b> los rituales convierten una experiencia abstracta y difícil de asimilar —la muerte— en algo concreto y manejable. Marcan un antes y un después, y dan inicio al camino de la integración.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO VIII -->
+<section class="chapter" data-mark="p-8">
+  <div class="kicker">Capítulo VIII</div>
+  <h1 class="ch">Volver a querer</h1>
+  <p class="sub">¿Adoptar de nuevo? ¿Es traicionarla?</p>
+  <div class="orn">——— · ———</div>
+  <p>Llega un momento —puede que pronto, puede que tarde mucho— en que aparece la pregunta: «¿debería adoptar otro?». Y casi siempre, con ella, llega su sombra: «¿la estaría traicionando si lo hago?».</p>
+  <p>Vamos por partes.</p>
+
+  <h3>Adoptar no es reemplazar</h3>
+  <p>Ningún animal sustituye a otro. Cada uno es único, irrepetible, con su carácter, sus manías y su forma de mirar. Adoptar después de un duelo no es «conseguir otro igual». No existe otro igual. Adoptar es decir: «Lo que aprendí queriéndote quiero seguir dándoselo a otro ser que lo necesita».</p>
+  <p>Tu mascota no se sentiría traicionada. Si pudiera hablar, probablemente te diría que tienes demasiado amor dentro como para no dárselo a nadie.</p>
+
+  <h3>¿Cuándo es buen momento?</h3>
+  <p>No hay un plazo correcto. Hay personas que adoptan a los pocos meses y les va de maravilla. Hay quien espera años. Y hay quien decide no volver a adoptar, y eso también es válido.</p>
+  <p>Algunas señales de que puede ser un buen momento:</p>
+  <ul>
+    <li>Cuando piensas en ella, sientes más cariño que dolor.</li>
+    <li>Cuando ves a otro animal por la calle, no te derrumbas: sonríes.</li>
+    <li>Cuando imaginas adoptar, no sientes que sería «reemplazarla», sino «continuar».</li>
+    <li>Cuando el silencio de tu casa te pesa de una forma que duele.</li>
+    <li>Cuando, sin culpa, te apetece volver a cuidar.</li>
+  </ul>
+
+  <p class="note">Si decides no volver a adoptar, también está bien.<br>El amor no se mide por cuántos animales pasan por tu vida, sino por cómo los quisiste mientras estuvieron.</p>
+
+  <h3>Si decides adoptar</h3>
+  <p>Hazlo desde dos ideas importantes.</p>
+  <p><strong>La primera:</strong> piensa en la adopción antes que en la compra. Hay miles de animales esperando en protectoras y refugios. Darle una vida nueva a uno de ellos es, en sí mismo, una forma de honrar a quien ya no está.</p>
+  <p><strong>La segunda:</strong> deja que te elija. No busques uno «parecido» al que perdiste: esa comparación, aunque no quieras, lo perjudicará. Deja que sea él mismo, distinto, con su propia historia. Tendrás que volver a conocer a alguien desde el principio. Y ese alguien te enseñará cosas nuevas.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 12</div>
+    <h4>Pedirle permiso (aunque no lo necesites)</h4>
+    <p>Si estás pensando en adoptar y la culpa te frena, prueba este sencillo ejercicio:</p>
+    <p>Siéntate frente a su urna o su rincón. Háblale. Cuéntale lo que estás pensando:</p>
+    <p><em>«Estoy pensando en adoptar a otro. No para reemplazarte, sino porque tú me enseñaste a querer y ahora tengo mucho amor que no sé dónde poner. ¿Qué te parece?».</em></p>
+    <p>Escucha lo que te respondería. Muchas personas que hacen este ejercicio describen la misma sensación: que su mascota les da su aprobación con cariño.</p>
+    <p>Es porque esa aprobación ya estaba dentro de ti. Solo necesitabas darle voz.</p>
+    <p class="why"><b>Por qué funciona:</b> darse permiso a uno mismo de forma simbólica, a través del recuerdo del ser querido, es un recurso que se utiliza en terapia de duelo. Permite seguir adelante sin sentir que se rompe el vínculo.</p>
+  </div>
+</section>
+
+<!-- CAPÍTULO IX -->
+<section class="chapter" data-mark="p-9">
+  <div class="kicker">Capítulo IX</div>
+  <h1 class="ch">Cuando hay niños en casa</h1>
+  <p class="sub">Cómo acompañarlos en su primer duelo</p>
+  <div class="orn">——— · ———</div>
+  <p>Si en tu casa hay niños o niñas, esta pérdida tiene una capa más: muy probablemente sea su primer encuentro con la muerte. La forma en que la vivan ahora influirá en cómo afronten las pérdidas que vengan después. Es un momento delicado, sí, pero también una gran oportunidad para enseñarles que el dolor se puede atravesar acompañados.</p>
+
+  <h3>Diles la verdad, con palabras sencillas</h3>
+  <p>El error más común —siempre con buena intención— es mentir para protegerlos: «se ha escapado», «se ha ido a vivir a una granja», «se ha quedado dormida». Estas frases parecen suavizar el golpe, pero a la larga hacen daño. El niño espera que vuelva, empieza a desconfiar cuando descubre la verdad y, si le dices que «se ha dormido», puede llegar a tener miedo de irse a dormir.</p>
+  <p>La psicología del desarrollo coincide en que los niños pueden entender la muerte, a su manera, desde muy pequeños. Lo que peor llevan es la ambigüedad y el secreto. Explicárselo con palabras claras, sencillas y verdaderas es lo que les permite procesarlo.</p>
+  <p>Frases que sí funcionan: <em>«[Su nombre] ha muerto. Su cuerpo dejó de funcionar y ya no va a volver. La vamos a echar mucho de menos»</em>. Concreto, claro, sin metáforas. Y algo muy importante: dales permiso explícito para sentir. <em>«Está bien estar triste. Está bien llorar. Yo también estoy triste»</em>.</p>
+
+  <h3>Si hubo eutanasia</h3>
+  <p>Evita decir que «la durmieron» o que «la pusieron a dormir». Es mejor algo así: <em>«Estaba muy enferma y ya no se podía curar. Le dolía mucho, así que el veterinario la ayudó a morir tranquila y sin dolor»</em>. Si el niño pregunta más, responde con sinceridad y sin detalles innecesarios. Con los más mayores, puedes valorar juntos si quieren despedirse de ella antes.</p>
+
+  <p class="quote">Mentirles para protegerlos<br>les enseña que el dolor da miedo.<br>Acompañarlos en la verdad<br>les enseña que el dolor se atraviesa.</p>
+
+  <h3>Según la edad</h3>
+  <p><strong>De 2 a 4 años:</strong> entienden la ausencia, pero no que sea para siempre. Preguntarán muchas veces dónde está y cuándo vuelve. Responde siempre lo mismo, con paciencia infinita. Tu calma les da seguridad.</p>
+  <p><strong>De 5 a 8 años:</strong> empiezan a comprender que la muerte es definitiva. Pueden aparecer miedos nuevos: que mueran sus padres o que mueran ellos. Tranquilízalos sin negar la realidad: <em>«Casi todas las personas y los animales vivimos mucho, mucho tiempo. A veces pasa antes, pero lo importante es que, mientras estamos juntos, nos queremos mucho»</em>.</p>
+  <p><strong>De 9 a 12 años:</strong> entienden la muerte casi como un adulto, pero la viven con la intensidad emocional de la infancia. Pueden mostrarse enfadados, distantes o aparentemente indiferentes. No te alarmes: es su forma de procesarlo.</p>
+  <p><strong>Adolescentes:</strong> pueden quitarle importancia para protegerse. «No es para tanto», dicen, mientras lloran a solas. Dales espacio sin dejarlos solos. Una frase como <em>«Si en algún momento quieres hablar, aquí estoy, sin juicios»</em> deja la puerta abierta.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 13</div>
+    <h4>Una despedida compartida</h4>
+    <p>Si los niños no pudieron despedirse —porque ocurrió de noche, en la clínica o de forma inesperada—, preparadles una despedida.</p>
+    <p>Sentaos juntos. Encended una vela. Cada uno —también los más pequeños— dice algo que le gustaba de la mascota. Puede ser una sola palabra: «Era blandita». «Movía la cola cuando yo llegaba». «Me lamía la cara».</p>
+    <p>Después, cada uno dice algo que le habría gustado decirle: «Gracias por jugar conmigo». «Te quería mucho».</p>
+    <p>Apagad la vela juntos. Abrazaos. Llorad si lo necesitáis.</p>
+    <p class="why"><b>Por qué funciona:</b> los rituales en familia ayudan a los niños a entender que el duelo es algo natural, compartido y que no hay que esconder. Hacen que el recuerdo de la pérdida quede cargado de amor, no de miedo.</p>
+  </div>
+
+  <h3>Lo que los niños necesitan oír</h3>
+  <p>Hay cosas que un niño en duelo necesita escuchar de tu voz, mirándole a los ojos. No las des por sabidas: aunque parezcan obvias, hay que decirlas.</p>
+  <ul>
+    <li>«No es culpa tuya». (Muchos niños se sienten culpables por algo: por haberle regañado, por no haberle hecho caso, por no haber estado).</li>
+    <li>«Lo normal es que tú y yo vivamos muchísimos años. Yo voy a estar aquí para cuidarte».</li>
+    <li>«Puedes estar triste todo el tiempo que lo necesites».</li>
+    <li>«También está bien reír y jugar. Eso no significa que la quisieras menos».</li>
+    <li>«Podemos hablar de ella siempre que quieras».</li>
+    <li>«Nunca la vamos a olvidar».</li>
+  </ul>
+  <p>Y si tú también estás llorando, no lo escondas. Verte triste no les hace daño; lo que les confunde es ver a un adulto fingiendo que está bien. Tu llanto les da permiso para el suyo.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 14</div>
+    <h4>El dibujo del recuerdo</h4>
+    <p>Sobre todo con los más pequeños, el dibujo es una de las mejores herramientas para el duelo, a menudo mejor que las palabras.</p>
+    <p>Dales papel y colores y propón: «Vamos a dibujar a [su nombre]». No corrijas. No dirijas. Que dibujen lo que les salga.</p>
+    <p>Mientras dibujan, o cuando terminen, pregunta con suavidad: «¿Qué es lo que más recuerdas de ella?». Escucha sin interrumpir.</p>
+    <p>Guardad los dibujos en la caja de la memoria de la mascota o colgadlos cerca de su rincón.</p>
+    <p class="why"><b>Por qué funciona:</b> a estas edades, los niños procesan el duelo más a través del juego y los símbolos que de las palabras. Dibujar les permite expresar lo que todavía no saben nombrar.</p>
+  </div>
+
+  <h3>Otras formas de ayudarles</h3>
+  <ul>
+    <li><strong>Hazles partícipes.</strong> Dejad que ayuden a preparar su rincón, a elegir una foto o a guardar algo en la caja de la memoria. Sentirse útiles les da un lugar en el duelo.</li>
+    <li><strong>Mantén las rutinas.</strong> Horarios, comidas y momentos de juego les dan seguridad cuando todo parece descolocado.</li>
+    <li><strong>Avisa en el colegio.</strong> Cuéntaselo a su tutor o tutora para que entienda posibles cambios de humor o de concentración.</li>
+    <li><strong>Prepárate para preguntas repetidas.</strong> Volver una y otra vez a lo mismo es su manera de entenderlo. Responde con la misma calma cada vez.</li>
+  </ul>
+
+  <p class="note">Si pasadas varias semanas notas que el niño no levanta cabeza —pesadillas frecuentes, miedo intenso a separarse de ti, retrocesos como volver a mojar la cama, problemas en el colegio o mucha tristeza que no cede—, coméntalo con su pediatra o con un psicólogo infantil. Pedir ayuda a tiempo también es acompañar.</p>
+</section>
+
+<!-- CAPÍTULO X -->
+<section class="chapter" data-mark="p-10">
+  <div class="kicker">Capítulo X</div>
+  <h1 class="ch">Las otras mascotas también lo sienten</h1>
+  <p class="sub">El duelo de los animales que siguen en casa</p>
+  <div class="orn">——— · ———</div>
+  <p>Si tenías más animales en casa, quizá notes algo que muchas personas no esperan: los compañeros que quedan también pasan por su propio duelo. Y a veces lo expresan con una intensidad sorprendente, aunque no puedan ponerle palabras.</p>
+
+  <h3>Lo que dice la ciencia</h3>
+  <p>La etología —la ciencia que estudia el comportamiento animal— lleva décadas documentando conductas de duelo en perros, gatos, aves, caballos, elefantes y muchas otras especies; el biólogo Marc Bekoff es uno de sus grandes divulgadores. Los animales sociales crean vínculos reales con sus compañeros, humanos y no humanos. Cuando esos vínculos se rompen, pueden mostrar signos de estrés muy parecidos a los nuestros: cambios en el sueño, en el apetito y en el ánimo.</p>
+  <p>Lo que estás viendo en tu otra mascota no son imaginaciones tuyas. Es real. Y ella también necesita que la acompañes.</p>
+
+  <h3>Señales de duelo en tu otra mascota</h3>
+  <ul>
+    <li>Buscar al compañero ausente por la casa y olfatear sus sitios.</li>
+    <li>Esperar en la puerta, en su cama o en su sitio del sofá.</li>
+    <li>Pérdida de apetito durante días o semanas.</li>
+    <li>Dormir mucho más de lo habitual, o dormir mal.</li>
+    <li>Jugar menos y perder interés por lo que antes le gustaba.</li>
+    <li>Vocalizaciones inusuales: maullidos largos, aullidos, gemidos.</li>
+    <li>Apego excesivo: no querer perderte de vista.</li>
+    <li>O lo contrario: aislarse, esconderse, querer estar sola.</li>
+    <li>Conductas regresivas: hacer pis dentro de casa, no comer si no estás delante.</li>
+  </ul>
+
+  <h3>Cómo acompañarla</h3>
+  <p>Lo más importante: no intentes «distraerla» con cambios bruscos. No es momento de traer otro animal de inmediato, ni de hacer reformas, ni de viajar si puedes evitarlo. Necesita estabilidad y tu presencia.</p>
+  <p>Estas cosas sí ayudan:</p>
+  <ul>
+    <li><strong>Si es posible, deja que se despida.</strong> Muchos veterinarios recomiendan que, si las circunstancias lo permiten, el compañero pueda ver y oler el cuerpo del animal fallecido. A algunos les ayuda a entender lo que ha pasado y a buscarlo menos.</li>
+    <li><strong>Mantén las rutinas</strong> de comida, paseo, sueño y mimos. La previsibilidad reduce el estrés.</li>
+    <li><strong>Pasa más tiempo con ella</strong>, sin forzar el contacto. Basta con estar cerca, en la misma habitación.</li>
+    <li><strong>Háblale</strong> en voz baja, llamándola por su nombre, con suavidad. Tu tono la tranquiliza.</li>
+    <li><strong>Permítele oler las cosas de su compañero</strong> —su manta, su collar—. Le ayuda a asimilar que ya no está.</li>
+    <li><strong>Si tenían un sitio en común, no lo retires enseguida.</strong> Deja que se despida a su ritmo.</li>
+    <li><strong>Aumenta suavemente la actividad:</strong> paseos un poco más largos, ratos cortos de juego. El movimiento también les ayuda a ellos a soltar la pena.</li>
+    <li><strong>Si pasadas dos o tres semanas no come, no juega o se aísla por completo, consulta al veterinario</strong> (y antes, si deja de comer del todo, sobre todo en el caso de los gatos). Hay formas suaves de apoyarla en este proceso y conviene descartar que haya otra causa.</li>
+  </ul>
+
+  <p class="quote">Vais a hacer el duelo juntas, juntos.<br>Tu calma es su calma.<br>Tu cuidado es su cuidado.</p>
+
+  <h3>¿Adoptar un nuevo compañero para ella?</h3>
+  <p>Es una pregunta frecuente: «¿adopto otro para que no esté sola?». La respuesta depende mucho de cada animal y de cada situación, pero hay algunas cosas claras.</p>
+  <p><strong>No lo hagas en las primeras semanas.</strong> Tu mascota está procesando la pérdida. Introducir a un compañero nuevo en pleno duelo le añade estrés en lugar de aliviarlo. Espera al menos seis u ocho semanas, e idealmente más.</p>
+  <p><strong>No lo hagas para llenar tu vacío.</strong> Si lo haces por ti —porque no soportas el silencio o porque te duele verla triste—, es probable que estés sumando problemas. Hazlo cuando puedas tomar la decisión con la cabeza serena.</p>
+  <p><strong>Observa su carácter.</strong> Algunos animales son muy sociables y agradecen un compañero nuevo. Otros son más solitarios y prefieren, por fin, ser los únicos. Ambos perfiles existen y son válidos.</p>
+
+  <div class="ex">
+    <div class="lbl">Ejercicio 15</div>
+    <h4>Rutina del cuidado mutuo</h4>
+    <p>Durante las próximas dos semanas, dedica a tu otra mascota un ritual diario de 15 minutos exclusivos: solo ella y tú, sin móvil y sin distracciones.</p>
+    <p>Pueden ser 15 minutos de cepillado, de paseo lento, de juego suave o, simplemente, de sentarte a su lado mientras la acaricias.</p>
+    <p>Si quieres, durante ese rato, háblale del compañero que se fue. Recuérdalo en voz alta: <em>«¿Te acuerdas de cuando [su nombre] te despertaba de la siesta? Yo también lo echo de menos, ¿sabes?»</em>.</p>
+    <p>Tu mascota no entenderá las palabras, pero sí percibirá perfectamente la emoción con la que las dices. Y así, poco a poco, os iréis curando juntas.</p>
+    <p class="why"><b>Por qué funciona:</b> el contacto físico tranquilo entre una persona y su animal eleva la oxitocina en ambos. Es el mismo proceso que os unía a ti y a quien se fue, y sigue funcionando con quien se queda.</p>
+  </div>
+</section>
+
+<!-- CARTA FINAL -->
+<section class="chapter tight" data-mark="p-final">
+  <div class="kicker">Carta final</div>
+  <h1 class="ch">Lo que queremos que recuerdes</h1>
+  <div class="orn">——— · ———</div>
+  <p>Si has llegado hasta aquí, gracias. Sabemos que leer sobre el duelo cuando se está dentro de él es agotador, y que habrás leído muchas de estas páginas entre lágrimas. Queremos que cierres este libro con algunas ideas claras.</p>
+
+  <h3>Lo que sientes tiene sentido</h3>
+  <p>No estás exagerando. No eres débil. Tu cerebro y tu cuerpo están atravesando una pérdida real, con consecuencias reales. Date el espacio que mereces.</p>
+
+  <h3>El amor no se acaba cuando muere quien lo recibe</h3>
+  <p>Lo que sentías por ella sigue ahí. Es tuyo. Te pertenece. Y aprenderás a llevarlo de una forma nueva, que con el tiempo dolerá menos, pero que nunca dejará de ser amor.</p>
+
+  <h3>No hay un tiempo correcto</h3>
+  <p>Tarda lo que tarde. Vuelve atrás tantas veces como lo necesites. El duelo no es un examen que haya que aprobar.</p>
+
+  <h3>Pide ayuda si la necesitas</h3>
+  <p>No es debilidad. Es cuidarte como la cuidabas a ella. Hay psicólogos y psicólogas especializados en duelo por mascotas. Búscalos si lo necesitas.</p>
+
+  <h3>Te enseñó a querer</h3>
+  <p>Lo que aprendiste con tu mascota —la paciencia, la presencia, el cariño incondicional, alegrarte por las cosas pequeñas— es lo más valioso que te llevas. No se va con ella. Se queda en ti. Vívelo.</p>
+</section>
+
+<section class="chapter">
+  <div class="closing">
+    <p>No la has perdido.<br>La llevas contigo.<br>Está en cómo miras,<br>en cómo quieres,<br>en cómo cuidas.</p>
+    <p class="big">Sigue contigo.<br>Siempre.</p>
+  </div>
+</section>
+
+<!-- RECURSOS -->
+<section class="chapter" data-mark="p-rec">
+  <div class="kicker">Anexo</div>
+  <h1 class="ch">Recursos que pueden ayudarte</h1>
+  <div class="orn">——— · ———</div>
+
+  <h3>Si necesitas hablar con un profesional</h3>
+  <p>Cada vez hay más psicólogos y psicólogas especializados en duelo por mascotas en España y Latinoamérica. Puedes encontrarlos en los directorios de los colegios oficiales de psicología o buscando los términos «duelo animal» o «duelo por mascotas». Muchos ofrecen sesiones en línea y procesos breves pensados específicamente para este tipo de pérdida.</p>
+
+  <h3>Si atraviesas un momento muy difícil</h3>
+  <p>Si en algún momento sientes que el dolor te supera de una forma que te asusta, o te vienen pensamientos de hacerte daño, por favor, pide ayuda. Habla con alguien de confianza, con tu médico o con un servicio de atención psicológica. No tienes que pasar por esto sola o solo.</p>
+  <ul>
+    <li><strong>España:</strong> 024, línea de atención a la conducta suicida (gratuita, confidencial y disponible las 24 horas). En caso de emergencia, 112.</li>
+    <li><strong>Otros países:</strong> contacta con el número de emergencias local o con los servicios de salud de tu zona.</li>
+  </ul>
+
+  <h3>Para tu otra mascota</h3>
+  <p>Tu clínica veterinaria de confianza es el mejor punto de partida si notas que el animal que sigue en casa no se recupera. Muchas clínicas cuentan con profesionales de etología clínica que pueden orientarte.</p>
+
+  <h3>Sobre este libro</h3>
+  <p><em>Sigue contigo</em> es una guía de acompañamiento elaborada a partir de los principios de la psicología del duelo y la neurociencia del vínculo. No sustituye un proceso terapéutico profesional, pero quiere ser un sostén en esos momentos en que necesitas leer algo que te diga que lo que sientes es humano, que tiene sentido y que vas a poder con esto.</p>
+
+  <p class="sign">Con todo el cariño,<br>Tremdora<br><span style="color:var(--accent)">Ellos se merecen lo mejor.</span></p>
+</section>
+
+</body>
+</html>
