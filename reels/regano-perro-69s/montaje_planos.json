@@ -67,12 +67,18 @@
  },
  {
   "t": 34.0,
-  "end": 37.4,
-  "src": "ca1dfecf",
-  "note": "«Diez minutos después, vuelve»"
+  "end": 37.0,
+  "src": "1d2fea9b",
+  "note": "«Diez minutos después, vuelve» golden que vuelve"
  },
  {
-  "t": 37.4,
+  "t": 37.0,
+  "end": 38.6,
+  "src": "f2076f8d",
+  "note": "«Sin pelota.»"
+ },
+ {
+  "t": 38.6,
   "end": 41.25,
   "src": "5169b934",
   "note": "«Apoya el hocico en tu pierna»"
