@@ -1,0 +1,16 @@
+[
+ {"id":"hogar_metodo","photo":"hogar.png","t1":"Hogar en","t2":"Calma","sub":"El método completo"},
+ {"id":"hogar_54","photo":"hogar.png","t1":"Hogar en","t2":"Calma","sub":"El método completo — 54 páginas"},
+ {"id":"hogar_l1","photo":"hogar.png","kick":"Libro 1 de 4","t1":"Hogar en","t2":"Calma","sub":"El método completo"},
+ {"id":"rutinas","photo":"rutinas.png","accent":"#6f8a63","t1":"Rutinas","t2":"de Calma","sub":"Pequeños hábitos,<br>grandes cambios."},
+ {"id":"edad_simple","photo":"edad.png","t1":"Edad","t2":"Dorada","sub":"Para el cuidado de mascotas mayores"},
+ {"id":"edad_51","photo":"edad.png","t1":"Edad","t2":"Dorada","sub":"El método completo — 51 páginas"},
+ {"id":"edad_l2","photo":"edad.png","kick":"Libro 2 de 4","t1":"Edad","t2":"Dorada","sub":"El método completo — 51 páginas"},
+ {"id":"cartas","photo":"cartas.png","accent":"#5c7d99","t1":"Cartas de","t2":"conexión","size":230,"sub":"Ejercicios y actividades<br>para fortalecer su vínculo"},
+ {"id":"diario_calma","photo":"diario_calma.png","accent":"#6f8a63","kick":"Libro 2 de 4 · El registro","t1":"Diario de","t2":"la Calma","size":230,"sub":"8 semanas de registro"},
+ {"id":"plan8","photo":"plan8.png","accent":"#b5655a","kick":"Libro 3 de 4 · La hoja de ruta","t1":"Plan de","t2":"8 Semanas","size":230,"sub":"Una tarea concreta cada día"},
+ {"id":"diario_senior","photo":"diario_senior.png","accent":"#6f8a63","kick":"Libro 1 de 4","t1":"Diario de","t2":"Bienestar Senior","size":180,"sub":"8 semanas de registro"},
+ {"id":"plan_practico","photo":"plan_practico.png","accent":"#bd6e47","kick":"Libro 3 de 4","t1":"Plan Práctico","t2":"de 8 Semanas","size":190,"sub":"Una tarea concreta cada día"},
+ {"id":"momentos","photo":"momentos.png","accent":"#ad5f6c","kick":"Libro 4 de 4","t1":"20","t2":"Momentos","size":240,"sub":"(tarjetas de actividades)<br>Pequeños gestos, grandes conexiones","sub_size":56},
+ {"id":"nutricion","photo":"nutricion.png","accent":"#6f8a63","t1":"Nutrición","t2":"Dorada","size":230,"sub":"(Recetario y Ejercicios)<br>Alimentación consciente y movimiento<br>para una vida plena","sub_size":54}
+]
