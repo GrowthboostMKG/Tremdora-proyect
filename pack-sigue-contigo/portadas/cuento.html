@@ -1,0 +1,22 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+ :root{--ink:#2f2622;--soft:#6b5a52;--accent:#5c7d99;--paper:#f7f1e8;}
+ html,body{margin:0;background:var(--paper)}
+ .cover{position:relative;width:1600px;height:2560px;overflow:hidden;background:var(--paper);font-family:'EB Garamond',serif;color:var(--ink)}
+ .photo{position:absolute;left:0;right:0;bottom:0;height:1600px;background:url('../img/cuento_01.png') center center/cover no-repeat}
+ .photo::before{content:'';position:absolute;inset:0 0 auto 0;height:640px;background:linear-gradient(to bottom,var(--paper) 0%,rgba(247,241,232,.86) 30%,rgba(247,241,232,.35) 70%,rgba(247,241,232,0) 100%)}
+ .frame{position:absolute;inset:46px;border:2px solid var(--accent);opacity:.6}
+ .frame::after{content:'';position:absolute;inset:12px;border:1px solid var(--accent);opacity:.6}
+ .top{position:absolute;top:170px;left:80px;right:80px;text-align:center}
+ .brand{font-family:'Cormorant Garamond',serif;letter-spacing:.42em;font-size:40px;color:var(--accent);text-transform:uppercase;padding-left:.42em}
+ .rule{color:var(--accent);font-size:30px;letter-spacing:.35em;margin:30px 0 8px;opacity:.8}
+ .kick{display:inline-block;margin-top:26px;font-size:38px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);border:2px solid var(--accent);border-radius:60px;padding:10px 34px 8px}
+ h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:220px;line-height:.92;margin:24px 0 0;letter-spacing:-2px}
+ h1 em{display:block;font-style:italic;font-weight:400;color:var(--accent)}
+ .sub{font-style:italic;font-size:62px;line-height:1.25;color:var(--soft);margin-top:40px}
+</style></head><body><div class="cover" id="cover">
+ <div class="photo"></div><div class="frame"></div>
+ <div class="top"><div class="brand">Tremdora</div><div class="rule">——— · ———</div><div><span class="kick">Regalo</span></div>
+ <h1>Cuando un<em>amigo se va</em></h1><div class="sub">Un cuento para acompañar<br>a los niños</div></div>
+</div></body></html>

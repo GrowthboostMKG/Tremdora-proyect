@@ -1,0 +1,35 @@
+
+  /* ——— Componentes del pack «Sigue contigo» ——— */
+  .serie { text-align:center; font-size:8.5pt; letter-spacing:.25em; text-transform:uppercase; color:var(--soft); margin-top:1.6em; }
+  .lines { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 7.2mm, #cdb8a6 7.2mm, #cdb8a6 7.45mm);
+           border:0; margin: .2em 0 .9em; }
+  .l2 { height: 15mm; } .l3 { height: 22.4mm; } .l4 { height: 29.8mm; } .l5 { height: 37.2mm; } .l6 { height: 44.6mm; }
+  .l8 { height: 59.6mm; } .l10 { height: 74.4mm; } .l12 { height: 89.2mm; } .l16 { height: 119mm; }
+  .prompt { font-family:'Cormorant Garamond',serif; font-size:13pt; font-weight:600; color:var(--accent); margin: .9em 0 .1em; line-height:1.25; text-align:left; break-after: avoid; }
+  .prompt + .lines { break-before: avoid; }
+  .q { break-inside: avoid; }
+  .fill { display:flex; align-items:flex-end; gap:.4em; margin:.55em 0; text-align:left; }
+  .fill span { white-space:nowrap; }
+  .fill i { flex:1; border-bottom:1px solid #b89d88; height:1.1em; }
+
+  .day { break-inside: avoid; border-top:1px solid #d9c6b2; padding:.55em 0 .25em; }
+  .day:first-of-type { border-top:0; }
+  .day .h { display:flex; justify-content:space-between; font-size:9.5pt; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }
+  .day .h b { font-weight:600; }
+  .day .s { font-size:11pt; margin:.35em 0 .1em; text-align:left; line-height:2.05; }
+  .day .s i { display:inline-block; border-bottom:1px solid #b89d88; width:34mm; height:1em; vertical-align:baseline; }
+  .ola { display:flex; align-items:center; gap:2.2mm; font-size:8.5pt; color:var(--soft); margin:.15em 0 .2em; }
+  .ola .c { width:5.2mm; height:5.2mm; border:1px solid var(--accent); border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:7pt; color:var(--accent); }
+
+  .box { break-inside: avoid; border:1.5px dashed #c9ab95; border-radius:4mm; display:flex; align-items:center; justify-content:center;
+         color:#b59a86; font-style:italic; font-size:10pt; text-align:center; margin: .6em 0 1em; background:rgba(255,255,255,.35); }
+  .row { display:flex; gap:5mm; } .row > * { flex:1; }
+  .check { display:flex; gap:.6em; align-items:flex-start; text-align:left; margin:.45em 0; }
+  .check::before { content:''; flex:0 0 4.2mm; height:4.2mm; border:1.3px solid var(--accent); border-radius:1mm; margin-top:.25em; }
+  .tag { display:inline-block; align-self:center; font-size:8pt; letter-spacing:.2em; text-transform:uppercase; color:#fff; background:var(--accent); padding:.25em .9em .2em; border-radius:2em; }
+  .center-page { height:165mm; display:flex; flex-direction:column; justify-content:center; text-align:center; }
+  .big-n { font-family:'Cormorant Garamond',serif; font-size:64pt; line-height:1; color:var(--accent); font-weight:500; }
+  .chart { width:100%; border-collapse:collapse; margin:.8em 0; font-size:9pt; }
+  .chart td { border:1px solid #d9c6b2; height:7mm; text-align:center; color:var(--soft); }
+  .chart td.lab { width:13mm; border:0; text-align:right; padding-right:2mm; }
+  .chart tr.weeks td { border:0; height:auto; padding-top:1.5mm; letter-spacing:.05em; }

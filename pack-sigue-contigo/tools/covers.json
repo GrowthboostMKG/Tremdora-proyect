@@ -1,0 +1,7 @@
+[
+ {"id":"sigue_l1","photo":"foto_sigue.png","kick":"Libro 1 de 4","t1":"Sigue","t2":"contigo","sub":"Una guía para acompañarte<br>en la pérdida de tu mascota"},
+ {"id":"diario","photo":"foto_diario.png","accent":"#6f8a63","kick":"Libro 2 de 4","t1":"Diario del","t2":"Oleaje","size":240,"sub":"8 semanas de registro"},
+ {"id":"30dias","photo":"foto_30dias.png","accent":"#b5655a","kick":"Libro 3 de 4","t1":"30 días","t2":"contigo","size":250,"sub":"Un pequeño gesto cada día"},
+ {"id":"historia","photo":"foto_historia.png","accent":"#a06a3c","kick":"Libro 4 de 4","t1":"Su","t2":"historia","sub":"El libro de su vida"},
+ {"id":"cuento","photo":"cuento_01.png","accent":"#5c7d99","kick":"Regalo","t1":"Cuando un","t2":"amigo se va","size":220,"sub":"Un cuento para acompañar<br>a los niños"}
+]
