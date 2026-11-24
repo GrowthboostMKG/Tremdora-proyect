@@ -294,3 +294,26 @@ Reserva tu Ritual Tíbet.
 📞 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Nuestra pausa (en pareja)
+
+RITUAL NUESTRA PAUSA 🤍
+
+Regalaos tiempo para compartir y reencontraros más allá de la rutina.
+
+A veces compartís el día, pero apenas encontráis tiempo para disfrutarlo. Este ritual os propone hacer espacio para algo tan sencillo como descansar, recibir cuidados y volver a prestar atención a vuestra compañía.
+
+Una infusión compartida y un baño tibio de pies con pétalos marcan el comienzo. Después, cada persona recibe un masaje corporal personalizado, con movimientos envolventes y una presión adaptada a sus preferencias, para aflojar la tensión y disfrutar de una sensación de cuerpo más descansado.
+
+Los aromas de neroli y mandarina aportan un ambiente floral y cítrico, mientras el cuarzo rosa, como símbolo de cariño, acompaña la experiencia. El cierre con cuencos a un volumen suave invita a permanecer unos instantes en quietud, sin palabras ni interrupciones.
+
+Una experiencia pensada para terminar con el cuerpo más suelto, la mente menos ocupada y tiempo para miraros, conversar o simplemente estar a gusto juntos.
+
+Regala algo que podáis recordar los dos: lo bien que os sentisteis.
+
+Reservad vuestro momento compartido.
+📞 667 435 149
+
+VS Estética

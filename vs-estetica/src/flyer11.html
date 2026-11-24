@@ -1,0 +1,116 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+:root{--cream:#F6F1EA;--sand:#E2D4C2;--taupe:#4A3F36;--cocoa:#33291F;--espresso:#1A1511;--gold:#B8642A;--gold-soft:#F0C08C}
+.band{background:#1F3A38!important}
+@page{size:210mm 297mm;margin:0}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--cream);margin:0 auto;display:flex;flex-direction:column}
+.top{display:grid;grid-template-columns:96mm 1fr;flex:none}
+.photo{height:159mm;background:url(../img/pareja.jpg) 6% center/cover;border-right:2px solid var(--gold)}
+.side{padding:8mm 11mm 0 8mm;display:flex;flex-direction:column}
+.side .title{text-align:left;padding-top:0}
+.side h1{font-size:48px;margin:2mm 0 1mm}
+.side .tag{font-size:21px}
+.side p{font-size:10.6px;line-height:1.45;color:var(--cocoa);margin-top:2mm}
+.side p b{color:var(--espresso);font-weight:500}
+.side .box{margin-top:auto;margin-bottom:5mm}
+.wrap{padding:0 15mm;flex:1;display:flex;flex-direction:column}
+.title{text-align:center;padding-top:4.5mm}
+.eyebrow{font-size:10px;font-weight:500;color:var(--gold);letter-spacing:.5em}
+h1{font-family:"Cormorant";font-weight:500;font-size:46px;line-height:1;margin:1mm 0 .5mm;color:var(--espresso)}
+h1 i{color:var(--gold)}
+.tag{font-family:"Cormorant";font-style:italic;font-weight:500;font-size:21px;color:var(--cocoa)}
+.cols{display:grid;grid-template-columns:1.15fr 1fr;gap:8mm;margin-top:4mm}
+.cols p{font-size:11.4px;line-height:1.58;color:var(--cocoa);font-weight:400}
+.cols p+p{margin-top:2.6mm}
+.cols p b{color:var(--espresso);font-weight:500}
+.box{border:1.2px solid #DCC3A6;background:#FBF7F1;padding:4.5mm 5mm}
+.box h3{font-size:9.5px;font-weight:600;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:2.5mm}
+.box li{list-style:none;padding:1.6mm 0;border-bottom:1px solid #EADDCB;font-size:11.6px;color:var(--cocoa);line-height:1.4}
+.box li:last-child{border-bottom:0}
+.box li b{display:block;font-family:"Cormorant";font-size:14.6px;font-weight:700;color:var(--espresso)}
+.band{margin:0 -15mm 0;background:var(--espresso);color:var(--cream);text-align:center;padding:3.4mm 0}
+.band .q{font-family:"Cormorant";font-style:italic;font-weight:500;font-size:27px}
+.band .t{margin-top:1.2mm;font-size:10.5px;font-weight:500;letter-spacing:.38em;text-transform:uppercase;color:var(--gold-soft)}
+.menu{margin-top:4mm}
+.menu h3{text-align:center;font-size:10px;font-weight:600;letter-spacing:.45em;color:var(--gold);text-transform:uppercase;margin-bottom:2mm}
+.row{display:grid;grid-template-columns:24mm 1fr auto;align-items:baseline;gap:4mm;padding:1.5mm 0;border-bottom:1px solid #DCCBB3}
+.row .min{font-size:11px;font-weight:600;letter-spacing:.25em;color:var(--gold)}
+.row .n{font-family:"Cormorant";font-style:italic;font-weight:600;font-size:25px;color:var(--espresso)}
+.row .d{font-size:12px;color:var(--cocoa)}
+.row .p{font-family:"Cormorant";font-weight:700;font-size:28px;color:var(--espresso)}
+.row.star .n::after{content:"El más elegido";font-family:"Jost";font-style:normal;font-size:7.5px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;background:var(--gold);color:#fff;padding:.8mm 2mm;margin-left:2.5mm;vertical-align:middle}
+.welcome{text-align:center;font-family:"Cormorant";font-style:italic;font-weight:500;font-size:15px;color:var(--cocoa);margin:-.5mm 0 1.5mm}
+.inc{display:block;font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-top:.8mm}
+.extra{text-align:center;font-size:11.5px;color:var(--cocoa);margin-top:2mm}
+.extra b{color:var(--gold);font-weight:600}
+.tel{font-family:"Cormorant";font-size:21px;font-weight:700;color:var(--espresso);letter-spacing:.04em}
+.close{text-align:center;margin-top:3.5mm}
+.fin{font-family:"Cormorant";font-style:italic;font-weight:600;font-size:16.5px;line-height:1.3;color:var(--espresso);max-width:165mm;margin:0 auto}
+.cta2{margin:3mm auto 0;display:inline-flex;align-items:center;gap:8mm;border-top:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);padding:4.5mm 8mm}
+.cta2 .r{font-size:12px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+.cta2 .tel2{font-family:"Cormorant";font-size:30px;font-weight:700;color:var(--espresso)}
+.foot{margin-top:auto;padding:3mm 0 6mm;display:flex;justify-content:space-between;align-items:center}
+.foot .mono{font-size:24px;font-weight:500}
+.foot .c{text-align:right;font-size:11px;font-weight:500;line-height:1.5;color:var(--cocoa);letter-spacing:.06em}
+.foot .c b{font-size:9.5px;letter-spacing:.35em;color:var(--espresso);font-weight:600}
+.top{grid-template-columns:1fr!important}
+.photo{border-right:0!important;border-bottom:2px solid var(--gold);background-position:center 93%!important}
+.side{padding:4mm 14mm 0!important}
+.side .title{text-align:center!important}
+.cols2{display:grid;grid-template-columns:1.35fr 1fr;gap:8mm;margin-top:2mm;align-items:start}
+.cols2 .box{margin:3mm 0 0!important}
+.band{margin-top:3.5mm!important}
+.side h1{font-size:40px!important;margin:1mm 0 .5mm!important}
+.side .tag{font-size:17px!important}
+.box{padding:3.4mm 4mm!important}
+.box li{padding:1.1mm 0!important;font-size:10.6px!important}
+.box li b{font-size:13.5px!important}
+.band{padding:2.8mm 0!important}
+.band .q{font-size:22px!important}
+.cta2{padding:3mm 7mm!important}
+.cta2 .tel2{font-size:26px!important}
+.foot{padding:2mm 0 5mm!important}
+.foot{display:none!important}
+.close{margin-bottom:5mm}
+</style></head><body>
+<section class="page">
+  <div class="top">
+    <div class="photo"></div>
+    <div class="side">
+      <div class="title">
+        <div class="eyebrow">★★★★★ &nbsp; VS Estética · En pareja</div>
+        <h1>Nuestra <i>pausa</i></h1>
+        <div class="tag">Regalaos tiempo para compartir y reencontraros más allá de la rutina.</div>
+      </div>
+      <div class="cols2">
+        <div class="txt">
+      <p><b>A veces compartís el día, pero apenas encontráis tiempo para disfrutarlo.</b> Este ritual os propone hacer espacio para algo tan sencillo como descansar, recibir cuidados y volver a prestar atención a vuestra compañía.</p>
+      <p>Una infusión compartida y un baño tibio de pies con pétalos marcan el comienzo. Después, cada persona recibe un masaje corporal personalizado, con movimientos envolventes y una presión adaptada a sus preferencias, para aflojar la tensión y disfrutar de una sensación de cuerpo más descansado.</p>
+        </div>
+      <div class="box">
+        <h3>Te acompañan</h3>
+        <ul>
+          <li><b>Neroli y mandarina</b>Aromas que aportan un ambiente floral y cítrico.</li>
+          <li><b>Cuarzo rosa</b>Como símbolo de cariño, acompaña la experiencia.</li>
+          <li><b>Cierre con cuencos</b>A un volumen suave, para permanecer unos instantes en quietud, sin palabras ni interrupciones.</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="band">
+      <div class="q">Regala algo que podáis recordar los dos: lo bien que os sentisteis.</div>
+      <div class="t">Infusión &nbsp;·&nbsp; Baño de pies &nbsp;·&nbsp; Masaje &nbsp;·&nbsp; Cuencos</div>
+    </div>
+    <div class="close">
+      <p class="fin">Una experiencia pensada para terminar con el cuerpo más suelto, la mente menos ocupada y tiempo para miraros, conversar o simplemente estar a gusto juntos.</p>
+      <div class="cta2"><div class="r">Reservad vuestro momento compartido</div><div class="tel2">Tel. 667 435 149</div></div>
+    </div>
+    <div class="foot">
+      <div class="mono">VS <b>Estética</b></div>
+      <div class="c"><b>RITUAL PARA DOS</b></div>
+    </div>
+  </div>
+</section>
+</body></html>
