@@ -289,6 +289,7 @@ El masaje termina con un baño sonoro suave, para prolongar ese momento de quiet
 
 Que al terminar puedas decir: «Esto era lo que necesitaba».
 
+60 min · 70 €
 Reserva tu Ritual Tíbet.
 📞 667 435 149
 
