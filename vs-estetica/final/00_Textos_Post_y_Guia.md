@@ -270,3 +270,26 @@ Cuéntame dónde notas la sobrecarga. Empezamos por ahí.
 📞 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Tíbet · Masaje y cuencos
+
+RITUAL TÍBET · MASAJE Y CUENCOS 🔔
+
+Llevas días resolviendo todo. Hoy toca parar y dejarte cuidar.
+
+Cuando las preocupaciones te acompañan incluso al descansar, el cansancio también se nota en el cuerpo: hombros cargados, tensión acumulada y dificultad para desconectar.
+
+Este ritual combina un masaje corporal lento y envolvente con el sonido de los cuencos tibetanos, para invitarte a aflojar el cuerpo y descansar de tanta actividad mental. Los aromas de incienso y sándalo crean un ambiente cálido, mientras el cuarzo transparente, como símbolo de claridad, acompaña la experiencia.
+
+Las manos trabajan la musculatura con una presión adaptada a ti; las resonancias y los momentos de silencio te ofrecen algo sencillo: una sensación en la que concentrarte sin tener que resolver nada.
+
+El masaje termina con un baño sonoro suave, para prolongar ese momento de quietud. Un cuidado pensado para que te levantes con el cuerpo más descansado, los hombros más sueltos y la sensación de tener menos cosas ocupando tu cabeza.
+
+Que al terminar puedas decir: «Esto era lo que necesitaba».
+
+Reserva tu Ritual Tíbet.
+📞 667 435 149
+
+VS Estética

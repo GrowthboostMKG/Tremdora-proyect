@@ -1,0 +1,94 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+:root{--cream:#F5F0E8;--sand:#E0D2BE;--taupe:#4E3F33;--cocoa:#36291F;--espresso:#1C140F;--gold:#A8691C;--gold-soft:#E8BE7A}
+.band{background:#43201B!important}
+@page{size:210mm 297mm;margin:0}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--cream);margin:0 auto;display:flex;flex-direction:column}
+.top{display:grid;grid-template-columns:96mm 1fr;flex:none}
+.photo{height:186mm;background:url(../img/tibet.jpg) 30% center/cover;border-right:2px solid var(--gold)}
+.side{padding:8mm 11mm 0 8mm;display:flex;flex-direction:column}
+.side .title{text-align:left;padding-top:0}
+.side h1{font-size:48px;margin:2mm 0 1mm}
+.side .tag{font-size:21px}
+.side p{font-size:12.4px;line-height:1.58;color:var(--cocoa);margin-top:3.2mm}
+.side p b{color:var(--espresso);font-weight:500}
+.side .box{margin-top:auto;margin-bottom:5mm}
+.wrap{padding:0 15mm;flex:1;display:flex;flex-direction:column}
+.title{text-align:center;padding-top:4.5mm}
+.eyebrow{font-size:10px;font-weight:500;color:var(--gold);letter-spacing:.5em}
+h1{font-family:"Cormorant";font-weight:500;font-size:46px;line-height:1;margin:1mm 0 .5mm;color:var(--espresso)}
+h1 i{color:var(--gold)}
+.tag{font-family:"Cormorant";font-style:italic;font-weight:500;font-size:21px;color:var(--cocoa)}
+.cols{display:grid;grid-template-columns:1.15fr 1fr;gap:8mm;margin-top:4mm}
+.cols p{font-size:11.4px;line-height:1.58;color:var(--cocoa);font-weight:400}
+.cols p+p{margin-top:2.6mm}
+.cols p b{color:var(--espresso);font-weight:500}
+.box{border:1.2px solid #D8C1A0;background:#FBF7F0;padding:4.5mm 5mm}
+.box h3{font-size:9.5px;font-weight:600;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:2.5mm}
+.box li{list-style:none;padding:1.6mm 0;border-bottom:1px solid #E8DCCB;font-size:11.6px;color:var(--cocoa);line-height:1.4}
+.box li:last-child{border-bottom:0}
+.box li b{display:block;font-family:"Cormorant";font-size:14.6px;font-weight:700;color:var(--espresso)}
+.band{margin:0 -15mm 0;background:var(--espresso);color:var(--cream);text-align:center;padding:3.4mm 0}
+.band .q{font-family:"Cormorant";font-style:italic;font-weight:500;font-size:27px}
+.band .t{margin-top:1.2mm;font-size:10.5px;font-weight:500;letter-spacing:.38em;text-transform:uppercase;color:var(--gold-soft)}
+.menu{margin-top:4mm}
+.menu h3{text-align:center;font-size:10px;font-weight:600;letter-spacing:.45em;color:var(--gold);text-transform:uppercase;margin-bottom:2mm}
+.row{display:grid;grid-template-columns:24mm 1fr auto;align-items:baseline;gap:4mm;padding:1.5mm 0;border-bottom:1px solid #DCCBB3}
+.row .min{font-size:11px;font-weight:600;letter-spacing:.25em;color:var(--gold)}
+.row .n{font-family:"Cormorant";font-style:italic;font-weight:600;font-size:25px;color:var(--espresso)}
+.row .d{font-size:12px;color:var(--cocoa)}
+.row .p{font-family:"Cormorant";font-weight:700;font-size:28px;color:var(--espresso)}
+.row.star .n::after{content:"El más elegido";font-family:"Jost";font-style:normal;font-size:7.5px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;background:var(--gold);color:#fff;padding:.8mm 2mm;margin-left:2.5mm;vertical-align:middle}
+.welcome{text-align:center;font-family:"Cormorant";font-style:italic;font-weight:500;font-size:15px;color:var(--cocoa);margin:-.5mm 0 1.5mm}
+.inc{display:block;font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-top:.8mm}
+.extra{text-align:center;font-size:11.5px;color:var(--cocoa);margin-top:2mm}
+.extra b{color:var(--gold);font-weight:600}
+.tel{font-family:"Cormorant";font-size:21px;font-weight:700;color:var(--espresso);letter-spacing:.04em}
+.close{text-align:center;margin-top:7mm}
+.fin{font-family:"Cormorant";font-style:italic;font-weight:600;font-size:22px;line-height:1.3;color:var(--espresso);max-width:160mm;margin:0 auto}
+.cta2{margin:7mm auto 0;display:inline-flex;align-items:center;gap:8mm;border-top:1.5px solid var(--gold);border-bottom:1.5px solid var(--gold);padding:4.5mm 8mm}
+.cta2 .r{font-size:12.5px;font-weight:600;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)}
+.cta2 .tel2{font-family:"Cormorant";font-size:30px;font-weight:700;color:var(--espresso)}
+.foot{margin-top:auto;padding:3mm 0 6mm;display:flex;justify-content:space-between;align-items:center}
+.foot .mono{font-size:24px;font-weight:500}
+.foot .c{text-align:right;font-size:11px;font-weight:500;line-height:1.5;color:var(--cocoa);letter-spacing:.06em}
+.foot .c b{font-size:9.5px;letter-spacing:.35em;color:var(--espresso);font-weight:600}
+</style></head><body>
+<section class="page">
+  <div class="top">
+    <div class="photo"></div>
+    <div class="side">
+      <div class="title">
+        <div class="eyebrow">★★★★★ &nbsp; VS Estética</div>
+        <h1>Ritual <i>Tíbet</i></h1>
+        <div class="tag">Llevas días resolviendo todo. Hoy toca parar y dejarte cuidar.</div>
+      </div>
+      <p><b>Cuando las preocupaciones te acompañan incluso al descansar, el cansancio también se nota en el cuerpo:</b> hombros cargados, tensión acumulada y dificultad para desconectar.</p>
+      <p>Este ritual combina un masaje corporal lento y envolvente con el sonido de los cuencos tibetanos, para invitarte a aflojar el cuerpo y descansar de tanta actividad mental.</p>
+      <p>Las manos trabajan la musculatura con una presión adaptada a ti; las resonancias y los momentos de silencio te ofrecen algo sencillo: una sensación en la que concentrarte sin tener que resolver nada.</p>
+      <div class="box">
+        <h3>Te acompañan</h3>
+        <ul>
+          <li><b>Cuencos tibetanos</b>Resonancias durante el masaje y un baño sonoro suave al final, para prolongar el momento de quietud.</li>
+          <li><b>Incienso y sándalo</b>Aromas que crean un ambiente cálido.</li>
+          <li><b>Cuarzo transparente</b>Como símbolo de claridad, acompaña la experiencia.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="band">
+      <div class="q">Que al terminar puedas decir: «Esto era lo que necesitaba».</div>
+      <div class="t">Masaje &nbsp;·&nbsp; Cuencos tibetanos &nbsp;·&nbsp; Baño sonoro</div>
+    </div>
+    <div class="close">
+      <p class="fin">Un cuidado pensado para que te levantes con el cuerpo más descansado, los hombros más sueltos y la sensación de tener menos cosas ocupando tu cabeza.</p>
+      <div class="cta2"><div class="r">Reserva tu Ritual Tíbet</div><div class="tel2">Tel. 667 435 149</div></div>
+    </div>
+    <div class="foot">
+      <div class="mono">VS <b>Estética</b></div>
+      <div class="c"><b>MASAJE Y CUENCOS TIBETANOS</b></div>
+    </div>
+  </div>
+</section>
+</body></html>
