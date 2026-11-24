@@ -317,3 +317,26 @@ Reservad vuestro momento compartido.
 📞 667 435 149
 
 VS Estética
+
+---
+
+## Texto para el post · Ritual Volcán en calma
+
+RITUAL VOLCÁN EN CALMA 🌋
+
+La calidez de la piedra volcánica te invita a bajar el ritmo y lograr la calma.
+
+Hay un cansancio que se queda en los hombros, en la espalda y en esa sensación de no encontrar una postura cómoda. Este ritual dedica atención a esas zonas que necesitan aflojar, con un masaje pausado y un calor que invita a dejarse cuidar.
+
+Las manos alternan movimientos envolventes con el deslizamiento de piedras de basalto templadas, adaptando la presión y la temperatura a tu comodidad. Una combinación pensada para favorecer la relajación muscular y disfrutar de un cuerpo más suelto, descansado y agradable de habitar.
+
+Los aromas de naranja dulce y cedro aportan notas cítricas y amaderadas, mientras el jaspe rojo, como símbolo de arraigo, acompaña la experiencia. La música suave y el cierre con toallas tibias prolongan esa sensación de calidez y abrigo.
+
+El propósito es que termines con menos sensación de tensión, mayor comodidad al moverte y la satisfacción de haber atendido ese cansancio que ibas dejando para después.
+
+Tu cuerpo también merece terminar el día a gusto.
+
+Reserva tu momento para soltar el peso.
+📞 667 435 149
+
+VS Estética
